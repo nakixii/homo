@@ -1,0 +1,11 @@
+on boot
+    # Google version need update this prop
+
+on property:ro.boot.radio.multisim.config=dsds
+    setprop persist.radio.multisim.config ${ro.boot.radio.multisim.config}
+
+service vendor.ril-daemon /vendor/bin/hw/rild
+    class main
+    user root
+    group radio cache inet misc audio log readproc wakelock system
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW

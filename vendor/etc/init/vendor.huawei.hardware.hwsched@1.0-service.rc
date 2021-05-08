@@ -1,0 +1,5 @@
+service hwsched-1-0 /vendor/bin/hw/vendor.huawei.hardware.hwsched@1.0-service
+    class hal
+    user system
+    group system
+    capabilities SYS_ADMIN  PERF_EVENT SETUID SETGID CHOWN FOWNER FSETID SYS_NICE

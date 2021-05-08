@@ -1,0 +1,6 @@
+libOpenCL.so
+libai_client.so
+libswing_client.so
+libvulkan_enhance.so
+libGLES_enhance.so
+libai_hidl_request_client.so

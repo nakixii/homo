@@ -1,0 +1,4 @@
+service activityrecognition_1_1 /vendor/bin/activity_recognition_service
+    class hal
+    user  system
+    group system root wakelock

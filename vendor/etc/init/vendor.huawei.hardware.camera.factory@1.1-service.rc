@@ -1,0 +1,8 @@
+service camera-factory-1-1 /vendor/bin/hw/vendor.huawei.hardware.camera.factory@1.1-service
+    interface vendor.huawei.hardware.camera.factory@1.1::ICameraFactory default
+    interface vendor.huawei.hardware.camera.factory@1.0::ICameraFactory default
+    oneshot
+    disabled
+    class hal
+    user media
+    group camera system audio

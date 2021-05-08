@@ -1,0 +1,9 @@
+service vendor.waudio /vendor/bin/hw/vendor.huawei.hardware.wifi.waudio@1.0-service
+    interface vendor.huawei.hardware.wifi.waudio@1.0::IWaudio default
+    interface vendor.huawei.hardware.wifi.stereo@1.0::IStereo default
+    oneshot
+    disabled
+    class hal
+    capabilities NET_ADMIN NET_RAW SYS_MODULE
+    user wifi
+    group wifi dhcp inet net_raw net_admin

@@ -1,0 +1,29 @@
+on late-fs
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal_ichg_control
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal_ichg_control
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/thermal_reason
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/thermal_reason
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/ichg_control_enable
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/ichg_control_enable
+    chmod 0440 /sys/class/hw_power/charger/direct_charger_sc/sc_state
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/sc_state
+
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/iin_thermal_ichg_control
+    chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal_ichg_control
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/thermal_reason
+    chown system system /sys/class/hw_power/charger/direct_charger/thermal_reason
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/ichg_control_enable
+    chown system system /sys/class/hw_power/charger/direct_charger/ichg_control_enable
+
+    chmod 0440 /sys/class/hw_power/interface/total_ibus
+    chown system system /sys/class/hw_power/interface/total_ibus
+
+service ichg_control /vendor/bin/ichg_control
+    user system
+    group system
+    disabled
+    oneshot

@@ -1,0 +1,49 @@
+on property:vold.post_fs_data_done=1
+    chmod 660 /dev/ttyAMA4
+    chown system system /dev/ttyAMA4
+
+service oam_hisi /vendor/bin/oam_hisi
+    class main
+    user system
+    group system root wifi bluetooth
+    disabled
+    oneshot
+
+service hignss /vendor/bin/hignss_1105 -normal
+    class main
+    user root
+    group system inet root wakelock
+    disabled
+
+service octty /vendor/bin/octty
+    class core
+    user system
+    group system bluetooth root media
+    disabled
+    shutdown critical
+
+on property:vendor.setup_hi110x_modules=success
+    start octty
+    write /dev/kmsg "octty has started    "
+
+on property:vendor.setup_hi110x_modules=success && property:ro.runmode=factory && property:odm.recovery.start_all_srv=true
+    setprop persist.sys.higeo.enable false
+    start hignss
+    write /dev/kmsg "hignss_1105 has started"
+
+on property:vold.post_fs_data_done=1 && property:vendor.setup_hi110x_modules=success && property:ro.runmode=factory
+    chmod 640 /dev/hwbfgdbg
+    chown root system /dev/hwbfgdbg
+    chmod 660 /dev/hwbfgexcp
+    chown root system /dev/hwbfgexcp
+    chmod 660 /dev/hwwifiexcp
+    chown root system /dev/hwwifiexcp
+    start oam_hisi
+    write /dev/kmsg "oam_hisi has started    "
+
+service hisi_bfg_rec /vendor/bin/start_connectivity_hi1105 recovery
+    class server
+    user root
+    group system wifi
+    oneshot
+

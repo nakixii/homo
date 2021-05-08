@@ -1,0 +1,6 @@
+service irsl-hal-1-0 /vendor/bin/hw/vendor.huawei.hardware.irsl@1.0-service
+    interface vendor.huawei.hardware.irsl@1.0::IIrselflearning irselflearning
+    disabled
+    class hal
+    user system
+    group system media

@@ -1,0 +1,32 @@
+<policy version="3.0">
+    <version>1.0</version>
+    <log_open>-1</log_open>
+    <enable>1</enable>
+    <SOC>990</SOC>
+    <frame_sched_reset_count>1</frame_sched_reset_count>
+    <fps_list>60 90</fps_list>
+    <framedetect>
+        <framerate id="0" size="9">
+            <default_util>600</default_util>
+            <deadline_margin>-3</deadline_margin>
+            <input_period>3</input_period>
+            <animation_period>4</animation_period>
+            <traversal_period>4</traversal_period>
+            <input_margin>-12</input_margin>
+            <animation_margin>-10</animation_margin>
+            <traversal_margin>-10</traversal_margin>
+            <gpu_completion_util>600</gpu_completion_util>
+        </framerate>
+        <framerate id="1" size="9">
+            <default_util>600</default_util>
+            <deadline_margin>-7</deadline_margin>
+            <input_period>3</input_period>
+            <animation_period>4</animation_period>
+            <traversal_period>4</traversal_period>
+            <input_margin>-12</input_margin>
+            <animation_margin>-10</animation_margin>
+            <traversal_margin>-10</traversal_margin>
+            <gpu_completion_util>600</gpu_completion_util>
+        </framerate>
+    </framedetect>
+</policy>

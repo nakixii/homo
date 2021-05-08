@@ -1,0 +1,107 @@
+on early-init
+
+on init
+
+on early-fs
+    wait /dev/block/by-name/oeminfo
+    start oeminfo_nvm
+
+on fs
+    restorecon /sys/class/leds/red/brightness
+    restorecon /sys/class/leds/green/brightness
+    restorecon /sys/class/leds/blue/brightness
+    restorecon /sys/class/leds/torch_front/brightness
+    restorecon /sys/class/leds/torch/brightness
+    restorecon /sys/class/leds/lcd_backlight0/brightness
+    restorecon /sys/class/graphics/fb0/lcd_test_config
+    restorecon /sys/class/graphics/fb0/amoled_pcd_errflag_check
+    restorecon /sys/class/ina231/ina231_0/ina231_debug
+    restorecon /sys/class/ina231/ina231_0/ina231_set
+    restorecon /sys/class/ina231/ina231_0/ina231_value
+    restorecon /sys/class/ina231/ina231_1/ina231_debug
+    restorecon /sys/class/ina231/ina231_1/ina231_set
+    restorecon /sys/class/ina231/ina231_1/ina231_value
+    restorecon /sys/class/graphics/fb0/amoled_acl
+    restorecon /sys/class/graphics/fb0/amoled_hbm
+
+    restorecon /sys/class/sensors/ps_sensor/calibrate
+    restorecon /sys/class/sensors/ps_sensor/calibrate_timeout
+    restorecon /sys/class/sensors/acc_sensor/info
+    restorecon /sys/class/sensors/acc_sensor/self_test
+    restorecon /sys/class/sensors/acc_sensor/calibrate
+    restorecon /sys/class/sensors/acc_sensor/calibrate_timeout
+    restorecon /sys/class/sensors/acc_sensor/self_test_timeout
+    restorecon /sys/class/sensors/gyro_sensor/self_test
+    restorecon /sys/class/sensors/gyro_sensor/self_test_timeout
+    restorecon /sys/class/sensors/mag_sensor/self_test
+    restorecon /sys/class/sensors/mag_sensor/info
+    restorecon /sys/class/sensors/mag_sensor/self_test_timeout
+    restorecon /sys/class/sensors/airpress_sensor/read_airpress
+    restorecon /sys/class/sensors/airpress_sensor/set_calidata
+
+    restorecon /sys/kernel/set_hmp_thresholds/policy
+    restorecon /sys/class/graphics/fb0/lcd_cabc_mode
+    restorecon /sys/class/leds/torch/flash_thermal_protect
+    restorecon /sys/class/timed_output/vibrator/vibrator_calib
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+    #update user hota update state in oeminfo, and enture oeminfo_nvm has been working already
+    # 1: hota first boot start
+    # 0: hota first boot end
+    write /dev/kmsg " user_hota_update_oem first boot start++"
+    user_hota_update_oem 1
+    write /dev/kmsg " user_hota_update_oem first boot start--"
+
+on boot
+
+service atcmdserver /vendor/bin/atcmdserver
+    class main
+    group root system nfc graphics audio camera media
+    disabled
+    seclabel u:r:atcmdserver:s0
+
+service oeminfo_nvm /vendor/bin/oeminfo_nvm_server
+    class core
+    group system readproc root
+    critical
+    ioprio rt 4
+    seclabel u:r:oeminfo_nvm:s0
+
+service diagserver /vendor/bin/diagserver
+    class main
+    user root
+    disabled
+
+service fcs /vendor/bin/fcs
+    class main
+    disabled
+
+service multichannel /vendor/bin/multichannel
+    class main
+    group root system radio graphics
+    disabled
+
+service goldeneye /system/bin/goldeneye
+    class main
+    user root
+
+on property:ro.runmode=factory
+    start fcs
+    start fmd
+    start multichannel
+
+service fmd /vendor/bin/fmd
+    class main
+    user root
+    group system log
+    seclabel u:r:fmdserver:s0
+
+service data_cleanner /system/bin/data_cleaner
+    class core
+    oneshot
+on property:sys.boot_completed=1
+    setprop ro.odm.boot_completed 1

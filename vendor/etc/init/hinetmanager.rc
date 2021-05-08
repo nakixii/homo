@@ -1,0 +1,6 @@
+service hinetmanager /system/vendor/bin/hinetmanager
+    class late_start
+    user root dsm
+    group root dsm system readproc
+    seclabel u:r:hinetmanager:s0
+    onrestart setprop vendor.sys.hinetmanager_has_restarted 1

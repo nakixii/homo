@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+        <ISPControl>
+                <ISO1>
+                        <isovalue>256</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO1>
+                <ISO2>
+                        <isovalue>512</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO2>
+                <ISO3>
+                        <isovalue>1024</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO3>
+                <ISO4>
+                        <isovalue>2048</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO4>
+                <ISO5>
+                        <isovalue>4096</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO5>
+                <ISO6>
+                        <isovalue>8192</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO6>
+                <ISO7>
+                        <isovalue>16384</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO7>
+                <ISO8>
+                        <isovalue>25600</isovalue>
+                        <isSharpnessOn>1</isSharpnessOn>
+                        <isRAWDenoiseOn>1</isRAWDenoiseOn>
+                        <isYUVDenoiseOn>1</isYUVDenoiseOn>
+                </ISO8>
+        </ISPControl>
+        <BlockSize>4</BlockSize>
+        <IsoGainMin>0</IsoGainMin>
+        <IsoGainMax>25600</IsoGainMax>
+        <CKR>
+
+                <WinSize>3</WinSize>
+                <SF>1.0</SF>
+        </CKR>
+        <SKR>
+                <GradientWS>5</GradientWS>
+                <Lambda1>1.0</Lambda1>
+                <EdgeEnhancementSep>0.5</EdgeEnhancementSep>
+        </SKR>
+    <ISO1>
+                <isovalue>256</isovalue>
+
+                <DeGhostThresh1>10</DeGhostThresh1>
+                <DeGhostThresh2>20</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>0</isSharpnessOn>
+                <peak>1</peak>
+                <order>1</order>
+                <cutoffCoef>1</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>1</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO1>
+        <ISO2>
+                <isovalue>512</isovalue>
+
+                <DeGhostThresh1>10</DeGhostThresh1>
+                <DeGhostThresh2>20</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>0</isSharpnessOn>
+                <peak>1</peak>
+                <order>1</order>
+                <cutoffCoef>1</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>1</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO2>
+        <ISO3>
+                <isovalue>1024</isovalue>
+
+                <DeGhostThresh1>10</DeGhostThresh1>
+                <DeGhostThresh2>20</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>0</isSharpnessOn>
+                <peak>1</peak>
+                <order>2</order>
+                <cutoffCoef>1</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>1</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO3>
+        <ISO4>
+                <isovalue>2048</isovalue>
+
+                <DeGhostThresh1>10</DeGhostThresh1>
+                <DeGhostThresh2>20</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>1</isSharpnessOn>
+                <peak>1</peak>
+                <order>2</order>
+                <cutoffCoef>1</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>1</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO4>
+        <ISO5>
+                <isovalue>4096</isovalue>
+
+                <DeGhostThresh1>15</DeGhostThresh1>
+                <DeGhostThresh2>25</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>0</isSharpnessOn>
+                <peak>1</peak>
+                <order>2</order>
+                <cutoffCoef>1</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>300</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO5>
+        <ISO6>
+                <isovalue>8192</isovalue>
+
+                <DeGhostThresh1>5</DeGhostThresh1>
+                <DeGhostThresh2>15</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>0</isSharpnessOn>
+                <peak>1</peak>
+                <order>2</order>
+                <cutoffCoef>1</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>300</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO6>
+        <ISO7>
+                <isovalue>16384</isovalue>
+
+                <DeGhostThresh1>5</DeGhostThresh1>
+                <DeGhostThresh2>15</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>0</isSharpnessOn>
+                <peak>1</peak>
+                <order>2</order>
+                <cutoffCoef>3.0</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>300</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO7>
+        <ISO8>
+                <isovalue>25600</isovalue>
+
+                <DeGhostThresh1>5</DeGhostThresh1>
+                <DeGhostThresh2>15</DeGhostThresh2>
+                <EdgeEnhancement>2.5</EdgeEnhancement>
+                <isSharpnessOn>0</isSharpnessOn>
+                <peak>1</peak>
+                <order>2</order>
+                <cutoffCoef>3.0</cutoffCoef>
+                <cutoff2>2560</cutoff2>
+                <order3>1</order3>
+                <cutoff3Coef>300</cutoff3Coef>
+                <drFactor>1.5</drFactor>
+                <kernelFileIndex>1</kernelFileIndex>
+
+    </ISO8>
+</Config>

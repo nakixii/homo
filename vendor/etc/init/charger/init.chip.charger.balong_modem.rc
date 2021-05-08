@@ -1,0 +1,11 @@
+
+on charger
+    mkdir /mnt/modem 0755 root system
+	mkdir /mnt/modem/modem_secure 0755 root system
+	mkdir /mnt/modem/mnvm2:0 0755 root system
+	mount_all /vendor/etc/fstab.modem
+	insmod /vendor/modem/modem_driver/balong_modem.ko
+	wait /sys/devices/platform/balong_mloader/modem_start
+	chown radio radio sys/devices/platform/balong_power/state
+	write /sys/devices/platform/balong_mloader/modem_start 0
+

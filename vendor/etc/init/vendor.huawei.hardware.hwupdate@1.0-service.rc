@@ -1,0 +1,6 @@
+service hwupdate-hal-1-0 /vendor/bin/hw/vendor.huawei.hardware.hwupdate@1.0-service
+    interface vendor.huawei.hardware.hwupdate@1.0::IHwUpdate hwupdate_hal
+    disabled
+    class hal
+    user root system
+    group root system

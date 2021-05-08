@@ -1,0 +1,10 @@
+import /vendor/etc/init/connectivity/init.connectivity.${ro.boot.odm.conn.schiptype}.rc
+
+service gpsdaemon /vendor/bin/gpsdaemon
+    class main
+    user root
+    group system inet root wakelock
+    oneshot
+
+on property:vendor.gps_daemon_reload=1
+    start gpsdaemon

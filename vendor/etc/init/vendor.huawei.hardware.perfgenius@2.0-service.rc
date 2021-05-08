@@ -1,0 +1,4 @@
+service perfgenius-hal-2-0 /vendor/bin/hw/vendor.huawei.hardware.perfgenius@2.0-service
+    class hal
+    user system
+    group system

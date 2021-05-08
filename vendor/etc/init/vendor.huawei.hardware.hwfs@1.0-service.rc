@@ -1,0 +1,6 @@
+service hwfs-hal-1-0 /vendor/bin/hw/vendor.huawei.hardware.hwfs@1.0-service
+    interface vendor.huawei.hardware.hwfs@1.0::IHwfs default
+    class hal
+    user root
+    group root
+    disabled

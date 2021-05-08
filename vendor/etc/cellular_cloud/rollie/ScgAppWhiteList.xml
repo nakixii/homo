@@ -1,0 +1,38 @@
+<AppConfig>
+  <ScgQuickAddAppWhiteList>
+    <ScgQuickAddEnable>1</ScgQuickAddEnable>
+    <TimeInterval>120000</TimeInterval>
+    <APKInfo packageName="com.syezon.lab.networkspeed"></APKInfo>
+    <APKInfo packageName="com.speed.networkwork"></APKInfo>
+    <APKInfo packageName="com.speed.master"></APKInfo>
+    <APKInfo packageName="com.speedometer.networkwork"></APKInfo>
+    <APKInfo packageName="com.mxm.networkspeed"></APKInfo>
+    <APKInfo packageName="com.shere.easynetworkspeedmeter"></APKInfo>
+    <APKInfo packageName="com.quickbird.speedtestmaster"></APKInfo>
+    <APKInfo packageName="org.zwanoo.android.speedtest"></APKInfo>
+    <APKInfo packageName="com.huawei.appmarket"></APKInfo>
+    <APKInfo packageName="com.network.test"></APKInfo>
+    <APKInfo packageName="com.tencent.android.qqdownloader"></APKInfo>
+    <APKInfo packageName="com.taptap"></APKInfo>
+    <APKInfo packageName="com.pp.assistant"></APKInfo>
+    <APKInfo packageName="com.m4399.gamecenter"></APKInfo>
+    <APKInfo packageName="com.wandoujia.phoenix2"></APKInfo>
+    <APKInfo packageName="com.nespeedt.artifact"></APKInfo>
+    <APKInfo packageName="com.uusense.speed"></APKInfo>
+    <APKInfo packageName="com.greenexpress"></APKInfo>
+    <APKInfo packageName="com.sagocloud.netspeeder.anan"></APKInfo>
+    <APKInfo packageName="com.wrielessspeed"></APKInfo>
+    <APKInfo packageName="com.jie.speed"></APKInfo>
+    <APKInfo packageName="com.cmsecurity.wifisecurity"></APKInfo>
+    <APKInfo packageName="com.jie.network"></APKInfo>
+    <APKInfo packageName="com.xiaonanjiao.speedtest"></APKInfo>
+    <APKInfo packageName="cn.chinabda.netmaster"></APKInfo>
+    <APKInfo packageName="com.tencent.wifimanager"></APKInfo>
+    <APKInfo packageName="com.xunlei.downloadprovider"></APKInfo>
+    <APKInfo packageName="com.huawei.hidisk"></APKInfo>
+    <APKInfo packageName="com.huawei.filemanager"></APKInfo>
+    <APKInfo packageName="com.huawei.meetime"></APKInfo>
+    <APKInfo packageName="com.baidu.netdisk"></APKInfo>
+    <APKInfo packageName="com.huawei.genexcloud.speedtest"></APKInfo>
+  </ScgQuickAddAppWhiteList>
+</AppConfig>

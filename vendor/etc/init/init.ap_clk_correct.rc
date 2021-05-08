@@ -1,0 +1,9 @@
+
+on boot
+    # ap_clk_correct
+    chown system audio /dev/ap_clk_correct
+    chmod 0660 /dev/ap_clk_correct
+
+on property:ro.vendor.config.hw_ap_clk_correct=true
+    class_start ap_clk_correct
+

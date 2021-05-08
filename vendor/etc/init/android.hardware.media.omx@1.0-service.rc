@@ -1,0 +1,7 @@
+service vendor.media.omx /vendor/bin/hw/android.hardware.media.omx@1.0-service
+    interface android.hardware.media.omx@1.0::IOmx default
+    class main
+    user mediacodec
+    group camera drmrpc mediadrm audio
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks /dev/blkio/foreground/tasks

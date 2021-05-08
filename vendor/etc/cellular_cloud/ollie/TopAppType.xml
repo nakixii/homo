@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!--AppType
+        GAME, NEWS_BROWSER, SHORTVIDEO_LIVE, VIDEO, MUSIC, INSTANT, SHOPPING, NAVIGATION, PAY_LIFE, SYSTEM
+    -->
+    <TopAppInfo>
+        <AppInfo AppName="com.tencent.tmgp.sgame">
+            <AppType>GAME</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.tmgp.pubgmhd">
+            <AppType>GAME</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.happyelements.AndroidAnimal">
+            <AppType>GAME</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.qqgame.hlddz">
+            <AppType>GAME</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.tmgp.speedmobile">
+            <AppType>GAME</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.tmgp.cf">
+            <AppType>GAME</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.tmgp.WePop">
+            <AppType>GAME</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.baidu.searchbox">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.news">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.ss.android.article.news">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.ss.android.article.lite">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.netease.newsreader.activity">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.huawei.browser">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.mtt">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.UCMobile">
+            <AppType>NEWS_BROWSER</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.duowan.kiwi">
+            <AppType>SHORTVIDEO_LIVE</AppType>
+        </AppInfo>
+        <AppInfo AppName="air.tv.douyu.android">
+            <AppType>SHORTVIDEO_LIVE</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.smile.gifmaker">
+            <AppType>SHORTVIDEO_LIVE</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.ss.android.ugc.aweme">
+            <AppType>SHORTVIDEO_LIVE</AppType>
+        </AppInfo>
+        <AppInfo AppName="tv.danmaku.bili">
+            <AppType>VIDEO</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.huawei.himovie">
+            <AppType>VIDEO</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.qqlive">
+            <AppType>VIDEO</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.qiyi.video">
+            <AppType>VIDEO</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.youku.phone">
+            <AppType>VIDEO</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.ss.android.article.video">
+            <AppType>VIDEO</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.kugou.android">
+            <AppType>MUSIC</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.qqmusic">
+            <AppType>MUSIC</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.ximalaya.ting.android">
+            <AppType>MUSIC</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.netease.cloudmusic">
+            <AppType>MUSIC</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.mm">
+            <AppType>INSTANT</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.mobileqq">
+            <AppType>INSTANT</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.sina.weibo">
+            <AppType>INSTANT</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.immomo.momo">
+            <AppType>INSTANT</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.zhihu.android">
+            <AppType>INSTANT</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.xingin.xhs">
+            <AppType>INSTANT</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.taobao.taobao">
+            <AppType>SHOPPING</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.vmall.client">
+            <AppType>SHOPPING</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.jingdong.app.mall">
+            <AppType>SHOPPING</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.sankuai.meituan">
+            <AppType>SHOPPING</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.xunmeng.pinduoduo">
+            <AppType>SHOPPING</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.achievo.vipshop">
+            <AppType>SHOPPING</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.baidu.baidumap">
+            <AppType>NAVIGATION</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.qunar">
+            <AppType>NAVIGATION</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.autonavi.minimap">
+            <AppType>NAVIGATION</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.sdu.didi.psnger">
+            <AppType>NAVIGATION</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.sdu.didi.gsui">
+            <AppType>NAVIGATION</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.tencent.map">
+            <AppType>NAVIGATION</AppType>
+        </AppInfo>
+        <AppInfo AppName="ctrip.android.view">
+            <AppType>NAVIGATION</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.eg.android.AlipayGphone">
+            <AppType>PAY_LIFE</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.huawei.wallet">
+            <AppType>PAY_LIFE</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.dianping.v1">
+            <AppType>PAY_LIFE</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.MobileTicket">
+            <AppType>PAY_LIFE</AppType>
+        </AppInfo>
+        <AppInfo AppName="me.ele">
+            <AppType>PAY_LIFE</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.sankuai.meituan.takeoutnew">
+            <AppType>PAY_LIFE</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.huawei.android.launcher">
+            <AppType>SYSTEM</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.huawei.contacts">
+            <AppType>SYSTEM</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.android.incallui">
+            <AppType>SYSTEM</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.android.mms">
+            <AppType>SYSTEM</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.huawei.camera">
+            <AppType>SYSTEM</AppType>
+        </AppInfo>
+        <AppInfo AppName="com.huawei.photos">
+            <AppType>SYSTEM</AppType>
+        </AppInfo>
+    </TopAppInfo>

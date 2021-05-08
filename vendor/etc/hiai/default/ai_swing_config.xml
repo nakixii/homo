@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Swing switch="0">
+    <SwingEventParam>
+        <Datum EventID="1" Name="SWING_FACE_NUM_EVENT_ID" ModelList="0">
+		</Datum>
+		<Datum EventID="2" Name="SWING_FACE_EYE_AWAKEN_EVENT_ID" ModelList="0,1,25">
+		</Datum>
+		<Datum EventID="3" Name="SWING_FACE_LIGHT_EYE_GAZE_EVENT_ID" ModelList="0,1,25">
+		</Datum>
+		<Datum EventID="4" Name="SWING_FACE_AGE_DETECTION_EVENT_ID" ModelList="0,3,25">
+		</Datum>
+		<Datum EventID="5" Name="SWING_FACE_SMART_SCREEN_EVENT_ID" ModelList="0,1,4,25">
+		</Datum>
+		<Datum EventID="6" Name="SWING_FACE_KID_DISTANCE_EVENT_ID" ModelList="0,1,3,25">
+		</Datum>
+		<Datum EventID="9" Name="SWING_SNPR_EVENT_ID" ModelList="5,51">
+		</Datum>
+		<Datum EventID="10" Name="SWING_FACE_MULTI_FACE_EVENT_ID" ModelList="0,1,25">
+		</Datum>
+		<Datum EventID="100" Name="SWING_DYNAMIC_GESTURE_EVENT_ID" ModelList="10,12,14,22,28,41,43,45">
+			<reportValue>0,1,2,3,4,6,11,12,13,14,10001,10002,10004,10005,10006,10007</reportValue>
+		</Datum>
+		<Datum EventID="200" Name="SWING_FACE_TRACKIING_EVENT_ID" ModelList="0,2,25">
+		</Datum>
+		<Datum EventID="501" Name="SWING_SENSORHUB_STATUS_EVENT_ID" ModelList="">
+                </Datum>
+    </SwingEventParam>
+	<SwingModelParam>
+		<Datum Name="ssd-model" ModelPath="/vendor/etc/models/Swing/swing-ssd.tiny" ModelID="0" />
+		<Datum Name="eye-model" ModelPath="/vendor/etc/models/Swing/swing-eye.tiny" ModelID="1" />
+        <Datum Name="swing-fr" ModelPath="/vendor/etc/models/Swing/swing-fr.tiny" ModelID="2"/>
+		<Datum Name="age-model" ModelPath="/vendor/etc/models/Swing/swing-age.tiny" ModelID="3"/>
+		<Datum Name="swing-fp" ModelPath="/vendor/etc/models/Swing/swing-landmark.tiny" ModelID="4"/>
+		<Datum Name="swing-snpr" ModelPath="/vendor/etc/models/Swing/swing-snpr.tiny" ModelID="5"/>
+		<Datum Name="swing-gcro" ModelPath="/vendor/etc/models/Swing/swing-gcro.tiny" ModelID="10" />
+		<Datum Name="swing-eco-l1" ModelPath="/vendor/etc/models/Swing/swing-eco-l1.tiny" ModelID="12" />
+		<Datum Name="swing-eco-l2" ModelPath="/vendor/etc/models/Swing/swing-eco-l2.tiny" ModelID="14" />
+		<Datum Name="swing-gcro-roi" ModelPath="/vendor/etc/models/Swing/swing-gcro-roi.tiny" ModelID="22" />
+		<Datum Name="swing-dir" ModelPath="/vendor/etc/models/Swing/swing-dir.tiny" ModelID="25"/>
+		<Datum Name="swing-keypoint" ModelPath="/vendor/etc/models/Swing/swing-keypoint.tiny" ModelID="28" />
+		<Datum Name="swing-wtn" ModelPath="/vendor/etc/models/Swing/swing-wtn.tiny" ModelID="41" />
+		<Datum Name="swing-wai" ModelPath="/vendor/etc/models/Swing/swing-wai.tiny" ModelID="43"/>
+		<Datum Name="swing-wao" ModelPath="/vendor/etc/models/Swing/swing-wao.tiny" ModelID="45"/>
+		<Datum Name="swing-snpr-classify" ModelPath="/vendor/etc/models/Swing/swing-snpr-classify.tiny" ModelID="51"/>
+	</SwingModelParam>
+    <SwingGeneralSetting>
+        <Datum ProductType="2"/>
+        <Datum SensorType="1"/>
+    </SwingGeneralSetting>
+    <SwingOnDeviceLearning>
+        <Datum Name="SWING_DYNAMIC_GESTURE" FusionID="2" TagID="0"/>
+    </SwingOnDeviceLearning>
+	<DFX>
+      <Datum DumpBufferNum="3"/>
+      <Datum ATOM="0,1,3,4,9,10,22,25,33,38,51"/>
+      <Datum DataBufferNum="4"/>
+	</DFX>
+</Swing>

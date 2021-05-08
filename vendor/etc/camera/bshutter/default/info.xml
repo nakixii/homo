@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<frame_num_for_stop>5</frame_num_for_stop>
+	<delta_time_for_stop>0</delta_time_for_stop>
+	<frame_num_for_start>0</frame_num_for_start>
+	<delta_time_for_start>600</delta_time_for_start>
+	<min_preview_time>34</min_preview_time>
+	<capture_limit>
+		<max_exposure_time>10000</max_exposure_time>
+		<min_capture_interval>34</min_capture_interval>
+	</capture_limit>
+	<hdr_supported>1</hdr_supported>
+	<frame_num_for_start_hdr>0</frame_num_for_start_hdr>
+	<safe_time>1000</safe_time>
+</Config>

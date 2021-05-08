@@ -1,0 +1,9 @@
+on property:ro.odm.config.fm.disable=false
+    start fm-1-0
+
+service fm-1-0 /vendor/bin/hw/vendor.huawei.hardware.fm@1.0-service
+    interface vendor.huawei.hardware.fm@1.0::IFmControl default
+    class hal
+    user system
+    group system
+    disabled

@@ -1,0 +1,382 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+    chown root system /proc/bootdevice/cid
+    chown root system /proc/bootdevice/life_time_est_typ_a
+    chown root system /proc/bootdevice/life_time_est_typ_b
+    chown root system /proc/bootdevice/manfid
+    chown root system /proc/bootdevice/name
+    chown root system /proc/bootdevice/pre_eol_info
+    chown root system /proc/bootdevice/product_name
+    chown root system /proc/bootdevice/rev
+    chown root system /proc/bootdevice/size
+    chown root system /proc/bootdevice/type
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+    chown media media /sys/class/graphics/fb0/effect_ce
+#for eMMC/UFS FFU
+    start hwemerffu
+
+on boot
+    chown system system /sys/class/leds/lcd_backlight0/brightness
+    chmod 644 /sys/class/leds/lcd_backlight0/brightness
+    chown system system /sys/class/graphics/fb0/sbl_ctrl
+    chown system system /sys/class/graphics/fb0/lcd_color_temperature
+    chown system system /sys/class/graphics/fb0/led_rg_lcd_color_temperature
+    chown system system /sys/class/graphics/fb0/lcd_comform_mode
+    chown system system /sys/class/graphics/fb0/lcd_cinema_mode
+    chown system system /sys/class/graphics/fb0/lcd_starlight_mode
+    chown system system /sys/class/graphics/fb0/lcd_cabc_mode
+    chown system system /sys/class/graphics/fb0/lcd_ce_mode
+    chown system system /sys/class/graphics/fb0/lcd_se_mode
+    chown system system /sys/class/graphics/fb0/lcd_hkadc
+    chown system system /sys/class/graphics/fb0/lcd_checksum
+    chown system system /sys/class/graphics/fb0/lcd_bist_check
+    chown system system /sys/class/graphics/fb0/lcd_check_reg
+    chown system system /sys/class/graphics/fb0/lcd_mipi_detect
+    chown system system /sys/class/graphics/fb0/lcd_model
+    chown system system /sys/class/graphics/fb0/pre_camera_position
+    chown system system /sys/class/graphics/fb0/lcd_display_type
+    chown system system /sys/class/graphics/fb0/lcd_voltage_enable
+    chown system system /sys/class/graphics/fb0/frame_count
+    chown system system /sys/class/graphics/fb0/frame_update
+    chown system system /sys/class/graphics/fb0/lcd_fps_scence
+    chown system system /sys/class/graphics/fb0/lcd_fps_order
+    chown radio radio /sys/class/graphics/fb0/mipi_dsi_bit_clk_upt
+    chmod 664 /sys/class/graphics/fb0/mipi_dsi_bit_clk_upt
+    chown system system /sys/class/graphics/fb0/lcd_status
+    chown system system /sys/class/graphics/fb0/amoled_pcd_errflag_check
+    chown system system /sys/class/ina231/ina231_0/ina231_debug
+    chown system system /sys/class/ina231/ina231_0/ina231_set
+    chown system system /sys/class/ina231/ina231_0/ina231_value
+    chown system system /sys/class/ina231/ina231_1/ina231_debug
+    chown system system /sys/class/ina231/ina231_1/ina231_set
+    chown system system /sys/class/ina231/ina231_1/ina231_value
+    chown system system /sys/class/graphics/fb0/lcd_sleep_ctrl
+    chown system system /sys/class/graphics/fb0/lcd_poweric_det
+    chown system system /sys/class/graphics/fb0/lcd_func_switch
+    chown system system /sys/class/graphics/fb0/lcd_dynamic_porch
+    chown system system /sys/class/graphics/fb0/lcd_test_config
+    chown system system /sys/class/graphics/fb0/lcd_support_mode
+    chown system system /sys/class/graphics/fb0/lcd_oneside_mode
+    chown system system /sys/class/graphics/fb0/lcd_ic_color_enhancement_mode
+    chown system system /sys/class/graphics/fb0/lcd_support_checkmode
+    chown system system /sys/class/graphics/fb0/lcd_lp2hs_mipi_check
+    chown system system /sys/class/graphics/fb0/amoled_pcd_errflag_check
+    chown system system /sys/class/graphics/fb0/panel_info
+    chown system system /sys/class/graphics/fb0/lcd_scan_mode
+    chown system system /sys/class/graphics/fb0/lcd_acm_state
+    chown system system /sys/class/graphics/fb0/amoled_acl
+    chown system system /dev/display_sharemem_map
+    chmod 660 /dev/display_sharemem_map
+    chown system system /sys/class/graphics/fb0/amoled_hbm
+    chown system system /sys/class/graphics/fb0/lcd_gmp_state
+    chown system system /sys/class/graphics/fb0/effect_al
+    chown system system /sys/class/graphics/fb0/effect_bl
+    chown system system /sys/class/graphics/fb0/effect_bl_enable
+    chown system system /sys/class/graphics/fb0/effect_sre
+    chown system system /sys/class/graphics/fb0/effect_hdr_mode
+    chown system system /sys/class/graphics/fb0/effect_metadata
+    chown system system /sys/class/graphics/fb0/effect_available
+    chown system system /sys/class/graphics/fb0/alpm_function
+    chown system system /sys/class/graphics/fb0/alpm_setting
+    chown system system /sys/class/graphics/fb0/amoled_vr_mode
+    chown system system /sys/class/graphics/fb0/lcd_reg_read
+    chown system system /sys/class/graphics/fb0/lcd_bl_mode
+    chown system system /sys/class/graphics/fb0/lcd_general_test
+    chown system system /sys/class/graphics/fb0/vertical_line_test
+    chown system system /sys/class/graphics/fb0/ddic_lv_detect
+    chown system system /sys/class/graphics/fb0/avdd_detect
+    chmod 664 /sys/class/graphics/fb0/lcd_bl_mode
+    chown system system /sys/class/graphics/fb0/lcd_bl_support_mode
+    chmod 664 /sys/class/graphics/fb0/lcd_bl_support_mode
+    chown system system /sys/class/graphics/fb0/lcd_ldo_check
+    chown system system /sys/class/graphics/fb0/ddic_oem_info
+    chown system system /sys/class/graphics/fb0/lcd_mipi_config
+    chown system system /sys/class/sensors/als_sensor/als_ud_rgbl
+    chown system system /sys/class/sensors/als_sensor/als_ud_rgbl_block
+#Touchscreen sysfs
+    chown system system /sys/touchscreen/ic_ver
+    chown system system /sys/touchscreen/hw_reset
+    chown system system /sys/touchscreen/hw_irq_stat
+    chown system system /sys/touchscreen/drv_debug
+    chown system system /sys/touchscreen/sleep_status
+    chown system system /sys/touchscreen/wakeup_gesture_enable
+    chown system system /sys/touchscreen/easy_wakeup_gesture
+    chown system system /sys/touchscreen/easy_wakeup_control
+    chown system system /sys/touchscreen/easy_wakeup_position
+    chown system system /sys/touchscreen/easy_wakeup_supported_gestures
+    chown system system /sys/touchscreen/touch_glove
+    chown system system /sys/touchscreen/touch_window
+    chown system system /dev/rmi0
+    chown system system /sys/touchscreen/touch_sensitivity
+    chown system system /sys/touchscreen/fw_update_sd
+    chown system system /sys/touchscreen/reset
+    chown system system /sys/touchscreen/touch_chip_info
+    chown system system /sys/touchscreen/touch_oem_info
+    chown system system /sys/touchscreen/roi_enable
+    chown system system /sys/touchscreen/roi_data
+    chown system system /sys/touchscreen/roi_data_debug
+    chown system system /sys/touchscreen/hw_mmi_index
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/rawdata_check
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/command
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/response
+    chown system system /proc/touchscreen/data
+    chown system system /proc/touchscreen/dumpdata
+    chown system system /proc/touchscreen/rawdata
+    chown system system /proc/touchscreen/tp_capacitance_data
+    chown system system /sys/devices/platform/huawei_tp_color/tp_color_info
+    chown system system /sys/touchscreen/tp_capacitance_test_type
+    chown system system /sys/touchscreen/supported_func_indicater
+    chown system system /sys/touchscreen/tp_capacitance_test_config
+    chown system system /sys/touchscreen/calibrate
+    chown system system /sys/touchscreen/calibrate_wakeup_gesture
+    chown system system /sys/touchscreen/touch_rawdata_debug
+    chown system system /sys/touchscreen/touch_special_hardware_test
+    chown system system /sys/touchscreen/touch_register_operation
+    chown system system /sys/touchscreen/touch_wideth
+    chown system system /sys/touchscreen/touch_switch
+    chown system system /sys/touchscreen/udfp_enable
+    chown system system /sys/touchscreen/stylus_wakeup_ctrl
+    chown system system /sys/touchscreen/fingerprint_switch_ctrl
+    chown system system /sys/touchscreen/ring_switch_ctrl
+    chown system system /sys/touchscreen/power_switch_ctrl
+    chown system system /sys/touchscreen/aod_touch_switch_ctrl
+    chown system system /sys/touchscreen/tp_dfx_info
+    chown system system /sys/touchscreen/ring_setting_config_ctrl
+    chown system system /sys/touchscreen/factory_extra_cmd
+
+    chown system system /sys/touchscreen0/ic_ver
+    chown system system /sys/touchscreen0/hw_reset
+    chown system system /sys/touchscreen0/hw_irq_stat
+    chown system system /sys/touchscreen0/drv_debug
+    chown system system /sys/touchscreen0/sleep_status
+    chown system system /sys/touchscreen0/wakeup_gesture_enable
+    chown system system /sys/touchscreen0/easy_wakeup_gesture
+    chown system system /sys/touchscreen0/easy_wakeup_control
+    chown system system /sys/touchscreen0/easy_wakeup_position
+    chown system system /sys/touchscreen0/easy_wakeup_supported_gestures
+    chown system system /sys/touchscreen0/touch_glove
+    chown system system /sys/touchscreen0/touch_window
+    chown system system /sys/touchscreen0/touch_sensitivity
+    chown system system /sys/touchscreen0/fw_update_sd
+    chown system system /sys/touchscreen0/reset
+    chown system system /sys/touchscreen0/touch_chip_info
+    chown system system /sys/touchscreen0/touch_oem_info
+    chown system system /sys/touchscreen0/roi_enable
+    chown system system /sys/touchscreen0/roi_data
+    chown system system /sys/touchscreen0/roi_data_debug
+    chown system system /sys/touchscreen0/hw_mmi_index
+    chown system system /sys/touchscreen0/cyttsp5_device_access.main_ttsp_core/rawdata_check
+    chown system system /sys/touchscreen0/cyttsp5_device_access.main_ttsp_core/command
+    chown system system /sys/touchscreen0/cyttsp5_device_access.main_ttsp_core/response
+    chown system system /proc/touchscreen0/data
+    chown system system /proc/touchscreen0/dumpdata
+    chown system system /proc/touchscreen0/rawdata
+    chown system system /proc/touchscreen0/tp_capacitance_data
+    chown system system /sys/touchscreen0/tp_capacitance_test_type
+    chown system system /sys/touchscreen0/supported_func_indicater
+    chown system system /sys/touchscreen0/tp_capacitance_test_config
+    chown system system /sys/touchscreen0/calibrate
+    chown system system /sys/touchscreen0/calibrate_wakeup_gesture
+    chown system system /sys/touchscreen0/touch_rawdata_debug
+    chown system system /sys/touchscreen0/touch_special_hardware_test
+    chown system system /sys/touchscreen0/touch_register_operation
+    chown system system /sys/touchscreen0/touch_wideth
+    chown system system /sys/touchscreen0/touch_switch
+    chown system system /sys/touchscreen0/udfp_enable
+    chown system system /sys/touchscreen0/stylus_wakeup_ctrl
+    chown system system /sys/touchscreen0/fingerprint_switch_ctrl
+    chown system system /sys/touchscreen0/ring_switch_ctrl
+    chown system system /sys/touchscreen0/power_switch_ctrl
+    chown system system /sys/touchscreen0/aod_touch_switch_ctrl
+    chown system system /sys/touchscreen0/tp_dfx_info
+    chown system system /sys/touchscreen0/ring_setting_config_ctrl
+    chown system system /sys/touchscreen0/factory_extra_cmd
+    chown system system /sys/touchscreen0/screen_status_switch
+
+    chown system system /sys/touchscreen1/ic_ver
+    chown system system /sys/touchscreen1/hw_reset
+    chown system system /sys/touchscreen1/hw_irq_stat
+    chown system system /sys/touchscreen1/drv_debug
+    chown system system /sys/touchscreen1/sleep_status
+    chown system system /sys/touchscreen1/wakeup_gesture_enable
+    chown system system /sys/touchscreen1/easy_wakeup_gesture
+    chown system system /sys/touchscreen1/easy_wakeup_control
+    chown system system /sys/touchscreen1/easy_wakeup_position
+    chown system system /sys/touchscreen1/easy_wakeup_supported_gestures
+    chown system system /sys/touchscreen1/touch_glove
+    chown system system /sys/touchscreen1/touch_window
+    chown system system /sys/touchscreen1/touch_sensitivity
+    chown system system /sys/touchscreen1/fw_update_sd
+    chown system system /sys/touchscreen1/reset
+    chown system system /sys/touchscreen1/touch_chip_info
+    chown system system /sys/touchscreen1/touch_oem_info
+    chown system system /sys/touchscreen1/roi_enable
+    chown system system /sys/touchscreen1/roi_data
+    chown system system /sys/touchscreen1/roi_data_debug
+    chown system system /sys/touchscreen1/hw_mmi_index
+    chown system system /sys/touchscreen1/cyttsp5_device_access.main_ttsp_core/rawdata_check
+    chown system system /sys/touchscreen1/cyttsp5_device_access.main_ttsp_core/command
+    chown system system /sys/touchscreen1/cyttsp5_device_access.main_ttsp_core/response
+    chown system system /proc/touchscreen1/data
+    chown system system /proc/touchscreen1/dumpdata
+    chown system system /proc/touchscreen1/rawdata
+    chown system system /proc/touchscreen1/tp_capacitance_data
+    chown system system /sys/touchscreen1/tp_capacitance_test_type
+    chown system system /sys/touchscreen1/supported_func_indicater
+    chown system system /sys/touchscreen1/tp_capacitance_test_config
+    chown system system /sys/touchscreen1/calibrate
+    chown system system /sys/touchscreen1/calibrate_wakeup_gesture
+    chown system system /sys/touchscreen1/touch_rawdata_debug
+    chown system system /sys/touchscreen1/touch_special_hardware_test
+    chown system system /sys/touchscreen1/touch_register_operation
+    chown system system /sys/touchscreen1/touch_wideth
+    chown system system /sys/touchscreen1/touch_switch
+    chown system system /sys/touchscreen1/udfp_enable
+    chown system system /sys/touchscreen1/stylus_wakeup_ctrl
+    chown system system /sys/touchscreen1/fingerprint_switch_ctrl
+    chown system system /sys/touchscreen1/ring_switch_ctrl
+    chown system system /sys/touchscreen1/power_switch_ctrl
+    chown system system /sys/touchscreen1/aod_touch_switch_ctrl
+    chown system system /sys/touchscreen1/tp_dfx_info
+    chown system system /sys/touchscreen1/ring_setting_config_ctrl
+    chown system system /sys/touchscreen1/factory_extra_cmd
+
+    chown system system /sys/firmware/devicetree/base/amba/spi@fa89f000/huawei_thp@10
+    chmod 0750 /sys/firmware/devicetree/base/amba/spi@fa89f000/huawei_thp@10
+    chown system system /sys/firmware/devicetree/base/amba/spi@fa048000/huawei_thp@10
+    chmod 0750 /sys/firmware/devicetree/base/amba/spi@fa048000/huawei_thp@10
+    chown system system /sys/firmware/devicetree/base/ts_kit
+    chmod 0750 /sys/firmware/devicetree/base/ts_kit
+    chown system system /sys/firmware/devicetree/base/i3c_master/ts_kit
+    chmod 0750 /sys/firmware/devicetree/base/i3c_master/ts_kit
+
+    chmod  0660 /dev/ts_aft_set_info
+    chown root system /dev/ts_aft_set_info
+    chmod  0660 /dev/ts_aft_get_info
+    chown root system /dev/ts_aft_get_info
+
+    chmod  0660 /dev/ts_aft_set_info1
+    chown root system /dev/ts_aft_set_info1
+    chmod  0660 /dev/ts_aft_get_info1
+    chown root system /dev/ts_aft_get_info1
+
+    chmod  0660 /dev/input_mt_wrapper
+    chown root system /dev/input_mt_wrapper
+    chmod  0660 /dev/input_mt_wrapper0
+    chown root system /dev/input_mt_wrapper0
+
+    chown system system /sys/class/fts/fts_i2c
+    chown system system /sys/class/fts/fts_i2c/iread
+    chown system system /sys/class/fts/fts_i2c/iread_result
+    chown system system /sys/class/fts/fts_i2c/iwrite
+    chown system system /sys/class/fts/fts_i2c/iwrite_result
+    chown system system /sys/class/fts/fts_i2c/iwr
+    chown system system /sys/class/fts/fts_i2c/iwr_result
+
+#led sysfs
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/red/delay_off
+    chown system system /sys/class/leds/red/delay_on
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/green/delay_off
+    chown system system /sys/class/leds/green/delay_on
+    chown system system /sys/class/leds/blue/brightness
+    chown system system /sys/class/leds/blue/delay_off
+    chown system system /sys/class/leds/blue/delay_on
+    mkdir /data/vendor/log/fingerprint
+    chown system system /data/vendor/log/fingerprint
+    restorecon_recursive /hw_product/bin/fingerprint
+    mkdir /data/vendor/fingerprint_dump 0770 system system
+    chown system system /data/vendor/fingerprint_dump
+    restorecon_recursive /data/vendor/fingerprint_dump
+
+#add for fingerprint
+    chmod  0660  /dev/fingerprint
+    chmod  0660  /dev/fingerprinthub
+    chmod  0660  /dev/fingerprinthub_ud
+    chown  system  system  /dev/fingerprinthub
+    chown  system  system  /dev/fingerprint
+    chown  system  system  /dev/fingerprinthub_ud
+    chmod  0660  /sys/devices/platform/fingerprint/irq
+    chown  system  system  /sys/devices/platform/fingerprint/irq
+    chown system system /sys/devices/platform/fingerprint/fingerprint_chip_info
+    chmod  0660  /sys/devices/platform/fingerprint/read_image_flag
+    chown  system  system  /sys/devices/platform/fingerprint/read_image_flag
+    chmod  0660  /sys/devices/platform/fingerprint/nav
+    chown  system  system  /sys/devices/platform/fingerprint/nav
+    chmod  0660  /sys/devices/platform/fingerprint/module_id
+    chown  system  system  /sys/devices/platform/fingerprint/module_id
+    chmod  0660  /sys/devices/platform/fingerprint/result
+    chown  system  system  /sys/devices/platform/fingerprint/result
+    chmod  0660  /sys/devices/platform/fingerprint/irq_enabled
+    chown  system  system  /sys/devices/platform/fingerprint/irq_enabled
+    chmod  0660  /sys/devices/platform/fingerprint/module_id_ud
+    chown  system  system  /sys/devices/platform/fingerprint/module_id_ud
+    chmod  0660  /sys/devices/platform/fingerprint/low_temperature
+    chown  system  system  /sys/devices/platform/fingerprint/low_temperature
+    chmod  0660  /sys/devices/platform/fingerprint/ud_fingerprint_chip_info
+    chown  system  system  /sys/devices/platform/fingerprint/ud_fingerprint_chip_info
+
+#LRA vibrator
+    chown system system /sys/class/timed_output/vibrator/vibrator_dbc_test
+    chown system system /sys/class/timed_output/vibrator/vibrator_calib
+    chown system system /sys/class/timed_output/vibrator/set_amplitude
+    chown system system /sys/class/timed_output/vibrator/support_amplitude_control
+#haptics device
+    chmod 0600 /dev/haptics
+    chown system system /dev/haptics
+    chown system system /sys/class/timed_output/vibrator/haptic_test
+#led alwayson
+    chown system system /sys/class/led_alwayson/led_alwayson/led_status
+    chown system system /sys/class/led_alwayson/led_alwayson/version_mode
+#led config
+    chown system system /sys/class/led_config/led_config/led_config_status
+
+    chown system system /sys/firmware/devicetree/base/huawei,lcd_config
+    chmod 0750 /sys/firmware/devicetree/base/huawei,lcd_config
+    chown system system /proc/device-tree/huawei,lcd_config
+    chmod 0750 /proc/device-tree/huawei,lcd_config
+    chown system system /sys/devices/platform/huawei,lcd_config
+    chmod 0750 /sys/devices/platform/huawei,lcd_config
+    chown system system /sys/bus/platform/devices
+    chmod 0750 /sys/bus/platform/devices
+    chwon system system /sys/bus/platform/drivers/lcd_kit_mipi_panel
+    chmod 0750 /sys/bus/platform/drivers/lcd_kit_mipi_panel
+    chwon system system /sys/devices/platform/hisilicon-hisi-ldo-ldo4/regulator/regulator.1
+    chmod 0750 /sys/devices/platform/hisilicon-hisi-ldo-ldo4/regulator/regulator.1
+    chwon system system /sys/devices/platform/hisilicon-hisi-ldo-ldo24/regulator/regulator.10
+    chmod 0750 /sys/devices/platform/hisilicon-hisi-ldo-ldo24/regulator/regulator.10
+    chwon system system /sys/devices/platform/hisilicon-hisi-ldo-ldo29/regulator/regulator.11
+    chmod 0750 /sys/devices/platform/hisilicon-hisi-ldo-ldo29/regulator/regulator.11
+## Property trigger
+#on property:ro.sample=*
+#    write /device/sample/sample_property ${ro.some_property}
+#    chmod 644 /device/sample/sample_device
+
+
+
+## Service definition
+#service sample /system/bin/sample
+#    class main
+#    user root
+#    group system log graphics
+#    socket sample stream 0660 system system
+#    disabled
+#    oneshot
+#    onrestart restart another_service
+
+service hwemerffu /vendor/bin/hwemerffu
+    class main
+    user root
+    group root system
+    oneshot

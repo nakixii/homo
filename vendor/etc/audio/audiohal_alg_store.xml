@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alg_store>
+	<alg_chain_phone_record>
+		<module description="preprocess">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_preprocess"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+	</alg_chain_phone_record>
+	<alg_chain_example>
+		<module description="deinterlace 16bit">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_interlace"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="interlace 16bit">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_interlace"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="deinterlace 16bit">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_interlace"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="formater 16bit to 24bit">
+			<handle	lib = "/vendor/lib64/audio.extension.so"
+					itf = "get_module_formater" />
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="chc to stereo">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_chc"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="chc stereo to 4 channels">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_chc"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="interlace 24bit">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_interlace"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="deinterlace 24bit">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_interlace"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="interlace 24bit">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_interlace"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="chc 4 channels to 6 channels">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_chc"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "6"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "6"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="chc 6 channels to mono">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_chc"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "6"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "6"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</rconfig>
+		</module>
+		<module description="formater 24bit to 16bit">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_formater"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_8_24_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</rconfig>
+		</module>
+		<module description="src 48k to 16k">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_src"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</rconfig>
+		</module>
+		<module description="chc mono to stereo">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_chc"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+			</rconfig>
+		</module>
+		<module description="chc stereo to mono">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_chc"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "ALL_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</rconfig>
+		</module>
+		<module description="preprocess">
+			<handle
+				lib = "/vendor/lib64/audio.extension.so"
+				itf = "get_module_preprocess"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</rconfig>
+		</module>
+		<module description="tc_example">
+			<handle
+				lib = "/vendor/lib64/audio.custom.so"
+				itf = "get_module_example"
+			/>
+			<config>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "4"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</config>
+			<rconfig>
+				<input
+					sample_rate = "AUDIO_SAMPLE_RATE_16K"
+					channel_num = "1"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "NONE_INTERLACED"
+				/>
+				<output
+					sample_rate = "AUDIO_SAMPLE_RATE_48K"
+					channel_num = "2"
+					format = "AUDIO_FORMAT_PCM_16_BIT"
+					period = "PERIOD_NORMAL"
+					interlace = "INTERLACE_UNDEFINE"
+				/>
+			</rconfig>
+		</module>
+	</alg_chain_example>
+</alg_store>

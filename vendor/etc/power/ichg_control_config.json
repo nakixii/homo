@@ -1,0 +1,16 @@
+{
+    "ChargerTypeEnable": {
+        "lvc": 1,
+        "sc": 1
+    },
+    "ControlParam": {
+        "enable": 1,
+        "kpOvershoot": 2,
+        "kpUndershoot": 1.5,
+        "kiOvershoot": 0.1,
+        "kiUndershoot": 0.05,
+        "tempMarginMax": 900,
+        "tempMarginMin": 400,
+        "tempMarginBackMin": 50
+    }
+}

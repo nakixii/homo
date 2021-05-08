@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FusionConfig>
+    <!--
+    FUSION_IMS_OR_CS_ONLY 0
+    FUSION_CALL_DUAL 1
+    FUSION_CALL_AUTO 2
+    -->
+    <mainSwitch>1</mainSwitch>
+    <codingType>
+        <wb>1</wb>
+        <evs>1</evs>
+        <nb>1</nb>
+        <cs>0</cs>
+    </codingType>
+    <callRat>
+        <volte>1</volte>
+        <vonr>1</vonr>
+    </callRat>
+    <!--not supported in stage 1-->
+    <server>
+        <proxyServer>0</proxyServer>
+        <messageTransmissionServer>0</messageTransmissionServer>
+    </server>
+    <encryption>
+        <encryptionMainSwitch>1</encryptionMainSwitch>
+        <voice>1</voice>
+        <control>1</control>
+        <file>0</file>
+        <rtcp>1</rtcp>
+    </encryption>
+    <!--/ms-->
+    <echoRetry>
+        <first>600</first>
+        <second>1000</second>
+        <third>1000</third>
+    </echoRetry>
+    <natRetry>15000</natRetry>
+    <!--
+    VOICE_FUSION_TRIGGER_BY_QOE 0
+    VOICE_FUSION_TRIGGER_ALWAYS 1
+    VOICE_FUSION_TRIGGER_WIFI_ALWAYS_DATA_BY_QOE 2
+    VOICE_FUSION_TRIGGER_WIFI_ALWAYS_DATA_NO 3
+    -->
+    <voiceFusionTrigger>3</voiceFusionTrigger>
+    <qoe>
+        <!-- ms -->
+        <evaluationPeriod>2000</evaluationPeriod>
+        <expectedMin>15</expectedMin>
+        <packetLossStartNat>2</packetLossStartNat>
+        <packetLossStartVoiceCopy>5</packetLossStartVoiceCopy>
+        <packetLossStopNat>1</packetLossStopNat>
+        <packetLossStopVoiceCopy>2</packetLossStopVoiceCopy>
+    </qoe>
+    <!--/ms-->
+    <delayProbe>
+        <primaryLinkT1>0</primaryLinkT1>
+        <primaryLinkT2>2000</primaryLinkT2>
+        <secondaryLinkT1>2000</secondaryLinkT1>
+        <secondaryLinkT2>2000</secondaryLinkT2>
+    </delayProbe>
+    <secondaryLinkDelay>
+        <voiceWifi>0</voiceWifi>
+        <voiceData>1000</voiceData>
+        <fileWifi>0</fileWifi>
+        <fileData>2000</fileData>
+    </secondaryLinkDelay>
+    <!--
+    100% split 0
+    no superposition split 1
+    intelligent copy 2
+    keyframe copy 3
+    -->
+    <split>0</split>
+    <!--
+    symmetry 0
+    not symmetry 1
+    -->
+    <uplinkAndDownlinkTransfer>0</uplinkAndDownlinkTransfer>
+    <!--/hour-->
+    <socketMaintain>2</socketMaintain>
+    <version>
+        <tunnel1>1</tunnel1>
+        <tunnel2>1</tunnel2>
+        <tunnel3>1</tunnel3>
+        <primaryLink>1</primaryLink>
+        <secondaryLink>1</secondaryLink>
+    </version>
+    <socketSafety>
+        <packetLen>1300</packetLen>
+        <!--packet/second-->
+        <packetFrequency>80</packetFrequency>
+    </socketSafety>
+</FusionConfig>

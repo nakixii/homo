@@ -1,0 +1,6 @@
+<recoverylist duration="30000">
+    <!-- slow -->
+    <recovery networkstatus="1">
+        <solution id="4"/>
+    </recovery>
+</recoverylist>

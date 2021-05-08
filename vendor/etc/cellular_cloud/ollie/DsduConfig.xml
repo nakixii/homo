@@ -1,0 +1,6 @@
+<rttconfiglist>
+    <urls name="request">
+        <china url="connectivitycheck.platform.hicloud.com" get="GET /generate_204 HTTP/1.1\r\nHost: connectivitycheck.platform.hicloud.com\r\nConnection: Keep-Alive\r\n\r\n"/>
+        <oversea url="connectivitycheck.gstatic.com" get="GET /generate_204 HTTP/1.1\r\nHost: connectivitycheck.gstatic.com\r\nConnection: Keep-Alive\r\n\r\n"/>
+    </urls>
+</rttconfiglist>

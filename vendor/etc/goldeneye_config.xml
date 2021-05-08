@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <watchpoint name="fd_limit_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <threshold value="900"/>
+    </watchpoint>
+    <watchpoint name="thread_limit_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <threshold value="200"/>
+    </watchpoint>
+    <watchpoint name="iowait_limit_test">
+        <action name="disable"/>
+        <threshold value="30"/>
+    </watchpoint>
+    <watchpoint name="low_mem_inject_test">
+        <action name="disable"/>
+        <userspace_mem_left value="500"/>
+        <kernelspace_mem_left value="500"/>
+    </watchpoint>
+    <watchpoint name="app_oom_test">
+        <action name="disable"/>
+    </watchpoint>
+    <watchpoint name="app_mem_limit_test">
+        <action name="enable"/>
+        <appmemlimit_warning_limit value="150"/>
+        <appmemlimit_monitor_interval value="30"/>
+    </watchpoint>
+    <watchpoint name="dynamic_mem_baseline_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <dynamic_mem_monitor_interval value="7200"/>
+    </watchpoint>
+    <watchpoint name="app_gpu_limit_test">
+        <action name="enable"/>
+    </watchpoint>
+    <module name="fd_leak_test">
+        <action name="enable"/>
+        <fd_monitor_num value="5"/>
+        <threshold value="50"/>
+        <timer value="60"/>
+        <child_timeout value="65"/>
+    </module>
+    <module name="memory_leak_monitor">
+        <action value="enable"/>
+        <memtype name="default">
+            <monitor_enable value="enable"/>
+            <upload_enable value="enable"/>
+            <loop_interval value="5"/>
+            <sample_interval value="50"/>
+            <sample_window_size value="1500"/>
+            <split_window_number value="3"/>
+            <max_record_time value="604800"/>
+            <max_record_number value="1200"/>
+            <min_slope value="0.20"/>
+            <memory_limit value="300"/>
+            <upload_interval value="36000"/>
+        </memtype>
+        <memtype name="ion">
+            <min_slope value="0.21"/>
+        </memtype>
+        <memtype name ="slub">
+            <min_slope value="0.22"/>
+        </memtype>
+        <memtype name ="lslub">
+            <min_slope value="0.23"/>
+        </memtype>
+        <memtype name ="vmalloc">
+            <min_slope value="0.24"/>
+        </memtype>
+        <memtype name ="cma">
+            <min_slope value="0.25"/>
+        </memtype>
+        <memtype name ="zsmalloc">
+            <min_slope value="0.26"/>
+        </memtype>
+        <memtype name ="buddy">
+            <min_slope value="0.27"/>
+        </memtype>
+        <memtype name ="skb">
+            <min_slope value="0.28"/>
+        </memtype>
+        <memtype name="user">
+            <min_slope value="0.2"/>
+        </memtype>
+        <memtype name ="ta">
+            <monitor_enable value="disble"/>
+            <min_slope value="0.20"/>
+        </memtype>
+    </module>
+</config>

@@ -1,0 +1,421 @@
+<AppConfig>
+  <CityOptimizeParamList>
+    <CityOptimizeCheckPeriod>1440</CityOptimizeCheckPeriod>
+    <netParam group="param1">21,23,69,52,24,178,15,15,20</netParam>
+    <CityInfo cityName="DefaultCity" param="param1"></CityInfo>
+  </CityOptimizeParamList>
+  <CloseNR_APPList>
+    <UidCloseNREnable>1</UidCloseNREnable>
+    <ProductList>
+      <product group="OXF-AN00">option1,option2,option3,option4,option6</product>
+      <product group="OXF-AN00L">option1,option2,option3,option4,option6</product>
+      <product group="WLZ-AN00">option1,option2,option3,option4,option6</product>
+      <product group="OXF-AN10">option1,option2,option3,option4,option6</product>
+      <product group="OXF-AN10L">option1,option2,option3,option4,option6</product>
+      <product group="EVR-AN00">option2,option3,option4,option5,option6,option7</product>
+      <product group="EVR-N29">option2,option3,option4,option5,option6,option7</product>
+      <product group="TAH-AN00">option2,option3,option4,option5,option6,option7</product>
+      <product group="TAH-AN00m">option1,option2,option3,option4,option6</product>
+      <product group="TAH-N29m">option2,option3</product>
+      <product group="TAS-AN00">option1,option2,option3,option4,option6</product>
+      <product group="TAS-TN00">option1,option2,option3,option4,option6</product>
+      <product group="TAS-N29">option2,option3</product>
+      <product group="LIO-AN00">option1,option2,option3,option4,option6</product>
+      <product group="LIO-AN00m">option1,option2,option3,option4,option6</product>
+      <product group="LIO-AN00P">option1,option2,option3,option4,option6</product>
+      <product group="LIO-TN00">option1,option2,option3,option4,option6</product>
+      <product group="LIO-N29">option2,option3</product>
+      <product group="ANA-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="ANA-TN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="ANA-TN10">option1,option2,option3,option4,option6,option8</product>
+      <product group="ANA-N09">option2,option3</product>
+      <product group="ANA-N29">option2,option3</product>
+      <product group="ELS-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="ELS-AN10">option1,option2,option3,option4,option6,option8</product>
+      <product group="ELS-AN20">option1,option2,option3,option4,option6,option8</product>
+      <product group="ELS-TN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="ELS-TN10">option1,option2,option3,option4,option6,option8</product>
+      <product group="ELS-N04">option2,option3</product>
+      <product group="ELS-N09">option2,option3</product>
+      <product group="ELS-N29">option2,option3</product>
+      <product group="ELS-N39">option2,option3</product>
+      <product group="BMH-AN00">option1,option2,option3,option4,option6</product>
+      <product group="BMH-AN10">option1,option2,option3,option4,option6</product>
+      <product group="BMH-AN20">option1,option2,option3,option4,option6</product>
+      <product group="BMH-AN20X">option1,option2,option3,option4,option6</product>
+      <product group="BMH-TN10">option1,option2,option3,option4,option6</product>
+      <product group="BMH-TN20">option1,option2,option3,option4,option6</product>
+      <product group="JER-AN10">option1,option2,option3,option4,option6</product>
+      <product group="JER-AN20">option1,option2,option3,option4,option6</product>
+      <product group="JER-TN10">option1,option2,option3,option4,option6</product>
+      <product group="JER-TN20">option1,option2,option3,option4,option6</product>
+      <product group="JEF-AN00">option1,option2,option3,option4,option6</product>
+      <product group="JEF-AN20">option1,option2,option3,option4,option6</product>
+      <product group="JEF-TN00">option1,option2,option3,option4,option6</product>
+      <product group="JEF-TN20">option1,option2,option3,option4,option6</product>
+      <product group="CDY-AN00">option1,option2,option3,option4,option6</product>
+      <product group="CDY-AN20">option1,option2,option3,option4,option6</product>
+      <product group="CDY-AN90">option1,option2,option3,option4,option6</product>
+      <product group="CDY-AN95">option1,option2,option3,option4,option6</product>
+      <product group="CDY-TN00">option1,option2,option3,option4,option6</product>
+      <product group="CDY-TN20">option1,option2,option3,option4,option6</product>
+      <product group="CDY-TN90">option1,option2,option3,option4,option6</product>
+      <product group="CDY-TN95">option1,option2,option3,option4,option6</product>
+      <product group="CDL-AN50">option1,option2,option3,option4,option6</product>
+      <product group="ANG-AN00">option1,option2,option3,option4,option6</product>
+      <product group="ANG-TN00">option1,option2,option3,option4,option6</product>
+      <product group="BRQ-AN00">option1,option2,option3,option4,option6</product>
+      <product group="BRQ-TN00">option1,option2,option3,option4,option6</product>
+      <product group="HJC-AN00">option1,option2,option3,option4,option6</product>
+      <product group="HJC-TN00">option1,option2,option3,option4,option6</product>
+      <product group="JSC-AN00">option1,option2,option3,option4,option6</product>
+      <product group="JSC-AN10">option1,option2,option3,option4,option6</product>
+      <product group="JSC-AN90">option1,option2,option3,option4,option6</product>
+      <product group="JSC-TN00">option1,option2,option3,option4,option6</product>
+      <product group="EBG-AN00">option1,option2,option3,option4,option6</product>
+      <product group="EBG-AN10">option1,option2,option3,option4,option6</product>
+      <product group="EBG-TN00">option1,option2,option3,option4,option6</product>
+      <product group="TEL-AN00">option1,option2,option3,option4,option6</product>
+      <product group="TEL-AN00a">option1,option2,option3,option4,option6</product>
+      <product group="TEL-TN00">option1,option2,option3,option4,option6</product>
+      <product group="FRL-AN00">option1,option2,option3,option4,option6</product>
+      <product group="FRL-AN00a">option1,option2,option3,option4,option6</product>
+      <product group="FRL-TN00">option1,option2,option3,option4,option6</product>
+      <product group="MRX-AN19">option1,option2,option3,option4,option6</product>
+      <product group="KRJ-AN00">option1,option2,option3,option4,option6</product>
+      <product group="BAH3-AN10">option1,option2,option3,option4,option6</product>
+      <product group="OCE-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="OCE-AN00m">option1,option2,option3,option4,option6,option8</product>
+      <product group="OCE-AN01">option1,option2,option3,option4,option6,option8</product>
+      <product group="OCE-AN10">option1,option2,option3,option4,option6,option8</product>
+      <product group="OCE-TN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOH-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOH-TN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOH-AN01">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOH-N04">option2,option3</product>
+      <product group="NOH-N09">option2,option3</product>
+      <product group="NOH-N24">option2,option3</product>
+      <product group="NOH-N29">option2,option3</product>
+      <product group="NOP-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOP-AN00P">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOP-AN01P">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOP-TN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="NOP-N09">option2,option3</product>
+      <product group="NOP-N29">option2,option3</product>
+      <product group="TET-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="TET-AN10">option1,option2,option3,option4,option6,option8</product>
+      <product group="ABR-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="ABR-N09">option2,option3</product>
+      <product group="ABR-N29">option2,option3</product>
+      <product group="JAD-AN00">option1,option2,option3,option4,option6,option8</product>
+      <product group="JAD-N09">option2,option3</product>
+      <product group="JAD-N29">option2,option3</product>
+    </ProductList>
+    <ParamList>
+      <option group="option1">5,3,15000,35000,30,30,7,10,4,4</option>
+      <option group="option2">5,3,15000,35000,30,30,7,10,4,4</option>
+      <option group="option3">30,1,0,0,30,604800,86400,604800,4,4</option>
+      <option group="option4">5,3,15000,35000,30,30,7,30,4,4</option>
+      <option group="option5">5,3,15000,35000,30,30,7,10,4,4</option>
+      <option group="option6">2,3,200000,500000,30,30,2,10,4,4</option>
+      <option group="option7">5,3,15000,35000,30,30,7,10,4,4</option>
+    </ParamList>
+    <APKInfo packageName="AllSceneDisableEndc" param="option1"></APKInfo>
+    <APKInfo packageName="SavePowerDisableEndc" param="option2"></APKInfo>
+    <APKInfo packageName="com.huawei.appmarket" param="option3"></APKInfo>
+    <APKInfo packageName="com.zwanoo.android.speedtest" param="option3"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.sgame" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.pubgmhd" param="option4"></APKInfo>
+    <APKInfo packageName="com.happyelements.AndroidAnimal" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.speedmobile" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.cf" param="option4"></APKInfo>
+    <APKInfo packageName="com.qqgame.hlddz" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.KiHan" param="option4"></APKInfo>
+    <APKInfo packageName="com.blizzard.wtcg.hearthstone" param="option4"></APKInfo>
+    <APKInfo packageName="cn.jj" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.gwgo" param="option4"></APKInfo>
+    <APKInfo packageName="com.netease.onmyoji" param="option4"></APKInfo>
+    <APKInfo packageName="com.ztgame.bob" param="option4"></APKInfo>
+    <APKInfo packageName="com.netease.onmyoji.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.peng" param="option4"></APKInfo>
+    <APKInfo packageName="com.mfp.jelly.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.miHoYo.enterprise.NGHSoD" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.supercell.clashroyale" param="option4"></APKInfo>
+    <APKInfo packageName="com.netease.dwrg.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.miHoYo.bh3.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.ig" param="option4"></APKInfo>
+    <APKInfo packageName="com.bf.sgs.hdexp.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.netease.mc.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.qqgame.happymj" param="option4"></APKInfo>
+    <APKInfo packageName="com.netease.mrzh.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.supercell.clashofclans.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="yuanqiqishi.game.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.qqgame.xq" param="option4"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.supercell.clashofclans" param="option4"></APKInfo>
+    <APKInfo packageName="com.minitech.miniworld.huawei" param="option4"></APKInfo>
+    <APKInfo packageName="com.studiowildcard.wardrumstudios.ark" param="option4"></APKInfo>
+    <APKInfo packageName="com.t2ksports.nba2k19and" param="option4"></APKInfo>
+    <APKInfo packageName="com.zhihu.android" param="option5"></APKInfo>
+    <APKInfo packageName="com.kmxs.reader" param="option5"></APKInfo>
+    <APKInfo packageName="com.lechuan.midunovel" param="option5"></APKInfo>
+    <APKInfo packageName="com.qq.reader" param="option5"></APKInfo>
+    <APKInfo packageName="com.qidian.QDReader" param="option5"></APKInfo>
+    <APKInfo packageName="com.chaozh.iReaderFree" param="option5"></APKInfo>
+    <APKInfo packageName="com.tencent.weread" param="option5"></APKInfo>
+    <APKInfo packageName="com.qihoo.haosou.subscribe.vertical.book" param="option5"></APKInfo>
+    <APKInfo packageName="com.ushaqi.zhuishushenqi.adfree" param="option5"></APKInfo>
+    <APKInfo packageName="com.shuqi.controller" param="option5"></APKInfo>
+    <APKInfo packageName="com.jjwxc.reader" param="option5"></APKInfo>
+    <APKInfo packageName="com.handsgo.jiakao.android" param="option5"></APKInfo>
+    <APKInfo packageName="com.yuewen.cooperate.reader.free" param="option5"></APKInfo>
+    <APKInfo packageName="com.chaozh.iReader.dj" param="option5"></APKInfo>
+    <APKInfo packageName="com.alukaxi.bqshugg.blue" param="option5"></APKInfo>
+    <APKInfo packageName="com.ophone.reader.ui" param="option5"></APKInfo>
+    <APKInfo packageName="com.ushaqi.zhuishushenqi" param="option5"></APKInfo>
+    <APKInfo packageName="cc.quanben.novel" param="option5"></APKInfo>
+    <APKInfo packageName="com.qiyi.video.reader" param="option5"></APKInfo>
+    <APKInfo packageName="com.wifi.reader.free" param="option5"></APKInfo>
+    <APKInfo packageName="com.qq.ac.android" param="option5"></APKInfo>
+    <APKInfo packageName="com.flyersoft.seekbooks" param="option5"></APKInfo>
+    <APKInfo packageName="com.sogou.novel" param="option5"></APKInfo>
+    <APKInfo packageName="com.baidu.yuedu" param="option5"></APKInfo>
+    <APKInfo packageName="com.bqgmfdzs.reader" param="option5"></APKInfo>
+    <APKInfo packageName="com.huawei.hnreader" param="option5"></APKInfo>
+    <APKInfo packageName="com.nd.android.pandareader" param="option5"></APKInfo>
+    <APKInfo packageName="com.tadu.read" param="option5"></APKInfo>
+    <APKInfo packageName="com.huawei.hwireader" param="option5"></APKInfo>
+    <APKInfo packageName="com.autonavi.minimap" param="option6"></APKInfo>
+    <APKInfo packageName="com.baidu.BaiduMap" param="option6"></APKInfo>
+    <APKInfo packageName="com.sdu.didi.psnger" param="option6"></APKInfo>
+    <APKInfo packageName="com.tencent.map" param="option6"></APKInfo>
+    <APKInfo packageName="com.didapinche.booking" param="option6"></APKInfo>
+    <APKInfo packageName="com.jingyao.easybike" param="option6"></APKInfo>
+    <APKInfo packageName="com.ovital.ovitalMap" param="option6"></APKInfo>
+    <APKInfo packageName="com.ygkj.chelaile.standard" param="option6"></APKInfo>
+    <APKInfo packageName="com.mygolbs.mybus" param="option6"></APKInfo>
+    <APKInfo packageName="com.google.android.apps.maps" param="option6"></APKInfo>
+    <APKInfo packageName="com.sina.weibo" param="option7"></APKInfo>
+    <APKInfo packageName="com.ss.android.article.news" param="option7"></APKInfo>
+    <APKInfo packageName="com.tencent.mm" param="option7"></APKInfo>
+    <APKInfo packageName="com.tencent.mobileqq" param="option7"></APKInfo>
+    <APKInfo packageName="LowPowerAreaSwitch" param="option8"></APKInfo>
+  </CloseNR_APPList>
+  <Uid2r4r_APPList>
+    <Uid2r4rEnable>1</Uid2r4rEnable>
+    <Uid4r2rTime>50</Uid4r2rTime>
+    <Uid4r2rPenaltyTime>300</Uid4r2rPenaltyTime>
+    <Uid2r4rCount>6</Uid2r4rCount>
+    <Uid4r2rThreshold>3000</Uid4r2rThreshold>
+    <Uid2r4rThreshold>10000</Uid2r4rThreshold>
+    <Uid2r4rCtrlRule>1</Uid2r4rCtrlRule>
+    <APKInfo packageName="com.tencent.tmgp.sgame"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.pubgmhd"></APKInfo>
+    <APKInfo packageName="com.tencent.pao"></APKInfo>
+    <APKInfo packageName="com.happyelements.AndroidAnimal"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.speedmobile"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.cf"></APKInfo>
+    <APKInfo packageName="com.qqgame.hlddz"></APKInfo>
+    <APKInfo packageName="com.tencent.KiHan"></APKInfo>
+    <APKInfo packageName="com.blizzard.wtcg.hearthstone"></APKInfo>
+    <APKInfo packageName="cn.jj"></APKInfo>
+    <APKInfo packageName="com.tencent.gwgo"></APKInfo>
+    <APKInfo packageName="com.netease.onmyoji"></APKInfo>
+    <APKInfo packageName="com.ztgame.bob"></APKInfo>
+    <APKInfo packageName="com.netease.onmyoji.huawei"></APKInfo>
+    <APKInfo packageName="com.tencent.peng"></APKInfo>
+    <APKInfo packageName="com.mfp.jelly.huawei"></APKInfo>
+    <APKInfo packageName="com.miHoYo.enterprise.NGHSoD"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.supercell.clashroyale"></APKInfo>
+    <APKInfo packageName="com.netease.dwrg.huawei"></APKInfo>
+    <APKInfo packageName="com.miHoYo.bh3.huawei"></APKInfo>
+    <APKInfo packageName="com.tencent.ig"></APKInfo>
+    <APKInfo packageName="com.bf.sgs.hdexp.huawei"></APKInfo>
+    <APKInfo packageName="com.netease.mc.huawei"></APKInfo>
+    <APKInfo packageName="com.qqgame.happymj"></APKInfo>
+    <APKInfo packageName="com.netease.mrzh.huawei"></APKInfo>
+    <APKInfo packageName="com.supercell.clashofclans.huawei"></APKInfo>
+    <APKInfo packageName="yuanqiqishi.game.huawei"></APKInfo>
+    <APKInfo packageName="com.tencent.qqgame.xq"></APKInfo>
+    <APKInfo packageName="com.tencent.tmgp.supercell.clashofclans"></APKInfo>
+    <APKInfo packageName="com.minitech.miniworld.huawei"></APKInfo>
+    <APKInfo packageName="com.studiowildcard.wardrumstudios.ark"></APKInfo>
+    <APKInfo packageName="com.t2ksports.nba2k19and"></APKInfo>
+    <APKInfo packageName="com.zhihu.android"></APKInfo>
+    <APKInfo packageName="com.kmxs.reader"></APKInfo>
+    <APKInfo packageName="com.lechuan.midunovel"></APKInfo>
+    <APKInfo packageName="com.qq.reader"></APKInfo>
+    <APKInfo packageName="com.qidian.QDReader"></APKInfo>
+    <APKInfo packageName="com.chaozh.iReaderFree"></APKInfo>
+    <APKInfo packageName="com.tencent.weread"></APKInfo>
+    <APKInfo packageName="com.qihoo.haosou.subscribe.vertical.book"></APKInfo>
+    <APKInfo packageName="com.ushaqi.zhuishushenqi.adfree"></APKInfo>
+    <APKInfo packageName="com.shuqi.controller"></APKInfo>
+    <APKInfo packageName="com.jjwxc.reader"></APKInfo>
+    <APKInfo packageName="com.handsgo.jiakao.android"></APKInfo>
+    <APKInfo packageName="com.yuewen.cooperate.reader.free"></APKInfo>
+    <APKInfo packageName="com.chaozh.iReader.dj"></APKInfo>
+    <APKInfo packageName="com.alukaxi.bqshugg.blue"></APKInfo>
+    <APKInfo packageName="com.ophone.reader.ui"></APKInfo>
+    <APKInfo packageName="com.ushaqi.zhuishushenqi"></APKInfo>
+    <APKInfo packageName="cc.quanben.novel"></APKInfo>
+    <APKInfo packageName="com.qiyi.video.reader"></APKInfo>
+    <APKInfo packageName="com.wifi.reader.free"></APKInfo>
+    <APKInfo packageName="com.qq.ac.android"></APKInfo>
+    <APKInfo packageName="com.flyersoft.seekbooks"></APKInfo>
+    <APKInfo packageName="com.sogou.novel"></APKInfo>
+    <APKInfo packageName="com.baidu.yuedu"></APKInfo>
+    <APKInfo packageName="com.bqgmfdzs.reader"></APKInfo>
+    <APKInfo packageName="com.huawei.hnreader"></APKInfo>
+    <APKInfo packageName="com.nd.android.pandareader"></APKInfo>
+    <APKInfo packageName="com.tadu.read"></APKInfo>
+    <APKInfo packageName="com.huawei.hwireader"></APKInfo>
+    <APKInfo packageName="com.tencent.news"></APKInfo>
+    <APKInfo packageName="com.ss.android.article.news"></APKInfo>
+    <APKInfo packageName="com.sohu.newsclient"></APKInfo>
+    <APKInfo packageName="com.ss.android.article.lite"></APKInfo>
+    <APKInfo packageName="com.tencent.reading"></APKInfo>
+    <APKInfo packageName="com.netease.newsreader.activity"></APKInfo>
+    <APKInfo packageName="com.jifen.qukan"></APKInfo>
+    <APKInfo packageName="flipboard.cn"></APKInfo>
+    <APKInfo packageName="com.ifeng.news2"></APKInfo>
+    <APKInfo packageName="com.hipu.yidian"></APKInfo>
+    <APKInfo packageName="com.songheng.eastnews"></APKInfo>
+    <APKInfo packageName="com.myzaker.ZAKER_Phone"></APKInfo>
+    <APKInfo packageName="com.cashtoutiao"></APKInfo>
+    <APKInfo packageName="com.coohua.xinwenzhuan"></APKInfo>
+    <APKInfo packageName="cn.youth.news"></APKInfo>
+    <APKInfo packageName="com.tencent.news.lite"></APKInfo>
+    <APKInfo packageName="com.budejie.www"></APKInfo>
+    <APKInfo packageName="com.sina.news"></APKInfo>
+    <APKInfo packageName="com.maihan.tredian"></APKInfo>
+    <APKInfo packageName="com.autonavi.minimap"></APKInfo>
+    <APKInfo packageName="com.baidu.BaiduMap"></APKInfo>
+    <APKInfo packageName="com.sdu.didi.psnger"></APKInfo>
+    <APKInfo packageName="com.tencent.map"></APKInfo>
+    <APKInfo packageName="com.didapinche.booking"></APKInfo>
+    <APKInfo packageName="com.jingyao.easybike"></APKInfo>
+    <APKInfo packageName="com.ovital.ovitalMap"></APKInfo>
+    <APKInfo packageName="com.ygkj.chelaile.standard"></APKInfo>
+    <APKInfo packageName="com.mygolbs.mybus"></APKInfo>
+    <APKInfo packageName="com.google.android.apps.maps"></APKInfo>
+    <APKInfo packageName="com.huawei.android.launcher"></APKInfo>
+    <APKInfo packageName="com.sina.weibo"></APKInfo>
+    <APKInfo packageName="com.tencent.mm"></APKInfo>
+    <APKInfo packageName="com.tencent.mobileqq"></APKInfo>
+    <APKInfo packageName="com.alibaba.android.rimet"></APKInfo>
+    <APKInfo packageName="com.immomo.momo"></APKInfo>
+    <APKInfo packageName="com.p1.mobile.putong"></APKInfo>
+    <APKInfo packageName="com.tencent.wework"></APKInfo>
+    <APKInfo packageName="cn.soulapp.android"></APKInfo>
+    <APKInfo packageName="com.taobao.qianniu"></APKInfo>
+    <APKInfo packageName="com.tencent.minihd.qq"></APKInfo>
+    <APKInfo packageName="com.xiaoenai.app"></APKInfo>
+    <APKInfo packageName="com.tencent.qqlite"></APKInfo>
+    <APKInfo packageName="com.zzw.october"></APKInfo>
+    <APKInfo packageName="com.zenmen.palmchat"></APKInfo>
+    <APKInfo packageName="im.yixin"></APKInfo>
+    <APKInfo packageName="com.shinemo.qoffice.zjcc"></APKInfo>
+    <APKInfo packageName="com.ancda.parents"></APKInfo>
+    <APKInfo packageName="com.yiyou.ga"></APKInfo>
+    <APKInfo packageName="com.welove520.welove"></APKInfo>
+    <APKInfo packageName="com.yunzhan.liaobei"></APKInfo>
+    <APKInfo packageName="com.tencent.weworklocal"></APKInfo>
+    <APKInfo packageName="com.tencent.eim"></APKInfo>
+    <APKInfo packageName="com.xxt.jxlxandroid"></APKInfo>
+    <APKInfo packageName="com.babychat"></APKInfo>
+    <APKInfo packageName="com.chinasofti.rcs"></APKInfo>
+    <APKInfo packageName="im.chaoxin"></APKInfo>
+    <APKInfo packageName="com.yx"></APKInfo>
+    <APKInfo packageName="com.duowan.gamevoice"></APKInfo>
+    <APKInfo packageName="com.tencent.mobileqqi"></APKInfo>
+    <APKInfo packageName="com.uneed.yuni"></APKInfo>
+    <APKInfo packageName="com.immuxin.muxin"></APKInfo>
+    <APKInfo packageName="com.mostone.life"></APKInfo>
+    <APKInfo packageName="club.jijigugu.yiguan"></APKInfo>
+    <APKInfo packageName="com.cmcc.jx.ict.contact"></APKInfo>
+    <APKInfo packageName="org.thoughtcrime.securesms"></APKInfo>
+    <APKInfo packageName="com.microsoft.teams"></APKInfo>
+    <APKInfo packageName="net.whty.app.eyu.ycz"></APKInfo>
+    <APKInfo packageName="im.thebot.messenger"></APKInfo>
+    <APKInfo packageName="com.ss.android.lark"></APKInfo>
+    <APKInfo packageName="com.ixl.talk.xlmm"></APKInfo>
+    <APKInfo packageName="com.smile.gifmaker"></APKInfo>
+    <APKInfo packageName="com.ss.android.ugc.aweme"></APKInfo>
+    <APKInfo packageName="com.baidu.haokan"></APKInfo>
+    <APKInfo packageName="com.ss.android.ugc.live"></APKInfo>
+    <APKInfo packageName="com.tencent.weishi"></APKInfo>
+    <APKInfo packageName="com.jm.video"></APKInfo>
+    <APKInfo packageName="com.kuaishou.nebula"></APKInfo>
+    <APKInfo packageName="my.maya.android"></APKInfo>
+    <APKInfo packageName="com.bokecc.dance"></APKInfo>
+    <APKInfo packageName="com.meitu.meipaimv"></APKInfo>
+    <APKInfo packageName="com.ss.android.ugc.livelite"></APKInfo>
+    <APKInfo packageName="com.sup.android.superb"></APKInfo>
+    <APKInfo packageName="com.baidu.minivideo"></APKInfo>
+    <APKInfo packageName="com.ss.android.ugc.aweme.lite"></APKInfo>
+    <APKInfo packageName="tv.yixia.bobo"></APKInfo>
+    <APKInfo packageName="com.hisunflytone.android"></APKInfo>
+    <APKInfo packageName="com.happyteam.dubbingshow"></APKInfo>
+    <APKInfo packageName="com.tencent.firevideo"></APKInfo>
+    <APKInfo packageName="com.melon.lazymelon"></APKInfo>
+    <APKInfo packageName="com.ifeng.newvideo"></APKInfo>
+    <APKInfo packageName="com.kwai.thanos"></APKInfo>
+    <APKInfo packageName="com.wandoujia.eyepetizer"></APKInfo>
+    <APKInfo packageName="com.yixia.videoeditor"></APKInfo>
+    <APKInfo packageName="com.yixia.xiaokaxiu"></APKInfo>
+    <APKInfo packageName="com.realcloud.loochadroid.college"></APKInfo>
+    <APKInfo packageName="tv.yilan.howto.app"></APKInfo>
+    <APKInfo packageName="com.tianchen.qgvideo"></APKInfo>
+    <APKInfo packageName="com.hskyl.spacetime"></APKInfo>
+    <APKInfo packageName="com.baomihua.smallvideo"></APKInfo>
+    <APKInfo packageName="com.qukandian.video"></APKInfo>
+  </Uid2r4r_APPList>
+  <TxPowerCtrl_APPList>
+    <TxPowerCtrlEnable>1</TxPowerCtrlEnable>
+    <TxPowerCtrlTimer>30</TxPowerCtrlTimer>
+    <TxPowerCtrlRule>2</TxPowerCtrlRule>
+    <TxPowerCtrlApkName packageName="com.tencent.tmgp.sgame"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.tmgp.pubgmhd"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.tmgp.cf"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.blizzard.wtcg.hearthstone"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="yuanqiqishi.game.huawei"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.kihan"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.supercell.clashofclans.huawei"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.supercell.clashroyale.huawei"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.qt.sns"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.tmgp.supercell.clashroyale"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.tmgp.supercell.clashofclans"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.netease.hyxd"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.netease.mrzh.huawei"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.bilibili.fatego"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.supercell.boombeach.huawei"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.syezon.lab.networkspeed"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.speed.networkwork"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.speed.master"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.speedometer.networkwork"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.mxm.networkspeed"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.shere.easynetworkspeedmeter"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.quickbird.speedtestmaster"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="org.zwanoo.android.speedtest"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.codesector.speedview.free"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.network.test"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.nespeedt.artifact"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.uusense.speed"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.greenexpress"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.sagocloud.netspeeder.anan"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.wrielessspeed"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.jie.speed"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.cmsecurity.wifisecurity"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.jie.network"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.xiaonanjiao.speedtest"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="cn.chinabda.netmaster"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.wifimanager"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.huawei.appmarket"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.tencent.android.qqdownloader"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.taptap"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.pp.assistant"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.m4399.gamecenter"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.wandoujia.phoenix2"></TxPowerCtrlApkName>
+    <TxPowerCtrlApkName packageName="com.huawei.genexcloud.speedtest"></TxPowerCtrlApkName>
+  </TxPowerCtrl_APPList>
+</AppConfig>

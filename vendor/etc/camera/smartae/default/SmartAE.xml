@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AEConfig>
+    <FaceAE>
+    <minArea>4000</minArea>
+    <darkThreshold>70</darkThreshold>
+    <brightThreshold>170</brightThreshold>
+    <verydarkThreshold>35</verydarkThreshold>
+    <verybrightThreshold>200</verybrightThreshold>
+    <faceEVComp_MAX>1000</faceEVComp_MAX>
+    <faceEVComp_MIN>-1000</faceEVComp_MIN>
+    <overExpoThreshold>25</overExpoThreshold>
+    <underExpoThreshold>25</underExpoThreshold>
+    </FaceAE>
+
+    <HistAE>
+	<OVEREXPO_2UnStable_TH>6000</OVEREXPO_2UnStable_TH>    
+	<OVEREXPO_2Stable_TH>5000</OVEREXPO_2Stable_TH>
+	<UNDEREXPO_2UnStable_TH>7200</UNDEREXPO_2UnStable_TH>
+	<UNDEREXPO_2Stable_TH>5500</UNDEREXPO_2Stable_TH>
+	<EXPO_ISO_TH>60</EXPO_ISO_TH>
+	<OVEREXPO_2UnStable_TH_Dark>6000</OVEREXPO_2UnStable_TH_Dark>
+	<OVEREXPO_2Stable_TH_Dark>5000</OVEREXPO_2Stable_TH_Dark>
+	<UNDEREXPO_2UnStable_TH_Dark>51200</UNDEREXPO_2UnStable_TH_Dark>
+	<UNDEREXPO_2Stable_TH_Dark>51200</UNDEREXPO_2Stable_TH_Dark>
+	<MULTIPLE>2</MULTIPLE>
+	<EMPTYBIN_2Stable>6</EMPTYBIN_2Stable>
+	<EMPTYBIN_2UnStable>10</EMPTYBIN_2UnStable>
+
+	<LvDefault2Night>30</LvDefault2Night>  
+	<LvNight2Default>10</LvNight2Default>
+
+	<LvDefault2IndoorMin>4</LvDefault2IndoorMin>    
+	<LvDefault2IndoorMax>20</LvDefault2IndoorMax>
+	<LvIndoor2DefaultMin>1</LvIndoor2DefaultMin>
+	<LvIndoor2DefaultMax>28</LvIndoor2DefaultMax>
+
+	<mid2over_HLIGHTR>10</mid2over_HLIGHTR>      
+	<over2mid_HLIGHTR>1</over2mid_HLIGHTR>
+	<mid2over_MLIGHTR>300</mid2over_MLIGHTR>
+	<nightLightEVComp>-600</nightLightEVComp>
+	<histEVCompMax>1000</histEVCompMax>
+	<histEVCompMin>0</histEVCompMin>
+	<chOverEVCompMin>-600</chOverEVCompMin>
+	<isHDRExpoMaxThre>16</isHDRExpoMaxThre>
+    </HistAE>
+
+	
+	<DepthAE>
+	<depthAEFlag>1</depthAEFlag>
+	<depthEVCompMax>400</depthEVCompMax>
+	<depthEVCompMin>-400</depthEVCompMin>
+	</DepthAE>
+	
+    <ISPCCMCOMP>
+	<ccSingleCompPixel_MaxThreshold>220</ccSingleCompPixel_MaxThreshold>  
+	<ccSingleCompPixel_MinThreshold>10</ccSingleCompPixel_MinThreshold>
+	<ccSingleForFaceCompPixel_MaxThreshold>200</ccSingleForFaceCompPixel_MaxThreshold>
+	<ccSingleForFaceCompPixel_MinThreshold>30</ccSingleForFaceCompPixel_MinThreshold>
+	<ccSingleCompThreshold>100</ccSingleCompThreshold>  
+	<ccSingleCompForFaceRectsThreshold>10</ccSingleCompForFaceRectsThreshold>
+    </ISPCCMCOMP>
+
+	
+    <HdrCompAjust>
+    <hdrType0_underExposureAdjust>280</hdrType0_underExposureAdjust> 	
+    <hdrType0_overExposureAdjust>256</hdrType0_overExposureAdjust> 		
+    <hdrType1_underExposureAdjust>80</hdrType1_underExposureAdjust> 	
+    <hdrType1_overExposureAdjust>256</hdrType1_overExposureAdjust> 		
+    <hdrType2_underExposureAdjust>280</hdrType2_underExposureAdjust> 	
+    <hdrType2_overExposureAdjust>205</hdrType2_overExposureAdjust> 		
+    <hdrType3_underExposureAdjust>280</hdrType3_underExposureAdjust> 	
+    <hdrType3_overExposureAdjust>256</hdrType3_overExposureAdjust> 		
+    <hdrType5_underExposureAdjust>256</hdrType5_underExposureAdjust> 	
+    <hdrType5_overExposureAdjust>256</hdrType5_overExposureAdjust> 		
+    </HdrCompAjust>
+
+</AEConfig>

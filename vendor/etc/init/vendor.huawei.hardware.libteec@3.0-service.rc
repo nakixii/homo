@@ -1,0 +1,4 @@
+service libteec-3-0 /vendor/bin/hw/vendor.huawei.hardware.libteec@3.0-service
+    class early_hal
+    user system
+    group system readproc

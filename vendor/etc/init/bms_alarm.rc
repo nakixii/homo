@@ -1,0 +1,8 @@
+on charger
+    start bms_alarm
+
+service bms_alarm /vendor/bin/bms_alarm
+    user system
+    group system
+    disabled
+    oneshot

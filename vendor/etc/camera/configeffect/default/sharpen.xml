@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<module_calibration name="ARSR">
+<filter_num>12</filter_num>
+<cali_data0>  256,    6,   10,    2,    6,   60,   76,    2,    6,   60,   76,   80,  224,    8,    1</cali_data0>
+<cali_data1>  512,    6,   10,    2,    6,   56,   72,    2,    6,   56,   72,   72,  200,    7,    1</cali_data1>
+<cali_data2>  768,    6,   10,    3,    6,   48,   64,    3,    6,   48,   64,   72,  192,    6,    1</cali_data2>
+<cali_data3> 1024,    6,   10,    3,    7,   48,   64,    3,    7,   48,   64,   64,  192,    5,    1</cali_data3>
+<cali_data4> 1536,    6,   10,    3,    7,   48,   64,    3,    7,   48,   64,   64,  180,    4,    2</cali_data4>
+<cali_data5> 2048,    5,    9,    4,    7,   48,   64,    4,    7,   48,   64,   50,  180,    4,    2</cali_data5>
+<cali_data6> 2560,    5,    9,    4,    7,   48,   64,    4,    7,   48,   64,   50,  180,    3,    2</cali_data6>
+<cali_data7> 3072,    5,    9,    4,    8,   42,   58,    4,    8,   42,   58,   40,  172,    3,    2</cali_data7>
+<cali_data8> 4096,    5,    9,    4,    8,   42,   58,    4,    8,   42,   58,   40,  172,    2,    2</cali_data8>
+<cali_data9> 5120,    5,    9,    4,    8,   42,   58,    4,    8,   42,   58,   40,  172,    2,    2</cali_data9>
+<cali_data10> 6656,    5,    9,    4,   10,   42,   58,    4,   10,   42,   58,   40,  160,    1,    2</cali_data10>
+<cali_data11> 8192,    4,    8,    4,   12,   42,   58,    4,   12,   42,   58,   36,  160,    1,    2</cali_data11>
+<cali_data12>65535,    4,    8,    4,   12,   42,   58,    4,   12,   42,   58,   36,  160,    1,    2</cali_data12>
+<cali_data13>65535,    4,    8,    4,   12,   42,   58,    4,   12,   42,   58,   36,  160,    1,    2</cali_data13>
+<cali_data14>65535,    4,    8,    4,   12,   42,   58,    4,   12,   42,   58,   36,  160,    1,    2</cali_data14>
+<cali_data15>65535,    4,    8,    4,   12,   42,   58,    4,   12,   42,   58,   36,  160,    1,    2</cali_data15>
+<textureanalysisen>1</textureanalysisen>
+<diintplen>0</diintplen>
+<nointplen>1</nointplen>
+<sharpenen>1</sharpenen>
+<shootdetecten>1</shootdetecten>
+<skinctrlen>1</skinctrlen>
+<yexpectvalue>150</yexpectvalue>
+<uexpectvalue>113</uexpectvalue>
+<vexpectvalue>145</vexpectvalue>
+<shootgradsubthrl>-16</shootgradsubthrl>
+<shootgradsubthrh>0</shootgradsubthrh>
+<shootgradalpha>20</shootgradalpha>
+<intplshootctrl>4</intplshootctrl>
+<difflow>15</difflow>
+<diffhigh>20</diffhigh>
+<shptocuthigh0>255</shptocuthigh0>
+<shptocuthigh1>255</shptocuthigh1>
+<blendshshootctrl>2</blendshshootctrl>
+<sharpshootctrll>30</sharpshootctrll>
+<sharpshootctrlh>100</sharpshootctrlh>
+<y0_SharpAmt1>320</y0_SharpAmt1>
+<y1_SharpAmt1>200</y1_SharpAmt1>
+<y0_EdgeAmt>320</y0_EdgeAmt>
+<y1_EdgeAmt>200</y1_EdgeAmt>
+<centery>612</centery>
+<centerx>816</centerx>
+<shiftn>15</shiftn>
+<lscoffsetthd>1536</lscoffsetthd>
+<lscslope>0</lscslope>
+<lscoffsetmax>128</lscoffsetmax>
+</module_calibration>

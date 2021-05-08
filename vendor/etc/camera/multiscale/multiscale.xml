@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG_PARA>
+
+
+
+    <THRESHOLD isoThreshold="800" zoomThreshold="2" fpsThreshold="60"> <!-- fpsThreshold: High Speed Video fps threshold -->
+    </THRESHOLD>
+    <DEBUG_MODE status="off" rawnfdsPreview="off" rawnfdsCapture="off"
+        yuvnfdsPreview="off" yuvnfdsCapture="off">
+    </DEBUG_MODE>
+    <hwcamera enable="on">
+        <preview rawnfdsInZoom="off" rawnfdsInBright="off" rawnfdsInDark="off"
+            yuvnfdsInZoom="on" yuvnfdsInBright="on" yuvnfdsInDark="on"/>
+        <video rawnfdsInZoom="on" rawnfdsInBright="on" rawnfdsInDark="on"
+            yuvnfdsInZoom="on" yuvnfdsInBright="on" yuvnfdsInDark="on"/>
+        <capture rawnfdsInZoom="on" rawnfdsInBright="on" rawnfdsInDark="on"
+            yuvnfdsInZoom="on" yuvnfdsInBright="on" yuvnfdsInDark="on"/>
+    </hwcamera>
+    <thirdparty enable="on">
+        <preview rawnfdsInZoom="off" rawnfdsInBright="off" rawnfdsInDark="off"
+            yuvnfdsInZoom="on" yuvnfdsInBright="on" yuvnfdsInDark="on"/>
+        <video rawnfdsInZoom="off" rawnfdsInBright="off" rawnfdsInDark="off"
+            yuvnfdsInZoom="on" yuvnfdsInBright="on" yuvnfdsInDark="on"/>
+        <capture rawnfdsInZoom="on" rawnfdsInBright="on" rawnfdsInDark="on"
+            yuvnfdsInZoom="on" yuvnfdsInBright="on" yuvnfdsInDark="on"/>
+    </thirdparty>
+</CONFIG_PARA>

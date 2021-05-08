@@ -1,0 +1,28 @@
+on property:init.svc.mediadrm=running
+    mkdir /data/vendor/mediadrm 0770 media mediadrm
+    mkdir  /data/vendor/mediadrm/chinadrm 0770 media mediadrm
+    mkdir  /data/vendor/mediadrm/chinadrm/securestore/ 0770 media mediadrm
+    copy /vendor/mediadrm/chinadrm/securestore/08F48E1AC6A9933EA1BF8B4B9B4E57C7.dat /data/vendor/mediadrm/chinadrm/securestore/08F48E1AC6A9933EA1BF8B4B9B4E57C7.dat
+    copy /vendor/mediadrm/chinadrm/securestore/321EEC4A97EDA9700932BD43FEBF7849.dat /data/vendor/mediadrm/chinadrm/securestore/321EEC4A97EDA9700932BD43FEBF7849.dat
+    copy /vendor/mediadrm/chinadrm/securestore/986503F7F2454B764756627464A50D07.dat /data/vendor/mediadrm/chinadrm/securestore/986503F7F2454B764756627464A50D07.dat
+    copy /vendor/mediadrm/chinadrm/securestore/FA4ACE8693F11B77F568985CFE90E108.dat /data/vendor/mediadrm/chinadrm/securestore/FA4ACE8693F11B77F568985CFE90E108.dat
+    chown media mediadrm /data/vendor/mediadrm/chinadrm/securestore/08F48E1AC6A9933EA1BF8B4B9B4E57C7.dat
+    chown media mediadrm /data/vendor/mediadrm/chinadrm/securestore/321EEC4A97EDA9700932BD43FEBF7849.dat
+    chown media mediadrm /data/vendor/mediadrm/chinadrm/securestore/986503F7F2454B764756627464A50D07.dat
+    chown media mediadrm /data/vendor/mediadrm/chinadrm/securestore/FA4ACE8693F11B77F568985CFE90E108.dat
+    chmod 0400 /data/vendor/mediadrm/chinadrm/securestore/08F48E1AC6A9933EA1BF8B4B9B4E57C7.dat
+    chmod 0400 /data/vendor/mediadrm/chinadrm/securestore/321EEC4A97EDA9700932BD43FEBF7849.dat
+    chmod 0400 /data/vendor/mediadrm/chinadrm/securestore/986503F7F2454B764756627464A50D07.dat
+    chmod 0400 /data/vendor/mediadrm/chinadrm/securestore/FA4ACE8693F11B77F568985CFE90E108.dat
+
+service vendor.drm-hal-1-0 /vendor/bin/hw/android.hardware.drm@1.0-service
+    interface android.hardware.drm@1.0::ICryptoFactory default
+    interface android.hardware.drm@1.0::IDrmFactory default
+    oneshot
+    disabled
+    class hal
+    user media
+    group mediadrm drmrpc system
+    ioprio rt 4
+    writepid /dev/blkio/foreground/tasks /dev/cpuset/foreground/tasks
+    setenv LD_LIBRARY_PATH /preavs/playready/lib/mediadrm:/preavs/playready/lib:/vendor/preavs/playready/lib/mediadrm:/vendor/preavs/playready/lib

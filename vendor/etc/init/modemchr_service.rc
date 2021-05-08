@@ -1,0 +1,9 @@
+# Service for mdoemchr
+service modemchr_service /vendor/bin/modemchr -m 1
+    interface vendor.huawei.hardware.modemchr@1.0::IModemchrDevice default
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    writepid /dev/cpuset/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks

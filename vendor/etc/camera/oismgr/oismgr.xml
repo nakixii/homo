@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG_PARA>
+    
+    
+    
+    
+    
+    <THRESHOLD ev1="1024" ev2="28672" deltaLens="2" waitFrmNum="5">
+    </THRESHOLD>
+    
+    <OIS_MODE zoom="on" video="on" videoBokeh="off"
+              previewBright="on" previewNormal="on" previewDark="on"
+              captureBright="on" captureNormal="on" captureDark="on">
+    </OIS_MODE>
+</CONFIG_PARA>

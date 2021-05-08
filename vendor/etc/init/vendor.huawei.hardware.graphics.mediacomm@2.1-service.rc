@@ -1,0 +1,4 @@
+service mediacomm@2.1-service vendor/bin/hw/vendor.huawei.hardware.graphics.mediacomm@2.1-service
+    class hal
+    user system
+    group system drmrpc readproc

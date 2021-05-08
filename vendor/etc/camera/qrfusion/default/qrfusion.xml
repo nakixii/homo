@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <camera_pos>3</camera_pos>
+    <fov_scale>1.00</fov_scale>
+    <BM>
+        <use_extra_candidate>1</use_extra_candidate>
+    </BM>
+	<FUSION>
+        <zoom_factor_th>1.0</zoom_factor_th>
+		<detail_ratio_max_th>256</detail_ratio_max_th>
+        <fill_mirror_flag>0</fill_mirror_flag>
+        <dth_min>24</dth_min>
+        <dth_max>48</dth_max>
+        <pyd_k>128</pyd_k>
+        <pyd_b>0</pyd_b>
+    </FUSION>
+    <lut_param>
+        <lutIso>50  100  200  400  800  1600  3200 6400</lutIso>
+        <lutvmaxth1>3  3  4  5  8  8  8  8</lutvmaxth1>
+        <lut_vctr_th0>4  4  4  4  4  4  4  4</lut_vctr_th0>
+        <lut_vctr_th1>4  4  4  4  4  4  4  4</lut_vctr_th1>
+        <lut_flat_th0>3  4  4  4  4  4  4  4</lut_flat_th0>
+        <lut_flat_th1>4  6  8  8  8  8  8  8</lut_flat_th1>
+        <wluty_th0>1024  1024  1024  1024  1024  1024  1024  1024</wluty_th0>
+        <wluty_th1>896   896   896   896   896   896   896   896</wluty_th1>
+        <wluty_th2>128   128   128   128   128   128   128   128</wluty_th2>
+        <wluty_th3>0   0   0   0   0   0   0   0</wluty_th3>
+        <wlutx_th0>8   10  12  14  15  16  16  16</wlutx_th0> 
+        <wlutx_th1>12  14  14  16  17  18  18  18</wlutx_th1>  
+        <wlutx_th2>22  24  26  28  29  30  30  30</wlutx_th2> 
+        <wlutx_th3>24  26  28  30  31  32  32  32</wlutx_th3>         
+    </lut_param>
+    <!--params for different iso-->
+    <!--mono_eps at [0.032, 0.16]-->
+    <!--color_eps at [0.04, 0.16]-->
+    <isoCount>6</isoCount>
+    <iso1>
+        <iso>512</iso>
+        <color_eps>0.04</color_eps>
+        <color_r>4</color_r>
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+    </iso1>
+    <iso2>
+        <iso>1024</iso>
+        <color_eps>0.06</color_eps>
+        <color_r>4</color_r>
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+    </iso2>
+    <iso3>
+        <iso>1536</iso>
+        <color_eps>0.08</color_eps>
+        <color_r>4</color_r>
+        <color_weight_shiftbit>3</color_weight_shiftbit>
+    </iso3>
+    <iso4>
+        <iso>2048</iso>
+        <color_eps>0.1</color_eps>
+        <color_r>4</color_r>
+        <color_weight_shiftbit>2</color_weight_shiftbit>      
+    </iso4>
+    <iso5>
+        <iso>3072</iso>
+        <color_eps>0.12</color_eps>
+        <color_r>4</color_r>
+        <color_weight_shiftbit>2</color_weight_shiftbit>
+    </iso5>
+    <iso6>
+        <iso>4096</iso>
+        <color_eps>0.12</color_eps>
+        <color_r>4</color_r>
+        <color_weight_shiftbit>2</color_weight_shiftbit>
+    </iso6>
+</Config>

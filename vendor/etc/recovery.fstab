@@ -1,0 +1,25 @@
+# blk_device                                    mount_point fs_type
+/dev/block/mmcblk1p1                            /sdcard     vfat      defaults        defaults
+defaults                                        /storage    ramdisk   defaults        defaults
+defaults                                        /dload      ramdisk   defaults        defaults
+/dev/block/bootdevice/by-name/system     /system     ext4      defaults        defaults
+/dev/block/bootdevice/by-name/vendor     /vendor     ext4      defaults        defaults
+/dev/block/bootdevice/by-name/hw_product    /hw_product    ext4      defaults        defaults
+/dev/block/bootdevice/by-name/version    /version    ext4      defaults        defaults
+/dev/block/bootdevice/by-name/cache      /cache      ext4      defaults        defaults
+/dev/block/bootdevice/by-name/userdata   /data       f2fs      defaults        length=-16384,fileencryption=aes-256-xts:aes-256-cts,reservedsize=20M
+/dev/block/bootdevice/by-name/misc       /misc       emmc      defaults        defaults
+/dev/block/bootdevice/by-name/boot       /boot       emmc      defaults        defaults
+/dev/block/bootdevice/by-name/recovery   /recovery   emmc      defaults        defaults
+/dev/block/bootdevice/by-name/cust       /cust       ext4      defaults        defaults
+/dev/block/bootdevice/by-name/uboot      /uboot      emmc      defaults        defaults
+/dev/block/bootdevice/by-name/splash2    /splash2    ext4      defaults        defaults
+/dev/block/bootdevice/by-name/3rdmodem   /3rdmodem   ext4      defaults        defaults
+/dev/block/bootdevice/by-name/system     /newsys     ext4      defaults        defaults
+/dev/block/bootdevice/by-name/modemnvm1  /mnvm1:0    ext4      defaults        defaults
+/dev/block/bootdevice/by-name/modemnvm2  /mnvm2:0    ext4      defaults        defaults
+/dev/block/bootdevice/by-name/modemlog   /mnvm3:0    ext4      defaults        defaults
+/dev/block/bootdevice/by-name/metadata   /metadata   ext4      defaults        defaults
+/dev/block/sde1                          /usb        vfat      defaults        defaults
+/dev/block/sde1                          /usb_ufs    vfat      defaults        defaults
+/dev/block/sda1                          /usb_emmc   vfat      defaults        defaults

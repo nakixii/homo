@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gnss_config>
+  <!--engine模块-->
+  <config_pe>
+    <!-- GNSS定位模式
+        用8位2进制数表示，置1为相应的模式打开，0为相应的模式关闭;
+        8位的对应关系为:  未定义 IRNSS SBAS QZSS GAL BD GLONASS GPS-->
+    <pe_fix_mode>01111111</pe_fix_mode>
+    <!--GNSS启动模式
+        AUTO：根据星历位置等自动判断冷热启动
+        COLD：冷启动，init时会删除星历，历书，位置，时间信息
+        WARM：温启动，init时会删除星历(如果STOP前有效历书不足依然不会进入温启动)
+        FAC： 工厂模式，暂未识别
+        CMCC：CMCC用例测试， 暂未识别-->
+    <pe_start_mode>AUTO</pe_start_mode>
+    <!-- lsq定位模式-->
+    <pe_lsq>N</pe_lsq>
+    <!--强星扫描开关-->
+    <pe_fast_search>Y</pe_fast_search>
+    <!-- DCXO自学习是否完成,与下面四个参数匹配,仅在共时钟手机且pe_dcxo_self_learning_switch配置为N时生效-->
+    <pe_dcxo_self_learning_complete>N</pe_dcxo_self_learning_complete>
+    <pe_common_clock_para>
+        <!--a0 a1 a2 a3，时钟补偿自学习曲线的4个参数，仅在共时钟手机且pe_dcxo_self_learning_switch配置为N时生效, 类型:int32-->
+        <a0>0</a0>
+        <a1>-262144</a1>
+        <a2>0</a2>
+        <a3>6871947</a3>
+    </pe_common_clock_para>
+    <pe_self_learning_test>
+        <!-- DCXO自学习功能是否打开,只有在打开的情况下下面的3项配置才可能生效-->
+        <pe_dcxo_self_learning_switch>Y</pe_dcxo_self_learning_switch>
+        <!-- DCXO NV 项是否可读，其中写操作常开-->
+        <pe_dcxo_nv_switch>Y</pe_dcxo_nv_switch>
+        <!-- DCXO自学习测试UTC时间可配置，仅供测试时使用，正常情况下功能关闭-->
+        <pe_dcxo_self_learning_test_utc_switch>N</pe_dcxo_self_learning_test_utc_switch>
+        <!-- DCXO自学习测试UTC时间可配置，仅供测试时使用，pe_dcxo_self_learning_test_utc_switch功能打开时使用下面的配置值-->
+        <pe_dcxo_self_learning_test_utc>190401</pe_dcxo_self_learning_test_utc>
+    </pe_self_learning_test>
+    <!--极限场景测试开关-->
+    <pe_ultimate>N</pe_ultimate>
+    <!-- 毫秒边界预测开关-->
+    <pe_ms_boundary_predict>Y</pe_ms_boundary_predict>
+    <!-- 重补预测开关-->
+    <pe_reacq_predict>Y</pe_reacq_predict>
+    <!--BIT辅助开关-->
+    <pe_bit_aiding>Y</pe_bit_aiding>
+    <!--重捕性能测试开关-->
+    <pe_reacq_test_on_off>N</pe_reacq_test_on_off>
+    <!--E911 CI测试场景回放开关-->
+    <pe_e911_replay_test>N</pe_e911_replay_test>
+    <!--trickle低功耗开关-->
+    <pe_trickle_on_off>N</pe_trickle_on_off>
+    <!--X模sync时间补偿，单位1ns-->
+    <pe_xmode_sync_compensate>27870</pe_xmode_sync_compensate>
+    <!--X模码片补偿，单位0.01chip-->
+    <pe_xmode_chip_compensate>847</pe_xmode_chip_compensate>
+    <!--打桩经纬度
+        每日CI构建仪器经纬度-->
+    <pe_stub_position>
+        <lon>126.98333333</lon>
+        <lat>37.55</lat>
+        <alt>0</alt>
+    </pe_stub_position>
+    <!--低功耗：en_enable_gnss_lowpower开关 : 0:全关 1:地理围栏 2:轨迹记录 3:全开
+                ul_vote_sleep:hifence是否投票睡眠，0:不投票  1:投票
+                ul_indoor_max_acquire_time:室内判断
+                batch周期
+                trickle睡眠时间-->
+    <pe_enable_gnss_lowpower>2#1#5#2#0</pe_enable_gnss_lowpower>
+    <!--device log等级
+        1:error, 2:warning, 3:info, 4:debug
+        优先级: error>>warning>>info>>debug-->
+    <pe_bfg_log_level>3</pe_bfg_log_level>
+    <!--数采配置项 -->
+    <pe_sample_onoff>N</pe_sample_onoff>
+    <!--数采node -->
+    <pe_sample_node>5</pe_sample_node>
+    <!--AJ功能开关-->
+    <pe_antijam_on_off>Y</pe_antijam_on_off>
+    <!--period AJ功能开关-->
+    <pe_period_aj_on_off>Y</pe_period_aj_on_off>
+    <!--auto blanking功能开关-->
+    <pe_blank_enable>N</pe_blank_enable>
+    <!--初始启动是否打开L5 RF和LNA-->
+    <pe_poweron_init_l5>N</pe_poweron_init_l5>
+    <!--spectrum功能开关-->
+    <pe_spectrum_on_off>N</pe_spectrum_on_off>
+    <!--spectrum扫描模式
+        值范围{00000000,00011111}
+    -->
+    <pe_spectrum_gnss_mode>00001111</pe_spectrum_gnss_mode>
+    <!--spectrum功能扫描次数-->
+    <pe_spectrum_times>1</pe_spectrum_times>
+    <!--report优化功能配置-->
+    <pe_report_mode>0</pe_report_mode>
+    <!--卫星掩码-->
+    <pe_mask>
+        <pe_gps_mask>ffffffff</pe_gps_mask>
+        <pe_glo_mask>3ffb</pe_glo_mask>
+        <!--BD2卫星掩码，不包括BD3卫星，若测试外场BD2性能，无需修改，若测试CI BD2性能，需改为与场景中各卫星的类型一致(注：外场13#星为IGSO类型，模拟器13#星为MEO类型)-->
+        <pe_bd_geo_mask>1f</pe_bd_geo_mask>
+        <pe_bd_igso_mask>93e0</pe_bd_igso_mask>
+        <pe_bd_meo_mask>2c00</pe_bd_meo_mask>
+        <pe_gal_mask>967945ddf</pe_gal_mask>
+        <pe_qzss_mask>7</pe_qzss_mask>
+        <pe_sbas_mask>37ad88</pe_sbas_mask>
+        <pe_gps_l5_mask>a7c203ad</pe_gps_l5_mask>
+        <pe_gal_e5a_mask>967945ddf</pe_gal_e5a_mask>
+        <!--BD3 IGSO卫星掩码，表示新增的BD3 IGSO卫星，默认为0，若外场测试要关闭BD3或B1C性能，无需修改，若测试CI B1C性能，需改为与pe_bd_igso_mask一致 -->
+        <pe_bd3_igso_mask>e000000000</pe_bd3_igso_mask>
+        <!--BD3 MEO卫星掩码，表示新增的BD3 MEO卫星，默认为1fbffc0000，若外场测试要关闭BD3或B1C性能，需改为 0，若测试CI B1C性能，需改为与pe_bd_meo_mask一致 -->
+        <pe_bd3_meo_mask>3f1fbffc0000</pe_bd3_meo_mask>
+        <!--BD3 B2A信号掩码，默认和BD3(B1C)掩码(MEO + IGSO)保持一致，设为0即可关闭B2A信号-->
+        <pe_b2a_mask>3fffbffc0000</pe_b2a_mask>
+        <pe_b2b_mask>1fbffc0000</pe_b2b_mask>
+        <pe_qzss_l5_mask>7</pe_qzss_l5_mask>
+        <pe_gps_l1c_mask>0</pe_gps_l1c_mask>
+        <pe_gal_e5b_mask>967945ddf</pe_gal_e5b_mask>
+        <pe_sbas_l5_mask>0</pe_sbas_l5_mask>
+        <pe_irnss_geo_mask>64</pe_irnss_geo_mask>
+        <pe_irnss_igso_mask>11a</pe_irnss_igso_mask>
+    </pe_mask>
+    <pos_time_rc_stub>
+        <!--是否是虚拟回放或仿真文件场景，通过weeknum打桩weekround, 类型:Y/N-->
+        <check_wkrd_by_wknm_switch>N</check_wkrd_by_wknm_switch>
+        <!--时间注入包括获取初始时间打桩, 正值为延后, 负值为提前, 单位秒, 类型:int32-->
+        <time_inject_err>0</time_inject_err>
+        <!--1:按照配置文件打桩注入位置经纬度, 0:无作用, 类型:int32-->
+        <pos_inject_stub_flag>0</pos_inject_stub_flag>
+        <!--打桩注入位置经度, 单位:角度, 类型:float64-->
+        <pos_inject_stub_lon>0</pos_inject_stub_lon>
+        <!--打桩注入位置纬度, 单位:角度, 类型:float64-->
+        <pos_inject_stub_lat>0</pos_inject_stub_lat>
+        <!--设置初始钟漂与文件历史钟漂偏差, 正值为增大, 负值为减小, 单位Hz 类型:int32-->
+        <history_clk_drift_err>0</history_clk_drift_err>
+    </pos_time_rc_stub>
+    <!--l5 like (l5 frequency point and C/A chip length = 30m, include l5c, E5a, qz-l5 and b2a) only position switch for CI test case -->
+    <pe_l5_like_only>N</pe_l5_like_only>
+    <!-- same to pe_l5_like_only, but for hi1103 C03 -->
+    <pe_gps_l5c_only>N</pe_gps_l5c_only>
+    <!--bd b1c only positioning switch for CI test case -->
+    <pe_bd_b1c_only>N</pe_bd_b1c_only>
+    <!--pvt static constraint switch, default is Y-->
+    <pe_static_constraint>Y</pe_static_constraint>
+    <!--地理围栏：d_geofence_max_speed：最大巡航速度的 m/s
+                  d_geofence_max_acceleration：最大加速度 m/(s^2)-->
+    <pe_geofence>36.0#3.0</pe_geofence>
+    <pe_low_power_mode>Y</pe_low_power_mode>
+  </config_pe>
+  <!-- log模块-->
+  <!-- log_level: 不同日志等级打开表示为：
+         DEBUG:         1000，
+         INFO:          0100，
+         WARNING:       0010，
+         ERROR:         0001
+  -->
+  <config_log>
+    <!--回放log设置 -->
+    <log_device>
+      <!-- device log 开关 1:手机启动的版本模式: factory/beta/commercial, 2:打印模式依xml为准-->
+      <log_switch_device>1</log_switch_device>
+      <!--回放log单个文件大小，单位：M，最大2000M-->
+      <log_size_device>50</log_size_device>
+      <!--回放log文件个数-->
+      <log_num_device>10</log_num_device>
+    </log_device>
+    <!-- hignss log设置-->
+    <log_hignss>
+      <!-- hignss log 开关 1:手机启动的版本模式: factory/beta/commercial, 2:打印模式依xml为准-->
+      <log_switch_hignss>1</log_switch_hignss>
+      <!-- hignss log单个文件大小，单位:M，最大2000M-->
+      <log_size_hignss>200</log_size_hignss>
+      <!-- hignss log文件个数-->
+      <log_num_hignss>20</log_num_hignss>
+      <!-- hignss log level-->
+      <log_level_hignss>1111</log_level_hignss>
+    </log_hignss>
+  </config_log>
+  <config_hignss>
+    <!-- pgps onoff mode 0:turn off; 1:turn on -->
+    <pgps_mode value="1" />
+    <!-- eph monitor switch 0:off; 1:on -->
+    <eph_monitor_switch value="0" />
+    <!-- pgps rmdl mode 0:off; 1:on -->
+    <rmdl_mode value="1" />
+    <!-- agps cold start switch N:off; Y:on -->
+    <agps_cold_start_switch>N</agps_cold_start_switch>
+    <emergency_call_mode value="2" />
+    <!-- stub lat and lon -->
+    <stubnumber value="1" />
+    <latitude1 value="35" />
+    <longitude1 value="105" />
+    <!-- gpslog onoff mode -->
+    <onoffmode value="1110" />
+    <!-- onoffmode
+       gpsdirecttologcat   1000
+       gpsdirecttofile     0100
+       agpsdirecttologcat  0010
+       agpsdirecttofile    0001
+       -->
+    <!-- at port name: "/dev/appvcom9" or "/dev/appvcom12", default:appvcom9 -->
+    <at_port_name value="/dev/appvcom9" />
+    <!-- fsm state delay stop time -->
+    <fsm_delay_stop value="10" />
+    <!-- fsm emergency state delay quit time -->
+    <fsm_emergency_delay_quit value="60" />
+    <enable_modem2 value="false" />
+    <!-- version of 27007 protocol, at least 12, default 12 -->
+    <agnss_cp_version value="12" />
+    <!-- fill loc_id with wlan info, timestamp ms -->
+    <locid_rpt_wlan_param>
+        <locid_rpt_wlan_on>N</locid_rpt_wlan_on>
+        <rpt_wlan_timestamp>900000</rpt_wlan_timestamp>
+    </locid_rpt_wlan_param>
+    <!-- agnss report qop configuration -->
+    <agnss_cp_report_qop>
+        <!-- MSB -->
+        <!-- Number of consecutive positioning -->
+        <pos_fix_count>5</pos_fix_count>
+        <!-- position accuracy units:meters -->
+        <pos_accuracy>30</pos_accuracy>
+        <!-- sv number criteria in msb mode -->
+        <pos_sv_num>5</pos_sv_num>
+        <!-- MSA -->
+        <!-- mearsurements count -->
+        <msr_count>5</msr_count>
+        <!-- MSA/MSB提前上报CN0门限, 格式为十进制四位数xxxx, 高两位表示MSB, 低两位表示MSA -->
+        <msr_cn0>25</msr_cn0>
+        <!-- sv number criteria in msa mode -->
+        <msr_sv_num>5</msr_sv_num>
+    </agnss_cp_report_qop>
+    <agnss_supl_report_qop>
+        <!-- MSB -->
+        <!-- Number of consecutive positioning -->
+        <pos_fix_count>5</pos_fix_count>
+        <!-- position accuracy units:meters -->
+        <pos_accuracy>30</pos_accuracy>
+        <!-- sv number criteria in msb mode -->
+        <pos_sv_num>5</pos_sv_num>
+        <!-- MSA -->
+        <!-- mearsurements count -->
+        <msr_count>5</msr_count>
+        <!-- CN0 criteria in msa mode -->
+        <msr_cn0>25</msr_cn0>
+        <!-- sv number criteria in msa mode -->
+        <msr_sv_num>5</msr_sv_num>
+    </agnss_supl_report_qop>
+    <!-- ar status, only for E911 testing
+         0:unknow, 1:vehicle, 2:stop_vehicle, 3:stationary, 4:running
+         5:walking, 6:biking
+        -->
+    <ar_status value="0" />
+    <!-- support_mode:以标志位的形式标志finetime支持的制式
+        bit0:置1表示支持cdma ota,置2支持cdma ota,cdma fta及其他cdma agps, bit1:置1表示支持gsm, bit2:wcdma,
+        bit3:置1表示支持lte强制多脉冲,置2:支持强制多脉冲和lte fta
+        bit4:置1表示支持nr强制多脉冲,置2:支持强制多脉冲和nr fta
+        MSB ... LSB -->
+    <fine_time support_mode="11000" />
+    <hirtk_config>
+        <rtk_switch>Y</rtk_switch>
+        <rinex_switch>N</rinex_switch>
+    </hirtk_config>
+    <gnss_visibility_control>
+        <!-- gnss visibility control feature enable/disable switch, N:disable Y:enable -->
+        <enable>N</enable>
+        <!-- N:control plane session default to emergency call, Y:emergency status decide on framework query result -->
+        <cp_emergency_query>N</cp_emergency_query>
+        <!-- N:supl session use protocol emergency status default, Y:use both framework query result and protocol emergency status -->
+        <supl_emergency_query>N</supl_emergency_query>
+    </gnss_visibility_control>
+  </config_hignss>
+  <supl>
+    <!-- SUPL version 1.0 or 2.0 -->
+    <suplver>2</suplver>
+    <!-- supl version compatible feature switch: 1 - enable, 0 - disable -->
+    <supl_version_compatible>0</supl_version_compatible>
+    <!-- Version of SUPL 1.0 protocol -->
+    <supl1_version>
+      <major>1</major>
+      <minor>0</minor>
+      <srvind>0</srvind>
+    </supl1_version>
+    <!-- Version of SUPL 2.0 protocol -->
+    <supl2_version>
+      <major>2</major>
+      <minor>0</minor>
+      <srvind>2</srvind>
+    </supl2_version>
+    <!-- mobile operator customization: default,docomo,softbank .... -->
+    <mobileoperator>default</mobileoperator>
+    <!-- if set to 1, will report position from server to android framework rather than the position of PE fix in MSA mode -->
+    <msa_report_server_position>0</msa_report_server_position>
+    <!-- supported hash encryption algorithm: sha1,sha256,sha512 -->
+    <hash_algorithm>
+      <supl1>sha1</supl1>
+      <supl2>sha256</supl2>
+    </hash_algorithm>
+    <!-- Capabilities of the SET pertaining to position technology, position protocol etc. -->
+    <setcapability>
+      <!-- Specifies the mode of SLP supported by the SET -->
+      <slpmode>
+        <proxysupp>1</proxysupp>
+        <nonproxysupp>0</nonproxysupp>
+      </slpmode>
+      <!-- Specifies the position technologies supported by SET -->
+      <postech>
+        <!-- represented by set of bool -->
+        <agps_msa>1</agps_msa>
+        <agps_msb>1</agps_msb>
+        <autogps>1</autogps>
+        <aFLT>0</aFLT>
+        <ecid>1</ecid>
+        <eotd>0</eotd>
+        <otdoa>1</otdoa>
+        <!-- If ganssext is set to 1 SUPLClient queries the AGPS framework for retrieving GANSS params -->
+        <ganssext>1</ganssext>
+      </postech>
+      <!-- Specifies the position protocols supported by SET -->
+      <posprotocol>
+        <!-- Specifies the RRLP support and supported spec version -->
+        <rrlp>1</rrlp>
+        <rrlpmaj>12</rrlpmaj>
+        <rrlptech>3</rrlptech>
+        <rrlpedit>0</rrlpedit>
+        <!-- Specifies the LPP support and supported spec version -->
+        <lpp>1</lpp>
+        <lppmaj>12</lppmaj>
+        <lpptech>5</lpptech>
+        <lppedit>0</lppedit>
+      </posprotocol>
+      <!--Describes the preferred position technology.
+        agps_msa,agps_msb,autogps,aFLT,ecid,eotd,otdoa,
+        agnss_msa,agnss_msb,autognss are the tags that can be used.-->
+      <pref_postech>agps_msb</pref_postech>
+      <agnss_pref_method_test>0</agnss_pref_method_test>
+      <!-- Support parameters for Bearer Networks -->
+      <bearer_network_support supported="1">
+        <gsm>1</gsm>
+        <wcdma>1</wcdma>
+        <cdma>0</cdma>
+        <hrpd>0</hrpd>
+        <umb>0</umb>
+        <lte>1</lte>
+        <wlan>1</wlan>
+        <wimax>0</wimax>
+        <nr>0</nr>
+      </bearer_network_support>
+      <!-- Services Capabilities are mentioned in this section -->
+      <services_capability>
+        <!-- Services supported in terms of triggered services -->
+        <services_supported>
+          <periodic>1</periodic>
+          <event>1</event>
+        </services_supported>
+        <!-- Reporting Capability -->
+        <report_capab>
+          <!--Minimum / Maximum reporting interval supported-->
+          <!--Uint-->
+          <!--Range is from 1..3600 seconds-->
+          <min_int>1</min_int>
+          <!--Range is from 1..1440 minutes-->
+          <max_int>1440</max_int>
+          <!--Modes of reporting supported-->
+          <!--bool-->
+          <realtime>1</realtime>
+          <quasi>1</quasi>
+          <batch>1</batch>
+          <!-- Batch Reporting Capability. Valid only if batch tag is set to 1 -->
+          <report_position>1</report_position>
+          <report_measurement>1</report_measurement>
+          <!--Uint -->
+          <!--Maximum number of positions per batch-->
+          <max_num_positions>128</max_num_positions>
+          <!--Maximum number of measurements per batch-->
+          <max_num_measurements>128</max_num_measurements>
+        </report_capab>
+        <!-- Event trigger capabilities are set in this section -->
+        <eventtrig_capab>
+          <!--bool -->
+          <ellipse>1</ellipse>
+          <polygon>1</polygon>
+          <!-- Maximum No of geotarget areas supported (0 - 32) -->
+          <max_geoareas>32</max_geoareas>
+          <!-- Maximum No of areaid list supported (0 - 32) -->
+          <max_areaidlst>16</max_areaidlst>
+          <!-- Maximum No of areaid supported per list (0 - 256) -->
+          <max_areaidinlst>32</max_areaidinlst>
+        </eventtrig_capab>
+        <!-- Session capability -->
+        <sess_capab>
+          <!-- Total number of simultaneous sessions (1 - 128) -->
+          <max_sess>128</max_sess>
+          <!-- Maximum number of simultaneous periodic triggered sessions (1 - 32) -->
+          <max_periodic>32</max_periodic>
+          <!-- Maximum number of simultaneous area event triggered sessions (1 - 32) -->
+          <max_eventtrig>32</max_eventtrig>
+        </sess_capab>
+      </services_capability>
+      <!--File Path for historic data saving should be mentioned here-->
+      <historic_file_path>/data/vendor/gnss/</historic_file_path>
+      <!--Max records that can be stored in a Historic data record-->
+      <max_historic_record>1000</max_historic_record>
+    </setcapability>
+    <!--SUPL protocol engine parameters -->
+    <supl_protocol_engine>
+      <!--Default QOP Params -->
+      <defqop>
+        <!--Horizontal accuracy -->
+        <horizontalaccuracy>30</horizontalaccuracy>
+        <!--Vertical accuracy -->
+        <verticalaccuracy>20</verticalaccuracy>
+        <!--Delay -->
+        <delay>7</delay>
+        <!--Max location Age -->
+        <maxlocationage>0</maxlocationage>
+      </defqop>
+      <!--Count to indicate the number of times assistance can be re-requested -->
+      <rereqasstcnt>2</rereqasstcnt>
+      <!-- GPS assistance data bitmap -->
+      <asstcontrol_msa>
+        <ref_loc>0</ref_loc>
+        <ref_time>1</ref_time>
+        <dgps>0</dgps>
+        <navmodel>0</navmodel>
+        <ionomodel>0</ionomodel>
+        <utcmodel>0</utcmodel>
+        <almanac>0</almanac>
+        <acquist>1</acquist>
+        <rti>0</rti>
+      </asstcontrol_msa>
+      <asstcontrol_msb>
+        <ref_loc>1</ref_loc>
+        <ref_time>1</ref_time>
+        <dgps>0</dgps>
+        <navmodel>1</navmodel>
+        <ionomodel>1</ionomodel>
+        <utcmodel>1</utcmodel>
+        <almanac>1</almanac>
+        <acquist>0</acquist>
+        <rti>1</rti>
+      </asstcontrol_msb>
+      <!--Specifies the values to be used for timers UT1,UT2,UT3 UT4 as in protocol. Units = Milliseconds -->
+      <protocoltimer>
+        <ut1>11000</ut1>
+        <ut2>11000</ut2>
+        <ut3>11000</ut3>
+        <ut4>11000</ut4>
+        <ut5>11000</ut5>
+        <ut6>11000</ut6>
+        <ut7>11000</ut7>
+        <ut8>11000</ut8>
+        <ut9>11000</ut9>
+        <ut10>11000</ut10>
+        <defaultto>10000</defaultto>
+        <!--user verification timeout -->
+        <usrverifto>10000</usrverifto>
+      </protocoltimer>
+      <!--Support parameters for SET ID -->
+      <setid_supported>
+        <msisdn>1</msisdn>
+        <mdn>0</mdn>
+        <min>0</min>
+        <imsi>1</imsi>
+        <nai>0</nai>
+        <ipaddress>1</ipaddress>
+        <imei>0</imei>
+      </setid_supported>
+      <pref_setid>imsi</pref_setid>
+      <priority_for_privacy_override>0</priority_for_privacy_override>
+      <stale_pos_file_path>/data/vendor/gnss/suplstalepos.dat</stale_pos_file_path>
+      <!--Interval in milliseconds at which the SET will go for a position fix
+          when it is in the border zone as per the given area-id lists
+          in event triggered sessions-->
+      <border_zone_posfix_interval>60000</border_zone_posfix_interval>
+      <!--Interval in milliseconds. When GDM is going to be closed in an
+          NI or Triggered Session, if it is expected that GDM will have to
+          be opened in less than "max_trig_int_to_keep_gps_on" milliseconds
+          GDM will be forced to remain open -->
+      <max_trig_int_to_keep_gps_on>60000</max_trig_int_to_keep_gps_on>
+      <!--If a triggered session isn't going to communicate with the
+          server for "max_trig_int_to_keep_cnxn" milliseconds the
+          connection to the server will be closed. It will be reopened only
+          when required -->
+      <max_trig_int_to_keep_cnxn>60000</max_trig_int_to_keep_cnxn>
+      <!--During a preiodic session. GPS will be opend "gps_preopen_time"
+          milliseconds before a trigger -->
+      <gps_preopen_time>2000</gps_preopen_time>
+      <!--The flag below is used for enabling emergency call check during emergency-->
+      <emergency_call_check>0</emergency_call_check>
+      <!--The flag below is used for enabling stopping all sessions from app-->
+      <enable_stopall_sessions>1</enable_stopall_sessions>
+    </supl_protocol_engine>
+    <!--H-SLP server Configuration -->
+    <hslp>
+      <port>7275</port>
+      <fqdn>supl.google.com</fqdn>
+      <secure>1</secure>
+      <!--Set 1.0 for TLSv1 and 1.1 for TLSv1.1. This will be considered only when secure is set to 1 -->
+      <tlsversion>1.2</tlsversion>
+      <!-- The following values are to be used for the corresponding type
+        0 - Normal (uses the spec provided flow
+        1 - Provisioned HSLP which is nothing but the string presented in fqdn field above.
+        2 - Auto H-SLP - This uses always the generated H-SLP directly.
+        3 - UICC (currently not supported since the Android framework does not support retrieval-->
+      <slpcfgtype>1</slpcfgtype>
+      <!--Following timeout values are applicable for all SLPs (E-SLP,H-SLP,W-SLP)-->
+      <!--Time out(in ms) for TLS handshake-->
+      <handshake_to>10000</handshake_to>
+      <!--Time out(in ms) for socket connection-->
+      <conn_to>10000</conn_to>
+      <!--If set to 1, then ignore supl server injected by android framework-->
+      <ignore_inject_supl_server>0</ignore_inject_supl_server>
+    </hslp>
+    <!-- Set to 0 to disable NI through UDP. If set to 0 SUPL won't listen for UDP connections on 7275-->
+    <ni_udp_enabled>0</ni_udp_enabled>
+    <!--Emergency-SLP server Configuration -->
+    <eslp>
+      <port>7275</port>
+      <ipaddress>208.8.164.7</ipaddress>
+      <fqdn>seattle1.supl.telecomsys.com</fqdn>
+      <secure>1</secure>
+    </eslp>
+    <!--Whitelisted -SLP server Configuration -->
+    <wslplist>
+       <!--max count is 5 -->
+       <wslp>
+       <port>7275</port>
+       <fqdn>seattle1.supl.telecomsys.com</fqdn>
+       </wslp>
+       <wslp>
+       <port>7275</port>
+       <fqdn>seattle1.supl.telecomsys.com</fqdn>
+       </wslp>
+    </wslplist>
+    <ganss>
+        <!-- "supported" tag specifies whether the SUPL Engine supports this Positioning system or not. 0-NotSupported. 1-Supported -->
+        <galileo supported="0">
+                <pos_cap>
+                      <capbitmap>7</capbitmap>
+                      <signalbitmap>3</signalbitmap>
+                      <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                      <capbitmap>131071</capbitmap>
+                      <orbmodel>1</orbmodel>
+                      <clkmodel>1</clkmodel>
+                      <almmodel>1</almmodel>
+                      <utcmodel>1</utcmodel>
+                </asst_cap>
+        </galileo>
+        <glonass supported="1">
+                <pos_cap>
+                <!--Capability bitmap-->
+                <!-- Usage: Hex values for each flag . check header files for hex values -->
+                <!-- Flag : 0x01 for MSA -->
+                <!-- Flag : 0x02 for MSB -->
+                <!-- Flag : 0x04 for AUTO -->
+                <!-- Example : <capbitmap>7</capbitmap> : 7 specifies the available 3 flags (0x01 + 0x02 + 0x04) -->
+                <!-- Example : <capbitmap>2</capbitmap> : 2 specifies the single flag SUPL_GANSS_POS_MSB -->
+                    <capbitmap>7</capbitmap>
+                <!--Signal bitmap-->
+                <!-- Usage: Hex values for each flag  -->
+                <!-- Signal flags are mutually exclusive -->
+                <!--Bitmap (length 8 bits) defining the supported signals for GNSS indicated by GANSS ID.
+                Refer SUPL-2 Spec "OMA-TS-ULP-V2_0_3-20160524-A"
+                For Galileo, the bits are interpreted as :
+                    Bit 0: E1
+                    Bit 1: E5a
+                    Bit 2: E5b
+                    Bit 3: E5a+E5b
+                    Bit 4: E6
+                    Bits 5-7: Spare
+                For Modernized GPS, the bits are interpreted as:
+                    Bit 0: L1 C
+                    Bit 1: L2 C
+                    Bit 2: L5
+                    Bits 3-7: Spare
+                For QZSS, the bits are interpreted as:
+                    Bit 0: L1 C/A
+                    Bit 1: L1 C
+                    Bit 2: L2 C
+                    Bit 3: L5
+                    Bits 4-7: Spare
+                For GLONASS, the bits are interpreted as:
+                    Bit 0: G1
+                    Bit 1: G2
+                    Bit 2: G3
+                    Bits 3-7: Spare
+                For BDS, the bits are interpreted as:
+                    Bit 0: B1I
+                    Bits 1-7: Spare
+                For SBAS, the bits are interpreted as:
+                    Bit 0: L1
+                    Bits 1-7: Spare -->
+                    <signalbitmap>1</signalbitmap>
+                <!-- This is valid for "sbas" positioning system only -->
+                    <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                <!-- This bitmap specifies the assitance types to be requested -->
+                <!-- Refer "SUPL_Inteface.h for each bit values"-->
+                    <capbitmap>131071</capbitmap>
+                <!-- Model range 1 - 5 , 0 to 4 bits for each model respectively -->
+                <!-- For details in each model type refer the below specs
+                Reference - section 10.3.7.88c of 3GPP spec 25.331 (RRC),
+                 Table A.8.2.2 table A.61 of 3GPP spec 44.031 (RRLP) and section - 6.5.2.10
+                 'GNSS-NavigationModelSupport','GNSS-AlmanacSupport' and
+                 'GNSS-UTC-ModelSupport' of 3GPP spec 26.255 (LPP) -->
+                <!-- Example : <orbmodel>4</ordmodel> : 4 specifies that 3rd bit is set hence it is Model-3 -->
+                    <orbmodel>4</orbmodel>
+                <!-- Model range 1 - 5 , 0 to 4 bits for each model respectively -->
+                    <clkmodel>4</clkmodel>
+                <!-- Model range 1 - 5 , 0 to 4 bits for each model respectively -->
+                    <almmodel>5</almmodel>
+                <!-- Model range 1 - 4 , 0 to 3 bits for each model respectively -->
+                    <utcmodel>3</utcmodel>
+                </asst_cap>
+        </glonass>
+        <bds supported="0">
+                <pos_cap>
+                    <capbitmap>7</capbitmap>
+                    <signalbitmap>1</signalbitmap>
+                    <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                    <capbitmap>131071</capbitmap>
+                    <orbmodel>6</orbmodel>
+                    <clkmodel>6</clkmodel>
+                    <almmodel>7</almmodel>
+                    <utcmodel>5</utcmodel>
+                </asst_cap>
+        </bds>
+        <sbas supported="0">
+                <pos_cap>
+                        <capbitmap>0</capbitmap>
+                        <signalbitmap>0</signalbitmap>
+                        <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                        <capbitmap>0</capbitmap>
+                        <orbmodel>0</orbmodel>
+                        <clkmodel>0</clkmodel>
+                        <almmodel>0</almmodel>
+                        <utcmodel>0</utcmodel>
+                </asst_cap>
+        </sbas>
+        <moderngps supported="0">
+                <pos_cap>
+                        <capbitmap>0</capbitmap>
+                        <signalbitmap>0</signalbitmap>
+                        <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                        <capbitmap>0</capbitmap>
+                        <orbmodel>0</orbmodel>
+                        <clkmodel>0</clkmodel>
+                        <almmodel>0</almmodel>
+                        <utcmodel>0</utcmodel>
+                </asst_cap>
+        </moderngps>
+        <qzss supported="0">
+                <pos_cap>
+                       <capbitmap>0</capbitmap>
+                       <signalbitmap>0</signalbitmap>
+                       <SBASbitmap>0</SBASbitmap>
+                </pos_cap>
+                <asst_cap>
+                       <capbitmap>0</capbitmap>
+                       <orbmodel>0</orbmodel>
+                       <clkmodel>0</clkmodel>
+                       <almmodel>0</almmodel>
+                       <utcmodel>0</utcmodel>
+                </asst_cap>
+        </qzss>
+        <asstcontrol_msa>
+            <reftime>1</reftime>
+            <ionospheremodel>1</ionospheremodel>
+            <ionoid00>0</ionoid00>
+            <!-- ionoid01 indicates that the parameters have been generated by BDS -->
+            <ionoid01>0</ionoid01>
+            <ionoid11>0</ionoid11>
+            <earthorien>0</earthorien>
+            <timemodellst>0</timemodellst>
+            <dganss>0</dganss>
+            <navmodel>0</navmodel>
+            <addlnavmodel>0</addlnavmodel>
+            <exteph>0</exteph>
+            <rti>0</rti>
+            <gnssdatabit>0</gnssdatabit>
+            <almanac>0</almanac>
+            <utcmodel>0</utcmodel>
+            <addlutcmodel>0</addlutcmodel>
+            <refmeasinfo>1</refmeasinfo>
+            <auxinfo>1</auxinfo>
+            <bdsdiffcorr>0</bdsdiffcorr>
+            <bdsgridmodel>0</bdsgridmodel>
+        </asstcontrol_msa>
+        <asstcontrol_msb>
+            <reftime>1</reftime>
+            <ionospheremodel>0</ionospheremodel>
+            <ionoid00>0</ionoid00>
+            <!-- ionoid01 indicates that the parameters have been generated by BDS -->
+            <ionoid01>0</ionoid01>
+            <ionoid11>0</ionoid11>
+            <earthorien>0</earthorien>
+            <timemodellst>1</timemodellst>
+            <dganss>0</dganss>
+            <navmodel>1</navmodel>
+            <addlnavmodel>0</addlnavmodel>
+            <exteph>0</exteph>
+            <rti>1</rti>
+            <gnssdatabit>0</gnssdatabit>
+            <almanac>1</almanac>
+            <utcmodel>1</utcmodel>
+            <addlutcmodel>0</addlutcmodel>
+            <refmeasinfo>0</refmeasinfo>
+            <auxinfo>1</auxinfo>
+            <bdsdiffcorr>0</bdsdiffcorr>
+            <bdsgridmodel>0</bdsgridmodel>
+        </asstcontrol_msb>
+    </ganss>
+    <network>
+      <!-- TLS verify mode 0: SSL_VERIFY_NONE; 1: SSL_VERIFY_PEER -->
+      <tls_verify_mode>1</tls_verify_mode>
+      <!-- server public key certificates path -->
+      <server_certificates_path>/vendor/etc/gnss/security</server_certificates_path>
+      <!-- system built-in CA certificates path -->
+      <ca_certificates_path>/system/etc/security/cacerts</ca_certificates_path>
+      <!-- APN mode configuration
+           0: local dns and default apn, default mode for most products
+           1: local dns and request supl apn, for product in Latin America
+           2: framework dns and apn, for product in Japan -->
+      <apn_mode>0</apn_mode>
+      <!-- apn switch request timeout, unit:ms -->
+      <apn_switch_request_timeout>10000</apn_switch_request_timeout>
+      <!-- DNS query address family 0:AF_INET; 1:AF_INET6; 2:AF_UNSPEC -->
+      <dns_query_type>0</dns_query_type>
+    </network>
+    <utcparams>
+      <gpsweekrollover>
+        <year>1999</year>
+        <month>8</month>
+        <day>22</day>
+        <hour>0</hour>
+        <min>0</min>
+        <sec>0</sec>
+      </gpsweekrollover>
+      <leapseconds>15</leapseconds>
+    </utcparams>
+  </supl>
+  <config_lppe>
+    <!--All configuration parameters pertaining to LPPe is specified in this section-->
+    <!--LPPe enable/disable switch, 0:diable  1:enable-->
+    <enable>0</enable>
+    <!--LPPe Version-->
+    <version>
+      <major>1</major>
+      <minor>0</minor>
+    </version>
+    <!--LPPe Compatibility Level-->
+    <compatibility_level>0</compatibility_level>
+    <!--LPPe Mode: 0:normal, 1:reversed-->
+    <lppemode>0</lppemode>
+    <!--Specifies the positioning method supported by SET -->
+    <posmethod>
+      <!--represented by set of bool -->
+      <agnss>0</agnss>
+      <otdoa>0</otdoa>
+      <eotd>0</eotd>
+      <otdoa_utra>0</otdoa_utra>
+      <ecid_lte>0</ecid_lte>
+      <ecid_gsm>0</ecid_gsm>
+      <ecid_utra>0</ecid_utra>
+      <wlan_ap>1</wlan_ap>
+      <ecid_wimax>0</ecid_wimax>
+      <sensor>1</sensor>
+      <srn>1</srn>
+    </posmethod>
+    <!--highAccuracyFormatCapabilities-->
+    <high_accuracy_cap>
+      <!--HighAccuracy3Dposition-->
+      <position>1</position>
+      <!--HighAccuracy3Dvelocity-->
+      <velocity>0</velocity>
+    </high_accuracy_cap>
+    <srn>
+      <!--LPPe SRN Technologies: bt, btle, nfc, mobileCode, other, ...-->
+      <!-- 0:Not Support, 1:Support -->
+      <!--srn_technologies>1</srn_technologies-->
+      <srn_technology_type>
+        <bt>0</bt>
+        <btle>1</btle>
+        <nfc>0</nfc>
+        <mobile_code>0</mobile_code>
+        <other>0</other>
+      </srn_technology_type>
+      <bt supported="0">
+        <meas_cap>
+            <rssi>0</rssi>
+            <rtd>0</rtd>
+        </meas_cap>
+        <asst_cap>
+            <srn_group>0</srn_group>
+            <antenna_pattern>0</antenna_pattern>
+        </asst_cap>
+        <historic_meas_support>0</historic_meas_support>
+      </bt>
+      <btle supported="1">
+        <meas_cap>
+            <rssi>1</rssi>
+            <rtd>0</rtd>
+        </meas_cap>
+        <asst_cap>
+            <srn_group>0</srn_group>
+            <antenna_pattern>0</antenna_pattern>
+        </asst_cap>
+        <historic_meas_support>0</historic_meas_support>
+      </btle>
+      <nfc supported="0">
+        <meas_cap>
+            <rssi>0</rssi>
+            <rtd>0</rtd>
+        </meas_cap>
+        <asst_cap>
+            <srn_group>0</srn_group>
+            <antenna_pattern>0</antenna_pattern>
+        </asst_cap>
+        <historic_meas_support>0</historic_meas_support>
+      </nfc>
+      <mobilecode supported="0">
+        <meas_cap>
+            <rssi>0</rssi>
+            <rtd>0</rtd>
+        </meas_cap>
+        <asst_cap>
+            <srn_group>0</srn_group>
+            <antenna_pattern>0</antenna_pattern>
+        </asst_cap>
+        <historic_meas_support>0</historic_meas_support>
+      </mobilecode>
+      <other supported="0">
+        <meas_cap>
+            <rssi>0</rssi>
+            <rtd>0</rtd>
+        </meas_cap>
+        <asst_cap>
+            <srn_group>0</srn_group>
+            <antenna_pattern>0</antenna_pattern>
+        </asst_cap>
+        <historic_meas_support>0</historic_meas_support>
+      </other>
+    </srn>
+    <wlan>
+      <meas_supported>
+        <!--wlan-ecid-MeasSupported-->
+        <ap_ssid>1</ap_ssid>
+        <ap_sn>0</ap_sn>
+        <ap_devtype>0</ap_devtype>
+        <ap_phytype>0</ap_phytype>
+        <ap_rssi>1</ap_rssi>
+        <ap_chanfreq>1</ap_chanfreq>
+        <ap_rtd>0</ap_rtd>
+        <ue_tp>0</ue_tp>
+        <ue_ag>0</ue_ag>
+        <ap_reploc>0</ap_reploc>
+        <non_serving>1</non_serving>
+        <historic>1</historic>
+        <ap_tp>0</ap_tp>
+        <ap_ag>0</ap_ag>
+        <ue_sn>0</ue_sn>
+        <ue_rssi>0</ue_rssi>
+        <!--additional-wlan-ecid-MeasSupported-->
+        <oc>0</oc>
+        <ue_macaddr>1</ue_macaddr>
+      </meas_supported>
+      <!-- indicates if the WLAN AP assistance data supported-->
+      <ad_supported>0</ad_supported>
+    </wlan>
+    <sensor>
+      <capabilities>
+        <!--supports motion state measurements-->
+        <motion_state>0</motion_state>
+        <!--supports secondary motion state measurements-->
+        <secondary_motion_state>0</secondary_motion_state>
+        <!--supports atmospheric pressure assistance data-->
+        <atmospheric_pressure_ad>0</atmospheric_pressure_ad>
+        <!--supports atmospheric pressure measurements-->
+        <atmospheric_pressure>1</atmospheric_pressure>
+      </capabilities>
+    </sensor>
+  </config_lppe>
+</gnss_config>

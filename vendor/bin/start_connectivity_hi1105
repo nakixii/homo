@@ -1,0 +1,355 @@
+#!/vendor/bin/sh
+ini_ln_file="/data/vendor/cust_conn/ini_cfg"
+function create_ln_file()
+{
+    print_kernel_message "check file:$1"
+    if [ -f "$1" ];then
+        ln -sf  $1 $ini_ln_file
+        if [ $? -ne 0 ];then
+            print_kernel_message "ini create ln file fail:$1---$ini_ln_file"
+        else
+            print_kernel_message "ini create ln file succ:$1---$ini_ln_file"
+            return 0;
+        fi
+    fi
+    return -1;
+}
+
+function cfg_ini_path_ini()
+{
+    print_kernel_message "process cfg_ini_path_ini"
+    str="$CUST_POLICY_DIRS"
+    print_kernel_message "env CUST_POLICY_DIRS=$CUST_POLICY_DIRS"
+    OLD_IFS="$IFS" 
+    IFS=":"
+    arr=($str) 
+    IFS="$OLD_IFS"
+    num=${#arr[@]}
+    file_suffix=$(cat /proc/device-tree/hisi_cust_cfg/ini_file_name)
+    print_kernel_message "ini_file_suffix:$file_suffix"
+    while [ $num -ne 0 ];do
+        cfg_dir="${arr[$num-1]}$file_suffix"
+        create_ln_file $cfg_dir
+        if [ $? -eq 0 ];then
+            return 0;
+        fi
+        let num-=1
+    done
+
+    ##default path
+    create_ln_file	$file_suffix
+    if [ $? -eq 0 ];then
+        return 0;
+    fi
+    return -1;
+}
+function chmod_retry()
+{
+    hisi_file=$1
+    hisi_file_user=$2
+    hisi_file_group=$3
+    ret_value=1
+    chmod_try=5
+    base_name=${hisi_file##*/}
+
+    #print_kernel_message "plat base_name is ${base_name}"
+
+    while [ $chmod_try -gt 0 ];do
+        if [ -e ${hisi_file} ]
+        then
+            chmod 660 ${hisi_file}
+            if [ $? -eq 0 ]
+            then
+                print_kernel_message "plat chmod ${hisi_file} succ"
+            else
+                print_kernel_message "plat chmod ${hisi_file} failed"
+                let chmod_try--
+                continue
+            fi
+
+            chown ${hisi_file_user}:${hisi_file_group} ${hisi_file}
+            if [ $? -eq 0 ]
+            then
+                print_kernel_message "plat chown ${hisi_file} succ"
+                print_kernel_message "plat `ls -l ${hisi_file}`"
+                let ret_value=0
+                break
+            else
+                print_kernel_message "plat chown ${hisi_file} failed"
+            fi
+            let chmod_try--
+        else
+            cat /proc/misc | grep ${base_name}
+            if [ $? -eq 0 ]
+            then
+                print_kernel_message "plat ${base_name} exist in /proc/misc, sleep wait 1s [$chmod_try]"
+                sleep 1
+                let chmod_try--
+                continue
+            else
+                print_kernel_message "plat ${base_name} not exist in /proc/misc, ignore"
+                break
+            fi
+        fi
+    done
+
+    return ret_value
+}
+
+function mk_default_dirs()
+{
+    umask 002
+
+    chmod_retry /dev/hwfm system system
+    chmod_retry /dev/hwgnss system system
+    chmod_retry /dev/hwbt bluetooth bluetooth
+    chmod_retry /dev/hwnfc nfc nfc
+    chmod_retry /dev/hwir system system
+
+    chmod_retry /sys/hi110x_ps/gnss_lowpower_state system system
+    chmod_retry /sys/hi110x_ps/ir_ctrl system system
+    chmod_retry /sys/hisys/hipriv system system
+    chmod_retry /sys/hi110x_ps/gnss_sync system system
+
+    mkdir -p /data/gnss/pgps/chip
+    mkdir -p /data/log/gps/pgps/chip
+    chown system:system /data/gnss
+    chown system:system /data/gnss/pgps
+    chown system:system /data/gnss/pgps/chip
+    chown system:system /data/log/gps
+    chown system:system /data/log/gps/pgps
+    chown system:system /data/log/gps/pgps/chip
+    mkdir -p /data/hwlogdir/gnss_log/device/
+    mkdir -p /data/log/gps/device
+    chown system:system /data/hwlogdir
+    mkdir -p /data/hwlogdir/gnss_log/eph_alm
+    mkdir -p /data/log/gps/eph_alm
+    chown system:system /data/hwlogdir/gnss_log/eph_alm
+    chown system:system /data/log/gps/eph_alm
+    mkdir -p /data/hwlogdir/uart_rx
+    chown system:system /data/hwlogdir/uart_rx
+
+    chmod 640 /dev/hwbfgdbg
+
+    if [ `getprop ro.runmode` == "factory" ];then
+    chmod 666 /dev/hwbt
+    fi
+
+    chown root:system /dev/hwbfgdbg
+    chmod 660 /dev/hwexcp
+    chown root:system /dev/hwexcp
+    chmod 660 /dev/chrKmsgPlat
+    chown system:system /dev/chrKmsgPlat
+
+    mkdir -p /data/hwlogdir/wifi_log
+    mkdir -p /data/hwlogdir/wifi_log/dump
+    mkdir -p /data/hwlogdir/bfg_log
+    mkdir -p /data/log/wifi
+    mkdir -p /data/log/wifi/dump
+    mkdir -p /data/log/hi110x/bfg_log
+    mkdir -p /data/log/wifi/memdump
+    chown root:system /data/log/wifi/memdump
+    mkdir -p /data/log/hi110x/memdump
+    chown root:system /data/log/hi110x/memdump
+    mkdir -p /data/hwlogdir/exception/
+
+    chmod 0660 /data/misc/wifi/wpa_supplicant.conf
+    if [ -f "/data/misc/wifi/efuse" ]
+    then
+        chmod 0444 /data/misc/wifi/efuse
+    fi
+}
+function mk_p_dirs()
+{
+    umask 002
+
+    chmod_retry /dev/hwfm system system
+    chmod_retry /dev/hwgnss system system
+    chmod_retry /dev/hwbt bluetooth bluetooth
+    chmod_retry /dev/hwir system system
+
+    chmod_retry /sys/hi110x_ps/gnss_lowpower_state system system
+    chmod_retry /sys/hi110x_ps/ir_ctrl system system
+    chmod_retry /sys/hisys/hipriv system system
+    chmod_retry /sys/hi110x_ps/gnss_sync system system
+
+    print_kernel_message "dir mode: android p"
+    mkdir -p /data/vendor/gnss/pgps/chip
+    mkdir -p /data/vendor/log/gps/pgps/chip
+    chown system:system /data/vendor/gnss/pgps
+    chown system:system /data/vendor/gnss/pgps/chip
+    chown system:system /data/vendor/log/gps
+    chown system:system /data/vendor/log/gps/pgps
+    chown system:system /data/vendor/log/gps/pgps/chip
+    mkdir -p /data/vendor/log/gps/device
+    mkdir -p /data/vendor/log/gps/eph_alm
+    chown system:system /data/vendor/log/gps/eph_alm
+
+    mkdir -p /data/vendor/gnss/sdm
+    chown system:system /data/vendor/gnss/sdm
+
+    chmod 640 /dev/hwbfgdbg
+    chown root:system /dev/hwbfgdbg
+    
+    if [ `getprop ro.runmode` == "factory" ];then
+    chmod 666 /dev/hwbt
+    fi
+    
+    chmod 660 /dev/hwbfgexcp
+    chown root:system /dev/hwbfgexcp
+    chmod 660 /dev/hwwifiexcp
+    chown root:system /dev/hwwifiexcp
+    chmod 640 /dev/hwexcp
+    chown root:system /dev/hwexcp
+    chmod 660 /dev/chrKmsgPlat
+    chown system:system /dev/chrKmsgPlat
+
+    mkdir -p /data/vendor/log/wifi
+    mkdir -p /data/vendor/log/wifi/dump
+    mkdir -p /data/vendor/log/hi110x/bfg_log
+    mkdir -p /data/vendor/log/wifi/memdump
+    chown root:system /data/vendor/log/wifi/memdump
+    mkdir -p /data/vendor/log/hi110x/memdump
+    chown root:system /data/vendor/log/hi110x/memdump
+
+    chmod 0660 /data/vendor/wifi/wpa/wpa_supplicant.conf
+
+    if [ -f "/data/vendor/wifi/efuse" ]
+    then
+        chmod 0444 /data/vendor/wifi/efuse
+    fi
+
+    if [ -f $ini_ln_file ];then
+        chmod 555 /data/vendor/cust_conn
+    else
+        print_kernel_message "$ini_ln_file is not exist"
+    fi
+}
+function print_kernel_message()
+{
+    if [ -e /dev/kmsg ]
+    then
+        echo $1 > /dev/kmsg
+    fi
+}
+
+function insmod_kernel_module()
+{
+    module_file_path=$1
+    if [ -e $module_file_path ]
+    then
+        insmod $module_file_path
+        if [ $? -eq 0 ]
+        then
+            print_kernel_message "kernel module $module_file_path insmod succ"
+        else
+            print_kernel_message "kernel module $module_file_path insmod failed!ret=$?"
+            return 1
+        fi
+    else
+        print_kernel_message "hisi kernel module:$module_file_path not exist"
+        return 1
+    fi
+    return 0
+}
+
+function insmod_kernel_modules()
+{
+    insmod_kernel_module /vendor/lib/modules/plat_1105.ko
+    if [ $? -ne 0 ]
+    then
+        return 1;
+    fi
+    insmod_kernel_module /vendor/lib/modules/wifi_1105.ko
+    if [ $? -ne 0 ]
+    then
+        return 1;
+    fi
+    print_kernel_message "insmod all hisi kernel modules succ"
+    return 0
+}
+
+function load_hisi_kenrel_init_function()
+{
+    module_file_path=$1
+    if [ -e $module_file_path ]
+    then
+        echo init > $module_file_path
+        return_value=`cat $module_file_path`
+        if [ "$return_value" = "running" ]
+        then
+            print_kernel_message "kernel module $module_file_path init succ"
+        else
+            print_kernel_message "kernel module $module_file_path init failed ret=$return_value"
+            return 1
+        fi
+    else
+        print_kernel_message "hisi kernel module:$module_file_path not exist"
+        return 1
+    fi
+    return 0
+}
+
+function load_hisi_kenrel_init_functions()
+{
+    load_hisi_kenrel_init_function /sys/hisys/boot/plat
+    if [ $? -ne 0 ]
+    then
+        return 1;
+    fi
+    load_hisi_kenrel_init_function /sys/hisys/boot/wifi
+    if [ $? -ne 0 ]
+    then
+        return 1;
+    fi
+    print_kernel_message "insmod all hisi kernel modules succ"
+    return 0
+}
+
+function load_drivers()
+{
+    if [ -d /sys/hisys/boot ]
+    then
+        print_kernel_message "process hisi build-in step"
+        load_hisi_kenrel_init_functions
+    else
+        print_kernel_message "process hisi modules step"
+        insmod_kernel_modules
+    fi
+    return $?
+}
+
+function main_user()
+{
+    cfg_ini_path_ini
+    if [ $? -eq 0 ];then
+        print_kernel_message "cfg_ini_path_ini succ"
+    else
+        print_kernel_message "cfg_ini_path_ini fail"
+    fi
+
+    load_drivers
+    print_kernel_message "dir mode:$1"
+    if [ "$1" != "recovery" ] ; then
+        case "$1" in
+            dir_p_mode) mk_p_dirs;;
+            *)          mk_default_dirs;;
+        esac
+        print_kernel_message "plat init connectivity mode, dir finish"
+    fi
+
+    if [ -e /sys/hi110x_ps/install ]
+    then
+        setprop vendor.setup_hi110x_modules success
+        print_kernel_message "setprop vendor.setup_hi110x_modules to success ok"
+    fi
+}
+
+#--------------------main-----------------
+#in normal mode, the service run without argument.
+#in recovery mode, the service run with argument "recovery"
+if [ $# != 0 ] ; then
+    main_user $@
+else
+    main_user normal
+fi

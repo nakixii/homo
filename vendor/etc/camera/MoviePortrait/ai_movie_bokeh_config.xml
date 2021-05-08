@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+        <portraitSegmentAlg enable="1">     <!-- 0: disable 1: enable -->
+            <modelWidth> 288 </modelWidth>
+            <modelHeight> 288 </modelHeight>
+            <modelPath>/vendor/etc/camera/cnnmodel/movieportrait/ai_movie_portrait_seg.om</modelPath>
+			<segInterval> 3 </segInterval> 
+        </portraitSegmentAlg>
+        
+        <guideFilterAlg enable="1">          <!-- 0: disable 1: enable -->
+            <guideRadius> 5 </guideRadius>        <!-- {1, 8} -->
+            <guideEps> 0.0001 </guideEps>    
+        </guideFilterAlg>
+
+        <connectAreaAlg enable="1">          <!-- 0: disable 1: enable -->
+            <caThRatio> 0.3 </caThRatio>        <!-- {0,1} -->
+        </connectAreaAlg>
+        
+		<blurAlg>
+            <FNum> 4 </FNum>        <!-- {0, 16} -->	
+            <sigma> 1.5 </sigma>        <!-- {0, 3.0} -->
+            <blurCntTh>  10 </blurCntTh>        <!-- {0, 100} -->	
+            <clearCntTh> 10 </clearCntTh>        <!-- {0, 100} -->	
+            <maxMaskThRatio> 0.1 </maxMaskThRatio>        <!-- {0, 1.0} -->
+            <minMaskThRatio> 0.05 </minMaskThRatio>        <!-- {0, 1.0} -->
+            <maxMaskSigma> 2.8 </maxMaskSigma>        <!-- {0, 4.0} -->
+            <minMaskSigma> 0.8 </minMaskSigma>        <!-- {0, 3.0} -->			
+		</blurAlg>  
+</Config>

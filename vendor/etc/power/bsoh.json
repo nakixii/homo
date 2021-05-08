@@ -1,0 +1,136 @@
+{
+  "Estimators": {
+    "CFSD": {
+      "Battery": [
+        {
+          "Name": "Battery1",
+          "Model": "all",
+          "Country": "all"
+        }
+      ]
+    },
+    "EIS": {
+      "Version": "1.0.0"
+    },
+    "ISCD": {
+      "Protectors": [
+        "SocLimitator",
+        "StatusLimitator"
+      ],
+      "Battery":[
+        {
+          "Name": "Battery1",
+          "IscdParameter": "Parameter1.0"
+        }
+      ],
+      "Parameter1.0":{
+        "IscdTstep": 3600,
+        "IscdValidOcvLevel": 3,
+        "IscdEnable": 1,
+        "IscdOcvMin": 4000000,
+        "IscdBattTempMin": 100,
+        "IscdBattTempMax": 500,
+        "IscdBattTempDiffMax": 100,
+        "IscdSampleTimeInterval": 600,
+        "IscdSampleTimeDelay": 10,
+        "IscdCalcTimeIntervalMin": 3600,
+        "IscdCalcTimeIntervalMax": 21600,
+        "IscdLevelWarningThrehold": 10000,
+        "IscdLevelErrorThrehold": 30000,
+        "IscdLevelCriticalThrehold": 100000,
+        "IscdOcvUpdateInterval": 7200,
+        "IscdDelayCyclesEnable": 0,
+        "IscdChrgDelayCycles": 0,
+        "IscdValidCycles": 10,
+        "FatalIscRechargeSocLimit": 55,
+        "FatalIscUpSocLimit": 60,
+        "FatalIscTriggerType": 1,
+        "FatalIscDeadline": 15,
+        "IscLevelConfig": "Level1.0",
+        "FatalIscTrigger": "Trigger1.0",
+        "FatalIscProtectionAction": "Switch1.0"
+      },
+      "Level1.0":[
+        {
+          "IscMin": 0,
+          "IscMax": 30000,
+          "TMin": 24,
+          "IscValidCnt": 1,
+          "DsmErrNo": 0
+        },
+        {
+          "IscMin": 30000,
+          "IscMax": 50000,
+          "TMin": 4,
+          "IscValidCnt": 3,
+          "DsmErrNo": 0
+        },
+        {
+          "IscMin": 50000,
+          "IscMax": 70000,
+          "TMin": 3,
+          "IscValidCnt": 3,
+          "DsmErrNo": 920001078
+        },
+        {
+          "IscMin": 70000,
+          "IscMax": 120000,
+          "TMin": 2,
+          "IscValidCnt": 2,
+          "DsmErrNo": 920001078
+        },
+        {
+          "IscMin": 120000,
+          "IscMax": 9999999,
+          "TMin": 1,
+          "IscValidCnt": 1,
+          "DsmErrNo": 920001078
+        }
+      ],
+      "Trigger1.0": [
+        {
+          "TriggerIscMin": 50000,
+          "TriggerIscMax": 70000,
+          "TriggerNum": 3,
+          "DsmErrNo": 920001078
+        },
+        {
+          "TriggerIscMin": 70000,
+          "TriggerIscMax": 120000,
+          "TriggerNum": 2,
+          "DsmErrNo": 920001078
+        },
+        {
+          "TriggerIscMin": 120000,
+          "TriggerIscMax": 9999999,
+          "TriggerNum": 1,
+          "DsmErrNo": 920001078
+        }
+      ],
+      "Switch1.0":{
+          "UploadDmdAction": 1,
+          "UploadUeventAction": 0,
+          "SocControlAction": 0,
+          "OcvUpdateAction": 0
+      }
+    },
+    "APP":{
+      "Protectors": [
+        "DcVoltLimitator",
+        "NonDcVoltLimitator",
+        "DcCurLimitator",
+        "NonDcCurLimitator",
+        "SocLimitator",
+        "StatusLimitator"
+      ]
+    }
+  },
+  "Protectors": {
+    "DcVoltLimitator": {},
+    "NonDcVoltLimitator": {},
+    "DcCurLimitator": {},
+    "NonDcCurLimitator": {},
+    "SocLimitator": {},
+    "StatusLimitator": {}
+  }
+}

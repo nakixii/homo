@@ -1,0 +1,8 @@
+<Config>
+    <PLMN group="46000,46002,46007,46008,46004">
+        <AreaSwitch>true</AreaSwitch>
+        <CityList>
+            <City>南京市</City>
+        </CityList>
+    </PLMN>
+</Config>

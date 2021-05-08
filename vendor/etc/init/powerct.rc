@@ -1,0 +1,35 @@
+on late-fs
+    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/powerct
+    chown system system /sys/devices/virtual/hw_power/power_mesg/powerct
+    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/runtime
+    chown system system /sys/devices/virtual/hw_power/power_mesg/runtime
+    chmod 0440 /sys/devices/platform/huawei_batt_info/ic_id
+    chown system system /sys/devices/platform/huawei_batt_info/ic_id
+    chmod 0440 /sys/devices/platform/huawei_batt_info/batt_id
+    chown system system /sys/devices/platform/huawei_batt_info/batt_id
+    chmod 0440 /sys/devices/platform/huawei_batt_info/ic_status
+    chown system system /sys/devices/platform/huawei_batt_info/ic_status
+    chmod 0440 /sys/devices/platform/huawei_batt_info/sn_status
+    chown system system /sys/devices/platform/huawei_batt_info/sn_status
+    chmod 0440 /sys/devices/platform/huawei_batt_info/key_status
+    chown system system /sys/devices/platform/huawei_batt_info/key_status
+    chmod 0440 /sys/devices/platform/huawei_batt_info/official
+    chown system system /sys/devices/platform/huawei_batt_info/official
+    chmod 0440 /sys/devices/platform/huawei_batt_info/board_runnable
+    chown system system /sys/devices/platform/huawei_batt_info/board_runnable
+    chmod 0440 /sys/devices/platform/huawei_batt_info/battery_ct_shield
+    chown system system /sys/devices/platform/huawei_batt_info/battery_ct_shield
+    chmod 0660 /sys/devices/platform/huawei_batt_info/huawei_batt_info:battery_checker@0/batt_cell_type
+    chown system system /sys/devices/platform/huawei_batt_info/huawei_batt_info:battery_checker@0/batt_cell_type
+    chmod 0660 /sys/devices/platform/huawei_batt_info/huawei_batt_info:battery_checker@0/act_signature
+    chown system system /sys/devices/platform/huawei_batt_info/huawei_batt_info:battery_checker@0/act_signature
+    chmod 0660 /sys/devices/platform/huawei_batt_info/huawei_batt_info:battery_checker@0/retrofit_signature
+    chown system system /sys/devices/platform/huawei_batt_info/huawei_batt_info:battery_checker@0/retrofit_signature
+
+    start powerct
+
+service powerct /vendor/bin/powerct
+    user system
+    group system
+    disabled
+    oneshot

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+        <TargetTracking>
+          <gColor>0.72</gColor>                <!---->
+          <gColorLearn>0.77</gColorLearn>       <!---->
+          <gObj>0.85</gObj>                    <!---->
+          <gMaxR>80</gMaxR>                   <!---->
+          <gMinR>4</gMinR>                    <!---->
+	        <gSmooth>1000</gSmooth>             <!--,[700,1400]-->                                                    
+	        <gNum_trees>13</gNum_trees>        <!-- num_features221[10,20],13 -->                                   
+	        <gNum_features>16</gNum_features>  <!--num_trees221[10,20],num_trees16 -->            
+	        <gThr_fern>0.65</gThr_fern>         <!--[0.3,0.99]0.8-->                                               
+	        <gThr_nn>0.63</gThr_nn>            <!--[0.3,0.99]0.65-->
+          <gThr_nnLearn>0.75</gThr_nnLearn>  <!---->
+	        <gNum_closest>10</gNum_closest>     <!--goodbox[5,20],5-->                                     
+	        <gNum_warps>10</gNum_warps>         <!--Num_closest[5,10],7-->                       
+        </TargetTracking>
+</Config>

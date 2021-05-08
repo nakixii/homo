@@ -1,0 +1,5 @@
+service hivrar-hal-2-1 /vendor/bin/hw/vendor.huawei.hardware.hivrar@2.1-service
+    class hal
+    user system
+    group system
+

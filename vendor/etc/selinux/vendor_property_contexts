@@ -1,0 +1,532 @@
+#line 1 "device/hisi/sepolicy/vendor/common/property_contexts"
+# hisi property
+
+persist.vendor.ai.timedebug.enable     u:object_r:hiaiserver_prop:s0
+persist.vendor.camera.                 u:object_r:cameradaemon_prop:s0
+vendor.camera.                         u:object_r:cameradaemon_prop:s0
+vendor.debug.camera.                   u:object_r:cameradaemon_prop:s0
+vendor.camera.debug.                   u:object_r:cameradaemon_debug_prop:s0
+persist.vendor.dump.altek.metadata	u:object_r:cameradaemon_prop:s0
+persist.vendor.hicam.halservice.mode	u:object_r:cameradaemon_prop:s0
+persist.vendor.preLaunch.close	u:object_r:cameradaemon_prop:s0
+vendor.antibanding.enable	u:object_r:cameradaemon_prop:s0
+vendor.binning.drop.count	u:object_r:cameradaemon_prop:s0
+vendor.camera3.debug.sleep.time	u:object_r:cameradaemon_prop:s0
+vendor.camera3.zsl.switch		u:object_r:cameradaemon_prop:s0
+vendor.capture.expotime.value	u:object_r:cameradaemon_prop:s0
+vendor.capture.gain.value	u:object_r:cameradaemon_prop:s0
+vendor.debug.3a_info.direction.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.3a_info.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.ae.lv	u:object_r:cameradaemon_prop:s0
+vendor.debug.ae_sensor_verify.mode	u:object_r:cameradaemon_prop:s0
+vendor.debug.af.distance	u:object_r:cameradaemon_prop:s0
+vendor.debug.af.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.algoawb.enable	u:object_r:cameradaemon_prop:s0
+vendor.debug.disable.Y8.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.disabledmap.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.disablewarp.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.bindcpu.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.dvfs.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.limitcpuL.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.rawnf.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.rawnfds.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.yuvnf.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.yuvnfds.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enable.yuvnfds.offline.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.enabledmap.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.facerect.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.hotplug.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.ippalgo.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.ppalgo.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.smartae.enable	u:object_r:cameradaemon_prop:s0
+vendor.dump.camerasvr.ramsize.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.capraw.cycle	u:object_r:cameradaemon_prop:s0
+vendor.dump.dmap.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.dmapyuv.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.feraw.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.gazeraw.num	u:object_r:cameradaemon_prop:s0
+vendor.dump.interval.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.offline.dmap	u:object_r:cameradaemon_prop:s0
+vendor.dump.preview.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.raw.custom	u:object_r:cameradaemon_prop:s0
+vendor.dump.raw.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.raw.height	u:object_r:cameradaemon_prop:s0
+vendor.dump.raw.with	u:object_r:cameradaemon_prop:s0
+vendor.dump.simulator.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.simulator.interval.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.tiny.flag	u:object_r:cameradaemon_prop:s0
+vendor.dump.video.flag	u:object_r:cameradaemon_prop:s0
+vendor.dumpAISDBGR.enable	u:object_r:cameradaemon_prop:s0
+vendor.face.lum.gap	u:object_r:cameradaemon_prop:s0
+vendor.fcapture_awb.bgain.value	u:object_r:cameradaemon_prop:s0
+vendor.fcapture_awb.ggain.value	u:object_r:cameradaemon_prop:s0
+vendor.fcapture_awb.rgain.value	u:object_r:cameradaemon_prop:s0
+vendor.huawei.algo.dcmode	u:object_r:cameradaemon_prop:s0
+vendor.ir.led.target_lum	u:object_r:cameradaemon_prop:s0
+vendor.isp.algo.status	u:object_r:cameradaemon_prop:s0
+vendor.isp.log.switch.enable	u:object_r:cameradaemon_prop:s0
+vendor.isp.log.switch.setting	u:object_r:cameradaemon_prop:s0
+vendor.manual_ae.expotime.value	u:object_r:cameradaemon_prop:s0
+vendor.manual_ae.gain.value	u:object_r:cameradaemon_prop:s0
+vendor.manual_ae.iso.value	u:object_r:cameradaemon_prop:s0
+vendor.manual_af.vcmcode.value	u:object_r:cameradaemon_prop:s0
+vendor.manual_awb.bgain.value	u:object_r:cameradaemon_prop:s0
+vendor.manual_awb.ggain.value	u:object_r:cameradaemon_prop:s0
+vendor.manual_awb.mode.value	u:object_r:cameradaemon_prop:s0
+vendor.manual_awb.rgain.value	u:object_r:cameradaemon_prop:s0
+vendor.mark.roi.flag	u:object_r:cameradaemon_prop:s0
+vendor.motiondet.dump_bhist	u:object_r:cameradaemon_prop:s0
+vendor.motiondet.dump_mdmat	u:object_r:cameradaemon_prop:s0
+vendor.motiondet.dump_tiny	u:object_r:cameradaemon_prop:s0
+vendor.motiondet.enable	u:object_r:cameradaemon_prop:s0
+vendor.need.ae.status	u:object_r:cameradaemon_prop:s0
+vendor.sensor.dual.mode	u:object_r:cameradaemon_prop:s0
+vendor.sensor.otp.checksum	u:object_r:cameradaemon_prop:s0
+vendor.slt.camera	u:object_r:cameradaemon_prop:s0
+vendor.yuvcalc.enable	u:object_r:cameradaemon_prop:s0
+vendor.debug.hdrp.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.4k.eis.flag	u:object_r:cameradaemon_prop:s0
+vendor.debuginfo.laser.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.scene.rawnfds.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.scene.yuvnfds.flag	u:object_r:cameradaemon_prop:s0
+vendor.debug.video.stablization u:object_r:cameradaemon_prop:s0
+vendor.debug.set.irflashdev u:object_r:cameradaemon_prop:s0
+vendor.df.factory.mode u:object_r:cameradaemon_prop:s0
+persist.vendor.camera.debug.calibration.switch    u:object_r:cameradaemon_prop:s0
+#camera algo property
+
+vendor.camera.debug.pp                              u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.davinci.front                u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.davinci.rear                 u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.hdr                          u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.hdr.smart                    u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.beauty.front.ext             u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.beauty.front.noext           u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.beauty.rear.ext              u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.beauty.rear.noext            u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.beauty.smart                 u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.multidenoise                 u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.edof                         u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.sr                           u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.fastshot                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.digtialzoom                  u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.bestshot                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.burst                        u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.calib                        u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.macro                        u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.allfocus                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.beauty.multidenose           u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.beauty.hdr                   u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.nicefood                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.dcmmi                        u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.highdynamic                  u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.hdccalib                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.colorfusion                  u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.oisvcmcalib                  u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.dfcalibtest                  u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.mono                         u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.monofilter                   u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.sdk.depth.calc               u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.frontbokeh.bty               u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.frontbokeh                   u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.edofhidden.rear              u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.makeup.raer                  u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.makeup.front                 u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.opticalzoomnormal            u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.opticalzoombeauty            u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.opticalzoombokeh             u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.selfportrait                 u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.selfportrait.noface          u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.opticalzoomdifffov           u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.opticalzoomdifffov.beauty    u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.multiexpofusion              u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.rearremosaic                 u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.foreremosaic                 u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.foreofflineremosaic          u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.forebeautyofflineremosaic    u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.fairlight.front              u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.fairlight.rear               u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.ipp.FNFaceDetect                u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.pp.ircamera                     u:object_r:cameraalgo_prop:s0
+vendor.camera.afstat.open                           u:object_r:cameraalgo_prop:s0
+vendor.camera.objectdetection.draw                  u:object_r:cameraalgo_prop:s0
+vendor.camera.mef.motionlv                          u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.trace.force                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.snip.force                      u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.selflearn.dump                  u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.dmap.dump                       u:object_r:cameraalgo_prop:s0
+vendor.camera.sdsetresult.debug                     u:object_r:cameraalgo_prop:s0
+vendor.camera.sdsetresult.value                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.fnfdface.info                   u:object_r:cameraalgo_prop:s0
+vendor.camera.objectdetection.cost.measure          u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.snip.dump                       u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.maintain.dump                   u:object_r:cameraalgo_prop:s0
+vendor.camera.mmi.capture                           u:object_r:cameraalgo_prop:s0
+vendor.camera.hdr.night                             u:object_r:cameraalgo_prop:s0
+vendor.camera.hdr.ivp.supported                     u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.smarthdr                        u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.hdrframenum                     u:object_r:cameraalgo_prop:s0
+vendor.debug.camera.bokeh_strenth                   u:object_r:cameraalgo_prop:s0
+vendor.camera.colorfusion.ivp.supported             u:object_r:cameraalgo_prop:s0
+vendor.camera.casio.debug                           u:object_r:cameraalgo_prop:s0
+vendor.camera.bshutter.bypass                       u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.arcface.dump                    u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.remosaic.hdmode                 u:object_r:cameraalgo_prop:s0
+vendor.videobokeh.dmap.category                     u:object_r:cameraalgo_prop:s0
+vendor.camera.videoBokeh.input                      u:object_r:cameraalgo_prop:s0
+vendor.camera.videoBokeh.depth                      u:object_r:cameraalgo_prop:s0
+vendor.camera.videoBokeh.out                        u:object_r:cameraalgo_prop:s0
+vendor.camera.moderecomm.turn.off.macro             u:object_r:cameraalgo_prop:s0
+vendor.debug.camera.fps                             u:object_r:cameraalgo_prop:s0
+vendor.debug.capture.config.dmap                    u:object_r:cameraalgo_prop:s0
+vendor.debug.camera.log.dualcam                     u:object_r:cameraalgo_prop:s0
+vendor.debug.forcefree.policy                       u:object_r:cameraalgo_prop:s0
+vendor.debug.forcefree.size                         u:object_r:cameraalgo_prop:s0
+persist.vendor.camera.debug                         u:object_r:cameraalgo_prop:s0
+persist.vendor.flashHDR.debug                       u:object_r:cameraalgo_prop:s0
+persist.vendor.camera.mempool.print                 u:object_r:cameraalgo_prop:s0
+persist.vendor.camera.monitor.betatype              u:object_r:cameraalgo_prop:s0
+persist.vendor.camera.printcost.tiny                u:object_r:cameraalgo_prop:s0
+persist.vendor.camera.printcost.pre                 u:object_r:cameraalgo_prop:s0
+persist.vendor.dualcamera.binning                   u:object_r:cameraalgo_prop:s0
+persist.vendor.beauty.debug                         u:object_r:cameraalgo_prop:s0
+ro.vendor.config.camera.region                      u:object_r:cameraalgo_prop:s0
+vendor.multidenoise.ivp.supported                   u:object_r:cameraalgo_prop:s0
+vendor.opticalzoom.ivp.supported                    u:object_r:cameraalgo_prop:s0
+vendor.cam_mem_debug                                u:object_r:cameraalgo_prop:s0
+vendor.CONFIG_EFFECT_DEBUG                          u:object_r:cameraalgo_prop:s0
+vendor.COLOR_CONFIG_DUMP                            u:object_r:cameraalgo_prop:s0
+vendor.cam.dumpAlgoMemInfo                          u:object_r:cameraalgo_prop:s0
+vendor.cam.dumpMemChunkInfo                         u:object_r:cameraalgo_prop:s0
+vendor.cam.dumpMemChunkScore                        u:object_r:cameraalgo_prop:s0
+vendor.cam.dumpRealBigBuf                           u:object_r:cameraalgo_prop:s0
+vendor.cam.cap.buffer.leak                          u:object_r:cameraalgo_prop:s0
+vendor.cam.mem.leak.cap                             u:object_r:cameraalgo_prop:s0
+vendor.cam.mem.leak.pre                             u:object_r:cameraalgo_prop:s0
+vendor.cam.mem.alloc.fail                           u:object_r:cameraalgo_prop:s0
+vendor.cam.mem.report.efficiency                    u:object_r:cameraalgo_prop:s0
+vendor.camera.debug.offlineremosaic.mode            u:object_r:cameraalgo_prop:s0
+vendor.aiq.enable                                   u:object_r:cameraalgo_prop:s0
+
+
+#persist.bluetooth.      u:object_r:bluetooth_prop:s0
+ctl.vendor.gpsd_47531			u:object_r:gpsd_prop:s0
+ctl.vendor.gpsd			u:object_r:gpsd_prop:s0
+ctl.vendor.gpsd_4774                 u:object_r:gpsd_prop:s0
+ctl.vendor.gpsdcl_4774			u:object_r:gpsd_prop:s0
+ctl.vendor.lhd_4774			u:object_r:gpsd_prop:s0
+ctl.vendor.lhdcl_4774                     u:object_r:gpsd_prop:s0
+ctl.vendor.gpsd_4775			u:object_r:gpsd_prop:s0
+ctl.vendor.lhd_4775			u:object_r:gpsd_prop:s0
+
+
+# audio property
+vendor.dphal.pcm.enable    u:object_r:halaudio_prop:s0
+vendor.hifi.watchdog.come     u:object_r:hifiwatchdog_prop:s0
+vendor.wakeup.multicmd.scene    u:object_r:wakeupmulticmd_prop:s0
+
+
+#ctl.start		u:object_r:atcmdserver_prop:s0
+#ctl.stop		u:object_r:atcmdserver_prop:s0
+
+#aptouch_daemon for tp hostprocessing, thp.
+odm.thp.                    u:object_r:aptouch_daemon_prop:s0
+vendor.thp.                 u:object_r:aptouch_daemon_prop:s0
+persist.odm.thp.            u:object_r:aptouch_daemon_prop:s0
+persist.vendor.thp.         u:object_r:aptouch_daemon_prop:s0
+
+
+
+# hi110x property
+vendor.setup_hi110x_modules        u:object_r:hi110x_prop:s0
+vendor.config.gnss_debug           u:object_r:hi110x_prop:s0
+#hal.hivrarddk.exist     u:object_r:vrar_ddk_property:s0
+
+#ro.mmu.enable
+vendor.debug.config.mmu_en                  u:object_r:mmuenable_property:s0
+
+#ro.boot.vendor.ddrsize
+ro.boot.vendor.ddrsize                  u:object_r:ddrsize_property:s0
+
+#For display debug
+vendor.debug.hdcp_enc_mode    u:object_r:displaydebug_property:s0
+vendor.debug.hwc_test_mode  u:object_r:displaydebug_property:s0
+vendor.debug.policy_mask   u:object_r:displaydebug_property:s0
+vendor.debug.channel_mask  u:object_r:displaydebug_property:s0
+vendor.debug.hwc_debug  u:object_r:displaydebug_property:s0
+vendor.debug.show_details  u:object_r:displaydebug_property:s0
+vendor.debug.wb_dump_cnt  u:object_r:displaydebug_property:s0
+vendor.debug.frame_dump_cnt  u:object_r:displaydebug_property:s0
+vendor.debug.time_consume_log  u:object_r:displaydebug_property:s0
+vendor.debug.updt_en  u:object_r:displaydebug_property:s0
+vendor.debug.adjust_acc_clk_en  u:object_r:displaydebug_property:s0
+vendor.debug.hwc_dump_en  u:object_r:displaydebug_property:s0
+vendor.debug.blockrot_dump_cnt  u:object_r:displaydebug_property:s0
+vendor.debug.vd_dump_cnt  u:object_r:displaydebug_property:s0
+vendor.debug.frametarget_dump_cnt  u:object_r:displaydebug_property:s0
+vendor.debug.ddr_rate  u:object_r:displaydebug_property:s0
+vendor.debug.enable_seg  u:object_r:displaydebug_property:s0
+vendor.debug.idle_enable  u:object_r:displaydebug_property:s0
+vendor.debug.hwc_rot_num  u:object_r:displaydebug_property:s0
+vendor.debug.count_overlay  u:object_r:displaydebug_property:s0
+vendor.debug.hwc_vr_mode_en  u:object_r:displaydebug_property:s0
+vendor.debug.hwc_vr_factory_mode_en  u:object_r:displaydebug_property:s0
+vendor.debug.rot_format  u:object_r:displaydebug_property:s0
+vendor.debug.gralloc_debug  u:object_r:displaydebug_property:s0
+vendor.debug.gralloc_tile  u:object_r:displaydebug_property:s0
+vendor.debug.gralloc_afbc  u:object_r:displaydebug_property:s0
+vendor.debug.hwc_debug_fps  u:object_r:displaydebug_property:s0
+vendor.debug.mdc_debug  u:object_r:displaydebug_property:s0
+vendor.debug.mdc_dump_en  u:object_r:displaydebug_property:s0
+vendor.jpeg.hardware.debuglog    u:object_r:displaydebug_property:s0
+vendor.fold_display.flag     u:object_r:fold_prop:s0
+
+# hinetmanager property
+vendor.sys.hinetmanager_has_restarted     u:object_r:hinetmanager_prop:s0
+
+# iked property
+ro.vendor.config.vowifi_iked_log     u:object_r:iked_prop:s0
+
+# gcov property
+ro.vendor.build.gcov     u:object_r:gcov_prop:s0
+
+#wifi chip type
+odm.wifi.chip.type u:object_r:wifi_chiptype_prop:s0
+
+#vndk version property
+ro.vendor.vndk.version     u:object_r:vndk_version_prop:s0
+
+vendor.ArmNN.float32Performance.execTime u:object_r:armnn_property:s0
+vendor.ArmNN.float32Performance.powerUsage u:object_r:armnn_property:s0
+vendor.ArmNN.quantized8Performance.execTime u:object_r:armnn_property:s0
+vendor.ArmNN.quantized8Performance.powerUsage u:object_r:armnn_property:s0
+vendor.ArmNN.relaxedFloat32toFloat16Performance.execTime u:object_r:armnn_property:s0
+vendor.ArmNN.relaxedFloat32toFloat16Performance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorFloat32Performance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorFloat32Performance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeFloat32Performance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeFloat32Performance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorFloat16Performance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorFloat16Performance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeFloat16Performance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeFloat16Performance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant8AsymmPerformance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant8AsymmPerformance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant16SymmPerformance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant16SymmPerformance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant8SymmPerformance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant8SymmPerformance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant8SymmPerChannelPerformance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorQuant8SymmPerChannelPerformance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorInt32Performance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeTensorInt32Performance.powerUsage u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeInt32Performance.execTime u:object_r:armnn_property:s0
+vendor.Armnn.operandTypeInt32Performance.powerUsage u:object_r:armnn_property:s0
+
+vendor.vr.mode.enter           u:object_r:vr_mode_property:s0
+vendor.vdec.hfbc.disable.fromuser       u:object_r:disable_hfbc_fromuser_property:s0
+
+#irqbalance_enable_prop
+persist.vendor.irqbalance.enable    u:object_r:irqbalance_enable_prop:s0
+
+#system write protect prop
+ro.odm.sys.wp    u:object_r:sys_wp_prop:s0
+
+#hal displayengiene
+persist.odm.displayengine.log  u:object_r:displayengine_prop:s0
+
+#vendor defined display id
+ro.vendor.build.display.id u:object_r:vendor_displayid_prop:s0
+
+ro.vendor.board.chiptype u:object_r:vendor_board_chiptype_prop:s0
+
+#conn.pmfenable
+odm.conn.pmfenable                     u:object_r:conn_pmfenable_prop:s0
+
+#bastet
+odm.bastet.                      u:object_r:bastet_prop:s0
+
+#hal vdecoder
+vendor.video.debug.scd.input                        u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.scd.output                       u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.syntax.input                     u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.syntax.output                    u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.dec.input                        u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.dec.output                       u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdec.waittime                    u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdec.queue.info                  u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdec.rmqueue.info                u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdec.map.info                    u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdec.rmmap.info                  u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdec.thread.info                 u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdec.config.info                 u:object_r:hal_vdecoder_prop:s0
+vendor.video.debug.vdriver.ioctl.waittime           u:object_r:hal_vdecoder_prop:s0
+
+#for hisee mmi
+vendor.hisee.mmi                u:object_r:vendor_hisee_mmi_prop:s0
+
+#for mdfx property
+vendor.debug.enable_actor        u:object_r:mdfx_debug_property:s0
+vendor.debug.logbuf_max_size     u:object_r:mdfx_debug_property:s0
+vendor.debug.save_logs           u:object_r:mdfx_debug_property:s0
+vendor.debug.dump_info           u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_client_caps    u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_client_level   u:object_r:mdfx_debug_property:s0
+vendor.debug.save_info           u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_client_log_num u:object_r:mdfx_debug_property:s0
+vendor.debug.enable_server_actor u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_deliver_event  u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_register_saver_callback u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_save_string             u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_save_handle             u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_dump                    u:object_r:mdfx_debug_property:s0
+vendor.debug.mdfx_trace_point             u:object_r:mdfx_debug_property:s0
+#line 1 "vendor/huawei/chipset/sepolicy/common/property_contexts"
+
+odm.xcollie.           u:object_r:xcollie_vendor_prop:s0
+
+ro.odm.userserialno        u:object_r:system_prop:s0
+
+vendor.dolby.                 u:object_r:dolby_vendor_prop:s0
+persist.odm.radio.overseas u:object_r:rild_vendor_prop:s0
+persist.odm.radio.sub_state_cfg u:object_r:rild_vendor_prop:s0
+odm.ril.modem.modem_recovery u:object_r:rild_vendor_prop:s0
+persist.odm.radio.active_modem u:object_r:rild_vendor_prop:s0
+persist.odm.radio.cg_standby u:object_r:rild_vendor_prop:s0
+persist.odm.radio.fast_switch_step u:object_r:rild_vendor_prop:s0
+persist.odm.radio.airmode_sim u:object_r:rild_vendor_prop:s0
+persist.odm.radio.lte_rel_ver u:object_r:rild_vendor_prop:s0
+odm.ril.modem.auto_sim_pin u:object_r:rild_vendor_prop:s0
+persist.odm.radio.sim_slot_cfg u:object_r:rild_vendor_prop:s0
+persist.odm.radio.prefer_nw u:object_r:rild_vendor_prop:s0
+persist.odm.radio.prefer_nw_modem1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.standby_mode u:object_r:rild_vendor_prop:s0
+persist.odm.radio.pre_network u:object_r:rild_vendor_prop:s0
+persist.odm.radio.modem1_network u:object_r:rild_vendor_prop:s0
+persist.odm.radio.balong0_iccid u:object_r:rild_vendor_prop:s0
+persist.odm.radio.balong1_iccid u:object_r:rild_vendor_prop:s0
+persist.odm.radio.nvcfg_file u:object_r:rild_vendor_prop:s0
+persist.odm.radio.current_version u:object_r:rild_vendor_prop:s0
+persist.odm.radio.cota_version u:object_r:rild_vendor_prop:s0
+persist.odm.radio.force_load_nvcfg u:object_r:rild_vendor_prop:s0
+persist.odm.radio.pre_sub_state u:object_r:rild_vendor_prop:s0
+persist.odm.radio.last_mcc u:object_r:rild_vendor_prop:s0
+persist.odm.radio.via_p u:object_r:rild_vendor_prop:s0
+persist.odm.radio.via_m u:object_r:rild_vendor_prop:s0
+odm.ril.modem.balong_nvm_server u:object_r:rild_vendor_prop:s0
+odm.ril.hw_modem0.rssi u:object_r:rild_vendor_prop:s0
+odm.ril.hw_modem1.rssi u:object_r:rild_vendor_prop:s0
+odm.ril.hw_modem2.rssi u:object_r:rild_vendor_prop:s0
+odm.ril.balong_cid u:object_r:rild_vendor_prop:s0
+persist.odm.radio.m1_ps_allow u:object_r:rild_vendor_prop:s0
+persist.odm.radio.m2_ps_allow u:object_r:rild_vendor_prop:s0
+persist.odm.radio.m0_ps_allow u:object_r:rild_vendor_prop:s0
+persist.odm.radio.ps_reg u:object_r:rild_vendor_prop:s0
+persist.odm.radio.ps_tech u:object_r:rild_vendor_prop:s0
+persist.odm.radio.preiccid_0 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.preiccid_1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.is_attach_apn_0 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.is_attach_apn_1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.nv_bin_loaded_m0 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.nv_bin_loaded_m1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.nvcfg_file_1 u:object_r:rild_vendor_prop:s0
+odm.ril.sim.nvcfg_pre_iccid_0 u:object_r:rild_vendor_prop:s0
+odm.ril.sim.nvcfg_pre_iccid_1 u:object_r:rild_vendor_prop:s0
+odm.ril.sim.matched_dual_imsi_0 u:object_r:rild_vendor_prop:s0
+odm.ril.sim.matched_dual_imsi_1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.modem2_network u:object_r:rild_vendor_prop:s0
+persist.odm.radio.force_load_nvcfg_1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.force_nvcfg_plmn u:object_r:rild_vendor_prop:s0
+persist.odm.radio.force_nvcfg_plmn_1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.force_nvcfg_file_1 u:object_r:rild_vendor_prop:s0
+persist.odm.cur_attach_apn2 u:object_r:rild_vendor_prop:s0
+persist.odm.cur_attach_pro2 u:object_r:rild_vendor_prop:s0
+persist.odm.old_attach_apn2 u:object_r:rild_vendor_prop:s0
+persist.odm.old_attach_pro2 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.chr.apreset u:object_r:rild_vendor_prop:s0
+odm.gsm.sim.preiccid_0 u:object_r:rild_vendor_prop:s0
+odm.gsm.sim.preiccid_1 u:object_r:rild_vendor_prop:s0
+persist.odm.cur_attach_apn u:object_r:rild_vendor_prop:s0
+persist.odm.cur_attach_proto u:object_r:rild_vendor_prop:s0
+persist.odm.old_attach_apn u:object_r:rild_vendor_prop:s0
+persist.odm.old_attach_proto u:object_r:rild_vendor_prop:s0
+persist.odm.user.cat16_switch u:object_r:rild_vendor_prop:s0
+persist.odm.cur_dend_cause u:object_r:rild_vendor_prop:s0
+persist.odm.cur_apn_name u:object_r:rild_vendor_prop:s0
+persist.odm.cur_apn_type u:object_r:rild_vendor_prop:s0
+persist.odm.radio.comm_ril_mode u:object_r:rild_vendor_prop:s0
+persist.odm.radio.real_current_base_id u:object_r:rild_vendor_prop:s0
+persist.odm.radio.real_current_cust_id u:object_r:rild_vendor_prop:s0
+persist.odm.radio.real_current_preload_id u:object_r:rild_vendor_prop:s0
+persist.odm.radio.patch_version u:object_r:rild_vendor_prop:s0
+odm.ril.sim.terminal_rsp_need u:object_r:rild_vendor_prop:s0
+odm.ril.sim.terminal_rsp_need1 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.sim_modem_reset_0 u:object_r:rild_vendor_prop:s0
+persist.odm.radio.sim_modem_reset_1 u:object_r:rild_vendor_prop:s0
+persist.odm.cur_hplmn_prim_dns u:object_r:rild_vendor_prop:s0
+odm.ril.sim.scichg_process u:object_r:rild_vendor_prop:s0
+persist.odm.radio.ap_cops_mode  u:object_r:rild_ap_cops_prop:s0
+persist.odm.radio.commbin_modify_time u:object_r:rild_vendor_prop:s0
+odm.ril.ncfg_result_cleared u:object_r:rild_vendor_prop:s0
+odm.hw_mc.slavemodem.cs_rat u:object_r:rild_vendor_prop:s0
+persist.odm.vsim_ds_flow_record u:object_r:rild_vendor_prop:s0
+
+persist.odm.logsystem.modem u:object_r:radioenhance_vendor_prop:s0
+
+ro.odm.config.fm.disable u:object_r:hal_fm_prop:s0
+ro.boot.odm.conn.chiptype   u:object_r:boot_odm_conn_chiptype_prop:s0
+ro.boot.odm.conn.schiptype  u:object_r:boot_odm_conn_schiptype_prop:s0
+
+odm.ffu_reset  u:object_r:odm_ffu_reset_prop:s0
+ro.vendor.user_hota_update                    u:object_r:user_hota_update_prop:s0
+
+ro.vendor.hisecd. u:object_r:hisecd_vendor_prop:s0
+persist.vendor.hisecd. u:object_r:hisecd_vendor_prop:s0
+
+ro.odm.config.mmiautorun.flag u:object_r:mmiautorun_prop:s0
+odm.vsim.wifipara u:object_r:vsim_wifipara_prop:s0
+
+odm.apk.registerstatus u:object_r:apk_register_status_prop:s0
+
+vendor.adb.authpass          u:object_r:bms_prop:s0
+vendor.get_usb_state         u:object_r:bms_prop:s0
+vendor.get_usb_config        u:object_r:bms_prop:s0
+vendor.get_p_usb_config      u:object_r:bms_prop:s0
+vendor.get_p_usb_rework      u:object_r:bms_prop:s0
+vendor.set_usb_config        u:object_r:bms_prop:s0
+vendor.set_p_usb_config      u:object_r:bms_prop:s0
+vendor.usb_port              u:object_r:bms_prop:s0
+vendor.bms_soc               u:object_r:bms_prop:s0
+vendor.bms_auth              u:object_r:bms_prop:s0
+vendor.bms_fw                u:object_r:bms_prop:s0
+vendor.bms_heating           u:object_r:bms_prop:s0
+vendor.bms_event             u:object_r:bms_prop:s0
+vendor.bms_event_tx          u:object_r:bms_prop:s0
+vendor.bms_alarm             u:object_r:bms_prop:s0
+vendor.bms_thermal           u:object_r:bms_prop:s0
+vendor.bms_behavior          u:object_r:bms_prop:s0
+vendor.bms_logcat            u:object_r:bms_prop:s0
+vendor.soc_ctrl_mmi_stop     u:object_r:bms_prop:s0
+vendor.soc_ctrl_cust         u:object_r:bms_prop:s0
+vendor.soc_ctrl_demo         u:object_r:bms_prop:s0
+vendor.soc_ctrl_bootincharge u:object_r:bms_prop:s0
+vendor.soh_service           u:object_r:soh_service_prop:s0
+vendor.soh_config_path       u:object_r:soh_service_prop:s0
+vendor.soh_board_status      u:object_r:soh_service_prop:s0
+
+odm.ril.esim1.isdr_session u:object_r:rild_vendor_prop:s0
+persist.odm.esim1.profile_enabled u:object_r:rild_vendor_prop:s0
+odm.wifi.avsync.latency u:object_r:avsync_latency_prop:s0
+#line 1 "vendor/huawei/chipset/sepolicy/hisi/common/property_contexts"
+#for uniperf
+persist.odm.uniperf.system_mode            u:object_r:hal_uniperf_prop:s0
+persist.odm.iawareperf.perfgenius.enable   u:object_r:hal_uniperf_prop:s0
+#for nfc
+persist.vendor.nfc.hci_network_reset_req  u:object_r:hal_nfc_prop:s0
+odm.atserver.trigger     u:object_r:fcs_prop:s0
+#for deviceinfo_dmd
+persist.odm.pre_fingerprint               u:object_r:deviceinfo_dmd_prop:s0
+#line 1 "system/sepolicy/reqd_mask/property_contexts"
+# empty property_contexts file - this file is used to generate an empty
+# non-platform property context for devices without any property_contexts
+# customizations.

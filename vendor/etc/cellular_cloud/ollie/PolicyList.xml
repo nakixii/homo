@@ -1,0 +1,172 @@
+<policylist>
+    <!-- 1x access suppress -->
+    <policy module="0" id="0" targetmodem="15">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+        </model>
+    </policy>
+    <!-- 1x handover suppress -->
+    <policy module="1" id="0" targetmodem="15">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+        </model>
+    </policy>
+    <!-- modem1 attach suppress -->
+    <policy module="2" id="0" targetmodem="6">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+        </model>
+    </policy>
+    <!-- low power -->
+    <policy module="6" id="0" targetmodem="15">
+        <condition>
+            <confidence value="80"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+        </model>
+    </policy>
+    <!-- gul reselection/bg search suppress -->
+    <policy module="7" id="0" targetmodem="6">
+        <condition>
+            <confidence value="80"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+        </model>
+    </policy>
+    <policy module="7" id="1" targetmodem="6">
+        <condition>
+            <confidence value="80"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+        </model>
+    </policy>
+    <policy module="7" id="2" targetmodem="9">
+        <condition>
+            <confidence value="80"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+        </model>
+    </policy>
+    <policy module="8" id="0" targetmodem="9">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+        </model>
+    </policy>
+    <policy module="8" id="1" targetmodem="9">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+            <solution id="4"/>
+        </model>
+    </policy>
+    <policy module="8" id="2" targetmodem="9">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+        </model>
+    </policy>
+    <policy module="8" id="3" targetmodem="9">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+            <solution id="4"/>
+        </model>
+    </policy>
+    <policy module="8" id="4" targetmodem="9">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+            <solution id="4"/>
+        </model>
+    </policy>
+    <policy module="8" id="5" targetmodem="9">
+        <condition>
+            <confidence value="50"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+            <solution id="2"/>
+        </model>
+    </policy>
+    <policy module="8" id="11" targetmodem="1">
+        <condition>
+            <confidence value="80"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+        </model>
+    </policy>
+    <!--
+    <policy module="8" id="6" targetmodem="2">
+        <condition>
+            <confidence value="80"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+        </model>
+    </policy>
+    <policy module="8" id="7" targetmodem="2">
+        <condition>
+            <confidence value="80"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+        </model>
+    </policy>
+    -->
+    <policy module="8" id="8" targetmodem="6">
+        <condition>
+            <confidence value="80"/>
+            <sensor value="2046"/>
+        </condition>
+        <model id="1" priority="1">
+            <solution id="1"/>
+        </model>
+    </policy>
+</policylist>

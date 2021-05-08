@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<computingres>
+
+    <IPU computingDev="IPU" compileMode="3" fixPoints="16BIT,8BIT" floatPoints="16BIT,32BIT" suppotSparse="1" ></IPU>
+    <NPU computingDev="NPU" compileMode="3" fixPoints="16BIT,8BIT" floatPoints="16BIT,32BIT" suppotSparse="1" ></NPU>
+
+</computingres>

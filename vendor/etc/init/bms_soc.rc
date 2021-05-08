@@ -1,0 +1,44 @@
+on late-fs
+    chmod 0660 /sys/class/hw_power/soc_control/control
+    chown system system /sys/class/hw_power/soc_control/control
+    chmod 0660 /sys/class/hw_power/soc_control/strategy
+    chown system system /sys/class/hw_power/soc_control/strategy
+
+    start bms_soc
+
+on charger
+    chmod 0660 /sys/class/hw_power/soc_control/control
+    chown system system /sys/class/hw_power/soc_control/control
+    chmod 0660 /sys/class/hw_power/soc_control/strategy
+    chown system system /sys/class/hw_power/soc_control/strategy
+
+    start bms_soc
+
+on property:sys.factory_pwr_ctrl=true
+    setprop vendor.soc_ctrl_mmi_stop true
+
+on property:sys.factory_pwr_ctrl=false
+    setprop vendor.soc_ctrl_mmi_stop false
+
+# for customized version
+on property:ro.config.hw_power_ctrl=*
+    setprop vendor.soc_ctrl_cust ${ro.config.hw_power_ctrl}
+
+on property:vendor.hw_mc.bms.hw_power_ctrl=*
+    setprop vendor.soc_ctrl_cust ${vendor.hw_mc.bms.hw_power_ctrl}
+
+# for demo version
+on property:sys.demo_pwr_ctrl=*
+    setprop vendor.soc_ctrl_demo ${sys.demo_pwr_ctrl}
+
+on property:ro.config.bootincharge=*
+    setprop vendor.soc_ctrl_bootincharge ${ro.config.bootincharge}
+
+on property:vendor.hw_mc.bms.bootincharge=*
+    setprop vendor.soc_ctrl_bootincharge ${vendor.hw_mc.bms.bootincharge}
+
+service bms_soc /vendor/bin/bms_soc
+    user system
+    group system
+    disabled
+    oneshot

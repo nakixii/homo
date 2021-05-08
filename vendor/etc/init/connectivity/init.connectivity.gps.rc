@@ -1,0 +1,122 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+    mkdir /data/gps
+    mkdir /data/log/gps_log
+    chmod 775 /data/log/gps_log
+    chown gps system /data/log/gps_log
+
+    mkdir /data/log/gps_log/.tmp
+    chmod 775 /data/log/gps_log/.tmp
+    chown gps system /data/log/gps_log/.tmp
+
+	mkdir /data/log/gps_log/gps
+    mkdir /data/log/gps_log/lhd
+    chmod 775 /data/log/gps_log/gps
+    chmod 775 /data/log/gps_log/lhd
+    chown gps system /data/log/gps_log/gps
+    chown gps system /data/log/gps_log/lhd
+	
+    mkdir /data/log/gps_log/gps/.tmp
+    mkdir /data/log/gps_log/lhd/.tmp
+    chmod 775 /data/log/gps_log/gps/.tmp
+    chmod 775 /data/log/gps_log/lhd/.tmp
+    chown gps system /data/log/gps_log/gps/.tmp
+    chown gps system /data/log/gps_log/lhd/.tmp
+
+    mkdir /data/log/gps_log/log
+    chmod 775 /data/log/gps_log/log
+    chown root system /data/log/gps_log/log
+
+    chown system system /data/gps
+    chmod 775 /data/gps
+    chmod 660 /data/gps/.flp.interface.pipe.to_gpsd
+    chmod 660 /data/gps/.flp.interface.pipe.to_jni
+    chmod 660 /data/gps/.gps.interface.pipe.to_gpsd
+    chmod 660 /data/gps/.gps.interface.pipe.to_jni
+    chmod 660 /data/gps/.pipe.gpsd_to_lhd.to_client
+    chmod 660 /data/gps/.pipe.gpsd_to_lhd.to_server
+
+on early-boot
+
+on boot
+    # For serial port.
+    chown root system /dev/ttyAMA3
+    chmod 0664 /dev/ttyAMA3
+    chown root system /dev/gpstty
+    chmod 0664 /dev/gpstty
+    chown gps system /dev/appvcom9
+    chmod 0660 /dev/appvcom9
+    # For GPIOs for REG_PU and nReset
+    chown root system /proc/gps/nstandby
+    chmod 0664 /proc/gps/nstandby
+
+    service gpsdaemon /vendor/bin/gpsdaemon
+    class late_start
+    oneshot
+
+    service gpsd_47531  /vendor/bin/glgps47531 -c /data/gps/gpsconfig.xml
+    socket gps seqpacket 660 gps system
+    class late_start
+    user gps
+    group system inet sdcard_rw wakelock
+    disabled
+
+    service gpsdcl_47531  /vendor/bin/glgps47531cl -c /data/gps/gpsconfig.xml
+    socket gps seqpacket 660 gps system
+    class late_start
+    user gps
+    group system inet sdcard_rw wakelock
+    disabled
+
+    service gpsd_4752  /vendor/bin/glgps4752 -c /data/gps/gpsconfig.xml
+    socket gps seqpacket 660 gps system
+    class late_start
+    user gps
+    group system inet sdcard_rw
+    disabled
+
+    service fusd /vendor/bin/fusion_daemon
+    class late_start
+    user system
+    group system root wakelock
+
+    service lhd_4774  /vendor/bin/lhd4774  /data/gps/lhd.conf
+    class late_start
+    user gps
+    group system inet net_raw sdcard_rw wakelock
+    ioprio be 0
+    disabled
+
+    service lhdcl_4774  /vendor/bin/lhd4774cl  /data/gps/lhd.conf
+    class late_start
+    user gps
+    group system inet net_raw sdcard_rw wakelock
+    ioprio be 0
+    disabled
+
+    service gpsd_4774  /vendor/bin/glgps4774 -c /data/gps/gpsconfig.xml
+    socket gps seqpacket 660 gps system
+    class late_start
+    user gps
+    group system inet sdcard_rw wakelock
+    disabled
+
+    service gpsdcl_4774  /vendor/bin/glgps4774cl -c /data/gps/gpsconfig.xml
+    socket gps seqpacket 660 gps system
+    class late_start
+    user gps
+    group system inet sdcard_rw wakelock
+    disabled
+
+on property:vendor.gps_daemon_reload=1
+    start gpsdaemon

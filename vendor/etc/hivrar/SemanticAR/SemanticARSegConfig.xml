@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<SemanticARSegConfig>
+
+    <SemanticSegControl AIName="SemanticARSeg.om" AIFramework="Caffe" Version="indoor-seg-nas-arch7_20190722" MinVersion="64">
+
+        <config isReshape="0" classNum="15"
+                resizeImageWidth="480"  resizeImageHeight="480" resizeImageChannel="3"
+                modelInWidth="480" modelInHeight="480" modelInChannel="3"
+                modelOutWidth="120" modelOutHeight="120" modelOutChannel="15"></config>
+    </SemanticSegControl>
+    
+    <Scene>
+
+        <label name="OTHER" id="0" className="other" colorRed="0" colorGreen="0" colorBlue="0" forPlane="0" forBBox="0" forMesh="0"></label>
+        <label name="WALL" id="1" className="wall" colorRed="128" colorGreen="0" colorBlue="0" forPlane="1" forBBox="0" forMesh="1"></label>
+        <label name="FLOOR" id="2" className="floor" colorRed="0" colorGreen="128" colorBlue="0" forPlane="1" forBBox="0" forMesh="1"></label>
+        <label name="SEAT" id="3" className="seat" colorRed="128" colorGreen="128" colorBlue="0" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="TABLE" id="4" className="table" colorRed="0" colorGreen="0" colorBlue="128" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="CEILING" id="5" className="ceiling" colorRed="128" colorGreen="0" colorBlue="128" forPlane="1" forBBox="0" forMesh="1"></label>
+        <label name="BED" id="6" className="bed" colorRed="0" colorGreen="128" colorBlue="128" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="SOFA" id="7" className="sofa" colorRed="128" colorGreen="128" colorBlue="128" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="FURNITURE" id="8" className="furniture" colorRed="64" colorGreen="0" colorBlue="0" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="WINDOW" id="9" className="window" colorRed="192" colorGreen="0" colorBlue="0" forPlane="1" forBBox="0" forMesh="1"></label>
+        <label name="BOOKS" id="10" className="books" colorRed="64" colorGreen="128" colorBlue="0" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="OBJECT" id="11" className="object" colorRed="192" colorGreen="128" colorBlue="0" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="PICTURE" id="12" className="picture" colorRed="64" colorGreen="0" colorBlue="128" forPlane="1" forBBox="0" forMesh="1"></label>
+        <label name="TV" id="13" className="tv" colorRed="192" colorGreen="0" colorBlue="128" forPlane="1" forBBox="1" forMesh="1"></label>
+        <label name="DOOR" id="14" className="door" colorRed="64" colorGreen="128" colorBlue="128" forPlane="1" forBBox="0" forMesh="1"></label>
+    </Scene>
+</SemanticARSegConfig>

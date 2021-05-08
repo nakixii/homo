@@ -1,0 +1,305 @@
+import /init.usb.rc
+import /init.usb.configfs.rc
+import /vendor/etc/init/charger/init.chip.charger.rc
+import /vendor/etc/init/charger/init.chip.usb.rc
+import /vendor/etc/init/usb_port.rc
+import /vendor/etc/init/bms_alarm.rc
+import /vendor/etc/init/bms_auth.rc
+import /vendor/etc/init/bms_soc.rc
+import /vendor/etc/init/bms_thermal.rc
+import /vendor/etc/init/bms_logcat.rc
+
+on early-init
+    # Set the security context of /postinstall if present.
+    restorecon /postinstall
+    # Set init and its forked children's oom_adj.
+    write /proc/1/oom_score_adj -1000
+    write /proc/sys/kernel/sysrq 0
+    restorecon /adb_keys
+    mkdir /mnt 0775 root system
+    start ueventd
+
+    # Run apexd-bootstrap so that APEXes that provide critical libraries
+    # become available. Note that this is executed as exec_start to ensure that
+    # the libraries are available to the processes started after this statement.
+    exec_start apexd-bootstrap
+
+on init
+#    export PATH /sbin:/system/bin
+    export ANDROID_ROOT /system
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /sdcard
+    sysclktz 0
+
+    copy /proc/cmdline /dev/urandom
+    copy /default.prop /dev/urandom
+    symlink /system/etc /etc
+    symlink /sys/kernel/debug /d
+    mkdir /config 0500 root root
+
+    write /proc/sys/kernel/printk_level 6
+    write /proc/sys/kernel/panic_on_oops 1
+    write /proc/sys/vm/max_map_count 1000000
+    symlink /system/vendor /vendor
+    chown system system /dev/cpuctl
+    chown system system /dev/cpuctl/tasks
+
+    #oem_info
+    write /sys/module/hisi_nve/parameters/nve /dev/block/by-name/nvme
+    wait /dev/nve0
+    chmod 0640 /dev/nve0
+    chown root system /dev/nve0
+
+    #ddr freq
+    chown system system /sys/class/devfreq/ddrfreq/max_freq
+    chmod 664 /sys/class/devfreq/ddrfreq/max_freq
+    chown system system /sys/class/devfreq/ddrfreq/min_freq
+    chmod 664 /sys/class/devfreq/ddrfreq/min_freq
+
+    # Mount cgroup mount point for cpu accounting
+    mount cgroup none /acct cpuacct
+    mkdir /acct/uid
+
+#init.rc
+on charger
+    mkdir /splash2
+    mount ext4 /dev/block/bootdevice/by-name/splash2 /splash2 wait rw nosuid nodev context=u:object_r:splash2_data_file:s0
+    restorecon /splash2
+    chmod 775 /splash2
+    chown root system /splash2
+    symlink /splash2 /log
+    start apexd
+
+    chmod 0660 /sys/class/hw_power/interface/enable_debug
+    chown system system /sys/class/hw_power/interface/enable_debug
+    chmod 0660 /sys/class/hw_power/interface/enable_charger
+    chown system system /sys/class/hw_power/interface/enable_charger
+    chmod 0660 /sys/class/hw_power/interface/ichg_limit
+    chown system system /sys/class/hw_power/interface/ichg_limit
+    chmod 0660 /sys/class/hw_power/interface/ichg_ratio
+    chown system system /sys/class/hw_power/interface/ichg_ratio
+    chmod 0660 /sys/class/hw_power/interface/vterm_dec
+    chown system system /sys/class/hw_power/interface/vterm_dec
+    chmod 0660 /sys/class/hw_power/interface/adap_volt
+    chown system system /sys/class/hw_power/interface/adap_volt
+    chmod 0660 /sys/class/hw_power/interface/wl_thermal_ctrl
+    chown system system /sys/class/hw_power/interface/wl_thermal_ctrl
+    chmod 0220 /sys/class/hw_power/interface/iin_thermal
+    chown system system /sys/class/hw_power/interface/iin_thermal
+    chmod 0660 /sys/class/hw_power/interface/ichg_thermal
+    chown system system /sys/class/hw_power/interface/ichg_thermal
+    chmod 0440 /sys/class/hw_power/interface/vbus
+    chown system system /sys/class/hw_power/interface/vbus
+
+    chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/adaptor_voltage
+    chown system system /sys/class/hw_power/charger/direct_charger/adaptor_voltage
+
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
+
+    chmod 0660 /sys/class/hw_power/charger/wireless_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/wireless_sc/iin_thermal
+    chmod 0444 /sys/class/hw_power/wireless/tx_bd_info
+    chown system system /sys/class/hw_power/wireless/tx_bd_info
+
+    trigger cust_parse_action
+    trigger load_system_props_action
+    trigger charger-config-usb_gadget
+    class_start charger
+    wait /dev/block/bootdevice/by-name/oeminfo
+    start oeminfo_nvm
+    start teecd
+
+    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/powerct
+    chown system system /sys/devices/virtual/hw_power/power_mesg/powerct
+    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/runtime
+    chown system system /sys/devices/virtual/hw_power/power_mesg/runtime
+    chmod 0440 /sys/devices/platform/huawei_batt_info/ic_id
+    chown system system /sys/devices/platform/huawei_batt_info/ic_id
+    chmod 0440 /sys/devices/platform/huawei_batt_info/batt_id
+    chown system system /sys/devices/platform/huawei_batt_info/batt_id
+    chmod 0440 /sys/devices/platform/huawei_batt_info/ic_status
+    chown system system /sys/devices/platform/huawei_batt_info/ic_status
+    chmod 0440 /sys/devices/platform/huawei_batt_info/sn_status
+    chown system system /sys/devices/platform/huawei_batt_info/sn_status
+    chmod 0440 /sys/devices/platform/huawei_batt_info/key_status
+    chown system system /sys/devices/platform/huawei_batt_info/key_status
+    chmod 0440 /sys/devices/platform/huawei_batt_info/official
+    chown system system /sys/devices/platform/huawei_batt_info/official
+
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/basp/basp_ichg_max
+    chown system system /sys/devices/platform/huawei_batt_soh/basp/basp_ichg_max
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_data
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_data
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_process_event
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_process_event
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_imonitor_data
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_imonitor_data
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_battery_current_avg
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_battery_current_avg
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_uevent_notify
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_uevent_notify
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_dmd
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_dmd
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_status
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_status
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_limit_support
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_limit_support
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/bsoh_imonitor_report_interval
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_imonitor_report_interval
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/bsoh_sysfs_notify
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_sysfs_notify
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/bsoh_dmd_report
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_dmd_report
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/bsoh_battery_removed
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_battery_removed
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/bsoh_subsys
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_subsys
+    start bms_event
+    start powerct
+    start bsoh
+
+service ueventd /system/bin/ueventd
+    critical
+    seclabel u:r:ueventd:s0
+
+service charger /system/bin/bms_animation
+    class charger
+    user root
+    group root system
+    critical
+    seclabel u:r:charger:s0
+
+service apexd /system/bin/apexd
+    class core
+    critical
+    user root
+    group system
+    shutdown critical
+
+service apexd-bootstrap /system/bin/apexd --bootstrap
+    critical
+    user root
+    group system
+    oneshot
+    disabled
+
+# /* mount decrypt data */
+on property:vold.decrypt=trigger_default_encryption
+    start defaultcrypto
+
+on nonencrypted
+    trigger data_ready
+
+on data_ready
+    setprop sys.userdata_is_ready 1
+    start xlogctl_service
+
+on post-fs-data
+    setprop vold.post_fs_data_done 1
+
+on property:vold.decrypt=trigger_restart_framework
+    trigger data_ready
+
+on property:vold.decrypt=trigger_post_fs_data
+    trigger post-fs-data
+
+on cust_parse_action
+    cust_parse
+
+on load_system_props_action
+    load_system_props
+
+#service vold /system/bin/vold \
+#        --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 \
+#        --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+#    class core
+#    socket vold stream 0660 root mount
+#    socket cryptd stream 0660 root mount
+#    ioprio be 2
+
+service defaultcrypto /system/bin/vdc --wait cryptfs mountdefaultencrypted
+    disabled
+    oneshot
+
+service teecd /sbin/teecd
+    disabled
+    user root
+    group root
+    seclabel u:r:tee:s0
+
+# /*The service, trigger, persist  associated with the log */
+service xlogctl_service /sbin/hilogcat-early -t 0
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service xlogview_service /sbin/hilogcat-early -t 2
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service shlogd /system/vendor/bin/shs
+    class late_start
+    user root
+    group system
+    disabled
+
+service chargelogcat /sbin/hilogcat-early -b chargelogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+
+service kmsglogcat /sbin/hilogcat-early -b kmsglogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+
+service oeminfo_nvm /vendor/bin/oeminfo_nvm_server
+    group system readproc root
+    critical
+    ioprio rt 4
+    seclabel u:r:oeminfo_nvm:s0
+
+service bms_event /vendor/bin/bms_event -w 0
+    user system
+    group system
+    disabled
+
+on property:vendor.bms_event=switch
+    restart charger
+
+service powerct /vendor/bin/powerct
+    user system
+    group system
+    disabled
+
+service bsoh /vendor/bin/bsoh
+    user system
+    group system
+    disabled
+
+service bms_behavior /vendor/bin/bms_behavior
+    class late_start
+    user system
+    group system
+    disabled
+    oneshot

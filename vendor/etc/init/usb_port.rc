@@ -1,0 +1,45 @@
+on early-fs
+    chmod 0444 /sys/devices/virtual/android_usb/android0/switch_index
+    chown system system /sys/devices/virtual/android_usb/android0/switch_index
+
+    start usb_port
+
+on charger
+    chmod 0444 /sys/devices/virtual/android_usb/android0/switch_index
+    chown system system /sys/devices/virtual/android_usb/android0/switch_index
+
+    start usb_port
+
+service usb_port /vendor/bin/usb_port
+    user system
+    group system
+    disabled
+    oneshot
+
+service usb_port_n /vendor/bin/usb_port -w 1
+    user system
+    group system
+    disabled
+    oneshot
+
+# transform system property to vendor property
+
+on property:sys.usb.state=*
+    setprop vendor.get_usb_state ${sys.usb.state}
+
+on property:sys.usb.config=*
+    setprop vendor.get_usb_config ${sys.usb.config}
+
+on property:persist.sys.usb.config=*
+    setprop vendor.get_p_usb_config ${persist.sys.usb.config}
+
+on property:persist.sys.usb.rework=*
+    setprop vendor.get_p_usb_rework ${persist.sys.usb.rework}
+
+# transform vendor property to system property
+
+on property:vendor.set_usb_config=*
+    setprop sys.usb.config ${vendor.set_usb_config}
+
+on property:vendor.set_p_usb_config=*
+    setprop persist.sys.usb.config ${vendor.set_p_usb_config}

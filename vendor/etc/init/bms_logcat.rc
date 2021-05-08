@@ -1,0 +1,28 @@
+on boot
+    mkdir /data/vendor/log/bms_log
+    chown root system /data/vendor/log/bms_log
+    chmod 0775 /data/vendor/log/bms_log
+    chmod 0666 /sys/class/hw_power/power_log/dev_id
+    chown system system /sys/class/hw_power/power_log/dev_id
+    chmod 0444 /sys/class/hw_power/power_log/head
+    chown system system /sys/class/hw_power/power_log/head
+    chmod 0444 /sys/class/hw_power/power_log/content
+    chown system system /sys/class/hw_power/power_log/content
+
+on charger
+    mkdir /splash2/bms_log
+    chown root system /splash2/bms_log
+    chmod 0775 /splash2/bms_log
+    chmod 0666 /sys/class/hw_power/power_log/dev_id
+    chown system system /sys/class/hw_power/power_log/dev_id
+    chmod 0444 /sys/class/hw_power/power_log/head
+    chown system system /sys/class/hw_power/power_log/head
+    chmod 0444 /sys/class/hw_power/power_log/content
+    chown system system /sys/class/hw_power/power_log/content
+    start bms_logcat
+
+service bms_logcat /vendor/bin/bms_logcat
+    user system
+    group system
+    disabled
+    oneshot

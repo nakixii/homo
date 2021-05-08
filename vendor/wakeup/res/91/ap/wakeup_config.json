@@ -1,0 +1,26 @@
+{
+    "AsrParams":{
+        "Enrollment":[false, 0, 240, 2000, 200, 0, 30000, 3, 0, 1, 20000, 20, 0.3, 0.03, -0.1, 0.38, 0.1, 0, 2000],
+        "Recognition":[false, 0, 240, 2000, 200, 0, 5000, 1, 0, 1, 20000, 20, 0.27, -0.05, -0.5, 0.27, -0.05, -0.5, 2000],
+        "DynamicThreshold":[0.37, 0.33, 15, 0.27, 4]
+    },
+    "SensibilityParams":{
+        "comment":"array element 0:low, 1:middle, 2:high",
+        "AsrUnconfidentPhonesNum":[0, 1, 2],
+        "DspSentenceThresholds":{
+            "Default":[84, 84, 77, 73, 73, 67],
+            "UserDefined":[97, 97, 97, 88, 88, 88]
+        }
+    },
+	"DefaultPhrase":{
+        "你好小E":[84, 84, 77, 73, 73, 67],
+        "你好小易":[84, 84, 77, 73, 73, 67],
+        "你好华为":[84, 84, 77, 73, 73, 67],
+        "小艺小艺":[84, 84, 77, 73, 73, 67],
+        "你好悠悠":[97, 97, 97, 88, 88, 88],
+        "我的荣耀":[84, 84, 77, 73, 73, 67]
+	},
+	"Features":["conf_upgrade"],
+	"ControlParams":["no_prune","half_model","skip_frame"],
+	"EnrollSnrThrd":15.0
+}

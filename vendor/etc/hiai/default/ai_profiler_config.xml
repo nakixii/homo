@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigInfo TotalEnable="0x00" FusionEnable="0x01">
+    <ProTag name="Engine" id="0x00">
+        <Enable>0x00</Enable>
+        <EventNum>0x00</EventNum>
+        <EventList>0x00</EventList>
+    </ProTag>
+    <ProTag name="OME" id="0x01">
+        <Enable>0x00</Enable>
+        <EventNum>0x08</EventNum>
+        <EventList>0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07</EventList>
+    </ProTag>
+    <ProTag name="CCE" id="0x02">
+        <Enable>0x00</Enable>
+        <EventNum>0x02</EventNum>
+        <EventList>0x00,0x01</EventList>
+    </ProTag>
+    <ProTag name="RUNTIME" id="0x03">
+        <Enable>0x01</Enable>
+        <EventNum>0x01</EventNum>
+        <EventList>0x3</EventList>
+    </ProTag>
+    <ProTag name="TS" id="0x04">
+        <Enable>0x01</Enable>
+        <EventNum>0x02</EventNum>
+        <EventList>0x00,0x01</EventList>
+    </ProTag>
+    <ProTag name="AICORE" id="0x05">
+        <Enable>0x01</Enable>
+        <EventNum>0x08</EventNum>
+        <EventList>73,8,9,74,18,19,15,16</EventList>
+    </ProTag>
+	<ProTag name="AICPU" id="0x06">
+        <Enable>0x01</Enable>
+        <EventNum>0x03</EventNum>
+        <EventList>0x13,0x4,0x11</EventList>
+    </ProTag>
+	<ProTag name="TINY_CORE" id="0x07">
+        <Enable>0x01</Enable>
+        <EventNum>0x05</EventNum>
+        <EventList>1,2,3,4,5</EventList>
+    </ProTag>
+</ConfigInfo>

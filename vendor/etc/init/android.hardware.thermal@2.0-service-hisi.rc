@@ -1,0 +1,5 @@
+service thermal-hal-2-0 /vendor/bin/hw/android.hardware.thermal@2.0-service-hisi
+    interface android.hardware.thermal@2.0::IThermal default
+    class hal
+    user system
+    group system

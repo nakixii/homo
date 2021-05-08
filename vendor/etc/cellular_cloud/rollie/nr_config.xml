@@ -1,0 +1,10 @@
+<Config>
+    <ParaList>
+        <param group="nr_technology_config">
+        </param>
+        <param group="optimized_for_configD">
+        </param>
+        <param group="5g_to_4g_delay_timer">
+        </param>
+    </ParaList>
+</Config>

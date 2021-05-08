@@ -1,0 +1,82 @@
+{
+    "version": "1.0.0",
+    "delay" : 10,
+    "schedule_time" : 10,
+    "sensor" : {
+        "name": "system_h",
+        "accuracy": 1
+    },
+    "temp_level" : {
+        "comments" : "low_threshold, high_threshold, hysteresis_value, unit is millicentigrade",
+        "table" : [
+            [37000, 39000, 2000],
+            [39000, 41000, 2000],
+            [41000, 43000, 2000],
+            [43000, 45000, 2000],
+            [45000, 99000, 2000]
+        ]
+    },
+    "current_limit" : {
+        "comments" : "scale1, scale2, scale3, scale4, scale5",
+        "wcurrent_5v" : {
+            "channel" : 0,
+            "prefix" : "dcp 0#",
+            "limit" : [2000, 2000, 2000, 2000, 2000]
+        },
+        "wcurrent_9v" : {
+            "channel" : 0,
+            "prefix" : "dcp 1#",
+            "limit": [2000, 2000, 2000, 2000, 2000]
+        },
+        "direct_charger" : {
+            "channel" : 1,
+            "prefix" : "lvc ",
+            "limit": [4000, 4000, 4000, 4000, 3500]
+        },
+        "direct_charger_sc" : {
+            "channel" : 0,
+            "prefix" : "sc 0#",
+            "limit": [0, 0, 0, 5000, 4000]
+        },
+        "wlcurrent_5v" : {
+            "channel" : 0,
+            "prefix" : "dcp 2#",
+            "limit" : [0, 1500, 1500, 1200, 900]
+        },
+        "wlcurrent_9v" : {
+            "channel" : 0,
+            "prefix" : "dcp 3#",
+            "limit" : [0, 1500, 1500, 1200, 900]
+        },
+        "wlcurrent_sc" : {
+            "channel" : 0,
+            "prefix" : "wl_sc 0#",
+            "limit" : [0, 1000, 1000, 800, 700]
+        }
+    },
+    "su_version": "1.0.0",
+    "su_delay" : 1,
+    "su_current_limit" : {
+        "comments" : "hota, normal",
+        "wcurrent_5v" : {
+            "channel" : 0,
+            "prefix" : "dcp 0#",
+            "limit" : [900, 1300]
+        },
+        "wcurrent_9v" : {
+            "channel" : 0,
+            "prefix" : "dcp 1#",
+            "limit": [900, 1300]
+        },
+        "direct_charger" : {
+            "channel" : 1,
+            "prefix" : "lvc ",
+            "limit": [1500, 1500]
+        },
+        "direct_charger_sc" : {
+            "channel" : 0,
+            "prefix" : "sc 0#",
+            "limit": [1500, 1500]
+        }
+    }
+}

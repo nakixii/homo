@@ -1,0 +1,9 @@
+service virmodem-hal-service /vendor/bin/hw/virtualmodem@1.1-service
+    interface vendor.huawei.hardware.audioremote@1.1::IAudioRemoteConnect virtualmodem
+    disabled
+    class hal
+    user system
+    group system
+    ioprio rt 4
+    capabilities SYS_NICE
+    writepid /dev/stune/top-app/tasks

@@ -1,0 +1,5 @@
+service vibrator-HW-1-1 /vendor/bin/hw/vendor.huawei.hardware.hwvibrator@1.1-service
+    class hal
+    user system
+    group system readproc
+    oneshot

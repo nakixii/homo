@@ -1,0 +1,132 @@
+on init
+    chown system system /sys/devices/platform/ffb40000.mali/power_policy
+    chmod 0660 /sys/devices/platform/ffb40000.mali/power_policy
+
+    #mem-latency config
+    write /sys/class/devfreq/memlat_cpu0/governor mem_latency
+    write /sys/class/devfreq/memlat_cpu0/polling_interval 20
+    write /sys/class/devfreq/memlat_cpu0/min_freq 415000000
+    write /sys/class/devfreq/memlat_cpu0/max_freq 2133000000
+    write /sys/class/devfreq/memlat_cpu0/mem_latency/target_ratio 400
+    chown system system /sys/class/devfreq/memlat_cpu0/polling_interval
+    chmod 0660 /sys/class/devfreq/memlat_cpu0/polling_interval
+    chown system system /sys/class/devfreq/memlat_cpu0/mem_latency/target_ratio
+    chmod 0660 /sys/class/devfreq/memlat_cpu0/mem_latency/target_ratio
+    chown system system /sys/class/devfreq/memlat_cpu0/mem_latency/monitor_enable
+    chmod 0660 /sys/class/devfreq/memlat_cpu0/mem_latency/monitor_enable
+
+    write /sys/class/devfreq/memlat_cpu4/governor mem_latency
+    write /sys/class/devfreq/memlat_cpu4/polling_interval 20
+    write /sys/class/devfreq/memlat_cpu4/min_freq 415000000
+    write /sys/class/devfreq/memlat_cpu4/max_freq 2133000000
+    write /sys/class/devfreq/memlat_cpu4/mem_latency/target_ratio 400
+    chown system system /sys/class/devfreq/memlat_cpu4/polling_interval
+    chmod 0660 /sys/class/devfreq/memlat_cpu4/polling_interval
+    chown system system /sys/class/devfreq/memlat_cpu4/mem_latency/target_ratio
+    chmod 0660 /sys/class/devfreq/memlat_cpu4/mem_latency/target_ratio
+    chown system system /sys/class/devfreq/memlat_cpu4/mem_latency/monitor_enable
+    chmod 0660 /sys/class/devfreq/memlat_cpu4/mem_latency/monitor_enable
+
+    write /sys/class/devfreq/memlat_cpu6/governor mem_latency
+    write /sys/class/devfreq/memlat_cpu6/polling_interval 20
+    write /sys/class/devfreq/memlat_cpu6/min_freq 415000000
+    write /sys/class/devfreq/memlat_cpu6/max_freq 2133000000
+    write /sys/class/devfreq/memlat_cpu6/mem_latency/target_ratio 400
+    chown system system /sys/class/devfreq/memlat_cpu6/polling_interval
+    chmod 0660 /sys/class/devfreq/memlat_cpu6/polling_interval
+    chown system system /sys/class/devfreq/memlat_cpu6/mem_latency/target_ratio
+    chmod 0660 /sys/class/devfreq/memlat_cpu6/mem_latency/target_ratio
+    chown system system /sys/class/devfreq/memlat_cpu6/mem_latency/monitor_enable
+    chmod 0660 /sys/class/devfreq/memlat_cpu6/mem_latency/monitor_enable
+
+    write /sys/class/devfreq/l3_memlat_cpu0/governor mem_latency
+    write /sys/class/devfreq/l3_memlat_cpu0/polling_interval 20
+    write /sys/class/devfreq/l3_memlat_cpu0/min_freq 415000000
+    write /sys/class/devfreq/l3_memlat_cpu0/max_freq 1551000000
+    write /sys/class/devfreq/l3_memlat_cpu0/mem_latency/target_ratio 400
+    chown system system /sys/class/devfreq/l3_memlat_cpu0/polling_interval
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu0/polling_interval
+    chown system system /sys/class/devfreq/l3_memlat_cpu0/mem_latency/target_ratio
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu0/mem_latency/target_ratio
+    chown system system /sys/class/devfreq/l3_memlat_cpu0/mem_latency/monitor_enable
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu0/mem_latency/monitor_enable
+
+    write /sys/class/devfreq/l3_memlat_cpu4/governor mem_latency
+    write /sys/class/devfreq/l3_memlat_cpu4/polling_interval 20
+    write /sys/class/devfreq/l3_memlat_cpu4/min_freq 415000000
+    write /sys/class/devfreq/l3_memlat_cpu4/max_freq 1551000000
+    write /sys/class/devfreq/l3_memlat_cpu4/mem_latency/target_ratio 400
+    chown system system /sys/class/devfreq/l3_memlat_cpu4/polling_interval
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu4/polling_interval
+    chown system system /sys/class/devfreq/l3_memlat_cpu4/mem_latency/target_ratio
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu4/mem_latency/target_ratio
+    chown system system /sys/class/devfreq/l3_memlat_cpu4/mem_latency/monitor_enable
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu4/mem_latency/monitor_enable
+
+    write /sys/class/devfreq/l3_memlat_cpu6/governor mem_latency
+    write /sys/class/devfreq/l3_memlat_cpu6/polling_interval 20
+    write /sys/class/devfreq/l3_memlat_cpu6/min_freq 415000000
+    write /sys/class/devfreq/l3_memlat_cpu6/max_freq 1551000000
+    write /sys/class/devfreq/l3_memlat_cpu6/mem_latency/target_ratio 400
+    chown system system /sys/class/devfreq/l3_memlat_cpu6/polling_interval
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu6/polling_interval
+    chown system system /sys/class/devfreq/l3_memlat_cpu6/mem_latency/target_ratio
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu6/mem_latency/target_ratio
+    chown system system /sys/class/devfreq/l3_memlat_cpu6/mem_latency/monitor_enable
+    chmod 0660 /sys/class/devfreq/l3_memlat_cpu6/mem_latency/monitor_enable
+
+on property:sys.boot_completed=1
+    #schedutil config
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor schedutil
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/go_hispeed_load 95
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq 1397000
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/target_loads 75:956000:80:1128000:85:1320000:90
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/above_hispeed_delay 19000
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/min_sample_time 59000
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/boostpulse_duration 160000
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/fast_ramp_down 1
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/fast_ramp_up 1
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/top_task_hist_size 3
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/top_task_stats_policy 1
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/ed_task_running_duration 60000000
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/ed_new_task_running_duration 60000000
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/io_is_busy 1
+
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor schedutil
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/go_hispeed_load 95
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/hispeed_freq 1455000
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/target_loads 80:1133000:85:1455000:90:1949000:91:2055000:96
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/above_hispeed_delay 19000
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/min_sample_time 19000
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/timer_slack 39000
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/fast_ramp_down 1
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/fast_ramp_up 0
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/top_task_hist_size 3
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/top_task_stats_policy 2
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/ed_task_running_duration 70000000
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/ed_new_task_running_duration 60000000
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/top_task_stats_empty_window 1
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/io_is_busy 1
+
+    write /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor schedutil
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/go_hispeed_load 95
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/hispeed_freq 2141000
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/target_loads 80:1661000:85:2141000:90:2535000:95
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/above_hispeed_delay 10000
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/min_sample_time 19000
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/timer_slack 39000
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/fast_ramp_down 1
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/fast_ramp_up 0
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/top_task_hist_size 3
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/top_task_stats_policy 2
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/ed_task_running_duration 60000000
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/ed_new_task_running_duration 40000000
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/top_task_stats_empty_window 1
+    write /sys/devices/system/cpu/cpu6/cpufreq/schedutil/io_is_busy 1
+
+    #eas config
+    write /sys/kernel/eas/boost 0
+    write /sys/kernel/eas/boot_boost 0
+    write /sys/kernel/eas/capacity_margin 1440:1205:1280
+    write /sys/kernel/eas/task_boost_limit 460
+

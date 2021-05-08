@@ -1,0 +1,9 @@
+@WiFi patch info
+PARA_VERSION=Hi1103V100;
+@cldo0 default 0.9v
+PARA_WRITEM=2,0x50002120,0x7700;
+ADDR_FILE_FILES=1,0x40000,/vendor/firmware/hi1103/pilot/WL_ITCM.bin;
+ADDR_FILE_FILES=1,0x2001a800,/vendor/firmware/hi1103/pilot/PLAT_RAM_EXCEPTION.bin;
+PARA_WRITEM=2,0x500022a8,65535;
+QUIT;
+@device_version=20201125163249

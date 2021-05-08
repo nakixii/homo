@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForegroundDataOpt>
+	<APKInfo packageName="com.tencent.tmgp.sgame">
+		<TopGame>1</TopGame>
+	</APKInfo>
+	<APKInfo packageName="com.netease.hyxd.huawei">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.tmgp.pubgmhd">
+		<TopGame>1</TopGame>
+	</APKInfo>
+	<APKInfo packageName="com.tencent.tmgp.WePop">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.tmgp.speedmobile">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.tmgp.pubgm">
+		<TopGame>1</TopGame>
+	</APKInfo>
+	<APKInfo packageName="com.netease.onmyoji">
+	</APKInfo>
+	<APKInfo packageName="com.ea.android.chs.nbamobile">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.tmgp.cf">
+	</APKInfo>
+	<APKInfo packageName="com.netease.hyxd">
+	</APKInfo>
+	<APKInfo packageName="com.netease.chiji">
+	</APKInfo>
+	<APKInfo packageName="com.mobile.legends">
+	</APKInfo>
+	<APKInfo packageName="com.pubg.krmobile">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.ig">
+	</APKInfo>
+	<APKInfo packageName="com.epicgames.fortnite">
+	</APKInfo>
+	<APKInfo packageName="com.ngame.allstar.eu">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.wegame.mangod">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.mm">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.mobileqq">
+	</APKInfo>
+	<APKInfo packageName="com.sina.weibo">
+	</APKInfo>
+	<APKInfo packageName="com.taobao.taobao">
+	</APKInfo>
+	<APKInfo packageName="com.jingdong.app.mall">
+	</APKInfo>
+	<APKInfo packageName="com.xunmeng.pinduoduo">
+	</APKInfo>
+	<APKInfo packageName="com.MobileTicket">
+	</APKInfo>
+	<APKInfo packageName="com.eg.android.AlipayGphone">
+	</APKInfo>
+	<APKInfo packageName="com.sdu.didi.psnger">
+	</APKInfo>
+	<APKInfo packageName="com.sdu.didi.gsui">
+	</APKInfo>
+	<APKInfo packageName="com.autonavi.minimap">
+	</APKInfo>
+	<APKInfo packageName="com.baidu.BaiduMap">
+	</APKInfo>
+	<APKInfo packageName="com.ss.android.article.news">
+	</APKInfo>
+	<APKInfo packageName="com.tencent.news">
+	</APKInfo>
+	<APKInfo packageName="com.ss.android.ugc.aweme">
+	</APKInfo>
+	<APKInfo packageName="com.smile.gifmaker">
+	</APKInfo>
+	<APKInfo packageName="com.tmall.wireless">
+	</APKInfo>
+	<APKInfo packageName="com.xingin.xhs">
+	</APKInfo>
+	<APKInfo packageName="me.ele">
+	</APKInfo>
+	<APKInfo packageName="com.sankuai.meituan">
+	</APKInfo>
+	<APKInfo packageName="com.taobao.idlefish">
+	</APKInfo>
+	<APKInfo packageName="com.dianping.v1">
+	</APKInfo>
+	<APKInfo packageName="com.achievo.vipshop">
+	</APKInfo>
+	<APKInfo packageName="com.wudaokou.hippo">
+	</APKInfo>
+	<APKInfo packageName="com.suning.mobile.ebuy">
+	</APKInfo>
+	<APKInfo packageName="com.taobao.etao">
+	</APKInfo>
+	<APKInfo packageName="com.sankuai.meituan.takeoutnew">
+	</APKInfo>
+
+	<Category>
+		<categoryId>0</categoryId>
+		<bgUplinkRateThreshold>50</bgUplinkRateThreshold>
+		<congestPdcpBufferTime>200</congestPdcpBufferTime>
+		<severelyCongestPdcpBufferTime>400</severelyCongestPdcpBufferTime>
+		<congestPeroidThreshold>3000</congestPeroidThreshold>
+		<accelerateTime>300000</accelerateTime>
+	</Category>
+</ForegroundDataOpt>

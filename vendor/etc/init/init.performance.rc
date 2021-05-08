@@ -1,0 +1,37 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+
+on boot
+
+## Property trigger
+#on property:ro.sample=*
+#    write /device/sample/sample_property ${ro.some_property}
+#    chmod 644 /device/sample/sample_device
+
+# set cpu scheduler when device shutdown
+on property:sys.shutdown.requested=*
+    write sys/kernel/eas/boot_boost 1
+    write /config/usb_gadget/g1/functions/mass_storage.gs6/lun.0/file none
+
+## Service definition
+#service sample /system/bin/sample
+#    class main
+#    user root
+#    group system log graphics
+#    socket sample stream 0660 system system
+#    disabled
+#    oneshot
+#    onrestart restart another_service
+
+

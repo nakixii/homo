@@ -1,0 +1,4 @@
+service hwcinterface-1-1 /vendor/bin/hw/vendor.huawei.hardware.graphics.hwcinterface@1.1-service
+    class hal
+    user system
+    group system readproc

@@ -1,0 +1,84 @@
+on boot
+    chmod 0660 /sys/class/hw_power/interface/enable_charger
+    chown system system /sys/class/hw_power/interface/enable_charger
+    chmod 0660 /sys/class/hw_power/interface/ichg_limit
+    chown system system /sys/class/hw_power/interface/ichg_limit
+    chmod 0660 /sys/class/hw_power/interface/ichg_ratio
+    chown system system /sys/class/hw_power/interface/ichg_ratio
+    chmod 0660 /sys/class/hw_power/interface/vterm_dec
+    chown system system /sys/class/hw_power/interface/vterm_dec
+
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/basp/basp_ndc_vstep
+    chown system system /sys/devices/platform/huawei_batt_soh/basp/basp_ndc_vstep
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/basp/basp_fcc_records
+    chown system system /sys/devices/platform/huawei_batt_soh/basp/basp_fcc_records
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/basp/basp_coul_vdec
+    chown system system /sys/devices/platform/huawei_batt_soh/basp/basp_coul_vdec
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/basp/basp_ichg_max
+    chown system system /sys/devices/platform/huawei_batt_soh/basp/basp_ichg_max
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_data
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_data
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_process_event
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_process_event
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_imonitor_data
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_imonitor_data
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/iscd/iscd_battery_current_avg
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_battery_current_avg
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_uevent_notify
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_uevent_notify
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_dmd
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_dmd
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_status
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_status
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/iscd/iscd_limit_support
+    chown system system /sys/devices/platform/huawei_batt_soh/iscd/iscd_limit_support
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/bsoh_imonitor_report_interval
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_imonitor_report_interval
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/bsoh_sysfs_notify
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_sysfs_notify
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/bsoh_dmd_report
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_dmd_report
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/bsoh_battery_removed
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_battery_removed
+    chmod 0440 /sys/devices/platform/huawei_batt_soh/bsoh_subsys
+    chown system system /sys/devices/platform/huawei_batt_soh/bsoh_subsys
+    chmod 0775 /splash2/isc
+    chown root root /splash2/isc
+    chmod 0664 /splash2/isc/isc.data
+    chown root root /splash2/isc/isc.data
+    chmod 0664 /splash2/isc/isc_config.data
+    chown root root /splash2/isc/isc_config.data
+    chmod 0660 /splash2/soh/acr.dat
+    chown system system /splash2/soh/acr.dat
+    mkdir /splash2/battery
+    chown root system /splash2/battery
+    chmod 0775 /splash2/battery
+    chown root system /splash2/battery/fastfcc_0.txt
+    chmod 0664 /splash2/battery/fastfcc_0.txt
+    chown root system /splash2/battery/fastfcc_1.txt
+    chmod 0664 /splash2/battery/fastfcc_1.txt
+    chmod 0775 /sys/devices/platform/huawei_batt_soh/cfsd
+    chown root system /sys/devices/platform/huawei_batt_soh/cfsd
+    chmod 0664 /sys/devices/platform/huawei_batt_soh/cfsd/ocv_info
+    chown root system /sys/devices/platform/huawei_batt_soh/cfsd/ocv_info
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/asw/asw_time_speed
+    chown system system /sys/devices/platform/huawei_batt_soh/asw/asw_time_speed
+    chmod 0660 /sys/devices/platform/huawei_batt_soh/asw/asw_data
+    chown system system /sys/devices/platform/huawei_batt_soh/asw/asw_data
+    chmod 0660 /sys/class/hw_power/soc_control/control
+    chown system system /sys/class/hw_power/soc_control/control
+    chmod 0660 /sys/class/hw_power/soc_control/strategy
+    chown system system /sys/class/hw_power/soc_control/strategy
+    chmod 0440 /sys/devices/virtual/hw_power/vbus/connect_state
+    chown system system /sys/devices/virtual/hw_power/vbus/connect_state
+    chmod 0664 /splash2/battery/cvt.data
+    chown system system /splash2/battery/cvt.data
+    chmod 0664 /splash2/battery/cvtnew.data
+    chown system system /splash2/battery/cvtnew.data
+
+    start bsoh
+
+service bsoh /vendor/bin/bsoh
+    user system
+    group system
+    disabled

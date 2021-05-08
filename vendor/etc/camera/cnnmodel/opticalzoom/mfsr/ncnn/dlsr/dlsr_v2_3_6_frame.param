@@ -1,0 +1,38 @@
+7767517
+36 39
+Input            data             0 1 data 0=300 1=220 2=24
+Convolution      AVGNET_V2_3/layer1 1 1 data AVGNET_V2_3/layer1 0=96 1=3 2=1 3=2 4=1 5=1 6=20736
+PReLU            AVGNET_V2_3/layer1/alpha 1 1 AVGNET_V2_3/layer1 AVGNET_V2_3/layer1_AVGNET_V2_3/layer1/alpha 0=96
+Convolution      AVGNET_V2_3/layer2 1 1 AVGNET_V2_3/layer1_AVGNET_V2_3/layer1/alpha AVGNET_V2_3/layer2 0=48 1=1 2=1 3=1 4=0 5=1 6=4608
+PReLU            AVGNET_V2_3/layer2/alpha 1 1 AVGNET_V2_3/layer2 AVGNET_V2_3/layer2_AVGNET_V2_3/layer2/alpha 0=48
+Split            splitncnn_0      1 2 AVGNET_V2_3/layer2_AVGNET_V2_3/layer2/alpha AVGNET_V2_3/layer2_AVGNET_V2_3/layer2/alpha_splitncnn_0 AVGNET_V2_3/layer2_AVGNET_V2_3/layer2/alpha_splitncnn_1
+Convolution      AVGNET_V2_3/layer3 1 1 AVGNET_V2_3/layer2_AVGNET_V2_3/layer2/alpha_splitncnn_1 AVGNET_V2_3/layer3 0=24 1=3 2=1 3=1 4=1 5=1 6=10368
+PReLU            AVGNET_V2_3/layer3/alpha 1 1 AVGNET_V2_3/layer3 AVGNET_V2_3/layer3_AVGNET_V2_3/layer3/alpha 0=24
+Split            splitncnn_1      1 2 AVGNET_V2_3/layer3_AVGNET_V2_3/layer3/alpha AVGNET_V2_3/layer3_AVGNET_V2_3/layer3/alpha_splitncnn_0 AVGNET_V2_3/layer3_AVGNET_V2_3/layer3/alpha_splitncnn_1
+Convolution      AVGNET_V2_3/resblock/c1/0 1 1 AVGNET_V2_3/layer3_AVGNET_V2_3/layer3/alpha_splitncnn_1 AVGNET_V2_3/resblock/c1/0 0=24 1=3 2=1 3=1 4=1 5=1 6=5184
+BatchNorm        AVGNET_V2_3/resblock/b1/0 1 1 AVGNET_V2_3/resblock/c1/0 AVGNET_V2_3/resblock/c1/0_AVGNET_V2_3/resblock/b1/0 0=24
+Scale            AVGNET_V2_3/resblock/b1_scale/0 1 1 AVGNET_V2_3/resblock/c1/0_AVGNET_V2_3/resblock/b1/0 AVGNET_V2_3/resblock/c1/0_AVGNET_V2_3/resblock/b1_scale/0 0=24 1=1
+PReLU            AVGNET_V2_3/resblock/b1/0/alpha 1 1 AVGNET_V2_3/resblock/c1/0_AVGNET_V2_3/resblock/b1_scale/0 AVGNET_V2_3/resblock/c1/0_AVGNET_V2_3/resblock/b1/0/alpha 0=24
+Convolution      AVGNET_V2_3/resblock/c2/0 1 1 AVGNET_V2_3/resblock/c1/0_AVGNET_V2_3/resblock/b1/0/alpha AVGNET_V2_3/resblock/c2/0 0=24 1=3 2=1 3=1 4=1 5=1 6=5184
+BatchNorm        AVGNET_V2_3/resblock/b2/0 1 1 AVGNET_V2_3/resblock/c2/0 AVGNET_V2_3/resblock/c2/0_AVGNET_V2_3/resblock/b2/0 0=24
+Scale            AVGNET_V2_3/resblock/b2_scale/0 1 1 AVGNET_V2_3/resblock/c2/0_AVGNET_V2_3/resblock/b2/0 AVGNET_V2_3/resblock/c2/0_AVGNET_V2_3/resblock/b2_scale/0 0=24 1=1
+Eltwise          sum1             2 1 AVGNET_V2_3/layer3_AVGNET_V2_3/layer3/alpha_splitncnn_0 AVGNET_V2_3/resblock/c2/0_AVGNET_V2_3/resblock/b2_scale/0 sum1 0=1 -23301=0
+Split            splitncnn_2      1 2 sum1 sum1_splitncnn_0 sum1_splitncnn_1
+Convolution      AVGNET_V2_3/resblock/c1/1 1 1 sum1_splitncnn_1 AVGNET_V2_3/resblock/c1/1 0=24 1=3 2=1 3=1 4=1 5=1 6=5184
+BatchNorm        AVGNET_V2_3/resblock/b1/1 1 1 AVGNET_V2_3/resblock/c1/1 AVGNET_V2_3/resblock/c1/1_AVGNET_V2_3/resblock/b1/1 0=24
+Scale            AVGNET_V2_3/resblock/b1_scale/1 1 1 AVGNET_V2_3/resblock/c1/1_AVGNET_V2_3/resblock/b1/1 AVGNET_V2_3/resblock/c1/1_AVGNET_V2_3/resblock/b1_scale/1 0=24 1=1
+PReLU            AVGNET_V2_3/resblock/b1/1/alpha 1 1 AVGNET_V2_3/resblock/c1/1_AVGNET_V2_3/resblock/b1_scale/1 AVGNET_V2_3/resblock/c1/1_AVGNET_V2_3/resblock/b1/1/alpha 0=24
+Convolution      AVGNET_V2_3/resblock/c2/1 1 1 AVGNET_V2_3/resblock/c1/1_AVGNET_V2_3/resblock/b1/1/alpha AVGNET_V2_3/resblock/c2/1 0=24 1=3 2=1 3=1 4=1 5=1 6=5184
+BatchNorm        AVGNET_V2_3/resblock/b2/1 1 1 AVGNET_V2_3/resblock/c2/1 AVGNET_V2_3/resblock/c2/1_AVGNET_V2_3/resblock/b2/1 0=24
+Scale            AVGNET_V2_3/resblock/b2_scale/1 1 1 AVGNET_V2_3/resblock/c2/1_AVGNET_V2_3/resblock/b2/1 AVGNET_V2_3/resblock/c2/1_AVGNET_V2_3/resblock/b2_scale/1 0=24 1=1
+Eltwise          sum2             2 1 sum1_splitncnn_0 AVGNET_V2_3/resblock/c2/1_AVGNET_V2_3/resblock/b2_scale/1 sum2 0=1 -23301=0
+Convolution      AVGNET_V2_3/layer3/c 1 1 sum2 AVGNET_V2_3/layer3/c 0=48 1=3 2=1 3=1 4=1 5=1 6=10368
+BatchNorm        AVGNET_V2_3/layer3/b 1 1 AVGNET_V2_3/layer3/c AVGNET_V2_3/layer3/c_AVGNET_V2_3/layer3/b 0=48
+Scale            AVGNET_V2_3/layer3/b_scale/m 1 1 AVGNET_V2_3/layer3/c_AVGNET_V2_3/layer3/b AVGNET_V2_3/layer3/c_AVGNET_V2_3/layer3/b_scale/m 0=48 1=1
+Eltwise          sum3             2 1 AVGNET_V2_3/layer3/c_AVGNET_V2_3/layer3/b_scale/m AVGNET_V2_3/layer2_AVGNET_V2_3/layer2/alpha_splitncnn_0 sum3 0=1 -23301=0
+Convolution      AVGNET_V2_3/layer4 1 1 sum3 AVGNET_V2_3/layer4 0=64 1=3 2=1 3=1 4=1 5=1 6=27648
+PReLU            AVGNET_V2_3/layer4/alpha 1 1 AVGNET_V2_3/layer4 AVGNET_V2_3/layer4_AVGNET_V2_3/layer4/alpha 0=64
+Deconvolution    deconv1          1 1 AVGNET_V2_3/layer4_AVGNET_V2_3/layer4/alpha deconv1 0=16 1=2 2=1 3=2 4=0 5=1 6=4096
+Convolution      AVGNET_V2_3/layer5 1 1 deconv1 AVGNET_V2_3/layer5 0=4 1=3 2=1 3=1 4=1 5=1 6=576
+PReLU            AVGNET_V2_3/layer5/alpha 1 1 AVGNET_V2_3/layer5 AVGNET_V2_3/layer5_AVGNET_V2_3/layer5/alpha 0=4
+Deconvolution    deconv2          1 1 AVGNET_V2_3/layer5_AVGNET_V2_3/layer5/alpha deconv2 0=1 1=2 2=1 3=2 4=0 5=1 6=16

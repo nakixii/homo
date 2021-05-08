@@ -1,0 +1,4 @@
+# put this file in the last import file
+
+on post-fs-data
+    setprop vold.post_fs_data_done 1

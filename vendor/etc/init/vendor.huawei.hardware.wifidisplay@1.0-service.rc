@@ -1,0 +1,7 @@
+service wifidisplay-hal-1-0 /vendor/bin/hw/vendor.huawei.hardware.wifidisplay@1.0-service
+    interface vendor.huawei.hardware.wifidisplay@1.0::IWifiDisplay default
+    oneshot
+    disabled
+    class hal
+    user system
+    group system

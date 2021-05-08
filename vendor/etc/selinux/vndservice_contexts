@@ -1,0 +1,4 @@
+*                       u:object_r:default_android_vndservice:s0
+vowifi.service                                         u:object_r:hivwserver_service:s0
+service.aptouchinterfaceservice                        u:object_r:aptouch_daemon_service:s0
+soh.service                                            u:object_r:battery_soh_service:s0

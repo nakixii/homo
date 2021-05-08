@@ -1,0 +1,77 @@
+import /vendor/etc/init/connectivity/init.connectivity.${ro.boot.odm.conn.chiptype}.rc
+on post-fs
+    restorecon /vendor/bin/wifidrvload
+    chmod 750 /venodor/bin/wifidrvload
+    chgrp shell /vendor/bin/wifidrvload
+
+service wifidrvload /vendor/bin/wifidrvload
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+
+on post-fs-data
+    mkdir /data/vendor/wifi 0771 wifi wifi
+    mkdir /data/vendor/wifi/hostapd 0770 wifi wifi
+    mkdir /data/vendor/wifi/hostapd/sockets 0770 wifi wifi
+    mkdir /data/vendor/wifi/wpa 0770 wifi wifi
+    mkdir /data/vendor/wifi/wpa/sockets 0770 wifi wifi
+    chown wifi wifi /data/vendor/wifi
+    chown wifi wifi /data/vendor/wpa/wifi/p2p_supplicant.conf
+    chmod 0660 /data/vendor/wpa/wifi/p2p_supplicant.conf
+    restorecon_recursive /data/vendor/wifi
+
+service dhcpcd_wlan0 /system/bin/dhcpcd -BKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_p2p /system/bin/dhcpcd -aABKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_bnep0 /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+
+service dhcpcd_bt-pan /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+
+service iprenew_wlan0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_p2p /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service iprenew_bnep0 /system/bin/dhcpcd -n
+    class main
+    disabled
+    oneshot
+
+service macaddr /vendor/bin/mac_addr_normalization
+    class late_start
+    user root
+    group root bluetooth wifi system
+    oneshot
+
+service remotedebug_wifi_log /vendor/bin/remotedebug_wifi_log
+    class late_start
+    user root
+    group system wifi
+    oneshot
+    disabled
+
+on property:hwlog.remotedebug=true
+    start remotedebug_wifi_log
+
+on property:hwlog.remotedebug=false
+    start remotedebug_wifi_log

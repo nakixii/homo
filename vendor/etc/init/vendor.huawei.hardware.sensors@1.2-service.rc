@@ -1,0 +1,6 @@
+service sensors-hal-1-2_hw /vendor/bin/hw/vendor.huawei.hardware.sensors@1.2-service
+    class hal
+    user system
+    group system wakelock uhid input
+    capabilities BLOCK_SUSPEND
+    rlimit rtprio 10 10

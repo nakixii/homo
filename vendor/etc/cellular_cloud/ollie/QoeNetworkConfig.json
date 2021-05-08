@@ -1,0 +1,10 @@
+{
+    "ChannelDetection": {"ServerName1":"connectivitycheck.platform.hicloud.com",
+                         "ServerName2":"connectivitycheck.cbg-app.huawei.com"},
+    "AppTypeList":{"ShortVideo":["com.ss.android.ugc.live","com.smile.gifmaker","com.ss.android.ugc.aweme","com.tencent.karaoke"],
+                   "LiveVideo":["air.tv.douyu.android","com.duowan.kiwi"],
+                   "RttException":["com.eastmoney.android.berlin","com.happyelements.AndroidAnimal"]
+              },
+    "KeyFlowType":{"video":["com.ss.android.ugc.aweme","com.tencent.qqlive","com.ss.android.article.news","com.qiyi.video","com.youku.phone","com.smile.gifmaker"],
+                     "pid":["com.tencent.mm"]}
+}

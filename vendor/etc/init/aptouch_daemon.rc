@@ -1,0 +1,14 @@
+#tp hostprocessing daemon
+service aptouch /system/vendor/bin/aptouch_daemon
+    user root
+    group root system shell dsm log wakelock
+
+on boot
+    start aptouch
+
+on property:odm.thp.service_enable=1
+    start aptouch
+
+on property:odm.thp.service_enable=0
+    stop aptouch
+

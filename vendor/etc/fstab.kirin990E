@@ -1,0 +1,30 @@
+# Android fstab file.
+#<src>                                                  <mnt_point>         <type>    <mnt_flags and options>                       <fs_mgr_flags>
+# The filesystem that contains the filesystem checker binary (typically /system) cannot
+# specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
+
+#/dev/block/bootdevice/by-name/system    /system    ext4    ro    wait
+#/dev/block/bootdevice/by-name/vendor    /vendor    ext4    ro    wait
+#/dev/block/bootdevice/by-name/product   /product   ext4    ro    wait
+#/dev/block/bootdevice/by-name/version   /version   ext4    ro    wait
+#/dev/block/bootdevice/by-name/cust      /cust      ext4    ro    wait
+#/dev/block/bootdevice/by-name/odm    /odm    ext4    ro    wait
+/dev/block/by-name/splash2         /splash2                ext4      rw,nosuid,nodev,noatime,data=ordered,context=u:object_r:splash2_data_file:s0 wait,check,nofail
+/devices/hi_mci.1/mmc_host/mmc1/*                       auto                auto      defaults                                      voldmanaged=sdcard:auto,noemulatedsd
+/devices/platform/hi_mci.1/mmc_host/mmc1/*                       auto                auto      defaults                                      voldmanaged=sdcard:auto,noemulatedsd
+/devices/platform/hisi_usb@f8480000/f8400000.dwc3/*     auto                auto      defaults                                      voldmanaged=usbotg:auto
+/dev/block/by-name/userdata         /data                f2fs      nosuid,nodev,noatime,discard,inline_data,inline_xattr wait,check,fileencryption=aes-256-xts:aes-256-cts,reservedsize=20M,checkpoint=fs
+# ReadFstabFile will automatic recognition unistore device, and mount /data as hmfs
+/dev/block/by-name/userdata         /data                hmfs      nosuid,nodev,noatime,discard,inline_data,inline_xattr wait,check,fileencryption=aes-256-xts:aes-256-cts,reservedsize=20M
+/dev/block/by-name/cache         /cache                ext4      rw,nosuid,nodev,noatime,data=ordered wait,check,nofail
+/dev/block/by-name/misc       /misc       emmc      defaults        defaults
+/dev/block/zram0             none         swap    defaults     zramsize=536870912
+/dev/block/by-name/hisee_fs     /mnt/hisee_fs                ext4      rw,noatime,barrier=1,context=u:object_r:hisee_data_file:s0    wait,check,notrim,nofail
+overlay     /system/product/priv-app                        overlay     ro,lowerdir=/preas/priv-app:/system/product/priv-app                                    check,nofail
+overlay     /system/product/app                             overlay     ro,lowerdir=/preas/app:/system/product/app                                              check,nofail
+overlay     /system/product/etc/default-permissions         overlay     ro,lowerdir=/preas/oversea/default-permissions:/system/product/etc/default-permissions  check,nofail
+overlay     /system/product/etc/permissions                 overlay     ro,lowerdir=/preas/oversea/permissions:/system/product/etc/permissions                  check,nofail
+overlay     /system/product/etc/preferred-apps              overlay     ro,lowerdir=/preas/oversea/preferred-apps:/system/product/etc/preferred-apps            check,nofail
+overlay     /system/product/etc/default-permissions         overlay     ro,lowerdir=/preas/china/default-permissions:/system/product/etc/default-permissions    check,nofail
+overlay     /system/product/etc/permissions                 overlay     ro,lowerdir=/preas/china/permissions:/system/product/etc/permissions                    check,nofail
+overlay     /system/product/etc/preferred-apps              overlay     ro,lowerdir=/preas/china/preferred-apps:/system/product/etc/preferred-apps              check,nofail

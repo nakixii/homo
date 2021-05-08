@@ -1,0 +1,90 @@
+on early-init
+
+on init
+	chmod 0660 /dev/deviceboxID
+	chown media media /dev/deviceboxID
+	chmod 0660 /dev/hi6402_hifi_misc
+	chown media media /dev/hi6402_hifi_misc
+	chmod 0660 /dev/ttyAMA0
+	chown media media /dev/ttyAMA0
+	chmod 0660 /dev/ana_hs
+	chown media media /dev/ana_hs
+	chmod 0660 /dev/soundtrigger_dma_drv
+	chown media media /dev/soundtrigger_dma_drv
+	chmod 0660 /dev/soundtrigger_socdsp_pcm_drv
+	chown media media /dev/soundtrigger_socdsp_pcm_drv
+	chmod 0660 /dev/soundtrigger_socdsp_lp_pcm_drv
+	chown media media /dev/soundtrigger_socdsp_lp_pcm_drv
+	chmod 0660 /dev/ana_hs_core
+	chown media media /dev/ana_hs_core
+	chmod 0660 /dev/dig_hs_power
+	chown media media /dev/dig_hs_power
+	chmod 0660 /dev/usb_audio_common
+	chown media media /dev/usb_audio_common
+        chmod 0660 /dev/wakeup
+	chown media media dev/wakeup
+	chmod 0660 /dev/voice_proxy_extdev
+	chown system system /dev/voice_proxy_extdev
+	chmod 0660 /dev/voice_proxy_ctl_dev
+	chown media media /dev/voice_proxy_ctl_dev
+	chmod 0660 /dev/codec_check
+	chown media media /dev/codec_check
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+	chmod 0660 /dev/smartpakit
+	chown media media /dev/smartpakit
+	# for volteencrypt
+	chmod 0660 /dev/tf_agent
+	chown system system /dev/tf_agent
+
+on early-boot
+
+on boot
+	chmod 0660 /proc/key_mask
+	chown root system /proc/key_mask
+	chmod 0440 /proc/audio/hi64xxdump
+	chown root system /proc/audio/hi64xxdump
+	chmod 0440 /proc/audio/rr
+	chown root system /proc/audio/rr
+	chmod 0440 /proc/audio/rh
+	chown root system /proc/audio/rh
+	chmod 0660 /proc/hi64xxdbg/hi64xxdebug
+	chown root system /proc/hi64xxdbg/hi64xxdebug
+	chown root system /sys/kernel/debug/hicodec/rr
+	chown root system /sys/kernel/debug/hicodec/rh
+
+	#add for dp source switch
+	chown system system  /sys/class/dp/source/source_mode
+	chmod 0660 /sys/class/dp/source/source_mode
+	chown system system  /sys/class/dp/resolution/source_resolution
+	chmod 0660 /sys/class/dp/resolution/source_resolution
+	chown system system  /sys/class/dp/vr/vr_mode
+	chmod 0660 /sys/class/dp/vr/vr_mode
+	chown system system  /sys/class/dp/external_display/display_info
+	chmod 0660 /sys/class/dp/external_display/display_info
+	chown system system  /sys/class/dp/power/lcd_power
+	chmod 0660 /sys/class/dp/power/lcd_power
+
+## Property trigger
+#on property:ro.sample=*
+#    write /device/sample/sample_property ${ro.some_property}
+#    chmod 644 /device/sample/sample_device
+
+
+
+## Service definition
+#service sample /system/bin/sample
+#    class main
+#    user root
+#    group system log graphics
+#    socket sample stream 0660 system system
+#    disabled
+#    oneshot
+#    onrestart restart another_service
+
+

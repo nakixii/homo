@@ -1,0 +1,5 @@
+<manifest version="1.0">
+    <item filename="PolicyList.xml" version="1.0" msgtype="4" msgid="0"/>
+    <item filename="SceneList.xml" version="1.0" msgtype="1" msgid="258"/><!-- POLICY_MSG_SCENES_CFG 0x0102 -->
+    <item filename="RecoveryList.xml" version="1.0" msgtype="1" msgid="261"/><!-- POLICY_MSG_RECOVERY_LIST_CFG 0x0105 -->
+</manifest>

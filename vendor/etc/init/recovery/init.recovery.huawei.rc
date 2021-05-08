@@ -1,0 +1,361 @@
+import /vendor/etc/init/charger/init.chip.usb.rc
+import /vendor/etc/init/connectivity/init.recovery.${ro.boot.odm.conn.schiptype}.rc
+import /vendor/etc/init/manufacture/init.recovery.manufacture.rc
+
+on early-init
+    # Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls.
+    write /sys/fs/selinux/checkreqprot 0
+
+    # Set the security context for the init process.
+    # This should occur before anything else (e.g. ueventd) is started.
+    setcon u:r:init:s0
+
+    start ueventd
+    start charger
+    start hwservicemanager
+
+on init
+
+
+    # Right now vendor lives on the same filesystem as system,
+    # but someday that may change.
+    symlink /system/vendor /vendor
+
+    mkdir /usb
+
+    mkdir /cust
+    mkdir /splash2
+    mkdir /newsys
+    chown system system /dev/cpuctl
+    chown system system /dev/cpuctl/tasks
+
+    write /sys/module/hisi_nve/parameters/nve /dev/block/bootdevice/by-name/nvme
+    mount /tmp /tmp tmpfs
+    # change nve device visit permission
+    wait /dev/nve0
+    chmod 0640 /dev/nve0
+    write /proc/sys/vm/max_map_count 1000000
+    write /proc/balong/stats/boot_time 1
+
+
+on fs
+    wait /dev/block/bootdevice/by-name/system
+    #mount ext4 /dev/block/bootdevice/by-name/system /newsys wait ro
+    mount ext4 /dev/block/bootdevice/by-name/splash2 /splash2 wait rw nosuid nodev context=u:object_r:splash2_data_file:s0
+    restorecon /splash2
+    chmod 775 /splash2
+    chown root system /splash2
+    chown logd logd /system/bin/logd
+
+    # Remove a file to wake up anything waiting for firmware
+    trigger firmware_mounts_complete
+
+# Data Encryption start
+on property:vold.decrypt=trigger_shutdown_framework
+    class_reset server
+
+on property:vold.decrypt=trigger_load_persist_props
+    load_persist_props
+
+on property:vold.decrypt=trigger_post_fs_data
+    trigger post-fs-data
+
+on post-fs-data
+    trigger post-fs-data_hw
+# Data Encryption end
+
+on post-fs-data_hw
+    #3rdmodem VIA flashlessd service
+    mkdir /data/hwzd_logs/3rdcp-log 0775 radio radio
+    mkdir /data/nvram/md_via 0770 root radio
+
+    chmod 0660 /dev/vmodem
+    chown radio radio /dev/vmodem
+
+    #3rdmodem VIA pppd service
+    mkdir /data/pppd_via 0770 radio system
+
+	mkdir /storage
+	symlink /data/media/0 /storage/sdcard0
+	symlink /sdcard /storage/sdcard1
+    setprop vold.post_fs_data_done 1
+    chown root system /dev/ttyAMA3
+    chmod 0664 /dev/ttyAMA3
+    chown root system /dev/gpstty
+    chmod 0664 /dev/gpstty
+    chown root system /proc/gps/nstandby
+    chmod 0664 /proc/gps/nstandby
+    
+on early-boot_hw
+    ##recovery init.rc cooridnate with init.extmodem.rc
+    ##change start priority to early-boot stage, because rild is started on boot stage
+    ## and sometime rild is started but device file's property is NOT changed
+    #3rdmodem VIA VIACBP82D#
+    #VIA device property
+    #get uart port from DTS node viacbp82d_flashless_boot_dl_uart
+    setprop viatel.device.fls  spi.2.ttySPI
+    setprop viatel.device.at   spi.10.ttySPI
+    setprop viatel.device.data spi.0.ttySPI
+    setprop viatel.device.pcv spi.4.ttySPI
+    setprop viatel.device.gps spi.5.ttySPI
+
+
+
+    chmod 0660 /sys/devices/platform/viacbp82d_boot/state
+    chown root radio /sys/devices/platform/viacbp82d_boot/state
+    chmod 0660 /sys/devices/platform/viacbp82d_boot/modem_state
+    chown root radio /sys/devices/platform/viacbp82d_boot/modem_state
+    mkdir /data/hisi_logs/hifi_log 0755 root system
+    mkdir /data/hisi_logs/hifi_log/coredump 0755 root system
+    symlink /splash2 /log
+
+on cust_parse_action
+    cust_parse
+
+#start antenna_fpga download
+on property:sys.system.serv=up
+    write /sys/devices/platform/antennafpga.0/ice40bin_download_dir "start"
+
+on firmware_mounts_complete
+   rm /dev/.booting
+
+on property:odm.androidboot.start_services=true
+    wait /dev/block/bootdevice/by-name/system
+    mount squashfs /dev/block/bootdevice/by-name/system /newsys wait ro
+    mount ext4 /dev/block/bootdevice/by-name/system /newsys wait ro
+    mount ext4 /dev/block/bootdevice/by-name/hw_product /hw_product wait ro
+    mount ext4 /dev/block/bootdevice/by-name/cache /cache
+    wait /dev/block/bootdevice/by-name/userdata
+    mount f2fs /dev/block/bootdevice/by-name/userdata /data nosuid nodev noatime discard,inline_data,inline_xattr
+    mount ext4 /dev/block/bootdevice/by-name/userdata /data nosuid nodev noatime wait crypt discard,noauto_da_alloc,mblk_io_submit,data=ordered
+    wait /dev/block/bootdevice/by-name/cust
+    mount ext4 /dev/block/bootdevice/by-name/cust /cust wait ro
+    write /sys/class/android_usb/android0/iManufacturer ${ro.product.manufacturer}
+    write /sys/class/android_usb/android0/iProduct ${ro.product.model}
+    mount ext4 /dev/block/bootdevice/by-name/dsp /dsp:0
+    mount ext4 /dev/block/bootdevice/by-name/splash2 /splash2 wait rw nosuid nodev context=u:object_r:splash2_data_file:s0
+    restorecon /splash2
+    chmod 775 /splash2
+    chown root system /splash2
+    trigger post-fs_hw
+    trigger post-fs-data_hw
+
+    write /proc/data-ready 1
+
+    # Load properties from /system/ + /factory after fs mount. Place
+    # this in another action so that the load will be scheduled after the prior
+    # issued fs triggers have completed.
+    #trigger load_all_props_action
+
+    trigger early-boot_hw
+    trigger boot
+    setprop recovery.load_finish true
+
+on property:odm.recovery.start_all_srv=true
+    #for the reason that init cust policy dirs
+    #trigger cust_parse_action
+    trigger cust_parse_action
+    # Load properties from /system/ + /factory after fs mount. Place
+    # this in another action so that the load will be scheduled after the prior
+    # issued fs triggers have completed.
+    trigger load_all_props_action
+    setprop sys.system.serv run
+    load_hwcust_prop_for_recovery
+    load_persist_props
+    start logd
+    start statusd
+    start keymaster-3-0
+    start gpsdaemon
+
+on property:factory_reset.stop_srv=true
+    #stop all srv that occupy data when in factory reset
+    stop applogcat
+    stop rillogcat
+    stop sleeplogcat
+    stop gpsd_47531
+    stop gpsd_4774
+    stop lhd_4774
+
+# Data Encryption start
+on property:vold.decrypt=trigger_shutdown_framework
+    class_reset server
+
+on property:vold.decrypt=trigger_load_persist_props
+    load_persist_props
+
+on property:vold.decrypt=trigger_post_fs_data
+    trigger post-fs-data
+# Data Encryption end
+
+
+service hwservicemanager /sbin/hwservicemanager
+    user root
+    disabled
+    group root
+    seclabel  u:r:hwservicemanager:s0
+    onrestart class_reset hal
+    onrestart setprop hwservicemanager.ready false
+    writepid /dev/cpuset/system-background/tasks
+
+service keymaster-3-0 /vendor/bin/hw/android.hardware.keymaster@3.0-service
+    class early_hal
+    user system
+    group system drmrpc
+
+
+service hdbd /sbin/hdbd --root_seclabel=u:r:su:s0 --device_banner=recovery
+    disabled
+    socket hdbd stream 660 system system
+    seclabel u:r:adbd:s0
+
+service gpsdaemon /vendor/bin/gpsdaemon
+    class late_start
+    oneshot
+
+service logd /system/bin/logd
+    socket logd stream 0666 logd logd
+    socket logdr seqpacket 0666 logd logd
+    socket logdw dgram 0222 logd logd
+    file /proc/kmsg r
+    file /dev/kmsg w
+    user logd
+    group logd system package_info readproc
+    capabilities SYSLOG AUDIT_CONTROL SETGID
+    disabled
+    seclabel u:r:logd:s0
+
+# secure os tee agent
+service teecd /vendor/bin/teecd
+    disabled
+    user root
+    group root readproc
+    seclabel u:r:tee:s0
+
+on property:ro.board.platform=kirin990
+    chmod 0660 /sys/class/hw_power/interface/iin_thermal_all
+    chown system system /sys/class/hw_power/interface/iin_thermal_all
+    write /sys/class/hw_power/interface/iin_thermal_all "thermal dcp 900"
+    write /sys/class/hw_power/interface/iin_thermal_all "thermal lvc 1500"
+    write /sys/class/hw_power/interface/iin_thermal_all "thermal sc 2000"
+    write /sys/class/hw_power/interface/iin_thermal_all "thermal wl_sc 900"
+
+on post-fs-data
+    start teecd
+
+# Used to disable USB when switching states
+on property:sys.usb.config=none && property:sys.usb.configfs=0
+    stop adbd
+    stop hdbd
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/bDeviceClass 0
+    write /sys/devices/virtual/android_usb/android0/port_mode 1
+    setprop sys.usb.state ${sys.usb.config}
+
+# init process will set usb mode depend on debug/MMI test/usb update/ship
+on property:sys.usb.config=manufacture,adb && property:sys.usb.configfs=0
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 12d1
+    write /sys/class/android_usb/android0/idProduct 107e
+    write /sys/class/android_usb/android0/iSerial ${ro.serialno}
+    write /sys/class/android_usb/f_mass_storage/luns sdcard
+    write /sys/class/android_usb/f_mass_storage/lun/file none
+    write /sys/class/android_usb/android0/f_hw_acm/hw_instances 3
+    write /sys/class/android_usb/android0/functions hw_acm,mass_storage,adb,hdb
+    write /sys/devices/virtual/android_usb/android0/port_mode 14
+    write /sys/class/android_usb/android0/enable 1
+    start adbd
+    start hdbd
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=mass_storage && property:sys.usb.configfs=0
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 12d1
+    write /sys/class/android_usb/android0/idProduct 1037
+    write /sys/class/android_usb/android0/iSerial ${ro.serialno}
+    write /sys/class/android_usb/f_mass_storage/luns sdcard
+    write /sys/class/android_usb/f_mass_storage/lun/file none
+    write /sys/class/android_usb/android0/functions ${sys.usb.config}
+    write /sys/devices/virtual/android_usb/android0/port_mode 7
+    write /sys/class/android_usb/android0/enable 1
+    setprop sys.usb.state ${sys.usb.config}
+
+service console /system/bin/sh
+    class core
+    console
+    disabled
+    user root
+    group root
+
+on property:ro.debuggable=1
+    start console
+
+
+
+on property:sys.system.serv=run
+    class_start server
+    setprop sys.system.serv up
+    
+service gpsd_47531  /vendor/bin/glgps47531 -c /vendor/etc/gps47531config.xml
+    socket gps seqpacket 660 gps system
+    class server
+    user gps
+    oneshot
+    disabled
+    group system
+
+service gpsd_4774  /vendor/bin/glgps4774 -c /vendor/etc/gps4774config.xml
+    socket gps seqpacket 660 gps system
+    class server
+    user gps
+    oneshot
+    group system inet sdcard_rw
+    disabled
+
+service lhd_4774  /vendor/bin/lhd4774  /vendor/etc/lhd.conf
+    class server
+    user gps
+    oneshot
+    group system inet net_raw sdcard_rw
+    ioprio be 0
+    disabled
+
+#3rdmodem VIA statusd service
+service statusd /system/bin/statusd -f [/system/bin/flashlessd -m 0]
+    class server
+    user root
+    group radio cache inet misc system
+    disabled
+
+on boot
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor schedutil
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor schedutil
+    write /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor schedutil
+
+service vold_recovery /system/bin/vold \
+        --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 \
+        --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+    class core
+    socket vold stream 0660 root mount
+    socket cryptd stream 0660 root mount
+    socket cryptd2 stream 0660 root mount
+    ioprio be 2
+    group system
+    writepid /dev/cpuset/foreground/tasks
+
+on apply_file_decryption
+    exec u:r:fsck:s0 -- /sbin/fsck.f2fs_s -p1 /dev/block/bootdevice/by-name/userdata
+    mount f2fs /dev/block/bootdevice/by-name/userdata /data nosuid nodev noatime discard,inline_data,inline_xattr
+    check_file_encrypt
+    setprop vold.crypto_unencrypt_updatedir /data/update
+    umount /data
+
+on property:factory.recovery.prepare=start
+    setprop factory.recovery.prepare end
+
+on property:vold.status=start
+    exec /system/bin/vdc --wait cryptfs enablefilecrypto
+    init_user0
+    unlock_user0_key
+    setprop vold.status end
+on property:ro.runmode=factory && property:recovery.start_all_srv=true
+    start gpsdaemon

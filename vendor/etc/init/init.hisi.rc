@@ -1,0 +1,330 @@
+import  /vendor/etc/init/charger/init.chip.usb.rc
+
+on early-init
+
+on init
+    write /sys/module/hisi_nve/parameters/nve /dev/block/by-name/nvme
+    #change nve device visit permission
+    wait /dev/nve0
+    chmod 0770 /dev/nve0
+    chown root system /dev/nve0
+
+# sets up initial workingset cgroup
+    mkdir /dev/workingset
+    mount cgroup none /dev/workingset nodev noexec nosuid workingset
+    mkdir /dev/workingset/monitor0
+    mkdir /dev/workingset/monitor1
+
+    chmod 0600 /dev/workingset/tasks
+    chmod 0600 /dev/workingset/monitor0/tasks
+    chmod 0600 /dev/workingset/monitor1/tasks
+    chmod 0600 /dev/workingset/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/cgroup.procs
+    chmod 0600 /dev/workingset/monitor1/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/workingset.state
+    chmod 0600 /dev/workingset/monitor1/workingset.state
+    chmod 0600 /dev/workingset/monitor0/workingset.data
+    chmod 0600 /dev/workingset/monitor1/workingset.data
+
+# sets up initial protectLru memcg
+    mkdir /dev/memcg/protect_lru_1
+    mkdir /dev/memcg/protect_lru_2
+    mkdir /dev/memcg/protect_lru_3
+    chmod 0400 /dev/memcg/protect_lru_1
+    chmod 0400 /dev/memcg/protect_lru_2
+    chmod 0400 /dev/memcg/protect_lru_3
+
+on early-fs
+
+on fs
+
+on post-fs
+    chown system system /proc/uid_cputime/show_uid_stat
+    chmod 0440 /proc/uid_cputime/show_uid_stat
+    chown system system /proc/uid_cputime/remove_uid_range
+    chown system system /proc/uid_iostats/show_uid_iostats
+    chmod 0440 /proc/uid_iostats/show_uid_iostats
+    chown system system /proc/uid_iostats/uid_iomonitor_list
+    chmod 0660 /proc/uid_iostats/uid_iomonitor_list
+    chown system system /proc/uid_iostats/remove_uid_list
+    chmod 0660 /proc/uid_iostats/remove_uid_list
+
+on early-boot
+    chmod 660 /dev/appvcom
+    chmod 660 /dev/appvcom1
+    chmod 660 /dev/appvcom2
+    chmod 660 /dev/appvcom3
+    chmod 660 /dev/appvcom4
+    chmod 660 /dev/appvcom5
+    chmod 660 /dev/appvcom6
+    chmod 660 /dev/appvcom7
+    chmod 660 /dev/appvcom8
+    chmod 660 /dev/appvcom9
+    chmod 660 /dev/appvcom10
+    chmod 660 /dev/appvcom11
+    chmod 660 /dev/appvcom12
+    chmod 660 /dev/appvcom13
+    chmod 660 /dev/appvcom14
+    chmod 660 /dev/appvcom15
+    chmod 660 /dev/appvcom16
+    chmod 660 /dev/appvcom17
+    chmod 660 /dev/appvcom18
+    chmod 660 /dev/appvcom19
+    chmod 660 /dev/appvcom20
+    chmod 660 /dev/appvcom21
+    chmod 660 /dev/appvcom22
+    chmod 660 /dev/appvcom23
+    chmod 660 /dev/appvcom24
+    chmod 660 /dev/appvcom25
+    chmod 660 /dev/appvcom26
+    chmod 660 /dev/appvcom27
+    chmod 660 /dev/appvcomTLLOG
+    chmod 660 /dev/appvcomERRLOG
+    chmod 660 /dev/appvcomLOG
+    chmod 660 /dev/appvcomLOG1
+
+    chmod 660 /dev/appvcom28
+    chmod 660 /dev/appvcom29
+    chmod 660 /dev/appvcom30
+    chmod 660 /dev/appvcom31
+    chmod 660 /dev/appvcom32
+    chmod 660 /dev/appvcom33
+    chmod 660 /dev/appvcom34
+    chmod 660 /dev/appvcom35
+    chmod 660 /dev/appvcom36
+    chmod 660 /dev/appvcom37
+    chmod 660 /dev/appvcom38
+    chmod 660 /dev/appvcom39
+    chmod 660 /dev/appvcom40
+    chmod 660 /dev/appvcom41
+    chmod 660 /dev/appvcom42
+    chmod 660 /dev/appvcom43
+    chmod 660 /dev/appvcom44
+    chmod 660 /dev/appvcom45
+    chmod 660 /dev/appvcom46
+    chmod 660 /dev/appvcom47
+    chmod 660 /dev/appvcom48
+    chmod 660 /dev/appvcom49
+    chmod 660 /dev/appvcom50
+    chmod 660 /dev/appvcom51
+    chmod 660 /dev/appvcom52
+
+    chown radio radio /dev/appvcom
+    chown radio radio /dev/appvcom1
+    chown radio radio /dev/appvcom5
+    chown radio radio /dev/appvcom6
+    chown radio radio /dev/appvcom10
+    chown radio radio /dev/appvcom13
+    chown radio radio /dev/appvcom14
+    chown radio radio /dev/appvcom15
+    chown radio radio /dev/appvcom20
+    chown radio radio /dev/appvcom21
+    chown radio radio /dev/appvcom25
+    chown radio radio /dev/appvcom26
+    chown radio radio /dev/appvcom27
+    chown radio radio /dev/appvcom28
+    chown radio radio /dev/appvcom29
+    chown radio radio /dev/appvcom30
+    chown radio radio /dev/appvcom31
+    chown radio radio /dev/appvcom32
+    chown media media /dev/appvcom4
+    chown system system /dev/appvcom2
+    chown system system /dev/appvcom8
+    chown system system /dev/appvcom22
+    chown system system /dev/appvcom33
+
+#/*<DTS2015011305594 xiayuan 00184050 20150114 begin*/
+    chown system system /dev/appvcom17
+#/* DTS2015011305594 xiayuan 00184050 20150114 end>*/
+
+#/*< AR000A2G3P zhangze 00346362 20180129 begin */
+    chown radio radio /dev/appvcom19
+#/* AR000A2G3P zhangze 00346362 20180129 end >*/
+
+    chown system system /dev/appvcom18
+    chown system system /dev/appvcom34
+
+    chown system system /dev/appvcomERRLOG
+
+    chown system system /proc/bind_pid
+
+    chown system system /proc/portcfg
+
+    chown system system /proc/getslice
+
+# modify c core reset file owner
+    chown radio radio sys/devices/platform/balong_power/state
+
+# pstore/ramoops previous console log
+    chown root log /sys/fs/pstore/console-ramoops-0
+    chmod 0660 /sys/fs/pstore/console-ramoops-0
+    chown root log /sys/fs/pstore/dmesg-ramoops-0
+    chmod 0660 /sys/fs/pstore/dmesg-ramoops-0
+    chown root log /sys/fs/pstore/pmsg-ramoops-0
+    chmod 0660 /sys/fs/pstore/pmsg-ramoops-0
+
+on boot
+    chown radio radio /proc/modemstatus
+
+on data_ready
+    write /proc/data-ready 1
+
+on data_not_ready
+    write /proc/data-ready 0
+
+## Property trigger
+#on property:ro.sample=*
+#    write /device/sample/sample_property ${ro.some_property}
+#    chmod 644 /device/sample/sample_device
+
+
+## Service definition
+#service sample /system/bin/sample
+#    class main
+#    user root
+#    group system log graphics
+#    socket sample stream 0660 system system
+#    disabled
+#    oneshot
+#    onrestart restart another_service
+#service ril-daemon /vendor/bin/hw/rild
+#    disabled
+#    class core
+
+#    user root
+#    group radio cache inet misc audio sdcard_r sdcard_rw log readproc system
+
+#service ril-daemon1 /vendor/bin/hw/rild -c 1
+#    disabled
+#    class core
+
+#    user root
+#    group radio cache inet misc audio sdcard_r sdcard_rw log
+
+#on property:init.svc.zygote=running
+#    start ril-daemon
+
+#on property:odm.rild.rild1_ready_to_start=true
+#    start ril-daemon1
+
+#add for create /data/vendor/hwcdump and add context
+on property:ro.build.type=eng
+    mkdir /data/vendor/hwcdump 0755 system system
+    restorecon_recursive /data/vendor/hwcdump
+
+on property:ro.build.type=eng
+    write /proc/sys/kernel/kptr_restrict 0
+
+# DTS2019061302379 n00364761 20190625 begin
+on nonencrypted
+    trigger custom_appvcom_init_retry
+
+on property:vold.decrypt=trigger_reset_main
+    trigger custom_appvcom_init_retry
+
+on property:vold.decrypt=trigger_restart_min_framework
+    trigger custom_appvcom_init_retry
+
+on property:vold.decrypt=trigger_restart_framework
+    trigger custom_appvcom_init_retry
+
+on property:vold.decrypt=trigger_shutdown_framework
+    trigger custom_appvcom_init_retry
+
+on custom_appvcom_init_retry
+    chmod 660 /dev/appvcom
+    chmod 660 /dev/appvcom1
+    chmod 660 /dev/appvcom2
+    chmod 660 /dev/appvcom3
+    chmod 660 /dev/appvcom4
+    chmod 660 /dev/appvcom5
+    chmod 660 /dev/appvcom6
+    chmod 660 /dev/appvcom7
+    chmod 660 /dev/appvcom8
+    chmod 660 /dev/appvcom9
+    chmod 660 /dev/appvcom10
+    chmod 660 /dev/appvcom11
+    chmod 660 /dev/appvcom12
+    chmod 660 /dev/appvcom13
+    chmod 660 /dev/appvcom14
+    chmod 660 /dev/appvcom15
+    chmod 660 /dev/appvcom16
+    chmod 660 /dev/appvcom17
+    chmod 660 /dev/appvcom18
+    chmod 660 /dev/appvcom19
+    chmod 660 /dev/appvcom20
+    chmod 660 /dev/appvcom21
+    chmod 660 /dev/appvcom22
+    chmod 660 /dev/appvcom23
+    chmod 660 /dev/appvcom24
+    chmod 660 /dev/appvcom25
+    chmod 660 /dev/appvcom26
+    chmod 660 /dev/appvcom27
+    chmod 660 /dev/appvcomTLLOG
+    chmod 660 /dev/appvcomERRLOG
+    chmod 660 /dev/appvcomLOG
+    chmod 660 /dev/appvcomLOG1
+
+    chmod 660 /dev/appvcom28
+    chmod 660 /dev/appvcom29
+    chmod 660 /dev/appvcom30
+    chmod 660 /dev/appvcom31
+    chmod 660 /dev/appvcom32
+    chmod 660 /dev/appvcom33
+    chmod 660 /dev/appvcom34
+    chmod 660 /dev/appvcom35
+    chmod 660 /dev/appvcom36
+    chmod 660 /dev/appvcom37
+    chmod 660 /dev/appvcom38
+    chmod 660 /dev/appvcom39
+    chmod 660 /dev/appvcom40
+    chmod 660 /dev/appvcom41
+    chmod 660 /dev/appvcom42
+    chmod 660 /dev/appvcom43
+    chmod 660 /dev/appvcom44
+    chmod 660 /dev/appvcom45
+    chmod 660 /dev/appvcom46
+    chmod 660 /dev/appvcom47
+    chmod 660 /dev/appvcom48
+    chmod 660 /dev/appvcom49
+    chmod 660 /dev/appvcom50
+    chmod 660 /dev/appvcom51
+    chmod 660 /dev/appvcom52
+
+    chown radio radio /dev/appvcom
+    chown radio radio /dev/appvcom1
+    chown radio radio /dev/appvcom5
+    chown radio radio /dev/appvcom6
+    chown radio radio /dev/appvcom10
+    chown radio radio /dev/appvcom13
+    chown radio radio /dev/appvcom14
+    chown radio radio /dev/appvcom15
+    chown radio radio /dev/appvcom20
+    chown radio radio /dev/appvcom21
+    chown radio radio /dev/appvcom25
+    chown radio radio /dev/appvcom26
+    chown radio radio /dev/appvcom27
+    chown radio radio /dev/appvcom28
+    chown radio radio /dev/appvcom29
+    chown radio radio /dev/appvcom30
+    chown radio radio /dev/appvcom31
+    chown radio radio /dev/appvcom32
+    chown media media /dev/appvcom4
+    chown system system /dev/appvcom2
+    chown system system /dev/appvcom8
+    chown system system /dev/appvcom22
+    chown system system /dev/appvcom33
+
+#/*<DTS2015011305594 xiayuan 00184050 20150114 begin*/
+    chown system system /dev/appvcom17
+#/* DTS2015011305594 xiayuan 00184050 20150114 end>*/
+
+#/*< AR000A2G3P zhangze 00346362 20180129 begin */
+    chown radio radio /dev/appvcom19
+#/* AR000A2G3P zhangze 00346362 20180129 end >*/
+
+    chown system system /dev/appvcom18
+    chown system system /dev/appvcom34
+
+    chown system system /dev/appvcomERRLOG
+# DTS2019061302379 n00364761 20190625 end

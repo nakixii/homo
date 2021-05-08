@@ -1,0 +1,4 @@
+service hwsecurity-hal /vendor/bin/hw/vendor.huawei.hardware.hwsecurity-service
+    class hal
+    user system
+    group system

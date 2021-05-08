@@ -1,0 +1,11 @@
+service hisecd /vendor/bin/hisecd
+    class main
+    user system
+    group system radio root
+    socket hisecd stream 0660 system system
+    file /dev/kmsg w
+    writepid /dev/cpuset/system-background/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks
+    disabled
+
+on boot
+    start hisecd

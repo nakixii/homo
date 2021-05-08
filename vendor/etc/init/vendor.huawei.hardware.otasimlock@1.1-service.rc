@@ -1,0 +1,7 @@
+service otasimlock_service_1_1 /vendor/bin/hw/vendor.huawei.hardware.otasimlock@1.1-service
+    class hal
+    user system
+    group system radio
+    disabled
+on property:ro.odm.hw_ota_simlock=true
+   start otasimlock_service_1_1

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<FaceARConfig>
+
+    <FaceRecon AIName="FaceRecon" AIFramework="Caffe">
+
+        <modelconfig  ModelID="0" ModelVersion="FR_20190228" AI_WIDTH="128" AI_HEIGHT="128" ModelSize ="2142043"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="" ModelPerf="High" InputFormat="NCHW" OutputBufNum="1"
+                    AIPP = "0"
+                    ModelNetName = "face_1.dm"
+                    ModelNetPath = "vendor/etc/models/FaceAR/face_1.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceAR/face_1.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </FaceRecon>
+
+    <LocalLandmarks AIName="LocalLandmarks" AIFramework="TensorFlow">
+
+        <modelconfig  ModelID="1" ModelVersion="EBB_20190314" AI_WIDTH="60" AI_HEIGHT="60" ModelSize ="1092618"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "BGR_888" ModelOutPutFormat="" ModelPerf="High" InputFormat="NCHW" OutputBufNum="1"
+                    AIPP = "0"
+                    ModelNetName = "face_2.dm"
+                    ModelNetPath = "vendor/etc/models/FaceAR/face_2.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceAR/face_2.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+        <modelconfig  ModelID="2" ModelVersion="MT_20190516" AI_WIDTH="64" AI_HEIGHT="64" ModelSize ="2443506"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "BGR_888" ModelOutPutFormat="" ModelPerf="High" InputFormat="NCHW" OutputBufNum="3"
+                    AIPP = "0"
+                    ModelNetName = "face_3.dm"
+                    ModelNetPath = "vendor/etc/models/FaceAR/face_3.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceAR/face_3.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </LocalLandmarks>
+
+</FaceARConfig>

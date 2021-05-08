@@ -1,0 +1,13 @@
+on boot
+    mkdir /data/vendor/log/charge_monitor
+    chown root system /data/vendor/log/charge_monitor
+    chmod 0775 /data/vendor/log/charge_monitor
+    mkdir /splash2/charge_monitor
+    chown root system /splash2/charge_monitor
+    chmod 0775 /splash2/charge_monitor
+
+service bms_behavior /vendor/bin/bms_behavior
+    user system
+    group system
+    disabled
+    oneshot

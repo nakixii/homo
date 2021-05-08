@@ -1,0 +1,12 @@
+on init
+    #chown system system /dev/phys_mem
+    #chmod 0660 /dev/phys_mem
+    start ddr_inspect
+
+#service ddr inspect
+service ddr_inspect /vendor/bin/mmem
+        class main
+        user root
+        group system root log
+        oneshot
+        seclabel u:r:ddr_inspect:s0

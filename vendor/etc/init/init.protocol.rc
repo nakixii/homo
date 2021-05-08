@@ -1,0 +1,34 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+
+on boot
+
+## Property trigger
+#on property:ro.sample=*
+#    write /device/sample/sample_property ${ro.some_property}
+#    chmod 644 /device/sample/sample_device
+
+
+
+## Service definition
+#service sample /system/bin/sample
+#    class main
+#    user root
+#    group system log graphics
+#    socket sample stream 0660 system system
+#    disabled
+#    oneshot
+#    onrestart restart another_service
+
+

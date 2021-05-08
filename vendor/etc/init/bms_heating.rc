@@ -1,0 +1,11 @@
+on late-fs
+    chmod 0660 /sys/devices/virtual/hw_power/bat_heating/count
+    chown system system /sys/devices/virtual/hw_power/bat_heating/count
+    chmod 0660 /sys/devices/virtual/hw_power/bat_heating/trigger
+    chown system system /sys/devices/virtual/hw_power/bat_heating/trigger
+
+service bms_heating /vendor/bin/bms_heating -r 200 -c 200000
+    user system
+    group system
+    disabled
+    oneshot

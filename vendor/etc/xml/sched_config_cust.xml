@@ -1,0 +1,294 @@
+<?xml version="3.0" encoding="utf-8"?>
+<policy version="3.0">
+    <version>3.0</version>
+    <log_open>0</log_open>
+    <enable>1</enable>
+    <agp_switch>1</agp_switch>
+    <SOC>990</SOC>
+
+    <game_list size='9'>  <!-- 所有白名单的包名-surface名对应表  surfaceflinger 游戏SDK  hwsched 都需要读取该白名单 !-->
+        <game id="0">
+            <package_name>default</package_name>
+            <surface_name>default</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 0 </sched_tunable_profile>
+        </game>
+        <game id="1">
+            <package_name>com.happyelements.AndroidAnimal.qq</package_name>
+            <surface_name>SurfaceView - com.happyelements.AndroidAnimal.qq/com.happyelements.hellolua.MainActivity#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 1 </sched_tunable_profile>
+        </game>
+        <game id="2">
+            <package_name>com.tencent.tmgp.speedmobile</package_name>
+            <surface_name>SurfaceView - com.tencent.tmgp.speedmobile/com.tencent.tmgp.speedmobile.speedmobile#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 2 </sched_tunable_profile>
+        </game>
+        <game id="3">
+            <package_name>com.tencent.tmgp.wuxia</package_name>
+            <surface_name>SurfaceView - com.tencent.tmgp.wuxia/com.tencent.tmgp.wuxia.ApolloWuxia#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 3 </sched_tunable_profile>
+        </game>
+        <game id="4">
+            <package_name>com.tencent.lzhx</package_name>
+            <surface_name>SurfaceView - com.tencent.lzhx/com.epicgames.ue4.GameActivity#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 4 </sched_tunable_profile>
+        </game>
+        <game id="5">
+            <package_name>com.t2ksports.nba2k19and</package_name>
+            <surface_name>SurfaceView - com.t2ksports.nba2k19and/com.t2ksports.nba2k19and.gameactivity#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 5 </sched_tunable_profile>
+        </game>
+        <game id="6">
+            <package_name>com.netease.hyxd</package_name>
+            <surface_name>com.netease.hyxd/com.netease.game.MessiahNativeActivity#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 6 </sched_tunable_profile>
+        </game>
+        <game id="7">
+            <package_name>com.tencent.tmgp.sgame</package_name>
+            <surface_name>com.tencent.tmgp.sgame/com.tencent.tmgp.sgame.SGameActivity#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 55 60 65 70 75 80 85 90</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 7 </sched_tunable_profile>
+        </game>
+        <game id="8">
+            <package_name>com.racergame.cityracing3d</package_name>
+            <surface_name>SurfaceView - com.racergame.cityracing3d/com.racergame.cityracing3d.GameActivity#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 35 40 45 50 52</fps_list>
+            <default_fps>60</default_fps>
+            <sched_tunable_profile> 8 </sched_tunable_profile>
+        </game>
+   </game_list>
+
+    <sched_tunables size='2'>
+        <sched_tunables_detail fps="60">
+        <default_sched_tunable  para_size="8"> <!--//平台default参数-->
+            <para name="E_IDX_BOOST_DELAY" > 2000 </para>
+            <para name="E_IDX_BOOST_TIMEOUT"> 8000000 </para>
+            <para name="E_IDX_BOOST_THREAD_START"> 1 </para>
+            <para name="E_IDX_FPS_MIN_LOSS"> 3 </para>
+            <para name="E_IDX_FPS_MAX_LOSS"> 8 </para>
+            <para name="E_IDX_MARGIN_MIN"> -2000 </para>
+            <para name="E_IDX_COMPOSE_TIME_THRES"> 14000 </para>
+            <para name="E_IDX_MARGIN_MAX"> 14000 </para>
+        </default_sched_tunable>
+        <specific_sched_tunable_list size = "8">
+            <sched_tunable id="0" para_size="4"><!--//非白名单游戏参数-->
+                <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+                <para name="E_IDX_LP_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_PF_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_GPU_LOWER_LIMIT"> 0 </para>
+            </sched_tunable>
+            <sched_tunable id="1" para_size="2"><!--//非白名单游戏参数-->
+                <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+                <para name="E_IDX_MARGIN_MAX"> 8000 </para>
+            </sched_tunable>
+            <sched_tunable id="2" para_size="3"><!--//非白名单游戏参数-->
+                <para name="E_IDX_RT_UTIL_THRES"> 60 </para>
+                <para name="E_IDX_MAX_RT_NUM"> 2 </para>
+                <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+            </sched_tunable>
+            <sched_tunable id="3" para_size="5"><!--//非白名单游戏参数-->
+                <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+                <para name="E_IDX_LP_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_PF_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_GPU_LOWER_LIMIT"> 0 </para>
+                <para name="E_IDX_GPU_TARGET_LOAD"> 80 </para>
+            </sched_tunable>
+            <sched_tunable id="4" para_size="5"><!--//非白名单游戏参数-->
+                <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+                <para name="E_IDX_MARGIN_MAX"> 8000 </para>
+                <para name="E_IDX_LP_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_PF_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_BOOST_TIMEOUT"> 5000000 </para>
+            </sched_tunable>
+            <sched_tunable id="5" para_size="1"><!--//非白名单游戏参数-->
+                <para name="E_IDX_MARGIN_MIN"> -2500 </para>
+            </sched_tunable>
+            <sched_tunable id="6" para_size="5"><!--//非白名单游戏参数-->
+                <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+                <para name="E_IDX_BOOST_DELAY" > 1000 </para>
+                <para name="E_IDX_BOOST_TIMEOUT"> 4000000 </para>
+                <para name="E_IDX_LP_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_PF_CPU_LOWER_LIMIT"> 1 </para>
+            </sched_tunable>
+            <sched_tunable id="7" para_size="6"><!--//非白名单游戏参数-->
+                <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+                <para name="E_IDX_LP_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_PF_CPU_LOWER_LIMIT"> 1 </para>
+                <para name="E_IDX_GPU_LOWER_LIMIT"> 0 </para>
+                <para name="E_IDX_FAVOR_LITTLE_ENABLE"> 0 </para>
+                <para name="E_IDX_SUPPORT_VIP_THREAD"> 0 </para>
+            </sched_tunable>
+        </specific_sched_tunable_list>
+        </sched_tunables_detail>
+
+        <sched_tunables_detail fps="90">
+            <default_sched_tunable  para_size="3"> <!--//平台default参数-->
+                <para name="E_IDX_BOOST_DELAY" > 1500 </para>
+                <para name="E_IDX_BOOST_TIMEOUT"> 5000000 </para>
+                <para name="E_IDX_COMPOSE_TIME_THRES"> 10000 </para>
+            </default_sched_tunable>
+            <specific_sched_tunable_list size = "4">
+                <sched_tunable id="0" para_size="3"><!--//非白名单游戏参数-->
+                    <para name="E_IDX_LP_CPU_LOWER_LIMIT"> 1 </para>
+                    <para name="E_IDX_PF_CPU_LOWER_LIMIT"> 1 </para>
+                    <para name="E_IDX_GPU_LOWER_LIMIT"> 0 </para>
+                </sched_tunable>
+                <sched_tunable id="1" para_size="2"><!--//非白名单游戏参数-->
+                    <para name="E_IDX_MARGIN_MIN"> 1000 </para>
+                    <para name="E_IDX_MARGIN_MAX"> 4500 </para>
+                </sched_tunable>
+                <sched_tunable id="2" para_size="2"><!--//非白名单游戏参数-->
+                    <para name="E_IDX_RT_UTIL_THRES"> 20 </para>
+                    <para name="E_IDX_MAX_RT_NUM"> 6 </para>
+                </sched_tunable>
+                <sched_tunable id="3" para_size="4"><!--//非白名单游戏参数-->
+                    <para name="E_IDX_LP_CPU_LOWER_LIMIT"> 1 </para>
+                    <para name="E_IDX_PF_CPU_LOWER_LIMIT"> 1 </para>
+                    <para name="E_IDX_GPU_LOWER_LIMIT"> 0 </para>
+                    <para name="E_IDX_GPU_TARGET_LOAD"> 80 </para>
+                </sched_tunable>
+            </specific_sched_tunable_list>
+        </sched_tunables_detail>
+    </sched_tunables>
+
+    <FPS_detector_list size="2">  <!--//FPS预测参数!-->
+        <FPS_detect id="0">
+            <algorithm id="0" para_size="5">
+                <para name="window_size">150</para>
+                <para name="mean_filter">10</para>
+                <para name="up_abnormal_offset">5.5</para>
+                <para name="down_abnormal_offset">3</para>
+                <para name="high-11">-1</para>
+            </algorithm>
+        </FPS_detect>
+        <FPS_detect id="1">
+            <algorithm id="0" para_size="40">
+                <para name="window_size">150</para>
+                <para name="mean_filter">10</para>
+                <para name="up_abnormal_offset">5.5</para>
+                <para name="down_abnormal_offset">3</para>
+                <para name="low-0">-0.00099582</para>
+                <para name="low-1">-0.02589126</para>
+                <para name="low-2">0</para>
+                <para name="low-3">1.03737649</para>
+                <para name="low-4">0.00372356</para>
+                <para name="low-5">-0.06819512</para>
+                <para name="low-6">0</para>
+                <para name="low-7">1.03879694</para>
+                <para name="low-8">0.79942494</para>
+                <para name="low-9">0.39971247</para>
+                <para name="low-10">0</para>
+                <para name="low-11">-38.57182219</para>
+                <para name="median-0">0.011</para>
+                <para name="median-1">0</para>
+                <para name="median-2">0</para>
+                <para name="median-3">-1</para>
+                <para name="median-4">0.024332</para>
+                <para name="median-5">-0.001187</para>
+                <para name="median-6">0</para>
+                <para name="median-7">-1.4332</para>
+                <para name="median-8">0.0000275</para>
+                <para name="median-9">-0.3476</para>
+                <para name="median-10">0</para>
+                <para name="median-11">0.9997</para>
+                <para name="high-0">0</para>
+                <para name="high-1">0</para>
+                <para name="high-2">0.000000245114625</para>
+                <para name="high-3">-7.14531644</para>
+                <para name="high-4">0</para>
+                <para name="high-5">0</para>
+                <para name="high-6">0.000000138465513</para>
+                <para name="high-7">-3.60129879</para>
+                <para name="high-8">0.011</para>
+                <para name="high-9">0</para>
+                <para name="high-10">0</para>
+                <para name="high-11">-1</para>
+            </algorithm>
+        </FPS_detect>
+    </FPS_detector_list>  <!--//FPS预测参数!-->
+
+    <temp_control_list size="2"> <!--//温控参数!-->
+        <temp_control id="0" size="5">
+            <para name="max_temp">52</para>
+            <para name="pow_warm_up_normal">2850000</para><!--750mA*3800mv!-->
+            <para name="pow_warm_up_fast">3040000</para><!--800mA*3800mv!-->
+            <para name="window_size">3</para>
+            <para name="strategy_enable">0</para>
+        </temp_control>
+        <temp_control id="1" size="5">
+            <para name="max_temp">52</para>
+            <para name="pow_warm_up_normal">2850000</para><!--750mA*3800mv!-->
+            <para name="pow_warm_up_fast">3040000</para><!--800mA*3800mv!-->
+            <para name="window_size">3</para>
+            <para name="strategy_enable">0</para>
+        </temp_control>
+    </temp_control_list> <!--//温控参数!-->
+
+    <no_boost_game_list size='8'> <!--//特殊频率游戏列表!-->
+        <game id="1">
+            <package_name>com.supercell.clashofclans</package_name>
+            <default_fps>58</default_fps>
+        </game>
+        <game id="2">
+            <package_name>com.tencent.tmgp.supercell.clashofclans</package_name>
+            <default_fps>58</default_fps>
+        </game>
+        <game id="3">
+            <package_name>com.supercell.clashroyale</package_name>
+            <default_fps>58</default_fps>
+        </game>
+        <game id="4">
+            <package_name>com.tencent.tmgp.supercell.clashroyale</package_name>
+            <default_fps>58</default_fps>
+        </game>
+        <game id="5">
+            <package_name>com.supercell.boombeach</package_name>
+            <default_fps>58</default_fps>
+        </game>
+        <game id="6">
+            <package_name>com.tencent.tmgp.supercell.brawlstars</package_name>
+            <default_fps>58</default_fps>
+        </game>
+        <game id="7">
+            <package_name>com.youzu.bs</package_name>
+            <default_fps>58</default_fps>
+        </game>
+        <game id="8">
+            <package_name>com.soulgame.shokudo.kuaishou.huawei</package_name>
+            <default_fps>58</default_fps>
+        </game>
+   </no_boost_game_list>
+
+</policy>

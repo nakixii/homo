@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) Huawei Technologies Co., Ltd. 2016-2019. All rights reserved.
+ * Description: xml Configuring
+ * Author: yangningjuan y00426896
+ * Create: 2016-7-15
+ */
+-->
+
+<!--
+ **************           使用说明         *************
+例：如果当前调试config.cpp里面的配置项为latencyDdr和eas
+修改方式为：
+<config>
+    <perfRes name="latencyDdr" qosId="12">
+        <perfGroup name="defaultGroup" groupId ="0">
+            <avlMin>0</avlMin>
+            <avlMax>110</avlMax>
+            <baseMin>110</baseMin>
+            <baseMax>110</baseMax>
+            <levelMapping>
+                <level2Value name="levelToValue" level="100">
+                    <value>80000</value>
+                </level2Value>
+            </levelMapping>
+        </perfGroup>
+    </perfRes>
+
+    <perfRes name="eas" qosId="9">
+        <perfGroup name="defaultGroup" groupId ="0">
+            <avlMin>0</avlMin>
+            <avlMax>110</avlMax>
+            <baseMin>110</baseMin>
+            <baseMax>110</baseMax>
+        </perfGroup>
+        <levelMapping>
+            <level name="extreme_power_saving" levelId="-30">
+                <value>1</value>
+                <boost>0</boost>
+            </level>
+            <level name="normal" levelId="0">
+                <value>100</value>
+                <boost>0</boost>
+            </level>
+            <level name="performance_level_0" levelId="10">
+                <value>103</value>
+                <boost>0</boost>
+            </level>
+            <level name="performance_level_5" levelId="20">
+                <value>99</value>
+                <boost>0</boost>
+            </level>
+            <level name="performance_level_10" levelId="30">
+                <value>-99</value>
+                <boost>0</boost>
+            </level>
+            <level name="high_performance" levelId="40">
+                <value>50</value>
+                <boost>1</boost>
+            </level>
+            <level name="higher_performance" levelId="100">
+                <value>150</value>
+                <boost>1</boost>
+            </level>
+        </levelMapping>
+    </perfRes>
+</config>
+-->
+
+
+<!--
+    name                             qosId
+    cpuL                             = 0,
+    cpuM                             = 1,
+    cpuB                             = 2,
+    gpu                              = 3,
+    ddr                              = 4,
+    l3c                              = 5,
+    ipaSustainablePower              = 6,
+    ipaSwitchTemp                    = 7,
+    cpuBoost                         = 8,
+    eas                              = 9,
+    latencyCpu                       = 10,
+    latencyGpu                       = 11,
+    latencyDdr                       = 12,
+    ioSpeed                          = 13,
+    memlatTargetRatioCpuL            = 14,
+    memlatTargetRatioCpuM            = 15,
+    memlatTargetRatioCpuB            = 16,
+    memlatPollingIntervalCpuL        = 17,
+    memlatPollingIntervalCpuM        = 18,
+    memlatPollingIntervalCpuB        = 19,
+    loadCpuL                         = 20,
+    loadCpuM                         = 21,
+    loadCpuB                         = 22,
+    loadGpu                          = 23,
+    delayUpCpuL                      = 24,
+    delayUpCpuM                      = 25,
+    delayUpCpuB                      = 26,
+    delayUpGpu                       = 27,
+    delayDownCpuL                    = 28,
+    delayDownCpuM                    = 29,
+    delayDownCpuB                    = 30,
+    delayDownGpu                     = 31,
+    fastRampUpCpuL                   = 32,
+    fastRampUpCpuM                   = 33,
+    fastRampUpCpuB                   = 34,
+    fastRampDownCpuL                 = 35,
+    fastRampDownCpuM                 = 36,
+    fastRampDownCpuB                 = 37,
+    topTaskStatsPolicyCpuL           = 38,
+    topTaskStatsPolicyCpuM           = 39,
+    topTaskStatsPolicyCpuB           = 40,
+    isolationMinCpusL                = 41,
+    isolationMinCpusM                = 42,
+    isolationMinCpusB                = 43,
+-->
+
+<config>
+</config>

@@ -1,0 +1,11 @@
+service vendor.bluetooth-1-1 /vendor/bin/hw/android.hardware.bluetooth@1.1-service
+    interface android.hardware.bluetooth@1.1::IBluetoothHci default
+    interface android.hardware.bluetooth@1.0::IBluetoothHci default
+    oneshot
+    disabled
+    class hal
+    capabilities BLOCK_SUSPEND NET_ADMIN SYS_NICE
+    user bluetooth
+    group bluetooth
+    writepid /dev/stune/foreground/tasks
+

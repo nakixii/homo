@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <AlgTime>
+        <SIZE1>
+            <width>3264</width>
+            <height>2448</height>
+            <HDRTime>180</HDRTime>
+            <noHDRTime>140</noHDRTime>
+        </SIZE1>
+
+        <SIZE2>
+            <width>3264</width>
+            <height>1840</height>
+            <HDRTime>140</HDRTime>
+            <noHDRTime>110</noHDRTime>
+        </SIZE2>
+		
+	<SIZE3>
+            <width>3968</width>
+            <height>2976</height>
+            <HDRTime>300</HDRTime>
+            <noHDRTime>200</noHDRTime>
+        </SIZE3>
+    </AlgTime>
+
+    <TryAE>
+        <Light>
+            <expoMax>300</expoMax>
+            <expoMin>150</expoMin>
+            <expoRatio>60</expoRatio>
+            <iso>64</iso>
+        </Light>
+
+        <Car>
+            <expoMax>700</expoMax>
+            <expoMin>150</expoMin>
+            <expoRatio>60</expoRatio>
+            <iso>64</iso>
+        </Car>
+
+        <Night> 
+            <nightExpo1>50</nightExpo1>
+            <nightISO1>800</nightISO1>
+            <nightExpo2>50</nightExpo2>
+            <nightISO2>400</nightISO2>
+            <targetShortMeany>60</targetShortMeany>
+            <targetLongMeanyTmp>30</targetLongMeanyTmp>
+            <targetLongMeany>80</targetLongMeany>
+            <targetNoHDRMeany>40</targetNoHDRMeany>
+            <targetAccumMeany>60</targetAccumMeany>
+            <SatruationParam>1.1</SatruationParam>
+            <peak>3.5</peak>
+            <cutoff>10</cutoff>
+            <cutoff2>1024</cutoff2>
+            <overshoot>0.2</overshoot>
+            <lightdetect>0.001</lightdetect>
+        </Night>
+    </TryAE>
+
+</Config>

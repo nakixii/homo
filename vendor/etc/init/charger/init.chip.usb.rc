@@ -1,0 +1,92 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# USB configuration common for hisi devices
+#
+
+import /vendor/etc/init/charger/init.hisi.usb.rc
+
+on boot
+    chown system system /sys/devices/platform/hisi_usb@f8480000/plugusb
+    chmod 0660 /sys/devices/platform/hisi_usb@f8480000/plugusb
+
+on init && property:sys.usb.configfs=0
+    write /sys/class/android_usb/android0/iManufacturer ${ro.product.manufacturer}
+    write /sys/class/android_usb/android0/iProduct ${ro.product.model}
+
+on property:sys.usb.config=hisi_debug,adb && property:sys.usb.configfs=0
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 12d1
+    write /sys/class/android_usb/android0/idProduct 107e
+    write /sys/class/android_usb/android0/iSerial ${ro.serialno}
+    write /sys/class/android_usb/android0/f_rndis/wceis  1
+    write /sys/class/android_usb/android0/functions rndis,adb,balong_acm
+    write /sys/class/android_usb/android0/enable 1
+    stop atcmdserver
+#    start hw_cdma_service
+    start adbd
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=hisi_debug && property:sys.usb.configfs=0
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 12d1
+    write /sys/class/android_usb/android0/idProduct 107e
+    write /sys/class/android_usb/android0/iSerial ${ro.serialno}
+    write /sys/class/android_usb/android0/f_rndis/wceis  1
+    write /sys/class/android_usb/android0/functions rndis,balong_acm
+    write /sys/class/android_usb/android0/enable 1
+    stop atcmdserver
+#    start hw_cdma_service
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=ncm && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/UDC "none"
+    stop adbd
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "ncm"
+    write /config/usb_gadget/g1/idVendor 0x12d1
+    write /config/usb_gadget/g1/idProduct 0x107e
+    write /config/usb_gadget/g1/bDeviceClass 239
+    write /config/usb_gadget/g1/bDeviceSubClass 2
+    write /config/usb_gadget/g1/bDeviceProtocol 1
+    symlink /config/usb_gadget/g1/functions/ncm.gs7 /config/usb_gadget/g1/configs/b.1/f1
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=ncm,adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/UDC "none"
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "ncm_adb"
+    write /config/usb_gadget/g1/idVendor 0x12d1
+    write /config/usb_gadget/g1/idProduct 0x107e
+    write /config/usb_gadget/g1/bDeviceClass 239
+    write /config/usb_gadget/g1/bDeviceSubClass 2
+    write /config/usb_gadget/g1/bDeviceProtocol 1
+    start adbd
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=ncm,adb && property:sys.usb.configfs=1
+    symlink /config/usb_gadget/g1/functions/ncm.gs7 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f2
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=sourcesink && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/UDC "none"
+    stop adbd
+    stop hdbd
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "sourcesink"
+    write /config/usb_gadget/g1/idVendor 0x12d1
+    write /config/usb_gadget/g1/idProduct 0xfffe
+    symlink /config/usb_gadget/g1/functions/SourceSink.gs10 /config/usb_gadget/g1/configs/b.1/f1
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=sourcesink,adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/UDC "none"
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "sourcesink_adb"
+    write /config/usb_gadget/g1/idVendor 0x12d1
+    write /config/usb_gadget/g1/idProduct 0xfffe
+    start adbd
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=sourcesink,adb  && property:sys.usb.configfs=1
+    symlink /config/usb_gadget/g1/functions/SourceSink.gs10 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f2
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<collie version="1.0">
+    <call_voice_opt_iccid num="5">
+        <item>89860000000000000000</item>
+        <item>89860009191190000108</item>
+        <item>8952530076180193669F</item>
+        <item>8952530106160085005F</item>
+        <item>8952530076180193693F</item>
+    </call_voice_opt_iccid>
+</collie>

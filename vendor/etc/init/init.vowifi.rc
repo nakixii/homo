@@ -1,0 +1,16 @@
+
+on early-boot
+    service hivwserver /vendor/bin/hivwserver
+    class vowifi
+    user system
+    group audio inet net_bt net_bt_admin net_bw_acct system
+
+on boot
+    # vowifi
+    chown system audio /dev/voice_proxy_vowifi
+    chmod 0660 /dev/voice_proxy_vowifi
+    write /proc/sys/net/ipv4/ip_local_reserved_ports 31000-31050
+
+on property:ro.vendor.config.hw_vowifi=true
+    class_start vowifi
+

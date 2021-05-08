@@ -1,0 +1,17 @@
+service face_hal /vendor/bin/hw/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    interface vendor.huawei.hardware.biometrics.hwfacerecognize@2.0::IBiometricsFaceRecognize default
+    interface vendor.huawei.hardware.biometrics.hwsecurefacerecognize@2.0::ISecureBiometricsFaceRecognize default
+    class late_start
+    user system
+    group system log
+    disabled
+    writepid /dev/cpuset/top-app/tasks /dev/stune/top-app/tasks
+
+on property:ro.odm.config.face_recognition=true
+    start face_hal
+
+on property:ro.odm.config.voice_recognition=1
+    start face_hal

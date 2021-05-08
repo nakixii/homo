@@ -1,0 +1,22 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+#	exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules \
+#		test_a_ko.ko \
+#		test_b_ko.ko
+
+	exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules \
+		hisi_dummy_ko.ko
+
+on post-fs-data
+
+on early-boot
+
+on boot
+

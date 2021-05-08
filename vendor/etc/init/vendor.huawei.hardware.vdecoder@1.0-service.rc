@@ -1,0 +1,6 @@
+service vdecoder_1_0 vendor/bin/hw/vendor.huawei.hardware.vdecoder@1.0-service
+    interface vendor.huawei.hardware.vdecoder@1.0::IVDecoder default
+    class hal
+    disabled
+    user system
+    group system

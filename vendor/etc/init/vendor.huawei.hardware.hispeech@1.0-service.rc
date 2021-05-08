@@ -1,0 +1,10 @@
+service hispeech_hal_1_0 vendor/bin/hw/vendor.huawei.hardware.hispeech@1.0-service
+    interface vendor.huawei.hardware.hispeech.wakeup@1.0::IWakeupHwService default
+    class hal
+    disabled
+    user system
+    group system
+    onrestart restart HiSpeechServer
+
+on property:init.svc.vendor.audio-hal-2-0=stopped
+    restart hispeech_hal_1_0

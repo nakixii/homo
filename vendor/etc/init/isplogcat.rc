@@ -1,0 +1,7 @@
+service isplogcat /vendor/bin/isplogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:isplogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks

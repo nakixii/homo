@@ -1,0 +1,17 @@
+#!/vendor/bin/sh
+function print_kernel_message()
+{
+    if [ -e /dev/kmsg ]
+    then
+        echo $1 > /dev/kmsg
+    fi
+}
+
+if [ $(toolbox getprop hwlog.remotedebug) == "true" ]
+then
+    print_kernel_message "enable wifi log"
+    echo r > /sys/hi110x_ps/loglevel
+else
+    print_kernel_message "disable wifi log"
+    echo R > /sys/hi110x_ps/loglevel
+fi

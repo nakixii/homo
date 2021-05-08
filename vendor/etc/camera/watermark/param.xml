@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <watermark_width value="1685"/>
+  <watermark_height value="256"/>
+  <watermark_position value="1"/>
+  <param_A value="45"/>
+  <param_B value="21"/>
+  <param_C value="474"/>
+  <param_D value="1080"/>
+</Config>

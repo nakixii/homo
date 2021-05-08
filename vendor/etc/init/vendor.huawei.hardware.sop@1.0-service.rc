@@ -1,0 +1,6 @@
+service sop-hal-1-0 /vendor/bin/hw/vendor.huawei.hardware.sop@1.0-service
+    class early_hal
+    user system
+    group system log
+    oneshot
+

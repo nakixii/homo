@@ -1,0 +1,9 @@
+service virtualcamera-hal-service /vendor/bin/hw/virtualcamera.provider@2.4-service
+    interface android.hardware.camera.provider@2.4::ICameraProvider virtual/0
+    disabled
+    class hal
+    user system
+    group camera system
+    ioprio rt 4
+    capabilities SYS_NICE
+    writepid /dev/stune/top-app/tasks

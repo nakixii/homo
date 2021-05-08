@@ -1,0 +1,13 @@
+service vpeer-hal-1-0 /vendor/bin/hw/vendor.huawei.hardware.vpeer@1.0-service
+    interface vendor.huawei.hardware.vpeer.vpeerfusion@1.0::IVpeerFusion default
+    interface vendor.huawei.hardware.vpeer.p2ptransport@1.0::IP2pTransport default
+    oneshot
+    disabled
+    class hal
+    user system
+    group system
+
+on boot
+    # voice_proxy_fusion
+    chown system audio /dev/voice_proxy_fusion
+    chmod 0660 /dev/voice_proxy_fusion

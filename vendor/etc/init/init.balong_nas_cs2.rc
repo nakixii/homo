@@ -1,0 +1,2 @@
+on early-boot
+    wait /dev/nmctrlvcom

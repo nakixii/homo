@@ -1,0 +1,2 @@
+import /vendor/etc/init/connectivity/init.connectivity.gps.rc
+import /vendor/etc/init/connectivity/init.connectivity.${ro.connectivity.sub_chiptype}.rc

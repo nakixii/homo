@@ -1,0 +1,14 @@
+<acorepolicylist>
+    <policy name="game">
+        <demand rtt="3" bandwidth="2" loss="1" utilization="9" stability="8" confidence="80"/>
+        <bastetd action="1"/>
+    </policy>
+    <policy name="voip">
+        <demand rtt="4" bandwidth="3" loss="1" utilization="9" stability="8" confidence="90"/>
+        <bastetd action="1"/>
+    </policy>
+    <policy name="real time app">
+        <demand rtt="3" bandwidth="2" loss="1" utilization="9" stability="8" confidence="90"/>
+        <bastetd action="3"/>
+    </policy>
+</acorepolicylist>

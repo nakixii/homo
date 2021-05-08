@@ -1,0 +1,3 @@
+on post-fs-data
+    chmod 0644 /sys/module/reclaim_acct/parameters/reclaimacct_disable
+    write /sys/module/reclaim_acct/parameters/reclaimacct_disable 0

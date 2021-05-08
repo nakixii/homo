@@ -1,0 +1,26 @@
+import /vendor/etc/init/charger/init.chip.charger.balong_modem.rc
+on charger
+    write /sys/class/devfreq/ddrfreq/max_freq 415000000
+    write /sys/class/devfreq/ddrfreq/min_freq 415000000
+    write /sys/class/devfreq/ddrfreq/max_freq 415000000
+    write /sys/class/devfreq/ddrfreq_up_threshold/max_freq 415000000
+    write /sys/class/devfreq/ddrfreq_up_threshold/min_freq 415000000
+    write /sys/class/devfreq/ddrfreq_up_threshold/max_freq 415000000
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 554000
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 554000
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 554000
+    write /sys/kernel/eas/boot_boost 0
+    write /sys/kernel/eas/capacity_margin 1024:1024:1024
+    chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal_aux
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal_aux
+    chmod 0660 /sys/class/hw_power/charger/charge_data/limit_charging
+    chown system system /sys/class/hw_power/charger/charge_data/limit_charging
+    start thermshex
+    start aptouch
+
+service aptouch /system/vendor/bin/aptouch_daemon
+    user root
+    group root
+    disabled

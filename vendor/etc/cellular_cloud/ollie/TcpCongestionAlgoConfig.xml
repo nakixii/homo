@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ollie>
+    <dollie>
+        <tcpAlgorithm>
+            <appConfig
+                packageName="com.huawei.betaclub"
+                networkType="0"
+                uidState="2"
+                restoreThreshold = "0"
+                packageLossRate="0"
+                totalThroughput="0"
+                averageRate="0"
+                retransmitTimes="0"
+                congestionAlgorithm="2"/>
+        </tcpAlgorithm>
+    </dollie>
+</ollie>

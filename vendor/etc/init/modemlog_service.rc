@@ -1,0 +1,19 @@
+# Service for modemlogcat beta mode
+service modematserver /vendor/bin/modemlogcat_lte -f beta
+    interface vendor.huawei.hardware.modemlogcat@1.0::IModemlogcat default
+    interface vendor.huawei.hardware.modemlogcat@1.1::IModemlogcat default
+    class late_start
+    user root
+    group system radio
+    disabled
+    oneshot
+    writepid /dev/cpuset/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks
+
+# Service for modemlogcat phu mode
+service modemlog_service /vendor/bin/modemlogcat_lte -p phu
+    class late_start
+    user root
+    group system radio
+    disabled
+    oneshot
+    writepid /dev/cpuset/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks

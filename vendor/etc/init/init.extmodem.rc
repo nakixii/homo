@@ -1,0 +1,96 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+    ##change start priority to early-boot stage, because rild is started on boot stage
+    ## and sometime rild is started but device file's property is NOT changed
+    #3rdmodem VIA flashlessd service
+    #mkdir /data/log/3rdcp-log 0775 radio nvram
+
+    #mkdir /data/nvram/ 0770 root nvram
+    #mkdir /data/nvram/md_via 0770 root nvram
+
+    #3rdmodem VIA pppd service
+    #mkdir /data/pppd_via 0770 radio system
+
+on early-boot
+    #chmod 0660 /dev/vmodem
+    #chown radio radio /dev/vmodem
+
+    #chmod 0660 /dev/ttyAMA1
+    #chown radio radio /dev/ttyAMA1
+
+    #3rdmodem VIA 3rd Modem
+    #VIA device property
+    #get uart port from DTS node viacbp82d_flashless_boot_dl_uart
+    #setprop viatel.device.fls  spi.2.ttySPI
+    #setprop viatel.device.at   spi.10.ttySPI
+    #setprop viatel.device.data spi.0.ttySPI
+    #setprop viatel.device.pcv spi.4.ttySPI
+    #setprop viatel.device.gps spi.5.ttySPI
+
+    #chmod 0750 /3rdmodem/
+    #chmod 0750 /3rdmodemnvm/
+    #chmod 0750 /3rdmodemnvmbkp/
+
+    #mkdir /3rdmodemnvm/viacbp82d 0740 radio radio
+    #mkdir /3rdmodemnvmbkp/viacbp82d 0740 radio radio
+
+    #chmod 0740 /3rdmodem/modem_image
+    #chmod 0740 /3rdmodem/modem_image/viacbp82d
+    #chmod 0740 /3rdmodemnvm/viacbp82d
+    #chmod 0740 /3rdmodemnvmbkp/viacbp82d
+    #chmod 0640 /3rdmodem/modem_image/viacbp82d/boot.rom
+    #chmod 0640 /3rdmodem/modem_image/viacbp82d/cp.rom
+    #chmod 0640 /3rdmodem/modem_image/viacbp82d/fsm_df.img
+    #chmod 0640 /3rdmodem/modem_image/viacbp82d/RfsTable
+    #chmod 0640 /3rdmodemnvm/viacbp82d/fsm_0.img
+    #chmod 0640 /3rdmodemnvm/viacbp82d/fsm_1.img
+    #chmod 0640 /3rdmodemnvm/viacbp82d/fsm_cl.img
+    #chmod 0640 /3rdmodemnvmbkp/viacbp82d/fsm_cl_backup.img
+
+    #chown radio radio /3rdmodem/
+    #chown radio radio /3rdmodem/modem_image
+    #chown radio radio /3rdmodem/modem_image/viacbp82d
+    #chown radio radio /3rdmodemnvm
+    #chown radio radio /3rdmodemnvm/viacbp82d
+    #chown radio radio /3rdmodemnvmbkp
+    #chown radio radio /3rdmodemnvmbkp/viacbp82d
+    #chown radio radio /3rdmodem/modem_image/viacbp82d/boot.rom
+    #chown radio radio /3rdmodem/modem_image/viacbp82d/cp.rom
+    #chown radio radio /3rdmodem/modem_image/viacbp82d/fsm_df.img
+    #chown radio radio /3rdmodem/modem_image/viacbp82d/RfsTable
+    #chown radio radio /3rdmodemnvm/viacbp82d/fsm_0.img
+    #chown radio radio /3rdmodemnvm/viacbp82d/fsm_1.img
+    #chown radio radio /3rdmodemnvm/viacbp82d/fsm_cl.img
+    #chown radio radio /3rdmodemnvmbkp/viacbp82d/fsm_cl_backup.img
+
+    #chmod 0660 /sys/devices/platform/viacbp82d_boot/state
+    #chown root radio /sys/devices/platform/viacbp82d_boot/state
+    #chmod 0660 /sys/devices/platform/viacbp82d_boot/modem_state
+    #chown root radio /sys/devices/platform/viacbp82d_boot/modem_state
+    #chmod 0660 /sys/devices/platform/viacbp82d_boot/sim_switch
+    #chown root radio /sys/devices/platform/viacbp82d_boot/sim_switch
+
+    #use for RNIC, ril will write this file
+    #chmod 0660 /sys/devices/platform/rnic_adapter_interface.0/rnic_adapter
+    #chown radio radio /sys/devices/platform/rnic_adapter_interface.0/rnic_adapter
+
+on boot
+    #start antenna_fpga download
+    #write  /sys/devices/platform/antennafpga.0/ice40bin_download_dir "start"
+    #chown system system /sys/devices/platform/antennafpga.0/ice40bin_scan_fpga_table
+
+service modemlogcat_VIA /vendor/bin/modemlogcat_via -t /dev/ttySPI1 -p /data/log/cp_log/ -r 30 -n 9
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot

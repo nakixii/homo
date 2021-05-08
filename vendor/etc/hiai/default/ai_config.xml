@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<AiConfig>
+
+    <SocialApp_SuperResolution AIName="App_SuperResolution" AIEnableFlg="1" AICategory="Image" AIPriority="5"   AIFramework="Caffe"  ModelType="Build" ComputingResource="2,1,3,4">
+
+        <modelconfig    ModelID="16" ModelRatio="1" Current_Ratio="1" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="112" AI_HEIGHT="112"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "/vendor/etc/models/SuperResolution/caffe/build/SR_x1_112x112.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="17" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="530" AI_HEIGHT="530"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "/vendor/etc/models/SuperResolution/caffe/build/SR_x1_530x530.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="18" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="600"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_312x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="19" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="720"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_372x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="20" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="600" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_412x312.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="21" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1066" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_412x545.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="22" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="720" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_492x372.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="23" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1280" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_492x652.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="24" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="1066"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_545x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="25" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="1280"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x1_652x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+        <modelconfig    ModelID="31" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="112" AI_HEIGHT="112"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_112x112.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="32" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="530" AI_HEIGHT="530"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_530x530.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="33" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="600"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_312x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="34" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="720"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_372x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="35" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="600" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_412x312.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="36" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1066" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_412x545.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="37" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="720" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_492x372.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="38" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1280" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_492x652.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="39" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="1066"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_545x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="40" ModelRatio="1"  Current_Ratio="1"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="1280"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x1_652x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="41" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="112" AI_HEIGHT="112"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_112x112.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="42" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="530" AI_HEIGHT="530"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_530x530.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="43" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="600"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_312x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="44" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="720"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_372x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="45" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="600" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_412x312.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="46" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1066" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_412x545.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="47" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="720" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_492x372.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="48" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1280" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_492x652.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="49" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="1066"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_545x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="50" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="1280"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_x3_652x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="51" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="112" AI_HEIGHT="112"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_112x112.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="52" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="530" AI_HEIGHT="530"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_530x530.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="53" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="720"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_372x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+
+        <modelconfig    ModelID="54" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="600" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_412x312.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="55" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1066" AI_HEIGHT="800"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_412x545.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="56" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="720" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_492x372.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="57" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="1280" AI_HEIGHT="960"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_492x652.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="58" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="1066"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_545x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="59" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="960" AI_HEIGHT="1280"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_652x492.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+        <modelconfig    ModelID="60" ModelRatio="3"  Current_Ratio="3"   AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" AI_WIDTH="800" AI_HEIGHT="600"
+                            ModelSize ="32" Modelsparse="1" ModelInPutFormat = "RGB_888" ModelOutPuttype="Image" ModelOutPutFormat="RGB_888"
+                            IMAGEFORMAT="RGB_888"  DataType="Fixpoint" DataWidth="32BIT"  BuildMode ="offline" ModelType = "Build" ModelPerf="High"
+                            ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_face_x3_312x412.dm"
+                            IsModelNetEncrypted = "0"
+                            ModelNetParameterPath =""
+                            IsModelNetParamEncrypted = "0"
+                            ModelMeanFilePath = "" ModelResultFilePath = "" />
+
+    </SocialApp_SuperResolution>
+
+    <!-- people detection for super resolution-->
+    <SuperResolution_PD AIName="SuperResolution_PD" AIEnableFlg="1" AICategory="Image" AIPriority="5"  AIFramework="Caffe"  ModelType="Build" ComputingResource="2,1,3,4">
+    		<modelconfig  ModelID="30" ModelRatio="0" AI_WIDTH="112" AI_HEIGHT="112" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="High"
+                    ModelNetPath = "vendor/etc/models/SuperResolution/caffe/build/SR_PD_112x112.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath =""
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = "vendor/etc/models/SuperResolution/caffe/build/SR_PD_112x112_mean"
+                    ModelResultFilePath = "" />
+    </SuperResolution_PD>
+
+    <SceneRecognition AIName="SceneRecognition" AIEnableFlg="1" AICategory="Image" AIPriority="5"  AIFramework="Caffe"  ModelType="Build" ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+        <modelconfig  ModelID="26" ModelRatio="0" AI_WIDTH="224" AI_HEIGHT="224" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/SceneRecognition/caffe/build/SceneRecognition_V2.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/SceneRecognition/caffe/build/SceneRecognition_V2.dm"
+                    IsModelNetParamEncrypted = "0"
+                    MaxUsedMemory = "12173912"
+                    ModelMeanFilePath = "vendor/etc/models/SceneRecognition/caffe/build/SceneRecognition_V2_mean"
+                    ModelResultFilePath = "" />
+    </SceneRecognition>
+
+    <!-- ObjectDetection -->
+    <ObjectDetection AIName="ObjectDetection" AIID="10" AIEnableFlg="1" AICategory="Image" AIPriority="5" AIFramework="Caffe" ModelType="Build"
+    ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+        <modelconfig  ModelID="64" ModelRatio="0" AI_WIDTH="300" AI_HEIGHT="200" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/ObjectDetection/caffe/build/OD_conv_300x200.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/ObjectDetection/caffe/build/OD_conv_300x200.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </ObjectDetection>
+
+    <!-- AiPObjectDetection -->
+    <AIPObjectDetection AIName="AIPObjectDetection" AIID="11" AIEnableFlg="1" AICategory="Image" AIPriority="5" AIFramework="Caffe" ModelType="Build"
+    ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+        <modelconfig  ModelID="65" ModelRatio="0" AI_WIDTH="300" AI_HEIGHT="200" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/ObjectDetection/caffe/build/AIP_OD_conv_300x200.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/ObjectDetection/caffe/build/AIP_OD_conv_300x200.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </AIPObjectDetection>
+    <FoodRecognition AIName="FoodRecognition" AIEnableFlg="1" AICategory="Image" AIPriority="5"  AIFramework="Caffe"  ModelType="Build" ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+    <modelconfig  ModelID="999" ModelRatio="0" AI_WIDTH="224" AI_HEIGHT="224" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FoodRecognition/caffe/build/FoodRecognition_V1.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FoodRecognition/caffe/build/FoodRecognition_V1.dm"
+                    IsModelNetParamEncrypted = "0"
+                    MaxUsedMemory = "12173912"
+                    ModelMeanFilePath = "vendor/etc/models/FoodRecognition/caffe/build/FoodRecognition_V1_mean"
+                    ModelResultFilePath = "" />
+
+    </FoodRecognition>
+
+    <PoseEstimation AIName="PoseEstimation" AIEnableFlg="1" AICategory="Image" AIPriority="5"  AIFramework="Caffe"  ModelType="Build" ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+    <modelconfig  ModelID="67" ModelRatio="0" AI_WIDTH="320" AI_HEIGHT="320" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/PoseEstimation/caffe/build/PE_conv_320x320.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/PoseEstimation/caffe/build/PE_conv_320x320.dm"
+                    IsModelNetParamEncrypted = "0"
+                    MaxUsedMemory = "12173912"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </PoseEstimation>
+
+    <!-- FaceStory -->
+    <FaceStory AIName="FaceStory" AIID="13" AIEnableFlg="1" AICategory="Image" AIPriority="4" AIFramework="Caffe" ModelType="Build"
+    ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+        <modelconfig  ModelID="69" ModelRatio="0" AI_WIDTH="112" AI_HEIGHT="112" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FaceStory/build/FD_conv_112x112.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceStory/build/FD_conv_112x112.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+        <modelconfig  ModelID="70" ModelRatio="0" AI_WIDTH="416" AI_HEIGHT="416" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FaceStory/build/FD_conv_416x416.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceStory/build/FD_conv_416x416.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+        <modelconfig  ModelID="71" ModelRatio="0" AI_WIDTH="64" AI_HEIGHT="64" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FaceStory/build/FD_conv_64x64.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceStory/build/FD_conv_64x64.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+        <modelconfig  ModelID="72" ModelRatio="0" AI_WIDTH="64" AI_HEIGHT="64" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FaceStory/build/FS_attr_conv_64x64.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceStory/build/FS_attr_conv_64x64.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+        <modelconfig  ModelID="73" ModelRatio="0" AI_WIDTH="128" AI_HEIGHT="128" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FaceStory/build/FD_conv_128x128.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceStory/build/FD_conv_128x128.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+        <modelconfig  ModelID="74" ModelRatio="0" AI_WIDTH="112" AI_HEIGHT="112" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FaceStory/build/FS_pose_conv_112x112.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceStory/build/FS_pose_conv_112x112.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+        <modelconfig  ModelID="75" ModelRatio="0" AI_WIDTH="256" AI_HEIGHT="256" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/FaceStory/build/FS_seg_conv_256x256.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/FaceStory/build/FS_seg_conv_256x256.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </FaceStory>
+
+    <!-- SceneRecognition_front -->
+    <SceneRecognition_front AIName="SceneRecognition_front" AIEnableFlg="1" AICategory="Image" AIPriority="5"  AIFramework="Caffe"  ModelType="Build" ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+        <modelconfig  ModelID="68" ModelRatio="0" AI_WIDTH="112" AI_HEIGHT="112" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/SceneRecognition/caffe/build/SceneRecognition_Front.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/SceneRecognition/caffe/build/SceneRecognition_Front.dm"
+                    IsModelNetParamEncrypted = "0"
+                    MaxUsedMemory = "12173912"
+                    ModelMeanFilePath = "vendor/etc/models/SceneRecognition/caffe/build/SceneRecognition_Front_mean"
+                    ModelResultFilePath = "" />
+    </SceneRecognition_front>
+    <ActionDetection AIName="ActionDetection" AIEnableFlg="1" AICategory="Image" AIPriority="5"  AIFramework="TensorFlow"  ModelType="Build" ComputingResource="1,1,3,4">
+        <modelconfig  ModelID="74" ModelRatio="0" AI_WIDTH="15" AI_HEIGHT="12" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Vector"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="Low"
+                    ModelNetPath = "vendor/etc/models/ActionDetection/tensorflow/build/AD_conv_1x4x12x15.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/ActionDetection/tensorflow/build/AD_conv_1x4x12x15.dm"
+                    IsModelNetParamEncrypted = "0"
+                    MaxUsedMemory = "12173912"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </ActionDetection>
+    <ReflectionRemoval AIName="ReflectionRemoval" AIID="97" AIEnableFlg="1" AICategory="Image" AIPriority="5" AIFramework="TensorFlow" ModelType="Build"
+    ComputingResource="1,1,3,4" AiSubMeanEnable="0">
+        <modelconfig  ModelID="64" ModelRatio="0" AI_WIDTH="896" AI_HEIGHT="896" AI_MAX_WIDTH="3936" AI_MAX_HEIGHT="2976" ModelSize ="37245516" Modelsparse="0"
+                    IMAGEFORMAT="RGB_888" BuildMode ="offline" DataType="Floatpoint" DataWidth="32BIT"  ModelOutPuttype="Image"
+                    ModelInPutFormat = "RGB_888" ModelOutPutFormat="RGB_888" ModelType = "Build" ModelPerf="High"
+                    ModelNetPath = "vendor/etc/models/ReflectionRemoval/tensorflow/build/refRemoval_aipp.dm"
+                    IsModelNetEncrypted = "0"
+                    ModelNetParameterPath ="vendor/etc/models/ReflectionRemoval/tensorflow/build/refRemoval_aipp.dm"
+                    IsModelNetParamEncrypted = "0"
+                    ModelMeanFilePath = ""
+                    ModelResultFilePath = "" />
+    </ReflectionRemoval>
+</AiConfig>
+

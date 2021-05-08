@@ -1,0 +1,4 @@
+service hal_gnss_service_2-0 /vendor/bin/hw/vendor.huawei.hardware.gnss@2.0-service
+    class hal
+    user system
+    group system gps log

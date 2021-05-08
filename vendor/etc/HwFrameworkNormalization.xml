@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+    <group>
+        <id value="1"/>
+        <name value="MAX_EGL_CACHE_SIZE"/>
+        <define value="65536"/>
+        <description value="AR00046GES"/>
+    </group>
+    <group>
+        <id value="2"/>
+        <name value="MAX_EGL_CACHE_KEY_SIZE"/>
+        <define value="1024"/>
+        <description value="AR00046GES"/>
+    </group>
+    <group>
+        <id value="3"/>
+        <name value="OVERRIDE_RS_DRIVER"/>
+        <define value="libRSDriverArm.so"/>
+        <description value="AR00046GF0"/>
+    </group>
+</resource>

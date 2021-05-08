@@ -1,0 +1,5 @@
+service vendor.power.stats-hal-1-0-mock /vendor/bin/hw/android.hardware.power.stats@1.0-service.mock
+    interface android.hardware.power.stats@1.0::IPowerStats default
+    class hal
+    user system
+    group system

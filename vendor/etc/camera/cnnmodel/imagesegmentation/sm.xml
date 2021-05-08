@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <segmask>
+        <platform>1</platform>  <!-- 0: boston, 1: Atlanta, 2:miami -->
+        <modelversion>2</modelversion> <!--0:4ClassSeg,1: 8ClassSeg,2: 10ClassSeg-->
+        <inputTensor>
+            <srcN>1</srcN>
+            <srcC>3</srcC>
+            <srcH>352</srcH>
+            <srcW>352</srcW>
+        </inputTensor>        
+        <OutputTensor>
+            <dstN>1</dstN>
+            <dstC>11</dstC>
+            <dstH>88</dstH>
+            <dstW>88</dstW>
+        </OutputTensor>
+        <segmentationLable>
+            <labelBackground>0</labelBackground>
+            <labelPerson>1</labelPerson>
+            <labelSky>2</labelSky>
+            <labelPlant>3</labelPlant>
+            <labelFood>4</labelFood>
+            <labelPet>5</labelPet>
+            <labelBuilding>6</labelBuilding>
+            <labelFlower>7</labelFlower>
+            <labelWater>8</labelWater>
+            <labelBeach>9</labelBeach>
+            <labelMountain>10</labelMountain>
+        </segmentationLable>
+    </segmask>
+</Config>
+

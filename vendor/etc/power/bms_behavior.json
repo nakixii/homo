@@ -1,0 +1,141 @@
+{
+    "platform" : "hisi",
+    "monitor_status" : {
+        "comments" : "ibus, vbus, rbat, cap_fcc, real_soc, cycle",
+        "table" : [1, 1, 1, 1, 1, 1]
+    },
+    "sensor" : {
+        "system_h" : {
+            "name" : "system_h",
+            "accuracy" : 1
+        },
+        "battery" : {
+            "name" : "Battery",
+            "accuracy" : 1
+        },
+        "shell_frame" : {
+            "name" : "shell_frame",
+            "accuracy" : 1
+        }
+    },
+    "monitor_enable" : true,
+    "monitor_upload_bigdata" : true,
+    "monitor_interval_time" : 5,
+    "monitor_valid_time" : 1800,
+    "monitor_bigdata_valid_time" : 300,
+    "monitor_cc_valid_time" : 300,
+    "support_scp" : true,
+    "monitor_power_off_valid_time" : 1800,
+    "fault_monitor" : {
+        "temp_battery_stage" : {
+            "enable" : true,
+            "step" : 0,
+            "param" : [-10, 0, 10, 45, 50, 200]
+        },
+        "temp_battery_step" : {
+            "enable" : false,
+            "step" : 1,
+            "param" : [5, 55, 200]
+        },
+        "temp_cpu_step" : {
+            "enable" : false,
+            "step" : 1,
+            "param" : [10, 70, 200]
+        },
+        "cc_stage_ibus" : {
+            "enable" : true,
+            "step" : 0,
+            "param" : [0, 500, 1000, 1500, 2000, 3000, 30000]
+        },
+        "limit_current_ibus" : {
+            "enable" : true,
+            "step" : 0,
+            "param" : [0, 500, 1000, 1500, 1900, 3000, 30000]
+        },
+        "limit_current_ibat" : {
+            "enable" : true,
+            "step" : 0,
+            "param" : [0, 200, 500, 1000, 1900, 3000, 30000]
+        }
+    },
+    "fault_function" : [
+        {
+            "key" : "battery_current_normal",
+            "enable" : true,
+            "error_no" : 0,
+            "param" : [2000, 1400, 3000, 3500]
+        },
+        {
+            "key" : "battery_exist",
+            "enable" : true,
+            "error_no" : 920008008,
+            "param" : [0]
+        },
+        {
+            "key" : "cc_no_ibus",
+            "enable" : true,
+            "error_no" : 920008000,
+            "param" : [50]
+        },
+        {
+            "key" : "battery_temp_extremes",
+            "enable" : true,
+            "error_no" : 920008001,
+            "param" : [0, 50]
+        },
+        {
+            "key" : "battery_temp_abnormal",
+            "enable" : true,
+            "error_no" : 920008002,
+            "param" : [10, 45, 50]
+        },
+        {
+            "key" : "limit_current_ibus",
+            "enable" : true,
+            "error_no" : 920008007,
+            "param" : [1300]
+        },
+        {
+            "key" : "limit_current_ibat",
+            "enable" : true,
+            "error_no" : 920008007,
+            "param" : [1400]
+        },
+        {
+            "key" : "cc_ibus_lower",
+            "enable" : true,
+            "error_no" : 920008004,
+            "param" : [700]
+        },
+        {
+            "key" : "ac_no_stand",
+            "enable" : true,
+            "error_no" : 920008003,
+            "param" : [2]
+        },
+        {
+            "key" : "sys_big_consume_ibus",
+            "enable" : true,
+            "error_no" : 920008005,
+            "param" : [1400, 10, 45, 80]
+        },
+        {
+            "key" : "sys_big_consume_tbat",
+            "enable" : true,
+            "error_no" : 920008005,
+            "param" : [6, 50]
+        },
+        {
+            "key" : "sys_big_consume_tcpu",
+            "enable" : true,
+            "error_no" : 920008005,
+            "param" : [18, 50]
+        }
+    ],
+    "proc_filter" : [
+        "top -n1"
+    ],
+    "tx_monitor_enable" : true,
+    "tx_monitor_interval_time" : 5,
+    "tx_monitor_valid_time" : 0
+}

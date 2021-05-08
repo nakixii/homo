@@ -1,0 +1,7 @@
+{
+    "version": "1.0.0",
+    "switch" : 0,
+    "delay" : 1,
+    "interval_time" : 5,
+    "content_data" : ["coul", "multi_btb", "rt9759", "hi6526"]
+}

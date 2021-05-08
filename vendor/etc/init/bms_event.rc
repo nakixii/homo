@@ -1,0 +1,42 @@
+on late-fs
+    chmod 0440 /sys/devices/virtual/hw_power/vbus/connect_state
+    chown system system /sys/devices/virtual/hw_power/vbus/connect_state
+
+    start bms_event
+
+service bms_event /vendor/bin/bms_event
+    user system
+    group system
+    disabled
+
+on property:vendor.bms_event=init
+    start bms_heating
+    start ichg_control
+    start bms_behavior
+
+on property:vendor.bms_event=start
+    start usb_port
+    start bms_heating
+    start bms_soc
+    start ichg_control
+
+on property:vendor.bms_event=stop
+    stop usb_port
+    stop bms_heating
+    stop bms_soc
+    stop ichg_control
+    stop chargelogcat-c
+
+on property:vendor.bms_event_vote=start
+    start bms_auth
+    start bms_behavior
+
+on property:vendor.bms_event_vote=stop
+    stop bms_auth
+
+on property:vendor.bms_event=init && property:persist.sys.huawei.debug.on=0
+    start chargelogcat-c
+
+on property:vendor.bms_event=start && property:persist.sys.huawei.debug.on=0
+    start chargelogcat-c
+

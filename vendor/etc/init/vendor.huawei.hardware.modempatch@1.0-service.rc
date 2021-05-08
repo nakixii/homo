@@ -1,0 +1,7 @@
+service modempatch_service_1_0 /vendor/bin/hw/vendor.huawei.hardware.modempatch@1.0-service
+    interface vendor.huawei.hardware.modempatch@1.0::IHwmodempatch default
+    class hal
+    user system
+    group system radio
+    disabled
+    oneshot

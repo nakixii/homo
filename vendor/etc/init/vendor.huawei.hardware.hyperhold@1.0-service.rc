@@ -1,0 +1,5 @@
+service hyperhold-hw-1-0 /vendor/bin/hw/vendor.huawei.hardware.hyperhold@1.0-service
+    disabled
+    class hal
+    user root
+    group system
