@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MonitorAPP >
+  <APKInfo packageName="com.tencent.mm">
+    <mAppId>1001</mAppId>
+    <mScenseId>100001</mScenseId>
+    <mAppPeriod>4</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.ui.LauncherUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100101</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.ui.chatting.ChattingUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100101</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.sns.ui</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100102</mScenseId>
+    <mAppPeriod>4</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.ui.chatting.gallery.ImageGalleryUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100103</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.scanner.ui.BaseScanUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.remittance.ui.RemittanceAdapterUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.remittance.ui.RemittanceUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyPrepareUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.wallet</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.offline.ui.Wallet</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.mall.ui.MallIndexUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.collect.ui.CollectMainUI</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100104</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.voip.ui.VideoActivity</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100105</mScenseId>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.voip.ui.HwVideoActivity</className>
+    <mAppId>1001</mAppId>
+    <mScenseId>100106</mScenseId>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.scan.as.main.MainCaptureActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenseId>100201</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <mAppId>1002</mAppId>
+    <mScenseId>100001</mScenseId>
+    <mAppPeriod>4</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.payee.ui.PayeeQRPayFormActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenseId>100201</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.android.app.flybird.ui.window.FlyBirdWindowActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenseId>100201</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.transferapp.ui.TFToAccountConfirmActivity_</className>
+    <mAppId>1002</mAppId>
+    <mScenseId>100201</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.transferapp.ui.TFToAccountConfirmActivity_</className>
+    <mAppId>1002</mAppId>
+    <mScenseId>100201</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.payee.ui.PayeeQRActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenseId>100202</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <mAppId>1003</mAppId>
+    <mScenseId>100001</mScenseId>
+    <mAppPeriod>4</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.search.searchdoor.SearchDoorActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenseId>100301</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.search.mmd.SearchResultActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenseId>100301</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.com.etao.feimagesearch.FEISCaptureActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenseId>100301</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.etao.feimagesearch.result.ImageResultActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenseId>100301</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.taobao.scancode.gateway.activity.ScancodeGatewayActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenseId>100301</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.taobao.scancode.barcode.util.ScancodeBrowserActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenseId>100301</mScenseId>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.tao.detail.activity.DetailActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenseId>100302</mScenseId>
+    <mAppPeriod>4</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.sdu.didi.psnger">
+    <mAppId>1004</mAppId>
+    <mScenseId>100001</mScenseId>
+    <mAppPeriod>4</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.sdu.didi.psnger">
+    <className>com.didi.sdk.app.MainActivity</className>
+    <mAppId>1004</mAppId>
+    <mScenseId>100401</mScenseId>
+    <mAppPeriod>1</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mAppRtt>300</mAppRtt>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.splash.SplashActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenseId>100501</mScenseId>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.main.MainActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenseId>100501</mScenseId>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.detail.ui.DetailActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenseId>100501</mScenseId>
+  </APKInfo>
+  <APKInfo packageName="com.sdu.didi.gsui">
+    <mAppId>1006</mAppId>
+    <mScenseId>100001</mScenseId>
+    <mAction>1</mAction>
+  </APKInfo>
+  <GameInfo gameName="com.tencent.tmgp.sgame">
+    <mGameId>2001</mGameId>
+    <mGameKQI>3</mGameKQI>
+    <mGameRtt>200</mGameRtt>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+  <Mplink>
+    <mplink_version>1</mplink_version>
+    <mplink_enable>1</mplink_enable>
+    <device ooui="60:60:1f">
+      <appname>dji.go.v4</appname>
+      <gateway>0</gateway>
+      <enable>1</enable>
+    </device>
+  </Mplink>
+</MonitorAPP>
