@@ -1,0 +1,18 @@
+service mygote /system/bin/app_process64 -Xzygote /system/bin --zygote --start-system-server --nice-name=zygote64 --socket-name=mygote
+    class main
+    disabled
+    priority -20
+    user root
+    group root readproc reserved_disk
+    socket mygote stream 660 root system
+    socket usap_mygote_pool_primary stream 660 root system
+    onrestart write /sys/android_power/request_state wake
+    onrestart write /sys/power/state on
+    onrestart restart zygote
+    onrestart restart zygote_secondary
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks /dev/blkio/foreground/tasks
+    setenv MAPLE_RUNTIME libandroidmpl-rt.so
+    critical
+
+on property:ro.maple.enable=1
+    start mygote

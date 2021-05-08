@@ -1,0 +1,100 @@
+firmware_directories /etc/firmware/ /odm/firmware/ /vendor/firmware/ /firmware/image/ /odm/etc/firmware/
+uevent_socket_rcvbuf_size 16M
+
+subsystem graphics
+    devname uevent_devpath
+    dirname /dev/graphics
+
+subsystem drm
+    devname uevent_devpath
+    dirname /dev/dri
+
+subsystem input
+    devname uevent_devpath
+    dirname /dev/input
+
+subsystem sound
+    devname uevent_devpath
+    dirname /dev/snd
+
+# ueventd can only set permissions on device nodes and their associated
+# sysfs attributes, not on arbitrary paths.
+#
+# format for /dev rules: devname mode uid gid
+# format for /sys rules: nodename attr mode uid gid
+# shortcut: "mtd@NN" expands to "/dev/mtd/mtdNN"
+
+/dev/null                 0666   root       root
+/dev/zero                 0666   root       root
+/dev/full                 0666   root       root
+/dev/ptmx                 0666   root       root
+/dev/tty                  0666   root       root
+/dev/random               0666   root       root
+/dev/urandom              0666   root       root
+# Make HW RNG readable by group system to let EntropyMixer read it.
+/dev/hw_random            0440   root       system
+/dev/ashmem               0666   root       root
+/dev/binder               0666   root       root
+/dev/hwbinder             0666   root       root
+/dev/vndbinder            0666   root       root
+/dev/act                  0660   radio      radio
+/dev/hwlog_exception      0662   root       log
+/dev/hwlog_jank           0662   root       system
+/dev/hwlog_dubai          0662   root       system
+/dev/dubai                0660   root       root
+/dev/pmsg0                0222   root       log
+
+# the msm hw3d client device node is world writable/readable.
+/dev/msm_hw3dc            0666   root       root
+
+# For aod device
+/dev/aod                  0666   system     system
+
+# gpu driver for adreno200 is globally accessible
+/dev/kgsl                 0666   root       root
+
+# sop driver nodes
+/dev/sop_privileged       0660   root       system
+/dev/sop_unprivileged     0664   root       root
+
+# kms driver for drm based gpu
+/dev/dri/*                0666   root       graphics
+
+# these should not be world writable
+/dev/uhid                 0660   uhid       uhid
+/dev/uinput               0660   uhid       uhid
+/dev/rtc0                 0640   system     system
+/dev/tty0                 0660   root       system
+/dev/graphics/*           0660   root       graphics
+/dev/input/*              0660   root       input
+/dev/v4l-touch*           0660   root       input
+/dev/snd/*                0660   system     audio
+/dev/bus/usb/*            0660   root       usb
+/dev/mtp_usb              0660   root       mtp
+/dev/usb_accessory        0660   root       usb
+/dev/android_hdb          0660   hdb        hdb
+/dev/android_hdb_enable   0660   hdb        hdb
+/dev/tun                  0660   system     vpn
+
+# CDMA radio interface MUX
+/dev/ppp                  0660   radio      vpn
+
+# sysfs properties
+/sys/devices/platform/trusty.*      trusty_version        0440  root   log
+/sys/devices/virtual/input/input*   enable      0660  root   input
+/sys/devices/virtual/input/input*   poll_delay  0660  root   input
+/sys/devices/virtual/usb_composite/*   enable      0664  root   system
+/sys/devices/system/cpu/cpu*   cpufreq/scaling_max_freq   0664  system system
+/sys/devices/system/cpu/cpu*   cpufreq/scaling_min_freq   0664  system system
+
+
+# huawei vr deivces
+/dev/hwvr0                0664   root       system
+/dev/hwvr1                0664   root       system
+/dev/hwvrdfu              0660   root       system
+
+# huawei vr deivces
+/dev/hwvr0                0664   root       system
+/dev/hwvr1                0664   root       system
+/dev/hwvrdfu              0660   root       system
+
