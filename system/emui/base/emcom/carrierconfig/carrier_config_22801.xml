@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SWISSCOM CH -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="10" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+        <!-- Vowifi UI -->
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,19 @@
+{
+    "name" : "DefaultMaterialDepth",
+    "pushConstant": { "size" : 16, "shaderStageFlags" : "vertex_bit" },
+    "descriptorSetLayouts": [
+        {
+            "set" : 0,
+            "bindings": [
+                { "binding" : 0, "descriptorType" : "uniform_buffer_dynamic", "descriptorCount": 1, "shaderStageFlags" : "vertex_bit" }
+            ]
+        },
+        {
+            "set" : 1,
+            "bindings": [
+                { "binding" : 0, "descriptorType" : "uniform_buffer_dynamic", "descriptorCount": 1, "shaderStageFlags" : "vertex_bit" },
+                { "binding" : 1, "descriptorType" : "uniform_buffer_dynamic", "descriptorCount": 1, "shaderStageFlags" : "vertex_bit" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <process>player_sa</process>
+    <loadlibs>
+        <libpath>libzplayerservice.z.so</libpath>
+    </loadlibs>
+    <systemability>
+        <name>3002</name>
+        <libpath>libzplayerservice.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>true</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+</info>

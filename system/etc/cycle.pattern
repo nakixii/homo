@@ -1,0 +1,1612 @@
+class: Landroid_2Fview_2FViewStub_3B:1
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Landroid_2Fwidget_2FLinearLayout_3B:1
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+C_P: 4, 2, 2
+N: 0, mBackgroundRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 2, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 3, 0, mView
+E: 4, 0, mView
+
+class: Landroid_2Fwidget_2FFrameLayout_3B:1
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2
+C_P: 2, 1, 1
+N: 0, receiverList, Lcom_2Fandroid_2Fserver_2Fam_2FReceiverList_3B:2, 1
+N: 1, elementData, ALjava_2Flang_2FObject_3B:0, 1
+E_D: 2, 0, 16
+
+class: Lcom_2Fandroid_2Fserver_2Fam_2FReceiverList_3B:2
+C_P: 2, 1, 1
+N: 0, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 1, 16, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+E: 2, 0, receiverList
+C_P: 3, 2, 2
+N: 0, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 1, 20, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 16, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+E: 2, 0, receiverList
+E_S: 3, 0, receiverList
+C_P: 4, 3, 3
+N: 0, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 1, 24, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 20, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 16, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+E: 2, 0, receiverList
+E_S: 3, 0, receiverList
+E_S: 4, 0, receiverList
+C_P: 5, 4, 4
+N: 0, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 1, 28, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 24, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 20, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 16, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+E: 2, 0, receiverList
+E_S: 3, 0, receiverList
+E_S: 4, 0, receiverList
+E_S: 5, 0, receiverList
+C_P: 6, 5, 5
+N: 0, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 1, 32, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 28, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 24, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 20, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 16, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+E: 2, 0, receiverList
+E_S: 3, 0, receiverList
+E_S: 4, 0, receiverList
+E_S: 5, 0, receiverList
+E_S: 6, 0, receiverList
+C_P: 7, 6, 6
+N: 0, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 1, 36, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 32, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 28, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 24, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 20, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 16, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+E: 2, 0, receiverList
+E_S: 3, 0, receiverList
+E_S: 4, 0, receiverList
+E_S: 5, 0, receiverList
+E_S: 6, 0, receiverList
+E_S: 7, 0, receiverList
+C_P: 8, 7, 7
+N: 0, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 1, 40, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 36, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 32, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 28, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 24, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 20, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+N_D: 1, 16, Lcom_2Fandroid_2Fserver_2Fam_2FBroadcastFilter_3B:2, 1
+E: 2, 0, receiverList
+E_S: 3, 0, receiverList
+E_S: 4, 0, receiverList
+E_S: 5, 0, receiverList
+E_S: 6, 0, receiverList
+E_S: 7, 0, receiverList
+E_S: 8, 0, receiverList
+
+class: Landroid_2Fwidget_2FOverScroller_24SplineOverScroller_3B:1
+C: 1, 1, 1
+N: 0, mIHwSplineOverScrollerInner, Landroid_2Fwidget_2FOverScroller_24SplineOverScroller_24HwSplineOverScrollerExDummy_3B:1,1
+E_D: 1, 0, 8
+
+class: Ljava_2Futil_2Fconcurrent_2FSynchronousQueue_24TransferStack_24SNode_3B:0
+C: 1, 1, 1
+N: 0, next, Ljava_2Futil_2Fconcurrent_2FSynchronousQueue_24TransferStack_24SNode_3B:0,1
+E: 1, 0, match
+
+class: Landroid_2Fmedia_2FRingtone_3B:1
+C: 1, 1, 1
+N: 0, mCompletionListener, Landroid_2Fmedia_2FRingtone_24MyOnCompletionListener_3B:1, 1
+E_D: 1, 0, 8
+
+class: Landroid_2Fos_2FHandler_3B:1
+C: 11, 12, 1
+N: 0, mCallback, Landroid_2Fmedia_2FSubtitleController_241_3B:1,2
+N_D: 1, 8, Landroid_2Fmedia_2FSubtitleController_3B:1,3
+N: 2, mCaptioningChangeListener, Landroid_2Fmedia_2FSubtitleController_242_3B:1,1
+N: 2, mAnchor, Landroid_2Fmedia_2FMediaPlayer_243_241_3B:1,1
+N: 2, mListener, Landroid_2Fmedia_2FMediaPlayer_3B:1,7
+N: 2, mTimeProvider, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_3B:1,3
+N: 6, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_24EventHandler_3B:1,1
+N: 5, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24EventHandler_3B:1,1
+N: 5, mIntSubtitleDataListener, Landroid_2Fmedia_2FMediaPlayer_244_3B:1,1
+N: 5, mOnCompletionInternalListener, Landroid_2Fmedia_2FMediaPlayer_248_3B:1,1
+N_D: 4, 8, Landroid_2Fmedia_2FMediaPlayer_243_3B:1,1
+E_D: 11, 5, 8
+E_D: 11, 6, 16
+E: 5, 2, mSubtitleController
+E: 2, 1, mCallback
+E: 2, 0, mHandler
+E: 6, 5, mPlayer
+E: 8, 5, mMediaPlayer
+E_D: 8, 5, 32
+E_D: 9, 5, 8
+E_D: 10, 5, 8
+E_D: 7, 6, 28
+E_D: 3, 2, 8
+
+class: Landroid_2Fmedia_2FMediaPlayer_3B:1
+C_P: 3, 4, 4
+N: 0, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24EventHandler_3B:1, 1
+N: 0, mOnCompletionListener, Landroid_2Fmedia_2FMediaPlayer_248_3B:1, 1
+N: 0, mIntSubtitleDataListener, Landroid_2Fmedia_2FMediaPlayer_244_3B:1, 1
+E_D: 3, 0, 8
+E: 1, 0, mMediaPlayer
+E_D: 1, 0, 32
+E_D: 2, 0, 8
+C_P: 11, 12, 7
+N: 0, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24EventHandler_3B:1,1
+N: 0, mIntSubtitleDataListener, Landroid_2Fmedia_2FMediaPlayer_244_3B:1,1
+N: 0, mOnCompletionInternalListener, Landroid_2Fmedia_2FMediaPlayer_248_3B:1,1
+N: 0, mSubtitleController, Landroid_2Fmedia_2FSubtitleController_3B:1,3
+N: 4, mCallback, Landroid_2Fmedia_2FSubtitleController_241_3B:1,2
+N: 4, mCaptioningChangeListener, Landroid_2Fmedia_2FSubtitleController_242_3B:1,1
+N: 4, mHandler, Landroid_2Fos_2FHandler_3B:1,1
+N: 4, mAnchor, Landroid_2Fmedia_2FMediaPlayer_243_241_3B:1,1
+N: 4, mTimeProvider, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_3B:1,3
+N: 9, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_24EventHandler_3B:1,1
+N_D: 8, 8, Landroid_2Fmedia_2FMediaPlayer_243_3B:1,1
+E_D: 11, 0, 8
+E_D: 11, 9, 16
+E: 9, 0, mPlayer
+E: 1, 0, mMediaPlayer
+E_D: 1, 0, 32
+E_D: 2, 0, 8
+E_D: 3, 0, 8
+E: 4, 0, mListener
+E_D: 10, 9, 28
+E_D: 5, 4, 8
+E_D: 6, 4, 8
+E: 7, 5, mCallback
+
+class: Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_3B:1
+C: 1, 1, 1
+N: 0, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_24EventHandler_3B:1,1
+E_D: 1, 0, 28
+C_P: 11, 12, 3
+N: 0, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_24EventHandler_3B:1,1
+N: 0, mPlayer, Landroid_2Fmedia_2FMediaPlayer_3B:1,7
+N: 2, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24EventHandler_3B:1,1
+N: 2, mIntSubtitleDataListener, Landroid_2Fmedia_2FMediaPlayer_244_3B:1,1
+N: 2, mOnCompletionInternalListener, Landroid_2Fmedia_2FMediaPlayer_248_3B:1,1
+N: 2, mSubtitleController, Landroid_2Fmedia_2FSubtitleController_3B:1,3
+N: 6, mCallback, Landroid_2Fmedia_2FSubtitleController_241_3B:1,2
+N: 6, mCaptioningChangeListener, Landroid_2Fmedia_2FSubtitleController_242_3B:1,1
+N: 6, mHandler, Landroid_2Fos_2FHandler_3B:1,1
+N: 6, mAnchor, Landroid_2Fmedia_2FMediaPlayer_243_241_3B:1,1
+N_D: 10, 8, Landroid_2Fmedia_2FMediaPlayer_243_3B:1,1
+E_D: 11, 2, 8
+E_D: 11, 0, 16
+E: 3, 2, mMediaPlayer
+E_D: 3, 2, 32
+E_D: 4, 2, 8
+E_D: 5, 2, 8
+E: 6, 2, mListener
+E: 6, 0, mTimeProvider
+E_D: 1, 0, 28
+E_D: 7, 6, 8
+E_D: 8, 6, 8
+E: 9, 7, mCallback
+
+class: Landroid_2Fmedia_2FMediaPlayer_24EventHandler_3B:1
+C_P: 11, 12, 1
+N: 0, mMediaPlayer, Landroid_2Fmedia_2FMediaPlayer_3B:1,7
+N: 1, mIntSubtitleDataListener, Landroid_2Fmedia_2FMediaPlayer_244_3B:1,1
+N: 1, mOnCompletionInternalListener, Landroid_2Fmedia_2FMediaPlayer_248_3B:1,1
+N: 1, mSubtitleController, Landroid_2Fmedia_2FSubtitleController_3B:1,3
+N: 4, mCallback, Landroid_2Fmedia_2FSubtitleController_241_3B:1,2
+N: 4, mCaptioningChangeListener, Landroid_2Fmedia_2FSubtitleController_242_3B:1,1
+N: 4, mHandler, Landroid_2Fos_2FHandler_3B:1,1
+N: 4, mAnchor, Landroid_2Fmedia_2FMediaPlayer_243_241_3B:1,1
+N: 4, mTimeProvider, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_3B:1,3
+N: 9, mEventHandler, Landroid_2Fmedia_2FMediaPlayer_24TimeProvider_24EventHandler_3B:1,1
+N_D: 8, 8, Landroid_2Fmedia_2FMediaPlayer_243_3B:1,1
+E_D: 11, 1, 8
+E_D: 11, 9, 16
+E: 1, 0, mEventHandler
+E: 9, 1, mPlayer
+E_D: 0, 1, 32
+E_D: 2, 1, 8
+E_D: 3, 1, 8
+E: 4, 1, mListener
+E_D: 10, 9, 28
+E_D: 5, 4, 8
+E_D: 6, 4, 8
+E: 7, 5, mCallback
+
+class: Landroid_2Fapp_2FPendingIntent_241_3B:1
+C_P: 1, 1, 1
+N_D: 0, 24, Landroid_2Fapp_2FPendingIntent_3B:1,1
+E: 1, 0, mCancelReceiver
+
+class: Landroid_2Fapp_2FPendingIntent_3B:1
+C_P: 1, 1, 1
+N: 0, mCancelReceiver, Landroid_2Fapp_2FPendingIntent_241_3B:1,1
+E_D: 1, 0, 24
+
+class: Landroid_2Fos_2FAsyncTask_24AsyncFutureTask_3B:1
+C_P: 1, 1, 1
+N: 0, strongRef, Lcom_2Fandroid_2Fserver_2Flocation_2FHwLocalLocationManager_24RefreshBssIDDBTask_3B:7,1
+E: 1, 0, mFuture
+
+class: Lcom_2Fandroid_2Fserver_2Flocation_2FHwLocalLocationManager_24RefreshBssIDDBTask_3B:7
+C_P: 1, 1, 1
+N: 0, mFuture, Landroid_2Fos_2FAsyncTask_24AsyncFutureTask_3B:1,1
+E: 1, 0, strongRef
+
+class: Landroid_2Fapp_2FLoadedApk_3B:1
+C: 1, 1, 1
+N: 0, mSplitLoader, Landroid_2Fapp_2FLoadedApk_24SplitDependencyLoaderImpl_3B:1,1
+E_D: 1, 0, 20
+
+class: Lcom_2Fleisen_2Fwallet_2Fsdk_2Ftsm_2FTSMOperator_3B:7
+C: 3, 3, 1
+N: 0, mApduManager, Lcom_2Fleisen_2Fwallet_2Fsdk_2Fapdu_2FApduManager_3B:7,2
+N: 1, mApduSmartCardRequest, Lcom_2Fleisen_2Fwallet_2Fsdk_2Fapdu_2FApduSmartCardRequest_3B:7,1
+N: 1, mApduResponseHandler, Lcom_2Fleisen_2Fwallet_2Fsdk_2Fapdu_2FApduManager_241_3B:7,2
+E_D: 3, 1, 16
+E: 1, 0, mTsmOperatorResponse
+E: 2, 3, mHandler
+
+class: Landroid_2Fgraphics_2FHardwareRenderer_24FrameRenderRequest_3B:1
+C: 1, 1, 1
+N_D: 0, 16, Landroid_2Fview_2FThreadedRenderer_3B:1,1
+E: 1, 0, mRenderRequest
+
+class: Landroid_2Fview_2FThreadedRenderer_3B:1
+C: 1, 1, 1
+N: 0, mRenderRequest, Landroid_2Fgraphics_2FHardwareRenderer_24FrameRenderRequest_3B:1,1
+E_D: 1, 0, 16
+
+class: Ljavax_2Fsecurity_2Fauth_2Fx500_2FX500Principal_3B:0
+C: 1, 1, 1
+N: 0, thisX500Name, Lsun_2Fsecurity_2Fx509_2FX500Name_3B:0,1
+E: 1, 0, x500Principal
+
+class: Landroid_2Fwidget_2FRelativeLayout_3B:1
+C: 3, 3, 1
+N: 0, mAnimator, Landroid_2Fview_2FViewPropertyAnimator_3B:1,3
+N: 1, mAnimatorEventListener, Landroid_2Fview_2FViewPropertyAnimator_24AnimatorEventListener_3B:1,1
+N: 1, mAnimationStarter, Landroid_2Fview_2FViewPropertyAnimator_241_3B:1,1
+E_D: 3, 1, 8
+E: 1, 0, mView
+E_D: 2, 1, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FImmersiveModeConfirmation_24ClingWindowView_3B:2
+C: 3, 3, 3
+N: 0, mInsetsListener, Lcom_2Fandroid_2Fserver_2Fwm_2FImmersiveModeConfirmation_24ClingWindowView_242_3B:2,1
+N: 0, mReceiver, Lcom_2Fandroid_2Fserver_2Fwm_2FImmersiveModeConfirmation_24ClingWindowView_243_3B:2,1
+N: 0, mUpdateLayoutRunnable, Lcom_2Fandroid_2Fserver_2Fwm_2FImmersiveModeConfirmation_24ClingWindowView_241_3B:2,1
+E_D: 3, 0, 8
+E_D: 1, 0, 12
+E_D: 2, 0, 16
+
+class: Landroid_2Fapp_2Fjob_2FJobService_241_3B:1
+C: 4, 4, 2
+N: 0, mHandler, Landroid_2Fapp_2Fjob_2FJobServiceEngine_24JobHandler_3B:1,1
+N_D: 0, 16, Lcom_2Fandroid_2Fserver_2Fcontent_2FSyncJobService_3B:2,2
+N: 2, mBase, Landroid_2Fapp_2FContextImpl_3B:1,2
+N: 3, mContentResolver, Landroid_2Fapp_2FContextImpl_24ApplicationContentResolver_3B:1,1
+E: 4, 3, mContext
+E: 3, 2, mOuterContext
+E: 2, 0, mEngine
+E_D: 1, 0, 28
+
+class: Landroid_2Fwidget_2FToast_24TN_3B:1
+C: 1, 1, 1
+N: 0, mHandler, Landroid_2Fwidget_2FToast_24TN_241_3B:1,1
+E_D: 1, 0, 28
+
+class: Lcom_2Fandroid_2Fserver_2Futils_2FUserTokenWatcher_24InnerTokenWatcher_3B:2
+C: 1, 1, 1
+N: 0, mNotificationTask, Landroid_2Fos_2FTokenWatcher_241_3B:1,1
+E_D: 1, 0, 8
+
+class: Landroid_2Fview_2FInsetsController_3B:1
+C: 1, 1, 1
+N: 0, mAnimCallback, Landroid_2Fview_2F_2D_24_24Lambda_24InsetsController_24HI9QZ2HvGm6iykc_2DWONz2KPG61Q_3B:1,1
+E_D: 1, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FHwActivityStack_3B:7
+C: 2, 2, 2
+N: 0, mHwActivityStackEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwActivityStackEx_3B:7,1
+N: 0, mHandler, Lcom_2Fandroid_2Fserver_2Fwm_2FActivityStack_24ActivityStackHandler_3B:2,1
+E_D: 2, 0, 28
+E: 1, 0, mStack
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FHwActivityRecord_3B:7
+C_P: 5, 5, 2
+N: 0, mAppWindowToken, Lcom_2Fandroid_2Fserver_2Fwm_2FAppWindowToken_3B:2,4
+N: 1, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2,1
+N: 1, mColorTransformController, Lcom_2Fandroid_2Fserver_2Fwm_2F_2D_24_24Lambda_24AppWindowToken_24cwsF3cyeJjO4UiuaM07w8TBc698_3B:2,1
+N: 1, mAddStartingWindow, Lcom_2Fandroid_2Fserver_2Fwm_2FAppWindowToken_242_3B:2,1
+N: 0, mServiceConnectionsHolder, Lcom_2Fandroid_2Fserver_2Fwm_2FActivityServiceConnectionsHolder_3B:2,1
+E_D: 4, 1, 8
+E: 1, 0, mActivityRecord
+E: 2, 1, mAnimatable
+E_D: 3, 1, 8
+E: 5, 0, mActivity
+C_P: 4, 4, 1
+N: 0, mAppWindowToken, Lcom_2Fandroid_2Fserver_2Fwm_2FAppWindowToken_3B:2,4
+N: 1, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2,1
+N: 1, mColorTransformController, Lcom_2Fandroid_2Fserver_2Fwm_2F_2D_24_24Lambda_24AppWindowToken_24cwsF3cyeJjO4UiuaM07w8TBc698_3B:2,1
+N: 1, mAddStartingWindow, Lcom_2Fandroid_2Fserver_2Fwm_2FAppWindowToken_242_3B:2,1
+E_D: 4, 1, 8
+E: 1, 0, mActivityRecord
+E: 2, 1, mAnimatable
+E_D: 3, 1, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2F_2D_24_24Lambda_24AppWindowToken_24cwsF3cyeJjO4UiuaM07w8TBc698_3B:2
+C_P: 4, 4, 1
+N_D: 0, 8, Lcom_2Fandroid_2Fserver_2Fwm_2FAppWindowToken_3B:2,4
+N: 1, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2,1
+N: 1, mActivityRecord, Lcom_2Fandroid_2Fserver_2Fwm_2FHwActivityRecord_3B:7,1
+N: 1, mAddStartingWindow, Lcom_2Fandroid_2Fserver_2Fwm_2FAppWindowToken_242_3B:2,1
+E_D: 4, 1, 8
+E: 1, 0, mColorTransformController
+E: 2, 1, mAnimatable
+E: 3, 1, mAppWindowToken
+
+class: Lcom_2Fandroid_2Fserver_2Furi_2FUriPermissionOwner_24ExternalToken_3B:2
+C: 1, 1, 1
+N_D: 0, 24, Lcom_2Fandroid_2Fserver_2Furi_2FUriPermissionOwner_3B:2,1
+E: 1, 0, externalToken
+
+class: Lcom_2Fandroid_2Fserver_2Fam_2FProcessRecord_3B:2
+C: 2, 3, 3
+N: 0, mWindowProcessController, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowProcessController_3B:2,1
+N: 0, pkgList, Lcom_2Fandroid_2Fserver_2Fam_2FProcessRecord_24PackageList_3B:2,1
+E: 1, 0, mListener
+E: 1, 0, mOwner
+E_D: 2, 0, 12
+
+class: Landroid_2Fnet_2FLocalSocketImpl_3B:1
+C: 2, 2, 2
+N: 0, fos, Landroid_2Fnet_2FLocalSocketImpl_24SocketOutputStream_3B:1,1
+N: 0, fis, Landroid_2Fnet_2FLocalSocketImpl_24SocketInputStream_3B:1,1
+E_D: 2, 0, 8
+E_D: 1, 0, 8
+
+class: Ljava_2Fio_2FInputStreamReader_3B:0
+C_P: 1, 1, 1
+N: 0, sd, Lsun_2Fnio_2Fcs_2FStreamDecoder_3B:0, 1
+E: 1, 0, lock
+
+class: Ljava_2Fio_2FFileReader_3B:0
+C: 1, 1, 1
+N: 0, sd, Lsun_2Fnio_2Fcs_2FStreamDecoder_3B:0, 1
+E: 1, 0, lock
+
+class: Ljava_2Fio_2FOutputStreamWriter_3B:0
+C_P: 1, 1, 1
+N: 0, se, Lsun_2Fnio_2Fcs_2FStreamEncoder_3B:0, 1
+E: 1, 0, lock
+
+class: Lcom_2Fandroid_2Finternal_2Futil_2FAsyncChannel_24DeathMonitor_3B:1
+C: 1, 1, 1
+N_D: 0, 8, Lcom_2Fandroid_2Finternal_2Futil_2FAsyncChannel_3B:1, 1
+E: 1, 0, mDeathMonitor
+
+class: Ljava_2Fio_2FFileWriter_3B:0
+C_P: 1, 1, 1
+N: 0, se, Lsun_2Fnio_2Fcs_2FStreamEncoder_3B:0, 1
+E: 1, 0, lock
+
+class: Lsun_2Fnio_2Fch_2FFileChannelImpl_3B:0
+C_P: 1, 1, 1
+N: 0, interruptor, Ljava_2Fnio_2Fchannels_2Fspi_2FAbstractInterruptibleChannel_241_3B:0, 1
+E_D: 1, 0, 8
+C_P: 1, 1, 1
+N: 0, parent, Ljava_2Fio_2FFileOutputStream_3B:0,1
+E: 1, 0, channel
+
+class: Landroid_2Fapp_2FContextImpl_3B:1
+C_P: 1, 1, 1
+N: 0, mContentResolver, Landroid_2Fapp_2FContextImpl_24ApplicationContentResolver_3B:1, 1
+E: 1, 0, mContext
+C_P: 2, 2, 2
+N: 0, mContentResolver, Landroid_2Fapp_2FContextImpl_24ApplicationContentResolver_3B:1, 1
+N: 0, mPackageManager, Landroid_2Fapp_2FApplicationPackageManager_3B:1, 1
+E: 1, 0, mContext
+E: 2, 0, mContext
+C_P: 5, 4, 4
+N: 0, mContentResolver, Landroid_2Fapp_2FContextImpl_24ApplicationContentResolver_3B:1, 1
+N: 0, mPackageManager, Landroid_2Fapp_2FApplicationPackageManager_3B:1, 1
+N: 0, mServiceCache, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 3, 108, Lcom_2Fandroid_2Finternal_2Fpolicy_2FHwPhoneLayoutInflater_3B:4, 1
+N_D: 3, 248, Landroid_2Fview_2FWindowManagerImpl_3B:1, 1
+E: 1, 0, mContext
+E: 2, 0, mContext
+E: 4, 0, mContext
+E: 5, 0, mContext
+
+class: Lcom_2Fandroid_2Finternal_2Fpolicy_2FHwPhoneLayoutInflater_3B:4
+C_P: 5, 4, 1
+N: 0, mContext, Landroid_2Fapp_2FContextImpl_3B:1, 4
+N: 1, mContentResolver, Landroid_2Fapp_2FContextImpl_24ApplicationContentResolver_3B:1, 1
+N: 1, mPackageManager, Landroid_2Fapp_2FApplicationPackageManager_3B:1, 1
+N: 1, mServiceCache, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 4, 248, Landroid_2Fview_2FWindowManagerImpl_3B:1, 1
+E: 2, 1, mContext
+E: 3, 1, mContext
+E_D: 4, 0, 108
+E: 5, 1, mContext
+C_P: 1, 1, 1
+N: 0, mContext, Landroid_2Fview_2FContextThemeWrapper_3B:1,1
+E: 1, 0, mInflater
+
+class: Landroid_2Fapp_2FContextImpl_24ApplicationContentResolver_3B:1
+C_P: 1, 1, 1
+N: 0, mContext, Landroid_2Fapp_2FContextImpl_3B:1, 1
+E: 1, 0, mContentResolver
+C_P: 4, 3, 1
+N: 0, mContext, Landroid_2Fapp_2FContextImpl_3B:1,3
+N: 1, mServiceCache, ALjava_2Flang_2FObject_3B:0,1
+N_D: 2, 108, Lcom_2Fandroid_2Finternal_2Fpolicy_2FHwPhoneLayoutInflater_3B:4,1
+N_D: 2, 248, Landroid_2Fview_2FWindowManagerImpl_3B:1,1
+E: 3, 1, mContext
+E: 1, 0, mContentResolver
+E: 4, 1, mContext
+
+class: Landroid_2Fcontent_2Fres_2FResourcesImpl_3B:1
+C: 2, 1, 1
+N: 0, mHwResourcesImpl, Landroid_2Fcontent_2Fres_2FHwResourcesImpl_3B:1,1
+N: 1, mResourcesImpl, Landroid_2Fcontent_2Fres_2FResourcesImplEx_3B:1,1
+E: 2, 0, mResourcesImpl
+
+class: Ljava_2Fnet_2FInet6Address_3B:0
+C: 1, 1, 1
+N: 0, holder6, Ljava_2Fnet_2FInet6Address_24Inet6AddressHolder_3B:0, 1
+E_D: 1, 0, 24
+
+class: Landroid_2Fview_2FSurface_3B:1
+C_P: 1, 1, 1
+N: 0, mCanvas, Landroid_2Fview_2FSurface_24CompatibleCanvas_3B:1, 1
+E_D: 1, 0, 48
+
+class: Ljava_2Flang_2FThread_3B:0
+C_P: 1, 1, 1
+N: 0, target, Ljava_2Futil_2Fconcurrent_2FThreadPoolExecutor_24Worker_3B:0, 1
+E: 1, 0, thread
+
+class: Lcom_2Fandroid_2Finternal_2Fos_2FTransferPipe_3B:1
+C: 1, 1, 1
+N: 0, mThread, Ljava_2Flang_2FThread_3B:0, 1
+E: 1, 0, target
+
+class: Ljava_2Futil_2FTreeMap_24AscendingSubMap_3B:0
+C: 1, 1, 1
+N: 0, navigableKeySetView, Ljava_2Futil_2FTreeMap_24KeySet_3B:0, 1
+E: 1, 0, m
+C: 1, 2, 2
+N: 0, entrySetView, Ljava_2Futil_2FTreeMap_24AscendingSubMap_24AscendingEntrySetView_3B:0, 1
+E_D: 1, 0, 16
+E_D: 1, 0, 20
+
+class: Ljava_2Futil_2FTimer_3B:0
+C_P: 1, 1, 1
+N: 0, threadReaper, Ljava_2Futil_2FTimer_241_3B:0, 1
+E_D: 1, 0, 8
+
+class: Ljava_2Futil_2FTimer_241_3B:0
+C_P: 1, 1, 1
+N_D: 0, 8, Ljava_2Futil_2FTimer_3B:0, 1
+E: 1, 0, threadReaper
+
+class: Landroid_2Fdatabase_2Fsqlite_2FSQLiteConnection_3B:1
+C: 1, 1, 1
+N: 0, mPreparedStatementCache, Landroid_2Fdatabase_2Fsqlite_2FSQLiteConnection_24PreparedStatementCache_3B:1, 1
+E_D: 1, 0, 40
+
+class: Landroid_2Fdatabase_2Fsqlite_2FSQLiteConnection_24PreparedStatementCache_3B:1
+C: 1, 1, 1
+N_D: 0, 40, Landroid_2Fdatabase_2Fsqlite_2FSQLiteConnection_3B:1, 1
+E: 1, 0, mPreparedStatementCache
+
+class: Ljavax_2Fcrypto_2FCipher_3B:0
+C_P: 1, 1, 1
+N: 0, spiAndProviderUpdater, Ljavax_2Fcrypto_2FCipher_24SpiAndProviderUpdater_3B:0, 1
+E_D: 1, 0, 20
+
+class: Lcom_2Fandroid_2Forg_2Fconscrypt_2FOpenSSLX509CertificateFactory_3B:5
+C: 2, 2, 2
+N: 0, certificateParser, Lcom_2Fandroid_2Forg_2Fconscrypt_2FOpenSSLX509CertificateFactory_241_3B:5, 1
+N: 0, crlParser, Lcom_2Fandroid_2Forg_2Fconscrypt_2FOpenSSLX509CertificateFactory_242_3B:5, 1
+E_D: 1, 0, 8
+E_D: 2, 0, 8
+
+class: Landroid_2Fview_2FViewRootImpl_3B:1
+C_P: 7, 9, 7
+N: 0, mAttachInfo, Landroid_2Fview_2FView_24AttachInfo_3B:1, 1
+N: 0, mConsumedBatchedInputRunnable, Landroid_2Fview_2FViewRootImpl_24ConsumeBatchedInputRunnable_3B:1, 1
+N: 0, mTraversalRunnable, Landroid_2Fview_2FViewRootImpl_24TraversalRunnable_3B:1, 1
+N: 0, mAccessibilityInteractionConnectionManager, Landroid_2Fview_2FViewRootImpl_24AccessibilityInteractionConnectionManager_3B:1, 1
+N: 0, mHandler, Landroid_2Fview_2FViewRootImpl_24ViewRootHandler_3B:1, 2
+N: 0, mInsetsController, Landroid_2Fview_2FInsetsController_3B:1, 2
+N: 6, mAnimCallback, Landroid_2Fview_2F_2D_24_24Lambda_24InsetsController_24HI9QZ2HvGm6iykc_2DWONz2KPG61Q_3B:1, 1
+E: 1, 0, mRootCallbacks
+E: 1, 0, mViewRootImpl
+E: 1, 5, mHandler
+E_S_D: 2, 0, 8
+E_S_D: 3, 0, 8
+E_S_D: 4, 0, 8
+E_S_D: 5, 0, 28
+E: 6, 0, mViewRoot
+E_S_D: 7, 6, 8
+
+class: Landroid_2Ftext_2FHtmlToSpannedConverter_3B:1
+C_P: 2, 2, 1
+N: 0, mReader, Lorg_2Fccil_2Fcowan_2Ftagsoup_2FParser_3B:6, 2
+N: 1, theAutoDetector, Lorg_2Fccil_2Fcowan_2Ftagsoup_2FParser_241_3B:6, 1
+E: 1, 0, theContentHandler
+E_D: 2, 1, 8
+
+class: Lcom_2Fandroid_2Finternal_2Fpolicy_2FDecorView_3B:1
+C_P: 6, 5, 3
+N: 0, mPressGestureDetector, Lhuawei_2Fcom_2Fandroid_2Finternal_2Fpolicy_2FPressGestureDetector_3B:4,1
+N: 0, mWindow, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_3B:1,3
+N: 2, mContextMenuCallback, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_24PhoneWindowMenuCallback_3B:1,1
+N: 2, mInvalidatePanelMenuRunnable, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_241_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 5, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 1, 0, mDecorView
+E: 2, 0, mDecor
+E: 3, 2, mWindow
+E_D: 4, 2, 8
+E: 6, 0, mView
+
+class: Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_3B:1
+C_P: 6, 5, 3
+N: 0, mContextMenuCallback, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_24PhoneWindowMenuCallback_3B:1,1
+N: 0, mInvalidatePanelMenuRunnable, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_241_3B:1,1
+N: 0, mDecor, Lcom_2Fandroid_2Finternal_2Fpolicy_2FDecorView_3B:1,3
+N: 3, mPressGestureDetector, Lhuawei_2Fcom_2Fandroid_2Finternal_2Fpolicy_2FPressGestureDetector_3B:4,1
+N: 3, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 5, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 3, 0, mWindow
+E: 4, 3, mDecorView
+E: 1, 0, mWindow
+E_D: 2, 0, 8
+E: 6, 3, mView
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_3B:1
+C: 4, 4, 4
+N: 0, mAddActionBarHideOffset, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_244_3B:1, 1
+N: 0, mBottomAnimatorListener, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_242_3B:1, 1
+N: 0, mRemoveActionBarHideOffset, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_243_3B:1, 1
+N: 0, mTopAnimatorListener, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_241_3B:1, 1
+E_D: 1, 0, 8
+E_D: 2, 0, 8
+E_D: 3, 0, 8
+E_D: 4, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimationRunner_24SfValueAnimator_3B:2
+C_P: 4, 1, 1
+N: 0, mUpdateListeners, Ljava_2Futil_2FArrayList_3B:0, 1
+N: 1, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 2, 16, Lcom_2Fandroid_2Fserver_2Fwm_2F_2D_24_24Lambda_24SurfaceAnimationRunner_24puhYAP5tF0mSSJva_2DeUz59HnrkA_3B:2, 1
+N_D: 3, 12, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimationRunner_24RunningAnimation_3B:2, 1
+E: 4, 0, mAnim
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimationRunner_24RunningAnimation_3B:2
+C_P: 4, 1, 1
+N: 0, mAnim, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimationRunner_24SfValueAnimator_3B:2, 1
+N: 1, mUpdateListeners, Ljava_2Futil_2FArrayList_3B:0, 1
+N: 2, elementData, ALjava_2Flang_2FObject_3B:0, 1
+N_D: 3, 16, Lcom_2Fandroid_2Fserver_2Fwm_2F_2D_24_24Lambda_24SurfaceAnimationRunner_24puhYAP5tF0mSSJva_2DeUz59HnrkA_3B:2, 1
+E_D: 4, 0, 12
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_3B:2
+C_P: 3, 3, 3
+N: 0, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2, 1
+N: 0, mDeathRecipient, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_24DeathRecipient_3B:2, 1
+N: 0, mHwWSEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwWindowStateEx_3B:7, 1
+E: 1, 0, mAnimatable
+E_D: 2, 0, 8
+E: 3, 0, mWinState
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_24DeathRecipient_3B:2
+C_P: 3, 3, 1
+N_D: 0, 8, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_3B:2, 3
+N: 1, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2, 1
+N: 1, mHwWSEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwWindowStateEx_3B:7, 1
+E: 3, 1, mWinState
+E: 2, 1, mAnimatable
+E: 1, 0, mDeathRecipient
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FTaskStack_3B:2
+C: 2, 2, 2
+N: 0, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2,1
+N: 0, mDimmer, Lcom_2Fandroid_2Fserver_2Fwm_2FDimmer_3B:2,1
+E: 2, 0, mHost
+E: 1, 0, mAnimatable
+
+class: Landroid_2Fos_2FPowerManager_24WakeLock_3B:1
+C_P: 1, 1, 1
+N: 0, mReleaser, Landroid_2Fos_2FPowerManager_24WakeLock_241_3B:1, 1
+E_D: 1, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FTask_3B:2
+C: 2, 2, 2
+N: 0, mDimmer, Lcom_2Fandroid_2Fserver_2Fwm_2FDimmer_3B:2, 1
+N: 0, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2, 1
+E: 1, 0, mHost
+E: 2, 0, mAnimatable
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FWindowToken_3B:2
+C: 1, 1, 1
+N: 0, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2, 1
+E: 1, 0, mAnimatable
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FTaskSnapshotSurface_24Window_3B:2
+C: 1, 1, 1
+N: 0, mOuter, Lcom_2Fandroid_2Fserver_2Fwm_2FTaskSnapshotSurface_3B:2, 1
+E: 1, 0, mWindow
+
+class: Lcom_2Fandroid_2Finternal_2Fpolicy_2FHwNavigationBarColorView_3B:4
+C: 3, 3, 1
+N: 0, mAnimator, Landroid_2Fview_2FViewPropertyAnimator_3B:1, 3
+N: 1, mAnimationStarter, Landroid_2Fview_2FViewPropertyAnimator_241_3B:1, 1
+N: 1, mAnimatorEventListener, Landroid_2Fview_2FViewPropertyAnimator_24AnimatorEventListener_3B:1, 1
+E: 1, 0, mView
+E_D: 2, 1, 8
+E_D: 3, 1, 8
+
+class: Landroid_2Fview_2FView_3B:1
+C_P: 5, 4, 2
+N: 0, mAnimator, Landroid_2Fview_2FViewPropertyAnimator_3B:1, 3
+N: 1, mAnimationStarter, Landroid_2Fview_2FViewPropertyAnimator_241_3B:1, 1
+N: 1, mAnimatorEventListener, Landroid_2Fview_2FViewPropertyAnimator_24AnimatorEventListener_3B:1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 4, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 1, 0, mView
+E_D: 2, 1, 8
+E_D: 3, 1, 8
+E: 5, 0, mView
+C_P: 4, 2, 2
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 0, mBackgroundRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 2, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 3, 0, mView
+E: 4, 0, mView
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Landroid_2Fwidget_2FOverScroller_24SplineOverScroller_24HwSplineOverScrollerExDummy_3B:1
+C: 1, 1, 1
+N_D: 0, 8, Landroid_2Fwidget_2FOverScroller_24SplineOverScroller_3B:1, 1
+E: 1, 0, mIHwSplineOverScrollerInner
+
+class: Landroid_2Fcontent_2Fres_2FColorStateList_24ColorStateListFactory_3B:1
+C_P: 1, 1, 1
+N: 0, mSrc, Landroid_2Fcontent_2Fres_2FColorStateList_3B:1, 1
+E: 1, 0, mFactory
+
+class: Landroid_2Flocation_2FLocationManager_24ListenerTransport_3B:1
+C: 1, 1, 1
+N: 0, mListenerHandler, Landroid_2Flocation_2FLocationManager_24ListenerTransport_242_3B:1, 1
+E_D: 1, 0, 28
+
+class: Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_3B:2
+C: 6, 6, 5
+N: 0, mClearOptimisticVolumeRunnable, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_243_3B:2,1
+N: 0, mHandler, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24MessageHandler_3B:2,1
+N: 0, mSession, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24SessionStub_3B:2,1
+N: 0, mSessionCb, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24SessionCb_3B:2,1
+N: 0, mController, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24ControllerStub_3B:2,2
+N: 0, mSessionToken, Landroid_2Fmedia_2Fsession_2FMediaSession_24Token_3B:1,1
+E: 6, 5, mBinder
+E_D: 5, 0, 24
+E_D: 1, 0, 8
+E_D: 2, 0, 28
+E_D: 3, 0, 24
+E_D: 4, 0, 12
+
+class: Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24SessionStub_3B:2
+C: 6, 6, 1
+N_D: 0, 24, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_3B:2,5
+N: 1, mClearOptimisticVolumeRunnable, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_243_3B:2,1
+N: 1, mHandler, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24MessageHandler_3B:2,1
+N: 1, mSessionCb, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24SessionCb_3B:2,1
+N: 1, mController, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24ControllerStub_3B:2,2
+N: 1, mSessionToken, Landroid_2Fmedia_2Fsession_2FMediaSession_24Token_3B:1,1
+E: 6, 5, mBinder
+E_D: 5, 1, 24
+E: 1, 0, mSession
+E_D: 2, 1, 8
+E_D: 3, 1, 28
+E_D: 4, 1, 12
+
+class: Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24ControllerStub_3B:2
+C: 6, 6, 2
+N_D: 0, 24, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_3B:2,5
+N: 1, mClearOptimisticVolumeRunnable, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_243_3B:2,1
+N: 1, mHandler, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24MessageHandler_3B:2,1
+N: 1, mSession, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24SessionStub_3B:2,1
+N: 1, mSessionCb, Lcom_2Fandroid_2Fserver_2Fmedia_2FMediaSessionRecord_24SessionCb_3B:2,1
+N: 1, mSessionToken, Landroid_2Fmedia_2Fsession_2FMediaSession_24Token_3B:1,1
+E: 6, 0, mBinder
+E: 1, 0, mController
+E_D: 2, 1, 8
+E_D: 3, 1, 28
+E_D: 4, 1, 24
+E_D: 5, 1, 12
+
+class: Lhuawei_2Fandroid_2Fwidget_2FHwToolbar_3B:8
+C: 2, 2, 2
+N: 0, mShowOverflowMenuRunnable, Landroid_2Fwidget_2FToolbar_242_3B:1, 1
+N: 0, mWrapper, Lhuawei_2Fcom_2Fandroid_2Finternal_2Fwidget_2FHwToolbarWidgetWrapper_3B:8, 1
+E_D: 1, 0, 8
+E_D: 2, 0, 68
+
+class: Lhuawei_2Fcom_2Fandroid_2Finternal_2Fwidget_2FHwToolbarWidgetWrapper_3B:8
+C: 2, 2, 1
+N_D: 0, 68, Lhuawei_2Fandroid_2Fwidget_2FHwToolbar_3B:8, 2
+N: 1, mShowOverflowMenuRunnable, Landroid_2Fwidget_2FToolbar_242_3B:1, 1
+E: 1, 0, mWrapper
+E_D: 2, 1, 8
+
+class: Lhuawei_2Fandroid_2Fwidget_2FSpinner_3B:1
+C: 3, 5, 3
+N: 0, mPopup, Landroid_2Fwidget_2FSpinner_24DropdownPopup_3B:1, 3
+N: 1, mResizePopupRunnable, Landroid_2Fwidget_2FListPopupWindow_24ResizePopupRunnable_3B:1, 1
+N: 1, mItemClickListener, Landroid_2Fwidget_2FSpinner_24DropdownPopup_241_3B:1, 1
+E: 1, 0, mDropDownAnchorView
+E_D: 1, 0, 116
+E_D: 2, 1, 8
+E_D: 3, 1, 8
+E_D: 3, 0, 12
+
+class: Landroid_2Fwidget_2FSpinner_24DropdownPopup_3B:1
+C: 3, 5, 3
+N: 0, mDropDownAnchorView, Lhuawei_2Fandroid_2Fwidget_2FSpinner_3B:1, 3
+N: 0, mItemClickListener, Landroid_2Fwidget_2FSpinner_24DropdownPopup_241_3B:1, 1
+N: 0, mResizePopupRunnable, Landroid_2Fwidget_2FListPopupWindow_24ResizePopupRunnable_3B:1, 1
+E: 1, 0, mPopup
+E_D: 2, 0, 8
+E_D: 3, 0, 8
+E_D: 2, 1, 12
+E_D: 0, 1, 116
+
+class: Landroid_2Fwidget_2FPopupWindow_3B:1
+C: 4, 4, 4
+N: 0, mOnAnchorDetachedListener, Landroid_2Fwidget_2FPopupWindow_241_3B:1, 1
+N: 0, mOnAnchorRootDetachedListener, Landroid_2Fwidget_2FPopupWindow_242_3B:1, 1
+N: 0, mOnLayoutChangeListener, Landroid_2Fwidget_2F_2D_24_24Lambda_24PopupWindow_248Gc2stI5cSJZbuKX7X4Qr__vU2nI_3B:1, 1
+N: 0, mOnScrollChangedListener, Landroid_2Fwidget_2F_2D_24_24Lambda_24PopupWindow_24nV1HS3Nc6Ck5JRIbIHe3mkyHWzc_3B:1, 1
+E_D: 1, 0, 8
+E_D: 2, 0, 8
+E_D: 3, 0, 8
+E_D: 4, 0, 8
+
+class: Landroid_2Fcontent_2Fres_2FGradientColor_3B:1
+C: 1, 1, 1
+N: 0, mFactory, Landroid_2Fcontent_2Fres_2FGradientColor_24GradientColorFactory_3B:1, 1
+E: 1, 0, mSrc
+
+class: Landroid_2Fcontent_2Fres_2FGradientColor_24GradientColorFactory_3B:1
+C: 1, 1, 1
+N: 0, mSrc, Landroid_2Fcontent_2Fres_2FGradientColor_3B:1, 1
+E: 1, 0, mFactory
+
+class: Landroid_2Fapp_2Fassist_2FAssistStructure_3B:1
+C: 1, 1, 1
+N: 0, mSendChannel, Landroid_2Fapp_2Fassist_2FAssistStructure_24SendChannel_3B:1, 1
+E: 1, 0, mAssistStructure
+
+class: Landroid_2Fos_2FResultReceiver_24MyResultReceiver_3B:1
+C: 1, 1, 1
+N_D: 0, 24, Landroid_2Fos_2FSynchronousResultReceiver_3B:1, 1
+E: 1, 0, mReceiver
+
+class: Lcom_2Fandroid_2Finternal_2Ftelephony_2FCallerInfoAsyncQuery_24CallerInfoAsyncQueryHandler_24CallerInfoWorkerHandler_3B:1
+C: 1, 2, 1
+N_D: 0, 28, Lcom_2Fandroid_2Finternal_2Ftelephony_2FCallerInfoAsyncQuery_24CallerInfoAsyncQueryHandler_3B:1, 2
+E_D: 0, 1, 32
+E: 1, 0, mWorkerThreadHandler
+
+class: Lcom_2Fandroid_2Finternal_2Ftelephony_2FCallerInfoAsyncQuery_24CallerInfoAsyncQueryHandler_3B:1
+C: 1, 2, 2
+N: 0, mWorkerThreadHandler, Lcom_2Fandroid_2Finternal_2Ftelephony_2FCallerInfoAsyncQuery_24CallerInfoAsyncQueryHandler_24CallerInfoWorkerHandler_3B:1, 1
+E_D: 1, 0, 28
+E_D: 1, 0, 32
+
+class: Lcom_2Fandroid_2Finternal_2Futil_2FConcurrentUtils_241_241_3B:1
+C: 1, 1, 1
+N_D: 0, 124, Ljava_2Futil_2Fconcurrent_2FThreadPoolExecutor_24Worker_3B:0, 1
+E: 1, 0, thread
+
+class: Landroid_2Fdatabase_2FContentObserver_24Transport_3B:1
+C_P: 1, 1, 1
+N: 0, mContentObserver, Landroid_2Fdatabase_2FAbstractCursor_24SelfContentObserver_3B:1, 1
+E: 1, 0, mTransport
+
+class: Lcom_2Fandroid_2Fserver_2Faccessibility_2FUiAutomationManager_24UiAutomationService_3B:2
+C: 2, 2, 2
+N: 0, mInvocationHandler, Lcom_2Fandroid_2Fserver_2Faccessibility_2FAbstractAccessibilityServiceConnection_24InvocationHandler_3B:2, 1
+N: 0, mEventDispatchHandler, Lcom_2Fandroid_2Fserver_2Faccessibility_2FAbstractAccessibilityServiceConnection_241_3B:2, 1
+E_D: 1, 0, 32
+E_D: 2, 0, 28
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FAccessibilityController_24WindowsForAccessibilityObserver_3B:2
+C: 1, 1, 1
+N: 0, mHandler, Lcom_2Fandroid_2Fserver_2Fwm_2FAccessibilityController_24WindowsForAccessibilityObserver_24MyHandler_3B:2, 1
+E_D: 1, 0, 28
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FAccessibilityController_24WindowsForAccessibilityObserver_24MyHandler_3B:2
+C: 1, 1, 1
+N_D: 0, 28, Lcom_2Fandroid_2Fserver_2Fwm_2FAccessibilityController_24WindowsForAccessibilityObserver_3B:2, 1
+E: 1, 0, mHandler
+
+class: Lcom_2Fandroid_2Fokhttp_2Finternal_2Fhttp_2FHttpEngine_3B:3
+C: 5, 3, 1
+N: 0, userResponse, Lcom_2Fandroid_2Fokhttp_2FResponse_3B:3, 1
+N: 1, body, Lcom_2Fandroid_2Fokhttp_2Finternal_2Fhttp_2FRealResponseBody_3B:3, 1
+N: 2, source, Lcom_2Fandroid_2Fokhttp_2Fokio_2FRealBufferedSource_3B:3, 1
+N: 3, source, Lcom_2Fandroid_2Fokhttp_2Finternal_2Fhttp_2FHttp1xStream_24FixedLengthSource_3B:3, 1
+N_D: 4, 12, Lcom_2Fandroid_2Fokhttp_2Finternal_2Fhttp_2FHttp1xStream_3B:3, 3
+E_D: 4, 5, 20
+E: 0, 5, httpStream
+E: 5, 0, httpEngine
+
+class: Landroid_2Fgraphics_2Fdrawable_2FAnimatedVectorDrawable_241_3B:1
+C: 2, 2, 1
+N_D: 0, 8, Landroid_2Fgraphics_2Fdrawable_2FAnimatedVectorDrawable_3B:1, 2
+N: 1, mAnimatorSet, Landroid_2Fgraphics_2Fdrawable_2FAnimatedVectorDrawable_24VectorDrawableAnimatorRT_3B:1, 1
+E: 1, 0, mCallback
+E: 2, 1, mDrawable
+
+class: Lorg_2Fapache_2Fxpath_2FXPathContext_24XPathExpressionContext_3B:10
+C: 1, 1, 1
+N_D: 0, 8, Lorg_2Fapache_2Fxpath_2FXPathContext_3B:10, 1
+E: 1, 0, expressionContext
+
+class: Lorg_2Fapache_2Fxpath_2FXPathContext_3B:10
+C: 1, 1, 1
+N: 0, expressionContext, Lorg_2Fapache_2Fxpath_2FXPathContext_24XPathExpressionContext_3B:10, 1
+E_D: 1, 0, 8
+
+class: Ljava_2Fio_2FObjectOutputStream_24BlockDataOutputStream_3B:0
+C: 1, 1, 1
+N: 0, dout, Ljava_2Fio_2FDataOutputStream_3B:0, 1
+E: 1, 0, out
+
+class: Lcom_2Fandroid_2Fserver_2Fpm_2FPreferredActivity_3B:2
+C: 1, 1, 1
+N: 0, mPref, Lcom_2Fandroid_2Fserver_2Fpm_2FPreferredComponent_3B:2, 1
+E: 1, 0, mCallbacks
+
+class: Lcom_2Fandroid_2Finternal_2Fpolicy_2FHwPhoneWindow_3B:4
+C_P: 4, 4, 3
+N: 0, mDecor, Lcom_2Fandroid_2Finternal_2Fpolicy_2FDecorView_3B:1, 2
+N: 0, mContextMenuCallback, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_24PhoneWindowMenuCallback_3B:1, 1
+N: 0, mInvalidatePanelMenuRunnable, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_241_3B:1, 1
+N: 1, mPressGestureDetector, Lhuawei_2Fcom_2Fandroid_2Finternal_2Fpolicy_2FPressGestureDetector_3B:4, 1
+E: 1, 0, mWindow
+E: 4, 1, mDecorView
+E: 2, 0, mWindow
+E_D: 3, 0, 8
+C_P: 5, 6, 4
+N: 0, mDecor, Lcom_2Fandroid_2Finternal_2Fpolicy_2FDecorView_3B:1, 2
+N: 0, mContextMenuCallback, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_24PhoneWindowMenuCallback_3B:1, 1
+N: 0, mInvalidatePanelMenuRunnable, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_241_3B:1, 1
+N: 1, mPressGestureDetector, Lhuawei_2Fcom_2Fandroid_2Finternal_2Fpolicy_2FPressGestureDetector_3B:4, 1
+N: 0, mCallback, Landroid_2Fapp_2FDialog_3B:1, 2
+E: 1, 0, mWindow
+E: 4, 1, mDecorView
+E: 2, 0, mWindow
+E_D: 3, 0, 8
+E: 0, 5, mOnWindowDismissedCallback
+E: 5, 0, mWindow
+
+class: Landroid_2Fapp_2FDialog_3B:1
+C_P: 5, 6, 2
+N: 0, mWindow, Lcom_2Fandroid_2Finternal_2Fpolicy_2FHwPhoneWindow_3B:4, 4
+N: 1, mDecor, Lcom_2Fandroid_2Finternal_2Fpolicy_2FDecorView_3B:1, 2
+N: 1, mContextMenuCallback, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_24PhoneWindowMenuCallback_3B:1, 1
+N: 1, mInvalidatePanelMenuRunnable, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_241_3B:1, 1
+N: 2, mPressGestureDetector, Lhuawei_2Fcom_2Fandroid_2Finternal_2Fpolicy_2FPressGestureDetector_3B:4, 1
+E: 1, 0, mCallback
+E: 1, 0, mOnWindowDismissedCallback
+E: 2, 1, mWindow
+E: 5, 2, mDecorView
+E: 3, 1, mWindow
+E_D: 4, 1, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fjob_2Fcontrollers_2FContentObserverController_24JobInstance_3B:2
+C_P: 2, 2, 2
+N: 0, mExecuteRunner, Lcom_2Fandroid_2Fserver_2Fjob_2Fcontrollers_2FContentObserverController_24TriggerRunnable_3B:2, 1
+N: 0, mTimeoutRunner, Lcom_2Fandroid_2Fserver_2Fjob_2Fcontrollers_2FContentObserverController_24TriggerRunnable_3B:2, 1
+E: 1, 0, mInstance
+E_S: 2, 0, mInstance
+
+class: Ljava_2Fio_2FObjectInputStream_24BlockDataInputStream_3B:0
+C: 1, 1, 1
+N: 0, din, Ljava_2Fio_2FDataInputStream_3B:0, 1
+E_S: 1, 0, in
+
+class: Lorg_2Fapache_2Fxml_2Fdtm_2Fref_2FDTMManagerDefault_3B:10
+C: 4, 3, 2
+N: 0, m_dtms, ALorg_2Fapache_2Fxml_2Fdtm_2FDTM_3B:10, 1
+N_D: 1, 20, Lorg_2Fapache_2Fxml_2Fdtm_2Fref_2Fdom2dtm_2FDOM2DTM_3B:10, 2
+N: 2, m_traversers, ALorg_2Fapache_2Fxml_2Fdtm_2FDTMAxisTraverser_3B:10, 1
+N_D: 3, 28, Lorg_2Fapache_2Fxml_2Fdtm_2Fref_2FDTMDefaultBaseTraversers_24ChildTraverser_3B:10, 1
+E: 2, 0, m_mgr
+E: 2, 0, m_mgrDefault
+E_D: 4, 2, 8
+
+class: Lorg_2Fapache_2Fxpath_2Faxes_2FIteratorPool_3B:10
+C: 1, 1, 1
+N: 0, m_orig, Lorg_2Fapache_2Fxpath_2Faxes_2FWalkingIterator_3B:10, 1
+E: 1, 0, m_clones
+C: 1, 1, 1
+N: 0, m_orig, Lorg_2Fapache_2Fxpath_2Faxes_2FChildTestIterator_3B:10, 1
+E: 1, 0, m_clones
+
+class: Landroid_2Fwidget_2FImageButton_3B:1
+C_P: 4, 3, 3
+N: 0, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 0, mOnZoomListener, Landroid_2Fwidget_2FImageView_241_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 3, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 4, 0, mView
+E: 1, 0, mImageView
+E_D: 2, 0, 8
+C_P: 5, 4, 4
+N: 0, mHwCompoundEventDetector, Lhuawei_2Fandroid_2Fwidget_2FHwCompoundEventDetectorImpl_3B:4,1
+N: 0, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 0, mOnZoomListener, Landroid_2Fwidget_2FImageView_241_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 4, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 5, 0, mView
+E: 1, 0, mTargetView
+E: 2, 0, mImageView
+E_D: 3, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fconnectivity_2FNetworkAgentInfo_3B:2
+C: 1, 1, 1
+N: 0, clatd, Lcom_2Fandroid_2Fserver_2Fconnectivity_2FNat464Xlat_3B:2,1
+E: 1, 0, mNetwork
+
+class: Landroid_2Fwidget_2FImageView_241_3B:1
+C_P: 5, 4, 1
+N_D: 0, 8, Landroid_2Fwidget_2FImageView_3B:1,4
+N: 1, mHwCompoundEventDetector, Lhuawei_2Fandroid_2Fwidget_2FHwCompoundEventDetectorImpl_3B:4,1
+N: 1, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 4, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 5, 1, mView
+E: 1, 0, mOnZoomListener
+E: 2, 1, mTargetView
+E: 3, 1, mImageView
+C_P: 4, 3, 1
+N_D: 0, 8, Landroid_2Fwidget_2FImageButton_3B:1,3
+N: 1, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 3, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 4, 1, mView
+E: 1, 0, mOnZoomListener
+E: 2, 1, mImageView
+C_P: 5, 4, 1
+N_D: 0, 8, Landroid_2Fwidget_2FImageButton_3B:1,4
+N: 1, mHwCompoundEventDetector, Lhuawei_2Fandroid_2Fwidget_2FHwCompoundEventDetectorImpl_3B:4,1
+N: 1, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 4, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 5, 1, mView
+E: 1, 0, mOnZoomListener
+E: 2, 1, mTargetView
+E: 3, 1, mImageView
+C_P: 4, 3, 1
+N_D: 0, 8, Landroid_2Fwidget_2FImageView_3B:1,3
+N: 1, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 3, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 4, 1, mView
+E: 1, 0, mOnZoomListener
+E: 2, 1, mImageView
+
+class: Lcom_2Fandroid_2Fserver_2Fwifi_2FClientModeManager_3B:11
+C: 4, 4, 1
+N: 0, mStateMachine, Lcom_2Fandroid_2Fserver_2Fwifi_2FClientModeManager_24ClientModeStateMachine_3B:11,4
+N: 1, mIdleState, Lcom_2Fandroid_2Fserver_2Fwifi_2FClientModeManager_24ClientModeStateMachine_24IdleState_3B:11,1
+N: 1, mStartedState, Lcom_2Fandroid_2Fserver_2Fwifi_2FClientModeManager_24ClientModeStateMachine_24StartedState_3B:11,1
+N: 1, mWifiNativeInterfaceCallback, Lcom_2Fandroid_2Fserver_2Fwifi_2FClientModeManager_24ClientModeStateMachine_241_3B:11,1
+E_D: 4, 1, 8
+E_D: 1, 0, 32
+E_D: 2, 1, 8
+E_D: 3, 1, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwifi_2Fscanner_2FWificondScannerImpl_3B:11
+C: 1, 1, 1
+N: 0, mEventHandler, Landroid_2Fos_2FHandler_3B:1,1
+E: 1, 0, mCallback
+
+class: Lcom_2Fandroid_2Fserver_2Fdisplay_2Fwhitebalance_2FAmbientSensor_24AmbientBrightnessSensor_3B:2
+C: 1, 1, 1
+N: 0, mListener, Lcom_2Fandroid_2Fserver_2Fdisplay_2Fwhitebalance_2FAmbientSensor_241_3B:2,1
+E_D: 1, 0, 8
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_241_3B:1
+C_P: 6, 5, 1
+N_D: 0, 8, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_3B:1,5
+N: 1, mAddActionBarHideOffset, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_244_3B:1,1
+N: 1, mBottomAnimatorListener, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_242_3B:1,1
+N: 1, mRemoveActionBarHideOffset, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_243_3B:1,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 5, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 6, 1, mView
+E: 1, 0, mTopAnimatorListener
+E_D: 2, 1, 8
+E_D: 3, 1, 8
+E_D: 4, 1, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fdisplay_2Fwhitebalance_2FAmbientSensor_24AmbientColorTemperatureSensor_3B:2
+C: 1, 1, 1
+N: 0, mListener, Lcom_2Fandroid_2Fserver_2Fdisplay_2Fwhitebalance_2FAmbientSensor_241_3B:2,1
+E_D: 1, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2FHwSmartDisplayService_3B:7
+C: 1, 1, 1
+N: 0, mHandler, Lcom_2Fandroid_2Fserver_2FHwSmartDisplayService_24SmartDisplayHandler_3B:7,1
+E_D: 1, 0, 28
+
+class: Landroid_2Fcontent_2Fres_2FResources_3B:1
+C: 3, 1, 1
+N: 0, mTypedArrayPool, Landroid_2Futil_2FPools_24SynchronizedPool_3B:1,1
+N: 1, mPool, ALjava_2Flang_2FObject_3B:0,1
+N_D: 2, 16, Landroid_2Fcontent_2Fres_2FTypedArray_3B:1,1
+E: 3, 0, mResources
+
+class: Ljava_2Fio_2FObjectStreamClass_3B:0
+C: 2, 1, 1
+N: 0, dataLayout, ALjava_2Fio_2FObjectStreamClass_24ClassDataSlot_3B:0,1
+N_D: 1, 16, Ljava_2Fio_2FObjectStreamClass_24ClassDataSlot_3B:0,1
+E: 2, 0, desc
+C: 2, 1, 1
+N: 0, dataLayout, ALjava_2Fio_2FObjectStreamClass_24ClassDataSlot_3B:0,1
+N_D: 1, 20, Ljava_2Fio_2FObjectStreamClass_24ClassDataSlot_3B:0,1
+E: 2, 0, desc
+
+class: Landroid_2Fwidget_2FTextView_3B:1
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+C_P: 6, 2, 2
+N: 0, mFloatingTreeObserver, Landroid_2Fview_2FViewTreeObserver_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 2, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+N: 1, mOnPreDrawListeners, Landroid_2Fview_2FViewTreeObserver_24CopyOnWriteArray_3B:1,1
+N: 4, mData, Ljava_2Futil_2FArrayList_3B:0,1
+N: 5, elementData, ALjava_2Flang_2FObject_3B:0,1
+E_D: 6, 0, 16
+E: 3, 0, mView
+
+class: Landroid_2Fgraphics_2Fdrawable_2FRippleDrawable_3B:1
+C_P: 1, 1, 1
+N: 0, mBackground, Landroid_2Fgraphics_2Fdrawable_2FRippleBackground_3B:1,1
+E: 1, 0, mOwner
+
+class: Ljava_2Fnet_2FSocketOutputStream_3B:0
+C: 3, 5, 1
+N: 0, impl, Ljava_2Fnet_2FSocksSocketImpl_3B:0,3
+N: 0, socket, Ljava_2Fnet_2FSocket_3B:0,3
+N: 1, socketInputStream, Ljava_2Fnet_2FSocketInputStream_3B:0,1
+E: 3, 1, impl
+E: 3, 2, socket
+E: 1, 0, socketOutputStream
+E: 1, 2, socket
+E: 2, 1, impl
+
+class: Landroid_2Fos_2FRemoteCallback_241_3B:1
+C: 1, 1, 1
+N_D: 0, 24, Landroid_2Fos_2FRemoteCallback_3B:1,1
+E: 1, 0, mCallback
+
+class: Landroid_2Fview_2FViewPropertyAnimator_241_3B:1
+C_P: 5, 4, 1
+N_D: 0, 8, Landroid_2Fview_2FViewPropertyAnimator_3B:1,3
+N: 1, mAnimatorEventListener, Landroid_2Fview_2FViewPropertyAnimator_24AnimatorEventListener_3B:1,1
+N: 1, mView, Landroid_2Fview_2FView_3B:1,2
+N: 3, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 4, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 5, 3, mView
+E: 3, 1, mAnimator
+E: 1, 0, mAnimationStarter
+E_D: 2, 1, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FActivityStackBridge_3B:7
+C: 3, 3, 3
+N: 0, mHandler, Lcom_2Fandroid_2Fserver_2Fwm_2FActivityStack_24ActivityStackHandler_3B:2,1
+N: 0, mHwActivityStackEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwActivityStackEx_3B:7,1
+N: 0, mActivityStackBridgeEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwActivityStack_3B:12,1
+E_D: 1, 0, 28
+E: 2, 0, mStack
+E: 3, 0, mActivityStackBridge
+
+class: Landroid_2Fview_2FViewAnimationHostBridge_3B:1
+C_P: 2, 1, 1
+N: 0, mView, Landroid_2Fwidget_2FRadioButton_3B:1,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+E: 2, 0, mAnimationHost
+C_P: 2, 1, 1
+N: 0, mView, Lhuawei_2Fandroid_2Fwidget_2FHwToolBarMenuContainer_3B:8,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+E: 2, 0, mAnimationHost
+C_P: 2, 1, 1
+N: 0, mView, Lhuawei_2Fcom_2Fandroid_2Fserver_2Fpolicy_2FBallFrameView_3B:7,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+E: 2, 0, mAnimationHost
+C_P: 2, 1, 1
+N: 0, mView, Lhuawei_2Fcom_2Fandroid_2Fserver_2Fpolicy_2FBallFrameLayout_3B:7,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+E: 2, 0, mAnimationHost
+
+class: Landroid_2Fapp_2FPackageInstallObserver_241_3B:1
+C: 1, 1, 1
+N_D: 0, 24, Lcom_2Fandroid_2Fserver_2Fpm_2FPackageInstallerService_24PackageInstallObserverAdapter_3B:2,1
+E: 1, 0, mBinder
+
+class: Lcom_2Fandroid_2Fserver_2Fpower_2FThermalManagerService_24ThermalHal20Wrapper_3B:2
+C: 1, 1, 1
+N: 0, mThermalCallback20, Lcom_2Fandroid_2Fserver_2Fpower_2FThermalManagerService_24ThermalHal20Wrapper_241_3B:2,1
+E_D: 1, 0, 16
+
+class: Landroid_2Fwidget_2FSpace_3B:1
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Lhuawei_2Fandroid_2Fwidget_2FHwToolbarMenuView_3B:4
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Landroid_2Fmedia_2FAudioMixPortConfig_3B:1
+C_P: 1, 1, 1
+N: 0, mPort, Landroid_2Fmedia_2FAudioMixPort_3B:1,1
+E: 1, 0, mActiveConfig
+
+class: Landroid_2Fwidget_2FOverScroller_24SplineOverScroller_3B:1
+C_P: 1, 1, 1
+N: 0, mIHwSplineOverScrollerInner, Lhuawei_2Fandroid_2Fwidget_2FHwSplineOverScrollerImpl_3B:4,1
+E: 1, 0, mScroller
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FHwTaskRecordExBridge_3B:7
+C: 1, 1, 1
+N: 0, mHwTaskRecordExBridgeEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwTaskRecordEx_3B:12,1
+E: 1, 0, mHwTaskRecordExBridge
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarView_3B:1
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Landroid_2Fwidget_2FImageView_3B:1
+C_P: 5, 4, 4
+N: 0, mHwCompoundEventDetector, Lhuawei_2Fandroid_2Fwidget_2FHwCompoundEventDetectorImpl_3B:4,1
+N: 0, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 0, mOnZoomListener, Landroid_2Fwidget_2FImageView_241_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 4, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 5, 0, mView
+E: 1, 0, mTargetView
+E: 2, 0, mImageView
+E_D: 3, 0, 8
+C_P: 4, 3, 3
+N: 0, mHwImageViewZoom, Lhuawei_2Fandroid_2Fwidget_2FHwImageViewZoomImpl_3B:4,1
+N: 0, mOnZoomListener, Landroid_2Fwidget_2FImageView_241_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 3, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 4, 0, mView
+E: 1, 0, mImageView
+E_D: 2, 0, 8
+
+class: Ljava_2Fnet_2FSocksSocketImpl_3B:0
+C: 3, 5, 3
+N: 0, socketOutputStream, Ljava_2Fnet_2FSocketOutputStream_3B:0,1
+N: 0, socket, Ljava_2Fnet_2FSocket_3B:0,3
+N: 0, socketInputStream, Ljava_2Fnet_2FSocketInputStream_3B:0,1
+E: 3, 0, impl
+E: 3, 2, socket
+E: 2, 0, impl
+E: 1, 0, impl
+E: 1, 2, socket
+
+class: Ljava_2Futil_2FScanner_3B:0
+C: 1, 1, 1
+N: 0, patternCache, Ljava_2Futil_2FScanner_241_3B:0,1
+E_D: 1, 0, 16
+
+class: Lcom_2Fandroid_2Fserver_2Fwifi_2Fscanner_2FBackgroundScanScheduler_3B:11
+C: 2, 2, 1
+N: 0, mBuckets, Lcom_2Fandroid_2Fserver_2Fwifi_2Fscanner_2FBackgroundScanScheduler_24BucketList_3B:11,2
+N: 1, mTimePeriodSortComparator, Lcom_2Fandroid_2Fserver_2Fwifi_2Fscanner_2FBackgroundScanScheduler_24BucketList_241_3B:11,1
+E_D: 2, 1, 8
+E_D: 1, 0, 20
+
+class: Landroid_2Fgraphics_2Fdrawable_2FRippleForeground_3B:1
+C: 1, 1, 1
+N: 0, mAnimationListener, Landroid_2Fgraphics_2Fdrawable_2FRippleForeground_241_3B:1,1
+E_D: 1, 0, 8
+
+class: Landroid_2Fview_2FViewPropertyAnimator_3B:1
+C_P: 5, 4, 3
+N: 0, mAnimationStarter, Landroid_2Fview_2FViewPropertyAnimator_241_3B:1,1
+N: 0, mAnimatorEventListener, Landroid_2Fview_2FViewPropertyAnimator_24AnimatorEventListener_3B:1,1
+N: 0, mView, Landroid_2Fview_2FView_3B:1,2
+N: 3, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 4, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 5, 3, mView
+E: 3, 0, mAnimator
+E_D: 1, 0, 8
+E_D: 2, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fgesture_2FGestureNavManager_24GestureExclusionListener_3B:12
+C_P: 1, 1, 1
+N: 0, mListener, Lcom_2Fhuawei_2Fandroid_2Fview_2FISystemGestureExclusionListenerEx_241_3B:4,1
+E_D: 1, 0, 24
+
+class: Landroid_2Fanimation_2FAnimatorSet_24SeekState_3B:1
+C_P: 3, 3, 1
+N_D: 0, 20, Landroid_2Fanimation_2FAnimatorSet_3B:1,3
+N: 1, mConstantState, Landroid_2Fanimation_2FAnimator_24AnimatorConstantState_3B:1,1
+N: 1, mDummyListener, Landroid_2Fanimation_2FAnimatorSet_241_3B:1,1
+E_D: 3, 1, 8
+E: 1, 0, mSeekState
+E: 2, 1, mAnimator
+
+class: Lcom_2Fandroid_2Fserver_2Fpm_2FPackageInstallerSession_3B:2
+C: 2, 2, 1
+N: 0, mHandler, Landroid_2Fos_2FHandler_3B:1,1
+N: 0, mHandlerCallback, Lcom_2Fandroid_2Fserver_2Fpm_2FPackageInstallerSession_243_3B:2,2
+E: 1, 2, mCallback
+E_D: 2, 0, 8
+
+class: Landroid_2Fanimation_2FAnimatorSet_24Node_3B:1
+C: 5, 1, 1
+N: 0, mParents, Ljava_2Futil_2FArrayList_3B:0,1
+N: 1, elementData, ALjava_2Flang_2FObject_3B:0,1
+N_D: 2, 16, Landroid_2Fanimation_2FAnimatorSet_24Node_3B:1,1
+N: 3, mChildNodes, Ljava_2Futil_2FArrayList_3B:0,1
+N: 4, elementData, ALjava_2Flang_2FObject_3B:0,1
+E_D: 5, 0, 16
+C_P: 5, 2, 2
+N: 0, mChildNodes, Ljava_2Futil_2FArrayList_3B:5,1
+N: 1, elementData, ALjava_2Flang_2FObject_3B:5,1
+N_D: 2, 16, Landroid_2Fanimation_2FAnimatorSet_24Node_3B:1,1
+N: 3, mParents, Ljava_2Futil_2FArrayList_3B:5,1
+N: 4, elementData, ALjava_2Flang_2FObject_3B:5,1
+E_D: 5, 0, 16
+E: 3, 0, mLatestParent
+
+class: Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_241_3B:1
+C_P: 6, 5, 1
+N_D: 0, 8, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_3B:1,3
+N: 1, mContextMenuCallback, Lcom_2Fandroid_2Finternal_2Fpolicy_2FPhoneWindow_24PhoneWindowMenuCallback_3B:1,1
+N: 1, mDecor, Lcom_2Fandroid_2Finternal_2Fpolicy_2FDecorView_3B:1,3
+N: 3, mPressGestureDetector, Lhuawei_2Fcom_2Fandroid_2Finternal_2Fpolicy_2FPressGestureDetector_3B:4,1
+N: 3, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 5, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 6, 3, mView
+E: 3, 1, mWindow
+E: 1, 0, mInvalidatePanelMenuRunnable
+E: 4, 3, mDecorView
+E: 2, 1, mWindow
+
+class: Lhuawei_2Fcom_2Fandroid_2Fserver_2Fpolicy_2FBallFrameView_3B:7
+C: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Lcom_2Fandroid_2Fokhttp_2FConnectionPool_3B:3
+C: 1, 1, 1
+N: 0, cleanupRunnable, Lcom_2Fandroid_2Fokhttp_2FConnectionPool_241_3B:3,1
+E_D: 1, 0, 8
+
+class: Ljava_2Fnet_2FDatagramSocket_3B:0
+C: 1, 1, 1
+N: 0, impl, Ljava_2Fnet_2FPlainDatagramSocketImpl_3B:0,1
+E: 1, 0, socket
+
+class: Lcom_2Fandroid_2Fserver_2Fpolicy_2FHwScreenOnProximityLayout_3B:7
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+C_P: 4, 2, 2
+N: 0, mBackgroundRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 2, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 3, 0, mView
+E: 4, 0, mView
+
+class: Lcom_2Fandroid_2Fserver_2Fgesture_2FGestureNavAnimProxy_24GestureAnimContainer_3B:12
+C: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FDialogTitle_3B:1
+C: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Landroid_2Fwidget_2FRadioButton_3B:1
+C_P: 6, 2, 2
+N: 0, mFloatingTreeObserver, Landroid_2Fview_2FViewTreeObserver_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 2, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+N: 1, mOnPreDrawListeners, Landroid_2Fview_2FViewTreeObserver_24CopyOnWriteArray_3B:1,1
+N: 4, mData, Ljava_2Futil_2FArrayList_3B:0,1
+N: 5, elementData, ALjava_2Flang_2FObject_3B:0,1
+E_D: 6, 0, 16
+E: 3, 0, mView
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FHwScreenRotationAnimationImplBridge_3B:7
+C: 1, 1, 1
+N: 0, mHwScreenRotationAnimationImplBridgeEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwScreenRotationAnimationImpl_3B:12,1
+E: 1, 0, mHwScreenRotationAnimationImplBridge
+
+class: Lcom_2Fhuawei_2Fhwextdevice_2FHWExtDeviceManager_24DeviceEventQueue_3B:13
+C: 1, 1, 1
+N: 0, mDeviceHandler, Lcom_2Fhuawei_2Fhwextdevice_2FHWExtDeviceManager_24DeviceEventQueue_24HWExtDeviceHandler_3B:13,1
+E_D: 1, 0, 28
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FToolbarWidgetWrapper_3B:1
+C: 4, 3, 1
+N: 0, mToolbar, Landroid_2Fwidget_2FToolbar_3B:1,3
+N: 1, mShowOverflowMenuRunnable, Landroid_2Fwidget_2FToolbar_242_3B:1,1
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 3, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 4, 1, mView
+E: 1, 0, mWrapper
+E_D: 2, 1, 8
+
+class: Lcom_2Fandroid_2Finternal_2Futil_2FStateMachine_24SmHandler_3B:1
+C: 2, 2, 2
+N: 0, mQuittingState, Lcom_2Fandroid_2Finternal_2Futil_2FStateMachine_24SmHandler_24QuittingState_3B:1,1
+N: 0, mHaltingState, Lcom_2Fandroid_2Finternal_2Futil_2FStateMachine_24SmHandler_24HaltingState_3B:1,1
+E_D: 2, 0, 8
+E_D: 1, 0, 8
+
+class: Landroid_2Fapp_2FLoadedApk_24ReceiverDispatcher_24InnerReceiver_3B:1
+C: 1, 1, 1
+N: 0, mStrongRef, Landroid_2Fapp_2FLoadedApk_24ReceiverDispatcher_3B:1,1
+E: 1, 0, mIIntentReceiver
+
+class: Landroid_2Fanimation_2FAnimatorSet_241_3B:1
+C_P: 2, 2, 1
+N_D: 0, 8, Landroid_2Fanimation_2FAnimatorSet_3B:1,2
+N: 1, mSeekState, Landroid_2Fanimation_2FAnimatorSet_24SeekState_3B:1,1
+E: 1, 0, mDummyListener
+E_D: 2, 1, 20
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarView_24HomeView_3B:1
+C: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FScreenRotationAnimationBridge_3B:7
+C: 1, 1, 1
+N: 0, mScreenRotationAnimEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwScreenRotationAnimation_3B:12,1
+E: 1, 0, mScreenRotationAnimationBridge
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarContainer_24ActionBarBackgroundDrawable_3B:1
+C_P: 3, 2, 1
+N_D: 0, 44, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarContainer_3B:1,2
+N: 1, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 2, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 3, 1, mView
+E: 1, 0, mBackground
+
+class: Landroid_2Fview_2FViewTreeObserver_3B:1
+C_P: 6, 2, 1
+N: 0, mOnPreDrawListeners, Landroid_2Fview_2FViewTreeObserver_24CopyOnWriteArray_3B:1,1
+N: 1, mData, Ljava_2Futil_2FArrayList_3B:0,1
+N: 2, elementData, ALjava_2Flang_2FObject_3B:0,1
+N_D: 3, 16, Landroid_2Fwidget_2FRadioButton_3B:1,2
+N: 4, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 5, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 4, 0, mFloatingTreeObserver
+E: 6, 4, mView
+
+class: Landroid_2Fanimation_2FObjectAnimator_3B:1
+C_P: 1, 1, 1
+N: 0, mConstantState, Landroid_2Fanimation_2FAnimator_24AnimatorConstantState_3B:1,1
+E: 1, 0, mAnimator
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FHwWindowStateAnimator_3B:12
+C_P: 8, 6, 1
+N: 0, mWin, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateEx_3B:7,1
+N: 0, mWindowStateAnimatorBridge, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateAnimatorBridge_3B:7,2
+N: 1, mWindowState, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_3B:2,7
+N: 3, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2,1
+N: 3, mDeathRecipient, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_24DeathRecipient_3B:2,1
+N: 3, mHwWSEx, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateBridge_3B:7,2
+N: 6, mWindowStateBridgeEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwWindowStateEx_3B:12,1
+N: 7, mWinState, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateEx_3B:7,1
+E: 2, 0, mWindowStateAnimatorEx
+E: 3, 2, mWinAnimator
+E: 4, 3, mAnimatable
+E_D: 5, 3, 8
+E: 7, 6, mWindowStateBridge
+E: 8, 3, mWindowState
+
+class: Landroid_2Fmedia_2FAudioDevicePortConfig_3B:1
+C_P: 1, 1, 1
+N: 0, mPort, Landroid_2Fmedia_2FAudioDevicePort_3B:1,1
+E: 1, 0, mActiveConfig
+
+class: Lcom_2Fandroid_2Fserver_2Fwifi_2FClientModeImpl_24WifiNetworkAgent_3B:11
+C: 1, 1, 1
+N: 0, mMessenger, Landroid_2Fos_2FHandler_24MessengerImpl_3B:1,1
+E_D: 1, 0, 24
+
+class: Lcom_2Fhuawei_2Fandroid_2Fos_2FHwBinderEx_24DeathRecipientBridge_3B:4
+C: 1, 1, 1
+N: 0, mDeathRecipientEx, Lcom_2Fandroid_2Fserver_2Fpolicy_2FEasyWakeUpManager_24DeathRecipient_3B:12,1
+E: 1, 0, mBridge
+
+class: Lcom_2Fandroid_2Fserver_2Flocation_2FActivityRecognitionProxy_3B:2
+C: 2, 2, 1
+N: 0, mServiceWatcher, Lcom_2Fandroid_2Fserver_2Flocation_2FActivityRecognitionProxy_241_3B:2,2
+N: 1, mRetryRunnable, Lcom_2Fandroid_2Fserver_2FServiceWatcher_241_3B:2,1
+E_D: 2, 1, 8
+E_D: 1, 0, 60
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarContainer_3B:1
+C: 3, 2, 2
+N: 0, mBackground, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarContainer_24ActionBarBackgroundDrawable_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 2, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 3, 0, mView
+E_D: 1, 0, 44
+
+class: Lhuawei_2Fandroid_2Fwidget_2FHwTextView_3B:8
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Lcom_2Fhuawei_2Fandroid_2Fpgmng_2Fplug_2FPowerKit_3B:13
+C: 1, 1, 1
+N: 0, mSinkTransport, Lcom_2Fhuawei_2Fandroid_2Fpgmng_2Fplug_2FPowerKit_24SinkTransport_3B:13,1
+E_D: 1, 0, 24
+
+class: Lcom_2Fandroid_2Fserver_2Fpm_2FPackageManagerShellCommand_24LocalIntentReceiver_241_3B:2
+C: 1, 1, 1
+N_D: 0, 24, Lcom_2Fandroid_2Fserver_2Fpm_2FPackageManagerShellCommand_24LocalIntentReceiver_3B:2,1
+E: 1, 0, mLocalSender
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_3B:2
+C: 8, 6, 4
+N: 0, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2,1
+N: 0, mDeathRecipient, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowState_24DeathRecipient_3B:2,1
+N: 0, mHwWSEx, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateBridge_3B:7,2
+N: 0, mWinAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateAnimatorBridge_3B:7,2
+N: 4, mWindowStateAnimatorEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwWindowStateAnimator_3B:12,1
+N: 5, mWin, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateEx_3B:7,1
+N: 3, mWindowStateBridgeEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwWindowStateEx_3B:12,1
+N: 7, mWinState, Lcom_2Fandroid_2Fserver_2Fwm_2FWindowStateEx_3B:7,1
+E: 5, 4, mWindowStateAnimatorBridge
+E: 6, 0, mWindowState
+E: 1, 0, mAnimatable
+E_D: 2, 0, 8
+E: 7, 3, mWindowStateBridge
+E: 8, 0, mWindowState
+
+class: Lcom_2Fandroid_2Finternal_2Fview_2FSurfaceCallbackHelper_3B:1
+C: 1, 1, 1
+N: 0, mFinishDrawingRunnable, Lcom_2Fandroid_2Finternal_2Fview_2FSurfaceCallbackHelper_241_3B:1,1
+E_D: 1, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FWallpaperWindowToken_3B:2
+C: 1, 1, 1
+N: 0, mSurfaceAnimator, Lcom_2Fandroid_2Fserver_2Fwm_2FSurfaceAnimator_3B:2,1
+E: 1, 0, mAnimatable
+
+class: Lcom_2Fandroid_2Fserver_2Fwifi_2FScanOnlyModeManager_3B:11
+C: 4, 4, 1
+N: 0, mStateMachine, Lcom_2Fandroid_2Fserver_2Fwifi_2FScanOnlyModeManager_24ScanOnlyModeStateMachine_3B:11,4
+N: 1, mIdleState, Lcom_2Fandroid_2Fserver_2Fwifi_2FScanOnlyModeManager_24ScanOnlyModeStateMachine_24IdleState_3B:11,1
+N: 1, mStartedState, Lcom_2Fandroid_2Fserver_2Fwifi_2FScanOnlyModeManager_24ScanOnlyModeStateMachine_24StartedState_3B:11,1
+N: 1, mWifiNativeInterfaceCallback, Lcom_2Fandroid_2Fserver_2Fwifi_2FScanOnlyModeManager_24ScanOnlyModeStateMachine_241_3B:11,1
+E_D: 4, 1, 8
+E_D: 1, 0, 32
+E_D: 2, 1, 8
+E_D: 3, 1, 8
+
+class: Landroid_2Fview_2FGestureDetector_3B:1
+C_P: 1, 1, 1
+N: 0, mHandler, Landroid_2Fview_2FGestureDetector_24GestureHandler_3B:1,1
+E_D: 1, 0, 28
+
+class: Landroid_2Fanimation_2FAnimatorSet_242_3B:1
+C: 1, 1, 1
+N_D: 0, 12, Landroid_2Fanimation_2FAnimatorSet_3B:1,1
+E: 1, 0, mDummyListener
+
+class: Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_3B:1
+C_P: 6, 5, 5
+N: 0, mAddActionBarHideOffset, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_244_3B:1,1
+N: 0, mBottomAnimatorListener, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_242_3B:1,1
+N: 0, mRemoveActionBarHideOffset, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_243_3B:1,1
+N: 0, mTopAnimatorListener, Lcom_2Fandroid_2Finternal_2Fwidget_2FActionBarOverlayLayout_241_3B:1,1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 5, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 6, 0, mView
+E_D: 1, 0, 8
+E_D: 2, 0, 8
+E_D: 3, 0, 8
+E_D: 4, 0, 8
+
+class: Lcom_2Fandroid_2Fserver_2Fwifi_2FSupplicantStaNetworkHal_3B:11
+C: 3, 3, 2
+N: 0, mIHwSupplicantStaNetworkHalEx, Lcom_2Fandroid_2Fserver_2Fwifi_2FHwSupplicantStaNetworkHalEx_3B:14,2
+N: 0, mISupplicantStaNetworkCallback, Lcom_2Fandroid_2Fserver_2Fwifi_2FHwSupplicantStaNetworkHalEx_24VendorSupplicantStaNetworkHalCallback_3B:14,1
+N: 2, callback, Lcom_2Fandroid_2Fserver_2Fwifi_2FSupplicantStaNetworkHal_24SupplicantStaNetworkHalCallback_3B:11,1
+E_D: 2, 1, 28
+E_D: 3, 0, 24
+E: 1, 0, mIHwSupplicantStaNetworkHalInner
+
+class: Lcom_2Fandroid_2Fserver_2Fpower_2FThermalManagerService_24ThermalHal11Wrapper_3B:2
+C: 1, 1, 1
+N: 0, mThermalCallback11, Lcom_2Fandroid_2Fserver_2Fpower_2FThermalManagerService_24ThermalHal11Wrapper_241_3B:2,1
+E_D: 1, 0, 16
+
+class: Landroid_2Fwidget_2FSwitch_3B:1
+C_P: 2, 1, 1
+N: 0, mRenderNode, Landroid_2Fgraphics_2FRenderNode_3B:1,1
+N: 1, mAnimationHost, Landroid_2Fview_2FViewAnimationHostBridge_3B:1,1
+E: 2, 0, mView
+
+class: Lcom_2Fandroid_2Fserver_2Fwm_2FHwAppWindowTokenBridge_3B:7
+C: 1, 1, 1
+N: 0, mHwAppWindowTokenBridgeEx, Lcom_2Fandroid_2Fserver_2Fwm_2FHwAppWindowTokenImpl_3B:12,1
+E: 1, 0, mHwAppWindowTokenBridge
+
+.....
+0:libmaplecore-all.so
+1:/system/lib64/libmapleframework.so
+2:/system/lib64/libmapleservices.so
+3:/system/lib64/libmapleokhttp.so
+4:/system/lib64/libmaplehwEmui.so
+5:/system/lib64/libmapleconscrypt.so
+6:/system/lib64/libmapleext.so
+7:/system/lib64/libmaplehwServices.so
+8:/system/lib64/libmaplefeaturelayer-widget.so
+9:/system/lib64/libmapleTelecom.so
+10:/system/lib64/libmapleapache-xml.so
+11:/system/lib64/libmaplewifi-service.so
+12:/system/lib64/libmaplehwPartBasicplatformServices.so
+13:/system/lib64/libmaplehwframework.so
+14:/system/lib64/libmaplehwWifi-service.so

@@ -1,0 +1,501 @@
+<DMD2ZeroHung version="1.0" >
+  <domain dmd="926004" field="9" name="TP:9" >
+<!-- level 0 for problem which does not define-->
+<!-- level 1 for problem which should ignore, just return-->
+<!-- level 2 for problem which can block system, report with longpress powerkey event-->
+<!-- level 3 for problem which should reboot to fix, report with longpress powerkey event -->
+<!-- level 4 for problem which should update system software to fix, and will report hung event immediately-->
+<!-- level 5 for problem which should repair hardware to fix, and will report hung event immediately-->
+    <event ID="926004000" level="5" scope="hw" desc="i2c error" limit="1">   <!-- could report it to APR immediately -->
+        <action log="getkmsg">20</action>
+    </event>
+    <event ID="926004001" level="4" scope="sys" desc="FW update error" limit="1">    <!-- could report it to APR immediately -->
+        <action log="getkmsg">20</action>
+    </event>
+    <event ID="926004002" level="3" scope="sys" desc="TP rawdata error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926004003" level="3" scope="hw" desc="TP CRC error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926004004" level="3" scope="hw" desc="TP device status error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926004015" level="5" scope="hw" desc="TP esd error" limit="1">   <!-- could report it to APR immediately -->
+        <action log="getkmsg">20</action>
+    </event>
+    <event ID="926004020" level="5" scope="hw" desc="TP wakeup error" limit="1">   <!-- could report it to APR immediately -->
+        <action log="getkmsg">20</action>
+    </event>
+    <event ID="926004021" level="5" scope="hw" desc="TP ic timeout info" limit="1">  <!-- could report it to APR immediately -->
+        <action log="getkmsg">20</action>
+    </event>
+    <event ID="926004022" level="5" scope="hw" desc="TP reset failed info" limit="1">  <!-- could report it to APR immediately -->
+        <action log="getkmsg">20</action>
+    </event>
+    <event ID="926004032" level="5" scope="sys" desc="TP init error" limit="1">   <!-- could report it to APR immediately -->
+        <action log="getkmsg">20</action>
+    </event>
+    <event ID="926004033" level="1" scope="sys" desc="IC error but don't effect use" limit="1">
+    </event>
+  </domain>
+  <domain dmd="926011" field="9" name="TP:9" >
+    <event ID="926011000" level="4" scope="sys" desc="DMDERR_THP_GET_FRAMET_TIMEOUT" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011001" level="5" scope="hw" desc="DMDERR_THP_CREATE_THREAD" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011002" level="5" scope="hw" desc="DMDERR_THP_AFE_OPEN" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011003" level="1" scope="hw" desc="DMDERR_THP_AFE_GET_INFO" limit="1">
+    </event>
+    <event ID="926011004" level="5" scope="hw" desc="DMDERR_THP_AFE_GET_HW_INFO" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011005" level="2" scope="sys" desc="DMDERR_THP_TSA_CALCULATE_TIMEOUT" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011006" level="4" scope="sys" desc="DMDERR_THP_DAE_PROCESS_TIMEOUT" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011008" level="2" scope="hw" desc="DMDERR_THP_AFE_GET_FRAME" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011009" level="2" scope="hw" desc="DMDERR_THP_HARDWARE_RF_NOISE" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011010" level="2" scope="hw" desc="DMDERR_THP_HARDWARE_RAW_JUMP" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011011" level="2" scope="hw" desc="DMDERR_THP_HARDWARE_ASSERTED" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011012" level="2" scope="hw" desc="DMDERR_THP_HARDWARE_OTHERS" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011013" level="1" scope="sys" desc="DMDERR_THP_AFE_SCREENOFF" limit="1">
+    </event>
+    <event ID="926011014" level="4" scope="sys" desc="DMDERR_THP_AFE_SCREENON" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011015" level="3" scope="hw" desc="DMDERR_THP_AFE_RESET" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011016" level="1" scope="hw" desc="DMDERR_THP_AFE_SOS" limit="1">
+    </event>
+    <event ID="926011017" level="4" scope="sys" desc="DMDERR_THP_LIB_INIT" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011018" level="2" scope="sys" desc="DMDERR_THP_TSA_GHOST_TOUCH" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011019" level="2" scope="sys" desc="DMDERR_THP_SOCKET" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011020" level="4" scope="sys" desc="DMDERR_THP_OPEN_DEV" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011021" level="3" scope="sys" desc="SPI Read and Write Error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011022" level="3" scope="sys" desc="DEV STATUSERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011023" level="4" scope="hw" desc="DMDERR_THP_TSA_DETECT_HARDWARE_EXCEPTION" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011024" level="2" scope="sys" desc="DMDERR_THP_TSA_SUPER_LONG_TOUCH" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="926011025" level="2" scope="sys" desc="DMDERR_THP_ABNORMAL_START" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="922001" field="16" name="LCD:16" >
+    <event ID="922001000" level="3" scope="sys" desc="lcd underflow issue" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001001" level="5" scope="hw" desc="TE timeout" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001002" level="3" scope="sys" desc="power on ic status error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001003" level="3" scope="sys" desc="power on timeout" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001004" level="2" scope="sys" desc="pwm error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001005" level="5" scope="hw" desc="LCD_BRIGHTNESS_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001006" level="2" scope="hw" desc="ESD ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001007" level="3" scope="hw" desc="lcd happen ocp" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001008" level="5" scope="hw" desc="backlight ic ovp/ocp occur" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001009" level="1" scope="sys" desc="lcd comfort mode" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="922001010" level="3" scope="sys" desc="LCD mipi cmd tx error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001011" level="3" scope="sys" desc="LCD TE time out" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001012" level="3" scope="sys" desc="LCD status register error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001013" level="3" scope="sys" desc="MDP/GPU error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001014" level="4" scope="sys" desc="LCD OTP error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001015" level="5" scope="hw" desc="LCD brightness error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001016" level="3" scope="hw" desc="LCD mipi dsi isr error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001017" level="1" scope="sys" desc="LCD mdp isr error" limit="1">
+    </event>
+    <event ID="922001018" level="3" scope="hw" desc="LCD ESD status error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001019" level="3" scope="hw" desc="LCD ESD reset error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001020" level="3" scope="sys" desc="power on timeout" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001021" level="4" scope="sys" desc="LCD underrun error" limit="1">  <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001022" level="4" scope="sys" desc="mdss IOMMU error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001023" level="4" scope="sys" desc="mdss pipe erro" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001024" level="3" scope="sys" desc="mdss pingpong error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001025" level="4" scope="sys" desc="mdss vsp/vsn error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001026" level="4" scope="sys" desc="mdss rotator error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001027" level="4" scope="sys" desc="mdss fence error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001028" level="3" scope="sys" desc="mdss cmd stop error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001029" level="3" scope="sys" desc="mdss video display error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001030" level="3" scope="sys" desc="mdss mdp clk error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001031" level="3" scope="sys" desc="mdss mdp busy error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001032" level="4" scope="sys" desc="fb0 device is released" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001033" level="5" scope="hw" desc="btb connect error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001034" level="5" scope="hw" desc="backlight ic ocp occur" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001035" level="5" scope="hw" desc="backlight ic tsd occur" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001037" level="4" scope="sys" desc="offline compose timeout" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922001038" level="5" scope="hw" desc="vactive timeout" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="928002" field="20" name="UFS:20" >
+    <event ID="928002000" level="2" scope="hw" desc="EMMC_TUNING_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002001" level="1" scope="hw" desc="DSM_EMMC_VDET_ERR" limit="1">
+    </event>
+    <event ID="928002002" level="2" scope="hw" desc="EMMC_PRE_EOL_INFO_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002003" level="2" scope="hw" desc="EMMC_DEVICE_LIFE_TIME_EST_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002004" level="1" scope="hw" desc="DSM_EMMC_ERASE_ERR" limit="1">
+    </event>
+    <event ID="928002005" level="1" scope="hw" desc="DSM_EMMC_SEND_CXD_ERR" limit="1">
+    </event>
+    <event ID="928002006" level="1" scope="hw" desc="system partition write error" limit="1">
+    </event>
+    <event ID="928002007" level="2" scope="hw" desc="EMMC_TUNING_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002008" level="2" scope="hw" desc="EMMC_READ_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002009" level="2" scope="hw" desc="EMMC_WRITE_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002010" level="1" scope="hw" desc="DSM_SYSTEM_W_ERR" limit="1">
+    </event>
+    <event ID="928002011" level="1" scope="hw" desc="DSM_EMMC_RSP_ERR" limit="1"> 
+    </event>
+    <event ID="928002012" level="1" scope="hw" desc="DSM_EMMC_URGENT_BKOPS" limit="1"> 
+    </event>
+    <event ID="928002013" level="1" scope="hw" desc="DSM_EMMC_DYNCAP_NEEDED" limit="1">
+    </event>
+    <event ID="928002014" level="2" scope="hw" desc="DSM_EMMC_PACKED_FAILURE" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002015" level="2" scope="hw" desc="DSM_EMMC_SET_BUS_WIDTH_ERR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002016" level="2" scope="hw" desc="DSM_EMMC_HOST_ERR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002017" level="2" scope="hw" desc="emmc HOST rw timeout error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002018" level="2" scope="hw" desc="emmc system resources pool exhausted" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002019" level="2" scope="hw" desc="emmc cache flush timeout" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002020" level="5" scope="hw" desc="EMMC_INIT_ERROR" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002021" level="3" scope="hw" desc="EMMC_DATA0_BUSY_ERROR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002022" level="1" scope="hw" desc="EMMC_THROUGHPUT_MONITOR_ERROR" limit="1">
+    </event>
+    <event ID="928002023" level="3" scope="hw" desc="DSM_STORAGE_EXT4_ERROR_NO" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002024" level="3" scope="hw" desc="DSM_EMMC_RW_TIMEOUT_ERR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002025" level="2" scope="hw" desc="DSM_EMMC_SYSPOOL_EXHAUSTED" limit="1"> <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002026" level="2" scope="hw" desc="emmc cache flush error" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928002027" level="1" scope="hw" desc="Micron Manual BKOPS Started err" limit="1">
+    </event>
+    <event ID="928002028" level="1" scope="hw" desc="Micron Manual BKOPS Started Success" limit="1">
+	</event>
+    <event ID="928002029" level="2" scope="hw" desc="Micron Manual BKOPS Stoped err" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="928003" field="20" name="UFS:20" >
+    <event ID="928003000" level="2" scope="sys" desc="general error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928003001" level="2" scope="sys" desc="inode error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928003002" level="2" scope="sys" desc="fail error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928003003" level="2" scope="sys" desc="read superblock error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928003004" level="2" scope="sys" desc="read and backup superblock error" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928003005" level="2" scope="sys" desc="write superblock error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928003006" level="1" scope="sys" desc="repair message" limit="1">
+    </event>
+    <event ID="928003007" level="2" scope="sys" desc="delete key file error" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="928005" field="20" name="UFS:20" >
+    <event ID="928005000" level="2" scope="sys" desc="delete linchpin files" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="928005001" level="2" scope="sys" desc="F2FS superblock error" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+  </domain>
+  <domain dmd="928008" field="20" name="UFS:20" >
+    <event ID="928008000" level="2" scope="hw" desc="UFS_FASTBOOT_PWMODE_CHANGE_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008001" level="2" scope="hw" desc="UFS_FASTBOOT_RW_ERR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008002" level="2" scope="hw" desc="UFS_SYSBUS_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008003" level="1" scope="hw" desc="UFS_UIC_TRANSFER_ERROR" limit="1">
+    </event>
+    <event ID="928008004" level="2" scope="hw" desc="UFS_UIC_CMD_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008005" level="2" scope="hw" desc="UFS_CONTROLLER_ERROR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008006" level="3" scope="hw" desc="UFS_DEVICE_ERROR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008007" level="5" scope="hw" desc="UFS_TIMEOUT_ERR" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008008" level="2" scope="hw" desc="UFS_UTP_TRANS_ERR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008009" level="2" scope="hw" desc="UFS_SCSI_CMD_ERR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008010" level="2" scope="hw" desc="UFS_VOLT_GPIO_ERR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008011" level="2" scope="hw" desc="UFS_LINKUP_ERR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008012" level="2" scope="hw" desc="UFS_ENTER_OR_EXIT_H8_ERR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008013" level="1" scope="hw" desc="UFS_LIFETIME_EXCCED_ERR" limit="1">
+    </event>
+    <event ID="928008014" level="2" scope="hw" desc="UFS_TIMEOUT_SERIOUS" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008015" level="2" scope="hw" desc="UFS_DEV_INTERNEL_ERR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008016" level="2" scope="hw" desc="UFS_INTER_INFO_ABNORMAL" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008017" level="2" scope="hw" desc="UFS_INLINE_CRYPTO_ERR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008018" level="2" scope="hw" desc="UFS_HARDWARE_ERR" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008019" level="2" scope="hw" desc="UFS_LINE_RESET_ERR" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="928008020" level="1" scope="hw" desc="UFS_HEALTH_INFO" limit="1">
+    </event>
+    <event ID="928008021" level="2" scope="hw" desc="UFS_HI8161_FSR_INFO" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="928009" field="20" name="UFS:20" >
+    <event ID="928009000" level="3" scope="sys" desc="fsck.f2fs check disk's error" limit="1">   <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="922002" field="13" name="GPU:13" >
+    <event ID="922002000" level="3" scope="sys" desc="gpu job fail" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922002001" level="4" scope="sys" desc="gpu page fault error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922002004" level="4" scope="sys" desc="gpu soft-reset fail" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="922002005" level="4" scope="sys" desc="gpu hard-reset fail" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="927001" field="27" name="CAM:27" >
+    <event ID="927001000" level="5" scope="hw" desc="csi mipi0 error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="927001001" level="5" scope="hw" desc="csi mipi1 error" limit="1">   <!-- could report it to APR immediately -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+  <domain dmd="927003" field="27" name="CAM:27" >
+    <event ID="927003000" level="2" scope="sys" desc="Camera server crash" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003001" level="2" scope="sys" desc="Camera buffer stuck" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003002" level="2" scope="sys" desc="Camera meta stuck" limit="1">  <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003003" level="2" scope="sys" desc="Camera buffer stream off fail" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003004" level="2" scope="sys" desc="Camera meta stream off fail" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003005" level="2" scope="sys" desc="Camera encoder open fail" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003006" level="2" scope="sys" desc="Camera encoder process fail" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003007" level="2" scope="sys" desc="Camera encoder close fail" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003008" level="2" scope="sys" desc="Send rpmsg to HISP error" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003009" level="2" scope="sys" desc="Back Main Camera MatchId Error" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003010" level="2" scope="sys" desc="Check Point Timeout" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003011" level="2" scope="sys" desc="process request timeout" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003012" level="2" scope="sys" desc="wait room timeout" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003013" level="2" scope="sys" desc="cp4msg timeout" limit="1"> <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003014" level="2" scope="sys" desc="flush timeout" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003015" level="2" scope="sys" desc="start streaming timeout" limit="1">  <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003016" level="2" scope="sys" desc="stop streaming timeout" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003017" level="2" scope="sys" desc="cp4merge buf timeout" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003019" level="1" scope="sys" desc="Fore camera OTP checksum Fail" limit="1">
+    </event>
+    <event ID="927003020" level="2" scope="sys" desc="load camera so fail" limit="1">   <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003021" level="2" scope="sys" desc="Front Camera MatchId Error" limit="1">  <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003022" level="1" scope="sys" desc="Back event Camera MatchId Error" limit="1">
+    </event>
+    <event ID="927003023" level="2" scope="sys" desc="Lock DDR or CPU Frequence error" limit="1">  <!-- powerkey longpress 10s -->
+    </event>
+    <event ID="927003024" level="1" scope="sys" desc="Rear camera OTP checksum Fail" limit="1">
+    </event>
+  </domain>
+  <domain dmd="927010" field="27" name="CAM:27" >
+    <event ID="927010000" level="3" scope="hw" desc="camera pmic i2c error" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="927010001" level="3" scope="sys" desc="camera pmic enable error" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="927010002" level="3" scope="hw" desc="camera pmic over current error" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="927010003" level="3" scope="hw" desc="camera pmic thermal shutdown error" limit="1">  <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+    <event ID="927010004" level="3" scope="hw" desc="camera pmic under voltage lockout error" limit="1"> <!-- powerkey longpress 10s -->
+		<action log="getkmsg">20</action>
+    </event>
+  </domain>
+</DMD2ZeroHung>

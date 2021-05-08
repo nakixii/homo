@@ -1,0 +1,7 @@
+on boot
+    start netmanager
+
+service netmanager /system/bin/sa_main /system/profile/netmanager.xml
+    user system
+    group system shell
+    seclabel u:r:netmanager:s0

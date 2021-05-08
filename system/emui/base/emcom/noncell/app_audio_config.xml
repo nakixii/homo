@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appAudioConfig xmlns:android="http://schemas.android.com/apk/res/android"
+    version="1.0.11"
+    date="20201204">
+    <appAudioItem
+        deviceType = "phone"
+        playMode = "2"
+        startDelayTimeMs = "80"
+        startDelayBufferSize = "8"
+        playBufferSizeMax = "8"
+        audioToVideoSyncOffsetMs = "0">
+        <appFilter packageName="com.youku.phone"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "phone"
+        playMode = "2"
+        startDelayTimeMs = "100"
+        startDelayBufferSize = "10"
+        playBufferSizeMax = "10"
+        audioToVideoSyncOffsetMs = "0">
+        <appFilter packageName="tv.danmaku.bili"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "phone"
+        playMode = "2"
+        startDelayTimeMs = "200"
+        startDelayBufferSize = "20"
+        playBufferSizeMax = "20"
+        audioToVideoSyncOffsetMs = "55">
+        <appFilter packageName="com.huawei.himovie"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "phone"
+        playMode = "1"
+        startDelayTimeMs = "500"
+        startDelayBufferSize = "50"
+        playBufferSizeMax = "50"
+        audioToVideoSyncOffsetMs = "0">
+        <appFilter packageName="com.huawei.music"></appFilter>
+        <appFilter packageName="com.netease.cloudmusic"></appFilter>
+        <appFilter packageName="com.kugou.android"></appFilter>
+        <appFilter packageName="com.ximalaya.ting.android"></appFilter>
+        <appFilter apptype="7"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "phone"
+        playMode = "2"
+        startDelayTimeMs = "200"
+        startDelayBufferSize = "20"
+        playBufferSizeMax = "20"
+        audioToVideoSyncOffsetMs = "0">
+        <appFilter packageName="com.qiyi.video"></appFilter>
+        <appFilter packageName="com.tencent.qqlive"></appFilter>
+        <appFilter packageName="com.sohu.sohuvideo"></appFilter>
+        <appFilter packageName="com.ss.android.ugc.aweme"></appFilter>
+        <appFilter packageName="com.ss.android.ugc.aweme.lite"></appFilter>
+        <appFilter apptype="8"></appFilter>
+        <appFilter apptype="36"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "phone"
+        playMode = "3"
+        startDelayTimeMs = "40"
+        startDelayBufferSize = "4"
+        playBufferSizeMax = "4"
+        audioToVideoSyncOffsetMs = "0">
+        <appFilter packageName="com.tencent.tmgp.sgame"></appFilter>
+        <appFilter packageName="com.tencent.tmgp.pubgmhd"></appFilter>
+        <appFilter apptype="9"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "phone"
+        playMode = "1"
+        default = "true"
+        startDelayTimeMs = "500"
+        startDelayBufferSize = "50"
+        playBufferSizeMax = "50"
+        audioToVideoSyncOffsetMs = "0">
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "tv"
+        playMode = "1"
+        startDelayTimeMs = "320"
+        startDelayBufferSize = "32"
+        playBufferSizeMax = "32"
+        audioToVideoSyncOffsetMs = "0">
+        <appFilter packageName="com.huawei.music.bigscreen"></appFilter>
+        <appFilter apptype="7"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "tv"
+        playMode = "2"
+        startDelayTimeMs = "160"
+        startDelayBufferSize = "16"
+        playBufferSizeMax = "16"
+        audioToVideoSyncOffsetMs = "60">
+        <appFilter packageName="com.huawei.himovie.tv"></appFilter>
+        <appFilter packageName="com.huawei.ohos.tvplayer"></appFilter>
+        <appFilter packageName="com.huawei.tvplayer"></appFilter>
+        <appFilter apptype="8"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "tv"
+        playMode = "1"
+        default = "true"
+        startDelayTimeMs = "320"
+        startDelayBufferSize = "32"
+        playBufferSizeMax = "32"
+        audioToVideoSyncOffsetMs = "0">
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "tv"
+        playMode = "4"
+        startDelayTimeMs = "100"
+        startDelayBufferSize = "10"
+        playBufferSizeMax = "10"
+        audioToVideoSyncOffsetMs = "0">
+        <appFilter packageName="com.hisilicon.miracast"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "tv"
+        playMode = "5"
+        startDelayTimeMs = "320"
+        startDelayBufferSize = "32"
+        playBufferSizeMax = "32"
+        audioToVideoSyncOffsetMs = "80">
+        <appFilter packageName="com.hisilicon.dlna.dmr"></appFilter>
+    </appAudioItem>
+    <appAudioItem
+        deviceType = "tv"
+        playMode = "2"
+        startDelayTimeMs = "320"
+        startDelayBufferSize = "32"
+        playBufferSizeMax = "32"
+        audioToVideoSyncOffsetMs = "80">
+        <appFilter packageName="com.huawei.mediacenter"></appFilter>
+    </appAudioItem>
+</appAudioConfig>

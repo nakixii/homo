@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- VDF DE -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="5" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+        <!--GOOGLE RCS, used by Google apk CarrierService-->
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+        <carrier_config spn="null">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <carrier_config spn="voda.*">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021505517152   262021505518151  -->
+        <carrier_config imsi="26202150551((715[2-9])|(71[6-9]\d)|(7[2-9]\d{2})|(80\d{2})|(81[0-4]\d)|(815[0-1]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021605721605   262021605722104  -->
+        <carrier_config imsi="26202160572((160[5-9])|(16[1-9]\d)|(1[7-9]\d{2})|(20\d{2})|(210[0-4]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021704060033   262021704075032  -->
+        <carrier_config imsi="2620217040((6003[3-9])|(600[4-9]\d)|(60[1-9]\d{2})|(6[1-9]\d{3})|(7[0-4]\d{3})|(750[0-2]\d)|(7503[0-2]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021705178075   262021705185574  -->
+        <carrier_config imsi="2620217051((7807[5-9])|(780[8-9]\d)|(78[1-9]\d{2})|(79\d{3})|(8[0-4]\d{3})|(85[0-4]\d{2})|(855[0-6]\d)|(8557[0-4]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021706006477   262021706046476  -->
+        <carrier_config imsi="2620217060((0647[7-9])|(064[8-9]\d)|(06[5-9]\d{2})|(0[7-9]\d{3})|([1-3]\d{4})|(4[0-5]\d{3})|(46[0-3]\d{2})|(464[0-6]\d)|(4647[0-6]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021913520022   262021914085021  -->
+        <carrier_config imsi="26202191((352002[2-9])|(35200[3-9]\d)|(3520[1-9]\d{2})|(352[1-9]\d{3})|(35[3-9]\d{4})|(3[6-9]\d{5})|(40[0-7]\d{4})|(408[0-4]\d{3})|(40850[0-1]\d)|(408502[0-1]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021914583022   262021914843021  -->
+        <carrier_config imsi="262021914((58302[2-9])|(5830[3-9]\d)|(583[1-9]\d{2})|(58[4-9]\d{3})|(59\d{4})|([6-7]\d{5})|(8[0-3]\d{4})|(84[0-2]\d{3})|(8430[0-1]\d)|(84302[0-1]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021915688022   262021915689721  -->
+        <carrier_config imsi="26202191568((802[2-9])|(80[3-9]\d)|(8[1-9]\d{2})|(9[0-6]\d{2})|(97[0-1]\d{1})|(972[0-1]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021916728922   262021916753921  -->
+        <carrier_config imsi="2620219167((2892[2-9])|(289[3-9]\d)|(29\d{3})|([3-4]\d{4})|(5[0-2]\d{3})|(53[0-8]\d{2})|(539[0-1]\d)|(5392[0-1]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+        <!--VDF_DE_26202_imsi 262021916844422   262021916869421  -->
+        <carrier_config imsi="2620219168((4442[2-9])|(444[3-9]\d)|(44[5-9]\d{2})|(4[5-9]\d{3})|(5\d{4})|(6[0-8]\d{3})|(69[0-3]\d{2})|(694[0-1]\d{1})|(6942[0-1]))">
+            <string name="huawei_rcs_enabler">false</string>
+        </carrier_config>
+</carrier_config_list>

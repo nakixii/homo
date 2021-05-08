@@ -1,0 +1,128 @@
+<config>
+  <DirectoryNode name="hw_init">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="log" >
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="media">
+	  <Param quota="0" reportTopN="10"/>
+	  <ExcludeSubPath name="0"/>
+  </DirectoryNode>
+  <DirectoryNode name="system">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="themes">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="misc">
+	  <Param quota="0" reportTopN="10"/>
+	  <ExcludeSubPath name="profiles"/>
+	  <ExcludeSubPath name="keystore"/>
+	  <ExcludeSubPath name="vold"/>
+	  <ExcludeSubPath name="incidents"/>
+	  <ExcludeSubPath name="stats-data"/>
+	  <ExcludeSubPath name="stats-service"/>
+  </DirectoryNode>
+  <DirectoryNode name="hisi_logs">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="system_de">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="backup">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="misc_ce">
+	  <Param quota="0" reportTopN="10"/>
+	  <ExcludeSubPath name="0"/>
+  </DirectoryNode>
+  <DirectoryNode name="camera">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="sec_storage_data">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="unencrypted">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="resource-cache">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="cache">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="samba_server">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="systemfeature">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="misc_de">
+	  <Param quota="0" reportTopN="10"/>
+	  <ExcludeSubPath name="0"/>
+  </DirectoryNode>
+  <DirectoryNode name="local">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="property">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="tombstones">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="app_acc">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="apkpush">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="drm">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="nfc">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="odmf">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="cota">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="bootchart">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="ota">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="ota_package">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="lost+found">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="mediadrm">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="ss">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="update">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="adb">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="sec_storage_data_users">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="OtaSave">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="samba_share">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+  <DirectoryNode name="ramdump">
+	  <Param quota="0" reportTopN="10"/>
+  </DirectoryNode>
+</config>

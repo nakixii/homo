@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <!--OOREDOO_MM 41405-->
+    <carrier_config>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!-- Volte UI -->
+    </carrier_config>
+</carrier_config_list>

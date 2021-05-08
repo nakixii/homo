@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <feature name="com.huawei.system.feature" />
+    <feature name="com.huawei.software.features.full" />
+    <feature name="com.huawei.software.features.huawei" />
+    <feature name="com.huawei.software.features.handset" />
+    <feature name="com.huawei.emui.api.23" />
+    <hwfeature name="com.huawei.emui.api.24" />
+    <hwfeature name="com.huawei.emui.api.25" />
+    <hwfeature name="com.huawei.emui.api.26" />
+    <hwfeature name="com.huawei.emui.api.27" />
+</permissions>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppClone>
+  <package name="com.tencent.mm"/>
+  <package name="com.tencent.mobileqq"/>
+  <package name="com.facebook.katana"/>
+  <package name="com.whatsapp"/>
+  <package name="jp.naver.line.android"/>
+  <package name="com.snapchat.android"/>
+  <package name="com.facebook.orca"/>
+  <package name="com.eg.android.AlipayGphone"/>
+  <package name="com.taobao.taobao"/>
+  <package name="com.sina.weibo"/>
+  <package name="com.taobao.idlefish"/>
+  <package name="com.xunmeng.pinduoduo"/>
+  <package name="com.sankuai.meituan"/>
+  <package name="com.smile.gifmaker"/>
+</AppClone>

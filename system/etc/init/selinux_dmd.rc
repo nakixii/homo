@@ -1,0 +1,18 @@
+service selinux_dmd /system/bin/selinux_dmd
+    user system
+    group system readproc
+    disabled
+    oneshot
+    seclabel u:r:selinux_dmd:s0
+
+on property:ro.logsystem.usertype=3
+    mkdir /data/log/selinux_dmd 0755 system system
+    chown system system /data/log/selinux_dmd/reported.log
+    restorecon /data/log/selinux_dmd
+    start selinux_dmd
+
+on property:ro.logsystem.usertype=5
+    mkdir /data/log/selinux_dmd 0755 system system
+    chown system system /data/log/selinux_dmd/reported.log
+    restorecon /data/log/selinux_dmd
+    start selinux_dmd

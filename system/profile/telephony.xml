@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <process>telephony</process>
+    <loadlibs>
+        <libpath>libtelephonyservice.z.so</libpath>
+    </loadlibs>
+    <systemability>
+        <name>4001</name>
+        <libpath>libtelephonyservice.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>true</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+</info>

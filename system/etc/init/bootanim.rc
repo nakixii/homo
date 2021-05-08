@@ -1,0 +1,9 @@
+service bootanim /system/bin/bootanimation
+    class core animation
+    user graphics
+# /*AR000485VL/DTS2016051710103 yexingyuan/00349481 20160517 begin*/
+    group system graphics audio
+# /*AR000485VL/DTS2016051710103 yexingyuan/00349481 20160517 end*/
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks

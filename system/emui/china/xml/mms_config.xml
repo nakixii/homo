@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mms_config>
+  <!--2020-03-09 12:05:10.0-->
+  <bool name="enableCryptoSms">true</bool>
+  <!--2020-03-09 12:05:10.0-->
+  <bool name="enableRemoteDiagnosis">true</bool>
+  <!--2020-03-09 12:05:10.0-->
+  <bool name="enableSmartSms">true</bool>
+  <!--2020-03-09 12:05:10.0-->
+  <string name="isRefreshRxNum">true</string>
+  <!--2020-03-09 12:05:10.0-->
+  <string name="remoteServiceNumStyle">1069XXXX8358</string>
+  <!--2020-03-09 12:05:10.0-->
+  <string name="remoteServiceTemplate">\u8FDC\u7A0B\u8BCA\u65AD\u9A8C\u8BC1\u7801</string>
+</mms_config>

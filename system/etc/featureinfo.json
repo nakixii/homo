@@ -1,0 +1,12 @@
+{
+  "requires": [
+    {
+      "package": "com.huawei.systemfeature.rio",
+      "version": "1.0.0",
+      "interfaces": [
+        ".HwRio",
+        ".HwRioTools"
+      ]
+    }
+  ]
+}

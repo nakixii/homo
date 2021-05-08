@@ -1,0 +1,4 @@
+service bundle_daemon /system/bin/bundle_daemon
+    user system
+    group system root sdcard_rw
+    seclabel u:r:bundle_daemon:s0

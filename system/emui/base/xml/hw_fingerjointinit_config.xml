@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<!--
+  This is the config about FingerJointInit in cust
+
+  eg:
+      <FingerJointMotion name="c" support="1" value="1" />
+           name : the switch flag(key) in settings table
+           value : The power on_off about this switch
+           support : here the support is no used
+      <FingerJointMotionPkg name="c"
+                    value="packageName;className" />
+           name : the drawLetter(C/E/M/W) flag(key) in settings table
+           value : The open-app info about drawLetter(C/E/M/W)
+-->
+<HwFingerjointMotion>
+  <FingerJointMotion name="fingersense_smartshot_enabled" support="1" value="1"/>
+  <FingerJointMotion name="fingersense_multiwindow_enabled" support="1" value="1"/>
+  <FingerJointMotion name="fingersense_letters_enabled" support="1" value="0"/>
+
+  <FingerJointMotionPkg name="persist.sys.fingerjoint.c"
+                    value="com.huawei.camera;com.huawei.camera" />
+  <FingerJointMotionPkg name="persist.sys.fingerjoint.e"
+                    value="com.android.browser;com.UCMobile.main.UCMobile" />
+  <FingerJointMotionPkg name="persist.sys.fingerjoint.m"
+                    value="com.android.mediacenter;com.android.mediacenter.PageActivity" />
+  <FingerJointMotionPkg name="persist.sys.fingerjoint.w"
+                    value="com.huawei.android.totemweather;com.huawei.android.totemweather.WeatherHome" />
+</HwFingerjointMotion>

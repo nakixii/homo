@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<preferred-activities>
+    <item name="com.android.browser/com.UCMobile.main.UCMobile">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="text/plain" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+</preferred-activities>

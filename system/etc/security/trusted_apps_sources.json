@@ -1,0 +1,24 @@
+{
+    "version": "1.0.1",
+    "release-time":"2020-07-09 21:20:00",
+    "trust-app-source":[
+        {
+            "name":"huawei app gallary",
+            "app-signing-cert":"C=CN, O=Huawei, OU=HOS AppGallery, CN=HOS AppGallery Application Release",
+            "profile-signing-certificate":"C=CN, O=Huawei, OU=HOS AppGallery, CN=HOS Profile Management",
+            "profile-debug-signing-certificate":"C=CN, O=Huawei, OU=HOS AppGallery, CN=HOS Profile Management Debug",
+            "issuer-ca":"C=CN, O=Huawei, OU=Huawei CBG, CN=Huawei CBG Software Signing Service CA",
+            "max-certs-path":3,
+            "critialcal-cert-extension":["keyusage","huawei-signing-capability"]
+        },
+        {
+            "name":"huawei system apps",
+            "app-signing-cert":"C=CN, O=Huawei CBG, OU=HOS Development Team, CN=HOS Application Provision Release",
+            "profile-signing-certificate":"C=CN, O=Huawei CBG, OU=HOS Development Team, CN=HOS Application Provision Profile Release",
+            "profile-debug-signing-certificate":"C=CN, O=Huawei CBG, OU=HOS Development Team, CN=HOS Application Provision Profile Release_Debug",
+            "issuer-ca":"C=CN, O=Huawei, OU=Huawei CBG, CN=Huawei CBG Software Signing Service CA",
+            "max-certs-path":3,
+            "critialcal-cert-extension":["keyusage","huawei-signing-capability"]
+        }
+   ]
+}

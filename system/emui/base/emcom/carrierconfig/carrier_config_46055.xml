@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vowifi_mmsut_swtich" value="false" />
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="vowifiHplmnListItem">46055, 193.254.140.39</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES192_CBC, RCT_ALG_AES128_CBC, RCT_ALG_DES3_CBC, RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1, RCT_ALG_HMAC_MD5, RCT_ALG_AES_XCBC, RCT_ALG_HMAC_SHA2_256, RCT_ALG_HMAC_SHA2_384, RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1, RCT_ALG_HMAC_MD5, RCT_ALG_AES_XCBC, RCT_ALG_HMAC_SHA2_256, RCT_ALG_HMAC_SHA2_384, RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024, RCT_ALG_MODP1536, RCT_ALG_MODP2048, RCT_ALG_MODP3072, RCT_ALG_MODP4096, RCT_ALG_MODP6144, RCT_ALG_MODP8192, RCT_ALG_MODP768</string>
+        <string name="Ikev2AuthMethod">RCT_ALG_PSK</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC, RCT_ALG_AES256_CBC, RCT_ALG_DES3_CBC, RCT_ALG_AES192_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1, RCT_ALG_HMAC_MD5, RCT_ALG_AES_XCBC, RCT_ALG_HMAC_SHA2_256, RCT_ALG_HMAC_SHA2_384, RCT_ALG_HMAC_SHA2_512</string>
+    </carrier_config>
+</carrier_config_list>

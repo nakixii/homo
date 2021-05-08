@@ -1,0 +1,4 @@
+version=1.11.20.100
+type=iGraphicsPara
+subtype=generic
+compatibleVersion=1

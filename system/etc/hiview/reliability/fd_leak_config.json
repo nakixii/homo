@@ -1,0 +1,28 @@
+{
+    "FileDescriptorLeak": {
+        "enable": true,
+        "threshold": 5000,
+        "upload_interval": 36000,
+        "dump_time" : 60,
+        "stack_config" : {
+            "dmabuf" : {
+                "threshold": 1000,
+                "probe_cnt" : 3,
+                "dump_window" : true,
+                "path" : "/dmabuf"
+            },
+            "socket" : {
+                "threshold": 1000,
+                "probe_cnt" : 2,
+                "dump_window" : true,
+                "path" : "socket"
+            },
+            "pipe" : {
+                "threshold": 1000,
+                "probe_cnt" : 2,
+                "dump_window" : false,
+                "path" : "pipe"
+            }
+        }
+    }
+}

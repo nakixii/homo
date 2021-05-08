@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 后续新增白名单需要修改版本号 -->
+<certificate_config version="001.003">
+    <finger_printer_list>
+        <!-- cn.wps.moffice_eng -->
+        <SHA256>64:39:90:87:8D:3C:A8:39:52:A5:BE:5F:3E:58:D9:F8:BB:6C:DC:57:BF:0F:22:87:00:21:20:71:C6:8D:B3:D7</SHA256>
+        <!-- com.android.gallery3d -->
+        <SHA256>50:78:7D:FF:85:7C:CC:74:23:35:2C:52:73:27:5A:D1:4B:21:F2:B9:77:CA:3C:12:4C:F4:68:4C:1A:9B:C0:5C</SHA256>
+        <!-- com.huawei.photos -->
+        <SHA256>AB:6F:C1:7D:A5:E9:34:1A:D6:43:D7:11:F6:4C:4C:76:37:99:CC:8D:11:79:11:70:69:2F:B7:94:2C:71:49:A6</SHA256>
+        <!-- com.android.mediacenter (Huawei music old), com.huawei.himovie, com.huawei.health -->
+        <SHA256>B9:28:25:C2:BD:5D:6D:6D:1E:7F:39:EE:CD:17:84:3B:7D:90:16:F6:11:13:6B:75:44:1B:C6:F4:D3:F0:0F:05</SHA256>
+        <!-- com.huawei.music (Huawei music new) -->
+        <SHA256>3E:13:F6:30:C7:76:18:DE:3A:58:0D:BB:AF:FE:0A:C0:4A:16:44:46:33:CC:02:53:AF:B0:88:D3:E3:AB:6E:FE</SHA256>
+        <!-- com.tencent.qqlivehuawei -->
+        <SHA256>94:51:92:06:E8:82:3C:63:73:DD:79:98:F4:ED:DC:4C:71:7C:6B:BD:D8:F1:02:76:6D:F7:EF:E7:7A:35:C5:6A</SHA256>
+        <!-- com.youku.phone -->
+        <SHA256>C7:DF:D1:9F:81:99:B8:06:15:EA:6E:70:AB:46:F8:5D:87:F3:6A:F2:65:01:F4:E0:2D:5C:2C:BA:85:E8:02:FB</SHA256>
+        <!-- emui9 system cert -->
+        <SHA256>1E:3E:EE:2A:88:A6:DF:75:FB:4A:F5:6A:DC:83:73:BB:81:8F:3C:B9:0A:49:35:C7:82:15:82:B8:CE:BB:69:4C</SHA256>
+        <!-- emui10 system cert, FrameworkTestAddonCommunication -->
+        <SHA256>35:17:26:22:15:D8:D3:00:8C:BF:88:87:50:B6:41:8E:DC:4D:56:2A:C3:3E:D6:87:4E:0D:73:AB:A6:67:BC:3C</SHA256>
+        <!-- emui11 system cert, FrameworkTestAddonCommunication -->
+        <SHA256>60:3A:C6:A5:7E:20:23:E0:0C:9C:93:BB:53:9C:A6:53:DF:30:03:EB:A4:E9:2E:A1:90:4B:A4:AA:A5:D9:38:F0</SHA256>
+        <!-- com.huawei.hdpartner (smart home) cert -->
+        <SHA256>E5:59:77:EA:94:EF:F5:38:74:4F:93:30:1A:1F:8B:50:15:C8:C5:75:FE:36:B7:6B:9C:B4:90:27:91:AD:CC:A4</SHA256>
+    </finger_printer_list>
+</certificate_config>

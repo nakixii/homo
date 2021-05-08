@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<collectorhub>
+  <name>BootEventSource</name>
+  <product>all</product>
+  <platform>hisi</platform>
+  <checkPoints>/log/reliability/boot_fail/</checkPoints>
+  <dynamicPaths>bootFail_info.txt,critical_process_crash.txt,fastboot_log,framework_boot_fail.log,last_kmsg,recovery_info.txt,pmsg-ramoops-0,applogcat-log.gz,hiapplogcat-log.gz,last_kmsg.android.gz,kmsg.log,lk.log,sbl1.log,db.fatal.dbg,tombstone_,system_server_watchdog@,system_server_crash@</dynamicPaths>
+  <collectors>
+    <collector>
+      <name>BootCollector</name>
+      <eventID>901005000</eventID>
+      <dynamicPaths>None</dynamicPaths>
+      <matchKeys>None</matchKeys>
+    </collector>
+  </collectors>
+</collectorhub>

@@ -1,0 +1,6 @@
+libhilog_ndk.z.so
+libzgraphic.z.so
+librawfile.z.so
+libsensors.z.so
+libeventhandler_native.z.so
+libimage_pixelmap.z.so

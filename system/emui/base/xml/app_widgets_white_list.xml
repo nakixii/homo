@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<widgets xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+
+    <widget launcher:className="com.android.alarmclock.AnalogAppWidgetProvider" />
+    <widget launcher:className="com.android.browser.widget.BookmarkThumbnailWidgetProvider" />
+    <widget launcher:className="com.android.calendar.widget.CalendarAppWidgetProvider" />
+    <widget launcher:className="com.android.contacts.gridwidget.ContactWidgetProvider" />
+    <widget launcher:className="com.android.easou.search.SearchWidgetProvider" />
+    <widget launcher:className="com.android.email.provider.WidgetProvider" />
+    <widget launcher:className="com.android.mediacenter.MediaAppWidgetProvider" />
+    <widget launcher:className="com.android.protips.ProtipWidget" />
+    <widget launcher:className="com.android.providers.calendar.CalendarAppWidgetProvider" />
+    <widget launcher:className="com.android.quicksearchbox.SearchWidgetProvider" />
+    <widget launcher:className="com.android.settings.widget.SettingsAppWidgetProvider" />
+    <widget launcher:className="com.android.systemui.powersaving.PowerSavingModeProvider" />
+    <widget launcher:className="com.android.vending.MarketWidgetProvider" />
+    <widget launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider" />
+    <widget launcher:className="com.huawei.android.calendarwidget.CalendarAppWidgetProvider" />
+    <widget launcher:className="com.huawei.android.dsm.notepad.widget.BreviaryWidget" />
+    <widget launcher:className="com.huawei.android.dsm.notepad.widget.DetailWidget" />
+    <widget launcher:className="com.huawei.android.FMRadio.FMRadioWidget" />
+    <widget launcher:className="com.mediatek.FMRadio.FMRadioWidget" />
+    <widget launcher:className="com.huawei.android.wifimanager.WiFiManagerWidget" />
+    <widget launcher:className="com.huawei.android.myrichpad.MyMemoAppWidgetProvider" />
+    <widget launcher:className="com.huawei.android.mewidget.MeWidgetProviderBig" />
+    <widget launcher:className="com.huawei.android.totemweatherwidget.simplewidget.SimpleWidgetWeatherProvider" />
+    <widget launcher:className="com.huawei.android.totemweather.widget.WeatherMediumWidgetProvider" />
+    <widget launcher:className="com.huawei.android.totemweather.widget.WeatherTransWidgetProvider" />
+    <widget launcher:className="com.huawei.socialext.listwidget.MultiSNSWidgetProvider" />
+    <widget launcher:className="com.huawei.wifihotspot.HotspotMediumWidgetProvider" />
+    <widget launcher:className="com.sina.mfweibo.WeiboWidgetProvider" />
+    <widget launcher:className="com.youdao.dict.appwidget.DictWidgetProvider" />
+    <widget launcher:className="com.android.quicksearchbox" />
+    <widget launcher:className="com.huawei.android.widgetunit.weather.WeatherProvider2x1" />
+    <widget launcher:className="com.huawei.android.widgetunit.weather.WeatherProvider4x1" />
+    <widget launcher:className="com.huawei.android.widgetunit.weather.WeatherProvider2x2" />
+    <widget launcher:className="com.huawei.android.widgetunit.clock.ClockProvider" />
+    <widget launcher:className="com.huawei.android.widgetunit.music.MusicProviderBig" />
+    <widget launcher:className="com.huawei.android.widgetunit.music.MusicProviderSmall" />
+    <widget launcher:className="com.huawei.android.widgetunit.photo.GalleryProvider" />
+    <widget launcher:className="com.huawei.android.widgetunit.photo.GalleryProvider5x1" />
+    <widget launcher:className="com.huawei.android.widgetunit.contact.ContactUnitProvider" />
+    <widget launcher:className="com.sohu.sohuvideo.mewidget.HwAppMeWidgetProvider_2x2" />
+    <widget launcher:className="com.hw.sohu.newsclient.app.widget.WidgetProvider_2x2" />
+    <widget launcher:className="com.hw.sohu.newsclient.app.widget.WidgetProvider_4x1" />
+    <widget launcher:className="com.hw.sohu.newsclient.db.WidgetNewsWallProvider" />
+    <widget launcher:className="com.huawei.android.tencent.news.NewsProvider_4x1" />
+    <widget launcher:className="com.huawei.android.tencent.news.NewsProvider_2x2" />
+    <widget launcher:className="com.huawei.android.netease.news.NewsProvider_4x1" />
+    <widget launcher:className="com.huawei.android.netease.news.NewsProvider_2x2" />
+    <widget launcher:className="com.huawei.android.launcher.widget.OneKeyCleanWidget" />
+    <widget launcher:className="com.android.alarmclock.DigitalClockAppWidgetProvider" />
+    <widget launcher:className="cn.wps.widget.MofficeAppWidgetProvider_4x2" />
+    <widget launcher:className="com.huawei.android.widgetunit.weather.LvyWeatherProvider4x2" />
+    
+    <widget launcher:className="com.huawei.android.totemweatherwidget.huaweiwidget.HuaweiWidgetWeatherProvider" />
+    <widget launcher:className="com.android.gallery3d.gadget.PhotoAppWidgetProvider" />
+    <widget launcher:className="com.android.mediacenter.localmusic.MediaAppWidgetProvider" />
+    <widget launcher:className="com.android.alarmclock.DigitalClockAppWidgetProvider" />
+    <widget launcher:className="com.android.contacts.gridwidget.ContactWidgetProvider" />
+    <widget launcher:className="com.android.calendar.mycalendar.CalendarAppWidgetProvider" />
+    <widget launcher:className="com.android.email.provider.WidgetProvider" />
+    <widget launcher:className="com.example.android.notepad.widget.NotesWidgetProvider" />
+    <widget launcher:className="com.android.alarmclock.AnalogAppWidgetProvider" />
+    <widget launcher:className="com.android.contacts.peoplewidget.ContactUnitProvider" />
+    <widget launcher:className="com.huawei.android.dualcardwidget.DSDSAppWidgetProvider" />
+    
+    <widget launcher:className="com.huawei.android.totemweatherwidget.mulanwidget.MulanWidgetWeatherProvider" />
+    
+    <widget launcher:className="com.baidu.searchbox.widget.TransSearchWidgetProvider" />
+    
+    <widget launcher:className="com.huawei.android.totemweather.widget.huaweiwidget.HuaweiWidgetWeatherProvider" />
+    <widget launcher:className="com.huawei.android.totemweather.widget.mulanwidget.MulanWidgetWeatherProvider" />
+    <widget launcher:className="com.huawei.android.totemweather.widget.simplewidget.SimpleWidgetWeatherProvider" />
+    <widget launcher:className="com.huawei.android.totemweather.widget.honorwidget.HonorWidgetWeatherProvider" />
+    <widget launcher:className="com.huawei.android.totemweather.widget.aodwidget.AodWidgetWeatherProvider" />
+</widgets>

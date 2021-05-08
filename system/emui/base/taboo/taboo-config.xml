@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taboo>
+    <item name="regions" value="TW,HK,MO"/>
+    <item name="taboo_black_lang_r_all" value="*_EH,*_XK"/>
+    <item name="taboo_black_lang_r_meafnaf" value="*_EH,*_XK,*_IL"/>
+</taboo>

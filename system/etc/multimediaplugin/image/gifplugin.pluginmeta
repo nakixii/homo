@@ -1,0 +1,25 @@
+{
+  "packageName":"LibGifPlugin",
+  "version":"1.0.0.0",
+  "targetVersion":"1.0.0.0",
+  "libraryPath":"libgifplugin.z.so",
+  "classes": [
+    {
+      "className":"OHOS::ImagePlugin::GifDecoder",
+      "services": [
+        {
+          "interfaceID":2,
+          "serviceType":0
+        }
+      ],
+      "priority":100,
+      "capabilities": [
+        {
+          "name":"encodeFormat",
+          "type":"string",
+          "value": "image/gif"
+        }
+      ]
+    }
+  ]
+}

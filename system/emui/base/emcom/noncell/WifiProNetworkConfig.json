@@ -1,0 +1,188 @@
+{
+    "APKInfo": [
+        {
+            "PackageName": "com.supercell.clashofclans.huawei"
+        },
+        {
+            "PackageName": "com.supercell.clashofclans.kunlun"
+        },
+        {
+            "PackageName": "com.huawei.appmarket"
+        },
+        {
+            "PackageName": "com.xunlei.downloadprovider"
+        },
+        {
+            "PackageName": "com.flash.download"
+        },
+        {
+            "PackageName": "com.cn21.ecloud"
+        },
+        {
+            "PackageName": "com.baidu.netdisk"
+        },
+        {
+            "PackageName": "org.zwanoo.android.speedtest"
+        },
+        {
+            "PackageName": "com.wandoujia.phoenix2"
+        },
+        {
+            "PackageName": "com.cs.smartlabor"
+        },
+        {
+            "PackageName": "com.tencent.android.qqdownloader"
+        },
+        {
+            "PackageName": "com.huawei.betaclub"
+        },
+        {
+            "PackageName": "com.blizzard.wtcg.hearthstone.cn.huawei"
+        },
+        {
+            "PackageName": "com.blizzard.wtcg.hearthstone"
+        },
+        {
+            "PackageName": "com.huawei.android.hwouc"
+        },
+        {
+            "PackageName": "cmb.pb"
+        }
+    ],
+    "APKInfoExtern": [
+        {
+            "PackageName": "com.huawei.himovie"
+        },
+        {
+            "PackageName": "com.qiyi.video"
+        },
+        {
+            "PackageName": "com.tencent.qqlive"
+        },
+        {
+            "PackageName": "com.youku.phone"
+        },
+        {
+            "PackageName": "com.huawei.hwvplayer.youku"
+        },
+        {
+            "PackageName": "tv.danmaku.bili"
+        },
+        {
+            "PackageName": "com.tencent.qqsports"
+        },
+        {
+            "PackageName": "com.babycloud.hanju"
+        },
+        {
+            "PackageName": "com.renren.meiju"
+        },
+        {
+            "PackageName": "com.taptap"
+        },
+        {
+            "PackageName": "cn.cntv"
+        },
+        {
+            "PackageName": "com.sohu.sohuvideo"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.sgame"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.pubgmhd"
+        },
+        {
+            "PackageName": "com.huawei.gamebox"
+        },
+        {
+            "PackageName": "com.happyelements.AndroidAnimal"
+        },
+        {
+            "PackageName": "com.qqgame.hlddz"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.speedmobile"
+        },
+        {
+            "PackageName": "com.tencent.gamehelper.smoba"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.cf"
+        },
+        {
+            "PackageName": "com.qqgame.happymj"
+        },
+        {
+            "PackageName": "cn.jj"
+        },
+        {
+            "PackageName": "com.tencent.peng"
+        },
+        {
+            "PackageName": "com.mfp.jelly.huawei"
+        },
+        {
+            "PackageName": "com.minitech.miniworld.huawei"
+        },
+        {
+            "PackageName": "com.netease.mc.huawei"
+        },
+        {
+            "PackageName": "com.qileyx.ddz.huawei"
+        },
+        {
+            "PackageName": "com.tencent.qqgame.xq"
+        },
+        {
+            "PackageName": "org.xinkb.blackboard.android"
+        },
+        {
+            "PackageName": "com.wepie.snake.huawei"
+        },
+        {
+            "PackageName": "com.ks.kaishustory"
+        },
+        {
+            "PackageName": "yuanqiqishi.game.huawei"
+        },
+        {
+            "PackageName": "com.tencent.KiHan"
+        },
+        {
+            "PackageName": "com.outfit7.talkingtomgoldrun.HUAWEI"
+        },
+        {
+            "PackageName": "com.netease.dwrg.huawei"
+        },
+        {
+            "PackageName": "com.zengame.zrttddz.HUAWEI"
+        },
+        {
+            "PackageName": "com.m4399.gamecenter"
+        },
+        {
+            "PackageName": "com.popcap.pvz2cthdhwct"
+        },
+        {
+            "PackageName": "com.tencent.tgp"
+        },
+        {
+            "PackageName": "com.babeltime.legendstd.huawei"
+        },
+        {
+            "PackageName": "com.jedigames.p20.huawei"
+        },
+        {
+            "PackageName": "com.ss.android.article.video"
+        },
+        {
+            "PackageName": "com.duowan.kiwi"
+        },
+        {
+            "PackageName": "air.tv.douyu.android"
+        }
+    ],
+    "MpLinkSwitch": 1,
+    "WifiProSwich": 1
+}

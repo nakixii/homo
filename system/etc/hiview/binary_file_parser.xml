@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BinParseres>
+    <BinParser tag="Dubai" fileName="dubai-[\d|-]+\.db">com.android.server.dubai.DubaiDbParser</BinParser>
+</BinParseres>

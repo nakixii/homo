@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- VDF ES -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <int name="smsToMmsTextThreshold" value="5" />
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+        <boolean name="csp_enabled_bool" value="true" />
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value=""/>
+        </string-array>
+    </carrier_config>
+    <carrier_config spn="null">
+        <string name="huawei_rcs_enabler">false</string>
+    </carrier_config>
+    <carrier_config spn="voda.*">
+        <string name="huawei_rcs_enabler">false</string>
+    </carrier_config>
+</carrier_config_list>

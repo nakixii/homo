@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HwEasyWakeUpMotion>
+  <EasyWakeUpMotion name="Cover_Screen" support="0" value="0" flag="11" keycode="142"/>
+  <EasyWakeUpMotion name="Double_Touch" support="1" value="1" flag="0" keycode="131"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Flick_ALL" support="0" value="0" flag="14" keycode="-1"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Flick_Right" support="0" value="0" flag="1" keycode="-1"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Flick_left" support="0" value="0" flag="2" keycode="-1"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Flick_Down" support="0" value="0" flag="3" keycode="-1"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Flick_Up" support="0" value="0" flag="4" keycode="-1"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Letter_ALL" support="0" value="0" flag="13" keycode="-1"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Letter_O" support="0" value="0" flag="5" keycode="-1"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Letter_C" support="0" value="1" flag="7" keycode="138"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Letter_E" support="0" value="1" flag="8" keycode="139"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Letter_M" support="0" value="1" flag="9" keycode="140"/>
+  <EasyWakeUpMotion name="EasyWakeUp_Letter_W" support="0" value="1" flag="10" keycode="141"/>
+  <MaxKeyCode name="MaxKeyCode" value="142"/>
+  <MinKeyCode name="MinKeyCode" value="131"/>
+  <DriverFileLength name="DriverFileLength" value="16"/>
+  <DriverPostionPath name="DriverPostionPath" value="/sys/touchscreen/easy_wakeup_position"/>
+  <DriverGesturePath name="DriverGesturePath" value="/sys/touchscreen/easy_wakeup_gesture"/>
+  <DriverControlPath name="DriverControlPath" value="/sys/touchscreen/easy_wakeup_control"/>
+  <SensorNear name="SensorNear" value="0"/>
+  <SensorFar name="SensorFar" value="5"/>
+</HwEasyWakeUpMotion>

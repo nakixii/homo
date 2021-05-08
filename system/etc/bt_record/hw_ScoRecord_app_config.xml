@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <whiteapp
+        name="YY"
+        package="com.duowan.mobile" />
+    <whiteapp
+        name="斗鱼直播"
+        package="air.tv.douyu.android" />
+    <whiteapp
+        name="虎牙助手"
+        package="com.duowan.live" />
+    <whiteapp
+        name="花椒直播"
+        package="com.huajiao" />
+    <whiteapp
+        name="映客"
+        package="com.meelive.ingkee" />
+    <whiteapp
+        name="一直播"
+        package="tv.xiaoka.live" />
+    <whiteapp
+        name="企鹅电竞"
+        package="com.tencent.qgame" />
+    <whiteapp
+        name="腾讯NOW直播"
+        package="com.tencent.now" />
+    <whiteapp
+        name="淘宝直播"
+        package="com.taobao.live" />
+    <whiteapp
+        name="酷狗直播"
+        package="com.kugou.fanxing" />
+    <whiteapp
+        name="录像机"
+        package="com.huawei.camera" />
+    <whiteapp
+        name="抖音短视频"
+        package="com.ss.android.ugc.aweme" />
+    <whiteapp
+        name="快手"
+        package="com.smile.gifmaker" />
+    <whiteapp
+        name="快手极速版"
+        package="com.kuaishou.nebula" />
+    <whiteapp
+        name="西瓜视频"
+        package="com.ss.android.article.video" />
+    <whiteapp
+        name="微视"
+        package="com.tencent.weishi" />
+    <whiteapp
+        name="好看视频"
+        package="com.baidu.haokan" />
+    <whiteapp
+        name="美拍"
+        package="com.meitu.meipaimv" />
+    <whiteapp
+        name="全民小视频"
+        package="com.baidu.minivideo" />
+    <whiteapp
+        name="刷宝"
+        package="com.jm.video" />
+    <whiteapp
+        name="咪咕圈圈"
+        package="com.hisunflytone.android" />
+    <whiteapp
+        name="轻视频"
+        package="com.bilibili.qing" />
+    <whiteapp
+        name="录音机"
+        package="com.huawei.soundrecorder" />
+    <whiteapp
+        name="Youtube"
+        package="com.google.android.youtube" />
+    <whiteapp
+        name="Facebook"
+        package="com.facebook.katana" />
+    <whiteapp
+        name="TikTok"
+        package="com.zhiliaoapp.musically" />
+    <whiteapp
+        name="Instagram"
+        package="com.instagram.android" />
+</resources>

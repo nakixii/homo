@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--MOVISTAR_EC-->
+    <carrier_config>
+        <boolean name="is_ussd_ok_for_nw_release" value="true"/>
+        <!-- Volte UI -->
+    </carrier_config>
+</carrier_config_list>

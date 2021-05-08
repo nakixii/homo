@@ -1,0 +1,166 @@
+# 2020-03-09 12:05:10.0
+bt.dpbap.enable=1
+# 2020-03-09 12:05:10.0
+bt.max.hfpclient.connections=2
+# 2020-03-09 12:05:10.0
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+# 2020-03-09 12:05:10.0
+fw.max_users=4
+# 2020-03-09 12:05:10.0
+fw.show_multiuserui=1
+# 2020-10-10 19:09:52.0
+hw.media.multidrm_certificate=false
+# 2020-03-09 12:05:10.0
+hw_mc.hicall.screensharing=true
+# 2020-07-13 19:38:05.0
+hw_mc.launcher.enable_preload_layout_vc=hw_*;porsche_*;channel_*;all_cn
+# 2020-06-20 10:04:23.0
+hw_mc.launcher.quick_switch_force_enable=true
+# 2020-03-09 12:05:10.0
+hw_mc.multidevice.fams_enable=true
+# 2020-09-10 16:48:36.0
+hw_mc.pms.reserve_profile=true
+# 2020-11-23 16:16:21.0
+hw_mc.servicehost.needstartprocess=true
+# 2020-07-14 17:07:56.0
+hw_mc.wifi.support_dualwifi=false
+# 2020-07-17 15:02:22.0
+hw_mc_launcher_gesture_snapshot_enable=false
+# 2020-11-12 14:36:49.0
+hw_sc.build.platform.version=2.0.1
+# 2020-08-28 15:35:44.0
+hw_sc.notification.block_rule.enabled=1
+# 2020-07-31 09:58:03.0
+hw_sc.window_corner_config=2,2,2.0,1.1
+# 2020-03-09 12:05:10.0
+persist.bt.max.a2dp.connections=2
+# 2020-03-09 12:05:10.0
+persist.jank.gameskip=true
+# 2020-03-09 12:05:10.0
+persist.radio.apm_sim_not_pwdn=1
+# 2020-03-09 12:05:10.0
+persist.sys.hw.forcedark_policy=1
+# 2020-12-02 15:51:32.0
+ro.build.hw_emui_api_level=27
+# 2020-03-09 12:05:10.0
+ro.build.tags=release-keys
+# 2020-03-09 12:05:10.0
+ro.build.user=test
+# 2020-08-28 16:32:07.0
+ro.build.version.emui=EmotionUI_11.0.1
+# 2020-03-09 12:05:10.0
+ro.config.alarm_alert=Forest_Melody.ogg
+# 2020-03-09 12:05:10.0
+ro.config.app_big_icon_size=192
+# 2020-03-09 12:05:10.0
+ro.config.attach_ip_type=IPV4V6
+# 2020-03-09 12:05:10.0
+ro.config.auto_display_mode=true
+# 2020-03-09 12:05:10.0
+ro.config.demo_allow_pwd=false
+# 2020-03-09 12:05:10.0
+ro.config.disable_reset_by_mdm=true
+# 2020-03-09 12:05:10.0
+ro.config.disable_triple=true
+# 2020-03-09 12:05:10.0
+ro.config.distributed_app_fwk=true
+# 2020-03-09 12:05:10.0
+ro.config.dns.two_threads=true
+# 2020-03-09 12:05:10.0
+ro.config.enable_iaware=true
+# 2020-03-09 12:05:10.0
+ro.config.enable_perfhub_fling=true
+# 2020-03-09 12:05:10.0
+ro.config.enterprise_support=true
+# 2020-03-09 12:05:10.0
+ro.config.fp_navigation=true
+# 2020-03-09 12:05:10.0
+ro.config.gameassist.full-finger=1
+# 2020-03-09 12:05:10.0
+ro.config.hiaibase_push_mode=1
+# 2020-03-09 12:05:10.0
+ro.config.huawei_smallwindow=0,0,1080,1346
+# 2020-03-09 12:05:10.0
+ro.config.hw.security_volume=10
+# 2020-03-09 12:05:10.0
+ro.config.hw_OptiDBConfig=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_allow_rs_mms=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_eapsim=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_easywakeup=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_eccNumUseRplmn=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_emcom=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_freeform_enable=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_lte_release=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_multiscreen=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_power_saving=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_power_voice_key=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_singlehand=1
+# 2020-03-09 12:05:10.0
+ro.config.hw_support_clone_app=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_tint=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_useCtrlSocket=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_vcardBase64=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_voicemail_sim=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_volte_dyn=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_watermark=false
+# 2020-03-09 12:05:10.0
+ro.config.hwsync_enabled=true
+# 2020-03-09 12:05:10.0
+ro.config.hwtheme=1
+# 2020-03-09 12:05:10.0
+ro.config.ipv4.mtu=1400
+# 2020-03-09 12:05:10.0
+ro.config.notification_sound=Bongo.ogg
+# 2020-03-09 12:05:10.0
+ro.config.para_updateCapacityVersion=1.0
+# 2020-03-09 12:05:10.0
+ro.config.ringtone=Huawei_Tune_Living.ogg
+# 2020-03-09 12:05:10.0
+ro.config.ringtone2=Huawei_Tune_Clean.ogg
+# 2020-03-09 12:05:10.0
+ro.config.support_sdcard_crypt=true
+# 2020-03-09 12:05:10.0
+ro.config.switchPrimaryVolume=true
+# 2020-03-09 12:05:10.0
+ro.config.updatelocation=true
+# 2020-10-23 16:59:14.0
+ro.config.use_hw_security_patch=true
+# 2020-03-09 12:05:10.0
+ro.config.widevine_level3=true
+# 2020-03-09 12:05:10.0
+ro.control.sleeplog=true
+# 2020-03-09 12:05:10.0
+ro.huawei.cust.oma_drm=false
+# 2020-03-09 12:05:10.0
+ro.hw.ipv6timeout=1900
+# 2020-03-09 12:05:10.0
+ro.patch.baseline.version=2.0
+# 2020-03-09 12:05:10.0
+ro.prop.hwkeychain_switch=true
+# 2020-03-09 12:05:10.0
+ro.ril.ecclist=112,911,#911,*911
+# 2020-03-09 12:05:10.0
+ro.syssvccallrecord.enable=true
+
+ro.config.hw_em_solution_ver=B070
+
+ro.comp.system_version=System 11.1.0.070(1TUZ)
+
+ro.confg.hw_systemversion=System 11.1.0.070(1TUZ)

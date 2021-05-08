@@ -1,0 +1,280 @@
+[
+    {
+        "version_major": "1",
+        "version_minor": "1",
+        "latency_base": [
+            {
+                "cast_type": 1,
+                "latency_ms": -1
+            },
+            {
+                "cast_type": 2,
+                "latency_ms": 50
+            },
+            {
+                "cast_type": 3,
+                "latency_ms": -1
+            },
+            {
+                "cast_type": 4,
+                "latency_ms": -1
+            },
+            {
+                "cast_type": 5,
+                "latency_ms": -1
+            },
+            {
+                "cast_type": 6,
+                "latency_ms": -1
+            },
+            {
+                "cast_type": 7,
+                "latency_ms": -1
+            }
+        ],
+        "latency_app": [
+            {
+                "pkg": "com.tencent.qqlive",
+                "label": "腾讯视频",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 130
+                    }
+                ]
+            },
+            {
+                "pkg": "tv.danmaku.bili",
+                "label": "哔哩哔哩",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 30
+                    }
+                ]
+            },
+            {
+                "pkg": "com.qiyi.video",
+                "label": "爱奇艺",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 150
+                    }
+                ]
+            },
+            {
+                "pkg": "com.sohu.sohuvideo",
+                "label": "搜狐视频",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 150
+                    }
+                ]
+            },
+            {
+                "pkg": "com.baidu.haokan",
+                "label": "好看视频",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 60
+                    }
+                ]
+            },
+            {
+                "pkg": "com.ss.android.article.video",
+                "label": "西瓜视频",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 80
+                    }
+                ]
+            },
+            {
+                "pkg": "com.baidu.minivideo",
+                "label": "全民小视频",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 60
+                    }
+                ]
+            },
+            {
+                "pkg": "com.duowan.kiwi",
+                "label": "虎牙直播",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 80
+                    }
+                ]
+            },
+            {
+                "pkg": "com.meitu.meipaimv",
+                "label": "美拍",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 70
+                    }
+                ]
+            },
+            {
+                "pkg": "com.ss.android.ugc.aweme",
+                "label": "抖音",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 130
+                    }
+                ]
+            },
+            {
+                "pkg": "com.ss.android.ugc.live",
+                "label": "抖音火山版",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 100
+                    }
+                ]
+            },
+            {
+                "pkg": "com.smile.gifmaker",
+                "label": "快手",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 10
+                    }
+                ]
+            },
+            {
+                "pkg": "com.huawei.himovie",
+                "label": "华为视频",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 230
+                    }
+                ]
+            },
+            {
+                "pkg": "com.baidu.tieba",
+                "label": "百度贴吧",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 130
+                    }
+                ]
+            },
+            {
+                "pkg": "com.baidu.searchbox",
+                "label": "百度",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 50
+                    }
+                ]
+            },
+            {
+                "pkg": "com.baidu.searchbox.lite",
+                "label": "百度极速版",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 50
+                    }
+                ]
+            },
+            {
+                "pkg": "com.zhihu.android",
+                "label": "知乎",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 10
+                    }
+                ]
+            },
+            {
+                "pkg": "com.sohu.newsclient",
+                "label": "搜狐新闻",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 130
+                    }
+                ]
+            },
+            {
+                "pkg": "com.meelive.ingkee",
+                "label": "映客",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 300
+                    }
+                ]
+            },
+            {
+                "pkg": "com.ss.android.article.news",
+                "label": "今日头条",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 130
+                    }
+                ]
+            },
+            {
+                "pkg": "com.ss.android.article.lite",
+                "label": "今日头条极速版",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 130
+                    }
+                ]
+            },
+            {
+                "pkg": "com.huawei.browser",
+                "label": "华为浏览器",
+                "latency_ms": [
+                    {
+                        "version_min": -1,
+                        "version_max": -1,
+                        "latency_ms": 100
+                    }
+                ]
+            }
+        ]
+    }
+]

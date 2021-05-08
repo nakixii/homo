@@ -1,0 +1,9 @@
+service hilog /system/bin/hilogd
+    socket hilogd stream 0666 logd logd
+    socket hilogdr seqpacket 0666 logd logd
+    socket hilogdw dgram 0222 logd logd
+    file /dev/kmsg w
+    user logd
+    group logd system package_info readproc
+    writepid /dev/cpuset/system-background/tasks
+

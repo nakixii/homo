@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UploadThreshold>
+  <Beta>
+    <Total maxTotalSize="2048000" minFreeDisk="512000" eventidWifi="102400" eventidData="102400" normalWifi="31457280" normalData="20480" runningLogWifi="15728640" runningLogData="102400" privateLogWifi="20971520" privateLogData="102400" extraWifi="20971520" extraData="0" maxPackSize="-1" maxDailyCountPerEvent="100"/>
+    <Detail eventIdRangeName="Reliability" eventIdHead="901000000" eventIdTail="901999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="1572864"/>
+    <Detail eventIdRangeName="Performance" eventIdHead="902000000" eventIdTail="902999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="1572864"/>
+    <Detail eventIdRangeName="PowerThermal_db" eventIdHead="903000000" eventIdTail="903999100" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="524288"/>
+    <Detail eventIdRangeName="PowerThermal_log" eventIdHead="903999101" eventIdTail="903999900" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="524288"/>
+    <Detail eventIdRangeName="PowerThermal_modem" eventIdHead="903999901" eventIdTail="903999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="524288"/>
+    <Detail eventIdRangeName="CHR" eventIdHead="904000000" eventIdTail="904999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="10485760"/>
+    <Detail eventIdRangeName="iAware" eventIdHead="905000000" eventIdTail="905999999" maxNumberInDoneDir="16" maxDailyNum="16" maxMonthlySize="104857"/>
+    <Detail eventIdRangeName="DMD" eventIdHead="920000000" eventIdTail="939999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="524288"/>
+    <Detail eventIdRangeName="Application" eventIdHead="907000000" eventIdTail="907999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="524288"/>
+    <Detail eventIdRangeName="LogEngine" eventIdHead="908000000" eventIdTail="908999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="524288"/>
+    <Detail eventIdRangeName="Wifi" eventIdHead="909000000" eventIdTail="909999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="1048576"/>
+    <Detail eventIdRangeName="GPS" eventIdHead="910000000" eventIdTail="910999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="1048576"/>
+    <Detail eventIdRangeName="Fingerprint" eventIdHead="912000000" eventIdTail="912999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="314572"/>
+    <Detail eventIdRangeName="BT" eventIdHead="913000000" eventIdTail="913999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="1048576"/>
+    <Detail eventIdRangeName="FileSystem" eventIdHead="914000000" eventIdTail="914999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="NFC" eventIdHead="915000000" eventIdTail="915999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="104857"/>
+    <Detail eventIdRangeName="Audio" eventIdHead="916000000" eventIdTail="916999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="104857"/>
+    <Detail eventIdRangeName="Camera" eventIdHead="918000000" eventIdTail="918999999" maxNumberInDoneDir="32" maxDailyNum="32" maxMonthlySize="104857"/>
+    <Detail eventIdRangeName="Ecom" eventIdHead="919000000" eventIdTail="919999999" maxNumberInDoneDir="32" maxDailyNum="32" maxMonthlySize="52428"/>
+    <Detail eventIdRangeName="Security" eventIdHead="940000000" eventIdTail="940999999" maxNumberInDoneDir="32" maxDailyNum="32" maxMonthlySize="52428"/>
+    <Detail eventIdRangeName="HMF" eventIdHead="942000000" eventIdTail="942999999" maxNumberInDoneDir="32" maxDailyNum="32" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="IOT" eventIdHead="943000000" eventIdTail="943999999" maxNumberInDoneDir="32" maxDailyNum="32" maxMonthlySize="52428"/>
+    <Detail eventIdRangeName="Wear" eventIdHead="944000000" eventIdTail="944999999" maxNumberInDoneDir="32" maxDailyNum="32" maxMonthlySize="737280"/>
+    <Detail eventIdRangeName="HomeVision" eventIdHead="945000000" eventIdTail="945999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="104857"/>
+    <Detail eventIdRangeName="DistributedService" eventIdHead="950000000" eventIdTail="950999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="1048576"/>
+    <Detail eventIdRangeName="Z_Framework" eventIdHead="951000000" eventIdTail="951999999" maxNumberInDoneDir="128" maxDailyNum="128" maxMonthlySize="52428"/>
+    <Dubai fieldName="903" maxYearlyNum="10000" maxYearlySize="51200000" maxMonthlyNum="10000" maxMonthlySize="51200000"/>
+    <Event eventId="902500004" maxDailyCount="3200"/>
+    <Event eventId="943900304" maxDailyCount="1500"/>
+    <Event eventId="943900305" maxDailyCount="500"/>
+    <Event eventId="943933280" maxDailyCount="1000"/>
+    <Event eventId="943933281" maxDailyCount="2200"/>
+    <Event eventId="912000000" maxDailyCount="500" />
+    <Event eventId="912000006" maxDailyCount="500" />
+    <Event eventId="912000001" maxDailyCount="500" />
+    <Event eventId="912000007" maxDailyCount="500" />
+    <Event eventId="912000002" maxDailyCount="150" />
+    <Event eventId="912000008" maxDailyCount="150" />
+    <Event eventId="943900306" maxDailyCount="500"/>
+    <Event eventId="943900307" maxDailyCount="200"/>
+    <Event eventId="943901803" maxDailyCount="200"/>
+    <Event eventId="943901809" maxDailyCount="200"/>
+    <Event eventId="943901810" maxDailyCount="200"/>
+    <Event eventId="908004004" maxDailyCount="2000"/>
+    <Event eventId="904200180" maxDailyCount="12"/>
+    <Event eventId="907400101" maxDailyCount="300"/>
+  </Beta>
+  <Commercial>
+    <Total maxTotalSize="32768" minFreeDisk="0" eventidWifi="5120" eventidData="5120" normalWifi="5120" normalData="1024" runningLogWifi="0" runningLogData="0" privateLogWifi="5120" privateLogData="5120" extraWifi="5120" extraData="0" maxPackSize="2048" maxDailyCountPerEvent="20"/>
+    <Detail eventIdRangeName="Reliability" eventIdHead="901000000" eventIdTail="901999999" maxNumberInDoneDir="24" maxDailyNum="24" maxMonthlySize="4096"/>
+    <Detail eventIdRangeName="Performance" eventIdHead="902000000" eventIdTail="902999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="PowerThermal" eventIdHead="903000000" eventIdTail="903999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="CHR" eventIdHead="904000000" eventIdTail="904999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="iAware" eventIdHead="905000000" eventIdTail="905999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="DMD" eventIdHead="920000000" eventIdTail="939999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Application" eventIdHead="907000000" eventIdTail="907999999" maxNumberInDoneDir="2" maxDailyNum="2" maxMonthlySize="384"/>
+    <Detail eventIdRangeName="LogEngine" eventIdHead="908000000" eventIdTail="908999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Wifi" eventIdHead="909000000" eventIdTail="909999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="GPS" eventIdHead="910000000" eventIdTail="910999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Fingerprint" eventIdHead="912000000" eventIdTail="912999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="BT" eventIdHead="913000000" eventIdTail="913999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="FileSystem" eventIdHead="914000000" eventIdTail="914999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="NFC" eventIdHead="915000000" eventIdTail="915999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Audio" eventIdHead="916000000" eventIdTail="916999999" maxNumberInDoneDir="8" maxDailyNum="8" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Camera" eventIdHead="918000000" eventIdTail="918999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Ecom" eventIdHead="919000000" eventIdTail="919999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Security" eventIdHead="940000000" eventIdTail="940999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="HMF" eventIdHead="942000000" eventIdTail="942999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="IOT" eventIdHead="943000000" eventIdTail="943999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="HomeVision" eventIdHead="945000000" eventIdTail="945999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="DistributedService" eventIdHead="950000000" eventIdTail="950999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Detail eventIdRangeName="Z_Framework" eventIdHead="951000000" eventIdTail="951999999" maxNumberInDoneDir="0" maxDailyNum="0" maxMonthlySize="0"/>
+    <Dubai fieldName="903" maxYearlyNum="2" maxYearlySize="61440" maxMonthlyNum="1" maxMonthlySize="30720"/>
+    <Event eventId="904200000" maxDailyCount="100" />
+    <Event eventId="904200007" maxDailyCount="50" />
+    <Event eventId="904200019" maxDailyCount="100" />
+    <Event eventId="904200022" maxDailyCount="100" />
+    <Event eventId="902020000" maxDailyCount="50" />
+    <Event eventId="902020003" maxDailyCount="90" />
+    <Event eventId="902500001" maxDailyCount="120" />
+    <Event eventId="902500002" maxDailyCount="40" />
+    <Event eventId="902500003" maxDailyCount="120" />
+    <Event eventId="902500004" maxDailyCount="600" />
+    <Event eventId="902500008" maxDailyCount="80" />
+    <Event eventId="902600001" maxDailyCount="80" />
+    <Event eventId="909002022" maxDailyCount="30" />
+    <Event eventId="909002025" maxDailyCount="50" />
+    <Event eventId="910000007" maxDailyCount="50" />
+    <Event eventId="913000004" maxDailyCount="50" />
+    <Event eventId="913000020" maxDailyCount="50" />
+    <Event eventId="915000001" maxDailyCount="50" />
+    <Event eventId="912000000" maxDailyCount="200" />
+    <Event eventId="912000006" maxDailyCount="200" />
+    <Event eventId="912000001" maxDailyCount="200" />
+    <Event eventId="912000007" maxDailyCount="200" />
+    <Event eventId="912000002" maxDailyCount="150" />
+    <Event eventId="912000008" maxDailyCount="150" />
+    <Event eventId="943900304" maxDailyCount="220"/>
+    <Event eventId="943900305" maxDailyCount="60"/>
+    <Event eventId="943933280" maxDailyCount="120"/>
+    <Event eventId="943933281" maxDailyCount="360"/>
+    <Event eventId="940002004" maxDailyCount="100"/>
+    <Event eventId="943900306" maxDailyCount="500"/>
+    <Event eventId="943900307" maxDailyCount="200"/>
+    <Event eventId="943901803" maxDailyCount="200"/>
+    <Event eventId="943901809" maxDailyCount="200"/>
+    <Event eventId="943901810" maxDailyCount="200"/>
+    <Event eventId="936004016" maxDailyCount="100"/>
+    <Event eventId="938009001" maxDailyCount="100"/>
+    <Event eventId="938009002" maxDailyCount="100"/>
+    <Event eventId="943901542" maxDailyCount="100"/>
+    <Event eventId="943901543" maxDailyCount="100"/>
+    <Event eventId="943901544" maxDailyCount="100"/>
+    <Event eventId="943937890" maxDailyCount="100"/>
+    <Event eventId="908004004" maxDailyCount="2000"/>
+    <Event eventId="904200180" maxDailyCount="12"/>
+    <Event eventId="907400101" maxDailyCount="300"/>
+    <Event eventId="940101018" maxDailyCount="100"/>
+  </Commercial>
+</UploadThreshold>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboards>
+  <keyboard>
+    <name>MRX</name>
+    <pid>4253</pid>
+    <vid>4817</vid>
+  </keyboard>
+  <keyboard>
+    <name>BAH3</name>
+    <pid>4254</pid>
+    <vid>4817</vid>
+  </keyboard>
+  <keyboard>
+    <name>KRJ</name>
+    <pid>4260</pid>
+    <vid>4817</vid>
+  </keyboard>
+  <keyboard>
+    <name>SCMR</name>
+    <pid>4266</pid>
+    <vid>4817</vid>
+  </keyboard>
+  <keyboard>
+    <name>SCM</name>
+    <pid>4096</pid>
+    <vid>4817</vid>
+  </keyboard>
+  <keyboard>
+    <name>WGR</name>
+    <pid>4274</pid>
+    <vid>4817</vid>
+  </keyboard>
+</keyboards>

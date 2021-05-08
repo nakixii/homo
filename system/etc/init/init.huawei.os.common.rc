@@ -1,0 +1,82 @@
+
+on post-fs-data
+    mkdir /data/log/press10
+    chmod 0770 /data/log/press10
+    chown system system /data/log/press10
+    restorecon_recursive /data/log/press10
+
+    mkdir /data/log/hwouc
+    chown system cache /data/log/hwouc
+    chmod 0775 /data/log/hwouc
+    restorecon_recursive /data/log/hwouc
+
+    mkdir /data/odmf
+    chmod 770 /data/odmf
+    chown system vendor_odmf /data/odmf
+    restorecon_recursive /data/odmf
+    start odmf-data-chgrp
+
+    mkdir /data/misc_de/0/mdds
+    chmod 770 /data/misc_de/0/mdds
+    chown system system /data/misc_de/0/mdds
+    restorecon_recursive /data/misc_de/0/mdds
+
+    mkdir /data/vendor/cota
+    chmod 0755 /data/vendor/cota
+    chown root root /data/vendor/cota
+    restorecon_recursive /data/vendor/cota
+
+    mkdir /data/hotpatch/fwkhotpatch 0775 root system
+    restorecon /data/hotpatch/fwkhotpatch
+
+    mkdir /data/hotpatch/fwkpatchdir 0775 root system
+    restorecon /data/hotpatch/fwkpatchdir
+    mkdir /data/hotpatch/fwkpatchdir/system 0775 root system
+    restorecon /data/hotpatch/fwkpatchdir/system
+    mkdir /data/hotpatch/fwkpatchdir/system/all 0775 root system
+    restorecon /data/hotpatch/fwkpatchdir/system/all
+    mkdir /data/hotpatch/fwkpatchdir/system/systemserver 0775 root system
+    restorecon /data/hotpatch/fwkpatchdir/system/systemserver
+
+    restorecon_recursive /data/hw_init
+
+service odmf-data-chgrp /system/bin/odmf-data-chgrp.sh
+    oneshot
+    disabled
+    user system
+#   group system vendor_odmf
+
+# cota prop upgrading trigger
+on property:hwouc.cota.prop.liveupdate=start
+    load_system_props_for_cota
+
+on property:hwouc.update.distribute.init=start
+    distribute_init
+
+on property:ro.logsystem.usertype=*
+    write /proc/log-usertype ${ro.logsystem.usertype}
+
+on property:ro.logsystem.usertype=3
+    write /sys/module/binder_alloc/parameters/debug_buffer_mask 1
+    write /sys/module/binder/parameters/debug_buffer_mask 1
+
+on property:ro.bootmode=normal
+    write /proc/sys/kernel/printk_level 6
+
+on property:sys.user.0.ce_available=true
+    mkdir /data/misc_ce/0/mdds
+    chmod 770 /data/misc_ce/0/mdds
+    chown system system /data/misc_ce/0/mdds
+    restorecon_recursive /data/misc_ce/0/mdds
+
+# mini bugreport
+service mini_bugreport /system/bin/dumpstate -m -o /data/log/press10/mini_bugreport
+    user root
+    group system
+    oneshot
+    disabled
+    keycodes 116 193
+
+on boot
+    setprop hilog.tag I
+

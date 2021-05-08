@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowBundles>
+    <item name="com.autonavi.minimap" content="com.autonavi.minimap;com.autonavi.amapauto"></item>
+</allowBundles>

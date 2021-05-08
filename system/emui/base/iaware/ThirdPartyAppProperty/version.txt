@@ -1,0 +1,4 @@
+version=1.57.19.147
+type=ThirdPartyAppProperty
+subtype=generic
+compatibleVersion=1

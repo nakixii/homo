@@ -1,0 +1,168 @@
+{
+"tracetags":
+[
+
+{"name":"gfx","longname":"Graphics","tagbit":1,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"input","longname":"Input","tagbit":2,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"view","longname":"View System","tagbit":3,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"webview","longname":"WebView","tagbit":4,"enable":false,
+"sysfiles":[]
+},
+
+{"name":"wm","longname":"Window Manager","tagbit":5,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"am","longname":"Activity Manager","tagbit":6,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"sm","longname":"Sync Manager","tagbit":7,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"audio","longname":"Audio","tagbit":8,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"video","longname":"Video","tagbit":9,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"camera","longname":"Camera","tagbit":10,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"hal","longname":"Hardware Modules","tagbit":11,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"app","longname":"Application","tagbit":12,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"res","longname":"Resource Loading","tagbit":13,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"dalvik","longname":"Dalvik VM","tagbit":14,"enable":false,
+"sysfiles":[]
+},
+
+{"name":"rs","longname":"RenderScript","tagbit":15,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"bionic","longname":"Bionic C Library","tagbit":16,"enable":false,
+"sysfiles":[]
+},
+
+{"name":"power","longname":"Power Management","tagbit":17,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"pm","longname":"Package Manager","tagbit":18,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"ss","longname":"System Server","tagbit":19,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"database","longname":"Database","tagbit":20,"enable":true,
+"sysfiles":[]
+},
+
+{"name":"sched","longname":"CPU Scheduling","tagbit":0,"enable":true,
+"sysfiles":[{"required":1,"path":"events/sched/sched_switch/enable"},
+            {"required":1,"path":"events/sched/sched_wakeup/enable"},
+			{"required":0,"path":"events/sched/sched_blocked_reason/enable"},
+			{"required":0,"path":"events/sched/sched_cpu_hotplug/enable"}]
+},
+
+{"name":"irq","longname":"IRQ Events","tagbit":0,"enable":false,
+"sysfiles":[{"required":1,"path":"events/irq/enable"},
+            {"required":0,"path":"events/ipi/enable"}]
+},
+
+{"name":"freq","longname":"CPU Frequency","tagbit":0,"enable":true,
+"sysfiles":[{"required":1,"path":"events/power/cpu_frequency/enable"},
+            {"required":0,"path":"events/power/clock_set_rate/enable"},
+			{"required":0,"path":"events/power/cpu_frequency_limits/enable"}]
+},
+
+{"name":"membus","longname":"Memory Bus Utilization","tagbit":0,"enable":true,
+"sysfiles":[{"required":0,"path":"events/memory_bus/enable"}]
+},
+
+{"name":"idle","longname":"CPU Idle","tagbit":0,"enable":true,
+"sysfiles":[{"required":1,"path":"events/power/cpu_idle/enable"}]
+},
+
+{"name":"disk","longname":"Disk I/O","tagbit":0,"enable":true,
+"sysfiles":[{"required":0,"path":"events/f2fs/f2fs_sync_file_enter/enable"},
+            {"required":0,"path":"events/f2fs/f2fs_sync_file_exit/enable"},
+			{"required":0,"path":"events/f2fs/f2fs_write_begin/enable"},
+			{"required":0,"path":"events/f2fs/f2fs_write_end/enable"},
+			{"required":0,"path":"events/ext4/ext4_da_write_begin/enable"},
+			{"required":0,"path":"events/ext4/ext4_da_write_end/enable"},
+			{"required":0,"path":"events/ext4/ext4_sync_file_enter/enable"},
+			{"required":0,"path":"events/ext4/ext4_sync_file_exit/enable"},
+			{"required":1,"path":"events/block/block_rq_issue/enable"},
+			{"required":1,"path":"events/block/block_rq_complete/enable"}]
+},
+
+{"name":"mmc","longname":"eMMC commands","tagbit":0,"enable":true,
+"sysfiles":[{"required":1,"path":"events/mmc/enable"}]
+},
+
+{"name":"load","longname":"CPU Load","tagbit":0,"enable":true,
+"sysfiles":[{"required":1,"path":"events/cpufreq_interactive/enable"}]
+},
+
+{"name":"sync","longname":"Synchronization","tagbit":0,"enable":true,
+"sysfiles":[{"required":1,"path":"events/sync/enable"}]
+},
+
+{"name":"workq","longname":"Kernel Workqueues","tagbit":0,"enable":true,
+"sysfiles":[{"required":1,"path":"events/workqueue/enable"}]
+},
+
+{"name":"memreclaim","longname":"Kernel Memory Reclaim","tagbit":0,"enable":false,
+"sysfiles":[{"required":1,"path":"events/vmscan/mm_vmscan_direct_reclaim_begin/enable"},
+            {"required":1,"path":"events/vmscan/mm_vmscan_direct_reclaim_end/enable"},
+            {"required":1,"path":"events/vmscan/mm_vmscan_kswapd_wake/enable"},
+            {"required":1,"path":"events/vmscan/mm_vmscan_kswapd_sleep/enable"}]
+},
+
+{"name":"regulators","longname":"Voltage and Current Regulators","tagbit":0,"enable":false,
+"sysfiles":[{"required":1,"path":"events/regulator/enable"}]
+},
+
+{"name":"binder_driver","longname":"Binder Kernel driver","tagbit":0,"enable":false,
+"sysfiles":[{"required":1,"path":"events/binder/binder_transaction/enable"},
+            {"required":1,"path":"events/binder/binder_transaction_received/enable"}]
+},
+
+{"name":"binder_lock","longname":"Binder global lock trace","tagbit":0,"enable":false,
+"sysfiles":[{"required":1,"path":"events/binder/binder_lock/enable"},
+            {"required":1,"path":"events/binder/binder_locked/enable"},
+            {"required":1,"path":"events/binder/binder_unlock/enable"}]
+},
+
+{"name":"pagecache","longname":"Page cache","tagbit":0,"enable":false,
+"sysfiles":[{"required":1,"path":"events/filemap/enable"}]
+}
+
+]
+
+}

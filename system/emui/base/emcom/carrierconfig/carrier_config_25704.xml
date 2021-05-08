@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="httpSocketTimeout" value="300000" />
+    </carrier_config>
+</carrier_config_list>

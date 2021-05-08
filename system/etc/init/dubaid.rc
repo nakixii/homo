@@ -1,0 +1,11 @@
+on post-fs-data
+    mkdir /data/system/dubai
+    chmod 0775 /data/system/dubai
+    chown system system /data/system/dubai
+    restorecon_recursive /data/system/dubai
+
+## Dubai daemon definition
+service dubaid /system/bin/dubaid
+    class main
+    user root
+    group system root readproc log package_info net_bw_stats misc

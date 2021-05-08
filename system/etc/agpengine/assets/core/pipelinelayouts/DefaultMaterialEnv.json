@@ -1,0 +1,20 @@
+{
+    "name" : "DefaultMaterialEnv",
+    "pushConstant": { "size" : 128, "shaderStageFlags" : "fragment_bit" },
+    "descriptorSetLayouts": [
+        {
+            "set" : 0,
+            "bindings": [
+                { "binding" : 0, "descriptorType" : "uniform_buffer_dynamic", "descriptorCount": 1, "shaderStageFlags" : "fragment_bit" }
+            ]
+        },
+        {
+            "set" : 1,
+            "bindings": [
+                { "binding" : 0, "descriptorType" : "sampled_image", "descriptorCount": 1, "shaderStageFlags" : "fragment_bit" },
+                { "binding" : 1, "descriptorType" : "sampled_image", "descriptorCount": 1, "shaderStageFlags" : "fragment_bit" },
+                { "binding" : 2, "descriptorType" : "sampler", "descriptorCount": 1, "shaderStageFlags" : "fragment_bit" }
+            ]
+        }
+    ]
+}

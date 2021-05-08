@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Version>
+    <version name="RND" allowBaseType="0"></version>
+    <version name="BETA" allowBaseType="0"></version>
+    <version name="FUT" allowBaseType="2"></version>
+    <version name="COMMERCIAL" allowBaseType="3"></version>
+</Version>

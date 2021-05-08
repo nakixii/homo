@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <app package="com.huawei.email"/>
+  <app package="com.android.email"/>
+  <app package="com.example.android.notepad"/>
+  <app package="com.huawei.notepad"/>
+  <app package="com.android.gallery3d"/>
+  <app package="com.huawei.photos"/>
+  <app package="com.huawei.filemanager"/>
+  <app package="com.huawei.browser"/>
+  <app package="com.huawei.calculator"/>
+  <app package="com.tencent.mm"/>
+  <app package="com.tencent.mobileqq"/>
+</resources>

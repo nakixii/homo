@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TIM IT -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <boolean name="smsDeliveryReportSettingOnByDefault" value="true"/>
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value=""/>
+        </string-array>
+    </carrier_config>
+</carrier_config_list>

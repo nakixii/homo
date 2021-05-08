@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <watchpoint name="dynamic_mem_baseline_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <dynamic_mem_monitor_interval value="7200"/>
+    </watchpoint>
+    <watchpoint name="fd_limit_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <threshold value="900"/>
+    </watchpoint>
+    <watchpoint name="thread_limit_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <threshold value="200"/>
+    </watchpoint>
+    <watchpoint name="iowait_limit_test">
+        <action name="disable"/>
+        <threshold value="30"/>
+    </watchpoint>
+    <watchpoint name="low_mem_inject_test">
+        <action name="disable"/>
+        <userspace_mem_left value="500"/>
+        <kernelspace_mem_left value="500"/>
+    </watchpoint>
+    <watchpoint name="app_oom_test">
+        <action name="disable"/>
+    </watchpoint>
+    <watchpoint name="app_mem_limit_test">
+        <action name="enable"/>
+        <appmemlimit_warning_limit value="150"/>
+        <appmemlimit_monitor_interval value="5"/>
+    </watchpoint>
+    <watchpoint name="app_gpu_limit_test">
+        <action name="enable"/>
+    </watchpoint>
+    <module name="fd_leak_test">
+        <action name="enable"/>
+        <fd_monitor_num value="5"/>
+        <threshold value="100"/>
+        <timer value="60"/>
+        <child_timeout value="65"/>
+    </module>
+    <module name="memory_leak_monitor">
+        <action value="enable"/>
+        <exclude value="com.netease.pes.huawei|com.tencent.tmgp.sgame"/>
+        <memtype name="default">
+            <monitor_enable value="enable"/>
+            <upload_enable value="enable"/>
+            <loop_interval value="5"/>
+            <sample_interval value="50"/>
+            <sample_window_size value="2400"/>
+            <split_window_number value="3"/>
+            <max_record_time value="604800"/>
+            <max_record_number value="1200"/>
+            <min_slope value="30"/>
+            <memory_limit value="300"/>
+            <upload_interval value="86400"/>
+        </memtype>
+        <memtype name="ion">
+            <monitor_enable value="disable"/>
+            <memory_limit value="1024"/>
+        </memtype>
+        <memtype name ="slub">
+            <memory_limit value="1024"/>
+        </memtype>
+        <memtype name ="lslub">
+            <memory_limit value="0"/>
+        </memtype>
+        <memtype name ="vmalloc">
+            <memory_limit value="2560"/>
+        </memtype>
+        <memtype name ="cma">
+            <memory_limit value="0"/>
+        </memtype>
+        <memtype name ="zsmalloc">
+            <monitor_enable value="disable"/>
+            <memory_limit value="0"/>
+        </memtype>
+        <memtype name ="buddy">
+            <monitor_enable value="disable"/>
+        </memtype>
+        <memtype name ="skb">
+            <memory_limit value="2048"/>
+        </memtype>
+        <memtype name="user">
+            <monitor_enable value="enable"/>
+            <min_slope value="30"/>
+        </memtype>
+        <memtype name ="ta">
+            <monitor_enable value="disable"/>
+            <min_slope value="0.20"/>
+        </memtype>
+    </module>
+</config>

@@ -1,0 +1,101 @@
+{
+    "version": "1.0.0",
+    "uid_name": "subsys",
+    "subsys": {
+        "ModemCrash": [
+            {
+            "rule_prio":0,
+            "featureid":"690100200",
+            "EventInfoParam":{
+                    "PNAME": "BasicParam.s_process",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            },
+            {
+                "rule_prio":0,
+                "featureid":"790100200",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_fatal+BasicParam.s_assert+BasicParam.s_assert_file",
+                    "F1NAME": "BasicParam.s_err_code1+BasicParam.s_p1",
+                    "F2NAME": "BasicParam.s_err_code2+BasicParam.s_p2",
+                    "F3NAME": "BasicParam.s_err_code3+BasicParam.s_p3"
+                }
+            },
+            {
+                "rule_prio":0,
+                "featureid":"890100201",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2"
+                }
+            }
+        ],
+        "TeeOsCrash": [
+            {
+                "rule_prio":0,
+                "featureid":"690100203",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_process",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            }
+        ],
+        "HifiCrash": [
+            {
+                "rule_prio":0,
+                "featureid":"690102010",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_panicAddr:BasicParam.s_curPc:BasicParam.s_prePc:BasicParam.s_cause",
+                    "F2NAME": "BasicParam.s_f2"
+                }
+            },
+            {
+                "rule_prio":1,
+                "featureid":"690102011",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_panicAddr:BasicParam.s_curPc:BasicParam.s_prePc:BasicParam.s_cause",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            }
+        ],
+        "SensorhubCrash": [
+            {
+                "rule_prio":0,
+                "featureid":"690102020",
+                "EventInfoParam":{
+                    "SUBTYPE": "BasicParam.s_reason",
+                    "F3NAME": "BasicParam.s_regs"
+                }
+            },
+            {
+                "rule_prio":0,
+                "featureid":"790100200",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_fatal+BasicParam.s_assert+BasicParam.s_assert_file",
+                    "F1NAME": "BasicParam.s_err_code1+BasicParam.s_p1",
+                    "F2NAME": "BasicParam.s_err_code2+BasicParam.s_p2",
+                    "F3NAME": "BasicParam.s_err_code3+BasicParam.s_p3"
+                }
+            }
+        ],
+        "WcnssCrash": [
+            {
+                "rule_prio":0,
+                "featureid":"790100200",
+                "EventInfoParam":{
+                    "F3NAME": "BasicParam.s_consys"
+                }
+            }
+        ],
+        "HiseeCrash": {},
+        "IvpCrash": {},
+        "IspCrash": {},
+        "NpuCrash": {},
+        "DssCrash": {}
+    }
+}

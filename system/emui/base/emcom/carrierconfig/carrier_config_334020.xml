@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TELCEL MX 334020-->
+    <carrier_config>
+        <!-- Volte UI -->
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <int name="smsToMmsTextThreshold" value="12" />
+    </carrier_config>
+</carrier_config_list>

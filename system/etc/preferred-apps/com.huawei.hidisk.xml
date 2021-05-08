@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<preferred-activities>
+    <item name="com.huawei.hidisk/.view.activity.archive.ArchivePreviewActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/zip" />
+            <type name="application/rar" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+</preferred-activities>

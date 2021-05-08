@@ -1,0 +1,10 @@
+{
+    "ThreadLeak": {
+        "enable": true,
+        "threshold": {
+            "default": 700,
+            "32bit": 350
+        },
+        "upload_interval": 36000
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "systems": [
+        {
+            "typeName": "AnimationSystem",
+            "properties": {
+            }
+        },
+        {
+            "typeName": "LocalMatrixSystem",
+            "properties": {
+            }
+        },
+        {
+            "typeName": "NodeSystem",
+            "properties": {
+            }
+        },
+        {
+            "typeName": "MorphingSystem",
+            "properties": {
+                "dataStoreName": "RenderDataStoreMorph"
+            }
+        },
+        {
+            "typeName": "SkinningSystem",
+            "properties": {
+            }
+        },
+        {
+            "typeName": "DevGuiSystem",
+            "optional":  true,
+            "properties": {
+            }
+        },
+        {
+            "typeName": "RenderSystem",
+            "properties": {
+                "dataStoreMaterial": "RenderDataStoreDefaultMaterial",
+                "dataStoreCamera": "RenderDataStoreDefaultCamera",
+                "dataStoreLight": "RenderDataStoreDefaultLight",
+                "dataStoreScene": "RenderDataStoreDefaultScene"
+            }
+        }
+    ]
+}

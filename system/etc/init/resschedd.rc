@@ -1,0 +1,6 @@
+service resschedd /system/bin/sa_main /system/profile/resschedd.xml
+    class z_core
+    user system
+    group system shell readproc
+    seclabel u:r:resschedd:s0
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks /dev/blkio/foreground/tasks

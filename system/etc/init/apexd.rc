@@ -1,0 +1,20 @@
+service apexd /system/bin/apexd
+    class core
+    critical
+    user root
+    group system
+    shutdown critical
+
+service apexd-bootstrap /system/bin/apexd --bootstrap
+    critical
+    user root
+    group system
+    oneshot
+    disabled
+
+service apexd-installhep /system/bin/apexd --installhep
+    critical
+    user root
+    group system
+    oneshot
+    disabled

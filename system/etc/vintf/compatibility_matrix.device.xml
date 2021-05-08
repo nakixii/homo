@@ -1,0 +1,16 @@
+<!--
+    Input:
+        compatibility_matrix.empty.xml
+-->
+<compatibility-matrix version="1.0" type="framework">
+    <sepolicy>
+        <kernel-sepolicy-version>30</kernel-sepolicy-version>
+        <sepolicy-version>26.0</sepolicy-version>
+        <sepolicy-version>27.0</sepolicy-version>
+        <sepolicy-version>28.0</sepolicy-version>
+        <sepolicy-version>29.0</sepolicy-version>
+    </sepolicy>
+    <avb>
+        <vbmeta-version>1.0</vbmeta-version>
+    </avb>
+</compatibility-matrix>

@@ -1,0 +1,34 @@
+{
+    "MemoryLeak": {
+        "enable" : true,
+        "min_slope" : 30,
+        "max_slope" : 500,
+        "leak_threshold" : 204800,
+        "upload_interval" : 36000,
+        "exclude_time_out" :30,
+        "exclude_list": {
+            "com.netease.pes.huawei" : "2020/04/19",
+            "com.tencent.tmgp.sgame" : "2020/04/19"
+        },
+        "memory_type": {
+            "slub": {
+                "monitor_threshold": 1024
+            },
+            "lslub": {
+                "monitor_threshold": 0
+            },
+            "vmalloc": {
+                "monitor_threshold": 2560
+            },
+            "cma": {
+                "monitor_threshold": 0
+            },
+            "skb": {
+                "monitor_threshold": 2048
+            },
+            "user": {
+                "monitor_threshold": 300
+            }
+        }
+    }
+}

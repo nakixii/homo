@@ -1,0 +1,24 @@
+# 2020-11-23 16:16:21.0
+hw_mc.servicehost.needstartprocess=true
+# 2020-03-09 12:05:10.0
+ro.config.alarm_alert=Aegean_Sea.ogg
+# 2020-03-09 12:05:10.0
+ro.config.hw_ecclist_nocard=+120,+122
+# 2020-03-09 12:05:10.0
+ro.config.hw_ecclist_withcard=+112
+# 2020-03-09 12:05:10.0
+ro.config.hw_globalEcc=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_nlp=com.huawei.lbs
+# 2020-03-09 12:05:10.0
+ro.config.hw_updateCotaPara=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_vassistant_honor=true
+# 2020-03-09 12:05:10.0
+ro.config.ringtone=Honor.ogg
+# 2020-03-09 12:05:10.0
+ro.config.ringtone2=Huawei_Tune_Living.ogg
+# 2020-03-09 12:05:10.0
+ro.config.support_doubletap_pay=true
+# 2020-03-09 12:05:10.0
+ro.iconnect.trustpair=true

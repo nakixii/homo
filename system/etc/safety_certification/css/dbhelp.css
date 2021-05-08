@@ -1,0 +1,17 @@
+/* common */
+body{}
+.nav-bar{text-align:center;width:100%;position:fixed;bottom:2%;left:0;z-index:2;}
+#modNav li{display:inline-block;width:6%;text-align:center;}
+#modNav span{border:1px solid #A2A2A2;border-radius:50%;padding:10%;display:none;width:1em;height:1em;text-align:center;line-height:1em;background:#fff;color:#4D4D4D;box-shadow:0 0 2px #A2A2A2;vertical-align:middle;}
+#modNav em{display:inline-block;width:.6em;height:.6em;border-radius:50%;background:#CFCFCF;border:1px solid #B9B9B9; vertical-align:middle;}
+#modNav li.cur span{display:inline-block;}
+#modNav li.cur em{display:none;}
+
+/* swipejs */
+.swipe {
+  padding-bottom:20px;
+  position:relative;
+  z-index:1;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}

@@ -1,0 +1,186 @@
+on early-init
+    setprop persist.service.hdb.enable true
+
+on init
+    # for inotify watch to /dev/bus/usb
+    mkdir /dev/bus 0755 root root
+    mkdir /dev/bus/usb 0755 root root
+    mkdir /dev/bus/usb/001 0755 root root
+    mkdir /dev/bus/usb/002 0755 root root
+
+#for connectivity
+on boot
+    setprop ro.connectivity.chiptype ${ro.boot.odm.conn.chiptype}
+    setprop ro.connectivity.sub_chiptype ${ro.boot.odm.conn.schiptype}
+    setprop ro.connectivity.bt_chiptype ${ro.boot.odm.conn.btchiptype}
+
+    mkdir /data/misc/hwpush
+    chmod 0770 /data/misc/hwpush
+    chown system system /data/misc/hwpush
+    restorecon_recursive /data/misc/hwpush
+
+#bluetooth
+    mkdir /data/log/bt
+    chown bluetooth bluetooth /data/log/bt
+    chmod 775 /data/log/bt
+#teeos
+    mkdir /data/log/tee 0770 root system
+# Create cgroup for pids
+    mount tmpfs none /sys/fs/cgroup mode=0750,uid=0,gid=1000
+    mkdir /sys/fs/cgroup/pids 0750 root system
+    mount cgroup none /sys/fs/cgroup/pids pids
+    mkdir /sys/fs/cgroup/pids/unconfirm_app 0750 root system
+    chown root system /sys/fs/cgroup/pids/unconfirm_app/cgroup.procs
+    chmod 0660 /sys/fs/cgroup/pids/unconfirm_app/cgroup.procs
+    chown root system /sys/fs/cgroup/pids/unconfirm_app/tasks
+    chmod 0660 /sys/fs/cgroup/pids/unconfirm_app/tasks
+    chown root system /sys/fs/cgroup/pids/unconfirm_app/pids.group_limit
+    chmod 0660 /sys/fs/cgroup/pids/unconfirm_app/pids.group_limit
+    chown root system /sys/fs/cgroup/pids/unconfirm_app/cgroup.event_control
+    chmod 0220 /sys/fs/cgroup/pids/unconfirm_app/cgroup.event_control
+    chmod 0220 /sys/fs/cgroup/pids/cgroup.event_control
+    mkdir /sys/fs/cgroup/pids/daemon_proc 0750 root system
+    chown root system /sys/fs/cgroup/pids/daemon_proc/cgroup.procs
+    chmod 0660 /sys/fs/cgroup/pids/daemon_proc/cgroup.procs
+    chown root system /sys/fs/cgroup/pids/daemon_proc/tasks
+    chmod 0660 /sys/fs/cgroup/pids/daemon_proc/tasks
+    chown root system /sys/fs/cgroup/pids/daemon_proc/pids.group_limit
+    chmod 0660 /sys/fs/cgroup/pids/daemon_proc/pids.group_limit
+    chown root system /sys/fs/cgroup/pids/daemon_proc/cgroup.event_control
+    chmod 0220 /sys/fs/cgroup/pids/daemon_proc/cgroup.event_control
+
+#for VCE lite
+on property:ro.board.boardid=6978
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_lite.xml
+on property:ro.board.boardid=6982
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_lite.xml
+on property:ro.board.boardid=6979
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_lite.xml
+on property:ro.board.boardid=6989
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_lite.xml
+#for VCE pro
+on property:ro.board.boardid=6971
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6973
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6974
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6972
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6975
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6976
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6977
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6981
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6983
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+on property:ro.board.boardid=6980
+    setprop media.settings.xml /odm/etc/media_profiles_V1_0_pro.xml
+
+#fingersense
+on property:persist.sys.fingersense=1
+    write /sys/devices/platform/huawei_sensor/set_fingersense_enable 1
+    write /sys/touchscreen/roi_enable 1
+on property:persist.sys.fingersense=0
+    write /sys/devices/platform/huawei_sensor/set_fingersense_enable 0
+    write /sys/touchscreen/roi_enable 0
+
+on property:runtime.mmitest.isrunning=true
+    write /sys/devices/platform/huawei_sensor/set_fingersense_enable 0
+    write /sys/touchscreen/roi_enable 0
+on property:runtime.mmitest.isrunning=false
+    write /sys/devices/platform/huawei_sensor/set_fingersense_enable 1
+    write /sys/touchscreen/roi_enable 1
+
+on property:ro.config.hw_emcom=true && property:ro.build.characteristics=default
+    start emcomd
+
+on property:ro.config.hw_emcom=true && property:ro.build.characteristics=tablet
+    start emcomd
+
+service emcomd /system/bin/emcomd
+    class main
+    socket emcomd stream 0600 system system
+    user root
+    group root system vpn
+    seclabel u:r:emcomd:s0
+    disabled
+
+on update_oem_version_action
+    # update_oem_version
+
+on post-fs-data
+
+    mkdir /data/systemfeature
+    chmod 770 /data/systemfeature
+    chown system system /data/systemfeature
+    restorecon_recursive /data/systemfeature
+
+    mkdir /data/systemfeature/systemfeature
+    chmod 770 /data/systemfeature/systemfeature
+    chown system system /data/systemfeature/systemfeature
+    restorecon_recursive /data/systemfeature/systemfeature
+
+    mkdir /data/misc/hwpki
+    chmod 770 /data/misc/hwpki
+    chown system system /data/misc/hwpki
+    restorecon_recursive /data/misc/hwpki
+
+    mkdir /data/misc/hsm
+    chmod 0770 /data/misc/hsm
+    chown system system /data/misc/hsm
+    restorecon_recursive /data/misc/hsm
+
+    mkdir /data/log/reliability
+    chmod 0775 /data/log/reliability
+    chown root system /data/log/reliability
+
+    mkdir /data/log/reliability/faultdetect
+    chmod 0775 /data/log/reliability/faultdetect
+    chown root system /data/log/reliability/faultdetect
+
+    mkdir /data/log/reliability/xcollie
+    chown system log /data/log/reliability/xcollie
+    chmod 2775 /data/log/reliability/xcollie
+    restorecon_recursive /data/log/reliability
+
+    mkdir /data/sec_storage_data 0700 system system
+    restorecon /data/sec_storage_data
+    mkdir /data/sec_storage_data_users 0700 system system
+    restorecon /data/sec_storage_data_users
+
+    mkdir /data/misc/installer
+    chmod 2770 /data/misc/installer
+    chown system vendor_installer /data/misc/installer
+    restorecon_recursive /data/misc/installer
+
+on property:ro.runmode=factory
+    chown system system /sys/class/devfreq/ddrfreq_up_threshold/max_freq
+    chmod 0660 /sys/class/devfreq/ddrfreq_up_threshold/max_freq
+    chown system system /sys/class/devfreq/ddrfreq_up_threshold/min_freq
+    chmod 0660 /sys/class/devfreq/ddrfreq_up_threshold/min_freq
+    chown system system /sys/class/devfreq/ddrfreq_latency/max_freq
+    chmod 0660 /sys/class/devfreq/ddrfreq_latency/max_freq
+    chown system system /sys/class/devfreq/ddrfreq_latency/min_freq
+    chmod 0660 /sys/class/devfreq/ddrfreq_latency/min_freq
+    chown system system /sys/class/devfreq/ddrfreq/max_freq
+    chmod 0660 /sys/class/devfreq/ddrfreq/max_freq
+    chown system system /sys/class/devfreq/ddrfreq/min_freq
+    chmod 0660 /sys/class/devfreq/ddrfreq/min_freq
+
+    chown system system /sys/kernel/debug/clock/test_one_clock/disable
+    chown system system /sys/kernel/debug/clock/test_one_clock/enable
+
+#for sensorhub log
+on property:persist.sys.huawei.debug.on=0
+    chown system system /sys/class/sensors/sensorhub_dump
+    chmod 0660 /sys/class/sensors/sensorhub_dump
+on property:persist.sys.huawei.debug.on=1
+    chown system system /sys/class/sensors/sensorhub_dump
+    chmod 0664 /sys/class/sensors/sensorhub_dump
+
+on property:sys.boot_completed=1
+    write /proc/self/reclaim file

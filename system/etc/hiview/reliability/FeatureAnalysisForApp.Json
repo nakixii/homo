@@ -1,0 +1,142 @@
+{
+    "version": "1.0.0",
+    "uid_name": "APP",
+    "APP": {
+        "Anr": [
+                    {
+                        "rule_prio":0,
+                        "featureid":"690100100",
+                        "EventInfoParam":{
+                            "PNAME": "BasicParam.s_process",
+                            "PTOPCPU": "BasicParam.s_topcpu",
+                            "TOTALCPU": "BasicParam.s_totalcpu",
+                            "IOWAITCPU": "BasicParam.s_iowait",
+                            "APPVERSION": "BasicParam.s_appversion",
+                            "SYSVMTYPE": "BasicParam.s_sysvmtype",
+                            "APPVMTYPE": "BasicParam.s_appvmtype",
+                            "FG": "BasicParam.s_foreground",
+                            "LIFETIME": "BasicParam.s_lifetime",
+                            "SUBJECT": "BasicParam.s_subject",
+                            "F1NAME": "MainCallTrace.s_f1",
+                            "F2NAME": "MainCallTrace.s_f2",
+                            "F3NAME": "MainCallTrace.s_f3",
+                            "TRUSTSTACK": "MainCallTrace.s_trust_stack",
+                            "BINDERLIST": "BinderBlock.s_binderlist",
+                            "BINDERMAX": "BinderBlock.s_bindermax"
+                        },
+                        "RelatedInfo":{
+                            "FLAG": "BasicParam.s_flag",
+                            "PID": "BasicParam.s_pid",
+                            "PACKAGE": "BasicParam.s_package",
+                            "FAULTCPU": "BasicParam.s_faultcpu"
+                        }
+                    },
+                    {
+                        "rule_prio":0,
+                        "featureid":"690100103",
+                        "RelatedInfo":{
+                            "APPEYEPNAME": "BasicParam.s_appeye_process",
+                            "APPEYEPID": "BasicParam.s_appeye_pid"
+                        }
+                    },
+                    {
+                        "rule_prio":0,
+                        "featureid":"690100104",
+                        "EventInfoParam":{
+                            "PNAME": "BasicParam.s_process",
+                            "F1NAME": "MainCallTrace.s_f1",
+                            "F2NAME": "MainCallTrace.s_f2",
+                            "F3NAME": "MainCallTrace.s_f3"
+                        }
+                    }
+        ],
+        "Crash": [
+                    {
+                        "rule_prio":0,
+                        "featureid":"690100101",
+                        "EventInfoParam":{
+                            "PNAME": "BasicParam.s_process",
+                            "APPVERSION": "BasicParam.s_appversion",
+                            "SYSVMTYPE": "BasicParam.s_sysvmtype",
+                            "APPVMTYPE": "BasicParam.s_appvmtype",
+                            "FG": "BasicParam.s_foreground",
+                            "LIFETIME": "BasicParam.s_lifetime",
+                            "MAINTHREAD": "BasicParam.s_mainthread",
+                            "FLAG": "BasicParam.s_flag",
+                            "F1NAME": "MainCallTrace.s_f1",
+                            "F2NAME": "MainCallTrace.s_f2",
+                            "F3NAME": "MainCallTrace.s_f3",
+                            "TRUSTSTACK": "MainCallTrace.s_trace",
+                            "REASON": "BasicParam.s_reason"
+                        },
+                        "RelatedInfo":{
+                            "PACKAGE": "BasicParam.s_package"
+                        }
+                    },
+                    {
+                        "rule_prio":1,
+                        "featureid":"690100101",
+                        "EventInfoParam":{
+                            "F1NAME": "CallTrace.s_f1",
+                            "F2NAME": "CallTrace.s_f2",
+                            "F3NAME": "CallTrace.s_f3"
+                        }
+                    }
+        ],
+        "Tombstone": [
+                        {
+                            "rule_prio":0,
+                            "featureid":"690100102",
+                            "EventInfoParam":{
+                                "PNAME": "BasicParam.s_process",
+                                "FPNAME": "BasicParam.s_process",
+                                "SUBNAME": "BasicParam.s_name",
+                                "APPVERSION": "BasicParam.s_appversion",
+                                "SYSVMTYPE": "BasicParam.s_sysvmtype",
+                                "APPVMTYPE": "BasicParam.s_appvmtype",
+                                "FG": "BasicParam.s_foreground",
+                                "LIFETIME": "BasicParam.s_lifetime",
+                                "SIGNALNUM": "SignalParam.s_sigmsg",
+                                "SIGMSG": "SignalParam.s_sigmsg+SignalParam.s_sicode",
+                                "REASON": "ExceptionReason.s_cause",
+                                "F1NAME": "MainCallTrace.s_f1",
+                                "F2NAME": "MainCallTrace.s_f2",
+                                "F3NAME": "MainCallTrace.s_f3",
+                                "TRUSTSTACK": "MainCallTrace.s_trace"
+                            },
+                            "RelatedInfo":{
+                                "PACKAGE": "BasicParam.s_process",
+                                "LOGVERSION": "BasicParam.s_androidvision",
+                                "FLAG": "BasicParam.s_flag",
+                                "UID": "BasicParam.s_uid",
+                                "SUBTYPE": "BasicParam.s_abortmsg",
+                                "SICODE": "SignalParam.s_sicode"
+                            }
+                        }
+        ],
+        "Xcollie": [
+                        {
+                            "rule_prio":0,
+                            "featureid":"690100403",
+                            "EventInfoParam":{
+                                "PNAME": "BasicParam.s_pname:BasicParam.s_funcname",
+                                "F1NAME": "MainCallTrace.s_f1",
+                                "F2NAME": "MainCallTrace.s_f2",
+                                "F3NAME": "MainCallTrace.s_f3"
+                            },
+                            "RelatedInfo":{
+                                "REASON": "BasicParam.s_reason"
+                            }
+                        },
+                        {
+                            "rule_prio":1,
+                            "featureid":"690100403",
+                            "EventInfoParam":{
+                                "F1NAME": "CallTrace.s_f1",
+                                "F2NAME": "CallTrace.s_f2",
+                                "F3NAME": "CallTrace.s_f3"
+                            }
+                        }
+        ]
+    }
+}

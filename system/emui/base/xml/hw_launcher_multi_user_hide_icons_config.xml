@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <!-- this config file is used to hide some app's icon in HwLauncher6 for sub users. -->
+    <favorite
+        launcher:packageName="com.huawei.android.hwouc"
+        launcher:className="com.huawei.android.hwouc.ui.activities.MainEntranceActivity"/>
+    <favorite
+        launcher:packageName="com.huawei.vdrive"
+        launcher:className="com.huawei.vdrive.ui.VDriveActivity"/>
+    <favorite
+        launcher:packageName="com.android.stk"
+        launcher:className="com.android.stk.StkLauncherActivity"/>
+    <favorite
+        launcher:packageName="com.android.stk"
+        launcher:className="com.android.stk.StkLauncherActivity2"/>
+    <favorite
+        launcher:packageName="com.huawei.health"
+        launcher:className="com.huawei.healthcloud.cardui.MainActivity"/>
+</favorites>

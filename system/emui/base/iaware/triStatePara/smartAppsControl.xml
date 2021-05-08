@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+    <package name="sa.gov.nic.tabaud">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="au.gov.health.covidsafe">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="it.ministerodellasalute.immuni">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="ch.admin.bag.dp3t">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="de.rki.coronawarnapp">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="jo.gov.moh.aman">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="ru.mos.socmon">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="ph.staysafe.mobileapp">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.dxform.ph">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="py.com.personal.tracking">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="py.com.personal.visitas">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.appmarket">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="cn.xuexi.android">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.meetime">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.hwid">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.taobao.taobao">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.hwvoipservice">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.associateassistant">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.works">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.hidsca">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="hsic.com.skfcertservice">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="km.ssl">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.email">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.unionpay.mobilekeyservice">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.localBackup">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="cn.com.hy.hn_drugcontrol">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.welink">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.hdpartner">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huiyinxun.wallet.laijc">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.b810group.tippy">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.zjct.sec.rmfx">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.smartspeaker">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.android.email">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.paic.enterprise.client.mls">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.truecaller">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.teslamotors.tesla">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.experience.sports">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="app.zenly.locator">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="conwin.com.gktapp">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huahao">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.mxspt.dnp">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="cn.edu.gxu.vswitch">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.rsupport.rsperm.ah.a8th">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.qihoo360.byod.mdm.agent">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.qihoo360.byod.home">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.paic.mo.client">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.vrservice">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.cttl.testService">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.cttl.sendmmsbyjar">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.emm.appiron.assist">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.emm.appiron.main">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.tianchentek.lbs">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.android.hwupgradeguide">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.android.soundrecorder">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.safeuem.hw">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.HBuilder.integrate">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.bohong.emui">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.wear.guard">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.cloudlinkpro">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.hwonlineprovisionservice">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.chinaums.umspad">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="koal.ssl">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="JWT.App">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="aj.JWT.App">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.aj.client.jwtpt">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.mobile.chat">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.naodutech.vichat">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="cn.bypay.accountmanageloan">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="kosl.ssl">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.farsunset.jingxin">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="pekong.pssj">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.xdja.actoma">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.xdja.safekeyservice">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.example.android.notepad">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.notepad">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.vrv.im">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.vrv.fbcz">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.vrv.emm">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.vrvemm">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.linkdood.im">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="im.linkdood.com">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.ctsi.emm">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.general.knet.emergency">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.sgcc.vpn_client">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.dsdl.realtimepositioning">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="fr.bouyguestelecom.vvmandroid.apk">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.zjct.android.ctsg">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.airtalkee">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.zed3.sipua">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="ac.cn.iscas.inspector">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.xdja.emm.framework">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.lucky_money">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.justsy.launcher">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.justsy.mdm">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.justsy.mdmsys">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.justsy.portal">
+        <item name="isShow">1</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.vrhandle">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.orange.serenateleasistencia.es">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.mobileiron.tunnel.android.release">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="abbanza.bixpe.orange.dispositivos.android">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.mobileiron.client.android.pim">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.stupeflix.replay">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.google.android.youtube">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.google.android.videos">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.google.android.music">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.google.android.gm">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.google.android.apps.photos">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.google.android.apps.maps">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.google.android.apps.docs">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.google.android.syncadapters.contacts">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.livewallpaper.flowersbloom">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.livewallpaper.ripplestone">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.livewallpaper.naturalgarden">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.livewallpaper.artflower">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.android.dreams.basic">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.android.airsharing">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.android.storagemanager">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.huawei.himovie">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.android.browser">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.realvnc.android.remote">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="huawei.android.widget">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.android.wallpaperbackup">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.tencent.mobileqq">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.tencent.mm">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.huawei.health">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.example.contactstest">
+        <item name="isShow">0</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="com.example.compasstest">
+        <item name="isShow">1</item>
+        <item name="operation">1</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="fr.gouv.android.stopcovid">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.gov.mcmc.projectcatur">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="my.gov.onegovappstore.mysejahtera">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="my.gov.onegovappstore.mytrace">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.thaialert.app">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="sg.gov.tech.bluetrace">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="sg.gov.homer">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.telkom.tracencare">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.minsvyaz.gosuslugi.stopcorona">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.dawsoftware.contacttracker">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="nic.goi.aarogyasetu">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="in.gov.punjab.cova">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="mx.gob.www">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="co.gov.ins.guardianes">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="cl.gob.digital.coronappcoronApp">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="peruentusmanos.gob.pe">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="ae.haad.staysafe.stayathome">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.knasirayaz.mohapcovid">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="uk.nhs.nhsx.colocate">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.tforh.csafe">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="citamovil.saludresponde">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="cat.gencat.mobi.StopCovid19Cat">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="de.rki.coronadatenspende">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="it.lispa.sire.app.mobile.allertalom">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.vost.covid19mobile">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="pl.nask.droid.kwarantannadomowa">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="cz.covid19cz.erouska">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="tr.gov.saglik.hayatevesigar">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="at.roteskreuz.stopcorona">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="no.simula.smittestopp">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.hardmodeinteractive.coronavirus">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="ae.tracecovid.app">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="doh.health.shield">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="sa.gov.nic.tawakkalna">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="moh.gov.sa.mawid">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.healthcarekw.app">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.moi.covid19">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="bh.bahrain.corona.tracker">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="eg.com.eserve.sehatmisr">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="sk.marekgogol.zostanzdravy">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+    <package name="nl.rijksoverheid.en">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="es.gva.coronavirus">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="es.gob.radarcovid">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="fi.thl.koronahaavi">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.covidtracker.hse">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="fct.inesctec.stayaway">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="be.sciensano.coronalert">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.netcompany.smittestop_exposure_notification">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.wisemo.host.v10">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">1</item>
+    </package>
+    <package name="sg.gov.tech.bluetrace.staging">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">1</item>
+        <item name="autoAwakedBy">1</item>
+        <item name="background">0</item>
+    </package>
+    <package name="com.eyecon.global.ag">
+        <item name="isShow">0</item>
+        <item name="operation">2</item>
+        <item name="autoStart">0</item>
+        <item name="autoAwakedBy">0</item>
+        <item name="background">0</item>
+    </package>
+</policy>

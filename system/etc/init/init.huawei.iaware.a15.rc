@@ -1,0 +1,121 @@
+# for iAware
+on boot
+    mkdir /data/log/iaware/
+    chown root system /data/log/iaware/
+    chmod 770 /data/log/iaware/
+on init
+    mkdir /dev/stune/boost
+    mkdir /dev/stune/system-background
+    mkdir /dev/stune/key-background
+    chown system system /dev/stune/boost
+    chown system system /dev/stune/system-background
+    chown system system /dev/stune/key-background
+    chown system system /dev/stune/boost/tasks
+    chown system system /dev/stune/system-background/tasks
+    chown system system /dev/stune/key-background/tasks
+    chmod 0664 /dev/stune/boost/tasks
+    chmod 0664 /dev/stune/system-background/tasks
+    chmod 0664 /dev/stune/key-background/tasks
+
+    chown system system /dev/stune/schedtune.boost
+    chown system system /dev/stune/foreground/schedtune.boost
+    chown system system /dev/stune/top-app/schedtune.boost
+    chown system system /dev/stune/boost/schedtune.boost
+    chown system system /dev/stune/background/schedtune.boost
+    chown system system /dev/stune/system-background/schedtune.boost
+    chown system system /dev/stune/key-background/schedtune.boost
+    chmod 0664 /dev/stune/schedtune.boost
+    chmod 0664 /dev/stune/foreground/schedtune.boost
+    chmod 0664 /dev/stune/top-app/schedtune.boost
+    chmod 0664 /dev/stune/boost/schedtune.boost
+    chmod 0664 /dev/stune/background/schedtune.boost
+    chmod 0664 /dev/stune/system-background/schedtune.boost
+    chmod 0664 /dev/stune/key-background/schedtune.boost
+
+# sets up initial iolimit
+    mkdir /dev/iolimit
+    mount cgroup none /dev/iolimit iolimit
+    mkdir /dev/iolimit/iocontrol
+    mkdir /dev/iolimit/heavyio
+
+    chown system system /dev/iolimit
+    chown system system /dev/iolimit/iocontrol
+    chown system system /dev/iolimit/heavyio
+
+    chown system system /dev/iolimit/tasks
+    chown system system /dev/iolimit/iocontrol/tasks
+    chown system system /dev/iolimit/heavyio/tasks
+
+    chmod 0644 /dev/iolimit/tasks
+    chmod 0644 /dev/iolimit/iocontrol/tasks
+    chmod 0644 /dev/iolimit/heavyio/tasks
+
+    chmod 0644 /dev/iolimit/cgroup.procs
+    chmod 0644 /dev/iolimit/iocontrol/cgroup.procs
+    chmod 0644 /dev/iolimit/heavyio/cgroup.procs
+
+    write /dev/iolimit/iocontrol/iolimit.read_limit 3145728
+    write /dev/iolimit/iocontrol/iolimit.write_limit 3145728
+    write /dev/iolimit/iocontrol/iolimit.switching 0
+
+    write /dev/iolimit/heavyio/iolimit.read_limit 1048576
+    write /dev/iolimit/heavyio/iolimit.write_limit 1048576
+    write /dev/iolimit/heavyio/iolimit.switching 0
+
+# sets up initial blkio for ActivityManger
+    mkdir /dev/blkio
+    mount cgroup none /dev/blkio blkio
+
+    mkdir /dev/blkio/foreground
+    mkdir /dev/blkio/background
+    mkdir /dev/blkio/system-background
+    mkdir /dev/blkio/key-background
+    mkdir /dev/blkio/top-app
+
+    chown system system /dev/blkio
+    chown system system /dev/blkio/foreground
+    chown system system /dev/blkio/background
+    chown system system /dev/blkio/system-background
+    chown system system /dev/blkio/key-background
+    chown system system /dev/blkio/top-app
+
+    chown system system /dev/blkio/tasks
+    chown system system /dev/blkio/foreground/tasks
+    chown system system /dev/blkio/background/tasks
+    chown system system /dev/blkio/system-background/tasks
+    chown system system /dev/blkio/key-background/tasks
+    chown system system /dev/blkio/top-app/tasks
+
+    chmod 0664 /dev/blkio/tasks
+    chmod 0664 /dev/blkio/foreground/tasks
+    chmod 0664 /dev/blkio/background/tasks
+    chmod 0664 /dev/blkio/system-background/tasks
+    chmod 0664 /dev/blkio/key-background/tasks
+    chmod 0664 /dev/blkio/top-app/tasks
+
+# key-background is for key background tasks
+    mkdir /dev/cpuset/key-background
+    write /dev/cpuset/key-background/cpus 0-7
+    write /dev/cpuset/key-background/mems 0
+    chown system system /dev/cpuset/key-background
+    chown system system /dev/cpuset/key-background/tasks
+    chmod 0664 /dev/cpuset/key-background/tasks
+
+# boost group is for key thread
+    mkdir /dev/cpuset/boost
+    write /dev/cpuset/boost/cpus 0-7
+    write /dev/cpuset/boost/mems 0
+    chown system system /dev/cpuset/boost
+    chown system system /dev/cpuset/boost/tasks
+    chmod 0664 /dev/cpuset/boost/tasks
+
+#iaware main switch
+on property:ro.config.enable_iaware=true
+    setprop persist.sys.enable_iaware true
+on property:ro.config.enable_iaware=false
+    setprop persist.sys.enable_iaware false
+
+# for usertype
+on property:ro.logsystem.usertype=*
+    write /proc/log-usertype ${ro.logsystem.usertype}
+

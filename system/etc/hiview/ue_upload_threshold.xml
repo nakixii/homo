@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UploadThreshold>
+  <Beta>
+    <UeTotal  maxUeDailyCountPerEvent="2000"/>
+  </Beta>
+  <Commercial>
+    <UeTotal  maxUeDailyCountPerEvent="100"/>
+    <Event eventId="990120134" maxDailyCount="200"/>
+    <Event eventId="990200852" maxDailyCount="300"/>
+    <Event eventId="990201045" maxDailyCount="1000"/>
+    <Event eventId="990203005" maxDailyCount="200"/>
+    <Event eventId="990203006" maxDailyCount="200"/>
+    <Event eventId="990240001" maxDailyCount="300"/>
+    <Event eventId="990240002" maxDailyCount="1000"/>
+    <Event eventId="990240003" maxDailyCount="1000"/>
+    <Event eventId="990240004" maxDailyCount="300"/>
+    <Event eventId="990240005" maxDailyCount="300"/>
+    <Event eventId="990240006" maxDailyCount="300"/>
+    <Event eventId="990240007" maxDailyCount="300"/>
+    <Event eventId="990240008" maxDailyCount="300"/>
+    <Event eventId="990240014" maxDailyCount="300"/>
+    <Event eventId="990240015" maxDailyCount="300"/>
+    <Event eventId="990240020" maxDailyCount="300"/>
+    <Event eventId="990240021" maxDailyCount="300"/>
+    <Event eventId="990240022" maxDailyCount="300"/>
+    <Event eventId="990240023" maxDailyCount="300"/>
+    <Event eventId="990240034" maxDailyCount="1000"/>
+    <Event eventId="990241000" maxDailyCount="200"/>
+    <Event eventId="990241001" maxDailyCount="200"/>
+    <Event eventId="990241002" maxDailyCount="200"/>
+    <Event eventId="990241003" maxDailyCount="200"/>
+    <Event eventId="990241004" maxDailyCount="200"/>
+    <Event eventId="990241005" maxDailyCount="200"/>
+    <Event eventId="990220004" maxDailyCount="200"/>
+    <Event eventId="990220005" maxDailyCount="300"/>
+    <Event eventId="990220007" maxDailyCount="300"/>
+    <Event eventId="990220016" maxDailyCount="200"/>
+    <Event eventId="990220020" maxDailyCount="300"/>
+    <Event eventId="990220122" maxDailyCount="500"/>
+    <Event eventId="990220127" maxDailyCount="300"/>
+    <Event eventId="990220128" maxDailyCount="300"/>
+    <Event eventId="990220150" maxDailyCount="300"/>
+    <Event eventId="990220151" maxDailyCount="300"/>
+    <Event eventId="990220152" maxDailyCount="300"/>
+    <Event eventId="990220344" maxDailyCount="500"/>
+    <Event eventId="990220400" maxDailyCount="300"/>
+    <Event eventId="990220401" maxDailyCount="300"/>
+    <Event eventId="990220501" maxDailyCount="300"/>
+    <Event eventId="990220502" maxDailyCount="300"/>
+    <Event eventId="990220503" maxDailyCount="300"/>
+    <Event eventId="990220504" maxDailyCount="300"/>
+    <Event eventId="990220520" maxDailyCount="500"/>
+    <Event eventId="990070205" maxDailyCount="500"/>
+    <Event eventId="990070206" maxDailyCount="500"/>
+    <Event eventId="990230036" maxDailyCount="200"/>
+  </Commercial>
+</UploadThreshold>

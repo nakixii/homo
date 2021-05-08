@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- DTSabc created. -->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <!-- this config file is used to hide some app's icon in HwLauncher6. -->
+    <favorite
+        launcher:packageName="com.android.inputmethod.latin"
+        launcher:className="com.android.inputmethod.latin.setup.SetupActivity"/>
+    <favorite
+        launcher:packageName="com.google.android.inputmethod.latin"
+        launcher:className="com.android.inputmethod.latin.setup.SetupActivity"/>
+    <favorite
+        launcher:packageName="com.google.android.googlequicksearchbox"
+        launcher:className="com.google.android.googlequicksearchbox.VoiceSearchActivity" />
+    <favorite
+        launcher:packageName="com.huawei.android.hwouc"
+        launcher:className="com.huawei.android.hwouc.ui.activities.MainEntranceActivity" />
+    <favorite
+        launcher:packageName="com.android.keyguard"
+        launcher:className="com.android.keyguard.keyguardplus.OneKeyLockActivity" />
+    <favorite
+        launcher:packageName="com.huawei.android.ds"
+        launcher:className="com.huawei.android.hicloud.hisync.activity.NewHiSyncSettingActivity" />
+    <favorite
+        launcher:packageName="com.huawei.android.ds"
+        launcher:className="com.huawei.android.hicloud.ui.activity.NewHiSyncSettingActivity" />
+    <favorite
+        launcher:packageName="com.huawei.magnifier"
+        launcher:className="com.huawei.magnifier.MagnifierActivity" />
+    <favorite
+        launcher:packageName="com.baidu.searchbox_huawei"
+        launcher:className="com.baidu.searchbox.MainActivity" />
+    <favorite
+        launcher:packageName="com.huawei.pcassistant"/>   
+    <favorite
+        launcher:packageName="com.huawei.gameassistant"
+        launcher:className="com.huawei.gameassistant.views.GameassistantMainActivity"/>
+    <favorite
+        launcher:packageName="com.android.systemui"
+        launcher:className="com.android.systemui.flashlight.FlashlightActivity"/>
+   <favorite
+        launcher:packageName="com.huawei.vassistant"
+        launcher:className="com.huawei.vassistant.ui.main.VAssistantActivity"/>
+   <favorite
+        launcher:packageName="com.huawei.hiassistantoversea"
+        launcher:className="com.huawei.hiassistantoversea.platform.ui.mainui.activity.floatmic.FloatWindowActivity"/>
+   <favorite
+      launcher:packageName="com.huawei.HwMultiScreenShot"
+      launcher:className="com.android.systemui.flashlight.FlashlightActivity"/>
+  <favorite
+      launcher:packageName="com.android.documentsui"
+      launcher:include="OTA"
+      launcher:except="AFW"/>
+  <favorite
+      launcher:packageName="com.google.android.documentsui"
+      launcher:include="OTA"
+      launcher:except="AFW"/>
+  <favorite
+      launcher:packageName="com.huawei.scenepack"/>
+
+</favorites>

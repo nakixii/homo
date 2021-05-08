@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+        <Subscriber name="Jank" value="1">
+                <SubscribeContent>
+                        <EventIdInfo value="901000000"/>
+                        <EventIdInfo value="901000001"/>
+                        <EventIdInfo value="901001000"/>
+                        <EventIdInfo value="901001001"/>
+                        <EventIdInfo value="901001002"/>
+                        <EventIdInfo value="901001003"/>
+                        <EventIdInfo value="901001004"/>
+                        <EventIdInfo value="901001005"/>
+                        <EventIdInfo value="901004000"/>
+                        <EventIdInfo value="901004001"/>
+                        <EventIdInfo value="926004000"/>
+                        <EventIdInfo value="926004003"/>
+                        <EventIdInfo value="926004005"/>
+                        <EventIdInfo value="926004006"/>
+                        <EventIdInfo value="926004010"/>
+                        <EventIdInfo value="926004011"/>
+                        <EventIdInfo value="926004020"/>
+                </SubscribeContent>
+        </Subscriber>
+        <Subscriber name="zerohung" value="2">
+                <SubscribeContent>
+                        <EventIdInfo value="928008000-928008019"/>
+                        <EventIdInfo value="922001000-922001031"/>
+                        <EventIdInfo value="926004000-926004024"/>
+                        <EventIdInfo value="922002000-922002001"/>
+                        <EventIdInfo value="928002001-928002029"/>
+                </SubscribeContent>
+        </Subscriber>
+        <Subscriber name="freeze" value="3">
+                <SubscribeContent>
+                        <EventIdInfo value="1000"/>
+                </SubscribeContent>
+        </Subscriber>
+        <Subscriber name="remote" value="4">
+                <SubscribeContent>
+                         <EventIdInfo value="950000000-950999999"/>
+                         <EventIdInfo value="901000000-901999999"/>
+                         <EventIdInfo value="1001"/> 
+                </SubscribeContent>
+		</Subscriber>
+</Config>

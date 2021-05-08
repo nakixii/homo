@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<Area>
+  <Region name="China" locale="zh-Hans-CN" code="156" isoLang="zh" isoCountry="CN" mcc="460" allowBaseType="2" allowBetaBaseType="3" allowEventType="0"/>
+  <Region name="Channel Western Europe" continent="EU" locale="C431" code="999" isoLang="en" isoCountry="GB" mcc="C431" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel Western Europe" continent="EU" locale="C432" code="999" isoLang="en" isoCountry="GB" mcc="C432" allowBaseType="0" allowBetaBaseType="1" allowEventType="2"/>
+  <Region name="Channel Vodafone" continent="EU" locale="C02" code="999" isoLang="en" isoCountry="GB" mcc="C02" allowBaseType="0" allowBetaBaseType="1" allowEventType="2"/>
+  <Region name="United Kingdom" continent="EU" locale="en-GB" code="826" isoLang="en" isoCountry="GB" mcc="234" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Ireland" continent="EU" locale="en-IE" code="372" isoLang="en" isoCountry="IE" mcc="272" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Italy" continent="EU" locale="ca-IT" code="380" isoLang="ca" isoCountry="IT" mcc="222" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Spain" continent="EU" locale="ca-ES" code="724" isoLang="ca" isoCountry="ES" mcc="214" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Germany" continent="EU" locale="de-DE" code="276" isoLang="de" isoCountry="DE" mcc="262" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Netherlands" continent="EU" locale="en-NL" code="528" isoLang="nl" isoCountry="NL" mcc="204" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="France" continent="EU" locale="ca-FR" code="250" isoLang="ca" isoCountry="FR" mcc="208" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Belgium" continent="EU" locale="de-BE" code="056" isoLang="de" isoCountry="BE" mcc="206" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Switzerland" continent="EU" locale="de-CH" code="756" isoLang="de" isoCountry="CH" mcc="228" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Russia" continent="EU" locale="C10" code="999" isoLang="ru" isoCountry="RU" mcc="C10" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Poland" continent="EU" locale="pl-PL" code="616" isoLang="pl" isoCountry="PL" mcc="260" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Greece" continent="EU" locale="el-GR" code="300" isoLang="el" isoCountry="GR" mcc="202" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Norway" continent="EU" locale="nb-NO" code="578" isoLang="nb" isoCountry="NO" mcc="242" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Latvia" continent="EU" locale="lv-LV" code="428" isoLang="lv" isoCountry="LV" mcc="247" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Estonia" continent="EU" locale="et-EE" code="233" isoLang="et" isoCountry="EE" mcc="248" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Denmark" continent="EU" locale="da-DK" code="208" isoLang="da" isoCountry="DK" mcc="238" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1"/>
+  <Region name="Finland" continent="EU" locale="en-FI" code="246" isoLang="fi" isoCountry="FI" mcc="244" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Iceland" continent="EU" locale="is-IS" code="352" isoLang="is" isoCountry="IS" mcc="274" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Lithuania" continent="EU" locale="lt-LT" code="440" isoLang="lt" isoCountry="LT" mcc="246" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Sweden" continent="EU" locale="en-SE" code="752" isoLang="sv" isoCountry="SE" mcc="240" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Macedonia (FYROM)" continent="EU" locale="mk-MK" code="807" isoLang="mk" isoCountry="MK" mcc="294" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Bulgaria" continent="EU" locale="bg-BG" code="100" isoLang="bg" isoCountry="BG" mcc="284" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Cyprus" continent="EU" locale="el-CY" code="196" isoLang="el" isoCountry="CY" mcc="280" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Croatia" continent="EU" locale="hr-HR" code="191" isoLang="hr" isoCountry="HR" mcc="219" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Slovenia" continent="EU" locale="en-SI" code="705" isoLang="sl" isoCountry="SI" mcc="293" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Romania" continent="EU" locale="ro-RO" code="642" isoLang="ro" isoCountry="RO" mcc="226" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Moldova" continent="EU" locale="ro-MD" code="498" isoLang="ro" isoCountry="MD" mcc="259" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Austria" continent="EU" locale="de-AT" code="040" isoLang="de" isoCountry="AT" mcc="232" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Czech Republic" continent="EU" locale="cs-CZ" code="203" isoLang="cs" isoCountry="CZ" mcc="230" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Serbia" continent="EU" locale="sr-Latn-RS" code="688" isoLang="sr" isoCountry="RS" mcc="220" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Bosnia &amp; Herzegovina" continent="EU" locale="bs-Latn-BA" code="070" isoLang="bs" isoCountry="BA" mcc="218" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Montenegro" continent="EU" locale="sr-Latn-ME" code="499" isoLang="sr" isoCountry="ME" mcc="297" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Russia" continent="EU" locale="ru-RU" code="643" isoLang="ru" isoCountry="RU" mcc="250" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Hungary" continent="EU" locale="hu-HU" code="348" isoLang="hu" isoCountry="HU" mcc="216" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Slovakia" continent="EU" locale="sk-SK" code="703" isoLang="sk" isoCountry="SK" mcc="231" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Andorra" continent="EU" locale="ca-AD" code="020" isoLang="ca" isoCountry="AD" mcc="214" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1"/>
+  <Region name="Portugal" continent="EU" locale="pt-PT" code="620" isoLang="pt" isoCountry="PT" mcc="268" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Luxembourg" continent="EU" locale="de-LU" code="442" isoLang="de" isoCountry="LU" mcc="270" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="San Marino" continent="EU" locale="it-SM" code="674" isoLang="it" isoCountry="SM" mcc="292" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Monaco" continent="EU" locale="fr-MC" code="492" isoLang="fr" isoCountry="MC" mcc="212" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1"/>
+  <Region name="Malta" continent="EU" locale="en-MT" code="470" isoLang="en" isoCountry="MT" mcc="278" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Liechtenstein" continent="EU" locale="de-LI" code="438" isoLang="de" isoCountry="LI" mcc="295" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1"/>
+  <Region name="United State" locale="en-US" code="840" isoLang="es" isoCountry="US" mcc="310" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1"/>
+  <Region name="Channel Japan" locale="C635" code="999" isoLang="ja" isoCountry="JP" mcc="C635" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="DOCOMO (Japan)" locale="C341" code="999" isoLang="ja" isoCountry="JP" mcc="C341" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="KT(South Korea)" locale="C710" code="999" isoLang="ko" isoCountry="KR" mcc="C710" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="2"/>
+  <Region name="Channel Korea" locale="C794" code="999" isoLang="ko" isoCountry="KR" mcc="C794" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="2"/>
+  <Region name="Japan" locale="ja-JP" code="392" isoLang="ja" isoCountry="JP" mcc="440" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Korean" locale="ko-KR" code="410" isoLang="ko" isoCountry="KR" mcc="450" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1" allowEventType="2"/>
+  <Region name="Albania" locale="sq-AL" code="008" isoLang="sq" isoCountry="AL" mcc="296" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1"/>
+  <Region name="Colombia" locale="es-CO" code="170" isoLang="es" isoCountry="CO" mcc="732" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Costa Rica" locale="es-CR" code="188" isoLang="es" isoCountry="CR" mcc="712" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Chile" locale="es-CL" code="152" isoLang="es" isoCountry="CL" mcc="730" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Guatemala" locale="es-GT" code="320" isoLang="es" isoCountry="GT" mcc="704" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Mexico" locale="es-MX" code="484" isoLang="es" isoCountry="MX" mcc="334" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Venezuela" locale="es-VE" code="862" isoLang="es" isoCountry="VE" mcc="734" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Argentina" locale="es-AR" code="032" isoLang="es" isoCountry="AR" mcc="722" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Peru" locale="es-PE" code="604" isoLang="es" isoCountry="PE" mcc="716" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Brazil" locale="pt-BR" code="076" isoLang="pt" isoCountry="BR" mcc="724" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Channel Claro" locale="C25" code="999" isoLang="es" isoCountry="MX" mcc="C25" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Channel Claro" locale="LAMC25" code="999" isoLang="es" isoCountry="MX" mcc="LAMC25" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="digitel (Venezuela/Philippines)" locale="C65" code="999" isoLang="es" isoCountry="VE" mcc="C65" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Channel Latin America North" locale="C605" code="999" isoLang="es" isoCountry="MX" mcc="C605" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Channel Argentina" locale="C730" code="999" isoLang="es" isoCountry="AR" mcc="C730" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel Tigo" locale="C45" code="999" isoLang="es" isoCountry="PY" mcc="C45" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel Tigo" locale="LAMC45" code="999" isoLang="es" isoCountry="PY" mcc="LAMC45" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel Tigo" locale="GSHC45" code="999" isoLang="es" isoCountry="PY" mcc="GSHC45" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="South Africa" locale="en-ZA" code="710" isoLang="en" isoCountry="ZA" mcc="655" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="United Arab Emirates" locale="ar-AE" code="784" isoLang="ar" isoCountry="AE" mcc="412" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Egypt" locale="ar-EG" code="818" isoLang="ar" isoCountry="EG" mcc="602" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Pakistan" locale="ur-PK" code="586" isoLang="ur" isoCountry="PK" mcc="410" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Turkish" locale="tr-TR" code="792" isoLang="tr" isoCountry="TR" mcc="286" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Kuwait" locale="ar-KW" code="414" isoLang="ar" isoCountry="KW" mcc="419" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Channel South Africa" locale="C16" code="999" isoLang="af" isoCountry="ZA" mcc="C16" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Cell C (South Africa)" locale="C190" code="999" isoLang="af" isoCountry="ZA" mcc="C190" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Channel of Middle East Africa" locale="C185" code="999" isoLang="ar" isoCountry="EG" mcc="C185" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="Vodacom (South Africa/Congo-Kinshasa)" locale="C316" code="999" isoLang="ar" isoCountry="EG" mcc="C316" allowBaseType="0" allowBetaBaseType="1"/>
+  <Region name="India" locale="as-IN" code="356" isoLang="as" isoCountry="IN" mcc="404" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Malaysia" locale="ms-MY" code="458" isoLang="ms" isoCountry="MY" mcc="502" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Thailand" locale="th-TH" code="764" isoLang="th" isoCountry="TH" mcc="520" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Philippines" locale="fil-PH" code="608" isoLang="fil" isoCountry="PH" mcc="515" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Vietnam" locale="vi-VN" code="704" isoLang="vi" isoCountry="VN" mcc="452" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Bangladesh" locale="bn-BD" code="050" isoLang="bn" isoCountry="BD" mcc="470" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Burmese" locale="my-MM" code="104" isoLang="my" isoCountry="MM" mcc="414" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="SMART (Philippines)" locale="C81" code="999" isoLang="fil" isoCountry="PH" mcc="C81" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="SUN (Philippines)" locale="C99" code="999" isoLang="fil" isoCountry="PH" mcc="C99" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="GLOBE (Philippines)" locale="C294" code="999" isoLang="fil" isoCountry="PH" mcc="C294" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel South Pacific/Southeast" locale="C636" code="999" isoLang="ms" isoCountry="MY" mcc="C636" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel South Pacific/Southeast" locale="TWNC636" code="999" isoLang="ms" isoCountry="MY" mcc="TWNC636" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel South Pacific/Southeast" locale="AUSC636" code="999" isoLang="ms" isoCountry="MY" mcc="AUSC636" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel South Pacific/Southeast" locale="INDC636" code="999" isoLang="ms" isoCountry="MY" mcc="INDC636" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Flipkart (India)" locale="C675" code="999" isoLang="hi" isoCountry="IN" mcc="C675" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel Central Asia" locale="C461" code="999" isoLang="ur" isoCountry="PK" mcc="C461" allowBaseType="0" allowBetaBaseType="1" allowEventType="1"/>
+  <Region name="Channel Turkey" locale="C464" code="999" isoLang="tr" isoCountry="TR" mcc="C464" allowBaseType="0" cfgServerDomain="configserver-dre.platform.hicloud.com" allowBetaBaseType="1"/>
+</Area>

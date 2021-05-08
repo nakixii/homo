@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<ServerAndProtocol>
+  <Beta>
+    <ServerProtocol region="China" locale="zh-Hans-CN" code="156" mcc="460" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Japan" locale="ja-JP" code="392" mcc="440" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="India" locale="as-IN" code="356" mcc="404" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="United State" locale="en-US" code="840" mcc="310" host="rnd-apr-us.huawei.com" port="443" protocol="NettyStatelessProtocol"/>
+    <ServerProtocol region="Channel North America" locale="C352" code="999" mcc="C352" host="rnd-apr-us.huawei.com" port="443" protocol="NettyStatelessProtocol"/>
+    <ServerProtocol region="Italy" locale="ca-IT" code="380" mcc="222" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Spain" locale="ca-ES" code="724" mcc="214" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Germany" locale="de-DE" code="276" mcc="262" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="France" locale="ca-FR" code="250" mcc="208" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Poland" locale="pl-PL" code="616" mcc="260" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Finland" locale="en-FI" code="246" mcc="244" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Austria" locale="de-AT" code="40" mcc="232" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Czech Republic" locale="cs-CZ" code="203" mcc="230" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Romania" locale="ro-RO" code="642" mcc="226" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="United Arab Emirates" locale="ar-AE" code="784" mcc="412" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Saudi Arabia" locale="ar-SA" code="682" mcc="420" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Costa Rica" locale="es-CR" code="188" mcc="712" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Chile" locale="es-CL" code="152" mcc="730" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Mexico" locale="es-MX" code="484" mcc="334" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Argentina" locale="es-AR" code="32" mcc="722" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Peru" locale="es-PE" code="604" mcc="716" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Colombia" locale="es-CO" code="170" mcc="732" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Guatemala" locale="es-GT" code="320" mcc="704" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Western Europe" locale="C431" code="999" mcc="C431" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Western Europe" locale="C432" code="999" mcc="C432" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="C636" code="999" mcc="C636" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="TWNC636" code="999" mcc="TWNC636" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="AUSC636" code="999" mcc="AUSC636" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="INDC636" code="999" mcc="INDC636" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Japan" locale="C635" code="999" mcc="C635" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="DOCOMO (Japan)" locale="C341" code="999" mcc="C341" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Vodafone" locale="C02" code="999" mcc="C02" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Africa" locale="C16" code="999" mcc="C16" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Cell C (South Africa)" locale="C190" code="999" mcc="C190" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Claro" locale="C25" code="999" mcc="C25" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Claro" locale="LAMC25" code="999" mcc="LAMC25" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Tigo" locale="C45" code="999" mcc="C45" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Tigo" locale="LAMC45" code="999" mcc="LAMC45" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Tigo" locale="GSHC45" code="999" mcc="GSHC45" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="digitel (Venezuela/Philippines)" locale="C65" code="999" mcc="C65" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Latin America North" locale="C605" code="999" mcc="C605" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Argentina" locale="C730" code="999" mcc="C730" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="SMART (Philippines)" locale="C81" code="999" mcc="C81" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="SUN (Philippines)" locale="C99" code="999" mcc="C99" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="GLOBE (Philippines)" locale="C294" code="999" mcc="C294" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Flipkart (India)" locale="C675" code="999" mcc="C675" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Central Asia" locale="C461" code="999" mcc="C461" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel of Middle East Africa" locale="C185" code="999" mcc="C185" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol" needExcluded="1"/>
+    <ServerProtocol region="Vodacom (South Africa/Congo-Kinshasa)" locale="C316" code="999" mcc="C316" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol" needExcluded="1"/>
+    <ServerProtocol region="Channel Russion" locale="C10" code="999" mcc="C10" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Russion" locale="ru-RU" code="643" mcc="250" url="https://logservice1.hicloud.com:443" protocol="HttpAuthProtocol"/>
+  </Beta>
+  <Commercial>
+    <ServerProtocol region="China" locale="zh-Hans-CN" code="156" mcc="460" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="United Kingdom" locale="en-GB" code="826" mcc="234" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Portugal" locale="pt-PT" code="620" mcc="268" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Czech Republic" locale="cs-CZ" code="203" mcc="230" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Hungary" locale="hu-HU" code="348" mcc="216" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Slovakia" locale="sk-SK" code="703" mcc="231" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Bulgaria" locale="bg-BG" code="100" mcc="284" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Denmark" locale="da-DK" code="208" mcc="238" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Romania" locale="ro-RO" code="642" mcc="226" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Sweden" locale="en-SE" code="752" mcc="240" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Finland" locale="en-FI" code="246" mcc="244" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Italy" locale="ca-IT" code="380" mcc="222" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Spain" locale="ca-ES" code="724" mcc="214" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Germany" locale="de-DE" code="276" mcc="262" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Netherlands" locale="en-NL" code="528" mcc="204" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="France" locale="ca-FR" code="250" mcc="208" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Poland" locale="pl-PL" code="616" mcc="260" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Greece" locale="el-GR" code="300" mcc="202" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Belgium" locale="de-BE" code="56" mcc="206" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Norway" locale="nb-NO" code="578" mcc="242" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="India" locale="as-IN" code="356" mcc="404" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Burmese" locale="my-MM" code="104" mcc="414" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Thailand" locale="th-TH" code="764" mcc="520" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Vietnam" locale="vi-VN" code="704" mcc="452" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Malaysia" locale="ms-MY" code="458" mcc="502" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Philippines" locale="fil-PH" code="608" mcc="515" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Pakistan" locale="ur-PK" code="586" mcc="410" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="South Africa" locale="en-ZA" code="710" mcc="655" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Egypt" locale="ar-EG" code="818" mcc="602" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Turkish" locale="tr-TR" code="792" mcc="286" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Colombia" locale="es-CO" code="170" mcc="732" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Mexico" locale="es-MX" code="484" mcc="334" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Peru" locale="es-PE" code="604" mcc="716" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Guatemala" locale="es-GT" code="320" mcc="704" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Japan" locale="ja-JP" code="392" mcc="440" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Korean" locale="ko-KR" code="410" mcc="450" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Western Europe" locale="C431" code="999" mcc="C431" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Western Europe" locale="C432" code="999" mcc="C432" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Vodafone" locale="C02" code="999" mcc="C02" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="KT(South Korea)" locale="C710" code="999" mcc="C710" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Korea" locale="C794" code="999" mcc="C794" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Africa" locale="C16" code="999" mcc="C16" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Cell C (South Africa)" locale="C190" code="999" mcc="C190" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Claro" locale="C25" code="999" mcc="C25" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Claro" locale="LAMC25" code="999" mcc="LAMC25" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Tigo" locale="C45" code="999" mcc="C45" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Tigo" locale="LAMC45" code="999" mcc="LAMC45" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Tigo" locale="GSHC45" code="999" mcc="GSHC45" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="digitel (Venezuela/Philippines)" locale="C65" code="999" mcc="C65" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Latin America North" locale="C605" code="999" mcc="C605" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Argentina" locale="C730" code="999" mcc="C730" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="SMART (Philippines)" locale="C81" code="999" mcc="C81" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="SUN (Philippines)" locale="C99" code="999" mcc="C99" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="GLOBE (Philippines)" locale="C294" code="999" mcc="C294" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="C636" code="999" mcc="C636" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="TWNC636" code="999" mcc="TWNC636" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="AUSC636" code="999" mcc="AUSC636" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel South Pacific/Southeast" locale="INDC636" code="999" mcc="INDC636" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Flipkart (India)" locale="C675" code="999" mcc="C675" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Central Asia" locale="C461" code="999" mcc="C461" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Turkey" locale="C464" code="999" mcc="C464" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel of Middle East Africa" locale="C185" code="999" mcc="C185" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol" needExcluded="1"/>
+    <ServerProtocol region="Vodacom (South Africa/Congo-Kinshasa)" locale="C316" code="999" mcc="C316" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol" needExcluded="1"/>
+    <ServerProtocol region="Channel Russion" locale="C10" code="999" mcc="C10" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+    <ServerProtocol region="Channel Russion" locale="ru-RU" code="643" mcc="250" url="https://logservice.hicloud.com:443" protocol="HttpAuthProtocol"/>
+  </Commercial>
+  <Prohibited>
+    <Country name="Iran" isoLang="fa" isoCountry="IR"/>
+    <Country name="Israel" isoLang="he" isoCountry="IL"/>
+    <Country name="Sudan" isoLang="ar" isoCountry="SD"/>
+    <Country name="Syrian Arab Republic" isoLang="ar" isoCountry="SY"/>
+    <Country name="Libya" isoLang="ar" isoCountry="LY"/>
+    <Country name="Cuba" isoLang="es" isoCountry="CU"/>
+    <Country name="Korea (Democratic People's Republic of)" isoLang="ko" isoCountry="KP"/>
+  </Prohibited>
+</ServerAndProtocol>

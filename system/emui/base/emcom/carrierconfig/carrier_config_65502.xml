@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TELKOM ZA-->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="10" />
+        <int name="maxMessageSize" value="307200" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+    </carrier_config>
+</carrier_config_list>

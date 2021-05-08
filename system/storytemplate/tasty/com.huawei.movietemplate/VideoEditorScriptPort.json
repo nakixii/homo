@@ -1,0 +1,408 @@
+﻿{
+    "id": "hwtemplate_Tasty",
+    "version": 100000,
+    "name": "美食",
+    "duration": 15000,
+    "timeCreated": 1587956099851,
+    "timeModified": 1588045904884,
+    "preview": "preview/preview.jpg",
+    "previewVideo": "preview/previewVideo.mp4",
+    "canvas_config": {
+        "ratio": "9:16",
+        "width": 1080,
+        "height": 1920
+    },
+    "editTracks": [
+        {
+            "id": "1vt",
+            "type": "video",
+            "editSegments": [
+                {
+                    "id": "1vt1vs",
+                    "timeRangeInSource": {
+                        "start": 0,
+                        "duration": 2900
+                    },
+                    "timeRangeInTarget": {
+                        "start": 0,
+                        "duration": 2900
+                    },
+                    "playSpeed": 1.0,
+                    "mirror": false,
+                    "reverse": false,
+                    "volume": 0,
+                    "sizeCut": {
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "transform": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "flip": {
+                            "horizontal": false,
+                            "vertical": false
+                        },
+                        "alpha": 1
+                    },
+                    "mainMaterialId": "1v_material_id",
+                    "attachedExtraMaterialRefs": ["1trs_material_id"],
+                    "render_index": 1,
+                    "attachInfo": {
+                        "videoId": "",
+                        "offset": 0
+                    }
+                },
+                {
+                    "id": "1vt2vs",
+                    "timeRangeInSource": {
+                        "start": 0,
+                        "duration": 3100
+                    },
+                    "timeRangeInTarget": {
+                        "start": 2700,
+                        "duration": 3100
+                    },
+                    "playSpeed": 1.0,
+                    "mirror": false,
+                    "reverse": false,
+                    "volume": 0,
+                    "sizeCut": {
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "transform": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "flip": {
+                            "horizontal": false,
+                            "vertical": false
+                        },
+                        "alpha": 1
+                    },
+                    "mainMaterialId": "2v_material_id",
+                    "attachedExtraMaterialRefs": ["2trs_material_id"],
+                    "render_index": 1,
+                    "attachInfo": {
+                        "videoId": "",
+                        "offset": 0
+                    }
+                },
+                {
+                    "id": "1vt3vs",
+                    "timeRangeInSource": {
+                        "start": 0,
+                        "duration": 2300
+                    },
+                    "timeRangeInTarget": {
+                        "start": 5400,
+                        "duration": 2300
+                    },
+                    "playSpeed": 1.0,
+                    "mirror": false,
+                    "reverse": false,
+                    "volume": 0,
+                    "sizeCut": {
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "transform": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "flip": {
+                            "horizontal": false,
+                            "vertical": false
+                        },
+                        "alpha": 1
+                    },
+                    "mainMaterialId": "3v_material_id",
+                    "attachedExtraMaterialRefs": ["1trs_material_id"],
+                    "render_index": 1,
+                    "attachInfo": {
+                        "videoId": "",
+                        "offset": 0
+                    }
+                },
+                {
+                    "id": "1vt4vs",
+                    "timeRangeInSource": {
+                        "start": 0,
+                        "duration": 3800
+                    },
+                    "timeRangeInTarget": {
+                        "start": 7500,
+                        "duration": 3800
+                    },
+                    "playSpeed": 1.0,
+                    "mirror": false,
+                    "reverse": false,
+                    "volume": 0,
+                    "sizeCut": {
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "transform": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "flip": {
+                            "horizontal": false,
+                            "vertical": false
+                        },
+                        "alpha": 1
+                    },
+                    "mainMaterialId": "4v_material_id",
+                    "attachedExtraMaterialRefs": ["2trs_material_id"],
+                    "render_index": 1,
+                    "attachInfo": {
+                        "videoId": "",
+                        "offset": 0
+                    }
+                },
+                {
+                    "id": "1vt5vs",
+                    "timeRangeInSource": {
+                        "start": 0,
+                        "duration": 4100
+                    },
+                    "timeRangeInTarget": {
+                        "start": 10900,
+                        "duration": 4100
+                    },
+                    "playSpeed": 1.0,
+                    "mirror": false,
+                    "reverse": false,
+                    "volume": 0,
+                    "sizeCut": {
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "transform": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "flip": {
+                            "horizontal": false,
+                            "vertical": false
+                        },
+                        "alpha": 1
+                    },
+                    "mainMaterialId": "5v_material_id",
+                    "attachedExtraMaterialRefs": [],
+                    "render_index": 1,
+                    "attachInfo": {
+                        "videoId": "",
+                        "offset": 0
+                    }
+                }
+            ],
+            "flag": 0
+        },
+        {
+            "id": "1at",
+            "type": "audio",
+            "editSegments": [
+                {
+                    "id": "1at1as",
+                    "timeRangeInSource": {
+                        "start": 0,
+                        "duration": 15000
+                    },
+                    "timeRangeInTarget": {
+                        "start": 0,
+                        "duration": 15000
+                    },
+                    "playSpeed": 1.0,
+                    "mirror": false,
+                    "reverse": false,
+                    "volume": 1,
+                    "sizeCut": {
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "transform": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "flip": {
+                            "horizontal": false,
+                            "vertical": false
+                        },
+                        "alpha": 1
+                    },
+                    "mainMaterialId": "1a_material_id",
+                    "attachedExtraMaterialRefs": [],
+                    "render_index": 1,
+                    "attachInfo": {
+                        "videoId": "",
+                        "offset": 0
+                    }
+                }
+            ],
+            "flag": 0
+        },
+        {
+            "id": "1ft",
+            "type": "filter",
+            "editSegments": [
+                {
+                    "id": "1ft1fs",
+                    "timeRangeInSource": {
+                        "start": 0,
+                        "duration": 15000
+                    },
+                    "timeRangeInTarget": {
+                        "start": 0,
+                        "duration": 15000
+                    },
+                    "playSpeed": 1.0,
+                    "mirror": false,
+                    "reverse": false,
+                    "volume": 0,
+                    "sizeCut": {
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "transform": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "flip": {
+                            "horizontal": false,
+                            "vertical": false
+                        },
+                        "alpha": 1
+                    },
+                    "mainMaterialId": "1f_material_id",
+                    "attachedExtraMaterialRefs": [],
+                    "render_index": 1,
+                    "attachInfo": {
+                        "videoId": "1v",
+                        "offset": 0
+                    }
+                }
+            ],
+            "flag": 0
+        }
+    ],
+    "editMaterials": {
+        "videos": [
+            {
+                "id": "1v_material_id",
+                "type": "video",
+                "duration": 0,
+                "path": null,
+                "width": 0,
+                "height": 0,
+                "category_name": null,
+                "rotation": 0.0
+            },
+            {
+                "id": "2v_material_id",
+                "type": "video",
+                "duration": 0,
+                "path": null,
+                "width": 0,
+                "height": 0,
+                "category_name": null,
+                "rotation": 0.0
+            },
+            {
+                "id": "3v_material_id",
+                "type": "video",
+                "duration": 0,
+                "path": null,
+                "width": 0,
+                "height": 0,
+                "category_name": null,
+                "rotation": 0.0
+            },
+            {
+                "id": "4v_material_id",
+                "type": "video",
+                "duration": 0,
+                "path": null,
+                "width": 0,
+                "height": 0,
+                "category_name": null,
+                "rotation": 0.0
+            },
+            {
+                "id": "5v_material_id",
+                "type": "video",
+                "duration": 0,
+                "path": null,
+                "width": 0,
+                "height": 0,
+                "category_name": null,
+                "rotation": 0.0
+            }
+        ],
+        "audios": [
+            {
+                "id": "1a_material_id",
+                "type": "music",
+                "duration": 15000,
+                "path": "com.huawei.movietemplate/Resource/music/out.aac",
+                "name": "music_name"
+            }
+        ],
+        "effects": [
+            {
+                "id": "1f_material_id",
+                "type": "filter",
+                "effect_id": "filter_res_15",
+                "name": "milktea",
+                "path": "/filters/15/15.jpg",
+                "value": 1,
+                "category_name": ""
+            }
+        ],
+        "tail_leaders": [
+            {
+                "id": "1tl_material_id",
+                "type": "tail_leader",
+                "text": "",
+                "index": 0,
+                "start": 15000,
+                "duration": 1000
+            }
+        ],
+        "transitions": [
+            {
+                "id": "1trs_material_id",
+                "type": "transition",
+                "name": "模糊",
+                "path": "/thepath",
+                "duration": 200,
+                "is_overlap": true,
+                "resource_id": ""
+            },
+            {
+                "id": "2trs_material_id",
+                "type": "transition",
+                "name": "叠化",
+                "path": "/thepath",
+                "duration": 400,
+                "is_overlap": true,
+                "resource_id": ""
+            }
+        ]
+    }
+}

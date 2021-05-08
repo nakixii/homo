@@ -1,0 +1,5 @@
+{
+    "name" : "BloomUpscale",
+    "compute" : "shaders://computeshader/BloomUpscale.comp.spv",
+    "slot" : "noSlot"
+}

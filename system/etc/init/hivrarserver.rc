@@ -1,0 +1,13 @@
+on property:hal.hivrarddk.exist=yes
+    start hivrarserver
+
+on property:hal.hivrarddk.exist=no
+    stop hivrarserver
+
+service hivrarserver /system/bin/hivrarserver
+    class main
+    user  system
+    group system readproc
+    disabled
+
+

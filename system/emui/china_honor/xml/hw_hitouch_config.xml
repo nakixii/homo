@@ -1,0 +1,4 @@
+<resources>
+    <bool is_support_gaode="false" />
+    <bool is_support_baidu="true" />
+</resources>

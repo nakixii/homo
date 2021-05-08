@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- FT FR -->
+<carrier_config>
+        <!-- Volte UI -->
+        <!-- Vowifi UI -->
+        <!-- VVM -->
+
+<int name="maxImageHeight" value="1944" />
+<int name="maxMessageSize" value="614400" />
+<int name="maxImageWidth" value="2592" />
+</carrier_config>
+</carrier_config_list>

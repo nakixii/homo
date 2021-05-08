@@ -1,0 +1,50 @@
+plugins:33
+EngineEventDispatcher[]:0 static
+DistributedCommunicatorPlugin[thread:dist_comm_looper]:0 static
+EngineEventVerify[thread:engine_event_verify]:0 static
+EventDatabase[thread:event_db]:0 static
+PrivacyCompliance[]:0 static
+PrivateLogCollector[]:0 static
+RunningLogCollector[]:0 static
+EventSerialize[thread:event_serialize]:0 static
+EngineEventSource[thread:engine_event_source]:0 static
+EngineEventSourceInner[thread:inner_engine_event_source]:0 static
+CommPlugin[]:0 static
+LogControl[]:0 static
+DMDPlugin[]:0 static
+DailyControl[thread:daily_control]:0 static
+LogPacking[thread:log_packing]:0 static
+UeEventVerify[thread:ue_event_verify]:0 static
+ResourceLeakCollector[thread:resource_leak_collector]:0 static
+MemoryLeakDetector[thread:memory_leak_detector]:0 static
+FdLeakDetector[thread:fd_leak_detector]:0 static
+ThreadLeakDetector[thread:thread_leak_detector]:0 static
+FreezeDetectorPlugin[]:0 static
+BootEventSource[thread:boot_collector]:0 static
+BBoxCollector[thread:bbox_collector]:0 static
+CrashCollector[thread:collectorthread]:0 static
+FreezeCollector[thread:collectorthread]:0 static
+DropboxEventSource[thread:collectorthread]:0 static
+CauseResolver[thread:cause_resolver]:0 static
+SmartParser[thread:smart_parser]:0 static
+AssociationAnalysis[thread:associate_analysis]:0 static
+UploadPolicy[thread:uploadthread]:0 static
+FaultUpload[thread:uploadthread]:0 static
+RemoteDetectorPlugin[thread:remote_detector]:0 static
+Screem[]:0 static
+pipelines:7
+EnginePipeline:EngineEventVerify DMDPlugin DailyControl PrivacyCompliance EventDatabase PrivateLogCollector RunningLogCollector EventSerialize LogPacking RemoteDetectorPlugin EngineEventDispatcher
+FreezeDetectorPipeline:FreezeDetectorPlugin 
+Basepipelines:CauseResolver SmartParser AssociationAnalysis UploadPolicy FaultUpload 
+crashpipeline:CrashCollector 
+freezepipeline:FreezeCollector 
+RemoteDetectorPipeline:RemoteDetectorPlugin 
+UePipeline:UeEventVerify DailyControl PrivacyCompliance EventSerialize LogPacking 
+pipelinegroups:7
+EngineEventSource:EnginePipeline FreezeDetectorPipeline RemoteDetectorPipeline UePipeline
+DropboxEventSource:freezepipeline crashpipeline 
+CrashCollector:Basepipelines 
+FreezeCollector:Basepipelines 
+BootEventSource:Basepipelines 
+BBoxCollector:Basepipelines 
+EngineEventSourceInner:EnginePipeline

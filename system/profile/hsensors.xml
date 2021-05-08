@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <process>hsensors</process>
+    <loadlibs>
+        <libpath>libsensor_service.z.so</libpath>
+        <libpath>libmiscdevice_service.z.so</libpath>
+    </loadlibs>
+    <systemability>
+        <name>3601</name>
+        <libpath>libsensor_service.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>3602</name>
+        <libpath>libmiscdevice_service.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+</info>

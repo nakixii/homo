@@ -1,0 +1,6 @@
+service accountmgr /system/bin/sa_main /system/profile/accountmgr.xml
+    class z_core
+    user system
+    group system shell
+    seclabel u:r:accountmgr:s0
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks /dev/blkio/foreground/tasks

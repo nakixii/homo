@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * aps Config
+ * all states definitions at here.
+ -->
+<aps_config>
+    <aps_property_config>
+    </aps_property_config>
+
+    <aps_app_list version="1">
+    </aps_app_list>
+</aps_config>
+

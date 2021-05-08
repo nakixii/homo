@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<!--Applicable to version EMUI 10.0-->
+<HiViewSysConfig>
+  <HiView>
+    <!-- Maximum usage time allowed for the HiView LogUploadChannel. Default : 5. Unit : year -->
+    <DataInfo name="MaxEnableUploadYears" value="5"/>
+    <!-- Maximum file size allowed for each scheduled upload cycle. Default : 150. Unit : MB -->
+    <DataInfo name="MaxUploadSizeEachTime" value="150"/>
+    <!-- Commercial: WIFI timer execution interval. Default : 720 = 12 hour. Unit : minute -->
+    <DataInfo name="WifiTimerPeriod" value="720"/>
+    <!-- Commercial: Dataflow timer execution interval. Default : 2160 = 36 hour. Unit : minute -->
+    <DataInfo name="CellularTimerPeriod" value="2160"/>
+    <!-- Beta: WIFI timer execution interval. Default : 30. Unit : minute -->
+    <DataInfo name="BetaWifiTimerPeriod" value="30"/>
+    <!-- Beta: Dataflow timer execution interval. Default : 1440 = 1 day. Unit : minute -->
+    <DataInfo name="BetaCellularTimerPeriod" value="1440"/>
+    <!-- Maximum number of retries for failed file uploads. Default : 5. Unit : times -->
+    <DataInfo name="MaxFailedRetryTimes" value="5"/>
+    <!-- Maximum total size of files in LogService/uploading/. Default : 2048 = 2 GB. Unit : MB -->
+    <DataInfo name="MaxLocalLogDirSize" value="2048"/>
+    <!-- Default system level maximum file size for remote diagnosis. Default : 100. Unit : MB -->
+    <DataInfo name="MaxRemoteDebugFileSize" value="100"/>
+  </HiView>
+  <HiViewTunnel>
+    <!-- Maximum usage time allowed for the NPS surveys. Default : 3. Unit : year -->
+    <DataInfo name="MaxNPSSupportYears" value="3"/>
+    <DataInfo name="EncryptIterateCount" value="10000"/>
+    <DataInfo name="SpliteKmC2" value="wdyeH"/>
+    <DataInfo name="InitialInputValue" value="5b424031623031616661Ic5EVmi0y+l+qyiJ0vuRwXAqLQvK7bJPbwrqMgPp6fnXjPP8Fm60Smtl$Fir2XXV"/>
+    <DataInfo name="PartialDecoderEn1" value="2acf97d1f05gb0c1m42baaad88c44cf2d59c"/>
+    <DataInfo name="AuthInitInput" value="dce3e83f534b978ac570iNglbz8tusITqKZD97Pvb04EOIumGGaUjTui33hXjJ5w9wHJGuVQEZ5NrXUCLIm04IwJA5qIqMQT2octRas5gQ=="/>
+  </HiViewTunnel>
+</HiViewSysConfig>

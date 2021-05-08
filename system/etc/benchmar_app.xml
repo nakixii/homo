@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<device name="Android">
+
+  <array name="app">
+        <value>com.android.cm3</value>
+        <value>com.antutu.ABenchMark</value>
+        <value>com.antutu.ABenchMark.GL2</value>
+        <value>com.antutu.ABenchMark.GL3</value>
+        <value>com.antutu.videobench</value>
+        <value>com.aurorasoftworks.quadrant.ui.advanced</value>
+        <value>com.aurorasoftworks.quadrant.ui.professional</value>
+        <value>com.drolez.nbench</value>
+        <value>com.eembc.andebench</value>
+        <value>com.eembc.coremark</value>
+        <value>com.ellismarkov.gpubench</value>
+        <value>com.futuremark.pcmark.android.benchmark</value>
+        <value>com.glbenchmark.glbenchmark21</value>
+        <value>com.glbenchmark.glbenchmark27</value>
+        <value>com.greenecomputing.linpack</value>
+        <value>com.ludashi.benchmark</value>
+        <value>com.passmark.pt_mobile</value>
+        <value>com.primatelabs.geekbench</value>
+        <value>com.primatelabs.geekbench3</value>
+        <value>com.quicinc.vellamo</value>
+        <value>com.rarlab.rarvtg</value>
+        <value>com.redlicense.benchmark.sqlite</value>
+        <value>com.rightware.basemarkgui</value>
+        <value>com.rightware.BasemarkOSII</value>
+        <value>com.rightware.tdmm2v10jnifree</value>
+        <value>com.smartbench.twelve</value>
+        <value>com.tactel.electopia</value>
+        <value>com.threed.jpct.bench</value>
+        <value>com.threed.jpct.benchxl</value>
+        <value>eu.chainfire.cfbench</value>
+        <value>gr.androiddev.BenchmarkPi</value>
+        <value>org.broadley.membench</value>
+        <value>performance.test</value>
+        <value>se.nena.nenamark1</value>
+        <value>se.nena.nenamark2</value>
+        <value>softweg.hw.performance</value>
+        <value>org.zeroxlab.zeroxbenchmark</value>
+        <value>com.primatelabs.geekbench4.corporate</value>
+        <value>com.dhryzi</value>
+        <value>com.antutu.benchmark.full</value>
+        <value>net.kishonti.gfxbench.gl.v40000.corporate</value>
+        <value>com.robotium.mark3d</value>
+        <value>com.cpuid.cpu_z</value>
+        <value>com.antutu.tester</value>
+        <value>com.devexperts.glf.android</value>
+        <value>com.appems.hawkeye</value>
+        <value>com.antutu.aibenchmark</value>
+        <value>mobi.xpaxaf.w6er6c</value>
+        <value>cn.lvurf.cy6as</value>
+        <value>com.ludashi.aibench</value>
+  </array>
+</device>
+

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- FT ES -->
+    <carrier_config>
+        <!-- Volte UI -->
+        <!-- Vowifi UI -->
+        <!-- Google Message -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+    </carrier_config>
+    <carrier_config spn="JAZZTEL">
+        <boolean name="mvnoTypeDataEnable" value="false"/>
+    </carrier_config>
+    <carrier_config spn="simyo">
+        <boolean name="mvnoTypeDataEnable" value="false"/>
+    </carrier_config>
+    <carrier_config spn="MASMOVIL">
+        <int name="allow_mms_property_int" value="4"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- KDDI JP -->
+    <carrier_config>
+        <!-- Volte UI -->
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value=""/>
+        </string-array>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collectorhub>
+  <name>FreezeCollector</name>
+  <product>phone</product>
+  <platform>all</platform>
+  <checkPoints>/data/log/faultlog/freeze/history.log,/data/log/appeye_anr</checkPoints>
+  <collectors>
+    <collector>
+      <name>AnrFaultCollector</name>
+      <eventID>901001000</eventID>
+      <matchKeys>app_anr,system_server_anr,appeye_anr</matchKeys>
+    </collector>
+    <collector>
+      <name>VmWatchdogFaultCollector</name>
+      <eventID>901000001</eventID>
+      <matchKeys>system_server_watchdog</matchKeys>
+    </collector>
+    <collector>
+      <name>LegacyZerohungFaultCollector</name>
+      <eventID>901004000</eventID>
+      <matchKeys>901004000,901004004,901004005,901004006</matchKeys>
+    </collector>
+    <collector>
+      <name>LegacyXcollieFaultCollector</name>
+      <eventID>901004003</eventID>
+      <matchKeys>xcollie</matchKeys>
+    </collector>
+  </collectors>
+</collectorhub>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>华为消费者服务热线</name>
+    <phone>
+      <detail>950800</detail>
+      <type>Mobile</type>
+    </phone>
+    <email>
+      <detail>mobile@huawei.com</detail>
+      <type>Mobile</type>
+    </email>
+    <address>
+      <detail>深圳市龙岗区坂田华为基地</detail>
+      <type>Work</type>
+    </address>
+    <avatar>/system/emui/base/media/Hotline_avatar.jpg</avatar>
+  </contact>
+</datainitializor>

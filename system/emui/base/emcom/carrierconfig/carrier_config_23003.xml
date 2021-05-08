@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- VDF CZ -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="6" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+    </carrier_config>
+</carrier_config_list>

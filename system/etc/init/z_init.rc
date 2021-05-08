@@ -1,0 +1,56 @@
+on boot
+    # Start z service by tag
+    class_start z_hal
+    class_start z_core
+
+on property:ro.build.characteristics=watch
+    setprop ro.build.ohos.devicetype wearable
+    setprop hw_sc.build.os.devicetype wearable
+on property:ro.build.characteristics=wearable
+    setprop ro.build.ohos.devicetype wearable
+    setprop hw_sc.build.os.devicetype wearable
+on property:ro.build.characteristics=fitnessWatch
+    setprop ro.build.ohos.devicetype liteWearable
+    setprop hw_sc.build.os.devicetype liteWearable
+on property:ro.build.characteristics=liteWearable
+    setprop ro.build.ohos.devicetype liteWearable
+    setprop hw_sc.build.os.devicetype liteWearable
+on property:ro.build.characteristics=tablet
+    setprop ro.build.ohos.devicetype tablet
+    setprop hw_sc.build.os.devicetype tablet
+on property:ro.build.characteristics=tv
+    setprop ro.build.ohos.devicetype tv
+    setprop hw_sc.build.os.devicetype tv
+on property:ro.build.characteristics=default
+    setprop ro.build.ohos.devicetype phone
+    setprop hw_sc.build.os.devicetype phone
+on property:ro.build.characteristics=phone
+    setprop ro.build.ohos.devicetype phone
+    setprop hw_sc.build.os.devicetype phone
+on property:ro.build.characteristics=car
+    setprop ro.build.ohos.devicetype car
+    setprop hw_sc.build.os.devicetype car
+on property:ro.build.characteristics=ar
+    setprop ro.build.ohos.devicetype ar
+    setprop hw_sc.build.os.devicetype ar
+on property:ro.build.characteristics=vr
+    setprop ro.build.ohos.devicetype vr
+    setprop hw_sc.build.os.devicetype vr
+on property:ro.build.characteristics=ar
+    setprop ro.build.ohos.devicetype ar
+    setprop hw_sc.build.os.devicetype ar
+on property:ro.build.characteristics=earphones
+    setprop ro.build.ohos.devicetype earphones
+    setprop hw_sc.build.os.devicetype earphones
+on property:ro.build.characteristics=pc
+    setprop ro.build.ohos.devicetype pc
+    setprop hw_sc.build.os.devicetype pc
+on property:ro.build.characteristics=speaker
+    setprop ro.build.ohos.devicetype speaker
+    setprop hw_sc.build.os.devicetype speaker
+on property:ro.build.characteristics=smartVision
+    setprop ro.build.ohos.devicetype smartVision
+    setprop hw_sc.build.os.devicetype smartVision
+on property:ro.build.characteristics=linkIoT
+    setprop ro.build.ohos.devicetype linkIoT
+    setprop hw_sc.build.os.devicetype linkIoT

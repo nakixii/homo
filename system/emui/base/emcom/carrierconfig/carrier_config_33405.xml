@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="10" />
+        <int name="maxMessageSize" value="614400" />
+        <!--Google Message config end -->
+        <!--use custom User-Agent in Google Message-->
+        <boolean name="useCustomUserAgent" value="true" />
+    </carrier_config>
+</carrier_config_list>

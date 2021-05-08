@@ -1,0 +1,49 @@
+<rootcause>
+    <watchpoint name="AP_S_PANIC">
+		<threshold value="4"/>
+		<action name="soc_cpu_num_resolve"/> 
+		<result scope="hardware_soc_ap"/> 
+	</watchpoint>
+    <watchpoint name="AP_S_PANIC">
+		<threshold value="5"/>
+		<action name="ddr_screen_resolve"/> 
+		<result scope="hardware_ddr"/> 
+	</watchpoint>
+    <watchpoint name="AP_S_PANIC">
+		<threshold value="5"/>
+		<action name="panic_reboot_resolve"/> 
+		<result scope="hardware"/> 
+	</watchpoint>
+	<watchpoint name="AP_S_NOC">
+		<threshold value="5"/>
+		<action name="noc_err_resolve"/> 
+		<result scope="hardware"/> 
+		<result scope="hardware_pcie"/> 
+		<result scope="hardware_cfg_media"/> 
+	</watchpoint>
+	<watchpoint name="AP_S_AWDT">	
+		<threshold value="5"/>
+		<action name="awdt_reboot_resolve"/> 
+		<result scope="hardware_soc_ap"/> 
+	</watchpoint>
+	<watchpoint name="AP_S_PRESS6S">
+		<threshold value="5"/>
+		<action name="press6s_reboot_resolve"/> 
+		<result scope="hardware_powerkey"/> 
+	</watchpoint>
+	<watchpoint name="AP_S_PRESS6S">
+		<threshold value="1"/>
+		<action name="powerkey_touch_resolve"/> 
+		<result scope="hardware_powerkey_warning_pocket_in"/> 
+	</watchpoint>
+	<watchpoint name="LPM3_S_LPMCURST">
+		<threshold value="5"/>
+		<action name="lpmcurst_reboot_resolve"/> 
+		<result scope="hardware"/> 
+	</watchpoint>
+	<watchpoint name="AP_S_ABNORMAL">
+		<threshold value="5"/>
+		<action name="apabnormal_reboot_resolve"/> 
+		<result scope="hardware"/> 
+	</watchpoint>
+</rootcause>

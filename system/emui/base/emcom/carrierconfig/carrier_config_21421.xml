@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- FT ES-->
+    <carrier_config>
+        <!-- Google Message -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+    </carrier_config>
+    <carrier_config spn="JAZZTEL">
+        <boolean name="mvnoTypeDataEnable" value="false"/>
+    </carrier_config>
+</carrier_config_list>

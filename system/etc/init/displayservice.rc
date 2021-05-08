@@ -1,0 +1,5 @@
+service displayservice /system/bin/displayservice
+    class core
+    user  system
+    group system
+    socket acckit seqpacket 666 system system

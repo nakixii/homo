@@ -1,0 +1,23 @@
+{
+    "name" : "DefaultMaterialForward",
+    "vertexInputState": {
+        "vertexInputBindingDescriptions" : [
+            { "binding" : 0, "stride" : 12, "vertexInputRate" : "vertex" },
+            { "binding" : 1, "stride" :  8, "vertexInputRate" : "vertex" },
+            { "binding" : 2, "stride" :  4, "vertexInputRate" : "vertex" },
+            { "binding" : 3, "stride" :  8, "vertexInputRate" : "vertex" },
+            { "binding" : 4, "stride" :  4, "vertexInputRate" : "vertex" },
+            { "binding" : 5, "stride" :  4, "vertexInputRate" : "vertex" },
+            { "binding" : 6, "stride" :  4, "vertexInputRate" : "vertex" }
+        ],
+        "vertexInputAttributeDescriptions" : [
+            { "location" : 0, "binding" : 0, "format" : "r32g32b32_sfloat",     "offset" : 0 },
+            { "location" : 1, "binding" : 1, "format" : "r16g16b16a16_snorm",   "offset" : 0 },
+            { "location" : 2, "binding" : 2, "format" : "r16g16_sfloat",        "offset" : 0 },
+            { "location" : 3, "binding" : 3, "format" : "r16g16b16a16_snorm",   "offset" : 0 },
+            { "location" : 4, "binding" : 4, "format" : "r8g8b8a8_uint",        "offset" : 0 },
+            { "location" : 5, "binding" : 5, "format" : "r8g8b8a8_unorm",       "offset" : 0 },
+            { "location" : 6, "binding" : 6, "format" : "r8g8b8a8_unorm",       "offset" : 0 }
+        ]
+    }
+}

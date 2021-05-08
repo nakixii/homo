@@ -1,0 +1,7 @@
+#!/system/bin/sh
+# Script to "getFeimaFileList" on the device
+#
+base=/system
+export CLASSPATH=$base/framework/getFeimaFileList.jar
+exec app_process $base/bin com.huawei.commands.getfeimafilelist.GetFeimaFileList "$@"
+

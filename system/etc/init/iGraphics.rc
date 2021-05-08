@@ -1,0 +1,4 @@
+service iGraphicsservice /system/bin/iGraphicsservice
+    class main
+    user system
+    group system

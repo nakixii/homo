@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<generalInfo signinfo="sha256" version=""/>
+<pkgInfo name="com.android.conscrypt" version=""/>
+<pkgInfo name="com.android.resolv" version=""/>
+<pkgInfo name="com.android.documentsui" version=""/>
+<pkgInfo name="com.android.media" version=""/>
+<pkgInfo name="com.android.media.swcodec" version=""/>
+<pkgInfo name="com.android.modulemetadata" version=""/>
+<pkgInfo name="com.android.permissioncontroller" version=""/>
+<pkgInfo name="com.android.tzdata" version=""/>
+<pkgInfo name="android.ext.services" version=""/>
+</root>

@@ -1,0 +1,4 @@
+version=1.10.20.055
+type=NONCELL
+subtype=generic
+compatibleVersion=1

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <item type="freq" name="cpu0" unit="1000" mask="1">
+        <value type="cur" path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq" />
+        <value type="min" path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq" />
+        <value type="max" path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq" />
+        <value type="all" path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies" />
+    </item>
+    <item type="freq" name="cpu4" unit="1000" mask="2">
+        <value type="cur" path="/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq" />
+        <value type="min" path="/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq" />
+        <value type="max" path="/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq" />
+        <value type="all" path="/sys/devices/system/cpu/cpu4/cpufreq/scaling_available_frequencies" />
+    </item>
+    <item type="freq" name="gpu" unit="1000000" mask="4">
+        <value type="cur" path="/sys/class/devfreq/gpufreq/cur_freq" />
+        <value type="min" path="/sys/class/devfreq/gpufreq/min_freq" />
+        <value type="max" path="/sys/class/devfreq/gpufreq/max_freq" />
+        <value type="all" path="/sys/class/devfreq/gpufreq/available_frequencies" />
+    </item>
+    <item type="freq" name="ddr" unit="1000000" mask="8">
+        <value type="cur" path="/sys/class/devfreq/ddrfreq/cur_freq" />
+        <value type="min" path="/sys/class/devfreq/ddrfreq/min_freq" />
+        <value type="max" path="/sys/class/devfreq/ddrfreq/max_freq" />
+        <value type="all" path="/sys/class/devfreq/ddrfreq/available_frequencies" />
+    </item>
+    <item type="hmp" name="hmp" unit="1" mask="16">
+        <value type="up" path="/sys/kernel/hmp/up_threshold" />
+        <value type="down" path="/sys/kernel/hmp/down_threshold" />
+        <value type="all" path="/sys/kernel/set_hmp_thresholds/policy" />
+    </item>
+    <item type="freq" name="cpu6" unit="1000" mask="32">
+        <value type="cur" path="/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq" />
+        <value type="min" path="/sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq" />
+        <value type="max" path="/sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq" />
+        <value type="all" path="/sys/devices/system/cpu/cpu6/cpufreq/scaling_available_frequencies" />
+    </item>
+    <item type="therm" name="therm" unit="1">
+        <value type="dir" path="/sys/devices/virtual/thermal" />
+        <value type="prefix" path="thermal_zone" />
+    </item>
+    <item type="batt" name="batt" unit="1">
+        <value type="capacity" path="/sys/class/power_supply/Battery/capacity" />
+        <value type="current" path="/sys/class/power_supply/Battery/current_now" />
+    </item>
+</root>

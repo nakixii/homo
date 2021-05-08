@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wifi_channel_config>
+  <wifiChannel name="LTE40" enabled="1" value="6,11"/>
+  <wifiChannel name="LTE41" enabled="1" value="1,6"/>
+  <wifiChannel name="LTE7" enabled="1" value="1,6"/>
+  <wifiChannel name="G850" enabled="0" value="1,6"/>
+  <wifiChannel name="BC0" enabled="0" value="1,6"/>
+  <wifiChannel name="WCDMA5" enabled="0" value="1,6"/>
+  <wifiChannel name="LTE5" enabled="0" value="1,6"/>
+  <wifiChannel name="G1800" enabled="0" value="B"/>
+  <wifiChannel name="BC4" enabled="0" value="B"/>
+  <wifiChannel name="WCDMA3" enabled="0" value="B"/>
+  <wifiChannel name="WCDMA4" enabled="0" value="B"/>
+  <wifiChannel name="LTE3" enabled="0" value="B"/>
+  <wifiChannel name="G1900" enabled="0" value="A,B"/>
+  <wifiChannel name="BC1" enabled="0" value="A,B"/>
+  <wifiChannel name="WCDMA2" enabled="0" value="A,B"/>
+  <wifiChannel name="LTE2" enabled="0" value="A,B"/>
+  <wifiChannel name="WCDMA1" enabled="0" value="A,149"/>
+  <wifiChannel name="LTE1" enabled="0" value="A,149"/>
+  <wifiChannel name="LTE4" enabled="0" value="B"/>
+  <wifiChannel name="LTE25" enabled="0" value="A,C"/>
+  <wifiChannel name="LTE38" enabled="0" value="B"/>
+  <wifiChannel name="LTE39" enabled="0" value="A,C"/>
+  <wifiChannel name="LTE41" enabled="0" value="B"/>
+  <wifiChannel name="TDS39" enabled="0" value="A,B"/>
+</wifi_channel_config>

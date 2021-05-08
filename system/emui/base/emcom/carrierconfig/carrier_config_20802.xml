@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- FT FR -->
+<carrier_config>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
+        <!-- Vowifi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10100000</string>
+        <!--Google Message config begin -->
+        <int name="maxMessageSize" value="614400" />
+        <!--Google Message config end -->
+</carrier_config>
+</carrier_config_list>

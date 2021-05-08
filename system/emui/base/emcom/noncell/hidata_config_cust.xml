@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MonitorAPP >
+  <APKInfo packageName="com.tencent.mm">
+    <mAppId>1001</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.ui.LauncherUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100101</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.ui.chatting.ChattingUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100101</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.ui.chatting.gallery.ImageGalleryUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100101</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.sns.ui</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100102</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.scanner.ui.BaseScanUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.remittance.ui.RemittanceAdapterUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.remittance.ui.RemittanceUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyPrepareUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.wallet</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.offline.ui.Wallet</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.mall.ui.MallIndexUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.collect.ui.CollectMainUI</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100104</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.voip.ui.VideoActivity</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100105</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.mm">
+    <className>com.tencent.mm.plugin.voip.ui.HwVideoActivity</className>
+    <mAppId>1001</mAppId>
+    <mScenceId>100106</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>70</mGeneralStallTH>
+    <mAggressiveStallTH>45</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <mAppId>1002</mAppId>
+    <mScenceId>1002000</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.nebulacore.ui.H5Activity</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>255</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.scan.as.main.MainCaptureActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.payee.ui.PayeeQRPayFormActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.android.app.flybird.ui.window.FlyBirdWindowActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.transferapp.ui.TFToAccountConfirmActivity_</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.transferapp.ui.TFToCardConfirmActivity_</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.transferapp.ui.TransferToCardFormActivity_</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.transferapp.ui.RepayActivity_</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.android.app.TransProcessPayActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.eg.android.AlipayGphone">
+    <className>com.alipay.mobile.payee.ui.PayeeQRSetMoneyActivity</className>
+    <mAppId>1002</mAppId>
+    <mScenceId>100201</mScenceId>
+    <mScenceType>1</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <mAppId>1003</mAppId>
+    <mScenceId>1003000</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.search.searchdoor.SearchDoorActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenceId>100301</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.search.mmd.SearchResultActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenceId>100301</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.com.etao.feimagesearch.FEISCaptureActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenceId>100301</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.etao.feimagesearch.result.ImageResultActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenceId>100301</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.taobao.scancode.gateway.activity.ScancodeGatewayActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenceId>100301</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.taobao.scancode.barcode.util.ScancodeBrowserActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenceId>100301</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.taobao.taobao">
+    <className>com.taobao.tao.detail.activity.DetailActivity</className>
+    <mAppId>1003</mAppId>
+    <mScenceId>100302</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.sdu.didi.psnger">
+    <mAppId>1004</mAppId>
+    <mScenceId>1004000</mScenceId>
+    <mScenceType>2</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.sdu.didi.psnger">
+    <className>com.didi.sdk.app.MainActivity</className>
+    <mAppId>1004</mAppId>
+    <mScenceId>100401</mScenceId>
+    <mScenceType>2</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.sdu.didi.psnger">
+    <className>com.sdk.address.address.view.AddressActivity</className>
+    <mAppId>1004</mAppId>
+    <mScenceId>100401</mScenceId>
+    <mScenceType>2</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.main.MainActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenceId>100501</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.detail.ui.DetailActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenceId>100501</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.newfollow.ui.VideoFollowFeedDetailActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenceId>100501</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.poi.ui.PoiDetailActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenceId>100501</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.aweme">
+    <className>com.ss.android.ugc.aweme.splash.SplashActivity</className>
+    <mAppId>1005</mAppId>
+    <mScenceId>100501</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.sdu.didi.gsui">
+    <mAppId>1006</mAppId>
+    <mScenceId>1006000</mScenceId>
+    <mScenceType>2</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+ <APKInfo packageName="com.sdu.didi.gui">
+    <mAppId>1006</mAppId>
+    <mScenceId>1006000</mScenceId>
+    <mScenceType>2</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mQci>11</mQci>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.smile.gifmaker">
+    <className>com.yxcorp.gifshow.HomeActivity</className>
+    <mAppId>1007</mAppId>
+    <mScenceId>100701</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>301989887</mGeneralStallTH>
+    <mAggressiveStallTH>286392319</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.smile.gifmaker">
+    <className>com.yxcorp.gifshow.detail.PhotoDetailActivity</className>
+    <mAppId>1007</mAppId>
+    <mScenceId>100701</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>301989887</mGeneralStallTH>
+    <mAggressiveStallTH>286392319</mAggressiveStallTH>
+    <mPlayActivity>1</mPlayActivity>
+  </APKInfo>
+  <APKInfo packageName="com.smile.gifmaker">
+    <className>com.yxcorp.gifshow.profile.activity.UserProfileActivity</className>
+    <mAppId>1007</mAppId>
+    <mScenceId>100701</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mGeneralStallTH>301989887</mGeneralStallTH>
+    <mAggressiveStallTH>286392319</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.mobike.mobikeapp">
+    <mAppId>1008</mAppId>
+    <mScenceId>1008000</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.trill">
+    <className>com.ss.android.ugc.aweme.splash.SplashActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.trill">
+    <className>com.ss.android.ugc.trill.detail.IDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.trill">
+    <className>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.trill">
+    <className>com.ss.android.ugc.trill.main.I18nMainActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.trill">
+    <className>com.ss.android.ugc.aweme.newfollow.ui.VideoFollowFeedDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.ugc.trill">
+    <className>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.zhiliaoapp.musically">
+    <className>com.ss.android.ugc.aweme.splash.SplashActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.zhiliaoapp.musically">
+    <className>com.ss.android.ugc.trill.detail.IDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.zhiliaoapp.musically">
+    <className>com.ss.android.ugc.aweme.challenge.ui.ChallengeDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.zhiliaoapp.musically">
+    <className>com.ss.android.ugc.trill.main.I18nMainActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.zhiliaoapp.musically">
+    <className>com.ss.android.ugc.aweme.newfollow.ui.VideoFollowFeedDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.zhiliaoapp.musically">
+    <className>com.ss.android.ugc.aweme.music.ui.MusicDetailActivity</className>
+    <mAppId>1009</mAppId>
+    <mScenceId>100901</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+    <mGeneralStallTH>288506725</mGeneralStallTH>
+    <mAggressiveStallTH>286339651</mAggressiveStallTH>
+  </APKInfo>
+  <APKInfo packageName="com.ubercab">
+    <mAppId>1010</mAppId>
+    <mScenceId>101000</mScenceId>
+    <mScenceType>2</mScenceType>
+    <mAppPeriod>2</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+    <mAppRegion>1</mAppRegion>
+  </APKInfo>
+  <APKInfo packageName="com.huawei.hwvoipservice">
+    <className>com.android.incallui.InCallActivity</className>
+    <mAppId>1011</mAppId>
+    <mScenceId>101101</mScenceId>
+    <mScenceType>3</mScenceType>
+    <mQci>1</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mAction>1</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.huawei.browser">
+    <mAppId>1012</mAppId>
+    <mScenceId>1012000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAppPeriod>3</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>0</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.supercell.clashofclans.huawei">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+  <APKInfo packageName="com.huawei.appmarket">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+    <APKInfo packageName="com.xunlei.downloadprovider">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+    <APKInfo packageName="com.flash.download">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+    <APKInfo packageName="com.cn21.ecloud">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+    <APKInfo packageName="com.baidu.netdisk">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+    <APKInfo packageName="org.zwanoo.android.speedtest">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+    <APKInfo packageName="com.wandoujia.phoenix2">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+    <APKInfo packageName="com.tencent.android.qqdownloader">
+    <mAppId>1013</mAppId>
+    <mScenceId>1001000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mQci>11</mQci>
+    <mWlanPlus>1</mWlanPlus>
+    <mSwitchType>0</mSwitchType>
+  </APKInfo>
+  <APKInfo packageName="com.alibaba.android.rimet">
+    <mAppId>1014</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.edu">
+    <mAppId>1015</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.wework">
+    <mAppId>1016</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.tencent.wemeet.app">
+    <mAppId>1017</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.vipkid.app">
+    <mAppId>1018</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.vipkid.studypad">
+    <mAppId>1019</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.xueersi.parentsmeeting">
+    <mAppId>1020</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.talk51.kid">
+    <mAppId>1021</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="cn.xdf.woxue.student">
+    <mAppId>1022</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.hujiang.hjclass">
+    <mAppId>1023</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.baidu.homework">
+    <mAppId>1024</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="cn.huohua.eduparent">
+    <mAppId>1025</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="cn.huohua.edustudent">
+    <mAppId>1026</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.pandaabc.stu">
+    <mAppId>1027</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.huawei.welink">
+    <mAppId>1028</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.strong.letalk">
+    <mAppId>1029</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.ho.homeworkfi">
+    <mAppId>1030</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="air.com.gongfubb.wksz">
+    <mAppId>1031</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="air.com.gongfubb.wkpy">
+    <mAppId>1032</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="air.com.gongfubb.wk123">
+    <mAppId>1033</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.vipabc.vipmobile.phone">
+    <mAppId>1034</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.kdweibo.client">
+    <mAppId>1035</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.ss.android.lark">
+    <mAppId>1036</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.yealink.vc.mobile">
+    <mAppId>1037</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="cn.sh.ideal.unifiedmeeting">
+    <mAppId>1038</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.unicom.video">
+    <mAppId>1039</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="cn.xuexi.android">
+    <mAppId>1040</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.zhl.fep.aphone">
+    <mAppId>1041</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="net.whty.app.eyu">
+    <mAppId>1042</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.weclassroom.fcclassroomapp">
+    <mAppId>1043</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.yuantiku.tutor">
+    <mAppId>1044</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.chaoxing.mobile">
+    <mAppId>1045</mAppId>
+    <mScenceId>1000</mScenceId>
+    <mScenceType>4</mScenceType>
+    <mAction>3</mAction>
+  </APKInfo>
+  <APKInfo packageName="com.huawei.works">
+    <mAppId>1046</mAppId>
+    <mScenceId>1046000</mScenceId>
+    <mScenceType>0</mScenceType>
+    <mAppPeriod>4</mAppPeriod>
+    <mAppAlgorithm>1</mAppAlgorithm>
+    <mQci>11</mQci>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <monitorUserLearning>1</monitorUserLearning>
+    <mAction>1</mAction>
+  </APKInfo>
+  <GameInfo gameName="com.tencent.tmgp.sgame">
+    <mGameId>2001</mGameId>
+    <mScenceId>200001</mScenceId>
+    <mGameKQI>1</mGameKQI>
+    <mGameRtt>200</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>1</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.tencent.tmgp.sgame">
+    <mGameId>2001</mGameId>
+    <mScenceId>200002</mScenceId>
+    <mGameKQI>1</mGameKQI>
+    <mGameRtt>200</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mHistoryQoeBadTH>0.2</mHistoryQoeBadTH>
+    <mGameSpecialInfoSources>1</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.netease.hyxd.huawei">
+    <mGameId>2002</mGameId>
+    <mScenceId>200001</mScenceId>
+    <mGameKQI>1</mGameKQI>
+    <mGameRtt>230</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.netease.hyxd.huawei">
+    <mGameId>2002</mGameId>
+    <mScenceId>200002</mScenceId>
+    <mGameKQI>1</mGameKQI>
+    <mGameRtt>230</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.tencent.tmgp.pubgmhd">
+    <mGameId>2003</mGameId>
+    <mScenceId>200001</mScenceId>
+    <mGameKQI>1</mGameKQI>
+    <mGameRtt>230</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.tencent.tmgp.pubgmhd">
+    <mGameId>2003</mGameId>
+    <mScenceId>200002</mScenceId>
+    <mGameKQI>1</mGameKQI>
+    <mGameRtt>230</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.tencent.tmgp.speedmobile">
+    <mGameId>2005</mGameId>
+    <mScenceId>200001</mScenceId>
+    <mGameKQI>0</mGameKQI>
+    <mGameRtt>200</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.tencent.tmgp.speedmobile">
+    <mGameId>2005</mGameId>
+    <mScenceId>200002</mScenceId>
+    <mGameKQI>0</mGameKQI>
+    <mGameRtt>200</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.tencent.tmgp.pubgm">
+    <mGameId>2006</mGameId>
+    <mScenceId>200001</mScenceId>
+    <mGameKQI>0</mGameKQI>
+    <mGameRtt>250</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+  <GameInfo gameName="com.tencent.tmgp.pubgm">
+    <mGameId>2006</mGameId>
+    <mScenceId>200002</mScenceId>
+    <mGameKQI>0</mGameKQI>
+    <mGameRtt>250</mGameRtt>
+    <mGameAction>1</mGameAction>
+    <mGameSpecialInfoSources>2</mGameSpecialInfoSources>
+  </GameInfo>
+
+  <GameInfo gameName="com.netease.onmyoji">
+    <mGameId>3002</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.ea.android.chs.nbamobile">
+    <mGameId>3004</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.miHoYo.bh3">
+    <mGameId>3005</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.tencent.tmgp.cf">
+    <mGameId>3006</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.superevilmegacorp.game">
+    <mGameId>3007</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.netease.chiji">
+    <mGameId>3008</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.mobile.legends">
+    <mGameId>3009</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.pubg.krmobile">
+    <mGameId>3010</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.tencent.ig">
+    <mGameId>3010</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="air.tv.douyu.android">
+    <mGameId>3011</mGameId>
+    <mGameAction>0</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.duowan.kiwi">
+    <mGameId>3012</mGameId>
+    <mGameAction>0</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.epicgames.fortnite">
+    <mGameId>3013</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+  <GameInfo gameName="com.ngame.allstar.eu">
+    <mGameId>3014</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <GameInfo gameName="com.tencent.wegame.mangod">
+    <mGameId>3015</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+  <GameInfo gameName="com.netease.hyxd">
+    <mGameId>3016</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+  <GameInfo gameName="com.ea.android.chs.nbamobile.yxhy">
+    <mGameId>3017</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+  <GameInfo gameName="com.miHoYo.enterprise.NGHSoD">
+    <mGameId>3018</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+  <GameInfo gameName="com.douyu.hd.air.douyutv">
+    <mGameId>3019</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+  <GameInfo gameName="com.garena.game.kgsam">
+    <mGameId>3020</mGameId>
+    <mGameAction>1</mGameAction>
+  </GameInfo>
+
+  <Mplink>
+    <mplink_version>3</mplink_version>
+    <mplink_enable>1</mplink_enable>
+    <!--Dji Drone-->
+    <vendor oui="60:60:1f">
+      <custmac></custmac>
+      <appname>dji.go.v4</appname>
+      <mutnetwork>1</mutnetwork>
+      <gatewaytype>1</gatewaytype>
+      <encrypttype>1</encrypttype>
+      <reserved>0</reserved>
+      <condition>3</condition>
+    </vendor>
+    <!--360 Driving recorder-->
+    <vendor oui="d0:fa:1d">
+      <custmac></custmac>
+      <appname>com.qihoo.dr</appname>
+      <mutnetwork>1</mutnetwork>
+      <gatewaytype>0</gatewaytype>
+      <encrypttype>1</encrypttype>
+      <reserved>0</reserved>
+      <condition>2</condition>
+    </vendor>
+    <vendor oui="10:d0:7a">
+      <custmac></custmac>
+      <appname>com.haizhen.automobile</appname>
+      <mutnetwork>2</mutnetwork>
+      <gatewaytype>1</gatewaytype>
+      <encrypttype>1</encrypttype>
+      <reserved>0</reserved>
+      <condition>3</condition>
+    </vendor>
+  </Mplink>
+  <QciInfo>
+    <NAME>Video and Voice APPs</NAME>
+    <QCI>1</QCI>
+    <RTT>300</RTT>
+    <RSSI>-65</RSSI>
+    <TPUT>0</TPUT>
+    <CHLOAD>800</CHLOAD>
+  </QciInfo>
+  <QciInfo>
+    <NAME>Instant APPs</NAME>
+    <QCI>11</QCI>
+    <RTT>500</RTT>
+    <RSSI>-65</RSSI>
+    <TPUT>0</TPUT>
+    <CHLOAD>800</CHLOAD>
+  </QciInfo>
+  <QciInfo>
+    <NAME>GAME APPs</NAME>
+    <QCI>0</QCI>
+    <RTT>100</RTT>
+    <RSSI>-65</RSSI>
+    <TPUT>0</TPUT>
+    <CHLOAD>800</CHLOAD>
+  </QciInfo>
+  <HiCureInfo packageName="com.tencent.mm"/>
+  <HiCureInfo packageName="com.tencent.mobileqq"/>
+  <HiCureInfo packageName="com.qiyi.video"/>
+  <HiCureInfo packageName="com.tencent.qqlive"/>
+  <HiCureInfo packageName="com.eg.android.AlipayGphone"/>
+  <HiCureInfo packageName="com.youku.phone"/>
+  <HiCureInfo packageName="com.taobao.taobao"/>
+  <HiCureInfo packageName="com.sina.weibo"/>
+  <HiCureInfo packageName="com.baidu.searchbox"/>
+  <HiCureInfo packageName="com.ss.android.article.news"/>
+  <HiCureInfo packageName="com.tencent.mtt"/>
+  <HiCureInfo packageName="com.tencent.news"/>
+  <HiCureInfo packageName="com.kugou.android"/>
+  <HiCureInfo packageName="com.smile.gifmaker"/>
+  <HiCureInfo packageName="com.tencent.tmgp.sgame"/>
+  <HiCureInfo packageName="com.baidu.BaiduMap"/>
+  <HiCureInfo packageName="com.autonavi.minimap"/>
+  <HiCureInfo packageName="com.tencent.qqmusic"/>
+  <HiCureInfo packageName="com.UCMobile"/>
+  <HiCureInfo packageName="com.jingdong.app.mall"/>
+  <HiCureInfo packageName="com.sdu.didi.psnger"/>
+  <HiCureInfo packageName="com.ss.android.ugc.live"/>
+  <HiCureInfo packageName="com.tencent.karaoke"/>
+  <HiCureInfo packageName="com.happyelements.AndroidAnimal"/>
+  <HiCureInfo packageName="com.sankuai.meituan"/>
+  <HiCureInfo packageName="com.moji.mjweather"/>
+  <HiCureInfo packageName="com.ss.android.article.video"/>
+  <HiCureInfo packageName="cn.kuwo.player"/>
+  <HiCureInfo packageName="com.mt.mtxx.mtxx"/>
+  <HiCureInfo packageName="com.xunmeng.pinduoduo"/>
+  <HiCureInfo packageName="com.ss.android.ugc.aweme"/>
+  <HiCureInfo packageName="com.qqgame.hlddz"/>
+  <HiCureInfo packageName="com.meitu.meiyancamera"/>
+  <HiCureInfo packageName="com.netease.cloudmusic"/>
+  <HiCureInfo packageName="com.netease.newsreader.activity"/>
+  <HiCureInfo packageName="com.sohu.newsclient"/>
+  <HiCureInfo packageName="com.netease.hyxd"/>
+  <HiCureInfo packageName="com.achievo.vipshop"/>
+  <HiCureInfo packageName="com.tmall.wireless"/>
+  <HiCureInfo packageName="com.tencent.tmgp.pubgmhd"/>
+  <HiCureInfo packageName="com.tencent.tmgp.cf"/>
+  <HiCureInfo packageName="com.dianping.v1"/>
+  <HiCureInfo packageName="com.tencent.peng"/>
+  <HiCureInfo packageName="com.tencent.tmgp.pubgm"/>
+  <HiCureInfo packageName="com.sdu.didi.gui"/>
+  <HiCureInfo packageName="com.android.browser"/>
+  <HiCureInfo packageName="com.google.android.googlequicksearchbox"/>
+  <HiCureInfo packageName="com.android.chrome"/>
+  <HiCureInfo packageName="com.google.android.youtube"/>
+  <HiCureInfo packageName="com.google.android.gms"/>
+  <HiCureInfo packageName="com.google.android.apps.maps"/>
+  <HiCureInfo packageName="com.whatsapp"/>
+  <HiCureInfo packageName="com.google.android.gm"/>
+  <HiCureInfo packageName="com.google.android.apps.docs"/>
+  <HiCureInfo packageName="com.facebook.katana"/>
+  <HiCureInfo packageName="com.facebook.orca"/>
+  <HiCureInfo packageName="com.instagram.android"/>
+  <HiCureInfo packageName="com.google.android.apps.translate"/>
+  <HiCureInfo packageName="com.spotify.music"/>
+  <HiCureInfo packageName="com.amazon.mShop.android.shopping"/>
+  <HiCureInfo packageName="com.viber.voip"/>
+  <HiCureInfo packageName="com.twitter.android"/>
+  <HiCureInfo packageName="com.google.android.music"/>
+  <HiCureInfo packageName="com.netflix.mediaclient"/>
+  <HiCureInfo packageName="com.ubercab"/>
+  <HiCureInfo packageName="com.imo.android.imoim"/>
+  <HiCureInfo packageName="com.careem.acma"/>
+  <HiCureInfo packageName="jp.naver.line.android"/>
+  <HiCureInfo packageName="com.lazada.android"/>
+  <HiCureInfo packageName="com.zing.zalo"/>
+  <HiCureInfo packageName="com.shopee.th"/>
+  <AppBlackList packageName="com.tencent.mm">
+  </AppBlackList>
+  <AppWhiteList packageName="com.ss.android.ugc.aweme">
+  </AppWhiteList>
+  <AppWhiteList packageName="com.smile.gifmaker">
+  </AppWhiteList>
+  <AppWhiteList packageName="com.youku.phone">
+  </AppWhiteList>
+  <AppWhiteList packageName="com.ss.android.article.news">
+  </AppWhiteList>
+  <AppWhiteList packageName="com.netease.cloudmusic">
+  </AppWhiteList>
+  <AppWhiteList packageName="com.ximalaya.ting.android">
+  </AppWhiteList>
+  <AppWhiteList packageName="com.immomo.momo">
+  </AppWhiteList>
+  <AppWhiteList packageName="com.huawei.hwireader">
+  </AppWhiteList>
+</MonitorAPP>

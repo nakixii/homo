@@ -1,0 +1,9 @@
+service volteencryptd /system/bin/volteencryptd
+    class main
+    disabled
+    user system
+    group system
+on property:persist.service.volteencryptd.on=true
+    start volteencryptd
+on property:persist.service.volteencryptd.on=false
+    stop volteencryptd

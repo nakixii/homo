@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+# coding=utf-8
+"""
+Copyright © Huawei Technologies Co., Ltd. 2001-2019. All rights reserved.
+description     :   list gcomsi global status
+author          :   sunbing 00184266
+modify  record  :   2016-01-09 create file
+"""
+
+import struct
+import string
+
+MACRO_GCOMSI_L2_NCELL_PARALLEL_SEARCH_STATE_BUTT_INDEX = 3
+MACRO_GCOMSI_L2_INACTIVE_SCELL_BCCH_STATE_BUTT_INDEX = 5
+MACRO_GCOMSI_L2_INACTIVE_PARALLEL_SEARCH_STATE_BUTT_INDEX = 3
+
+MACRO_GCOMSI_FSM_L2_INACTIVE_SCELL_BCCH_INDEX = 0x29
+MACRO_GCOMSI_FSM_L2_INACTIVE_PARALLEL_SEARCH_INDEX = 0x2A
+MACRO_GCOMSI_FSM_L2_NCELL_PARALLEL_SEARCH_INDEX = 0x2B
+
+GAS_GCOMSI_L1_STATE_ENUM_TABLE = {
+    0x00: "GAS_GCOMSI_STATE_SCELL_INACTIVE",
+    0x01: "GAS_GCOMSI_STATE_SCELL_BCCH",
+    0x02: "GAS_GCOMSI_STATE_SCELL_PBCCH",
+    0x03: "GAS_GCOMSI_STATE_SCELL_NORMAL",
+    0x04: "GAS_GCOMSI_STATE_SCELL_DEDICATE",
+    0xFE: "GAS_GCOMSI_STATE_INIT",
+    0xFF: "GAS_GCOMSI_STATE_NULL",
+}
+
+GAS_GCOMSI_L2_FSM_ENUM_TABLE = {
+    0x20: "GAS_GCOMSI_FSM_L2_SCELL_GSM_PERIOD",
+    0x21: "GAS_GCOMSI_FSM_L2_SCELL_GPRS_PERIOD",
+    0x22: "GAS_GCOMSI_FSM_L2_NCELL_BCCH_PERIOD",
+    0x23: "GAS_GCOMSI_FSM_L2_NCELL_BCCH",
+    0x24: "GAS_GCOMSI_FSM_L2_SCELL_PACKET_SI_STATUS",
+    0x25: "GAS_GCOMSI_FSM_L2_SCELL_BCCH_ENH_RECEIVE",
+    0x26: "GAS_GCOMSI_FSM_L2_SCELL_NORMAL_BG_NCELL_BCCH",
+    0x27: "GAS_GCOMSI_FSM_L2_INACTIVE_BG_NCELL_BCCH",
+    0x28: "GAS_GCOMSI_FSM_L2_INACTIVE_SEARCH_BCCH",
+    0x29: "GAS_GCOMSI_FSM_L2_INACTIVE_SCELL_BCCH",
+    0x2A: "GAS_GCOMSI_FSM_L2_INACTIVE_PARALLEL_SEARCH",
+    0x2B: "GAS_GCOMSI_FSM_L2_NCELL_PARALLEL_SEARCH",
+    0xFF: "GAS_GCOMSI_FSM_L2_NULL",
+}
+
+GAS_GCOMSI_L2_STATE_ENUM_TABLE = {
+    0xFE: "GAS_GCOMSI_STATE_INIT",
+    0xFF: "GAS_GCOMSI_STATE_NULL",
+    0x200: "GAS_GCOMSI_STATE_L2_SCELL_GSM_PERIOD_READING_BCCH",
+    0x210: "GAS_GCOMSI_STATE_L2_SCELL_GPRS_PERIOD_READING_BCCH",
+    0x211: "GAS_GCOMSI_STATE_L2_SCELL_GPRS_PERIOD_READING_PBCCH",
+    0x212: "GAS_GCOMSI_STATE_L2_SCELL_GPRS_PERIOD_RCVPSI13_INTRANSFER",
+    0x213: "GAS_GCOMSI_STATE_L2_SCELL_GPRS_PERIOD_RCVPSI1_INTRANSFER",
+    0x214: "GAS_GCOMSI_STATE_L2_SCELL_GPRS_PERIOD_WAITTING_READ_PBCCH",
+    0x220: "GAS_GCOMSI_STATE_L2_NCELL_BCCH_PERIOD_READING_BCCH",
+    0x221: "GAS_GCOMSI_STATE_L2_NCELL_BCCH_PERIOD_START_GPHY",
+    0x222: "GAS_GCOMSI_STATE_L2_NCELL_BCCH_PERIOD_STOP_GPHY",
+    0x230: "GAS_GCOMSI_STATE_L2_NCELL_BCCH_READING_BCCH",
+    0x231: "GAS_GCOMSI_STATE_L2_NCELL_BCCH_READING_PBCCH",
+    0x232: "GAS_GCOMSI_STATE_L2_NCELL_BCCH_BCCH_SYNC",
+    0x240: "GAS_GCOMSI_STATE_L2_SCELL_PACKET_SI_STATUS_SEND_MSG",
+    0x241: "GAS_GCOMSI_STATE_L2_SCELL_PACKET_SI_STATUS_SCV_PSCD",
+    0x260: "GAS_GCOMSI_STATE_L2_SCELL_NORMAL_BG_NCELL_BCCH_SYNC",
+    0x261: "GAS_GCOMSI_STATE_L2_SCELL_NORMAL_BG_NCELL_BCCH_READING_BCCH",
+    0x270: "GAS_GCOMSI_STATE_L2_INACTIVE_BG_NCELL_BCCH_SYNC",
+    0x271: "GAS_GCOMSI_STATE_L2_INACTIVE_BG_NCELL_BCCH_READING_BCCH",
+    0x272: "GAS_GCOMSI_STATE_L2_INACTIVE_BG_NCELL_BCCH_SYNC_ABNORMAL",
+    0x273: "GAS_GCOMSI_STATE_L2_INACTIVE_BG_NCELL_BCCH_STOP_READING_BCCH",
+    0x274: "GAS_GCOMSI_STATE_L2_INACTIVE_BG_NCELL_BCCH_SYNC_INTERRUPTED",
+    0x275:
+        "GAS_GCOMSI_STATE_L2_INACTIVE_BG_NCELL_BCCH_READING_BCCH_INTERRUPTED",
+}
+
+GAS_GCOMSI_L2_NCELL_PARALLEL_SEARCH_STATE_ENUM_TABLE = {
+    0x0: "GAS_GCOMSI_STATE_L2_NCELL_PARALLEL_SEARCH_START_GPHY",
+    0x1: "GAS_GCOMSI_STATE_L2_NCELL_PARALLEL_SEARCH_BCCH_READING",
+    0x2: "GAS_GCOMSI_STATE_L2_NCELL_PARALLEL_SEARCH_STOP_GPHY",
+    0x3: "GAS_GCOMSI_STATE_L2_NCELL_PARALLEL_SEARCH_BUTT",
+}
+
+GAS_GCOMSI_L2_INACTIVE_SCELL_BCCH_STATE_ENUM_TABLE = {
+    0x0: "GAS_GCOMSI_STATE_L2_INACTIVE_SCELL_BCCH_WAIT_BSIC_SI,",
+    0x1: "GAS_GCOMSI_STATE_L2_INACTIVE_SCELL_BCCH_WAIT_RSP_BY_ACTIVE_READ",
+    0x2: "GAS_GCOMSI_STATE_L2_INACTIVE_SCELL_BCCH_WAIT_RSP_BY_NACC",
+    0x3: "GAS_GCOMSI_STATE_L2_INACTIVE_SCELL_BCCH_WAIT_FULL_ESSENTIAL_SI",
+    0x4: "GAS_GCOMSI_STATE_L2_INACTIVE_SCELL_BCCH_WAIT_FULL_ESSENTIAL_PSI",
+    0x5: "GAS_GCOMSI_STATE_L2_INACTIVE_SCELL_BCCH_BUTT",
+}
+
+GAS_GCOMSI_L2_INACTIVE_PARALLEL_SEARCH_STATE_ENUM_TABLE = {
+    0x0: "GAS_GCOMSI_STATE_L2_INACTIVE_PARALLEL_SEARCH_START_GPHY",
+    0x1: "GAS_GCOMSI_STATE_L2_INACTIVE_PARALLEL_SEARCH_BCCH_READING",
+    0x2: "GAS_GCOMSI_STATE_L2_INACTIVE_PARALLEL_SEARCH_STOP_GPHY",
+    0x3: "GAS_GCOMSI_STATE_L2_INACTIVE_PARALLEL_SEARCH_BUTT"
+}
+
+
+def get_gcomsi_l1_state(state):
+    for index in GAS_GCOMSI_L1_STATE_ENUM_TABLE.keys():
+        if index == state:
+            return GAS_GCOMSI_L1_STATE_ENUM_TABLE[index]
+
+    return "none"
+
+
+def get_gcomsi_l2_fsm(fsm):
+    for index in GAS_GCOMSI_L2_FSM_ENUM_TABLE.keys():
+        if index == fsm:
+            return GAS_GCOMSI_L2_FSM_ENUM_TABLE[index]
+
+    return "none"
+
+
+def get_gcomsi_l2_state(fsm, state):
+    if MACRO_GCOMSI_FSM_L2_INACTIVE_SCELL_BCCH_INDEX == fsm:
+        for index in GAS_GCOMSI_L2_INACTIVE_SCELL_BCCH_STATE_ENUM_TABLE.keys():
+            if index == state:
+                return GAS_GCOMSI_L2_INACTIVE_SCELL_BCCH_STATE_ENUM_TABLE[
+                    index]
+
+        return GAS_GCOMSI_L2_INACTIVE_SCELL_BCCH_STATE_ENUM_TABLE[
+            MACRO_GCOMSI_L2_INACTIVE_SCELL_BCCH_STATE_BUTT_INDEX]
+    elif MACRO_GCOMSI_FSM_L2_INACTIVE_PARALLEL_SEARCH_INDEX == fsm:
+        for index in \
+                GAS_GCOMSI_L2_INACTIVE_PARALLEL_SEARCH_STATE_ENUM_TABLE.keys():
+            if index == state:
+                return GAS_GCOMSI_L2_INACTIVE_PARALLEL_SEARCH_STATE_ENUM_TABLE[
+                    index]
+
+        return GAS_GCOMSI_L2_INACTIVE_PARALLEL_SEARCH_STATE_ENUM_TABLE[
+            MACRO_GCOMSI_L2_INACTIVE_PARALLEL_SEARCH_STATE_BUTT_INDEX]
+    elif MACRO_GCOMSI_FSM_L2_NCELL_PARALLEL_SEARCH_INDEX == fsm:
+        for index in \
+                GAS_GCOMSI_L2_NCELL_PARALLEL_SEARCH_STATE_ENUM_TABLE.keys():
+            if index == state:
+                return GAS_GCOMSI_L2_NCELL_PARALLEL_SEARCH_STATE_ENUM_TABLE[
+                    index]
+
+        return GAS_GCOMSI_L2_NCELL_PARALLEL_SEARCH_STATE_ENUM_TABLE[
+            MACRO_GCOMSI_L2_NCELL_PARALLEL_SEARCH_STATE_BUTT_INDEX]
+    else:
+        for index in GAS_GCOMSI_L2_FSM_ENUM_TABLE.keys():
+            if index == fsm:
+                return GAS_GCOMSI_L2_FSM_ENUM_TABLE[index]
+
+    return "none"
+
+
+def anls_modem_x_gcomsi_glob_sta(instream, file_offset, outstream):
+    instream.seek(file_offset)
+
+    (gcomsi_curr_fsm_l1_sta,) = struct.unpack('I', instream.read(4))
+    str_gcomsi_curr_fsm_l1_sta = get_gcomsi_l1_state(gcomsi_curr_fsm_l1_sta)
+    str_gcomsi_curr_fsm_l1_sta = '%s(0x%x)' % (
+        str_gcomsi_curr_fsm_l1_sta, gcomsi_curr_fsm_l1_sta)
+    outstream.writelines(["%-15s%-7s\n" % (
+        "gcomsi_curr_fsm_l1_sta :", str_gcomsi_curr_fsm_l1_sta)])
+
+    (gcomsi_curr_fsm_l2,) = struct.unpack('I', instream.read(4))
+    str_gcomsi_curr_fsm_l2 = get_gcomsi_l2_fsm(gcomsi_curr_fsm_l2)
+    str_gcomsi_curr_fsm_l2 = '%s(0x%x)' % (
+        str_gcomsi_curr_fsm_l2, gcomsi_curr_fsm_l2)
+    outstream.writelines(
+        ["%-15s%-7s\n" % ("gcomsi_curr_fsm_l2 :", str_gcomsi_curr_fsm_l2)])
+
+    (gcomsi_curr_fsm_l2_sta,) = struct.unpack('I', instream.read(4))
+    str_gcomsi_curr_fsm_l2_sta = get_gcomsi_l2_state(gcomsi_curr_fsm_l2,
+                                                     gcomsi_curr_fsm_l2_sta)
+    str_gcomsi_curr_fsm_l2_sta = '%s(0x%x)' % (
+        str_gcomsi_curr_fsm_l2_sta, gcomsi_curr_fsm_l2_sta)
+    outstream.writelines(["%-15s%-7s\n" % (
+        "gcomsi_curr_fsm_l2_sta :", str_gcomsi_curr_fsm_l2_sta)])
+
+    (gcomsi_init_fsm_l2_msg_type,) = struct.unpack('I', instream.read(4))
+    outstream.writelines(["%-15s0x%-7x\n" % (
+        "gcomsi_init_fsm_l2_msg_type :", gcomsi_init_fsm_l2_msg_type)])
+
+    (gcomsi_stop_fsm_l2_level,) = struct.unpack('I', instream.read(4))
+    outstream.writelines(["%-15s0x%-7x\n" % (
+        "gcomsi_stop_fsm_l2_level :", gcomsi_stop_fsm_l2_level)])
+
+    (gcomsi_cached_exist_msg_flag,) = struct.unpack('>B', instream.read(1))
+    outstream.writelines(["%-15s0x%-7x\n" % (
+        "gcomsi_cached_exist_msg_flag :", gcomsi_cached_exist_msg_flag)])
+
+    (gcomc_space,) = struct.unpack('>B', instream.read(1))
+    (gcomc_space,) = struct.unpack('>B', instream.read(1))
+    (gcomc_space,) = struct.unpack('>B', instream.read(1))
+
+    (gcomsi_cached_msg_event_type,) = struct.unpack('I', instream.read(4))
+    outstream.writelines(["%-15s0x%-7x\n" % (
+        "gcomsi_cached_msg_event_type :", gcomsi_cached_msg_event_type)])

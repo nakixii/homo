@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SOFTBANK JP-->
+    <carrier_config>
+        <string name="carrier_wb_hd_icon_flag">001010</string>
+    </carrier_config>
+</carrier_config_list>

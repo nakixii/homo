@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaptureLog>
+    <GenerateHisiLog HisiPlatform="hi110x;hisi" VersionType="3">
+        <Metric metricId="106" name="wifi">
+            <Cmd value="hi110x_dump -s wifi -i logtool -p /data/hwlogdir/exception/wifi_except" />
+        </Metric>
+        <Metric metricId="107" name="bluetooth">
+            <Cmd value="hi110x_dump -s bt -i logtool -p /data/hwlogdir/exception/bt_except" />
+        </Metric>
+        <Metric metricId="108" name="gps">
+            <Cmd value="hi110x_dump -s gnss -i logtool -p /data/hwlogdir/exception/gnss_excep" />
+        </Metric>
+        <Metric metricId="98" name="other">
+            <Cmd value="hi110x_dump -s wifi -i logtool -p /data/hwlogdir/exception/wifi_except" />
+            <Cmd value="hi110x_dump -s bt -i logtool -p /data/hwlogdir/exception/bt_except" />
+            <Cmd value="hi110x_dump -s gnss -i logtool -p /data/hwlogdir/exception/gnss_excep" />
+        </Metric>
+        <Metric metricId="99" name="other">
+            <Cmd value="hi110x_dump -s wifi -i logtool -p /data/hwlogdir/exception/wifi_except" />
+            <Cmd value="hi110x_dump -s bt -i logtool -p /data/hwlogdir/exception/bt_except" />
+            <Cmd value="hi110x_dump -s gnss -i logtool -p /data/hwlogdir/exception/gnss_excep" />
+        </Metric>
+        <Metric metricId="100" name="other">
+            <Cmd value="hi110x_dump -s wifi -i logtool -p /data/hwlogdir/exception/wifi_except" />
+            <Cmd value="hi110x_dump -s bt -i logtool -p /data/hwlogdir/exception/bt_except" />
+            <Cmd value="hi110x_dump -s gnss -i logtool -p /data/hwlogdir/exception/gnss_excep" />
+        </Metric>
+    </GenerateHisiLog>
+
+    <DumpsysCmdDefine>
+        <dumpsys id="1" path="dumpsys.txt" name="dumpsysPara">
+            <Cmd value="dumpsys activity broadcasts" />
+            <Cmd value="dumpsys meminfo" />
+            <Cmd value="dumpsys cpuinfo" />
+            <Cmd value="dumpsys powerprofile" />
+        </dumpsys>
+        <dumpsys id="2" path="dumpsys.txt" name="dumpsysParaForWIFI">
+            <Cmd value="dumpsys wifi" />
+            <Cmd value="dumpsys wificond" />
+            <Cmd value="dumpsys wifip2p" />
+            <Cmd value="dumpsys wifiscanner" />
+            <Cmd value="dumpsys activity" />
+        </dumpsys>
+        <dumpsys id="3" path="log_jankExec" name="dumpsysParamJank">
+            <Cmd value="dumpsys jank -sys" />
+        </dumpsys>
+        <dumpsys id="4" path="log_jank" name="logcatParamJank">
+            <Cmd value="logcat -b jank -v threadtime -t 4096" protectTime ="5000" />
+        </dumpsys>
+        <dumpsys id="5" path="bugreport_mini.txt" name="dumpsysMini">
+            <Cmd value="dumpstate -m" protectTime ="60000" />
+        </dumpsys>
+        <dumpsys id="6" path="bugreport.txt" name="bugreport">
+            <Cmd value="bugreport -l" protectTime ="300000" />
+        </dumpsys>
+        <dumpsys id="7" path="dumpsys.txt" name="dumpsysBluetooth">
+            <Cmd value="dumpsys bluetooth_manager" />
+            <Cmd value="dumpsys activity" />
+        </dumpsys>
+        <dumpsys id="8" path="dumpsys.txt" name="dumpsysaudio">
+            <Cmd value="dumpsys media.audio_flinger" />
+        </dumpsys>
+        <dumpsys id="9" path="dumpsys.txt" name="dumpsytwsaudio">
+            <Cmd value="dumpsys activity service com.huawei.iconnect.ConnectService --logtype bluetooth --keyvalue mac=${mac}"  waitTime ="180000" />
+        </dumpsys>
+        <dumpsys id="10" path="dumpsys.txt" name="dubai.db">
+            <Cmd value="dumpsys DubaiService --logbackup"  waitTime ="10000" />
+        </dumpsys>
+        <dumpsys id="11" path="dumpsys.txt" name="dumpsyscar">
+            <Cmd value="dumpsys activity service CarService hiview_request"  waitTime ="10000" />
+        </dumpsys>
+    </DumpsysCmdDefine>
+
+    <GenerateMetricLog VersionType="3" >
+        <Metric metricId="106" name="wifi">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="2" />
+        </Metric>
+        <Metric metricId="104" name="camara">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="107" name="bluetooth">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="108" name="gps">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="109" name="screen">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="112" name="perf">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="5" />
+        </Metric>
+        <Metric metricId="105" name="power">
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="10" />
+        </Metric>
+        <Metric metricId="205" name="power">
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="10" />
+        </Metric>
+        <Metric metricId="303" name="power">
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="10" />
+        </Metric>
+        <Metric metricId="103" name="app">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="4" />
+            <Cmd dumpsysId="5" />
+        </Metric>
+        <Metric metricId="110" name="sdcard">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="300" name="basic">
+            <Cmd dumpsysId="3" />
+            <Cmd dumpsysId="4" />
+            <Cmd dumpsysId="5" />
+        </Metric>
+        <Metric metricId="98" name="except">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="99" name="modemExcept">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="114" name="audio">
+            <Cmd dumpsysId="8" />
+        </Metric>
+        <Metric metricId="214" name="audio">
+            <Cmd dumpsysId="8" />
+        </Metric>
+        <Metric metricId="126" name="bluetoothaudio">
+            <Cmd dumpsysId="9" />
+        </Metric>
+        <Metric metricId="128" name="car">
+            <Cmd dumpsysId="11" />
+        </Metric>
+        <Metric metricId="228" name="car">
+            <Cmd dumpsysId="11" />
+        </Metric>
+    </GenerateMetricLog>
+</CaptureLog>

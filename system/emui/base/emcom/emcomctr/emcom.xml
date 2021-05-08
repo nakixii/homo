@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emcom version="001.001">
+    <region_config name="CN">                      <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+        <emcom_features_config>                        <!--2级标签，emcom特性配置-->
+            <feature name="XEngine">1</feature> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting feature to force on/off, will disable further overwrite for this feature -->
+            <feature name="SmartCare">1</feature>
+            <feature name="ParaManage">1</feature>
+            <feature name="NwEval">0</feature>
+            <feature name="NstackFi">1</feature>
+        </emcom_features_config>
+    </region_config>
+
+    <region_config name="default">                  <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+        <emcom_features_config>                         <!--2级标签，emcom特性配置-->
+            <feature name="XEngine">0</feature> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting feature to force on/off, will disable further overwrite for this feature -->
+            <feature name="SmartCare">0</feature>
+            <feature name="ParaManage">1</feature>
+            <feature name="NwEval">0</feature>
+            <feature name="NstackFi">0</feature>
+        </emcom_features_config>
+    </region_config>
+</emcom>

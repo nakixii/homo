@@ -1,0 +1,36 @@
+#version 460 core
+#extension GL_ARB_separate_shader_objects : enable
+#extension GL_ARB_shading_language_420pack : enable
+
+// includes
+
+#include "common/bloom_common.h"
+
+// sets
+
+layout(set = 0, binding = 0) uniform sampler uSampler;
+
+layout(set = 1, binding = 0, rgba16f/*r11f_g11f_b10f*/) uniform writeonly image2D uWoTex;
+
+layout(set = 2, binding = 0) uniform texture2D uTex;
+
+layout(push_constant, std430) uniform uPushConstant
+{
+    BloomPushConstantStruct uPc;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+// bloom downscale
+
+#define cTgs 8
+
+layout(local_size_x = cTgs, local_size_y = cTgs, local_size_z = 1) in;
+void main()
+{
+    // texSizeInvTexSize needs to be the output resolution
+    const vec2 uv = (vec2(gl_GlobalInvocationID.xy) + 0.5) * uPc.texSizeInvTexSize.zw;
+
+    vec3 color = min(bloomDownscale(uv, uPc.texSizeInvTexSize.zw, uTex, uSampler), CORE_BLOOM_CLAMP_MAX_VALUE);
+
+    CORE_IMAGE_STORE(uWoTex, ivec2(gl_GlobalInvocationID.xy), vec4(color, 1.0));
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataRetryStrategyList version="1.0">
+  <retryStrategy id="1" type="normal">
+    <causeList>22,26,67,69,70,44,45,82,83,84,91</causeList>
+    <retryPolicy interval="10" intervalInd="1" times="4" action="1" backOffTime="720"/>
+  </retryStrategy>
+  <retryStrategy id="2" type="normal">
+    <causeList>31,35,38,54,68,90,95,96,97,98,99,100,101,111,3585</causeList>
+    <retryPolicy interval="5" intervalInd="1" times="5" action="1" backOffTime="360"/>
+  </retryStrategy>
+  <retryStrategy id="3" type="normal">
+    <causeList>36,39,169,2816</causeList>
+    <retryPolicy interval="1" intervalInd="1" times="6" action="1" backOffTime="0"/>
+  </retryStrategy>
+</dataRetryStrategyList>

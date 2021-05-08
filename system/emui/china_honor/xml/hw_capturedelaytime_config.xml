@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<capture_delaytime_config>
+  <CaptureDalayTime scene="BackBeauty" value="800" desc="Capture scene is back beauty mode, default capture delay time is 800ms in this scene."/>
+  <CaptureDalayTime scene="FrontBeauty" value="300" desc="Capture scene is front beauty mode, default capture delay time is 300ms in this scene."/>
+  <CaptureDalayTime scene="ServiceHostBeautySmartHdr" value="1000" desc="Capture scene is qualcomm and mkt platforms beauty mode smart HDR, default capture delay time is 1000ms in this scene."/>
+  <CaptureDalayTime scene="ServiceHostBeautyMultiDenoise" value="1000" desc="Capture scene is qualcomm and mkt platforms beauty mode multi denoise, default capture delay time is 1000ms in this scene."/>
+  <CaptureDalayTime scene="HdrCapture" value="1000" desc="Capture scene is HDR mode, default capture delay time is 1000ms in this scene."/>
+  <CaptureDalayTime scene="ServiceHostPhotoSmartHdr" value="1000" desc="Capture scene is qualcomm and mkt platforms normal photo mode smart HDR, default capture delay time is 1000ms in this scene."/>
+  <CaptureDalayTime scene="ServiceHostMultiDenoise" value="1000" desc="Capture scene is qualcomm and mkt platforms normal photo mode multi denoise, default capture delay time is 1000ms in this scene."/>
+  <CaptureDalayTime scene="ProPhotoCapture" value="1000" desc="Capture scene is pro photo capture, default capture delay time is 1000ms in this scene."/>
+  <CaptureDalayTime scene="PhotoSmartHdr" value="800" desc="Capture scene is normal photo mode smart HDR, default capture delay time is 800ms in this scene."/>
+  <CaptureDalayTime scene="PhotoMultiCapture" value="800" desc="Capture scene is normal photo mode multi denoise, default capture delay time is 800ms in this scene."/>
+  <CaptureDalayTime scene="PhotoRawHdr" value="800" desc="Capture scene is normal photo mode raw HDR, default capture delay time is 800ms in this scene."/>
+</capture_delaytime_config>

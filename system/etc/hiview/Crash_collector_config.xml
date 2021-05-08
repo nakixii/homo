@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collectorhub>
+  <name>CrashCollector</name>
+  <product>phone</product>
+  <platform>all</platform>
+  <collectors>
+    <collector>
+      <name>ManagedCodeCrashCollector</name>
+      <eventID>901001001</eventID>
+      <matchKeys>app_crash,system_server_crash</matchKeys>
+    </collector>
+    <collector>
+      <name>NativeCodeCrashCollector</name>
+      <eventID>901001002</eventID>
+      <matchKeys>native_crash,TOMBSTONE</matchKeys>
+    </collector>
+  </collectors>
+</collectorhub>

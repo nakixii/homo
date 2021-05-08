@@ -1,0 +1,48 @@
+% title: Hyphenation patterns for Serbo-Croatian, Latin script
+% copyright: Copyright (C) 1990, 2008 Dejan Muhamedagić
+% notice: This file is part of the hyph-utf8 package.
+%     See http://www.hyphenation.org/tex for more information.
+% language:
+%     name: Serbocroatian, Latin script
+%     tag: sh-latn
+% version: 2.02 22 June 2008
+% authors:
+%   -
+%     name: Dejan Muhamedagić
+%     contact: dejan (at) hello-penguin.com
+% licence:
+%     name: LPPL
+%     version: 1
+%     or_later: true
+%     url: https://latex-project.org/lppl/
+% hyphenmins:
+%     generation:
+%         left: 1
+%         right: 2
+%     typesetting:
+%         left: 2
+%         right: 2
+% texlive:
+%     encoding: ec
+%     babelname: serbian
+%     legacy_patterns: shhyphl.tex
+%     message: Serbian hyphenation patterns in Latin script
+%     package: serbian
+% ==========================================
+% Osnovni skup paterna dobijen je na osnovu fonoloških osobina
+% srpskohrvatskog jezika.  Pravila i preporuke sam preuzeo iz:
+%
+% M. Pešikan, J. Jerković, M. Pižurica:
+% Pravopis srpskoga jezika
+% Matica srpska, Novi Sad, 1995.
+%
+% U drugom delu se nalaze izuzeci od fonoloških pravila bazirani
+% na boljem psihološkom prelomu reči. Izradjen je korišćenjem
+% sledećih rečnika:
+%
+% Rečnik srpskohrvatskoga književnog jezika
+% Matica srpska, Matica hrvatska, Novi Sad, Zagreb, 1967-1976.
+%
+% Milan Vujaklija: Leksikon stranih reči i izraza
+% Prosveta, Beograd, 1992.
+%

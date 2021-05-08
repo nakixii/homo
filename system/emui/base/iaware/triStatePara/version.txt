@@ -1,0 +1,4 @@
+version=11.12.20.102
+type=triStatePara
+subtype=generic
+compatibleVersion=1

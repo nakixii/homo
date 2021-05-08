@@ -1,0 +1,120 @@
+on init
+    mount_all_patch /patch_hw/fstab.patch_step1
+    restorecon /dev/block/bootdevice/by-name/kpatch
+    parse_kpatch /patch_hw/kpatch/insmod_list
+    mkdir /mnt/update_engine 0700 root root
+    mount tmpfs none /mnt/update_engine nodev nosuid mode=0700
+
+on post-fs-data
+
+    setprop vold.crypto_unencrypt_updatedir /data/update
+
+    #Create directory for OtaSave
+    mkdir /data/OtaSave 0770 system system
+
+    mkdir /data/cota
+    chmod 0775 /data/cota
+    chown system system /data/cota
+    restorecon_recursive /data/cota
+
+    mkdir /data/cota/ecota
+    chmod 0755 /data/cota/ecota
+    chown root root /data/cota/ecota
+    restorecon_recursive /data/cota/ecota
+
+    mkdir /data/cota/cloud
+    chmod 0770 /data/cota/cloud
+    chown system system /data/cota/cloud
+    restorecon_recursive /data/cota/cloud
+	
+	#Create directory for cache/fotapkg
+    mkdir /cache/fotapkg 0771 system system
+
+    mkdir /data/hotpatch 0755 system cache
+    restorecon /data/hotpatch
+    mkdir /data/hotpatch/apkpatchdir 0775 root system
+    restorecon /data/hotpatch/apkpatchdir
+
+    load_data_version_prop
+    restorecon /data/custom.bin
+    restorecon /data/custom_cota.bin
+    restorecon /data/cust_ver.bin
+    restorecon /data/test_ver.bin
+    restorecon /data/product.bin
+    restorecon /data/test_nv.bin
+
+    # Make sure cota update become effect and delete temp files
+    trigger later_cota_update_action
+    start hwinit_check
+    start cust_from_init
+
+on property:ro.runmode=factory
+    chmod 0664 /dev/block/sdc
+    chown root system /dev/block/sdc
+    chmod 0775 /data/media/0/Music
+    chmod 0775 /data/media/0/Pictures
+    chown media_rw media_rw /data/media/0
+    chown media_rw media_rw /data/media/0/Music
+    chown media_rw media_rw /data/media/0/Pictures
+
+on property:sys.mount_patch=true
+    umount /patch_hw
+    remove_dm_device patch_hw-verity
+    mkdir patch_hw
+    write /sys/devices/platform/his_modem/modem_image_patch_status "0"
+    mount ext4 /dev/block/bootdevice/by-name/patch /patch_hw wait ro
+    mount erofs /dev/block/bootdevice/by-name/patch /patch_hw wait ro
+    setprop sys.mount_patch false
+
+on property:sys.boot_completed=1 && property:ro.user_hota_update=1
+    #update user hota update state in oeminfo,  and enture oeminfo_nvm has been working already
+    # 1: hota first boot start
+    # 0: hota first boot end
+    write /dev/kmsg " user_hota_update_oem first boot end++"
+    #user_hota_update_oem 0
+    write /dev/kmsg " user_hota_update_oem first boot end--"
+
+service cust_from_init /system/bin/cust_init
+        user root
+        group root system cache
+        oneshot
+        disabled
+        seclabel u:r:cust:s0
+
+#regionalphone reset modem setting
+on property:sys.regional.resetmodem=1
+    exec - root -- chmod 666 /proc/ModemNv
+    write /proc/ModemNv abc
+    setprop persist.radio.current_version " "
+    setprop persist.odm.radio.current_version " "
+    exec - root -- chmod 660 /proc/ModemNv
+
+on property:cota.live_update.handle_version_img=enable
+    trigger cota_live_update_mount_version_image_action
+
+on property:cota.live_update.set_cust_policy_dirs=enable
+    trigger cota_live_update_update_cust_policy_action
+
+on later_cota_update_action
+    later_cota_update
+
+on cota_live_update_mount_version_image_action
+    cota_live_update_mount_version_image
+
+on cota_live_update_update_cust_policy_action
+    cota_live_update_update_cust_policy
+
+service hwinit_check /system/bin/hwinit_hash_check
+    user root
+    group root system cache
+    oneshot
+    disabled
+
+service cota_verifier /system/bin/cota_verify
+    user root
+    group root system cache
+    oneshot
+    disabled
+
+on property:hwouc.update.imgverify=1
+    start cota_verifier

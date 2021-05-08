@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<Entry>
+  <Event id="903009063" FaultType="STATICS" FaultLevel="IMPORTANT" PrivacyLevel="PUBLIC">
+    <Param name="NAME" type="varchar"/>
+    <Param name="VERSION" type="varchar"/>
+  </Event>
+</Entry>

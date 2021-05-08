@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adds the feature indicating support for the HarmonyOS miscservices Inputmethod API -->
+<permissions>
+    <feature name="ohos.software.miscservices.inputmethod" version="0" notLowRam="true"/>
+</permissions>

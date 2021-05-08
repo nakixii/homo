@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UrlConfig>
+    <urlItem  type="https" region="China" used="configserver" name="DOMAIN_CHINA" url="configserver.hicloud.com" />
+    <urlItem  type="https" region="China" used="configserver" name="DOMAIN_CHINA_TEST" url="cloudbackup.hwcloudtest.cn:18443" />
+    <urlItem  type="https" region="China" used="ueserver" name="SERVER_URL_DOMESTIC" url="https://data.hicloud.com:6447/emuiv2" />
+    <urlItem  type="https" region="China" used="pushtoken" name="POST_IP_PORT" url="https://rnd-aresocean-commercial.huawei.com/bidc/" />
+    <urlItem  type="https" region="China" used="configserver" name="COMMON_URL" url="https://configserver.hicloud.com/servicesupport/updateserver/data/" />
+    <urlItem  type="https" region="China" used="samplemanagement"  name="DOWNLOAD_URI_ROOT" url="https://rnd-cbgpas01.huawei.com/download/SampleManagement_" />
+    <urlItem  type="https" region="Global" used="configserver"  name="DOMAIN_SINGAPORE" url="configserver-dra.platform.hicloud.com" />
+    <urlItem  type="https" region="Global" used="configserver"  name="DOMAIN_GERMANY" url="configserver-dre.platform.hicloud.com" />
+    <urlItem  type="https" region="Global" used="ueinterfaceserver"  name="INTERFACE_SERVER_URL" url="https://metrics.data.hicloud.com:6447/getServerInfo" />
+</UrlConfig>

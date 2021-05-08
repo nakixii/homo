@@ -1,0 +1,5 @@
+service thermshex /system/bin/shex -u /product/etc/hwpg/sensorhub_thermald.xml -t
+    user root
+    group system
+    disabled
+    oneshot

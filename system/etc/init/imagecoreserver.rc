@@ -1,0 +1,6 @@
+service imagecoreserver /system/bin/imagecoreserver
+    class main
+    user cameraserver
+    group camera system
+    disabled
+    oneshot

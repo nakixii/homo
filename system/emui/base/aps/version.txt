@@ -1,0 +1,4 @@
+version=1.10.20.100
+type=APSPARA
+subtype=generic
+compatibleVersion=1

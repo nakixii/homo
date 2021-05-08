@@ -1,0 +1,5 @@
+{
+    "name" : "Morph",
+    "compute" : "shaders://computeshader/Morph.comp.spv",
+    "slot" : "noSlot"
+}

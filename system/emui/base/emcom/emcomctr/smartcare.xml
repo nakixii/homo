@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<smartcare version="001.001">
+        <region_config name="default">                      <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+            <product_config name="default">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+                <smartcare_features_config>                        <!--3级标签，产品配置-->
+                    <page_timeout>30</page_timeout>
+                    <sample_period>710</sample_period>                                         <!--默认采样周期，单位：秒-->
+                    <sample_interval>720</sample_interval>                                     <!--默认采样间隔，单位：秒-->
+                    <tcp_quality_switch>1</tcp_quality_switch>
+                    <max_report_apps>3</max_report_apps>                                       <!--采样周期内默认最大上报APP种类-->
+                    <app_report_order>game,video,email,browser,wechat,accelerator</app_report_order>
+                    <video_sr_delay_thres>2000</video_sr_delay_thres>                          <!--视频接入时延门限，单位：毫秒-->
+                    <video_intbuffer_full_delay_thres>3000</video_intbuffer_full_delay_thres>  <!--视频初缓时延门限，单位：毫秒-->
+                    <video_stalling_times_thres>0</video_stalling_times_thres>                 <!--视频卡顿次数门限，单位：次-->
+                    <video_stalling_duration_thres>0</video_stalling_duration_thres>           <!--视频卡顿时长门限，单位：毫秒-->
+                    <browser_connect_latency_thres>4000</browser_connect_latency_thres>        <!--浏览器网页连接时延最大值门限，单位：毫秒-->
+                    <email_rec_interval_thres>3000</email_rec_interval_thres>                  <!--接收邮件间隔最小值门限，单位：毫秒-->
+                    <sample_mode>0</sample_mode>                                               <!--采样模式：0-普通模式，1-业务比拼模式-->
+                    <beta_version_config>
+                        <sample_period_beta>110</sample_period_beta>                           <!--Beta版本采样周期，单位：秒-->
+                        <sample_interval_beta>120</sample_interval_beta>                       <!--Beta版本采样间隔，单位：秒-->
+                        <max_report_apps_beta>50</max_report_apps_beta>                        <!--Beta版本采样周期内最大上报APP种类-->
+                    </beta_version_config>
+                    <package>
+                         <package_name>com.android.chrome</package_name>
+                         <switch>0</switch>
+                         <type>browser</type>
+                    </package>
+                    <package>
+                         <package_name>com.android.browser</package_name>
+                         <switch>0</switch>
+                         <type>browser</type>
+                    </package>
+                    <package>
+                         <package_name>com.qihoo.browser</package_name>
+                         <switch>0</switch>
+                         <type>browser</type>
+                    </package>
+                    <package>
+                         <package_name>com.tencent.mm</package_name>
+                         <switch>0</switch>
+                         <type>wechat</type>
+                    </package>
+                    <package>
+                         <package_name>com.huawei.himovie</package_name>
+                         <switch>0</switch>
+                         <parse_type>4</parse_type>
+                         <type>video</type>
+                    </package>
+                    <package>
+                         <package_name>com.qiyi.video</package_name>
+                         <switch>0</switch>
+                         <parse_type>6</parse_type>
+                         <type>video</type>
+                    </package>
+                    <package>
+                         <package_name>air.tv.douyu.android</package_name>
+                         <switch>0</switch>
+                         <parse_type>6</parse_type>
+                         <type>video</type>
+                    </package>
+                    <package>
+                         <package_name>com.huawei.cloud</package_name>
+                         <switch>0</switch>
+                         <parse_type>6</parse_type>
+                         <type>video</type>
+                    </package>
+                    <package>
+                         <package_name>com.android.email</package_name>
+                         <switch>0</switch>
+                         <type>email</type>
+                    </package>
+                    <package>
+                         <package_name>com.android.exchange</package_name>
+                         <switch>0</switch>
+                         <type>email</type>
+                    </package>
+                    <package>
+                         <package_name>com.tencent.tmgp.sgame</package_name>
+                         <switch>1</switch>
+                         <parse_type>1</parse_type>
+                         <type>game</type>
+                    </package>
+                    <package>
+                        <package_name>com.tencent.tmgp.pubgmhd</package_name>
+                        <switch>1</switch>
+                        <parse_type>2</parse_type>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>1</fi_report_app_status>
+                        <fi_report_rtt>1</fi_report_rtt>
+                        <type>game</type>
+                    </package>
+                    <package>
+                        <package_name>com.tencent.tmgp.pubgm</package_name>
+                        <switch>1</switch>
+                        <parse_type>2</parse_type>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>1</fi_report_app_status>
+                        <fi_report_rtt>1</fi_report_rtt>
+                        <type>game</type>
+                    </package>
+                    <package>
+                        <package_name>com.tencent.tmgp.cf</package_name>
+                        <switch>1</switch>
+                        <parse_type>2</parse_type>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>1</fi_report_app_status>
+                        <fi_report_rtt>1</fi_report_rtt>
+                        <type>game</type>
+                    </package>
+                    <package>
+                        <package_name>com.tencent.tmgp.speedmobile</package_name>
+                        <switch>1</switch>
+                        <parse_type>2</parse_type>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>1</fi_report_app_status>
+                        <fi_report_rtt>1</fi_report_rtt>
+                        <type>game</type>
+                    </package>
+                    <package>
+                        <package_name>com.netease.hyxd</package_name>
+                        <switch>1</switch>
+                        <parse_type>2</parse_type>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>1</fi_report_app_status>
+                        <fi_report_rtt>1</fi_report_rtt>
+                        <type>game</type>
+                    </package>
+                    <package>
+                        <package_name>com.netease.hyxd.huawei</package_name>
+                        <switch>1</switch>
+                        <parse_type>2</parse_type>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>1</fi_report_app_status>
+                        <fi_report_rtt>1</fi_report_rtt>
+                        <type>game</type>
+                    </package>
+                    <package>
+                         <package_name>com.miHoYo.bh3.huawei</package_name>
+                         <switch>1</switch>
+                         <parse_type>2</parse_type>
+                         <fi_switch>1</fi_switch>
+                         <fi_report_app_status>1</fi_report_app_status>
+                         <fi_report_rtt>1</fi_report_rtt>
+                         <type>game</type>
+                    </package>
+                    <package>
+                         <package_name>com.miHoYo.enterprise.NGHSoD</package_name>
+                         <switch>1</switch>
+                         <parse_type>2</parse_type>
+                         <fi_switch>1</fi_switch>
+                         <fi_report_app_status>1</fi_report_app_status>
+                         <fi_report_rtt>1</fi_report_rtt>
+                         <type>game</type>
+                    </package>
+                    <package>
+                         <package_name>com.tencent.tmgp.bh3</package_name>
+                         <switch>1</switch>
+                         <parse_type>2</parse_type>
+                         <fi_switch>1</fi_switch>
+                         <fi_report_app_status>1</fi_report_app_status>
+                         <fi_report_rtt>1</fi_report_rtt>
+                         <type>game</type>
+                    </package>
+                    <package>
+                         <package_name>com.miHoYo.bh3.qihoo</package_name>
+                         <switch>1</switch>
+                         <parse_type>2</parse_type>
+                         <fi_switch>1</fi_switch>
+                         <fi_report_app_status>1</fi_report_app_status>
+                         <fi_report_rtt>1</fi_report_rtt>
+                         <type>game</type>
+                    </package>
+                    <package>
+                         <package_name>com.miHoYo.bh3.uc</package_name>
+                         <switch>1</switch>
+                         <parse_type>2</parse_type>
+                         <fi_switch>1</fi_switch>
+                         <fi_report_app_status>1</fi_report_app_status>
+                         <fi_report_rtt>1</fi_report_rtt>
+                         <type>game</type>
+                    </package>
+                    <package>
+                         <package_name>com.wooduan.ssjj.huawei</package_name>
+                         <switch>1</switch>
+                         <parse_type>3</parse_type>
+                         <type>game</type>
+                    </package>
+                    <package>
+                         <package_name>com.snailgames.HeroSurvival.huawei</package_name>
+                         <switch>1</switch>
+                         <parse_type>3</parse_type>
+                         <type>game</type>
+                    </package>
+                    <package>
+                        <package_name>cn.wsds.gamemaster</package_name>
+                        <switch>1</switch>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>0</fi_report_app_status>
+                        <fi_report_rtt>0</fi_report_rtt>
+                        <type>accelerator</type>
+                    </package>
+                    <package>
+                        <package_name>com.netease.uu</package_name>
+                        <switch>1</switch>
+                        <fi_switch>1</fi_switch>
+                        <fi_report_app_status>0</fi_report_app_status>
+                        <fi_report_rtt>0</fi_report_rtt>
+                        <type>accelerator</type>
+                    </package>
+                    <wechat version="6.([1-4].[0-9]+|5.[0-4]|[6-9].[0-9]+)|[7-9].(.*)$">ReceiveUi:com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyReceiveUI;DetailUi:com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI;SendStartUi:com.tencent.mm.ui.base.i;SendFailUi:com.tencent.mm.ui.base.h;ToastContainer:android.widget.LinearLayout;GrabStartUi:android.widget.LinearLayout;OpenStartUi:android.widget.Button;SendStartKeyword:塞钱进红包;SendStartButton:android.widget.Button;WalletTip:微信支付;PacketKeyword:微信红包;SendSuccTip:已发送;PacketIdentifier:[微信红包];PacketType:436207665;GroupMsgIdentifier:@chatroom;ChatIdKey:Main_User;MsgTypeKey:MainUI_User_Last_Msg_Type</wechat>
+                    <wechat version="6.(5.([5-9]|[1-9][0-9]+))">SendStartKeyword:塞钱进红包;SendStartButton:android.widget.Button;ReceiveUi:com.tencent.mm.plugin.luckymoney.ui.En_fba4b94f;DetailUi:com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI;SendStartUi:com.tencent.mm.ui.base.i;SendFailUi:com.tencent.mm.ui.base.h;ToastContainer:android.widget.LinearLayout;GrabStartUi:android.widget.LinearLayout;OpenStartUi:android.widget.Button;TimeoutTip:网络通信出现问题，请稍后再试;BusyTip:系统繁忙，请稍后再试;WalletTip:微信支付;PacketKeyword:微信红包;SendSuccTip:已发送;PacketIdentifier:[微信红包];PacketType:436207665;GroupMsgIdentifier:@chatroom;ChatIdKey:Main_User;MsgTypeKey:MainUI_User_Last_Msg_Type</wechat>
+                </smartcare_features_config>
+            </product_config>
+        </region_config>
+</smartcare>

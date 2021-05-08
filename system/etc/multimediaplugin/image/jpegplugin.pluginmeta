@@ -1,0 +1,42 @@
+{
+  "packageName":"LibJpegPlugin",
+  "version":"1.0.0.0",
+  "targetVersion":"1.0.0.0",
+  "libraryPath":"libjpegplugin.z.so",
+  "classes": [
+    {
+      "className":"OHOS::ImagePlugin::JpegDecoder",
+      "services": [
+        {
+          "interfaceID":2,
+          "serviceType":0
+        }
+      ],
+      "priority":100,
+      "capabilities": [
+        {
+          "name":"encodeFormat",
+          "type":"string",
+          "value": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "className":"OHOS::ImagePlugin::JpegEncoder",
+      "services": [
+        {
+          "interfaceID":3,
+          "serviceType":0
+        }
+      ],
+      "priority":100,
+      "capabilities": [
+        {
+          "name":"encodeFormat",
+          "type":"string",
+          "value": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}

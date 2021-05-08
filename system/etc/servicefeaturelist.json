@@ -1,0 +1,9 @@
+{
+    "features": [
+        {
+            "package": "com.huawei.featurelayer.systemservicefeature.HwGestureAction",
+            "file": "/system/framework/HwGestureAction.fpk",
+            "version": "1.0.12"
+        }
+    ]
+}

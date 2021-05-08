@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.homevision.launcher">
+  <favorite launcher:packageName="com.huawei.homevision.launcher" launcher:className=""/>
+  <favorite launcher:packageName="com.hisilicon.launcher" launcher:className=""/>
+  <favorite launcher:packageName="com.android.settings" launcher:className=""/>
+  <favorite launcher:packageName="com.hisilicon.miracast" launcher:className=""/>
+  <favorite launcher:packageName="com.android.systemui" launcher:className=""/>
+  <favorite launcher:packageName="com.android.dreamshow" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.tvdetectrepair" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.vassistanthd" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.tvplayer" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.hiai" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.himovie.tv" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.hwid.tv" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.intelligenttv" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.upgrade" launcher:className=""/>
+  <favorite launcher:packageName="com.android.quicksearchbox" launcher:className=""/>
+  <favorite launcher:packageName="com.android.documentsui" launcher:className=""/>
+  <favorite launcher:packageName="com.android.contacts" launcher:className=""/>
+  <favorite launcher:packageName="org.chromium.webview_shell" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.music.bigscreen" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.android.hwouc" launcher:className=""/>
+  <favorite launcher:packageName="com.huawei.himovie.tv.overseas" launcher:className=""/>
+  <favorite launcher:packageName="com.iqqi.imeservice" launcher:className=""/>
+</favorites>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.carrierconfig">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.documentsui">
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.incallui">
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="com.huawei.permission.EXT_DISPLAY_UI_PERMISSION"/>
+        <permission name="com.huawei.permission.HICAR_DISPLAY"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.mms">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+        <permission name="com.huawei.android.permission.GET_CHR_DATA"/>
+        <permission name="com.huawei.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.huawei.permission.SET_ANTI_ATTACK_CAP"/>
+        <permission name="com.huawei.permission.SET_WINDOW_MODE"/>
+        <permission name="com.huawei.permission.USE_LEGACY_INTERFACE"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="huawei.permission.RECEIVE_SMS_INTERCEPTION"/>
+        <permission name="huawei.permission.SET_SMSC_ADDRESS"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.packageinstaller">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.CONTROL_VPN"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.huawei.permission.AD_APKDL_STRATEGY"/>
+        <permission name="com.huawei.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.huawei.permission.MANAGE_SECURITYPROFILE"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.permissioncontroller">
+        <permission name="com.huawei.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.huawei.permission.MANAGE_SECURITYPROFILE"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.phone">
+        <permission name="android.permission.COMM_FORCE"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="com.huawei.android.permission.GET_CHR_DATA"/>
+        <permission name="com.huawei.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.huawei.permission.READ_SKYTONE_TA"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="huawei.permission.SET_SMSC_ADDRESS"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.calendar">
+        <permission name="com.huawei.hwddmp.permission.APP_START"/>
+        <permission name="com.huawei.permission.MANAGE_USE_SECURITY"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.contacts">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.downloads">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.media">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.telephony">
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="huawei.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.server.telecom">
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.settings">
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_APP_IDLE_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.MANAGE_DEBUGGING"/>
+        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MANAGE_USER_OEM_UNLOCK_STATE"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.MOVE_PACKAGE"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SET_TIME"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.USER_ACTIVITY"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.server.wifi.permission.HILINK_STATE_CHANGED"/>
+        <permission name="com.huawei.hwSdCryptd.permission.RECV_HWSDCRYPTD_RESULT"/>
+        <permission name="com.huawei.locksettings.permission.ACCESS_HWKEYGUARD_SECURE_STORAGE"/>
+        <permission name="com.huawei.permission.HW_SET_APPLICATION_ASPECT_RATIO"/>
+        <permission name="com.huawei.permission.MANAGE_FACERECOGNITION"/>
+        <permission name="com.huawei.permission.WALLET_FACTORY_ACCESS"/>
+        <permission name="com.huawei.privacyspace.permission.PASSWORD_RESET"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.BIND_KEYGUARD_APPWIDGET"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+        <permission name="android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.CONTROL_VPN"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEBUGGING"/>
+        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECEIVE_MEDIA_RESOURCE_USAGE"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
+        <permission name="android.permission.WATCH_APPOPS"/>
+        <permission name="android.permission.WRITE_DREAM_STATE"/>
+        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.huawei.hwSdCryptd.permission.RECV_HWSDCRYPTD_RESULT"/>
+        <permission name="com.huawei.hwsdlock.permission.ACCESS_HWSDCARD_SECURE"/>
+        <permission name="com.huawei.hwsdlock.permission.RECV_HWSDLOCK_STATE"/>
+        <permission name="com.huawei.locksettings.permission.ACCESS_HWKEYGUARD_SECURE_STORAGE"/>
+        <permission name="com.huawei.permission.ACCESS_DISPLAY_ENGINE"/>
+        <permission name="com.huawei.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.huawei.permission.CONTENT_SENSOR_PERMISSION"/>
+        <permission name="com.huawei.permission.DEVICE_THP"/>
+        <permission name="com.huawei.permission.EXT_DISPLAY_UI_PERMISSION"/>
+        <permission name="com.huawei.permission.HW_SET_APPLICATION_ASPECT_RATIO"/>
+        <permission name="com.huawei.permission.MANAGE_FACERECOGNITION"/>
+        <permission name="com.huawei.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.huawei.permission.MANAGE_TRUSTSPACE"/>
+        <permission name="com.huawei.permission.MANAGE_VOICERECOGNITION"/>
+        <permission name="com.huawei.permission.SET_WINDOW_MODE"/>
+        <permission name="com.huawei.permission.WALLET_FACTORY_ACCESS"/>
+        <permission name="com.huawei.permission.pc.BackgroundProjectionModeLayout"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="huawei.permission.HIRES_ICON_CHANGE_ACTION"/>
+        <permission name="huawei.permission.RECEIVE_WIFI_PRO_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.android.hsf">
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.android.pushagent">
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.appmarket">
+        <permission name="android.permission.ALLOCATE_AGGRESSIVE"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.huawei.android.permission.GET_CHR_DATA"/>
+        <permission name="com.huawei.gameassistant.permission.WIRTE_GAME_LIST"/>
+        <permission name="com.huawei.permission.ACCESS_DISPLAY_ENGINE"/>
+        <permission name="com.huawei.permission.ACCESS_SYSTEM_WHITE_LIST"/>
+        <permission name="com.huawei.permission.CONFIG_BRIGHTNESS"/>
+        <permission name="com.huawei.permission.INSTALL_APP_DISABLE_VERIFY"/>
+        <permission name="com.huawei.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.huawei.permission.MANAGE_SECURITYPROFILE"/>
+        <permission name="com.huawei.permission.MANAGE_TRUSTSPACE"/>
+        <permission name="com.huawei.permission.SECURITY_DIAGNOSE"/>
+        <permission name="com.huawei.permission.SET_WINDOW_MODE"/>
+        <permission name="com.huawei.permission.SKIP_TRIGGER_FREEFORM"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.controlcenter">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="com.huawei.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.huawei.permission.PC_MANAGER_API"/>
+        <permission name="com.huawei.permission.SOFTNET"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.harmonyos.foundation">
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+        <permission name="ohos.permission.CONNECT_CALL_ABILITY"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.hiaction">
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.hwddmp">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.multimedia.audioengine">
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.nb.service">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="com.huawei.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.pcassistant">
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.huawei.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.huawei.permission.ASSOCIATE_ASSISTANT_SET_WIFI_MODE"/>
+        <permission name="com.huawei.permission.PC_MANAGER_API"/>
+        <permission name="com.huawei.permission.SET_PCASSISTANT_RESULT"/>
+        <permission name="com.huawei.permission.SOFTNET"/>
+        <permission name="com.huawei.permission.USE_TRUSTCIRCLE_MANAGER"/>
+        <permission name="com.huawei.permission.hwmultidisplay.DEVICE_MULTI_DISPLAY"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.recsys">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.huawei.hiai.awareness.permission.NOTIFY_RESTART_SERVICE"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.searchservice">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.smarthome">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="com.huawei.permission.ACCESS_AP_INFORMATION"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.systemmanager">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CLEAR_APP_CACHE"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.DELETE_CACHE_FILES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.huawei.batteryservice.permission.WIRELESS_TX_CHARGE_ERROR"/>
+        <permission name="com.huawei.hiai.awareness.permission.NOTIFY_RESTART_SERVICE"/>
+        <permission name="com.huawei.permission.COTA_APPS_NO_REBOOT"/>
+        <permission name="com.huawei.permission.MANAGE_SECURITYPROFILE"/>
+        <permission name="com.huawei.permission.MANAGE_USE_SECURITY"/>
+        <permission name="com.huawei.permission.SECURITY_DIAGNOSE"/>
+        <permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+        <permission name="com.huawei.permission.sec.MDM_DEVICE_MANAGER"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="huawei.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+        <permission name="huawei.permission.RECEIVE_SMS_INTERCEPTION"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.huawei.systemserver">
+        <permission name="android.permission.COMM_FORCE"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="com.huawei.hiai.awareness.permission.NOTIFY_RESTART_SERVICE"/>
+        <permission name="com.huawei.permission.ACCESS_AP_INFORMATION"/>
+        <permission name="com.huawei.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.huawei.permission.HW_SCREEN_OFF_FOR_POSITIVE"/>
+        <permission name="com.huawei.permission.SAVE_DATA"/>
+        <permission name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="huawei.permission.RECEIVE_WIFI_PRO_STATE"/>
+        <permission name="ohos.permission.INSTALL_BUNDLE"/>
+    </privapp-permissions>
+
+</permissions>

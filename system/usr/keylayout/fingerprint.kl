@@ -1,0 +1,25 @@
+#
+# Touch sensor driver
+#
+# Copyright (c) 2013,2014 Fingerprint Cards AB <tech@fingerprints.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License Version 2
+# as published by the Free Software Foundation.
+#
+
+#  "click"
+key 28    ENTER
+
+#  "finger wakeup"
+key 113   KEYCODE_FINGERPRINT_FINGER_UP
+key 111   KEYCODE_FINGERPRINT_DOUBLECLICK
+key 105   KEYCODE_FINGERPRINT_LEFT
+key 106   KEYCODE_FINGERPRINT_RIGHT
+key 108   KEYCODE_FINGERPRINT_DOWN
+key 103   KEYCODE_FINGERPRINT_UP
+key 174   KEYCODE_FINGERPRINT_CLICK
+key 117   KEYCODE_FINGERPRINT_FINGER_DOWN
+key 118   KEYCODE_FINGERPRINT_FINGER_IDENTIFY
+key 119   KEYCODE_FINGERPRINT_IDENTIFY_END
+key 120   KEYCODE_FINGERPRINT_FINGER_ENROLL

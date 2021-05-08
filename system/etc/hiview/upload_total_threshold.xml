@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UploadThreshold>
+  <Beta>
+    <Total eventidWifi="102400" eventidData="102400" normalWifi="31457280" normalData="20480" runningLogWifi="15728640" runningLogData="102400" privateLogWifi="20971520" privateLogData="102400" extraWifi="20971520" extraData="0" ueLogData="51200" ueLogWifi="102400"/>
+  </Beta>
+  <Commercial>
+    <Total eventidWifi="5120" eventidData="5120" normalWifi="5120" normalData="1024" runningLogWifi="0" runningLogData="0" privateLogWifi="5120" privateLogData="5120" extraWifi="5120" extraData="0" ueLogData="10240" ueLogWifi="51200"/>
+  </Commercial>
+</UploadThreshold>

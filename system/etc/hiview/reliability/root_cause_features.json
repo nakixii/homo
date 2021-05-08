@@ -1,0 +1,124 @@
+{
+    "AP_S_PANIC" : {
+        "rule1" : {
+            "threshold" : 4,
+            "time_limit" : 604800,
+            "err_id" : "CPU_PANIC_INFO",
+            "action" : "soc_cpu_num_resolve",
+            "result_regex" : "(.+)",
+            "result_scope": "hardware_soc_ap"
+        },
+        "rule2" : {
+            "threshold" : 5,
+            "time_limit" : 0,
+            "err_id" : "LPM3_DDR_FAIl",
+            "action" : "ddr_screen_resolve",
+            "result_regex" : "",
+            "result_scope": "hardware_ddr"
+        },
+        "rule3" : {
+            "threshold" : 5,
+            "time_limit" : 604800,
+            "err_id" : "CPU_PANIC_INFO",
+            "action" : "common_panic_reboot_resolve",
+            "result_regex" : "",
+            "result_scope": "hardware"
+        }
+    },
+    "KE" : {
+        "rule1" : {
+            "threshold" : 5,
+            "time_limit" : 604800,
+            "err_id" : "CPU_PANIC_INFO",
+            "action" : "common_panic_reboot_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware"
+        }
+    },
+    "AP_S_NOC" : {
+        "rule1" : {
+            "threshold" : 5,
+            "time_limit" : 604800,
+            "err_id" : "NOC_FAULT_INFO",
+            "action" : "noc_err_resolve",
+            "result_regex" : ".+target_flow=(.+\\))",
+            "result_scope" : "hardware"
+        }
+    },
+    "AP_S_AWDT": {
+        "rule1" : {
+            "threshold" : 5,
+            "time_limit" : 604800,
+            "err_id" : "",
+            "action" : "awdt_reboot_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware"
+        }
+    },
+    "HW_Reboot": {
+        "rule1" : {
+            "threshold" : 5,
+            "time_limit" : 604800,
+            "err_id" : "",
+            "action" : "awdt_reboot_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware"
+        }
+    },
+    "AP_S_PRESS6S": {
+        "rule1" : {
+            "threshold" : 1,
+            "time_limit" : 60,
+            "err_id" : "",
+            "action" : "powerkey_touch_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware_powerkey_warning_pocket_in"
+        },
+        "rule2" : {
+            "threshold" : 5,
+            "time_limit" : 1800,
+            "err_id" : "",
+            "action" : "long_press_reboot_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware_long_powerkey"
+        }
+    },
+    "reboot_longkey": {
+        "rule1" : {
+            "threshold" : 1,
+            "time_limit" : 60,
+            "err_id" : "",
+            "action" : "powerkey_touch_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware_powerkey_warning_pocket_in"
+        },
+        "rule2" : {
+            "threshold" : 5,
+            "time_limit" : 1800,
+            "err_id" : "",
+            "action" : "long_press_reboot_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware_long_powerkey"
+        }
+    },
+    "LPM3_S_LPMCURST": {
+        "rule1" : {
+            "threshold" : 5,
+            "time_limit" : 604800,
+            "err_id" : "",
+            "action" : "lpmcurst_reboot_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware"
+        }
+    },
+    "AP_S_ABNORMAL": {
+        "rule1" : {
+            "threshold" : 5,
+            "time_limit" : 604800,
+            "err_id" : "",
+            "action" : "ap_abnormal_reboot_resolve",
+            "result_regex" : "",
+            "result_scope" : "hardware"
+        }
+    }
+}

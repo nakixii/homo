@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thumbnail_config group="6" item="1" color="1">
+    <thumbnail>
+        <value>/system/emui/base/contacts/honor/thumbnail/small_honor_pic01.jpg</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/honor/thumbnail/small_honor_pic02.jpg</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/honor/thumbnail/small_honor_pic03.jpg</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/honor/thumbnail/small_honor_pic04.jpg</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/honor/thumbnail/small_honor_pic05.jpg</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/honor/thumbnail/small_honor_pic06.jpg</value>
+    </thumbnail>
+    <me_thumbnail>
+        <value>/system/emui/base/contacts/honor/thumbnail/small_honor_pic04.jpg</value>
+    </me_thumbnail>
+</thumbnail_config>

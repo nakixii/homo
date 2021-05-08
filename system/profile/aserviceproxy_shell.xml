@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <process>aserviceproxy_shell</process>
+    <loadlibs>
+        <libpath>libpasteboard_service.z.so</libpath>
+    </loadlibs>
+    <systemability>
+        <name>3701</name>
+        <libpath>libpasteboard_service.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>true</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+</info>

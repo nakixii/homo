@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app_blacklist>
+  <forbid_app packageName="com.huawei.parentcontrol"/>
+</app_blacklist>

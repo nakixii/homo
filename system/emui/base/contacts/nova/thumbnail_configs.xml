@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thumbnail_config group="3" item="1" color="4">
+    <thumbnail>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar1_01.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar1_02.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar1_03.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar1_04.jpg</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar2_01.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar2_02.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar2_03.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar2_04.jpg</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar3_01.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar3_02.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar3_03.jpg</value>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_avatar3_04.jpg</value>
+    </thumbnail>
+    <me_thumbnail>
+        <value>/system/emui/base/contacts/nova/thumbnail/small_me_01.jpg</value>
+    </me_thumbnail>
+</thumbnail_config>

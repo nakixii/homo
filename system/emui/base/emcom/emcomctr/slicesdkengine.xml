@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slicesdkengine version="001.001">
+    <region_config name="CN">                      <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+        <product_config name="ALP">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <slicesdkengine_features_config>                        <!--3级标签，产品配置-->
+                <sm_server_address>59.36.10.252:2095</sm_server_address>
+                <public_key>
+                    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2FUeo6MhNUeK47pGQshW
+                    fimSajHYv9pxm0uugfcrkKRsNLgWC6kboy17Nkwnkp5JNqOKj07jXlGCgjCeh1kH
+                    chaNE5V9FujeayXqWdGJBZaqkMCoIEm4sr45R+Gx5NMC3OPoZvUIvf0CbhywmhwR
+                    7daqBV1hXWRpV0JDh6H93w1fkn4JUZZLONmu0QUkj/YqWWBXyuLjT008S23NXjyY
+                    u5BrGQCTaU9rmq91vNZxu8cE5y4gbI9JmGPmPXrElmA4sefxSoYn19f+2fwmwc03
+                    KkmT34xy7vmiTwdfc3sEl68tMosMUxOSjzAI6+HQhqc/pl0a3BFCuPwijWsSHylp
+                    gQIDAQAB
+                </public_key>
+                <debug_mode>true</debug_mode>
+                <black_list>comtest.tencent.gwgo</black_list>
+                <black_list>example.black.list2.com</black_list>
+                <white_list>com.tencent.gwgo</white_list>
+                <white_list>com.huawei.testslice</white_list>
+            </slicesdkengine_features_config>
+        </product_config>
+    </region_config>
+</slicesdkengine>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<continueScenarios>
+    <scenario name="GuideContinue">
+        <dirc name="out">
+            <policy name="policy1">
+                <feature name="LocalDeviceType">
+                    <score condition="phone">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="LocalOsType">
+                    <score condition="EMUI">1</score>
+                    <score condition="HOSP">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="LocalOsVersion">
+                    <score condition="EMUI10.1">0</score>
+                    <score condition="EMUI11.0">1</score>
+                    <score condition="HOSP1.0">0</score>
+                    <score condition="HOSP2.0">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="DevConnectStatus">
+                    <score condition="yes">1</score>
+                    <score condition="no">0</score>
+                </feature>
+                <feature name="RemoteDeviceType">
+                    <score condition="car">1</score>
+                    <score condition="phone">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteOsType">
+                    <score condition="HOSP">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteOsVersion">
+                    <score condition="EMUI10.1">0</score>
+                    <score condition="EMUI11.0">0</score>
+                    <score condition="HOSP1.0">0</score>
+                    <score condition="HOSP2.0">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteAppInstalled">
+                    <score condition="yes">1</score>
+                    <score condition="no">0</score>
+                </feature>
+            </policy>
+            <policy name="policy2">
+                <feature name="LocalDeviceType">
+                    <score condition="car">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="LocalOsType">
+                    <score condition="HOSP">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="LocalOsVersion">
+                    <score condition="EMUI10.1">0</score>
+                    <score condition="EMUI11.0">0</score>
+                    <score condition="HOSP1.0">0</score>
+                    <score condition="HOSP2.0">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="DevConnectStatus">
+                    <score condition="yes">1</score>
+                    <score condition="no">0</score>
+                </feature>
+                <feature name="RemoteDeviceType">
+                    <score condition="phone">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteOsType">
+                    <score condition="EMUI">1</score>
+                    <score condition="HOSP">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteOsVersion">
+                    <score condition="EMUI10.1">0</score>
+                    <score condition="EMUI11.0">1</score>
+                    <score condition="HOSP1.0">0</score>
+                    <score condition="HOSP2.0">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteAppInstalled">
+                    <score condition="yes">1</score>
+                    <score condition="no">0</score>
+                </feature>
+            </policy>
+        </dirc>
+        <dirc name="in">
+            <policy name="policy1">
+                <feature name="LocalDeviceType">
+                    <score condition="phone">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="LocalOsType">
+                    <score condition="EMUI">1</score>
+                    <score condition="HOSP">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="LocalOsVersion">
+                    <score condition="EMUI10.1">0</score>
+                    <score condition="EMUI11.0">1</score>
+                    <score condition="HOSP1.0">0</score>
+                    <score condition="HOSP2.0">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="DevConnectStatus">
+                    <score condition="yes">1</score>
+                    <score condition="no">0</score>
+                </feature>
+                <feature name="RemoteDeviceType">
+                    <score condition="car">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteOsType">
+                    <score condition="HOSP">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteOsVersion">
+                    <score condition="EMUI10.1">0</score>
+                    <score condition="EMUI11.0">0</score>
+                    <score condition="HOSP1.0">0</score>
+                    <score condition="HOSP2.0">1</score>
+                    <score condition="default">0</score>
+                </feature>
+                <feature name="RemoteAppInstalled">
+                    <score condition="yes">1</score>
+                    <score condition="no">0</score>
+                </feature>
+                <feature name="RemoteAppForeground">
+                    <score condition="yes">1</score>
+                    <score condition="no">0</score>
+                </feature>
+            </policy>
+        </dirc>
+    </scenario>
+</continueScenarios>

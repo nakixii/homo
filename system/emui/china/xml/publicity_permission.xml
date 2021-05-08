@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissionList>
+  <permissionInfo group="位置信息" type="dangerous" name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <permissionInfo group="位置信息" type="dangerous" name="android.permission.ACCESS_FINE_LOCATION"/>
+  <permissionInfo group="位置信息" type="dangerous" name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+  <permissionInfo group="电话" type="dangerous" name="android.permission.CALL_PHONE"/>
+  <permissionInfo group="电话" type="dangerous" name="android.permission.READ_PHONE_STATE"/>
+  <permissionInfo group="电话" type="dangerous" name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
+  <permissionInfo group="电话" type="dangerous" name="android.permission.USE_SIP"/>
+  <permissionInfo group="电话" type="dangerous" name="android.permission.READ_PHONE_NUMBERS"/>
+  <permissionInfo group="电话" type="dangerous" name="android.permission.ANSWER_PHONE_CALLS"/>
+  <permissionInfo group="信息" type="dangerous" name="android.permission.READ_SMS"/>
+  <permissionInfo group="信息" type="dangerous" name="android.permission.SEND_SMS"/>
+  <permissionInfo group="信息" type="dangerous" name="android.permission.RECEIVE_SMS"/>
+  <permissionInfo group="信息" type="" name="android.permission.WRITE_SMS"/>
+  <permissionInfo group="信息" type="dangerous" name="android.permission.RECEIVE_WAP_PUSH"/>
+  <permissionInfo group="信息" type="dangerous" name="android.permission.READ_CELL_BROADCASTS"/>
+  <permissionInfo group="信息" type="dangerous" name="android.permission.RECEIVE_MMS"/>
+  <permissionInfo group="麦克风" type="dangerous" name="android.permission.RECORD_AUDIO"/>
+  <permissionInfo group="相机" type="dangerous" name="android.permission.CAMERA"/>
+  <permissionInfo group="通讯录" type="dangerous" name="android.permission.READ_CONTACTS"/>
+  <permissionInfo group="通讯录" type="dangerous" name="android.permission.WRITE_CONTACTS"/>
+  <permissionInfo group="通讯录" type="dangerous" name="android.permission.GET_ACCOUNTS"/>
+  <permissionInfo group="历史记录、书签" type="" name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+  <permissionInfo group="历史记录、书签" type="" name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+  <permissionInfo group="日历" type="dangerous" name="android.permission.READ_CALENDAR"/>
+  <permissionInfo group="日历" type="dangerous" name="android.permission.WRITE_CALENDAR"/>
+  <permissionInfo group="通话记录" type="dangerous" name="android.permission.READ_CALL_LOG"/>
+  <permissionInfo group="通话记录" type="dangerous" name="android.permission.WRITE_CALL_LOG"/>
+  <permissionInfo group="通话记录" type="dangerous" name="android.permission.PROCESS_OUTGOING_CALLS"/>
+  <permissionInfo group="存储" type="dangerous" name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <permissionInfo group="存储" type="dangerous" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <permissionInfo group="网络通信" type="normal" name="android.permission.CHANGE_WIFI_STATE"/>
+  <permissionInfo group="网络通信" type="normal" name="android.permission.CHANGE_NETWORK_STATE"/>
+  <permissionInfo group="网络通信" type="normal" name="android.permission.INTERNET"/>
+  <permissionInfo group="蓝牙" type="normal" name="android.permission.BLUETOOTH"/>
+  <permissionInfo group="蓝牙" type="normal" name="android.permission.BLUETOOTH_ADMIN"/>
+  <permissionInfo group="蓝牙" type="system" name="android.permission.BLUETOOTH_PRIVILEGED"/>
+</permissionList>

@@ -1,0 +1,509 @@
+{
+    "version": "1.0.0",
+    "delay" : 10,
+    "backlight_ratio": 102,
+    "led" : {
+        "comments" : "capacity_begin, capacity_end, led_color, led_brighness",
+        "table" : [
+            [0, 10, 4, 255],
+            [10, 90, 6, 255],
+            [90, 101, 2, 255]
+        ]
+    },
+    "draw" : {
+        "comments" : "capacity_begin, capacity_end, draw_interval_time",
+        "table" : [
+            [0, 20, 25],
+            [20, 40, 30],
+            [40, 60, 40],
+            [60, 80, 50],
+            [80, 90, 60],
+            [90, 100, 80]
+        ]
+    },
+    "color" : {
+        "comments" : "red, green, blue",
+        "table" : [
+            [255, 84, 56],
+            [255, 96, 38],
+            [255, 110, 19],
+            [255, 126, 4],
+            [255, 138, 0],
+            [233, 154, 11],
+            [211, 166, 26],
+            [179, 182, 50],
+            [153, 194, 70],
+            [136, 202, 83],
+            [136, 202, 83],
+            [136, 202, 83]
+        ]
+    },
+    "bitmap" : {
+        "comments" : "flag(b[0]:rotate90), single_number, single_sign, double_number, double_sign, cycle, flash",
+        "240x320" : [0, 86, 84, 86, 101, 86, 84, 86, 101, 70, 52, 111, 291],
+        "480x320" : [0, 191, 45, 191, 67, 191, 45, 191, 67, 140, 52, 222, 291],
+        "320x480" : [0, 114, 112, 114, 134, 114, 112, 114, 134, 93, 78, 148, 437],
+        "800x480" : [0, 362, 112, 412, 134, 337, 112, 437, 134, 233, 78, 370, 438],
+        "480x800" : [0, 222, 210, 261, 226, 200, 210, 273, 226, 140, 130, 438, 729],
+        "480x854" : [0, 177, 232, 177, 270, 177, 232, 177, 270, 140, 139, 222, 778],
+        "540x960" : [0, 253, 293, 292, 310, 229, 293, 302, 310, 158, 156, 250, 875],
+        "720x1280" : [0, 322, 308, 372, 308, 297, 308, 397, 308, 210, 192, 333, 1152],
+        "720x1440" : [0, 322, 332, 372, 332, 297, 332, 397, 332, 210, 216, 333, 1296],
+        "720x1520" : [0, 335, 350, 420, 350, 308, 350, 420, 350, 210, 240, 334, 1166],
+        "720x1560" : [0, 322, 350, 372, 350, 297, 350, 397, 350, 210, 234, 333, 1404],
+        "720x1600" : [0, 322, 356, 372, 356, 297, 356, 397, 356, 210, 240, 333, 1440],
+        "800x1280" : [0, 362, 308, 412, 308, 337, 308, 437, 308, 250, 192, 373, 1152],
+        "800x1280_hz" : [0, 366, 615, 408, 665, 366, 590, 408, 690, 250, 490, 50, 613],
+        "1080x1920" : [0, 483, 462, 558, 462, 445, 462, 595, 462, 315, 288, 500, 1728],
+        "1080x2160" : [0, 483, 498, 558, 498, 445, 498, 595, 498, 315, 324, 500, 1944],
+        "1080x2280" : [0, 483, 516, 558, 516, 445, 516, 595, 516, 315, 342, 500, 2052],
+        "1080x2240" : [0, 483, 510, 558, 510, 445, 510, 595, 510, 315, 336, 500, 2016],
+        "1080x2244" : [0, 483, 510, 558, 510, 445, 510, 595, 510, 315, 336, 500, 2019],
+        "1080x2340" : [0, 483, 525, 558, 525, 445, 525, 595, 525, 315, 351, 500, 2106],
+        "1080x2220" : [0, 483, 507, 558, 507, 445, 507, 595, 507, 315, 333, 500, 1998],
+        "1080x2310" : [0, 483, 520, 558, 520, 445, 520, 595, 520, 315, 346, 500, 2079],
+        "1080x2312" : [0, 483, 520, 558, 520, 445, 520, 595, 520, 315, 346, 500, 2080],
+        "1080x2376" : [0, 483, 530, 558, 530, 445, 530, 595, 530, 315, 356, 500, 2138],
+        "1200x1920" : [0, 543, 462, 618, 462, 505, 462, 655, 462, 375, 288, 560, 1728],
+        "1200x1920_hz" : [0, 549, 923, 612, 998, 549, 885, 612, 1035, 375, 735, 100, 920],
+        "1440x2560" : [0, 635, 645, 747, 645, 579, 645, 803, 645, 382, 384, 660, 2304],
+        "1440x2880" : [0, 635, 693, 747, 693, 579, 693, 803, 693, 382, 432, 660, 2592],
+        "1440x3120" : [0, 635, 729, 747, 729, 579, 729, 803, 729, 382, 468, 660, 2808],
+        "1600x2560" : [0, 715, 645, 827, 645, 659, 645, 883, 645, 462, 384, 740, 2304],
+        "1600x2560_hz" : [0, 760, 1230, 862, 1333, 760, 1180, 862, 1390, 510, 960, 120, 1222],
+        "2480x2200" : [1, 546, 554, 546, 515, 546, 591, 546, 477, 372, 347, 2232, 532],
+        "1160x2700" : [0, 523, 579, 598, 579, 485, 579, 635, 579, 355, 405, 540, 2430],
+        "1176x2400" : [0, 531, 534, 606, 534, 493, 534, 643, 534, 363, 360, 548, 2160],
+        "1080x2400" : [0, 483, 534, 558, 534, 445, 534, 595, 534, 315, 360, 500, 2160],
+        "1200x2000" : [0, 543, 474, 618, 474, 505, 474, 655, 474, 375, 300, 560, 1800],
+        "1200x2000_hz" : [0, 629, 943, 692, 1018, 629, 905, 692, 1055, 455, 775, 100, 960],
+        "1200x2640" : [0, 543, 570, 618, 570, 505, 570, 655, 570, 375, 396, 560, 2376],
+        "1344x2772" : [0, 615, 589, 690, 589, 577, 589, 727, 589, 447, 415, 632, 2494],
+        "1236x2676" : [0, 561, 575, 636, 575, 523, 575, 673, 575, 393, 401, 578, 2408],
+	"1228x2700" : [0, 557, 579, 632, 579, 519, 579, 669, 579, 389, 405, 574, 2430]
+    },
+    "image" : {
+        "bg_empty" : {
+            "attr" : 0,
+            "table": [
+                "bg",
+                "end"
+            ]
+        },
+        "bg_empty_normal" : {
+            "attr" : 0,
+            "table": [
+                "dcp_empty_charge",
+                "end"
+            ]
+        },
+        "bg_empty_fast" : {
+            "attr" : 0,
+            "table": [
+                "fcp_empty_charge",
+                "end"
+            ]
+        },
+        "bg_empty_super" : {
+            "attr" : 0,
+            "table": [
+                "scp_empty_charge",
+                "end"
+            ]
+        },
+        "bg_empty_wl_normal" : {
+            "attr" : 0,
+            "table": [
+                "dcp_empty_charge_wireless",
+                "end"
+            ]
+        },
+        "bg_empty_wl_fast" : {
+            "attr" : 0,
+            "table": [
+                "fcp_empty_charge_wireless",
+                "end"
+            ]
+        },
+        "bg_empty_wl_super" : {
+            "attr" : 0,
+            "table": [
+                "scp_empty_charge_wireless",
+                "end"
+            ]
+        },
+        "bg_empty_bat_abnormal" : {
+            "attr" : 0,
+            "table": [
+                "battery_abnormality_empty_charge",
+                "end"
+            ]
+        },
+        "bg_full" : {
+            "attr" : 0,
+            "table": [
+                "full_charge",
+                "end"
+            ]
+        },
+        "bg_full_bat_abnormal" : {
+            "attr" : 0,
+            "table": [
+                "battery_abnormality_full_charge",
+                "end"
+            ]
+        },
+        "bg_error" : {
+            "attr" : 0,
+            "table": [
+                "err_charge",
+                "end"
+            ]
+        },
+        "bg_error_bat_abnormal" : {
+            "attr" : 0,
+            "table": [
+                "battery_abnormality_err_charge",
+                "end"
+            ]
+        },
+        "flash_current" : {
+            "attr" : 1,
+            "table": [
+                "cur_surface",
+                "end"
+            ]
+        },
+        "flash_cycle" : {
+            "attr" : 1,
+            "table": [
+                "battery_01",
+                "battery_02",
+                "battery_03",
+                "battery_04",
+                "battery_05",
+                "battery_06",
+                "battery_07",
+                "battery_08",
+                "battery_09",
+                "end"
+            ]
+        },
+        "flash_percent_cycle" : {
+            "attr" : 1,
+            "table": [
+                "clric_00",
+                "clric_01",
+                "clric_02",
+                "clric_03",
+                "clric_04",
+                "clric_05",
+                "clric_06",
+                "clric_07",
+                "clric_08",
+                "clric_09",
+                "clric_10",
+                "clric_11",
+                "clric_12",
+                "clric_13",
+                "clric_14",
+                "clric_15",
+                "clric_16",
+                "clric_17",
+                "clric_18",
+                "clric_19",
+                "clric_20",
+                "clric_21",
+                "clric_22",
+                "clric_23",
+                "clric_24",
+                "clric_25",
+                "clric_26",
+                "clric_27",
+                "clric_28",
+                "clric_29",
+                "clric_30",
+                "clric_31",
+                "clric_32",
+                "clric_33",
+                "clric_34",
+                "clric_35",
+                "clric_36",
+                "clric_37",
+                "clric_38",
+                "clric_39",
+                "clric_40",
+                "clric_41",
+                "clric_42",
+                "clric_43",
+                "clric_44",
+                "clric_45",
+                "clric_46",
+                "clric_47",
+                "clric_48",
+                "clric_49",
+                "clric_50",
+                "clric_51",
+                "clric_52",
+                "clric_53",
+                "clric_54",
+                "clric_55",
+                "clric_56",
+                "clric_57",
+                "clric_58",
+                "clric_59",
+                "clric_60",
+                "clric_61",
+                "clric_62",
+                "clric_63",
+                "clric_64",
+                "clric_65",
+                "clric_66",
+                "clric_67",
+                "clric_68",
+                "clric_69",
+                "clric_70",
+                "clric_71",
+                "clric_72",
+                "clric_73",
+                "clric_74",
+                "clric_75",
+                "clric_76",
+                "clric_77",
+                "clric_78",
+                "clric_79",
+                "clric_80",
+                "clric_81",
+                "clric_82",
+                "clric_83",
+                "clric_84",
+                "clric_85",
+                "clric_86",
+                "clric_87",
+                "clric_88",
+                "clric_89",
+                "clric_90",
+                "clric_91",
+                "clric_92",
+                "clric_93",
+                "clric_94",
+                "clric_95",
+                "clric_96",
+                "clric_97",
+                "clric_98",
+                "clric_99",
+                "end"
+            ]
+        },
+        "flash_percent_number" : {
+            "attr" : 1,
+            "table": [
+                "number_0",
+                "number_1",
+                "number_2",
+                "number_3",
+                "number_4",
+                "number_5",
+                "number_6",
+                "number_7",
+                "number_8",
+                "number_9",
+                "end"
+            ]
+        },
+        "flash_percent_sign" : {
+            "attr" : 1,
+            "table": [
+                "percent_sign",
+                "end"
+            ]
+        },
+        "flash_normal" : {
+            "attr" : 1,
+            "table": [
+                "dcp_charging_00",
+                "dcp_charging_01",
+                "dcp_charging_02",
+                "dcp_charging_03",
+                "dcp_charging_04",
+                "dcp_charging_05",
+                "dcp_charging_06",
+                "dcp_charging_07",
+                "dcp_charging_08",
+                "dcp_charging_09",
+                "dcp_charging_10",
+                "dcp_charging_11",
+                "dcp_charging_12",
+                "dcp_charging_13",
+                "dcp_charging_14",
+                "dcp_charging_15",
+                "dcp_charging_16",
+                "dcp_charging_17",
+                "dcp_charging_18",
+                "dcp_charging_19",
+                "dcp_charging_20",
+                "dcp_charging_21",
+                "dcp_charging_22",
+                "dcp_charging_23",
+                "end"
+            ]
+        },
+        "flash_fast" : {
+            "attr" : 1,
+            "table": [
+                "fcp_charging_00",
+                "fcp_charging_01",
+                "fcp_charging_02",
+                "fcp_charging_03",
+                "fcp_charging_04",
+                "fcp_charging_05",
+                "fcp_charging_06",
+                "fcp_charging_07",
+                "fcp_charging_08",
+                "fcp_charging_09",
+                "fcp_charging_10",
+                "fcp_charging_11",
+                "fcp_charging_12",
+                "fcp_charging_13",
+                "fcp_charging_14",
+                "fcp_charging_15",
+                "fcp_charging_16",
+                "fcp_charging_17",
+                "fcp_charging_18",
+                "fcp_charging_19",
+                "fcp_charging_20",
+                "fcp_charging_21",
+                "fcp_charging_22",
+                "fcp_charging_23",
+                "end"
+            ]
+        },
+        "flash_super" : {
+            "attr" : 1,
+            "table": [
+                "scp_charging_00",
+                "scp_charging_01",
+                "scp_charging_02",
+                "scp_charging_03",
+                "scp_charging_04",
+                "scp_charging_05",
+                "scp_charging_06",
+                "scp_charging_07",
+                "scp_charging_08",
+                "scp_charging_09",
+                "scp_charging_10",
+                "scp_charging_11",
+                "scp_charging_12",
+                "scp_charging_13",
+                "scp_charging_14",
+                "scp_charging_15",
+                "scp_charging_16",
+                "scp_charging_17",
+                "scp_charging_18",
+                "scp_charging_19",
+                "scp_charging_20",
+                "scp_charging_21",
+                "scp_charging_22",
+                "scp_charging_23",
+                "end"
+            ]
+        },
+        "flash_wl_normal" : {
+            "attr" : 1,
+            "table": [
+                "dcp_charging_wireless_00",
+                "dcp_charging_wireless_01",
+                "dcp_charging_wireless_02",
+                "dcp_charging_wireless_03",
+                "dcp_charging_wireless_04",
+                "dcp_charging_wireless_05",
+                "dcp_charging_wireless_06",
+                "dcp_charging_wireless_07",
+                "dcp_charging_wireless_08",
+                "dcp_charging_wireless_09",
+                "dcp_charging_wireless_10",
+                "dcp_charging_wireless_11",
+                "dcp_charging_wireless_12",
+                "dcp_charging_wireless_13",
+                "dcp_charging_wireless_14",
+                "dcp_charging_wireless_15",
+                "dcp_charging_wireless_16",
+                "dcp_charging_wireless_17",
+                "dcp_charging_wireless_18",
+                "dcp_charging_wireless_19",
+                "dcp_charging_wireless_20",
+                "dcp_charging_wireless_21",
+                "dcp_charging_wireless_22",
+                "dcp_charging_wireless_23",
+                "end"
+            ]
+        },
+        "flash_wl_fast" : {
+            "attr" : 1,
+            "table": [
+                "fcp_charging_wireless_00",
+                "fcp_charging_wireless_01",
+                "fcp_charging_wireless_02",
+                "fcp_charging_wireless_03",
+                "fcp_charging_wireless_04",
+                "fcp_charging_wireless_05",
+                "fcp_charging_wireless_06",
+                "fcp_charging_wireless_07",
+                "fcp_charging_wireless_08",
+                "fcp_charging_wireless_09",
+                "fcp_charging_wireless_10",
+                "fcp_charging_wireless_11",
+                "fcp_charging_wireless_12",
+                "fcp_charging_wireless_13",
+                "fcp_charging_wireless_14",
+                "fcp_charging_wireless_15",
+                "fcp_charging_wireless_16",
+                "fcp_charging_wireless_17",
+                "fcp_charging_wireless_18",
+                "fcp_charging_wireless_19",
+                "fcp_charging_wireless_20",
+                "fcp_charging_wireless_21",
+                "fcp_charging_wireless_22",
+                "fcp_charging_wireless_23",
+                "end"
+            ]
+        },
+        "flash_wl_super" : {
+            "attr" : 1,
+            "table": [
+                "scp_charging_wireless_00",
+                "scp_charging_wireless_01",
+                "scp_charging_wireless_02",
+                "scp_charging_wireless_03",
+                "scp_charging_wireless_04",
+                "scp_charging_wireless_05",
+                "scp_charging_wireless_06",
+                "scp_charging_wireless_07",
+                "scp_charging_wireless_08",
+                "scp_charging_wireless_09",
+                "scp_charging_wireless_10",
+                "scp_charging_wireless_11",
+                "scp_charging_wireless_12",
+                "scp_charging_wireless_13",
+                "scp_charging_wireless_14",
+                "scp_charging_wireless_15",
+                "scp_charging_wireless_16",
+                "scp_charging_wireless_17",
+                "scp_charging_wireless_18",
+                "scp_charging_wireless_19",
+                "scp_charging_wireless_20",
+                "scp_charging_wireless_21",
+                "scp_charging_wireless_22",
+                "scp_charging_wireless_23",
+                "end"
+            ]
+        },
+        "flash_bat_abnormal" : {
+            "attr" : 1,
+            "table": [
+                "battery_abnormality_charging",
+                "end"
+            ]
+        }
+    }
+}

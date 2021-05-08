@@ -1,0 +1,140 @@
+on post-fs-data
+    mkdir /data/log
+    chmod 0775 /data/log
+    chown system system /data/log
+    restorecon_recursive /data/log
+
+service applogcat /system/bin/hilogcat -M -r 4096 -z 10 -n 5 -f /data/log/hilogs/hiapplogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service rillogcat /system/bin/logcatz -t 3 -z 5 -n 5 -f /data/log/hilogs/rillogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service eventslogcat /system/bin/logcatz -t 2 -z 2 -n 2 -f /data/log/hilogs/eventslogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service kmsglogcat /sbin/hilogcat-early -b kmsglogcat
+    class late_start
+    user root
+    group system shell
+    disabled
+    seclabel u:r:xlogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+# inputlogcat is triggered by projectmenu or setprop
+service inputlogcat /system/bin/hilogcat --xlog 2 -x inputlogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service chargelogcat-c /system/bin/hilogcat --xlog 2 -x chargelogcat-c
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service chargelogcat /sbin/hilogcat-early -b chargelogcat
+    class late_start
+    user root
+    group system shell
+    disabled
+    seclabel u:r:xlogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service sleeplogcat /system/bin/hilogcat --xlog 2 -x sleeplogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service xlogctl_service /sbin/hilogcat-early -t 0
+    class late_start
+    user root
+    group system media_rw shell
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service xlogcat_service /sbin/hilogcat-early -t 1
+    class late_start
+    user root
+    group system media_rw shell
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service xlogview_service /sbin/hilogcat-early -t 2
+    class late_start
+    user root
+    group system media_rw shell
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service xlogfilter_service /sbin/hilogcat-early -t 3
+    class late_start
+    user root
+    group system media_rw shell
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+on property:ro.logsystem.usertype=*
+    start xlogfilter_service
+
+on property:persist.sys.huawei.debug.on=*
+    start xlogcat_service
+
+on property:vendor.MB.running=*
+    start xlogcat_service
+
+on property:vendor.MB.sublog=*
+    start xlogcat_service
+
+on property:sys.boot_completed=1
+    start restart_xlogcat_service
+
+service restart_xlogcat_service  /system/bin/sh /system/etc/logctl_service.sh
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service faclog_service /system/bin/factory_log_service -m 1
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:faclogservice:s0
+
+service hiapplogcat /system/bin/hilogcat -s *:I -r 2048 -z 10 -n 5 -f /data/log/hilogs/hiapplogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks

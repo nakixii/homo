@@ -1,0 +1,52 @@
+#version 460 core
+#extension GL_ARB_separate_shader_objects : enable
+#extension GL_ARB_shading_language_420pack : enable
+
+// includes
+
+#include "common/bloom_common.h"
+
+// sets
+
+layout(set = 0, binding = 0) uniform sampler uSampler;
+
+layout(set = 1, binding = 0, rgba16f/*r11f_g11f_b10f*/) uniform writeonly image2D uWoTex;
+
+layout(set = 2, binding = 0) uniform texture2D uTex;
+
+layout(push_constant, std430) uniform uPushConstant
+{
+    BloomPushConstantStruct uPc;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+// bloom threshold downscale
+
+#define CORE_ENABLE_HEAVY_SAMPLES 1
+
+#define cTgs 8
+
+layout(local_size_x = cTgs, local_size_y = cTgs, local_size_z = 1) in;
+void main()
+{
+    // texSizeInvTexSize needs to be the output resolution
+    const vec2 uv = (vec2(gl_GlobalInvocationID.xy) + 0.5) * uPc.texSizeInvTexSize.zw;
+
+    vec3 color = bloomDownscale(uv, uPc.texSizeInvTexSize.zw, uTex, uSampler);
+
+    const float luma = CalcLuma(color);
+    if (luma < uPc.bloomParameters.x)
+    {
+        color = vec3(0.0);
+    }
+    else if (luma < uPc.bloomParameters.y)
+    {
+        const float divisor = uPc.bloomParameters.y - uPc.bloomParameters.x; // cannot be zero -> if equal, should go to first if
+        const float coeff = 1.0 / divisor;
+        const float lumaCoeff = (luma - uPc.bloomParameters.x) * coeff;
+        color *= max(0.0, lumaCoeff);
+    }
+
+    color = min(color, CORE_BLOOM_CLAMP_MAX_VALUE);
+    CORE_IMAGE_STORE(uWoTex, ivec2(gl_GlobalInvocationID.xy), vec4(color, 1.0));
+}

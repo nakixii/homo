@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UePlatform>
+    <NormalCountry>
+        <CountryCode code="826"/>
+        <CountryCode code="372"/>
+        <CountryCode code="380"/>
+        <CountryCode code="724"/>
+        <CountryCode code="276"/>
+        <CountryCode code="528"/>
+        <CountryCode code="250"/>
+        <CountryCode code="056"/>
+        <CountryCode code="756"/>
+        <CountryCode code="616"/>
+        <CountryCode code="300"/>
+        <CountryCode code="578"/>
+        <CountryCode code="428"/>
+        <CountryCode code="233"/>
+        <CountryCode code="246"/>
+        <CountryCode code="352"/>
+        <CountryCode code="440"/>
+        <CountryCode code="752"/>
+        <CountryCode code="807"/>
+        <CountryCode code="100"/>
+        <CountryCode code="196"/>
+        <CountryCode code="191"/>
+        <CountryCode code="705"/>
+        <CountryCode code="642"/>
+        <CountryCode code="498"/>
+        <CountryCode code="040"/>
+        <CountryCode code="203"/>
+        <CountryCode code="688"/>
+        <CountryCode code="070"/>
+        <CountryCode code="499"/>
+        <CountryCode code="348"/>
+        <CountryCode code="703"/>
+        <CountryCode code="620"/>
+        <CountryCode code="442"/>
+        <CountryCode code="392"/>
+        <CountryCode code="170"/>
+        <CountryCode code="188"/>
+        <CountryCode code="152"/>
+        <CountryCode code="320"/>
+        <CountryCode code="484"/>
+        <CountryCode code="032"/>
+        <CountryCode code="604"/>
+        <CountryCode code="356"/>
+        <CountryCode code="458"/>
+        <CountryCode code="764"/>
+        <CountryCode code="608"/>
+        <CountryCode code="704"/>
+        <CountryCode code="050"/>
+        <CountryCode code="104"/>
+        <CountryCode code="999"/>
+    </NormalCountry>
+    <AllowedSignatures>
+        <HashCode code="-2120713439"/>
+        <HashCode code="-2103819731"/>
+        <HashCode code="-2007361475"/>
+        <HashCode code="-1838801173"/>
+        <HashCode code="-1817868122"/>
+        <HashCode code="-1795273330"/>
+        <HashCode code="-1444497615"/>
+        <HashCode code="-1342905048"/>
+        <HashCode code="-1263673107"/>
+        <HashCode code="-1185592306"/>
+        <HashCode code="-1157743892"/>
+        <HashCode code="-890026891"/>
+        <HashCode code="-773627300"/>
+        <HashCode code="-766515628"/>
+        <HashCode code="-495884228"/>
+        <HashCode code="-439740716"/>
+        <HashCode code="-372514150"/>
+        <HashCode code="1593948450"/>
+        <HashCode code="1744106867"/>
+        <HashCode code="487216957"/>
+        <HashCode code="993251425"/>
+        <HashCode code="990258091"/>
+        <HashCode code="1163308051"/>
+    </AllowedSignatures>
+    <AllowedUploadEmuiVersion>
+        <Version code="25"/>
+    </AllowedUploadEmuiVersion>
+</UePlatform>

@@ -1,0 +1,653 @@
+{
+  "header": {
+    "version": "1.0.5",
+    "specversion": "1.0.0"
+  },
+  "guidebody": [
+    {
+      "condition": {
+        "protocol": "Bt_hw",
+        "version": "Huawei"
+      },
+      "app": {
+        "appid": "com.huawei.bone",
+        "name": {
+          "zh": "华为穿戴",
+          "en": "Huawei Wear"
+        },
+        "action": {
+          "Setup": "com.huawei.bone.ACTION_ADD_DEVICE"
+        },
+        "params": {
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt_hw",
+        "version": "Huawei_VRHandle"
+      },
+      "app": {
+        "appid": "com.huawei.vrhandle",
+        "name": {
+          "zh": "华为VR手柄",
+          "en": "Huawei VR Controller"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt_hw",
+        "version": "Huawei_new"
+      },
+      "app": {
+        "appid": "com.huawei.health",
+        "name": {
+          "zh": "华为运动健康",
+          "en": "Huawei Health"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt_hw",
+        "version": "Oversea"
+      },
+      "app": {
+        "appid": "com.google.android.wearable.app",
+        "name": {
+          "zh": "Android Wear",
+          "en": "Android Wear"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+        }
+      },
+      "info": {
+        "url": "",
+        "info": 1
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt_hw",
+        "version": "Google_china"
+      },
+      "app": {
+        "appid": "com.google.android.wearable.app.cn",
+        "name": {
+          "zh": "Android Wear中国版",
+          "en": "Android Wear China"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+        }
+      },
+      "info": {
+        "url": "",
+        "info": 1
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt_hw",
+        "version": "WatchUnknown"
+      },
+      "info": {
+        "url": "",
+        "info": 2
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt",
+        "vendor": "Garmin",
+        "model": [
+          "vivosmart",
+          "fenix 3"
+        ]
+      },
+      "app": {
+        "appid": "com.garmin.android.apps.connectmobile",
+        "name": {
+          "zh": "Garmin Connect",
+          "en": "Garmin Connect"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt",
+        "vendor": "Jawbone",
+        "model": [
+          "UP3"
+        ]
+      },
+      "app": {
+        "appid": "com.jawbone.upopen",
+        "name": {
+          "zh": "Up",
+          "en": "Up"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt",
+        "vendor": "Xiaomi",
+        "model": [
+          "MI1A",
+          "MI Band 2"
+        ]
+      },
+      "app": {
+        "appid": "com.xiaomi.hm.health",
+        "name": {
+          "zh": "小米运动",
+          "en": "Xiaomi Sport"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "Bt",
+        "vendor": "Samsung",
+        "model": [
+          "Gear Fit2"
+        ]
+      },
+      "info": {
+        "url": "",
+        "info": 0
+      }
+    },
+    {
+      "condition": {
+        "protocol": "hilink"
+      },
+      "app": {
+        "appid": "com.huawei.smarthome",
+        "name": {
+          "zh": "智能家居",
+          "en": "Smart Home"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+          "source": "EMUI SCAN HILINK"
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "hilink_router",
+        "version": "1.0"
+      },
+      "app": {
+        "appid": "com.huawei.mw",
+        "name": {
+          "zh": "HiLink",
+          "en": "HiLink"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+          "source": "",
+          "type": "EMUI SCAN",
+          "SSID": "HI0004",
+          "configType": "0"
+        }
+      }
+    },
+    {
+      "condition": {
+        "protocol": "hilink_router",
+        "version": "2.0"
+      },
+      "app": {
+        "appid": "com.huawei.smarthome",
+        "name": {
+          "zh": "智能家居",
+          "en": "Smart Home"
+        },
+        "action": {
+          "Setup": ""
+        },
+        "params": {
+          "source": "EMUI SCAN HILINK",
+          "type": "Router"
+        }
+      }
+    }
+  ],
+  "btbody": {
+    "fastinquiryparty":[
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "regex_name": [
+            "(?i)HUAWEI B0-([0-9]|[A-Fa-f]){3}",
+            "(?i)HUAWEI Band-([0-9]|[A-Fa-f]){3}",
+            "(?i)honor zero-([0-9]|[A-Fa-f]){3}",
+            "(?i)honor band Z1-([0-9]|[A-Fa-f]){3}"
+          ]
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Band",
+          "version": "Huawei",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 259
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Band",
+          "version": "Huawei_new",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 260
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Band",
+          "version": "Huawei_new",
+          "reconnect": false
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 513
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "TalkBand",
+          "version": "Huawei_new",
+          "reconnect": false
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 514
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Band",
+          "version": "Huawei_new",
+          "reconnect": true
+        }
+      }
+    ],
+    "huaweiparty": [
+      {
+        "hw_condition": {
+          "regex_name": [
+          "^PORSCHE DESIGN [0-9]{4}$"
+          ],
+        "uuid_128": [
+            "00001105-0000-1000-8000-00805f9b34fb",
+            "0000110a-0000-1000-8000-00805f9b34fb",
+            "0000110c-0000-1000-8000-00805f9b34fb",
+            "00001112-0000-1000-8000-00805f9b34fb",
+            "00001115-0000-1000-8000-00805f9b34fb",
+            "00001116-0000-1000-8000-00805f9b34fb",
+            "0000111f-0000-1000-8000-00805f9b34fb",
+            "0000112f-0000-1000-8000-00805f9b34fb",
+            "00001200-0000-1000-8000-00805f9b34fb",
+            "00001132-0000-1000-8000-00805f9b34fb"
+          ]
+        },
+        "info": {
+          "vendor": "Huawei",
+          "reconnect": false,
+          "need_guide": false
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 257
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "Oversea",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 258
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "Google_china",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 259
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Band",
+          "version": "Huawei",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 260
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Band",
+          "version": "Huawei",
+          "reconnect": false
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 261
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "VRHandle",
+          "version": "Huawei_VRHandle",
+          "reconnect": true,
+          "need_guide":false
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 513
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "TalkBand",
+          "version": "Huawei",
+          "reconnect": false
+        }
+      },
+      {
+        "hw_condition": {
+          "company_id": "0x027D",
+          "m_data": 514
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Band",
+          "version": "Huawei",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "standard": "BLE",
+          "company_id": "0x00E0",
+          "dev_name": [
+            "huawei watch",
+            "HUAWEI-WATCH"
+          ],
+          "regex_name": [
+            "(?i)huawei watch",
+            "^PORSCHE DESIGN [0-9]{4}$",
+            "^HUAWEI-WATCH"
+          ],
+          "m_data": 2
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "Google_china",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "standard": "BLE",
+          "company_id": "0x00E0",
+          "dev_name": [
+            "huawei watch",
+            "HUAWEI-WATCH"
+          ],
+          "regex_name": [
+            "(?i)huawei watch",
+            "^PORSCHE DESIGN [0-9]{4}$",
+            "^HUAWEI-WATCH"
+          ],
+          "m_data": 0
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "Oversea",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "standard": "BR",
+          "company_id": "0x00E0",
+          "dev_name": [
+            "HUAWEI-WATCH"
+          ],
+          "regex_name": [
+            "^HUAWEI-WATCH"
+          ]
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "Google_china",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "standard": "BR",
+          "company_id": "0x00E0",
+          "dev_name": [
+            "huawei watch"
+          ],
+          "regex_name": [
+            "(?i)huawei watch",
+            "^PORSCHE DESIGN [0-9]{4}$"
+          ]
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "WatchUnknown",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "dev_name": [
+            "HUAWEI-WATCH"
+          ],
+          "regex_name": [
+            "^HUAWEI-WATCH"
+          ]
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "Google_china",
+          "reconnect": true
+        }
+      },
+      {
+        "hw_condition": {
+          "dev_name": [
+            "huawei watch"
+          ],
+          "regex_name": [
+            "(?i)huawei watch",
+            "^PORSCHE DESIGN [0-9]{4}$"
+          ]
+        },
+        "info": {
+          "vendor": "Huawei",
+          "model": "Watch",
+          "sco_action": "ACCEPT_AND_REMOVE_SCO",
+          "version": "WatchUnknown",
+          "reconnect": true
+        }
+      }
+    ],
+    "thirdparty": [
+      {
+        "condition": {
+          "isMatchExact": true,
+          "dev_name": [
+            "vivosmart"
+          ],
+          "regex_name": [
+            "^vivosmart$"
+          ],
+          "company_id": "0x8700",
+          "uuid_128": [
+            "669a0c20-0008-9a94-e311-7b66103e4e6a"
+          ]
+        },
+        "info": {
+          "vendor": "Garmin",
+          "model": "vivosmart"
+        }
+      },
+      {
+        "condition": {
+          "isMatchExact": true,
+          "dev_name": [
+            "UP3"
+          ],
+          "regex_name": [
+            "^UP3$"
+          ],
+          "uuid_128": [
+            "bc4f45f3-5650-a19c-1141-804500101c15"
+          ]
+        },
+        "info": {
+          "vendor": "Jawbone",
+          "model": "UP3"
+        }
+      },
+      {
+        "condition": {
+          "isMatchExact": true,
+          "dev_name": [
+            "MI1A"
+          ],
+          "regex_name": [
+            "^MI1A$"
+          ],
+          "company_id": "0x0157",
+          "uuid_16": [
+            "0xfee0",
+            "0xfee7"
+          ]
+        },
+        "info": {
+          "vendor": "Xiaomi",
+          "model": "MI1A"
+        }
+      },
+      {
+        "condition": {
+          "isMatchExact": true,
+          "dev_name": [
+            "MI Band 2"
+          ],
+          "regex_name": [
+            "^MI Band 2$"
+          ],
+          "company_id": "0x0157",
+          "uuid_16": [
+            "0xfee0"
+          ]
+        },
+        "info": {
+          "vendor": "Xiaomi",
+          "model": "MI Band 2"
+        }
+      },
+      {
+        "condition": {
+          "isMatchExact": true,
+          "dev_name": [
+            "fenix 3"
+          ],
+          "regex_name": [
+            "^fenix 3$"
+          ],
+          "company_id": "0x0087",
+          "uuid_128": [
+            "669a0c20-0008-9a94-e311-7b66103e4e6a"
+          ]
+        },
+        "info": {
+          "vendor": "Garmin",
+          "model": "fenix 3"
+        }
+      }
+    ]
+  }
+}

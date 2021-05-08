@@ -1,0 +1,4 @@
+/system/app/GameKit/GameKit.apk
+/system/priv-app/HiHome/HiHome.apk
+/system/priv-app/LocalTransport/LocalTransport.apk
+/system/app/WAudioSvc/WAudioSvc.apk

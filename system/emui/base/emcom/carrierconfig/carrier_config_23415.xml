@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--VDF GB-->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="10" />
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+    </carrier_config>
+    <carrier_config spn="null">
+        <string name="huawei_rcs_enabler">false</string>
+    </carrier_config>
+    <carrier_config spn="voda.*">
+        <string name="huawei_rcs_enabler">false</string>
+    </carrier_config>
+</carrier_config_list>

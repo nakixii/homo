@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xengine version="001.001" thermalLevel="3">
+    <external_accelerate switch="1">
+        <app name="com.huawei.hwvoipservice">
+            <type>2</type> <!-- 0: normal meta data app, 1: super app 2: MULTI_VERSION_COEXISTED_META_APP -->
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <pubkey>35:17:26:22:15:D8:D3:00:8C:BF:88:87:50:B6:41:8E:DC:4D:56:2A:C3:3E:D6:87:4E:0D:73:AB:A6:67:BC:3C</pubkey> <!-- using | to split different keys -->
+        </app>
+        <app name="com.huawei.meetime">
+            <type>2</type> <!-- 0: normal meta data app, 1: super app 2: MULTI_VERSION_COEXISTED_META_APP -->
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <pubkey>35:DF:D8:1C:FA:F2:CA:01:26:F0:0B:63:99:F4:5F:B2:BB:CF:66:30:63:6C:46:60:BF:4C:0A:13:2E:EE:EE:4B</pubkey> <!-- using | to split different keys -->
+        </app>
+        <app name="com.tencent.wifimanager">
+            <type>1</type> <!-- 0: normal meta data app, 1: super app 2: MULTI_VERSION_COEXISTED_META_APP -->
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <pubkey>D0:B3:F1:05:0B:84:6F:80:6E:E6:77:C5:2F:AF:31:4E:CF:39:A3:0B:47:50:AD:B4:10:A6:F9:3A:FE:F2:D4:44</pubkey> <!-- using | to split different keys -->
+        </app>
+        <app name="com.ss.android.ugc.aweme">
+            <type>0</type> <!-- 0: normal meta data app, 1: super app 2: MULTI_VERSION_COEXISTED_META_APP -->
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <pubkey>D7:81:1E:C4:16:6F:EA:6C:C7:20:BA:66:69:9D:C8:4B:58:4A:C9:E6:98:66:13:A7:6D:4E:43:D8:CB:E3:2B:27</pubkey> <!-- using | to split different keys -->
+        </app>
+        <app name="com.huawei.hisight">
+            <type>0</type> <!-- 0: normal meta data app, 1: super app 2: MULTI_VERSION_COEXISTED_META_APP -->
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <pubkey>60:3A:C6:A5:7E:20:23:E0:0C:9C:93:BB:53:9C:A6:53:DF:30:03:EB:A4:E9:2E:A1:90:4B:A4:AA:A5:D9:38:F0</pubkey> <!-- using | to split different keys -->
+        </app>
+        <app name="com.huawei.android.airsharing">
+            <type>0</type> <!-- 0: normal meta data app, 1: super app 2: MULTI_VERSION_COEXISTED_META_APP -->
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <pubkey>60:3A:C6:A5:7E:20:23:E0:0C:9C:93:BB:53:9C:A6:53:DF:30:03:EB:A4:E9:2E:A1:90:4B:A4:AA:A5:D9:38:F0</pubkey> <!-- using | to split different keys -->
+        </app>
+    </external_accelerate>
+    <emcom_accelerate>
+        <appSet foreground="true" grade="1">
+            <set>
+                <app>com.eg.android.AlipayGphone</app> <!--支付宝-->
+                <app>com.baidu.searchbox</app> <!--百度搜索-->
+                <app>com.baidu.BaiduMap</app> <!--百度地图-->
+                <app>com.autonavi.minimap</app> <!--高德地图-->
+                <app>com.jingdong.app.mall</app> <!--京东-->
+                <app>com.ss.android.article.news</app> <!--今日头条-->
+                <app>com.kugou.android</app> <!--酷狗-->
+                <app>com.huawei.hwireader</app> <!--华为阅读-->
+                <app>com.huawei.health</app> <!--运动健康-->
+                <app>com.tencent.qqmusic</app> <!--QQ音乐-->
+                <app>com.smile.gifmaker</app> <!--GIF快手-->
+                <app>com.android.email</app> <!--电子邮件-->
+                <app>com.huawei.phoneservice</app> <!--手机服务-->
+                <app>com.netease.cloudmusic</app> <!--网易云音乐-->
+                <app>com.sdu.didi.psnger</app> <!--滴滴打车-->
+                <app>com.tencent.androidqqmail</app> <!--QQ邮箱-->
+                <app>com.dianping.v1</app> <!--大众点评-->
+                <app>com.sina.news</app> <!--新浪新闻-->
+                <app>com.ximalaya.ting.android</app> <!--喜马拉雅-->
+                <app>com.alibaba.android.rimet</app> <!--钉钉-->
+                <app>com.MobileTicket</app> <!--12306官方版-->
+                <app>com.mt.mtxx.mtxx</app> <!--美图秀秀-->
+                <app>com.huawei.lives</app> <!--华为生活服务-->
+                <app>com.tencent.karaoke</app> <!--全民k歌-->
+                <app>com.tmri.app.main</app> <!--交管12123-->
+                <app>com.zhihu.android</app> <!--知乎-->
+                <app>com.ss.android.article.lite</app> <!--今日头条极速版-->
+                <app>com.netease.newsreader.activity</app> <!--网易新闻-->
+                <app>com.happyelements.AndroidAnimal</app> <!--开心消消乐-->
+                <app>com.meitu.meiyancamera</app> <!--美颜相机-->
+                <app>com.ss.android.ugc.live</app> <!--火山直播-->
+                <app>com.immomo.momo</app> <!--陌陌-->
+                <app>com.hunantv.imgo.activity</app> <!--芒果TV-->
+                <app>com.baidu.tieba</app> <!--百度贴吧-->
+                <app>cn.kuwo.player</app> <!--酷我-->
+                <app>com.sohu.newsclient</app> <!--搜狐新闻-->
+                <app>com.taobao.trip</app> <!--阿里旅行-->
+                <app>com.lingan.seeyou</app> <!--美柚-->
+                <app>com.qqgame.hlddz</app> <!--QQ欢乐斗地主-->
+                <app>com.anjuke.android.app</app> <!--安居客房产-->
+                <app>com.youdao.dict</app> <!--有道词典-->
+                <app>com.gotokeep.keep</app> <!--Keep-->
+                <app>com.intsig.camscanner</app> <!--扫描全能王-->
+                <app>com.tencent.map</app> <!--腾讯地图-->
+                <app>com.jifen.qukan</app> <!--趣看-->
+                <app>com.tencent.weread</app> <!--微信读书-->
+                <app>com.didapinche.booking</app> <!--嘀嗒拼车-->
+                <app>com.baidu.homework</app> <!--作业帮-->
+                <app>com.cainiao.wireless</app> <!--菜鸟裹裹-->
+                <app>com.mfw.roadbook</app> <!--蚂蜂窝自由行-->
+                <app>com.netease.mail</app> <!--网易邮箱大师-->
+                <app>com.huawei.fans</app> <!--花粉论坛-->
+                <app>com.alibaba.wireless</app> <!--阿里巴巴-->
+                <app>com.p1.mobile.putong</app> <!--探探-->
+                <app>com.tencent.reading</app> <!--腾讯阅读-->
+                <app>com.pingan.carowner</app> <!--平安好车主-->
+                <app>com.tencent.qt.qtl</app> <!--掌上英雄联盟-->
+                <app>cn.TuHu.android</app> <!--途虎养车-->
+                <app>com.qzone</app> <!--QQ空间-->
+                <app>com.mobike.mobikeapp</app> <!--摩拜单车-->
+                <app>com.yipiao</app> <!--智行火车票-->
+                <app>com.hpbr.bosszhipin</app> <!--Boss直聘-->
+                <app>com.yek.android.kfc.activitys</app> <!--肯德基-->
+                <app>com.ygkj.chelaile.standard</app> <!--车来了-->
+                <app>com.umetrip.android.msky.app</app> <!--航旅纵横-->
+                <app>com.dangdang.buy2</app> <!--当当-->
+                <app>com.yiche.autoeasy</app> <!--易车-->
+                <app>com.wm.dmall</app> <!--多点-->
+                <app>com.handsgo.jiakao.android</app> <!--驾考宝典-->
+                <app>com.douban.frodo</app> <!--豆瓣-->
+                <app>com.taobao.etao</app> <!--一淘-->
+                <app>com.android.icredit</app> <!--企查查-->
+                <app>com.kaola</app> <!--网易考拉海购-->
+                <app>com.mygolbs.mybus</app> <!--掌上公交-->
+                <app>com.tencent.gamehelper.smoba</app> <!--王者荣耀助手-->
+                <app>com.zhaopin.social</app> <!--智联招聘-->
+                <app>com.dw.btime</app> <!--亲宝宝-->
+                <app>com.qqgame.happymj</app> <!--欢乐麻将全集-->
+                <app>com.homelink.android</app> <!--链家-->
+                <app>cn.jj</app> <!--JJ斗地主-->
+                <app>com.youdao.translator</app> <!--有道翻译官-->
+                <app>com.app.shanghai.metro</app> <!--Metro大都会-->
+                <app>com.taobao.qianniu</app> <!--千牛-->
+                <app>bubei.tingshu</app> <!--懒人听书-->
+                <app>com.tencent.peng</app> <!--天天爱消除-->
+                <app>com.gtgj.view</app> <!--高铁管家-->
+                <app>com.jiongji.andriod.card</app> <!--百词斩-->
+                <app>com.mfp.jelly.huawei</app> <!--宾果消消乐华为版-->
+                <app>com.job.android</app> <!--前程无忧51job-->
+                <app>com.qq.reader</app> <!--QQ阅读-->
+                <app>com.hupu.games</app> <!--虎扑体育-->
+                <app>com.qidian.QDReader</app> <!--起点读书-->
+                <app>com.minitech.miniworld.huawei</app> <!--迷你世界-->
+                <app>com.sdu.didi.gsui</app> <!--滴滴司机-->
+                <app>com.huawei.it.xinsheng</app> <!--心声社区-->
+                <app>com.sankuai.meituan</app> <!--美团-->
+                <app>com.xunmeng.pinduoduo</app> <!--拼多多-->
+                <app>ctrip.android.view</app> <!--携程-->
+                <app>com.suning.mobile.ebuy</app> <!--苏宁易购-->
+                <app>com.xingin.xhs</app> <!--小红书-->
+                <app>com.taobao.idlefish</app> <!--闲鱼-->
+                <app>com.achievo.vipshop</app> <!--唯品会-->
+                <app>me.ele</app> <!--饿了么-->
+                <app>com.wuba</app> <!--58同城-->
+                <app>com.sankuai.meituan.takeoutnew</app> <!--美团外卖-->
+                <app>com.cubic.autohome</app> <!--汽车之家-->
+                <app>com.tmall.wireless</app> <!--天猫-->
+                <app>com.tencent.wework</app> <!--企业微信-->
+                <app>com.Qunar</app> <!--去哪儿旅行-->
+                <app>com.tencent.weishi</app> <!--腾讯微视-->
+                <app>com.paic.mo.client</app> <!--快乐平安-->
+                <app>com.paic.mo.client.stg</app> <!--快乐平安测试版-->
+            </set>
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <multipathFlow>
+                        <enableType>2</enableType> <!--2表示非三方直接调用-->
+                        <bondPolicy>3</bondPolicy> <!--3表示MPLINK，4也表示MPLINK,但是连接不可用的wifi设备时不切换。例如应用需要配置路由器-->
+                        <startConditionMask>1</startConditionMask> <!--bit0为1表示非空口原因启动，bit1为1表示空口原因启动。该字段不携带默认是非空口原因启动-->
+                        <foregroundPolicy>0</foregroundPolicy> <!--0表示仅前台生效，1表示前台和后台都生效。该字段不携带默认是仅前台生效-->
+                        <qoeDuration>1</qoeDuration> <!--业务质量判断需要持续几个QOE。该字段不携带默认3-->
+                        <fallBackPeriod>300</fallBackPeriod> <!--周期性判断回切时间，单位：秒。该字段不携带默认300-->
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </appSet>
+        <appSet foreground="true" grade="1">
+            <set>
+                <app>com.huawei.works</app> <!--welink-->
+                <app>com.babeltime.legendstd.huawei</app> <!--帝国守卫战（华为应用市场下载的）-->
+                <app>com.qiyi.video</app> <!--爱奇艺-->
+                <app>com.ss.android.article.video</app> <!--西瓜视频-->
+                <app>com.huawei.cloud</app> <!--华为云电脑-->
+                <app>com.miHoYo.bh3.huawei</app> <!--崩坏3-->
+                <app>com.tencent.tmgp.bh3</app> <!--崩坏3-->
+                <app>com.miHoYo.enterprise.NGHSoD</app> <!--崩坏3-->
+                <app>com.miHoYo.bh3.qihoo</app> <!--崩坏3-->
+                <app>com.miHoYo.bh3.uc</app> <!--崩坏3-->
+                <app>com.wooduan.ssjj.huawei</app> <!--生死狙击-->
+                <app>com.snailgames.HeroSurvival.huawei</app> <!--战塔英雄-->
+            </set>
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <multipathFlow>
+                        <enableType>2</enableType> <!--2表示非三方直接调用-->
+                        <bondPolicy>3</bondPolicy> <!--3表示MPLINK-->
+                        <startConditionMask>3</startConditionMask> <!--bit0为1表示非空口原因启动，bit1为1表示空口原因启动。该字段不携带默认是非空口原因启动-->
+                        <foregroundPolicy>0</foregroundPolicy> <!--0表示仅前台生效，1表示前台和后台都生效。该字段不携带默认是仅前台生效-->
+                        <qoeDuration>1</qoeDuration> <!--业务质量判断需要持续几个QOE。该字段不携带默认3-->
+                        <fallBackPeriod>300</fallBackPeriod> <!--周期性判断回切时间，单位：秒。该字段不携带默认300-->
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </appSet>
+        <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+        <app name="com.youku.phone" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <mphttp>
+                        <port>9092</port>
+                        <minthreshold>1000</minthreshold>
+                        <mpdnsenable>true</mpdnsenable>
+                        <dividemode>0</dividemode>
+                        <errorcount>60</errorcount>
+                        <support302>1</support302>
+                        <fiEnableFlag>1</fiEnableFlag>
+                    </mphttp>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <totalBwThresholdKb>500</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2</ratio>                      <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <protocol>6</protocol>                  <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <port>443</port>
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>443</port>                    <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 EXPECT_BETTER:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>10</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 EXPECT_BETTER:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <httpdnspattern>
+                            <request></request>
+                            <response></response>
+                        </httpdnspattern>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.huawei.himovie" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <mphttp>
+                        <port>9094</port>
+                        <minthreshold>1000</minthreshold>
+                        <mpdnsenable>true</mpdnsenable>
+                        <dividemode>2</dividemode> <!-- [bit0] 0: multi path; 1: single path. [bit1] 0: not slice, 1: slice big range-->
+                        <errorcount>60</errorcount>
+                        <support302>1</support302>
+                        <fiEnableFlag>1</fiEnableFlag>
+                    </mphttp>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <totalBwThresholdKb>500</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                                <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>    <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2</ratio>                                    <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <protocol>6</protocol>                        <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                            <batchTotal>2</batchTotal>                            <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <port>443</port>
+                            <sizeEsti>200000</sizeEsti>                            <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                                            <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                            <!--多个策略示例-->
+                                <protocol>6</protocol>                        <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>443</port>                                <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>    <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                                <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>                        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                                <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                            <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>    <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>             <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                                        <!--最多4个-->
+                                    <badReason>11</badReason>               <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 EXPECT_BETTER:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>                    <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>                            <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                                        <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 -->
+                                    <timing>1</timing>                    <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>                            <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                                        <!--最多4个-->
+                                    <badReason>10</badReason>        <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 EXPECT_BETTER:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>                    <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>                            <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="tv.danmaku.bili" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <mphttp>
+                        <port>9093</port>
+                        <minthreshold>1000</minthreshold>
+                        <mpdnsenable>true</mpdnsenable>
+                        <dividemode>1</dividemode>
+                        <errorcount>60</errorcount>
+                        <support302>0</support302>
+                        <fiEnableFlag>1</fiEnableFlag>
+                    </mphttp>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <totalBwThresholdKb>500</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2</ratio>                      <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <protocol>6</protocol>                  <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <port>443</port>
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>443</port>                    <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>10</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.ss.android.ugc.aweme" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <multipathTcp>
+                        <enableType>1</enableType>
+                        <firstPathSelection>1</firstPathSelection>
+                    </multipathTcp>
+                    <multipathFlow>
+                        <enableType>2</enableType> <!--2表示非三方直接调用-->
+                        <bondPolicy>3</bondPolicy> <!--3表示MPLINK-->
+                        <startConditionMask>1</startConditionMask> <!--bit0为1表示非空口原因启动，bit1为1表示空口原因启动。该字段不携带默认是非空口原因启动-->
+                        <foregroundPolicy>0</foregroundPolicy> <!--0表示仅前台生效，1表示前台和后台都生效。该字段不携带默认是仅前台生效-->
+                        <qoeDuration>1</qoeDuration> <!--业务质量判断需要持续几个QOE。该字段不携带默认3-->
+                        <fallBackPeriod>300</fallBackPeriod> <!--周期性判断回切时间，单位：秒。该字段不携带默认300-->
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="org.zwanoo.android.speedtest" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <algorithmType>65536</algorithmType>        <!--1表示动态流分配，用于优化百度网盘;2-优先建链优化，用于优化应用市场和应用宝;0表示无特殊算法; 高16bit是否置1来表示是否要同时拉起主wifi和主蜂窝-->
+                        <totalBwThresholdKb>1000000</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <protocol>6</protocol>                  <!--符合协议+端口条件，才进入burstBind逻辑.IPPROTO_TCP=6,IPPROTO_UDP=17-->
+                            <port>8080,80</port>                    <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                            <mode>2</mode>                          <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>1:1:1:1</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>1</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>1073741824</sizeEsti>         <!--当mode是auto时配置。用于计算单流占用带宽，单位是kB。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>8080,80</port>                <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>2</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>2:2</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1073741824</sizeEsti>     <!--当mode是auto时配置。数据流的大小，单位是kB，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>443</port>                    <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>2</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>2:2</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>2097152</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是kB，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1,2</flowType>            <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>3</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <totalBwThresholdKb>500</totalBwThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                            <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>0</mode>                          <!--off表示不需要该模式，因为王者荣耀下载流不并发（IP不同），并发的流是页面浏览的，只有50kB左右--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不需要该模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443,8081,5692,20166,6447,3013,31003</port>                     <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>500000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>49155</port>                     <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>500000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>-1</port>                     <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1</sizeEsti>              <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                        <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>1</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>3</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>
+                                <flowType>10</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>8</badReason>        <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <totalBwThresholdKb>500</totalBwThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                            <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>0</mode>                          <!--off表示不需要该模式，因为王者荣耀下载流不并发（IP不同），并发的流是页面浏览的，只有50kB左右--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不需要该模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80</port>                     <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1073741824</sizeEsti>     <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>-1</port>                     <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1</sizeEsti>              <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                        <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>1</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>
+                                <flowType>10</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>6</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.mm" foreground="true" grade="1" ps="0">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                            <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>0</mode>                          <!--off表示不需要该模式，因为王者荣耀下载流不并发（IP不同），并发的流是页面浏览的，只有50kB左右--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不需要该模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>8000,16285,8080,80,443</port>     <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1</sizeEsti>              <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443,14000,8080,8081,6447</port> <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>  <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                        <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>8</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>2</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>5</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>8</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.mobileqq" foreground="true" grade="1" ps="0">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>0</mode>                          <!--off表示不需要该模式，因为王者荣耀下载流不并发（IP不同），并发的流是页面浏览的，只有50kB左右--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不需要该模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>8000,8080,16285</port>        <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1</sizeEsti>              <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443,14000,8080,8081,6447</port> <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>8</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>2</rstOperation>      <!--QQ比较特殊使用INTF_CHANGE--><!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>6</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>8</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--QQ比较特殊使用INTF_CHANGE--><!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.news" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <totalBwThresholdKb>100</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2</ratio>                      <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,8080,443</port>            <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.qqlive" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <totalBwThresholdKb>2049</totalBwThresholdKb> <!--下载流速率门限，低于这个速率则会拉起蜂窝。u32存储，所以配置不能超过4GBps即4M KB-->
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2</ratio>                      <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,8080,443</port>            <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13,1</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>10</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="air.tv.douyu.android" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--xs分片类型的视频并发2条流，分片大概500k。flv不分片，只有一条流，一个请求然后一直下载，占满带宽--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>0:0</ratio>                      <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>500000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443,18080,8081</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>500000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>1935</port>                   <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>-1</port>                     <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>1</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>5</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>9</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>7</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.duowan.kiwi" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>0</mode>                          <!--xs分片类型的视频并发2条流，分片大概500k。flv不分片，只有一条流，一个请求然后一直下载，占满带宽--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>1935</port>                   <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>-1</port>                     <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>8,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>10</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>5</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>9</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>                    <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>6</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>8</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.yy.huyaassist4game" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>0</mode>                          <!--xs分片类型的视频并发2条流，分片大概500k。flv不分片，只有一条流，一个请求然后一直下载，占满带宽--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>1935</port>                   <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>-1</port>                     <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>10</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>5</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>9</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>6</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>8</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.duowan.live" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>0</mode>                          <!--xs分片类型的视频并发2条流，分片大概500k。flv不分片，只有一条流，一个请求然后一直下载，占满带宽--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>1935</port>                   <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>    <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>17</protocol>             <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>-1</port>                     <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>    <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>0:0</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1000000</sizeEsti>        <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>10</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>5</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>9</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>6</flowType>              <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>8</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.wifimanager" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <displayDisable>1</displayDisable>
+                    <multipathTcp>
+                        <enableType>1</enableType>
+                        <foregroundPolicy>1</foregroundPolicy>
+                    </multipathTcp>
+                    <multipathUdp>
+                        <enableType>1</enableType>
+                        <foregroundPolicy>1</foregroundPolicy>
+                    </multipathUdp>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.huawei.hisight" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <displayDisable>1</displayDisable>
+                    <multipathTcp>
+                        <enableType>1</enableType>
+                        <foregroundPolicy>1</foregroundPolicy>
+                    </multipathTcp>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.huawei.android.airsharing" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <displayDisable>1</displayDisable>
+                    <multipathTcp>
+                        <enableType>1</enableType>
+                        <foregroundPolicy>1</foregroundPolicy>
+                    </multipathTcp>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1"></app>
+        <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+        <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+        <app name="com.huawei.hwvoipservice" foreground="true" grade="1" ps="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <displayDisable>1</displayDisable>
+                    <multipathTcp>
+                        <enableType>1</enableType>
+                        <foregroundPolicy>1</foregroundPolicy>
+                    </multipathTcp>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.sina.weibo" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <algorithmType>8</algorithmType>        <!--1表示动态流分配，用于优化百度网盘;2-优先建链优化，用于优化应用市场和应用宝;0表示无特殊算法; 高16bit是否置1来表示是否要同时拉起主wifi和主蜂窝;bit3为微博-->
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <totalBwThresholdKb>100</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2</ratio>                      <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.taobao.taobao" foreground="true" grade="1">
+            <switch>1</switch>                                      <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <totalBwThresholdKb>100</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>    <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2:2:2</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>7</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>1106</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.baidu.netdisk" foreground="true" grade="1">
+            <switch>1</switch>                                      <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <foregroundPolicy>1</foregroundPolicy>      <!--后台游戏直播需要打开后台加速-->
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <algorithmType>65537</algorithmType>        <!--1表示动态流分配，用于优化百度网盘;2-优先建链优化，用于优化应用市场和应用宝;0表示无特殊算法; 高16bit是否置1来表示是否要同时拉起主wifi和主蜂窝-->
+                        <totalBwThresholdKb>1000000</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <protocol>6</protocol>                  <!--符合协议+端口条件，才进入burstBind逻辑.IPPROTO_TCP=6,IPPROTO_UDP=17-->
+                            <port>443,80</port>                     <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                            <mode>2</mode>                          <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>7:1:1:1</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>1</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>1073741824</sizeEsti>         <!--当mode是auto时配置。用于计算单流占用带宽，单位是kB。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>443,80</port>                 <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>2</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>2:2</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1073741824</sizeEsti>     <!--当mode是auto时配置。数据流的大小，单位是kB，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1,2</flowType>            <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                    <coolDownTimeMs>600000</coolDownTimeMs>
+                                    <qoeCase>                       <!--最多4个-->
+                                    <badReason>3</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.huawei.appmarket" foreground="true" grade="1">
+            <switch>1</switch>                                      <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <algorithmType>65538</algorithmType>        <!--1表示动态流分配，用于优化百度网盘;2-优先建链优化，用于优化应用市场和应用宝;0表示无特殊算法; 高16bit是否置1来表示是否要同时拉起主wifi和主蜂窝-->
+                        <totalBwThresholdKb>1000000</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <protocol>6</protocol>                  <!--符合协议+端口条件，才进入burstBind逻辑.IPPROTO_TCP=6,IPPROTO_UDP=17-->
+                            <port>80,443</port>                     <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                            <mode>2</mode>                          <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>1:1:1:1</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>1</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>1073741824</sizeEsti>         <!--当mode是auto时配置。用于计算单流占用带宽，单位是kB。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>2</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>2:2</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1073741824</sizeEsti>     <!--当mode是auto时配置。数据流的大小，单位是kB，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1,2</flowType>            <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>3</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.tencent.android.qqdownloader" foreground="true" grade="1">
+            <switch>1</switch>                                      <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <foregroundPolicy>1</foregroundPolicy>      <!--后台游戏直播需要打开后台加速-->
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <algorithmType>65536</algorithmType>        <!--1表示动态流分配，用于优化百度网盘;2-优先建链优化，用于优化应用市场和应用宝;0表示无特殊算法; 高16bit是否置1来表示是否要同时拉起主wifi和主蜂窝-->
+                        <totalBwThresholdKb>1000000</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <protocol>6</protocol>                  <!--符合协议+端口条件，才进入burstBind逻辑.IPPROTO_TCP=6,IPPROTO_UDP=17-->
+                            <port>443,80</port>                     <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                            <mode>2</mode>                          <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>1:1:1:1</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>1</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>1073741824</sizeEsti>         <!--当mode是auto时配置。用于计算单流占用带宽，单位是kB。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>443,80</port>                 <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>2</mode>    <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>2:2</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1073741824</sizeEsti>     <!--当mode是auto时配置。数据流的大小，单位是kB，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                                                                        <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1,2</flowType>            <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>3</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>13</flowType>             <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 -->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.baidu.haokan" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2:2:2</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>10</badReason>       <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.ifeng.news2" foreground="true" grade="1">
+            <switch>1</switch> <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <totalBwThresholdKb>100</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <mode>1</mode>                          <!--视频并发2条流，ts分片大概100k，mp4不分片，每个流传1M以内--><!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>2:2:2:2</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>2</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>200000</sizeEsti>             <!--当mode是auto时配置。用于计算单流占用带宽，单位是B。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--多个策略示例-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>80,443</port>                 <!--端口，端口可以写成多个，例如80, 443，-1表示任意端口匹配，最多列8个-->
+                                <mode>1</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>1:1</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>100000</sizeEsti>         <!--当mode是auto时配置。数据流的大小，单位是B，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                                <!--切换控制-->
+                        <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>3,13</flowType>           <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>7</badReason>        <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>11</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>12</badReason>       <!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11 NO_RESPONSE:12-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>2000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                        <mpdnsenable>true</mpdnsenable>
+                    </multipathFlow>
+                    <mpdns>
+                        <dnstype>dns</dnstype>
+                        <normaldnspattern>
+                            <dnsdomainfilter></dnsdomainfilter>
+                        </normaldnspattern>
+                    </mpdns>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+        <app name="com.xunlei.downloadprovider" foreground="true" grade="1">
+            <switch>1</switch>                                      <!-- 0:off; 1:on; 2:force off; 3:force on; Note: setting switch to force on/off, will disable further overwrite for this app -->
+            <hicomfeatures>
+                <multipathPolicy>
+                    <fiEnableFlag>1</fiEnableFlag>
+                    <multipathFlow>
+                        <enableType>2</enableType>
+                        <bondPolicy>2</bondPolicy>
+                        <totalBwThresholdKb>5000</totalBwThresholdKb>
+                        <startDualWifiThresholdKb>2000</startDualWifiThresholdKb>
+                        <version>1</version>
+                        <fiEnableFlag>1</fiEnableFlag>
+                        <rssiThreshold>
+                            <goodMobile>-98</goodMobile>
+                            <poorMobile>-110</poorMobile>
+                            <goodWIFI>-72</goodWIFI>
+                            <poorWIFI>-76</poorWIFI>
+                        </rssiThreshold>
+                        <burstBind>                                 <!--短时间密集建链时的绑定策略-->
+                        <!--当某些数据流占用了一部分带宽之后，网络的QoS/可用带宽发生变化，优选网卡也随之刷新。但是对于突发大量建链的情况，绑定策略无法及时刷新，所以设置并发绑定模式-->
+                            <protocol>6</protocol>                  <!--符合协议+端口条件，才进入burstBind逻辑.IPPROTO_TCP=6,IPPROTO_UDP=17-->
+                            <port>-1</port>                     <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                            <mode>2</mode>                          <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                            <ratio>1:1:1:1</ratio>                  <!--当mode是fix时配置。前2个绑上最优网卡（根据后续QoS计算），后2个绑次优一个网卡。再后面2个绑最后网卡，如此循环-->
+                            <batchTotal>1</batchTotal>              <!--当mode是auto时配置。一批并发数据流的总数量。例如百度下载一个文件并发10条流，认为是一个批次。同时下载两个文件，并发20条流，认为两批次。batchTotal仍然是10-->
+                            <sizeEsti>1073741824</sizeEsti>         <!--当mode是auto时配置。用于计算单流占用带宽，单位是kB。设置一个很大的数值表示一个流会尽可能占满带宽，此时按照网卡的带宽等比例分配-->
+                        </burstBind>
+                        <!-- ******** MPFlow 非连续建链时的绑定策略推导 ******** -->
+                        <scatterBind>                               <!--建流时间间隔长（零星分布）时的绑定策略-->
+                            <policy>                                <!--一个policy对应一个协议和端口的组合，不同的policy之间不允许重叠-->
+                                <protocol>6</protocol>              <!--协议，不同的policy的协议和端口组合不能重合。枚举值：IPPROTO_TCP = 6 IPPROTO_UDP = 17-->
+                                <port>-1</port>                 <!--端口，端口可以写成多个，例如80, 443，最多列8个-->
+                                <mode>2</mode>                      <!--fix表示不使用QoE信息进行计算，按照固定比例轮流绑定网卡，auto表示根据QoS进行计算，off表示不使用并发模式 枚举值：OFF:0 AUTO:1 FIX:2-->
+                                <ratio>2:2</ratio>                  <!--当mode是fix时配置。前1个绑第一个网卡，后1个绑次第二个网卡。如此循环-->
+                                <sizeEsti>1073741824</sizeEsti>     <!--当mode是auto时配置。数据流的大小，单位是kB，用于计算数据流完成时间，从而决定优选网卡建链。网卡1和网卡2相近时，会随机选其中一个，方便后续探测和更新QoS-->
+                            </policy>
+                            <!--对于不在所有policy范围内的协议和端口组合，按照默认路由进行绑定，即MPFlow不对这些流进行处理-->
+                        </scatterBind>
+                        <!-- ******** MPFlow 断链策略配置 ******** -->
+                        <rstCtrl>                                   <!--切换控制-->
+                            <!--MPFlow对某一条流发送RST策略之后，间隔1秒再对下一条流发RST策略。目的是等待上一个RST策略生效并观察该策略带来的影响 ，再决定新的策略-->
+                            <policy>                                <!--最多8个flowtype标签，每个标签的name可以填多个值，用逗号隔开，最多8个。多个类型之间没有联系，填多个只是为了减少配置长度-->
+                                <flowType>1,2</flowType>            <!--枚举值:DOWNLOAD:1 UPLOAD:2 VIDEO_STREAM:3 AUDIO_STREAM:4 LIVE_TCP_UPSTREAM:5 LIVE_UDP_UPSTREAM:6 LIVE_DOWNSTREAM:7 VIDEO_CALL:8 AUDIO_CALL:9 GAME_MOBA:10 GAME_HEARTBEAT:11 MAP_NAVIGATE:12 BROWSING_STREAM:13-->
+                                <rstOperation>1</rstOperation>      <!--SK_ERROR:1 INTF_CHANGE:2-->
+                                <coolDownTimeMs>600000</coolDownTimeMs>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>2</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                                <qoeCase>                           <!--最多4个-->
+                                    <badReason>3</badReason>        <!--QoE差的类型--><!--枚举值:RELATIVE_LOW_BITRATE:1 ABSOLUTE_LOW_BITRATE:2 ONE_BUSY_ONE_IDLE:3 UDP_LONG_ECHO_DELAY:4 UDP_INFER_ECHO_DELAY:5 UDP_DOWNLINK_PKT_NUM:6 RESPONSE_DRIPPING:7 UDP_HIGH_DROP_INFERED:8 TCP_UPLINK_CONGEST:9 SPEED_DECAY:10 TCP_RTT_RISE:11-->
+                                    <timing>1</timing>              <!--进行RST的时机，接收到QoE差立刻断链-->
+                                    <nicBlinkMs>1000</nicBlinkMs>   <!--断链之后短时间内数据流绑定到其他接口上，在后续若干ms内，全局将数据流绑定到另一个网卡-->
+                                </qoeCase>
+                            </policy>
+                        </rstCtrl>
+                    </multipathFlow>
+                </multipathPolicy>
+            </hicomfeatures>
+        </app>
+    </emcom_accelerate>
+</xengine>

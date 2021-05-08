@@ -1,0 +1,25 @@
+{
+    "name" : "DefaultMaterialDepth",
+    "vert" : "shaders://shader/DefaultMaterialDepth.vert.spv",
+    "frag" : "shaders://shader/DefaultMaterialDepth.frag.spv",
+    "slot" : "RenderSlotDefaultMaterialDepth",
+    "vertexInputDeclaration" : "DefaultMaterialDepth",
+    "pipelineLayout" : "DefaultMaterialDepth",
+    "state": {
+        "rasterizationState": {
+            "enableDepthClamp": false,
+            "enableDepthBias": false,
+            "enableRasterizerDiscard": false,
+            "polygonMode": "fill",
+            "cullModeFlags": "back",
+            "frontFace": "counter_clockwise"
+        },
+        "depthStencilState": {
+            "enableDepthTest": true,
+            "enableDepthWrite": true,
+            "enableDepthBoundsTest": false,
+            "enableStencilTest": false,
+            "depthCompareOp": "less_or_equal"
+        }
+    }
+}

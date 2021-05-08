@@ -1,0 +1,11 @@
+### Service definition
+service traceinfoserver /system/bin/traceinfoserver
+    user root
+    disabled
+    seclabel u:r:logserver:s0
+    group system log readproc sdcard_r sdcard_rw dsm media_rw
+    writepid /dev/cpuset/system-background/tasks
+    oneshot
+
+on property:ro.logsystem.usertype=3
+    start traceinfoserver

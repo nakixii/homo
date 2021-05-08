@@ -1,0 +1,5 @@
+service wifiservice /system/bin/sa_main /system/profile/wifiservice.xml
+    class z_core
+    user system
+    group system shell
+    seclabel u:r:wifiservice:s0

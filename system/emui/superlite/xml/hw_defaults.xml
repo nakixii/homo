@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.secure.intelligent_awaken_enabled="0"/>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.secure.multi_win_interact="1"/>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.secure.ui_night_mode="1"/>
+</resources>

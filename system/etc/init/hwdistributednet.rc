@@ -1,0 +1,6 @@
+service distributed_net /system/bin/HwDistributedNet
+    class main
+    group system
+    disabled
+on property:ro.build.characteristics=watch
+    start distributed_net

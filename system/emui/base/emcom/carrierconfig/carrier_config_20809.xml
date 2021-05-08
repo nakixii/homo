@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SFR FR -->
+    <carrier_config>
+        <!-- Volte UI -->
+        <!--Google Message config begin -->
+        <int name="maxMessageSize" value="614400" />
+        <!--Google Message config end -->
+    </carrier_config>
+</carrier_config_list>

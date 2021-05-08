@@ -1,0 +1,5 @@
+{
+    "name" : "BloomDownscaleThreshold",
+    "compute" : "shaders://computeshader/BloomDownscaleThreshold.comp.spv",
+    "slot" : "noSlot"
+}

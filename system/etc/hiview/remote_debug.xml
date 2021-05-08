@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration This xml is use by remote debug?>
+<RemoteDebug>
+  <BasicLogs>
+    <Path dir="/data/log/android_logs/" pattern="applogcat-log.+\.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/android_logs/" pattern="eventslogcat-log.+\.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/android_logs/" pattern="kmsgcat-log.+\.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/android_logs/" pattern="rillogcat-log.+\.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/hilogs" pattern="hiapplogcat-log.+\.gz" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/hilogs/" pattern="eventslogcat-log((?!F\.tar\.gz).)*" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/hilogs/" pattern="hiapplogcat-log(\.\d)?" option="latest=4" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/hilogs/" pattern="kmsgcat-log((?!F.tar.gz).)*" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/hilogs/" pattern="rillogcat-log((?!F.tar.gz).)*" option="latest=3" privacyLevel="SENSITIVE" />
+    <Cmd option="delete" privacylevel="PUBLIC" path="/data/log/remote_debug/temp/package_list.txt" command="__pmlist" waitTime="5000"/>
+   </BasicLogs>
+  <Private_901  MaxQuota="30">
+    <Path path="/data/hisi_logs/hisi_diaginfo.log" privacyLevel="PUBLIC" />
+    <Path path="/data/hisi_logs/history.log" privacyLevel="PUBLIC" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/ap_log/bl31_mntn_memory.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/ap_log/dmesg-ramoops-0" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/ap_log/fastboot_log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/ap_log/last_fastboot_log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/ap_log/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/bbox(_aft)?\.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/bbox.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/bbox_sensorhub.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/bbox_split_bin/(.*).txt" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/bbox_split_bin/LPM3" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/codechifi_logs/codec_log.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/codechifi_logs/codec_ocram.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/codechifi_logs/codec_reg.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/cphy_dtcm.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/lphy_dump.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/lphy_mode_dtcm.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/lphy_pub_dtcm.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/modem_dump.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/modem_etb.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/modem_etb1.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/cp_log/reset.log" option="latest=2" privacyLevel="PUBLIC" />
+    <Path dir="/data/hisi_logs/" pattern="\d{14}-\d{8}/sochifi_logs/hifi_ddr.bin" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/modem_log/drv/nv/" pattern="NvLog.txt" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/modem_log/drv/nv/" pattern="nv_file.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="last_teemsg" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="teeos-log-\d.tar.gz" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="teeOS_log-(.*)" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/dbox/srecorder" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="data_app_anr@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="data_app_anr@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="data_app_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="data_app_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="data_app_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="data_app_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_app_anr@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_app_anr@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_app_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_app_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_app_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_app_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="SYSTEM_LAST_KMSG@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="SYSTEM_LAST_KMSG@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_watchdog@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_watchdog@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_wtf@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="system_server_wtf@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="SYSTEM_TOMBSTONE@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/dropbox/" pattern="SYSTEM_TOMBSTONE@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/isp-log/" pattern="isp-log(.*)*" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/modem_crash/modem_crash_log" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/modem_crash/modem_exception" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/reliability/appeye/" pattern="history.log" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/appeye/" pattern="history.log.0" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/appeye/" pattern="WP\d{2}-(.*)-event.log" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/reliability/faultdetect/" pattern="dumptool.log" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/faultdetect/" pattern="processed.cfg" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/faultdetect/feature_trace/" pattern="\d{14}/KernelCrash___\d{14}_Parsed_SRecorder.txt" option="latest=3|maxsize=1024" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/reliability/xcollie/" pattern="xcollie@\d{1,13}.log" option="latest=1|maxsize=16" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="dumptool.log" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="event.log" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="history.log" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="history.log.0" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="internal.log" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="internal.log.0" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="processed.cfg" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/reliability/zerohung/" pattern="\d{14}-\d{5}-WP\d{2}/event.log" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/tee/last_teemsg" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/xcollie/" pattern="xcollie@\d{1,13}.log" option="latest=1|maxsize=16" privacyLevel="PUBLIC" />
+    <Path dir="/data/vendor/log/hisi_logs/tee" pattern="LOG@F4A8816DB6FB4D4FA2B97DAE573313C0-\d{1}" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/hisi_logs/tee" pattern="LOG@F4A8816DB6FB4D4FA2B97DAE573313C0-\d{1}.tar.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/hisi_logs/tee/" pattern="teeos-log-\d.tar.gz" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/hisi_logs/tee/" pattern="teeOS_log-(.*)" option="latest=4" privacyLevel="PUBLIC" />
+    <Path dir="/data/vendor/log/isp-log/" pattern="isp-log(.*)*" option="latest=1" privacyLevel="PUBLIC" />
+    <Path path="/data/vendor/log/mtklog/aee_exp/history.log" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path path="/data/vendor/log/mtklog/aee_exp/\d{14}-\d{8}/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path path="/data/vendor/log/mtklog/aee_exp/\d{14}-\d{8}/SYS_ATF_LAST" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path path="/data/vendor/log/mtklog/aee_exp/\d{14}-\d{8}/SYS_LAST_CPU_BUS" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path path="/data/vendor/log/mtklog/aee_exp/\d{14}-\d{8}/SYS_REBOOT_REASON" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path path="/data/vendor/log/mtklog/aee_exp/\d{14}-\d{8}/ZZ_INTERNAL" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}.tar.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/applogcat-log.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/bootFail_info.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/critical_process_crash.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/fastboot_log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/framework_boot_fail.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg.android.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/lk.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/pmsg-ramoops-0" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/recovery_info.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/sbl1.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/tombstone_\d{1,2}" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/xloader_log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/dumptool/" pattern="\d{14}/dumptoolinfo" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/dumptool/" pattern="\d{14}/KernelCrash___\d{14}_Parsed_SRecorder.txt" option="latest=3|maxsize=1024" privacyLevel="SENSITIVE" />
+    <Path dir="/log/dumptool/sbl1_lk/" pattern="lk_\d{14}.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/dumptool/sbl1_lk/" pattern="sbl1_\d{14}.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/recovery" pattern="recovery_log(.*)" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/log/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/fastboot_log" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/log/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/pmsg-ramoops-0" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/recovery_info.txt" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}.tar.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/applogcat-log.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/bootFail_info.txt" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/critical_process_crash.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/fastboot_log" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/framework_boot_fail.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg.android.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/lk.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/pmsg-ramoops-0" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/recovery_info.txt" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/sbl1.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/tombstone_\d{1,2}" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/xloader_log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/modem_log/drv/nv/" pattern="NvLog.txt" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/modem_log/drv/nv/" pattern="nv_file.bin" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}.tar.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/applogcat-log.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/bootFail_info.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/critical_process_crash.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/fastboot_log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/framework_boot_fail.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg.android.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/lk.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/pmsg-ramoops-0" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/recovery_info.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/sbl1.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/tombstone_\d{1,2}" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/xloader_log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/dumptool/" pattern="\d{14}/dumptoolinfo" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/dumptool/" pattern="\d{14}/KernelCrash___\d{14}_Parsed_SRecorder.txt" option="latest=3|maxsize=1024" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/dumptool/sbl1_lk/" pattern="lk_\d{14}.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/dumptool/sbl1_lk/" pattern="sbl1_\d{14}.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/recovery/" pattern="recovery_log(.*)" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/fastboot_log" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/pmsg-ramoops-0" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/" pattern="bootfail_\d{14}_0(x|X)\d{1,12}/recovery_info.txt" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}.tar.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/applogcat-log.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/bootFail_info.txt" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/critical_process_crash.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/fastboot_log" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/framework_boot_fail.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/last_kmsg.android.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/lk.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/pmsg-ramoops-0" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/recovery_info.txt" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/sbl1.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/system_server_watchdog@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/tombstone_\d{1,2}" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/reliability/boot_fail/uploading/" pattern="bootfail_\d{14}_0(x|X)(\d|\w){1,12}/xloader_log" option="latest=3" privacyLevel="SENSITIVE" />
+  </Private_901>
+  <Private_902  MaxQuota="30">
+    <Path dir="/data/log/jank/iotrace/" pattern="iotrace(.*)" option="latest=1|delete" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/jank/log/" pattern="log_jank" option="delete" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/remote_debug/temp/" pattern=".*_jankexec.log" option="latest=5|delete" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/remote_debug/temp/" pattern="log_jank" option="delete" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/remote_debug/temp/" pattern="systrace(.*).sys" option="latest=5|delete" privacyLevel="SENSITIVE" />
+  </Private_902>
+  <Private_903  MaxQuota="30">
+    <Path dir="/data/log/android_logs/" pattern="applogcat-log(.*)" option="latest=6" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/android_logs/" pattern="kmsgcat-log(.*)" option="latest=6" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/android_logs/" pattern="rillogcat-log(.*)" option="latest=6" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/charge-log/" pattern="charge-log(.*)" option="latest=2" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/hilogs" pattern="hiapplogcat-log.+\.gz" option="latest=6" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/hilogs/" pattern="kmsgcat-log((?!F.tar.gz).)*" option="latest=6" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/hilogs/" pattern="rillogcat-log((?!F.tar.gz).)*" option="latest=6" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/remote_debug/temp/" pattern="dubai(.*).zip" option="latest=1|maxsize=15360|delete" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/sensorhub-log" pattern="sensorhub-log(.*)" option="latest=2|maxsize=6144" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/sleeplog/" pattern="dumpsys-log(.*)" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/sleeplog/" pattern="power_stats-log(.*)" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/sleeplog/" pattern="sensor-log((?!F\.tar\.gz).)*" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/sleeplog/" pattern="wakeupsources-log(.*)" option="latest=3" privacyLevel="SENSITIVE" />
+  </Private_903>
+  <Private_904  MaxQuota="100">
+    <Path path="/data/hisi_logs/history.log" privacyLevel="PUBLIC" />
+    <Path dir="/data/hisi_logs/modem_log/drv/sci/" pattern="di\d\w{1,20}\d{14}.bin" option="latest=30" privacyLevel="PUBLIC" />
+    <Path path="/data/log/log.db" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/LogService/0/eventinfo.log904" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/LogService/0/eventinfo.hvw904" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/LogService/0/eventinfo.hvw921" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/modem_crash/modem_crash_log" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/modem_crash/modem_exception" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/mtklog/debuglogger/mdlog\d/MDLog\d_\d{4}_\d{4}_\d{6}(_EE_\w+)?" pattern="MDLog\d_\d{4}_\d{4}_\d{6}(_data)?.muxz(.tmp)?" option="latest=5" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/mtklog/mtklog/mdlog\d/MDLog\d_\d{4}_\d{4}_\d{6}(_EE_\w+)?" pattern="MDLog\d_\d{4}_\d{4}_\d{6}(_data)?.muxz(.tmp)?" option="latest=5" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/modem/balonglte/" pattern="LOG_\d+_\d{14}_\d+.lpd" option="latest=10" privacyLevel="SENSITIVE" />
+    <Path path="/log/chr/HwRepairHelper.db" privacyLevel="SENSITIVE" />
+    <Path path="/log/LogService/0/eventinfo.log904" privacyLevel="SENSITIVE" />
+    <Path path="/log/LogService/0/eventinfo.hvw904" privacyLevel="SENSITIVE" />
+    <Path dir="/modem_log/drv/sci/sci/" pattern="di\d\w{1,20}\d{14}.bin" option="latest=30" privacyLevel="PUBLIC" />
+    <Path path="/sdcard/Android/data/com.huawei.ims/files/hme_v_log_all.txt" privacyLevel="PUBLIC" />
+    <Path path="/sdcard/Android/data/com.huawei.ims/files/hme_v_log_api.txt" privacyLevel="PUBLIC" />
+    <Path path="/sdcard/Android/data/com.huawei.ims/files/hme_v_log_error.txt" privacyLevel="PUBLIC" />
+    <Path path="/sdcard/Android/data/com.huawei.ims/files/hme_v_log_io.txt" privacyLevel="PUBLIC" />
+    <Path path="/sdcard/Android/data/com.huawei.ims/files/hme_v_log_trace.txt" privacyLevel="PUBLIC" />
+    <Path dir="/sdcard/log/modem/balonglte/" pattern="LOG_\d+_\d{14}_\d+.lpd" option="latest=10" privacyLevel="SENSITIVE" />
+  </Private_904>
+  <Private_907  MaxQuota="30">
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="last_teemsg" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="teeos-log-\d.tar.gz" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="teeOS_log-(.*)" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/log.db" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/LogService/0/eventinfo.hvw904" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/LogService/0/eventinfo.hvw921" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/remote_debug/temp/" pattern=".*_jankexec.log" option="latest=1|delete" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/remote_debug/temp/" pattern="contact(.*)" option="latest=1|maxsize=1024|delete" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/tee/last_teemsg" privacyLevel="PUBLIC" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_anr@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_anr@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_anr@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_anr@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="SYSTEM_LAST_KMSG@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_watchdog@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_watchdog@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_wtf@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_wtf@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="SYSTEM_TOMBSTONE@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path path="/data/system/users/0/settings_global.xml" privacyLevel="SENSITIVE" />
+    <Path path="/data/system/users/0/settings_system.xml" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/hisi_logs/tee/" pattern="teeos-log-\d.tar.gz" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/hisi_logs/tee/" pattern="teeOS_log-(.*)" option="latest=4" privacyLevel="PUBLIC" />
+    <Path path="/log/chr/HwRepairHelper.db" privacyLevel="SENSITIVE" />
+    <Path dir="/log/dmd_log/" pattern="dmd_record_(.*).txt" option="latest=4" privacyLevel="PUBLIC" />
+    <Path dir="/sdcard/Android/data/com.huawei.hwvoipservice/files/Hvslog" pattern="hme_v_log_[a-z]{1,5}.txt" option="latest=5" privacyLevel="PUBLIC" />
+    <Path dir="/sdcard/Android/data/com.huawei.hwvoipservice/files/Hvslog" pattern="HME_[A-Z,a-z]{3,12}.log" option="latest=5" privacyLevel="PUBLIC" />
+    <Path dir="/sdcard/Android/data/com.huawei.hwvoipservice/files/Hvslog" pattern="uspa_\d{1,2}.log" option="latest=5" privacyLevel="PUBLIC" />
+    <Path path="/splash2/unrm_file.log" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/dmd_log/" pattern="dmd_record_(.*).txt" option="latest=4" privacyLevel="PUBLIC" />
+    <Path path="/splash2/log/unrmd.log" privacyLevel="SENSITIVE" />
+    <Path path="/splash2/unrmd/unrmd.log" privacyLevel="SENSITIVE" />
+    <Path dir="/storage/emulated/0/Android/data/com.huawei.android.launcher/files/log/" pattern="launcher_record_\d{1,2}.txt" option="latest=2" privacyLevel="SENSITIVE" />
+    <Path dir="/storage/emulated/0/Huawei/CloudClone/logs/" pattern="PhoneClone(.*)" option="latest=5" privacyLevel="SENSITIVE" />
+    <Path dir="/storage/emulated/0/log/hrslog/" pattern="hrcs_\d{1,15}.log" option="latest=5|maxsize=512|delete" privacyLevel="SENSITIVE" />
+    <Path dir="/storage/emulated/0/log/hsmslog/" pattern="sms(.*)" option="latest=1|maxsize=512|delete" privacyLevel="SENSITIVE" />
+  </Private_907>
+  <Private_909  MaxQuota="30">
+    <Path dir="/data/log/bt" pattern="btsnoop_hci_(.+).log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/hi110x/bfg_log" pattern="bfg_log(.*)" option="latest=50" privacyLevel="PUBLIC" />
+    <Path dir="/data/log/mtklog/connsysFW/" pattern="WIFI_FW_\d{4}_\d{4}_\d{6}.clog" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/mtklog/connsysFW/" pattern="WIFI_FW_\d{4}_\d{4}_\d{6}.clog.curf" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/sensorhub-log" pattern="sensorhub-log(.*)" option="latest=2|maxsize=6144" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/wifi/" pattern="wifi_log_(.*)" option="latest=150" privacyLevel="SENSITIVE" />
+    <Path path="/data/nfc/nci_history" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/hi110x/bfg_log" pattern="bfg_log(.*)" option="latest=50" privacyLevel="PUBLIC" />
+    <Path dir="/data/vendor/log/wifi/" pattern="wifi_log_(.*)" option="latest=150" privacyLevel="PUBLIC" />
+    <Path path="/data/vendor/nfc/nci_history" privacyLevel="SENSITIVE" />
+    <Path dir="/log/nc_chr/nfc/done/" pattern="NFC_CHR_(.+)_\d{14}.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/log/nc_chr/wifi/done/" pattern="WIFI_CHR_(.+)_\d{14}.log" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/log/wifi/Hi110x/" pattern="wifi_log_fw_(.+).bin" option="latest=3" privacyLevel="PUBLIC" />
+    <Path path="/splash2/LogService/0/eventinfo.log909" privacyLevel="SENSITIVE" />
+    <Path path="/splash2/LogService/0/eventinfo.log910" privacyLevel="PUBLIC" />
+    <Path path="/splash2/LogService/0/eventinfo.log913" privacyLevel="SENSITIVE" />
+    <Path path="/splash2/LogService/0/eventinfo.log915" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/nc_chr/nfc/done/" pattern="NFC_CHR_(.+)_\d{14}.log" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/splash2/nc_chr/wifi/done/" pattern="WIFI_CHR_(.+)_\d{14}.log" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/wifi/Hi110x/" pattern="wifi_log_fw_(.+).bin" option="latest=3" privacyLevel="PUBLIC" />
+  </Private_909>
+  <Private_920  MaxQuota="30">
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="last_teemsg" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="teeOS_log-(.*)" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path dir="/data/hisi_logs/running_trace/teeos_logs/" pattern="teeos-log-\d.tar.gz" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/sensorhub-log" pattern="sensorhub-log(.*)" option="latest=2|maxsize=6144" privacyLevel="SENSITIVE" />
+    <Path path="/data/log/tee/last_teemsg" privacyLevel="PUBLIC" />
+    <Path dir="/data/vendor/log/hisi_logs/tee/" pattern="teeOS_log-(.*)" option="latest=4" privacyLevel="PUBLIC" />
+    <Path dir="/data/vendor/log/hisi_logs/tee/" pattern="teeos-log-\d.tar.gz" option="latest=4" privacyLevel="SENSITIVE" />
+    <Path dir="/data/vendor/log/thplog/" pattern=".*thplog" option="latest=5" privacyLevel="SENSITIVE" />
+    <Path dir="/log/dmd_log/" pattern="dmd_record_(.*).txt" option="latest=4" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/erl_log" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/erl_log.1" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ud_erl_log" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ud_erl_log.1" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ulk_log" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ulk_log.1" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ud_ulk_log" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ud_ulk_log.1" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/fp_stats_all" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/fp_stats_all.1" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ud_fp_stats_all" privacyLevel="PUBLIC" />
+    <Path path="/log/fp/ud_fp_stats_all.1" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/dmd_log/" pattern="dmd_record_(.*).txt" option="latest=4" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/erl_log" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/erl_log.1" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/fp_stats_all" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/fp_stats_all.1" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ud_erl_log" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ud_erl_log.1" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ud_fp_stats_all" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ud_fp_stats_all.1" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ud_ulk_log" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ud_ulk_log.1" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ulk_log" privacyLevel="PUBLIC" />
+    <Path path="/splash2/fp/ulk_log.1" privacyLevel="PUBLIC" />
+  </Private_920>
+  <Private_999  MaxQuota="30">
+    <Path dir="/data/log/remote_debug/temp/" pattern=".*_jankexec.log" option="latest=5|delete" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/sensorhub-log" pattern="sensorhub-log(.*)" option="latest=2|maxsize=6144" privacyLevel="SENSITIVE" />
+    <Path dir="/data/log/sleeplog/" pattern="sensor-log((?!F\.tar\.gz).)*" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_anr@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_anr@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="data_app_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_wtf@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_wtf@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="SYSTEM_TOMBSTONE@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_watchdog@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_watchdog@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_anr@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_anr@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_app_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="SYSTEM_LAST_KMSG@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_anr@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="hbs_app_crash@\d{1,13}.txt.gz" option="latest=1" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_native_crash@\d{1,13}.txt" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path dir="/data/system/dropbox/" pattern="system_server_native_crash@\d{1,13}.txt.gz" option="latest=3" privacyLevel="SENSITIVE" />
+    <Path path="/data/system/users/0/settings_global.xml" privacyLevel="SENSITIVE" />
+    <Path path="/data/system/users/0/settings_system.xml" privacyLevel="SENSITIVE" />
+    <Path dir="/log/dmd_log/" pattern="dmd_record_(.*).txt" option="latest=4" privacyLevel="PUBLIC" />
+    <Path dir="/log/recovery/" pattern="recovery_log(.*)" option="latest=3" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/dmd_log/" pattern="dmd_record_(.*).txt" option="latest=4" privacyLevel="PUBLIC" />
+    <Path dir="/splash2/recovery/" pattern="recovery_log(.*)" option="latest=3" privacyLevel="PUBLIC" />
+  </Private_999>
+   <Dubai_903>
+    <dynamicpath pattern=".*.db" option="latest=7|delete|maxsize=122880"/>
+    <dynamicpath pattern="transid" option="latest=1|delete"/>
+    <dynamicpath pattern="903" option="latest=1|delete"/>
+  </Dubai_903>
+
+</RemoteDebug>

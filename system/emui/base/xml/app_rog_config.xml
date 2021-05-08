@@ -1,0 +1,23 @@
+<info_list>
+<info name="com.android.calculator2" mode="2"/>
+<info name="com.huawei.vdrive" mode="2"/>
+<info name="com.huawei.android.remotecontrol" mode="2"/>
+<info name="com.android.hwmirror" mode="2"/>
+<info name="com.android.soundrecorder" mode="2"/>
+<info name="com.android.calendar" mode="2"/>
+<info name="com.huawei.android.FMRadio" mode="2"/>
+<info name="com.huawei.systemmanager" mode="2" hot_support="0"/>
+<info name="com.huawei.vassistant" mode="2"/>
+<info name="com.huawei.betaclub" mode="2"/>
+
+<info name="com.gotokeep.keep" mode="2"/>
+<info name="com.tiqiaa.icontrol" mode="2"/>
+<info name="com.p1.mobile.putong" mode="2" hot_support="0"/>
+
+<info name="com.supercell.clashroyale.huawei" mode="2"/>
+<info name="com.ztgame.bob" mode="2"/>
+<info name="com.happyelements.AndroidAnimal" mode="2" hot_support="0"/>
+<info name="com.lemon.chess" mode="2" hot_support="0"/>
+<info name="air.com.tencent.qqfarmios" mode="2" hot_support="0"/>
+<info name="paile.mengle.operator.huawei" mode="2" hot_support="0"/>
+</info_list>

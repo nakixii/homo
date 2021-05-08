@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+
+<!--RCS config begin, enable UCE for ATT -->
+<string name="huawei_rcs_enabler">false</string>
+<!--RCS config end -->
+        <!-- Volte UI -->
+</carrier_config>
+</carrier_config_list>

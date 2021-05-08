@@ -1,0 +1,20 @@
+{
+    "version":"1.0.0",
+    "release-time":"2020-6-8 16:39:52",
+    "trusted-HOTA-source":[
+        {
+            "name":"Huawei HOTA",
+            "certificate-subject":"C=CN, O=Huawei, OU=CBG System Dept of Device OS, CN=System HOTA Update Release",
+            "certificate-issuer":"C=CN, O=Huawei, OU=Huawei CBG, CN=Huawei CBG Software Signing Service CA",
+            "critialcal-cert-extension":["keyusage"],
+            "max-certs-path":3
+        },
+        {
+            "name":"Huawei HOTA v1",
+            "certificate-subject":"C=CN, O=Huawei, OU=TerminalCompany, CN=AndroidTeam",
+            "certificate-issuer":"C=CN, O=Huawei, OU=TerminalCompany, CN=AndroidTeam",
+            "critialcal-cert-extension":["keyusage"],
+            "max-certs-path":1
+        }
+    ]
+}

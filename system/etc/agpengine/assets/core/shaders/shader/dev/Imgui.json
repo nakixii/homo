@@ -1,0 +1,31 @@
+{
+    "name" : "Imgui",
+    "vert" : "shaders://shader/dev/Imgui.vert.spv",
+    "frag" : "shaders://shader/dev/Imgui.frag.spv",
+    "slot" : "NoSlot",
+    "vertexInputDeclaration" : "Imgui",
+    "state": {
+        "rasterizationState": {
+            "enableDepthClamp": false,
+            "enableDepthBias": false,
+            "enableRasterizerDiscard": false,
+            "polygonMode": "fill",
+            "cullModeFlags": "none",
+            "frontFace": "counter_clockwise"
+        },
+        "colorBlendState": {
+            "colorAttachments": [
+                {
+                    "enableBlend" :  true,
+                    "colorWriteMask": "r_bit|g_bit|b_bit|a_bit",
+                    "srcColorBlendFactor": "src_alpha",
+                    "dstColorBlendFactor": "one_minus_src_alpha",
+                    "colorBlendOp": "add",
+                    "srcAlphaBlendFactor": "one",
+                    "dstAlphaBlendFactor": "one_minus_src_alpha",
+                    "alphaBlendOp": "add"
+                }
+            ]
+        }
+    }
+}

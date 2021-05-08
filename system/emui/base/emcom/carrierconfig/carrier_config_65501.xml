@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--VDF ZA-->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="10" />
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+        <!--RCS config begin -->
+        <string name="huawei_rcs_enabler">false</string>
+        <!--RCS config end -->
+    </carrier_config>
+</carrier_config_list>

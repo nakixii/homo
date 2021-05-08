@@ -1,0 +1,31 @@
+{
+    "name" : "DefaultMaterialFullscreenEnv",
+    "vert" : "shaders://shader/FullscreenTriangleDefaultEnv.vert.spv",
+    "frag" : "shaders://shader/DefaultMaterialFullscreenEnv.frag.spv",
+    "slot" : "NoSlot",
+    "pipelineLayout" : "DefaultMaterialEnv",
+    "state": {
+        "rasterizationState": {
+            "enableDepthClamp": false,
+            "enableDepthBias": false,
+            "enableRasterizerDiscard": false,
+            "polygonMode": "fill",
+            "cullModeFlags": "none",
+            "frontFace": "counter_clockwise"
+        },
+        "depthStencilState": {
+            "enableDepthTest": true,
+            "enableDepthWrite": false,
+            "enableDepthBoundsTest": false,
+            "enableStencilTest": false,
+            "depthCompareOp": "less_or_equal"
+        },
+        "colorBlendState": {
+            "colorAttachments": [
+                {
+                    "colorWriteMask": "r_bit|g_bit|b_bit|a_bit"
+                }
+            ]
+        }
+    }
+}

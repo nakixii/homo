@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the standard capability indicating that the device supports search. -->
+<permissions>
+    <feature name="ohos.software.distributeddatamgr.search" version="0"/>
+</permissions>

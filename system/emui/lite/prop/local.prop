@@ -1,0 +1,64 @@
+# 2020-03-09 12:05:10.0
+fw.max_users=1
+# 2020-03-09 12:05:10.0
+fw.show_multiuserui=0
+# 2020-03-09 12:05:10.0
+hw.lcd.density.scale=800
+# 2020-06-20 10:04:23.0
+hw_mc.launcher.quick_switch_force_enable=false
+# 2020-11-23 16:16:21.0
+hw_mc.servicehost.needstartprocess=true
+# 2020-07-17 15:02:22.0
+hw_mc_launcher_gesture_snapshot_enable=true
+# 2020-03-09 12:05:10.0
+hw_sc.cloudrom_version=1.0
+# 2020-07-31 09:58:03.0
+hw_sc.window_corner_config=1,1,0,0
+# 2020-03-09 12:05:10.0
+ro.build.hw_emui_lite.enable=true
+# 2020-03-09 12:05:10.0
+ro.config.distributed_app_fwk=true
+# 2020-03-09 12:05:10.0
+ro.config.hicall=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_emui_dbsearch_lite=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_globalSearch=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_linkedin_enable=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_support_clone_app=false
+# 2020-03-09 12:05:10.0
+ro.config.support_sdcard_crypt=false
+# 2020-03-09 12:05:10.0
+ro.feature.animation.style=simple
+# 2020-03-09 12:05:10.0
+ro.feature.calendar.map=false
+# 2020-03-09 12:05:10.0
+ro.feature.calendar.permanentcalendar=false
+# 2020-03-09 12:05:10.0
+ro.feature.contacts.favorite=false
+# 2020-03-09 12:05:10.0
+ro.feature.contacts.smartgroup=false
+# 2020-03-09 12:05:10.0
+ro.feature.dfr.appeye=false
+# 2020-03-09 12:05:10.0
+ro.feature.dfr.erecovery=false
+# 2020-03-09 12:05:10.0
+ro.feature.email.ai_translation=false
+# 2020-03-09 12:05:10.0
+ro.feature.email.group=false
+# 2020-03-09 12:05:10.0
+ro.feature.email.smime=false
+# 2020-03-09 12:05:10.0
+ro.feature.intelligence.level=Lite
+# 2020-03-09 12:05:10.0
+ro.feature.systemui.blur_wallpaper=false
+# 2020-03-09 12:05:10.0
+ro.feature.wms.singlemode=false
+# 2020-03-09 12:05:10.0
+ro.gallery.thumbnailLoading=true
+# 2020-03-09 12:05:10.0
+ro.iconnect.trustpair=false
+# 2020-03-09 12:05:10.0
+ro.prop.hwkeychain_switch=false

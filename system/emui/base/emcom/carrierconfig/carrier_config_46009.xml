@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- CHINA UNICOM-->
+    <carrier_config>
+        <string name="carrier_wb_hd_icon_flag">010001</string>
+        <boolean name="preferToUseUT" value="true" />
+        <string name="utRetryInterval">5000,5000</string>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <string name="ssTypeUseCsOnly">3,13,14,15,16,17,18,19</string>
+        <boolean name="utCSBeUsed" value="true" />
+        <string name="ssTypeForbidFallbackCS">12</string>
+        <boolean name="CFNRcChangeWithCFNL" value="false" />
+        <int name="setDefaultNoReplyTimer" value="0" />
+        <int name="ContentTypeMode" value="0" />
+        <boolean name="ImsStateFollowVoiceDomain" value="true" />
+        <int name="callWaitingMode" value="11" />
+        <boolean name="utHrsLog" value="true" />
+        <int name="utNafPort" value="80" />
+        <boolean name="utNafUseHttps" value="false" />
+        <int name="utBsfPort" value="8080" />
+        <boolean name="utBsfUsehttps" value="false" />
+        <boolean name="utKsnafUseBase64" value="true" />
+        <int name="utGbaType" value="0" />
+        <boolean name="utUseTmpi" value="false" />
+        <boolean name="missedCallTips" value="true" />
+        <boolean name="missedCallTipsDelay" value="true" />
+        <int name="missedCallTipsRingTimer" value="12000" />
+        <int name="missedCallTipsDelayTimer" value="128000" />
+        <boolean name="utCanUseWifi" value="false" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

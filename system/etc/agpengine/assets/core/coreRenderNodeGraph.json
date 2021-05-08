@@ -1,0 +1,30 @@
+{
+    "renderNodeGraphName" : "",
+    "nodes": [
+        {
+            "typeName": "RenderNodeFullscreenGeneric",
+            "nodeName": "RenderNodeFullscreenGeneric",
+            "queue": {
+                "type": "graphics",
+                "index": 0
+            },
+            "shader": {
+                "name": "FullscreenTriangle",
+                "pipelineBindPoint": "graphics"
+            },
+            "renderPass": {
+                "attachments": [
+                    {
+                        "loadOp": "dont_care",
+                        "storeOp": "store",
+                        "name": "CORE_DEFAULT_BACKBUFFER"
+                    }
+                ],
+                "subpass": {
+                    "colorAttachmentIndices": 0
+                }
+            }
+        }
+
+    ]
+}

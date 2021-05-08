@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.secure.intelligent_awaken_enabled="0"/>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.secure.multi_win_interact="1"/>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.secure.secure_gesture_navigation_horizontalswitch="1"/>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.secure.ui_night_mode="1"/>
+  <!--2020-03-09 12:05:10.0-->
+  <integer settings.system.androidBeam="0" reset="only_factory"/>
+  <!--2020-03-09 12:05:10.0-->
+  <string white_languages="en_US,ar_EG,de_DE,bs_BA,es_ES,uk_UA,fr_FR,pt_PT,ru_RU,zh_CN,zh_TW,zh_HK,es_US,cs_CZ,da_DK,el_GR,hu_HU,pt_BR,it_IT,ja_JP,lt_LT,lv_LV,bg_BG,nb_NO,pl_PL,ro_RO,et_EE,sk_SK,sr_Latn,sv_SE,tr_TR,th_TH,fi_FI,in_ID,mk_MK,sl_SI,ms_MY,vi_VN,hr_HR,nl_NL,ca_ES,hi_IN,ko_KR,en_GB,iw_IL,eu_ES,gl_ES,bo_CN,ka_GE,az_AZ,uz_UZ,km_KH,si_LK,ur_PK,kk_KZ,lo_LA,be_BY,bn_BD,ne_NP,tl_PH,jv_Latn,ug_CN,my_Qaag,en_Qaag,my_MM,fa_IR"/>
+</resources>

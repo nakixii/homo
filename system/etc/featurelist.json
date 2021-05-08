@@ -1,0 +1,14 @@
+{
+    "features": [
+        {
+            "package": "com.huawei.featurelayer.featureframework",
+            "file": "/system/app/FeatureFramework/FeatureFramework.apk",
+            "version": "1.0.304"
+        },
+        {
+            "package": "com.huawei.systemfeature.rio",
+            "file": "/system/app/HwRio/HwRioFeature.fpk",
+            "version": "1.0.0"
+        }
+    ]
+}

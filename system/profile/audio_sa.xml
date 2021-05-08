@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <process>audio_sa</process>
+    <loadlibs>
+        <libpath>libaudioservice.z.so</libpath>
+    </loadlibs>
+    <systemability>
+        <name>3001</name>
+        <libpath>libaudioservice.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>true</distributed>
+        <dump-level>1</dump-level>
+        <permission>com.huawei.permission.MANAGE_DISTRIBUTED_PERMISSION</permission>
+    </systemability>
+</info>

@@ -1,0 +1,31 @@
+% title: Hyphenation patterns for Thai
+% copyright: Copyright (C) 2012-2013 Theppitak Karoonboonyanan
+% notice: This file is part of the hyph-utf8 package.
+%     See http://www.hyphenation.org/tex for more information.
+% language:
+%     name: Thai
+%     tag: th
+% authors:
+%   -
+%     name: Theppitak Karoonboonyanan
+%     contact: theppitak (at) gmail.com
+% licence:
+%     name: LPPL
+%     version: 1.3
+%     or_later: true
+%     status: maintained
+%     maintainer: Theppitak Karoonboonyanan
+%     url: https://latex-project.org/lppl/
+% hyphenmins:
+%     typesetting:
+%         left: 2
+%         right: 3
+% texlive:
+%     encoding: lth
+%     babelname: thai
+%     message: Thai hyphenation patterns
+%     description: Hyphenation patterns for Thai in LTH and UTF-8 encodings.
+% ==========================================
+% https://linux.thai.net/projects/thailatex
+% https://github.com/tlwg/thailatex
+%

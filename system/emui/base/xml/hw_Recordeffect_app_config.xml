@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice_message_5px>
+    <whiteapp
+        name="mobileqq"
+        package="com.tencent.mobileqq" />
+    <whiteapp
+        name="tencent.mm"
+        package="com.tencent.mm" />
+    <whiteapp
+        name="screenrecorder"
+        package="com.huawei.screenrecorder" />
+    <whiteapp
+        name="mobileqq:peak"
+        package="com.tencent.mobileqq:peak" />
+    <whiteapp
+        name="tencent.mm:tools"
+        package="com.tencent.mm:tools" />
+    <whiteapp
+        name="whatsApp"
+        package="com.whatsapp" />
+    <whiteapp
+        name="Twitter"
+        package="com.twitter.android" />
+    <whiteapp
+        name="Messenger"
+        package="com.facebook.orca" />
+</voice_message_5px>
+<video_message_5px>
+    <whiteapp
+        name="抖音"
+        package="com.ss.android.ugc.aweme" />
+    <whiteapp
+        name="火山小视频"
+        package="com.ss.android.ugc.live" />
+    <whiteapp
+        name="微视"
+        package="com.tencent.weishi" />
+    <whiteapp
+        name="FiLMiC"
+        package="com.filmic.filmicpro" />
+    <whiteapp
+        name="VUEVlog"
+        package="video.vue.android" />
+    <whiteapp
+        name="Instagram"
+        package="com.instagram.android" />
+    <whiteapp
+        name="Facebook"
+        package="com.facebook.katana" />
+    <whiteapp
+        name="Snapchat"
+        package="com.snapchat.android" />
+</video_message_5px>
+<karaoke_5px>
+    <whiteapp
+        name="天籁K歌"
+        package="com.audiocn.karaok" />
+    <whiteapp
+        name="唱吧"
+        package="com.changba" />
+    <whiteapp
+        name="全民K歌"
+        package="com.tencent.karaoke" />
+    <whiteapp
+        name="K歌达人"
+        package="com.app.hero.ui" />
+    <whiteapp
+        name="爱唱"
+        package="cn.banshenggua.aichang" />
+    <whiteapp
+        name="酷狗唱唱"
+        package="com.kugou.android.ktvapp" />
+    <whiteapp
+        name="K米"
+        package="com.evideo.MobileKTV" />
+    <whiteapp
+        name="PK歌王"
+        package="com.quchangkeji.tosingpk" />
+    <whiteapp
+        name="麦唱"
+        package="cn.mchang" />
+    <whiteapp
+        name="酷我K歌"
+        package="cn.kuwo.sing" />
+    <whiteapp
+        name="Sing! Karaoke by Smule"
+        package="com.smule.singandroid" />
+    <whiteapp
+        name="Yokee"
+        package="com.famousbluemedia.yokee" />
+    <whiteapp
+        name="StarMake"
+        package="com.starmakerinteractive.starmaker" />
+</karaoke_5px>
+<live_telecast_5px>
+    <whiteapp
+        name="斗鱼直播"
+        package="air.tv.douyu.android" />
+    <whiteapp
+        name="YY"
+        package="com.duowan.mobile" />
+    <whiteapp
+        name="映客直播"
+        package="com.meelive.ingkee" />
+    <whiteapp
+        name="一直播"
+        package="tv.xiaoka.live" />
+</live_telecast_5px>
+<off_5px>
+    <whiteapp
+        name="录音机"
+        package="com.android.soundrecorder" />
+    <whiteapp
+        name="录音机"
+        package="com.huawei.soundrecorder" />
+    <whiteapp
+        name="录像机"
+        package="com.huawei.camera" />
+    <whiteapp
+        name="运动健康"
+        package="com.huawei.health" />
+    <whiteapp
+        name="镜子"
+        package="com.android.hwmirror" />
+    <whiteapp
+        name="镜子"
+        package="com.huawei.mirror" />	
+    <whiteapp
+        name="googlequicksearch"
+        package="com.google.android.googlequicksearchbox" />
+    <whiteapp
+        name="cameraCTS"
+        package="android.camera.cts" />
+    <whiteapp
+        name="mediaCTS"
+        package="android.media.cts" />
+    <whiteapp
+        name="ctsVerify"
+        package="com.android.cts.verifier" />
+    <whiteapp
+        name="mmi手动测试"
+        package="com.huawei.mmitest" />
+    <whiteapp
+        name="mmi自动测试"
+        package="com.huawei.mmiautotest" />
+    <whiteapp
+        name="拉卡拉收款宝"
+        package="com.lakala.shoudan" />
+    <whiteapp
+        name="拉卡拉"
+        package="com.lakala.android" />
+    <whiteapp
+        name="高德地图"
+        package="com.autonavi.minimap" />
+    <whiteapp
+        name="百度地图"
+        package="com.baidu.BaiduMap" />
+    <whiteapp
+        name="高德导航"
+        package="com.autonavi.xmgd.navigator" />
+    <whiteapp
+        name="腾讯地图"
+        package="com.tencent.map" />
+    <whiteapp
+        name="奥维互动地图"
+        package="com.ovital.ovitalMap" />
+    <whiteapp
+        name="百度导航"
+        package="com.baidu.navi" />
+    <whiteapp
+        name="凯立德导航"
+        package="cld.navi.mainframe" />
+    <whiteapp
+        name="搜狗地图"
+        package="com.sogou.map.android.maps" />
+    <whiteapp
+        name="谷歌地图"
+        package="com.google.android.apps.maps" />
+    <whiteapp
+        name="谷歌地球"
+        package="com.google.earth" />
+    <whiteapp
+        name="waze"
+        package="com.waze" />
+    <whiteapp
+        name="yandex"
+        package="ru.yandex.yandexnavi" />
+    <whiteapp
+        name="雅虎导航"
+        package="jp.co.yahoo.android.apps.navi" />
+    <whiteapp
+        name="KimGiSa"
+        package="com.locnall.KimGiSa" />
+    <whiteapp
+        name="语音助手"
+        package="com.huawei.vassistant" />	
+</off_5px>
+<voice_message>
+    <whiteapp
+        name="mobileqq"
+        package="com.tencent.mobileqq" />
+    <whiteapp
+        name="tencent.mm"
+        package="com.tencent.mm" />
+    <whiteapp
+        name="screenrecorder"
+        package="com.huawei.screenrecorder" />
+    <whiteapp
+        name="mobileqq:peak"
+        package="com.tencent.mobileqq:peak" />
+    <whiteapp
+        name="tencent.mm:tools"
+        package="com.tencent.mm:tools" />
+    <whiteapp
+        name="爱唱"
+        package="cn.banshenggua.aichang" />
+</voice_message>
+<voice_trans>
+    <whiteapp
+        name="讯飞"
+        package="com.iflytek.inputmethod" />
+</voice_trans>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <library name="HiViewTunnel-core-doubleofficer"
+        file="/version/region_comm/oversea/jar/HiViewTunnel_core/HiViewTunnel-core.jar" />
+    <library name="HiViewTunnel-core"
+        file="/version/jar/HiViewTunnel_core/HiViewTunnel-core.jar" />
+    <library name="product-HiViewTunnel-core"
+        file="/hw_product/jar/HiView/HiViewTunnel-core.jar" />
+    <library name="product-HiViewTunnel-core-doubleofficer"
+        file="/hw_product/region_comm/oversea/jar/HiView/HiViewTunnel-core.jar" />
+    <library name="cust-HiViewTunnel-core"
+        file="/data/cust/jar/HiViewTunnel-core.jar" />
+    <library name="cust-HiViewTunnel-ue"
+        file="/data/cust/jar/HiViewTunnel-ue.jar" />
+    <library name="HiViewTunnel-ue-doubleofficer"
+        file="/version/region_comm/oversea/jar/HiViewTunnel_ue/HiViewTunnel-ue.jar" />
+    <library name="HiViewTunnel-ue"
+        file="/version/jar/HiViewTunnel_ue/HiViewTunnel-ue.jar" />
+    <library name="product-HiViewTunnel-ue"
+        file="/hw_product/jar/HiView/HiViewTunnel-ue.jar" />
+    <library name="product-HiViewTunnel-ue-doubleofficer"
+        file="/hw_product/region_comm/oversea/jar/HiView/HiViewTunnel-ue.jar" />
+    <library name="HiView-rdebug"
+        file="/version/jar/HiView/HiView-rdebug.jar" />
+    <library name="product-HiView-rdebug"
+        file="/hw_product/jar/HiView/HiView-rdebug.jar" />
+    <library name="cust-HiView-rdebug"
+        file="/data/cust/jar/HiView-rdebug.jar" />
+</permissions>

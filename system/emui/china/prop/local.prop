@@ -1,0 +1,90 @@
+# 2020-03-09 12:05:10.0
+hw_mc.hicall.screensharing=true
+# 2020-09-11 18:00:29.0
+hw_mc.meetime.message.mode=1
+# 2020-11-23 16:16:21.0
+hw_mc.servicehost.needstartprocess=true
+# 2020-03-09 12:05:10.0
+hw_mc.telephony.rat_changed_delay=true
+# 2020-11-26 19:06:11.0
+hw_sc.foreground_data_opt_enable=true
+# 2020-03-25 08:41:22.0
+hw_sc.only_ipv6_allowed_cure=true
+# 2020-10-10 10:58:42.0
+hw_sc.speed_limit_notifier_enable=true
+# 2020-08-21 17:09:06.0
+hw_sc.speed_test_limit_notifier_enable=true
+# 2020-03-09 12:05:10.0
+ro.camera.sound.not_forced=true
+# 2020-03-09 12:05:10.0
+ro.config.dataoff_timeout=5
+# 2020-03-09 12:05:10.0
+ro.config.dnscure_ipcfg=10.8.2.1;10.8.2.2|8.8.8.8;208.67.222.222;180.76.76.76;223.5.5.5
+# 2020-03-09 12:05:10.0
+ro.config.enable_rms=true
+# 2020-03-09 12:05:10.0
+ro.config.hicall=true
+# 2020-03-09 12:05:10.0
+ro.config.hw_aqv_enabled=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_ecclist_nocard=+120,+122
+# 2020-03-09 12:05:10.0
+ro.config.hw_ecclist_withcard=+112
+# 2020-03-09 12:05:10.0
+ro.config.hw_fake_ecc_list=110,120,122,999,119
+# 2020-03-09 12:05:10.0
+ro.config.hw_globalEcc=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_nlp=com.huawei.lbs
+# 2020-03-09 12:05:10.0
+ro.config.hw_optb=156
+# 2020-03-09 12:05:10.0
+ro.config.hw_updateCotaPara=true
+# 2020-03-09 12:05:10.0
+ro.config.music_region=lowfreq
+# 2020-03-09 12:05:10.0
+ro.config.permanent_error_heal=true
+# 2020-03-09 12:05:10.0
+ro.config.pre_dns_query=true
+# 2020-03-09 12:05:10.0
+ro.config.support_doubletap_pay=true
+# 2020-03-09 12:05:10.0
+ro.config.support_iseapp=true
+# 2020-03-09 12:05:10.0
+ro.config.support_privacyspace=true
+# 2020-03-09 12:05:10.0
+ro.hw.ipv6opt=true
+# 2020-03-09 12:05:10.0
+ro.hw.sub1_disable_switch_cs=true
+# 2020-03-09 12:05:10.0
+ro.hwpp_ds_fail=111,30,32,33,35
+# 2020-03-09 12:05:10.0
+ro.iconnect.trustpair=true
+# 2020-03-09 12:05:10.0
+ro.odm.cdma.dormancy.mode=1
+# 2020-03-09 12:05:10.0
+ro.odm.cdma.dormancy.screen=3
+# 2020-08-20 10:00:36.0
+ro.odm.cur_primary_dns=114.114.114.114
+# 2020-08-20 10:00:36.0
+ro.odm.cur_secondary_dns=180.76.76.76
+# 2020-03-09 12:05:10.0
+ro.odm.gsm.fastdormancy.mode=3
+# 2020-03-09 12:05:10.0
+ro.odm.gsm.fd.screen=2
+# 2020-03-09 12:05:10.0
+ro.odm.gsm.fd.time_scroff=4000
+# 2020-03-09 12:05:10.0
+ro.odm.high_priority_data_mode=true
+# 2020-03-09 12:05:10.0
+ro.odm.smart_dual_card=true
+# 2020-03-09 12:05:10.0
+ro.product.locale=zh-Hans-CN
+# 2020-03-09 12:05:10.0
+ro.product.locale.language=zh
+# 2020-03-09 12:05:10.0
+ro.product.locale.region=CN
+# 2020-03-09 12:05:10.0
+ro.setupwizard.mode=DISABLED
+# 2020-03-09 12:05:10.0
+ro.sys.ping_bf_dorecovery=true

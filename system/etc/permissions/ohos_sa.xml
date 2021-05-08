@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ~ Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
+-->
+<!-- This file is used to define the mappings between lower-level system
+     user and group IDs and the higher-level permission names managed
+     by the ohos platform.
+
+     Be VERY careful when editing this file!  Mistakes made here can open
+     big security holes.
+-->
+<permissions>
+    <!-- Note: ONLY support android permission and ohos original permission -->
+    <!-- Example
+    <assign-permission name="android.permission.MODIFY_AUDIO_SETTINGS" uid="media" />
+    -->
+    <assign-permission name="android.permission.MODIFY_AUDIO_ROUTING" uid="audioserver" />
+</permissions>

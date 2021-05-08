@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schedStrategies>
+    <!-- default strategy -->
+    <schedStrategy name="DefaultStrategy">
+        <action name="action.system.default">
+            <entity>entity.system.default</entity>
+        </action>
+        <features>
+            <!-- weight range: 1-10 (integer) -->
+            <!-- weight reference: questionnaire -->
+            <!-- continuous value's condition: [min-max) -->
+            <!-- discrete value's condition: type -->
+            <feature name="device_type" weight="9" query_interface="GetDeviceType">
+                <!-- condition: value in this range -->
+                <score condition="pc">1</score>
+                <score condition="default">2</score>
+                <score condition="tablet">3</score>
+                <score condition="tv">4</score>
+                <score condition="car">5</score>
+            </feature>
+        </features>
+    </schedStrategy>
+    <!-- Video scheduling strategy -->
+    <schedStrategy name="VideoPlayStrategy">
+        <action name="action.system.play">
+            <entity>entity.system.video</entity>
+        </action>
+        <features>
+            <feature name="screen_size" weight="8" query_interface="GetScreenSize">
+                <!-- example: 6.2 inch == 6.2, in condition 6-12, the score is 2 -->
+                <score condition="0-6">1</score>
+                <score condition="6-12">2</score>
+                <score condition="12-30">3</score>
+                <score condition="30-100">4</score>
+            </feature>
+            <feature name="screen_resolution" weight="5" query_interface="GetScreenResolution">
+                <!-- heightPixels -->
+                <!-- example: 1080P == 1080, in condition 1000-2000, the score is 2 -->
+                <score condition="0-1000">1</score>
+                <score condition="1000-2000">2</score>
+                <score condition="2000-4000">3</score>
+                <score condition="4000-10000">4</score>
+            </feature>
+            <feature name="device_type" weight="9" query_interface="GetDeviceType">
+                <score condition="pc">1</score>
+                <score condition="default">2</score>
+                <score condition="tablet">3</score>
+                <score condition="tv">4</score>
+                <score condition="car">5</score>
+            </feature>
+        </features>
+    </schedStrategy>
+</schedStrategies>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <process>foundation</process>
+    <loadlibs>
+        <libpath>libdistributedschedsvr.z.so</libpath>
+        <libpath>libces.z.so</libpath>
+        <libpath>libans.z.so</libpath>
+        <libpath>libbms.z.so</libpath>
+        <libpath>libfms.z.so</libpath>
+        <libpath>libpowermgrservice.z.so</libpath>
+        <libpath>libbatteryservice.z.so</libpath>
+        <libpath>libresschedservice.z.so</libpath>
+        <libpath>libbgtaskmgrservice.z.so</libpath>
+        <libpath>libdcallservice.z.so</libpath>
+        <libpath>libdpermissionsrv.z.so</libpath>
+        <libpath>libhkssrv.z.so</libpath>
+    </loadlibs>
+    <systemability> <!-- Declare a sytem ability and its profile -->
+        <name>1401</name> <!-- Declare the name of system ability -->
+        <libpath>libdistributedschedsvr.z.so</libpath> <!-- Declare the path of .so file which includes the system ability; Note: 1 .so file can have 1 to N system abilities. -->
+        <!--<depend></depend> --> <!-- Declare the name of system abilities which the system ability depends on, using ";" as separator among names. If there are dependencies, it needs to check if all those dependencies are avliable in service manager before starting the system ability. -->
+        <!--<depend-time-out></depend-time-out> --> <!-- Check all dependencies are avaliable before the timeout period ended. The MAX_DEPENDENCY_TIMEOUT is 60s. -->
+        <run-on-create>true</run-on-create> <!-- "true" means the system ability would start imediately, "false" means the system ability would start on demand. -->
+        <distributed>true</distributed> <!-- "true" means the system ability supports distributed scheduling while "false" is not. -->
+        <dump-level>1</dump-level> <!-- Declare the dump level. 1-high; 2-media; 3-low -->
+    </systemability>
+    <systemability>
+        <name>401</name>
+        <libpath>libbms.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>3202</name>
+        <libpath>libces.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>true</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>3203</name>
+        <libpath>libans.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>true</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>1403</name>
+        <libpath>libdistributedschedsvr.z.so</libpath>
+        <depend>401</depend>
+        <depend>1401</depend>
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>403</name>
+        <libpath>libfms.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>3301</name>
+        <libpath>libpowermgrservice.z.so</libpath>
+        <!--<depend></depend> --> <!-- Declare the name of system abilities which the system ability depends on, Note that one dependency uses 1 line. If there are dependencies, it needs to check if all those dependencies are avliable in service manager before starting the system ability. -->
+        <!--<depend-time-out></depend-time-out> --> <!-- Check all dependencies are avaliable before the timeout period ended. The MAX_DEPENDENCY_TIMEOUT is 60s. -->
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>3302</name>
+        <libpath>libbatteryservice.z.so</libpath>
+        <!--<depend></depend> --> <!-- Declare the name of system abilities which the system ability depends on, Note that one dependency uses 1 line. If there are dependencies, it needs to check if all those dependencies are avliable in service manager before starting the system ability. -->
+        <!--<depend-time-out></depend-time-out> --> <!-- Check all dependencies are avaliable before the timeout period ended. The MAX_DEPENDENCY_TIMEOUT is 60s. -->
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>1901</name>
+        <libpath>libresschedservice.z.so</libpath>
+        <!--<depend></depend> --> <!-- Declare the name of system abilities which the system ability depends on, Note that one dependency uses 1 line. If there are dependencies, it needs to check if all those dependencies are avliable in service manager before starting the system ability. -->
+        <!--<depend-time-out></depend-time-out> --> <!-- Check all dependencies are avaliable before the timeout period ended. The MAX_DEPENDENCY_TIMEOUT is 60s. -->
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>1903</name>
+        <libpath>libbgtaskmgrservice.z.so</libpath>
+        <!--<depend></depend> --> <!-- Declare the name of system abilities which the system ability depends on, Note that one dependency uses 1 line. If there are dependencies, it needs to check if all those dependencies are avliable in service manager before starting the system ability. -->
+        <!--<depend-time-out></depend-time-out> --> <!-- Check all dependencies are avaliable before the timeout period ended. The MAX_DEPENDENCY_TIMEOUT is 60s. -->
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability>
+        <name>4002</name>
+        <libpath>libdcallservice.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>true</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+    <systemability> <!-- Declare a sytem ability and its profile -->
+        <name>3501</name> <!-- Declare the name of system ability -->
+        <libpath>libdpermissionsrv.z.so</libpath> <!-- Declare the path of .so file which includes the system ability; Note: 1 .so file can have 1 to N system abilities. -->
+        <run-on-create>true</run-on-create> <!-- "true" means the system ability would start imediately, "false" means the system ability would start on demand. -->
+        <distributed>false</distributed> <!-- "true" means the system ability supports distributed scheduling while "false" is not. -->
+        <dump-level>1</dump-level> <!-- Declare the dump level. 1-high; 2-media; 3-low -->
+    </systemability>
+    <systemability> <!-- Declare a sytem ability and its profile -->
+        <name>3502</name> <!-- Declare the name of system ability -->
+        <libpath>libdpermissionsrv.z.so</libpath> <!-- Declare the path of .so file which includes the system ability; Note: 1 .so file can have 1 to N system abilities. -->
+        <run-on-create>true</run-on-create> <!-- "true" means the system ability would start imediately, "false" means the system ability would start on demand. -->
+        <distributed>true</distributed> <!-- "true" means the system ability supports distributed scheduling while "false" is not. -->
+        <dump-level>1</dump-level> <!-- Declare the dump level. 1-high; 2-media; 3-low -->
+        <permission>com.huawei.permission.MANAGE_DISTRIBUTED_PERMISSION</permission>
+    </systemability>
+    <systemability> <!-- Declare a sytem ability and its profile -->
+        <name>3510</name> <!-- Declare the name of system ability -->
+        <libpath>libhkssrv.z.so</libpath> <!-- Declare the path of .so file which includes the system ability; Note: 1 .so file can have 1 to N system abilities. -->
+        <run-on-create>true</run-on-create> <!-- "true" means the system ability would start imediately, "false" means the system ability would start on demand. -->
+        <distributed>false</distributed> <!-- "true" means the system ability supports distributed scheduling while "false" is not. -->
+        <dump-level>1</dump-level> <!-- Declare the dump level. 1-high; 2-media; 3-low -->
+    </systemability>
+</info>

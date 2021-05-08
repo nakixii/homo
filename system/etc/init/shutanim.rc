@@ -1,0 +1,7 @@
+service shutanim /system/bin/shutdownanimation
+    class animation
+    user graphics
+    group system graphics audio
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks

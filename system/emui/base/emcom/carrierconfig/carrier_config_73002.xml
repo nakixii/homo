@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- MOVISTAR CL-->
+    <carrier_config>
+        <!-- Volte UI -->
+        <string name="carrier_wb_hd_icon_flag">010000</string>
+    </carrier_config>
+</carrier_config_list>

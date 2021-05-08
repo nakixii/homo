@@ -1,0 +1,3 @@
+#<src>                                 <mnt_point>         <type>    <mnt_flags and options>                       <fs_mgr_flags>
+/dev/block/bootdevice/by-name/patch     /patch_hw  ext4    ro    wait,verify
+

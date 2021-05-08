@@ -1,0 +1,9 @@
+# for runtime_data
+on boot
+    setprop sys.runtime_data.hiddenapi.enable true
+
+on property:ro.logsystem.usertype=3
+    mkdir /data/runtime_data 0755 system system
+    mkdir /data/runtime_data/app 0777 system system
+    mkdir /data/runtime_data/system 0755 system system
+    restorecon_recursive /data/runtime_data

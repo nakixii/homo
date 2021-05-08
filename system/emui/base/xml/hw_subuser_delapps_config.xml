@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<del_app_list>
+  <del_app packageName="com.huawei.associateassistant"/>
+  <del_app packageName="com.huawei.android.hwouc"/>
+  <del_app packageName="com.huawei.vdrive"/>
+  <del_app packageName="com.huawei.health"/>
+  <del_app packageName="com.besttone.hall"/>
+  <del_app packageName="com.ct.client"/>
+  <del_app packageName="com.unioncast.oleducation"/>
+  <del_app packageName="com.telecom.video.ikan4g"/>
+  <del_app packageName="com.UCMobile"/>
+  <del_app packageName="com.corp21cn.flowpay"/>
+  <del_app packageName="fm.xiami.main"/>
+  <del_app packageName="com.lectek.android.sfreader"/>
+  <del_app packageName="com.huawei.mmitest"/>
+  <del_app packageName="com.huawei.hiview"/>
+  <del_app packageName="com.huawei.bd"/>
+  <del_app packageName="com.huawei.iaware"/>
+  <del_app packageName="com.huawei.betaclub"/>
+  <del_app packageName="com.huawei.parentcontrol"/>
+  <del_app packageName="com.huawei.android.chr"/>
+  <del_app packageName="com.huawei.gameassistant"/>
+  <del_app packageName="com.huawei.scenepack"/>
+  <del_app packageName="com.huawei.hwapplet"/>
+  <del_app packageName="com.huawei.smartlocation"/>
+  <del_app packageName="com.huawei.spaceservice"/>
+  <del_app packageName="com.huawei.hwpolicyservice"/>
+  <del_app packageName="com.huawei.hbs.framework"/>
+  <del_app packageName="com.huawei.android.airsharing"/>
+  <del_app packageName="com.huawei.kidsmode"/>
+  <del_app packageName="com.huawei.turbokey"/>
+  <del_app packageName="com.huawei.hishow"/>
+  <del_app packageName="com.huawei.hiassistantoversea"/>
+  <del_app packageName="com.huawei.meetime"/>
+  <del_app packageName="com.huawei.hieduservice"/>
+</del_app_list>

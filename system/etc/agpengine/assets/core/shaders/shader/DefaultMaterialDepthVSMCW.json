@@ -1,0 +1,32 @@
+{
+    "name" : "DefaultMaterialDepthVSMCW",
+    "vert" : "shaders://shader/DefaultMaterialDepth.vert.spv",
+    "frag" : "shaders://shader/DefaultMaterialDepthVSM.frag.spv",
+    "slot" : "RenderSlotDefaultMaterialDepth",
+    "vertexInputDeclaration" : "DefaultMaterialDepth",
+    "pipelineLayout" : "DefaultMaterialDepth",
+    "state": {
+        "rasterizationState": {
+            "enableDepthClamp": false,
+            "enableDepthBias": false,
+            "enableRasterizerDiscard": false,
+            "polygonMode": "fill",
+            "cullModeFlags": "back",
+            "frontFace": "clockwise"
+        },
+        "depthStencilState": {
+            "enableDepthTest": true,
+            "enableDepthWrite": true,
+            "enableDepthBoundsTest": false,
+            "enableStencilTest": false,
+            "depthCompareOp": "less_or_equal"
+        },
+        "colorBlendState": {
+            "colorAttachments": [
+                {
+                    "colorWriteMask": "r_bit|g_bit|b_bit|a_bit"
+                }
+            ]
+        }
+    }
+}

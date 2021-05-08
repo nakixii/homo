@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notification_whitelist>
+  <package_name type="string">com.tencent.mm</package_name>
+  <package_name type="string">com.tencent.mobileqq</package_name>
+  <package_name type="string">com.huawei.works</package_name>
+  <package_name type="string">com.alibaba.android.rimet</package_name>
+  <package_name type="string">com.huawei.mms</package_name>
+  <package_name type="string">com.android.mms</package_name>
+  <package_name type="string">com.huawei.incallui</package_name>
+  <package_name type="string">com.android.incallui</package_name>
+  <package_name type="string">com.huawei.contacts</package_name>
+  <package_name type="string">com.android.contacts</package_name>
+  <package_name type="string">com.huawei.meetime</package_name>
+</notification_whitelist>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taboo>
+    <item name="region_TW_r_all" value="Taiwan, China"/>
+    <item name="region_HK_r_all" value="Hong Kong, China"/>
+    <item name="region_MO_r_all" value="Macao, China"/>
+</taboo>

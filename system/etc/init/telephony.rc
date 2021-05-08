@@ -1,0 +1,5 @@
+service telephonyservice /system/bin/sa_main /system/profile/telephony.xml
+    class z_core
+    user radio
+    group system shell
+    seclabel u:r:telephony:s0

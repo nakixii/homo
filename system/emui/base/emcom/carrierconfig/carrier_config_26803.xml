@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <!--NOS_PT 26803-->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <!--Google Message config end -->
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!-- Volte UI -->
+    </carrier_config>
+</carrier_config_list>

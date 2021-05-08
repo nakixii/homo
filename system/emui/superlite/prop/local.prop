@@ -1,0 +1,20 @@
+# 2020-06-20 10:04:23.0
+hw_mc.launcher.quick_switch_force_enable=false
+# 2020-11-23 16:16:21.0
+hw_mc.servicehost.needstartprocess=true
+# 2020-07-17 15:02:22.0
+hw_mc_launcher_gesture_snapshot_enable=true
+# 2020-07-31 09:58:03.0
+hw_sc.window_corner_config=1,1,0,0
+# 2020-03-09 12:05:10.0
+ro.config.distributed_app_fwk=false
+# 2020-03-09 12:05:10.0
+ro.config.hicall=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_aqv_enabled=false
+# 2020-03-09 12:05:10.0
+ro.config.hw_globalSearch=false
+# 2020-03-09 12:05:10.0
+ro.feature.animation.style=supersimple
+# 2020-03-09 12:05:10.0
+ro.feature.dfr.erecovery=false

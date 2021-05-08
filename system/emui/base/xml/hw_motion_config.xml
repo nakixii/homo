@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hwmotion_config name="HWMotions">
+  <hwmotion name="motion_pickup" value="100" enable="1" support="1">
+    <hwmotion_func name="motion_pickup_reduce_call" value="101" enable="0"/>
+    <hwmotion_func name="motion_pickup_reduce_clock" value="102" enable="0"/>
+    <hwmotion_func name="motion_pickup_end_hints" value="103" enable="1"/>
+    <hwmotion_func name="motion_pickup_wakeup_device" value="104" enable="0"/>
+  </hwmotion>
+  <hwmotion name="motion_flip" value="200" enable="1" support="1">
+    <hwmotion_func name="motion_flip_mute_call" value="201" enable="0"/>
+    <hwmotion_func name="motion_flip_mute_clock" value="202" enable="0"/>
+    <hwmotion_func name="motion_flip_mute_aod" value="203" enable="1"/>
+  </hwmotion>
+  <hwmotion name="motion_proximity" value="300" enable="1" support="1">
+    <hwmotion_func name="motion_proximity_answer" value="301" enable="0"/>
+    <hwmotion_func name="motion_proximity_dial" value="302" enable="0"/>
+    <hwmotion_func name="motion_proximity_screen_off" value="303" enable="1"/>
+    <hwmotion_func name="motion_proximity_speaker" value="304" enable="0"/>
+    <hwmotion_func name="motion_proximity_bluetoothset" value="305" enable="0"/>
+  </hwmotion>
+  <hwmotion name="motion_shake" value="400" enable="1" support="1">
+    <hwmotion_func name="motion_shake_change_wallpaper" value="402" enable="0"/>
+    <hwmotion_func name="motion_shake_rearrange_widgets" value="403" enable="0"/>
+  </hwmotion>
+  <hwmotion name="motion_tilt_lr" value="600" enable="1" support="1">
+    <hwmotion_func name="motion_tilt_lr_move_widgets" value="601" enable="0"/>
+  </hwmotion>
+  <hwmotion name="motion_pocket" value="800" enable="1" support="0">
+    <hwmotion_func name="motion_pocket_call_raise" value="801" enable="1"/>
+    <hwmotion_func name="motion_pocket_aod" value="802" enable="1"/>
+  </hwmotion>
+  <hwmotion name="motion_activity" value="900" enable="1" support="0">
+    <hwmotion_func name="motion_activity_state" value="901" enable="1"/>
+  </hwmotion>
+  <hwmotion name="motion_take_off" value="1000" enable="1" support="0">
+    <hwmotion_func name="motion_take_off_ear" value="1001" enable="1"/>
+  </hwmotion>
+  <hwmotion name="motion_hw_step_counter" value="1100" enable="1" support="0">
+    <hwmotion_func name="motion_hw_step_counter_health" value="1101" enable="1"/>
+  </hwmotion>
+  <hwmotion name="motion_triple_finger" value="1500" enable="1" support="1">
+    <hwmotion_func name="motion_triple_finger_shot" value="1501" enable="0"/>
+  </hwmotion>
+</hwmotion_config>

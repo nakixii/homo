@@ -1,0 +1,37 @@
+on property:ro.build.hw_emui_lite.enable=true
+    stop distributedfiledaemon
+
+on property:sys.user.0.ce_available=true && property:init.svc.distributedfiledaemon=running
+    mkdir /data/misc_ce/0/mdfs 0755 system system
+    mkdir /mnt/mdfs 0771
+    mkdir /mnt/mdfs/groups 0000
+    mkdir /data/misc_ce/0/kdfs 0771 root media_rw
+
+    # Dentry Syncer Chardev
+    chmod 0660 /dev/hmdfs_dentry_syncer
+    chown root system /dev/hmdfs_dentry_syncer
+
+    # Thumbnail
+    chown system media_rw /sys/fs/hmdfs/thumbnail/pull
+    chown system media_rw /sys/fs/hmdfs/thumbnail/req
+    chown system media_rw /sys/fs/hmdfs/thumbnail/resp
+    mkdir /data/misc_ce/0/kdfs/cache/ 0771 root media_rw
+    mkdir /data/misc_ce/0/kdfs/cache/thumbs 0771 root media_rw
+
+    write /sys/fs/fuse/pass_through_filter "mdfs"
+    start distributedfileservice
+
+service distributedfiledaemon /system/bin/distributedfiledaemon
+    class late_start
+    user root
+    group root system shell sdcard_rw readproc media_rw
+    seclabel u:r:distributedfiledaemon:s0
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks /dev/blkio/foreground/tasks
+    onrestart restart distributedfileservice
+
+service distributedfileservice /system/bin/distributedfileservice -data=/data/misc_ce/0/mdfs -mount=/mnt/mdfs -kdfs_data=/data/misc_ce/0/kdfs
+    disabled
+    user system
+    group system shell sdcard_rw readproc
+    seclabel u:r:distributedfile:s0
+    oneshot

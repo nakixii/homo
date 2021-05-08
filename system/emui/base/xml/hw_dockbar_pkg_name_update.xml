@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <app oldPackage="com.android.calculator2" newPackage="com.huawei.calculator" romUpdateUseNewPackage="true"/>
+  <app oldPackage="com.huawei.hidisk" newPackage="com.huawei.filemanager" romUpdateUseNewPackage="true"/>
+</resources>

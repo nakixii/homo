@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- CLARO CO-->
+    <carrier_config>
+        <!-- Volte UI -->
+        <!-- Google Message -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+    </carrier_config>
+</carrier_config_list>

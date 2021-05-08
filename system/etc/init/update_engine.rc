@@ -1,0 +1,14 @@
+service update_engine /system/bin/update_engine --logtostderr --logtofile --foreground
+    user root
+    group root system wakelock inet cache media_rw
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/stune/system-background/tasks
+    disabled
+
+on property:ro.boot.slot_suffix=*
+    enable update_engine
+
+on property:hwouc.update_engine.up=true
+    start update_engine
+
+on property:hwouc.update_engine.up=false
+    stop update_engine

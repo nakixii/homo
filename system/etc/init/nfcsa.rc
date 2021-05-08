@@ -1,0 +1,5 @@
+service nfcservice /system/bin/sa_main /system/profile/nfcservice.xml
+    class z_core
+    user nfc
+    group nfc shell
+    seclabel u:r:nfcservice:s0

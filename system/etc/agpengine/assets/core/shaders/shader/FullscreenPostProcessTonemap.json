@@ -1,0 +1,15 @@
+{
+    "name" : "FullscreenPostProcessTonemap",
+    "vert" : "shaders://shader/FullscreenTriangle.vert.spv",
+    "frag" : "shaders://shader/FullscreenPostProcessTonemap.frag.spv",
+    "slot" : "NoSlot",
+    "state": {
+        "colorBlendState": {
+            "colorAttachments": [
+                {
+                    "colorWriteMask": "r_bit|g_bit|b_bit|a_bit"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<carrier_config_list>
+  <!--TELENOR_MM 41406-->
+  <carrier_config>
+    <boolean name="groupChatDefaultsToMMS" value="false" />
+  </carrier_config>
+</carrier_config_list>

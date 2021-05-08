@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+<boolean name="csp_enabled_bool" value="true" />
+<!-- Volte UI -->
+
+<!--RCS config begin, enable UCE for ATT -->
+<string name="huawei_rcs_enabler">false</string>
+<!--RCS config end -->
+</carrier_config>
+</carrier_config_list>

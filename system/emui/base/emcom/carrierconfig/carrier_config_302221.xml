@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+  <!--TELUS_CA 302221-->
+  <carrier_config>
+    <boolean name="isIPv4Only" value="true"/>
+    <!--Google Message config begin -->
+    <boolean name="useCustomUserAgent" value="true" />
+    <!--Google Message config end -->
+  </carrier_config>
+</carrier_config_list>

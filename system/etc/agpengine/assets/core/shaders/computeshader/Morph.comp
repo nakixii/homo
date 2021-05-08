@@ -1,0 +1,135 @@
+#version 460 core
+#extension GL_ARB_separate_shader_objects : enable
+#extension GL_ARB_shading_language_420pack : enable
+
+// includes
+
+#include "common/morph_target_structs.h"
+
+// sets
+
+// bind once!  (should this be SSBO also? then we could use a dynamic size...)
+layout(set = 0, binding = 0, std140) uniform uMorphData
+{
+    MorphTargetInfoStruct uObjects[CORE_MAX_MORPH_TARGET_COUNT / 4];
+};
+
+// bind per mesh! (ie. the buffer could contain ALL morph targets for one mesh? (atleast the ones that share pos,nor,tan buffers)
+layout(set = 1, binding = 0, std430) readonly buffer TargetData
+{
+    MorphInputData  data[];
+};
+
+//Bind per primitive (technically could be bind per mesh too... provided that the vertexbuffers are the same and only offsets change etcetc)
+//Okay. in buffers vec3 is always vec4 (but you cant access the fourth component, it's padding)
+//So we need to do this as float arrays...
+layout(set = 2, binding = 0,std430) writeonly buffer PosOut
+{
+    float posOut[];
+};
+layout(set = 2, binding = 1, std430) writeonly buffer NorOut
+{
+#if defined(CORE_MORPH_USE_16BIT_NOR_TAN)
+    uint norOut[];
+#else
+    float norOut[];
+#endif
+};
+layout(set = 2, binding = 2, std430) writeonly buffer TanOut
+{
+#if defined(CORE_MORPH_USE_16BIT_NOR_TAN)
+    uint tanOut[];
+#else
+    vec4 tanOut[];
+#endif
+};
+
+layout(push_constant, std430) uniform uPushConstant
+{
+    MorphObjectPushConstantStruct uObjectPushConstant;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+
+#if defined(CORE_MORPH_USE_PACKED_NOR_TAN)
+
+vec3 UnpackMorphNormal(uvec4 nt)
+{
+    vec4 normal = vec4(0.0);
+    normal.xy = unpackHalf2x16(nt.x);
+    normal.zw = unpackHalf2x16(nt.y);
+    return normal.xyz;
+}
+
+vec4 UnpackMorphTangent(uvec4 nt)
+{
+    vec4 tangent = vec4(0.0);
+    tangent.xy = unpackHalf2x16(nt.z);
+    tangent.zw = unpackHalf2x16(nt.w);
+    return tangent;
+}
+
+#endif
+
+///////////////////////////////////////////////////////////////////////////////
+
+layout(local_size_x = 64) in;
+void main()
+{
+    const uint tid=gl_GlobalInvocationID.x;
+
+    if (tid>= uObjectPushConstant.vertexCount) return;
+    const uint morphSet = uObjectPushConstant.morphSet;             //Selects the set of targetsId's and weight's to use.
+    const uint targetCount= uObjectPushConstant.morphTargetCount;
+    const uint activeCount = uObjectPushConstant.activeTargets;
+    const uint sourceId = tid*(targetCount+1);
+    const uint baseid=tid*3; //3 = x,y,z (no vec3's in ssbos..)
+
+    vec3 p=data[sourceId].pos.xyz;
+#if defined(CORE_MORPH_USE_PACKED_NOR_TAN)
+    vec3 n=UnpackMorphNormal(data[sourceId].nortan);
+    const vec4 fullTangent = UnpackMorphTangent(data[sourceId].nortan);
+    const float tangentW = fullTangent.w;
+    vec3 t=fullTangent.xyz;
+#else
+    vec3 n=data[sourceId].nor.xyz;
+    vec3 t=data[sourceId].tan.xyz;
+    const float tangentW = data[sourceId].tan.w;
+#endif
+
+    for (int i=0;i<activeCount;i++)
+    {
+        const float w = uObjects[morphSet+i/4].weight[i%4];
+        const uint id = uObjects[morphSet+i/4].target[i%4];
+
+        p+=data[sourceId+1+id].pos.xyz*w;
+#if defined(CORE_MORPH_USE_PACKED_NOR_TAN)
+        n+=UnpackMorphNormal(data[sourceId+1+id].nortan);
+        t+=UnpackMorphTangent(data[sourceId+1+id].nortan).xyz;
+#else
+        n+=data[sourceId+1+id].nor.xyz*w;
+        t+=data[sourceId+1+id].tan.xyz*w;
+#endif
+    }
+    posOut[baseid+0]=p.x;
+    posOut[baseid+1]=p.y;
+    posOut[baseid+2]=p.z;
+    n=normalize(n);
+    t=normalize(t);
+#if defined(CORE_MORPH_USE_16BIT_NOR_TAN)
+    norOut[tid * 2]=packSnorm2x16(n.xy);
+    norOut[tid * 2 + 1]=packSnorm2x16(vec2(n.z,0.0));
+    tanOut[tid * 2]=packSnorm2x16(t.xy);
+    tanOut[tid * 2 + 1]=packSnorm2x16(vec2(t.z,tangentW));
+#else
+    norOut[baseid+0]=n.x;
+    norOut[baseid+1]=n.y;
+    norOut[baseid+2]=n.z;
+    tanOut[tid]=vec4(t,tangentW);
+#endif
+    //TODO: "After applying morph targets to vertex positions and normals, tangent space may need to be recalculated. See Appendix A for details."
+    //I believe this is the case when tangent deltas do not exist. Need to specialize to skip tangent interpolation and to calculate the tangents.
+    //To calculate the tangents we need to add access to base objects UV. (but WHICH tangent space to use... if multiple texture coordinates)
+    //see https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#morph-targets
+}
+

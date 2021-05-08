@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<carrier_config_list>
+    <!--DT_AT 23203-->
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="5" />
+    </carrier_config>
+</carrier_config_list>

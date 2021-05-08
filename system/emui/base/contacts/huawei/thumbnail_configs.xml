@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thumbnail_config group="4" item="2" color="3">
+    <thumbnail>
+        <value>/system/emui/base/contacts/huawei/thumbnail/mountain_tree_01_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/mountain_tree_01_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/mountain_tree_01_08.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/mountain_tree_02_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/mountain_tree_02_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/mountain_tree_02_08.webp</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/huawei/thumbnail/snow_mountain_01_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/snow_mountain_01_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/snow_mountain_01_08.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/snow_mountain_02_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/snow_mountain_02_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/snow_mountain_02_08.webp</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/huawei/thumbnail/river_01_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/river_01_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/river_01_08.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/river_02_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/river_02_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/river_02_08.webp</value>
+    </thumbnail>
+    <thumbnail>
+        <value>/system/emui/base/contacts/huawei/thumbnail/sea_01_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/sea_01_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/sea_01_08.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/sea_02_06.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/sea_02_07.webp</value>
+        <value>/system/emui/base/contacts/huawei/thumbnail/sea_02_08.webp</value>
+    </thumbnail>
+    <me_thumbnail>
+        <value>/system/emui/base/contacts/huawei/thumbnail/me_0_0.webp</value>
+    </me_thumbnail>
+</thumbnail_config>

@@ -1,0 +1,15 @@
+{
+    "name": "BloomDownscaleThreshold",
+    "vert": "shaders://shader/FullscreenTriangle.vert.spv",
+    "frag": "shaders://shader/BloomDownscaleThreshold.frag.spv",
+    "slot": "NoSlot",
+    "state": {
+        "colorBlendState": {
+            "colorAttachments": [
+                {
+                    "colorWriteMask": "r_bit|g_bit|b_bit|a_bit"
+                }
+            ]
+        }
+    }
+}

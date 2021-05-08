@@ -1,0 +1,35 @@
+on early-boot
+    mkdir /data/samba_share 0750 system system
+    mkdir /data/samba_server 0750 system system
+    mkdir /data/samba_server/tmp 0750 system system
+    mkdir /data/samba_server/etc 0750 system system
+    mkdir /data/samba_server/lib 0750 system system
+    mkdir /data/samba_server/private 0750 system system
+    mkdir /data/samba_server/var 0750 system system
+    mkdir /data/samba_server/var/locks 0750 system system
+    mkdir /data/log/samba_log 0750 system system
+
+service smbd /system/bin/smbd -D
+    class late_start
+    disabled
+    oneshot
+    user system
+    group system sdcard_rw inet
+    seclabel u:r:smbd:s0
+
+service nmbd /system/bin/nmbd -D
+    class late_start
+    disabled
+    oneshot
+    user system
+    group system sdcard_rw inet
+    seclabel u:r:nmbd:s0
+
+service hwsyncd /system/bin/hwsyncd
+    disabled
+    oneshot
+    class main
+    user system
+    group system sdcard_rw
+    #socket samba_server_cmd stream 0660 system system
+    #mkdir /data/samba_server/tmp 0770 system system

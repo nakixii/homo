@@ -1,0 +1,49 @@
+{
+    "version": "1.0.0",
+    "uid_name": "bootfail",
+    "bootfail": {
+        "BootFail": [
+            {
+                "rule_prio":0,
+                "featureid":"690100500,690100501",
+                "EventInfoParam":{
+                    "BOOTERRORNO": "BasicParam.s_bootfailErrno",
+                    "BOOTSTAGE": "BasicParam.s_bootErrStage",
+                    "RECSELECT": "BasicParam.s_rcvMethod",
+                    "RECRESULT": "BasicParam.s_rcvResult",
+                    "ROOTORNOT": "BasicParam.s_rootOrNot",
+                    "ISUSERPERCEPTIBLE": "BasicParam.s_isUserPerceptible",
+                    "LEFTSPACE": "BasicParam.s_leftSpace",
+                    "BOOTUPTIME": "BasicParam.s_bootupTime",
+                    "REASON": "BasicParam.s_bootFailDetail"
+                },
+                "RelatedInfo":{
+                    "STAGETIMES": "BootupStage.s_stg1:BootupStage.s_stg2:BootupStage.s_stg3:BootupStage.s_stg4:BootupStage.s_stg5:BootupStage.s_stg6:BootupStage.s_stg7"
+                }
+            },
+           {
+                "rule_prio":1,
+                "featureid":"690100503",
+                "EventInfoParam":{
+                    "SUBTYPE": "BasicParam.s_subType",
+                    "F1NAME": "MainCallTrace.s_f1",
+                    "F2NAME": "MainCallTrace.s_f2",
+                    "TRUSTSTACK": "MainCallTrace.s_trace",
+                    "F3NAME": "MainCallTrace.s_f3",
+                    "REASON": "ExceptionReason.s_cause"
+                }
+            },
+           {
+                "rule_prio":2,
+                "featureid":"690100502",
+                "EventInfoParam":{
+                    "SUBTYPE": "BasicParam.s_subType",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "TRUSTSTACK": "CallTrace.s_trace",
+                    "F3NAME": "OtherParam.s_code"
+                }
+            }
+        ]
+    }
+}

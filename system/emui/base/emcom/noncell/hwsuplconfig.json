@@ -1,0 +1,99 @@
+{
+    "header": {
+        "emui": "11",
+        "version": "5"
+    },
+    "address": "supl.platform.hicloud.com",
+    "port": "7275",
+    "requirement" : [
+        {
+            "country" : "***",
+            "product" : [
+                {
+                    "productname" : "ANA-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "ELS-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "OCE-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "NOH-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "NOP-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "TET-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "ANG-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "BRQ-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "CDL-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "HCL-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "PPAH-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "DNN-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "YOR-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "JSC-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "HJC-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "CND-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "HCD-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "ALA-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "CHL-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "NTN-***",
+                    "version" : "***-***"
+                },
+                {
+                    "productname" : "WKG-***",
+                    "version" : "***-***"
+                }
+            ]
+        }
+    ]
+}

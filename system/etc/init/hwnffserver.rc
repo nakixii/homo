@@ -1,0 +1,21 @@
+service hwnffserver /system/bin/hwnffserver -d
+    user root
+    group system media_rw
+    seclabel u:r:hwnffserver:s0
+
+service hwnffearly  /system/bin/hwnffserver -e
+    class late_start
+    user root
+    group system media_rw
+    disabled
+    oneshot
+    seclabel u:r:hwnffserver:s0
+
+on property:hwnff.server.start=1
+    start hwnffserver
+
+on property:hwnff.server.start=0
+    stop hwnffserver
+
+on property:sys.boot_completed=1
+    start hwnffearly

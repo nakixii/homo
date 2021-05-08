@@ -1,0 +1,350 @@
+<zerohung version="1" >
+  <rules resolver="HungResolver">
+    <rule id="1" win="120" trigger="0x0201">   <!-- powerkey longpress 10s -->
+      <links type="wp">
+        <event id="0x0001">	<!-- hungtask -->
+           <result code="901004000" scope="sys" action="none"/>
+        </event>
+        <event id="0x0002">	<!-- screen on -->
+         <result code="901004000" scope="sys" action="none"/>
+        </event>
+        <event id="0x0003">	<!-- screen off -->
+           <result code="901004000" scope="sys" action="none"/>
+        </event>
+        <event id="0x0004">	<!-- sr -->
+           <result code="901004000" scope="hw" action="none"/>
+        </event>
+        <event id="0x0009">	<!-- TP -->
+           <result code="901004000" scope="hw" action="none"/>
+        </event>
+        <event id="0x0010">	<!-- LCD -->
+           <result code="901004000" scope="hw" action="none"/>
+        </event>
+        <event id="0x0014">	<!-- UFS -->
+           <result code="901004000" scope="hw" action="none"/>
+        </event>
+        <event id="0x000D">	<!-- GPU -->
+           <result code="901004000" scope="hw" action="none"/>
+        </event>
+        <event id="0x0013">	<!-- IPC OBJECT -->
+           <result code="901004000" scope="sys" action="none"/>
+        </event>
+        <event id="0x0016">	<!-- VMWatchdog -->
+           <result code="901004000" scope="sys" action="none"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="2" win="8" trigger="0x0002">	<!-- screen on -->
+      <links type="user">
+        <event id="0x0202">	<!-- powerkey -->
+          <result code="901004000" scope="sys" action="none">
+            <relevance>0x000B</relevance>
+          </result>
+        </event>
+      </links>
+    </rule>
+    <rule id="3" win="10" trigger="0x0202">	<!-- powerkey -->
+      <links type="wp">
+        <event id="0x0002">	<!-- screen on -->
+          <result code="901004000" scope="sys" action="none">
+            <relevance>0x000B</relevance>
+          </result>
+        </event>
+      </links>
+    </rule>
+    <rule id="4" win="30" trigger="0x0016">	<!-- VMWatchdog -->
+      <links type="wp">
+        <event id="0x0016">	<!-- VMWatchdog, fatal error report immediately-->
+          <result code="901004000" scope="sys" action="none"/>
+        </event>
+      </links>
+    </rule>
+    <rule id="5" win="30" trigger="0x0017">	<!-- AppEyeFreeze -->
+      <links type="wp">
+        <event id="0x0017">	<!-- AppEyeFreeze error report immediately-->
+          <result code="901004005" scope="" action="none"> <!-- scope reported by watchpoint -->
+            <relevance>0x0005,0x0006,0x0007,0x0008,0x000A,0x000D,0x0012,0x0013,0x0014,0x0019</relevance>
+          </result>
+        </event>
+      </links>
+    </rule>
+    <rule id="6" win="30" trigger="0x0018"> <!-- AppEyeFreezeWarning -->
+      <links type="wp">
+        <event id="0x0018">   <!-- AppEyeFreezeWarning error report immediately-->
+          <result code="901004006" scope="" action="none"> <!-- scope reported by watchpoint -->
+            <relevance>0x0005,0x0006,0x0007,0x0008,0x000A,0x000D,0x0012,0x0013,0x0014,0x0019</relevance>
+          </result>
+        </event>
+      </links>
+    </rule>
+    <rule id="7" win="0" trigger="0x001C"> <!-- Bigdata -->
+      <links type="wp">
+        <event id="0x001C"> <!-- Bigdata -->
+          <result code="901004007" scope="none" action="none"/> <!-- report bigdata -->
+        </event>
+      </links>
+    </rule>
+  </rules>
+  <rules resolver="AppEyeResolver">
+    <rule id="1" win="0" trigger="0x0104">	<!-- APPEYE_UIP_INPUT -->
+      <links type="wp">
+        <event id="0x0104">	<!-- APPEYE_UIP_INPUT -->
+          <result code="901004005" scope="app" action="extractTriggerInfo-notifyUser"/> <!-- only notify user -->
+        </event>
+      </links>
+    </rule>
+    <rule id="2" win="30" trigger="0x0103">	<!-- APPEYE_UIP_SLOW -->
+      <links type="wp">
+        <event id="0x0101">	<!-- APPEYE_UIP_WARNING -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x010F">	<!-- APPEYE_FWB_FREEZE -->
+          <result code="901004006" scope="sys" action="recoverReport"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="3" win="30" trigger="0x0107">	<!-- APPEYE_MTO_INPUT -->
+      <links type="wp">
+        <event id="0x0105">	<!-- APPEYE_MTO_FREEZE -->
+          <result code="0" scope="" action="extractTriggerInfo-notifyUser"/> <!-- only notify user -->
+        </event>
+        <event id="0x010F">	<!-- APPEYE_FWB_FREEZE -->
+          <result code="901004005" scope="sys" action="extractLinkedInfo-killTarget"/> <!-- kill blocking app directly -->
+        </event>
+      </links>
+    </rule>
+    <rule id="4" win="30" trigger="0x0106">	<!-- APPEYE_MTO_SLOW -->
+      <links type="wp">
+        <event id="0x0106">	<!-- APPEYE_MTO_SLOW -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="5" win="30" trigger="0x0109">	<!-- APPEYE_CL user kill app -->
+      <links type="wp">
+        <event id="0x0101">	<!-- APPEYE_UIP_WARNING -->
+          <result code="901004006" scope="app" action="checkPkgName"/> <!-- report warning -->
+        </event>
+        <event id="0x0102">	<!-- APPEYE_UIP_FREEZE -->
+          <result code="901004006" scope="app" action="checkPkgName"/> <!-- report freeze -->
+        </event>
+        <event id="0x0105">	<!-- APPEYE_MTO_FREEZE -->
+          <result code="901004006" scope="app" action="checkPkgName"/> <!-- report freeze -->
+        </event>
+        <event id="0x0110">	<!-- APPEYE_NFW no focus window -->
+          <result code="901004006" scope="app" action="checkPkgName"/> <!-- report freeze -->
+        </event>
+        <event id="0x0111">	<!-- APPEYE_TWIN Transparent window -->
+          <result code="901004006" scope="app" action="checkPkgName"/> <!-- report warning -->
+        </event>
+        <event id="0x010F">	<!-- APPEYE_FWB_FREEZE -->
+          <result code="901004006" scope="sys" action="recoverReport"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="6" win="30" trigger="0x010A">	<!-- APPEYE_CLA user kill all app -->
+      <links type="wp">
+        <event id="0x0101">	<!-- APPEYE_UIP_WARNING -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x0102">	<!-- APPEYE_UIP_FREEZE -->
+          <result code="901004006" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0105">	<!-- APPEYE_MTO_FREEZE -->
+          <result code="901004006" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0110">	<!-- APPEYE_NFW no focus window -->
+          <result code="901004006" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0111">	<!-- APPEYE_TWIN Transparent window -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x010F">	<!-- APPEYE_FWB_FREEZE -->
+          <result code="901004006" scope="sys" action="recoverReport"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="7" win="30" trigger="0x010D">	<!-- APPEYE_CANR -->
+      <links type="wp">
+        <event id="0x010D">	<!-- APPEYE_CANR -->
+          <result code="901004005" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+      </links>
+    </rule>
+    <rule id="8" win="30" trigger="0x010C">	<!-- APPEYE_MANR -->
+      <links type="wp">
+        <event id="0x010C">	<!-- APPEYE_MANR -->
+          <result code="901004006" scope="sys" action="none"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="9" win="30" trigger="0x010F">	<!-- APPEYE_FWB_FREEZE -->
+      <links type="wp">
+        <event id="0x0101">	<!-- APPEYE_UIP_WARNING -->
+          <result code="901004006" scope="sys" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x0102">	<!-- APPEYE_UIP_FREEZE -->
+          <result code="901004005" scope="sys" action="extractTriggerInfo-killTarget"/> <!-- report freeze -->
+        </event>
+        <event id="0x0105">	<!-- APPEYE_MTO_FREEZE -->
+          <result code="901004005" scope="sys" action="extractTriggerInfo-killTarget"/> <!-- report freeze -->
+        </event>
+        <event id="0x010B">	<!-- APPEYE_ANR -->
+          <result code="901004005" scope="sys" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0110">	<!-- APPEYE_NFW no focus window -->
+          <result code="901004006" scope="sys" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0111">	<!-- APPEYE_TWIN Transparent window -->
+          <result code="901004006" scope="sys" action="none"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="10" win="30" trigger="0x0113">    <!-- APPEYE_SBF -->
+      <links type="wp">
+        <event id="0x0113">   <!-- APPEYE_SBF -->
+          <result code="0" scope="" action="extractTriggerInfo-killMultiTarget"/> <!-- try recover, do not report -->
+        </event>
+      </links>
+    </rule>
+    <rule id="11" win="30" trigger="0x010B">	<!-- APPEYE_ANR -->
+      <links type="wp">
+        <event id="0x0101">	<!-- APPEYE_UIP_WARNING -->
+          <result code="0" scope="app" action="checkPkgName-extractTriggerInfo-notifyUser"/> <!-- only notify user for same app -->
+        </event>
+        <event id="0x0102">	<!-- APPEYE_UIP_FREEZE -->
+          <result code="0" scope="app" action="checkPkgName-extractTriggerInfo-notifyUser"/> <!-- only notify user for same app -->
+        </event>
+        <event id="0x0105">	<!-- APPEYE_MTO_FREEZE -->
+          <result code="0" scope="app" action="checkPkgName-extractTriggerInfo-notifyUser"/> <!-- only notify user for same app -->
+        </event>
+        <event id="0x0110">	<!-- APPEYE_NFW no focus window -->
+          <result code="0" scope="app" action="checkPkgName-extractTriggerInfo-notifyUser"/> <!-- only notify user for same app -->
+        </event>
+        <event id="0x0111">	<!-- APPEYE_TWIN Transparent window -->
+          <result code="0" scope="app" action="checkPkgName-extractTriggerInfo-notifyUser"/> <!-- only notify user for same app -->
+        </event>
+        <event id="0x010F">	<!-- APPEYE_FWB_FREEZE -->
+          <result code="901004005" scope="sys" action="recoverReport"/> <!-- report fault -->
+        </event>
+      </links>
+    </rule>
+    <rule id="12" win="120" trigger="0x0116">	<!-- APPEYE_RECOVER_RESULT -->
+      <links type="wp">
+        <event id="0x0101">	<!-- APPEYE_UIP_WARNING -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x0102">	<!-- APPEYE_UIP_FREEZE -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x0104">	<!-- APPEYE_UIP_INPUT -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x0105">	<!-- APPEYE_MTO_FREEZE -->
+          <result code="901004006" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0110">	<!-- APPEYE_NFW no focus window -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x0111">	<!-- APPEYE_TWIN Transparent window -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="13" win="6" trigger="0x0203">	<!-- ZRHUNG_EVENT_HOMEKEY -->
+      <links type="wp">
+        <event id="0x0101">	<!-- APPEYE_UIP_WARNING -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x0102">	<!-- APPEYE_UIP_FREEZE -->
+          <result code="901004005" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0105">	<!-- APPEYE_MTO_FREEZE -->
+          <result code="901004006" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0110">	<!-- APPEYE_NFW no focus window -->
+          <result code="901004006" scope="app" action="none"/> <!-- report freeze -->
+        </event>
+        <event id="0x0111">	<!-- APPEYE_TWIN Transparent window -->
+          <result code="901004006" scope="app" action="none"/> <!-- report warning -->
+        </event>
+        <event id="0x010F">	<!-- APPEYE_FWB_FREEZE -->
+          <result code="901004006" scope="app" action="recoverReport"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="14" win="60" trigger="0x011A">    <!-- APPEYE_SBF_FREEZE -->
+      <links type="wp">
+        <event id="0x0113">   <!-- APPEYE_SBF -->
+          <result code="901004005" scope="sys" action="backupLogs-recoverReport"/> <!-- restart VM -->
+        </event>
+      </links>
+    </rule>
+    <rule id="15" win="30" trigger="0x011B">  <!-- APPEYE_SBF_RECOVER -->
+      <links type="wp">
+        <event id="0x0113"> <!-- APPEYE_SBF -->
+          <result code="901004005" scope="sys" action="recoverReport"/> <!-- report recover result -->
+        </event>
+      </links>
+    </rule>
+    <rule id="16" win="0" trigger="0x0111"> <!-- APPEYE_TWIN -->
+      <links type="wp">
+        <event id="0x0111"> <!-- APPEYE_TWIN -->
+          <result code="901004005" scope="app" action="checkIsFault-extractTriggerInfo-killTarget"/> <!-- kill bad app -->
+        </event>
+      </links>
+    </rule>
+    <rule id="17" win="10" trigger="0x0108"> <!-- APPEYE_BF -->
+      <links type="wp">
+        <event id="0x0110"> <!-- APPEYE_NFW no focus window -->
+          <result code="901004006" scope="app" action="none"/> <!-- notify user -->
+        </event>
+      </links>
+    </rule>
+    <rule id="18" win="0" trigger="0x011E"> <!-- APPEYE_SUIP_INPUT -->
+      <links type="wp">
+        <event id="0x011E"> <!-- APPEYE_SUIP_INPUT -->
+          <result code="901004005" scope="app" action="extractTriggerInfo-killTarget"/> <!-- kill systemUI -->
+        </event>
+      </links>
+    </rule>
+    <rule id="19" win="30" trigger="0x010E"> <!-- APPEYE_FWB_WARNING -->
+      <links type="wp">
+        <event id="0x010E"> <!-- APPEYE_FWB_WARNING -->
+          <result code="0" scope="sys" action="killTarget"/> <!-- report warning -->
+        </event>
+      </links>
+    </rule>
+    <rule id="20" win="30" trigger="0x0120"> <!-- APPEYE_FWB_RECOVER -->
+      <links type="wp">
+        <event id="0x010E"> <!-- APPEYE_FWB_WARNING -->
+          <result code="0" scope="sys" action="recoverReport"/> <!-- report recover result -->
+        </event>
+      </links>
+    </rule>
+    <rule id="21" win="6" trigger="0x0204"> <!-- BACK_KEY -->
+      <links type="wp">
+        <event id="0x0102"> <!-- APPEYE_UIP_FREEZE -->
+          <result code="901004005" scope="app" action="extractLinkedInfo-notifyUser"/> <!-- only notify user for same app -->
+        </event>
+        <event id="0x0110"> <!-- APPEYE_NFW_no_focus_window -->
+          <result code="901004005" scope="app" action="extractLinkedInfo-notifyUser"/> <!-- only notify user for same app -->
+        </event>
+      </links>
+    </rule>
+	<rule id="22" win="0" trigger="0x0121"> <!-- APPEYE_REESUME -->
+      <links type="wp">
+        <event id="0x0121">	<!-- APPEYE_REESUME -->
+          <result code="901004005" scope="app" action="checkPkgName"/> <!-- only notify user for same app -->
+        </event>
+      </links>
+    </rule>
+	<rule id="23" win="0" trigger="0x0126"> <!-- NATIVE_CRASH -->
+      <links type="wp">
+        <event id="0x0126">	<!-- APPNATIVE_CRASH -->
+          <result code="901004005" scope="app" action="checkPkgName"/> <!-- only notify user for same app -->
+        </event>
+      </links>
+    </rule>
+  </rules>
+</zerohung>

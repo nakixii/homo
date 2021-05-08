@@ -1,0 +1,84 @@
+<erecovery>
+  <section cat="0">
+    <Erecovery id="400000000" DefaultID="901005000" name="BFM_BL1_REBOOT" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400000015" DefaultID="901005000" name="BFM_BL1_SELF_RECOVERY" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003002" DefaultID="901005000" name="BFM_NATIVE_FACTORY_RESET" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003003" DefaultID="901005000" name="BFM_NATIVE_SAFE_MODE" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003011" DefaultID="901005000" name="BFM_NATIVE_BOPD(READ_ONLY)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004015" DefaultID="901005000" name="BFM_FWK_SELF_RECOVERY" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="401008000" DefaultID="901004000" name="ZRHUNG_WP_HUNGTASK_REBOOT" enable="1" CheckTime="90" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="401011005" DefaultID="901004003" name="XCOLLIE_KILL_PROCESS" enable="1" CheckTime="0" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="406003000" DefaultID="901000004" name="UNKNOWN_FAULT_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="400000004" DefaultID="901005000" name="BFM_BL1_DOWNLOAD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002014" DefaultID="901005000" name="BFM_KERNEL_BOPD(DOWNLAOD_HARDWARE_DEGRADATION)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003010" DefaultID="901005000" name="BFM_NATIVE_BOPD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004000" DefaultID="901005000" name="BFM_FWK_REBOOT" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004012" DefaultID="901005000" name="BFM_FWK_BOPD(HARDWARE_DEGRADATION)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004014" DefaultID="901005000" name="BFM_FWK_BOPD(DOWNLAOD_HARDWARE_DEGRADATION)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="401006000" DefaultID="901004000" name="APPEYE_VMWDT_REBOOT" enable="1" CheckTime="60" RecoveryTime="60" Reserved="no"></Erecovery>
+    <Erecovery id="401007005" DefaultID="901004006" name="APPEYE_UIP_INPUT_KILL_PROCESS" enable="1" CheckTime="5" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="403001016" DefaultID="901001004" name="APP_CRASH_RESTART_APPLICATION" enable="1" CheckTime="2" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="406005000" DefaultID="901000006" name="BOOTLOADER_CRASH_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="406006000" DefaultID="901000007" name="LPM3_EXCEPTION_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="406007000" DefaultID="901000008" name="TRUSTZONE_REBOOTSYS_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="400001000" DefaultID="901005000" name="BFM_BL2_REBOOT" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002010" DefaultID="901005000" name="BFM_KERNEL_BOPD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002011" DefaultID="901005000" name="BFM_KERNEL_BOPD(READ_ONLY)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003000" DefaultID="901005000" name="BFM_NATIVE_REBOOT" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003004" DefaultID="901005000" name="BFM_NATIVE_DOWNLOAD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003012" DefaultID="901005000" name="BFM_NATIVE_BOPD(HARDWARE_DEGRADATION)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003013" DefaultID="901005000" name="BFM_NATIVE_BOPD(DOWNLOAD)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003015" DefaultID="901005000" name="BFM_NATIVE_SELF_RECOVERY" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004003" DefaultID="901005000" name="BFM_FWK_SAFE_MODE" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="401001005" DefaultID="901004005" name="APPEYE_TWIN_KILL_PROCESS" enable="1" CheckTime="5" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="401003001" DefaultID="901004005" name="APPEYE_SBF_FREEZE_VM_REBOOT" enable="1" CheckTime="12" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="401007006" DefaultID="901004006" name="APPEYE_UIP_INPUT_NOTIFY_USER" enable="1" CheckTime="5" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="401007999" DefaultID="901004006" name="APPEYE_UIP_INPUT_UNIVERSAL_METHOD" enable="1" CheckTime="7" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="401009000" DefaultID="901004000" name="ZRHUNG_WP_SR_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="401012001" DefaultID="901004000" name="IPC_MONITOR_VM_REBOOT" enable="1" CheckTime="40" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="403001017" DefaultID="901001004" name="APP_CRASH_CLEAR_CACHE" enable="1" CheckTime="60" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="403001018" DefaultID="901001004" name="APP_CRASH_REINSTALL_APPLICATION" enable="1" CheckTime="60" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="406001000" DefaultID="901000002" name="PANIC_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="406002000" DefaultID="901000003" name="HW_WATCHDOG_REBOOT" enable="1" CheckTime="0" RecoveryTime="70" Reserved="no"></Erecovery>
+    <Erecovery id="406010000" DefaultID="901000002" name="PANIC_REBOOT" enable="1" CheckTime="0" RecoveryTime="115" Reserved="no"></Erecovery>
+    <Erecovery id="400001004" DefaultID="901005000" name="BFM_BL2_DOWNLOAD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400001015" DefaultID="901005000" name="BFM_BL2_SELF_RECOVERY" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002000" DefaultID="901005000" name="BFM_KERNEL_REBOOT" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002004" DefaultID="901005000" name="BFM_KERNEL_DOWNLOAD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002012" DefaultID="901005000" name="BFM_KERNEL_BOPD(HARDWARE_DEGRADATION)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002013" DefaultID="901005000" name="BFM_KERNEL_BOPD(DOWNLOAD)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400002015" DefaultID="901005000" name="BFM_KERNEL_SELF_RECOVERY" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400003014" DefaultID="901005000" name="BFM_NATIVE_BOPD(DOWNLAOD_HARDWARE_DEGRADATION)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004002" DefaultID="901005000" name="BFM_FWK_FACTORY_RESET" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004004" DefaultID="901005000" name="BFM_FWK_DOWNLOAD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004010" DefaultID="901005000" name="BFM_FWK_BOPD" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004011" DefaultID="901005000" name="BFM_FWK_BOPD(READ_ONLY)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="400004013" DefaultID="901005000" name="BFM_FWK_BOPD(DOWNLOAD)" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="401000005" DefaultID="901004005" name="FWB_FREEZE_KILL_PROCESS" enable="1" CheckTime="12" RecoveryTime="12" Reserved="no"></Erecovery>
+    <Erecovery id="401002005" DefaultID="901004005" name="APPEYE_SBF_KILL_PROCESS" enable="1" CheckTime="5" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="401005006" DefaultID="901004006" name="APPEYE_NFW_NOTIFY_USER" enable="1" CheckTime="7" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="401012005" DefaultID="901004000" name="IPC_MONITOR_KILL_PROCESS" enable="1" CheckTime="30" RecoveryTime="5" Reserved="no"></Erecovery>
+    <Erecovery id="406004000" DefaultID="901000005" name="HARDWARE_FAULT_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="406008000" DefaultID="901000009" name="MODEM_REBOOTSYS_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="406009000" DefaultID="901000010" name="PRESS10S_RESET_REBOOT" enable="1" CheckTime="0" RecoveryTime="55" Reserved="no"></Erecovery>
+    <Erecovery id="421000021" DefaultID="905000010" name="PERFORMANCE_APP_MEMORYLEAK" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="421001022" DefaultID="905100000" name="PERFORMANCE_APP_CRASH" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="440000023" DefaultID="903009025" name="POWERTHERMAL_KERNEL_WAKELOCK" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="440001024" DefaultID="903009025" name="POWERTHERMAL_DRIVER_WAKELOCK" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+    <Erecovery id="442000025" DefaultID="903009036" name="POWERTHERMAL_APP_KILL" enable="1" CheckTime="65535" RecoveryTime="65535" Reserved="no"></Erecovery>
+  </section>
+  <section cat="1">
+    <Erecovery id="000" name="FAST_REBOOT" type="Native" priority="1" enable="1" function="FastReboot" Reserved="no"></Erecovery>
+    <Erecovery id="001" name="VM_REBOOT" type="Native" priority="1" enable="1" function="VMReboot" Reserved="no"></Erecovery>
+    <Erecovery id="002" name="RESET" type="Framework" priority="1" enable="1" function="Reset" Reserved="no"></Erecovery>
+    <Erecovery id="003" name="SECURITY_MODE" type="Framework" priority="1" enable="1" function="SecurityMode" Reserved="no"></Erecovery>
+    <Erecovery id="004" name="KILL_SYSTEMSERVER" type="Native" priority="1" enable="1" function="KillSystemServer" Reserved="no"></Erecovery>
+    <Erecovery id="005" name="KILL_SYSTEMUI" type="Native" priority="1" enable="1" function="KillSystemUI" Reserved="no"></Erecovery>
+    <Erecovery id="006" name="KILL_LAUNCH" type="Native" priority="1" enable="1" function="KillLaunch" Reserved="no"></Erecovery>
+  </section>
+  <!-- mode 0: whitelist, 1: all-->
+  <section cat="2" enable="1" mode="1" enableNative = "1" interval = "60000">
+      <!-- put all the package names in content, separated by semicolon -->
+    <WhiteList content="com.android.settings" />
+  </section> 
+</erecovery>

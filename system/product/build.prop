@@ -1,0 +1,5 @@
+
+#
+# ADDITIONAL PRODUCT PROPERTIES
+#
+ro.boot.dynamic_partitions=true

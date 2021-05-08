@@ -1,0 +1,7 @@
+on property:persist.sys.pasteboard.distribute=true
+    start aserviceproxy_shell
+
+service aserviceproxy_shell /system/bin/sa_main /system/profile/aserviceproxy_shell.xml
+    user system
+    group system shell
+    seclabel u:r:aserviceshell:s0

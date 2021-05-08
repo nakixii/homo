@@ -1,0 +1,16 @@
+on post-fs-data
+    mkdir /data/sadata_de
+    chmod 770 /data/sadata_de
+    chown system system /data/sadata_de
+    restorecon_recursive /data/sadata_de
+
+    mkdir /data/sadata_de/samgr
+    chmod 770 /data/sadata_de/samgr
+    chown system system /data/sadata_de/samgr
+    restorecon_recursive /data/sadata_de/samgr
+
+    start samgr
+
+service samgr /system/bin/samgr
+    user system
+    group system

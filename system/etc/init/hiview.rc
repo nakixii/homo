@@ -1,0 +1,20 @@
+## Service definition
+service hiview /system/bin/hiview
+    class late_start
+    user root
+    group system log readproc sdcard_r sdcard_rw dsm media_rw
+    seclabel u:r:logserver:s0
+    writepid /dev/cpuset/system-background/tasks
+
+on property:persist.sys.hiview.debug=0
+    setprop persist.sys.huawei.debug.on 0
+
+on property:persist.sys.hiview.debug=1
+    setprop persist.sys.huawei.debug.on 1
+
+on property:ro.logsystem.usertype=*
+    mkdir /data/system/hiview
+    chmod 0775 /data/system/hiview
+    chown system system /data/system/hiview
+    restorecon_recursive /data/system/hiview
+

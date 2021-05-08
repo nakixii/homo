@@ -1,0 +1,41 @@
+on init
+# for contexthub
+chown radio system /dev/flp
+chmod 0660 /dev/flp
+chown radio system /dev/ar
+chmod 0660 /dev/ar
+
+on post-fs-data
+    mkdir /data/camera
+    chown media camera /data/camera
+    chmod 770 /data/camera
+    chmod 664 /data/camera/hisi_sensor0
+    chmod 664 /data/camera/hisi_sensor1
+    chmod 664 /data/camera/ois_shake_info
+    mkdir /data/camera/img
+    chown media camera /data/camera/img
+    chmod 770 /data/camera/img
+    mkdir /data/system/zram
+    chown system system /data/system/zram
+    chmod 700 /data/system/zram
+
+    mkdir /data/hisi_logs
+    chmod 0770 /data/hisi_logs
+    chown root system /data/hisi_logs
+    restorecon_recursive /data/hisi_logs
+
+    mkdir /data/log/mdfx 0770 root system
+
+on property:sys.boot_completed=1
+    rm /data/hisi_logs/reboot_times.log
+    bootchart stop
+
+#on property:ro.runmode=*
+#    start telemntncat
+
+#service telemntncat /system/bin/dmesgcat
+#    class late_start
+#    user root
+#    group system
+#    disabled
+#    writepid /dev/cpuset/background/tasks

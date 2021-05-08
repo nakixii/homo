@@ -1,0 +1,4 @@
+service player_sa /system/bin/sa_main /system/profile/player_sa.xml
+user media
+group system shell
+seclabel u:r:playerdistributedservice:s0

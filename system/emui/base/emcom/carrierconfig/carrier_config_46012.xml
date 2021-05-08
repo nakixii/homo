@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="utParamsCfg">1:1,4:1</string>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <int name="callWaitingMode" value="11" />
+        <string name="ssTypeUseCsOnly">1,3,12</string>
+        <boolean name="utCanUseWifi" value="false" />
+        <string name="ssTypeForbidFallbackCS">5,7,8,9,10,11</string>
+        <boolean name="CFNRcChangeWithCFNL" value="false" />
+        <string name="utRetryInterval">5000,5000</string>
+        <boolean name="telecom_hd_icon" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <boolean name="preferToUseUT" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <process>distributeddata</process>
+    <loadlibs>
+        <libpath>libdistributeddataservice.z.so</libpath>
+    </loadlibs>
+    <systemability>
+        <name>1301</name><!-- Declare DistributedKvDataService SytemAbilityID-->
+        <libpath>libdistributeddataservice.z.so</libpath>
+        <run-on-create>true</run-on-create>
+        <distributed>false</distributed>
+        <dump-level>1</dump-level>
+    </systemability>
+</info>

@@ -1,0 +1,7 @@
+on boot
+    start hsensors
+
+service hsensors /system/bin/sa_main /system/profile/hsensors.xml
+    user system
+    group system shell
+    seclabel u:r:hsensors:s0

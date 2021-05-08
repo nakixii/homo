@@ -1,0 +1,4 @@
+version=1.11.20.005
+type=CARRIERCONFIG
+subtype=generic
+compatibleVersion=1

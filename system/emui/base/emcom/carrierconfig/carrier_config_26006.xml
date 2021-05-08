@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- PLAY PL -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="6" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <!--Google Message config end -->
+        <!-- Volte UI -->
+        <!-- Vowifi UI -->
+    </carrier_config>
+</carrier_config_list>

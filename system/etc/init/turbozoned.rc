@@ -1,0 +1,6 @@
+service turbozoned /system/bin/turbozoned
+    disabled
+    oneshot
+    class main
+    user system
+    group system

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- DT DE -->
+    <carrier_config>
+        <!-- Volte UI -->
+        <!-- Vowifi UI -->
+        <string name="dt_profile">1</string>
+        <!--DT RCS -->
+        <string name="huawei_rcs_enabler">true</string>
+        <!--DT RCS -->
+        <!--GOOGLE RCS, used by Google apk CarrierService-->
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+</carrier_config_list>

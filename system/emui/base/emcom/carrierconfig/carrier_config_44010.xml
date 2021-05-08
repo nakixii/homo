@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- DCM JP-->
+    <carrier_config>
+        <!--Google CellBrocast config begin -->
+        <long name="message_expiration_time_long" value="3600000" />
+        <!--Google CellBrocast config end -->
+    </carrier_config>
+</carrier_config_list>

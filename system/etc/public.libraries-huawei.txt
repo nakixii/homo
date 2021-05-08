@@ -1,0 +1,3 @@
+libautotune.huawei.so
+libteec.huawei.so
+libiGraphicsCore.huawei.so

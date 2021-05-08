@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+    <!-- SFR FR -->
+<carrier_config_list>
+    <carrier_config>
+        <!-- Volte UI -->
+        <!-- Vowifi UI -->
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value=""/>
+        </string-array>
+        <!--Google Message config begin -->
+        <int name="maxMessageSize" value="614400" />
+        <!--Google Message config end -->
+    </carrier_config>
+</carrier_config_list>

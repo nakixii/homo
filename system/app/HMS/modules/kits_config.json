@@ -1,0 +1,254 @@
+{
+    "priority_install": [
+        "Framework-common",
+        "Framework-manager",
+        "Framework-runtime",
+        "Framework-ui",
+        "Framework-privacy"
+    ],
+    "kits": [
+        {
+            "version_code": "10005303",
+            "kit_type": "app",
+            "kit_name": "drmkitclient",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.drmkitclient",
+            "apk_name": "DRM-client.apk",
+            "minSdkVersion": "24",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,1;kpms,1;runtime,1;kams,1",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50002300",
+            "kit_type": "app",
+            "kit_name": "site",
+            "api_level": "6",
+            "pkg_name": "com.huawei.hms.kit.site",
+            "apk_name": "Site.apk",
+            "minSdkVersion": "19",
+            "dependencies": "site,6;fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,4;kpms,3;runtime,3;kams,3",
+            "main_entry": "com.huawei.hms.kit.site.request.MainEntry"
+        },
+        {
+            "version_code": "50003300",
+            "kit_type": "app",
+            "kit_name": "hihealth",
+            "api_level": "3",
+            "pkg_name": "com.huawei.hms.hihealth",
+            "apk_name": "Health.apk",
+            "minSdkVersion": "21",
+            "dependencies": "hihealth,3;fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,5;kpms,3;runtime,7;kams,3;apptouch,1",
+            "main_entry": "com.huawei.hms.hihealth.service.api.MainEntry"
+        },
+        {
+            "version_code": "50003305",
+            "kit_type": "app",
+            "kit_name": "ekr",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.ekr",
+            "apk_name": "Framework-ekr.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;hmscore,6;runtime,4;kams,4",
+            "main_entry": "com.huawei.hms.ekr.MainEntry"
+        },
+        {
+            "version_code": "20001300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_mlkit_ocr",
+            "api_level": "3",
+            "pkg_name": "com.huawei.hms.mlkit.ocr",
+            "apk_name": "ML-ocr.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "huawei_module_dynamicloader,2",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50003305",
+            "kit_type": "app;app",
+            "kit_name": "kpms;kams",
+            "api_level": "7;7",
+            "pkg_name": "com.huawei.hms.fwkit",
+            "apk_name": "Framework-manager.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-util,3;fwcom-grs,1;fwui,5;hmscore,6;runtime,10",
+            "main_entry": "com.huawei.hms.fwkit.kpms.MainEntry;"
+        },
+        {
+            "version_code": "50003304",
+            "kit_type": "app",
+            "kit_name": "oobe",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.oobe",
+            "apk_name": "Framework-oobe.apk",
+            "minSdkVersion": "19",
+            "main_entry": ""
+        },
+        {
+            "version_code": "10240301",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_scankit",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.scankit",
+            "apk_name": "Scan.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "huawei_module_dynamicloader,2",
+            "main_entry": ""
+        },
+        {
+            "version_code": "40001300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_networkkit",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.networkkit",
+            "apk_name": "Network-networkkit.apk",
+            "minSdkVersion": "15",
+            "main_entry": ""
+        },
+        {
+            "version_code": "10015301",
+            "kit_type": "loader",
+            "kit_name": "huawei_module_dynamicloader",
+            "api_level": "4",
+            "pkg_name": "com.huawei.hms.dynamicloader",
+            "apk_name": "DynamicLoader.apk",
+            "minSdkVersion": "19",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50003305",
+            "kit_type": "app",
+            "kit_name": "kitstore",
+            "api_level": "2",
+            "pkg_name": "com.huawei.hms.kitstore",
+            "apk_name": "Framework-kitstore.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-util,2;fwcom-grs,1;fwui,5;hmscore,6;runtime,4",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50000301",
+            "kit_type": "app",
+            "kit_name": "realname",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.realname",
+            "apk_name": "RealName-core.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,1;huawei_module_dynamicloader,2;kpms,1;runtime,1;kams,1",
+            "main_entry": "com.huawei.hms.realname.MainEntry"
+        },
+        {
+            "version_code": "10000325",
+            "kit_type": "app",
+            "kit_name": "mlkit",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.mlkit.service",
+            "apk_name": "ML.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,1;kpms,1;runtime,1;kams,1",
+            "main_entry": "com.huawei.hms.mlkit.service.MainEntry"
+        },
+        {
+            "version_code": "50003304",
+            "kit_type": "app",
+            "kit_name": "privacykit",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.privacy",
+            "apk_name": "Framework-privacy.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;hmscore,6;runtime,8",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50003305",
+            "kit_type": "app",
+            "kit_name": "runtime",
+            "api_level": "10",
+            "pkg_name": "com.huawei.hms.runtimekit",
+            "apk_name": "Framework-runtime.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;hmscore,6;kpms,7;runtime,4",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50003304",
+            "kit_type": "app",
+            "kit_name": "fwui",
+            "api_level": "5",
+            "pkg_name": "com.huawei.hms.fwui",
+            "apk_name": "Framework-ui.apk",
+            "minSdkVersion": "19",
+            "dependencies": "kitstore,2;fwcom-grs,1;fwcom-util,1;hmscore,6;runtime,8",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50002308",
+            "kit_type": "app",
+            "kit_name": "fido",
+            "api_level": "400",
+            "pkg_name": "com.huawei.hms.fido",
+            "apk_name": "FIDO.apk",
+            "minSdkVersion": "23",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,6;kpms,3;runtime,9;kams,3;apptouch,1",
+            "main_entry": "com.huawei.hms.fido.MainEntry"
+        },
+        {
+            "version_code": "50002304",
+            "kit_type": "app",
+            "kit_name": "location",
+            "api_level": "4",
+            "pkg_name": "com.huawei.hms.location",
+            "apk_name": "LocationROM.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,6;kpms,3;runtime,6;kams,3;apptouch,1",
+            "main_entry": "com.huawei.hms.location.MainEntry"
+        },
+        {
+            "version_code": "10000301",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_jsb",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.jsb",
+            "apk_name": "Framework-jsb.apk",
+            "minSdkVersion": "19",
+            "dependencies": "hmscore,1;huawei_module_dynamicloader,4",
+            "main_entry": ""
+        },
+        {
+            "version_code": "40003301",
+            "kit_type": "app",
+            "kit_name": "hianalytics",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.analytics",
+            "apk_name": "Analytics.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,1;kpms,1;runtime,1;kams,1",
+            "main_entry": "com.huawei.hms.analytics.request.MainEntry"
+        },
+        {
+            "version_code": "50002300",
+            "kit_type": "app",
+            "kit_name": "push",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.push",
+            "apk_name": "Push.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,3;kpms,3;runtime,6;kams,3;apptouch,1",
+            "main_entry": "com.huawei.hms.push.MainEntry"
+        },
+        {
+            "version_code": "50003305",
+            "kit_type": "app;app;app",
+            "kit_name": "fwcom-grs;fwcom-util;apptouch",
+            "api_level": "1;3;1",
+            "pkg_name": "com.huawei.hms.commonkit",
+            "apk_name": "Framework-common.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;hmscore,6;runtime,4",
+            "main_entry": ";;com.huawei.hms.commonkit.apptouch.MainEntry"
+        }
+    ]
+}

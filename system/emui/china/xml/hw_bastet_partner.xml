@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <!--V1R7C00-AR-ComponentAccelerate-Fast Grab-001 wangchenyang/00371129 20161103     begin -->
+    <iaware>
+        <wechat switch="1">
+            <config version="800-100000">
+                <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                <animationRootView>LuckyMoneyReceiveUI</animationRootView>
+                <boostRootView>LuckyMoneyReceiveUI</boostRootView>
+            </config>
+        </wechat>
+        <alipay switch="1">
+            <config version="0-1000000">
+                <boostRootView>SnsCouponDetailActivity</boostRootView>
+            </config>
+        </alipay>
+    </iaware>
+    <!--V1R7C00-AR-ComponentAccelerate-Fast Grab-001 wangchenyang/00371129 20161103     end -->
+
+    <!-- Garbage packets filter charactor. For downstream packets. -->
+    <garbage_packet_filter>
+        <filter>
+            <ip_type>0</ip_type>
+            <protocol>17</protocol>
+            <verdict>1</verdict>
+            <src_ip>0</src_ip>
+            <dest_ip>0</dest_ip>
+            <src_port>0</src_port>
+            <dest_port>137</dest_port>
+        </filter>
+    </garbage_packet_filter>
+
+    <!-- WeChat, HongBao charactor -->
+    <fastgrab package_name="com.tencent.mm" version="^[0-7].(.*)$" process="com.tencent.mm:push">
+
+        <app_layer type="push_cmd">
+            <role type="receiver"></role>
+            <length copy_len="128" min_len="900" max_len="1400"></length>
+            <content offset="0" total_len="3" format="hex">000004</content>
+        </app_layer>
+
+       <app_layer type="push_keyword">
+            <role type="receiver"></role>
+            <length copy_len="128" min_len="900" max_len="1100"></length>
+            <content offset="32" total_len="16" format="hex">22aef0af021802454537042d24578e05</content>
+        </app_layer>
+
+        <app_layer type="get_keyword">
+            <role type="sender"></role>
+            <length copy_len="128" min_len="150" max_len="800"></length>
+            <content offset="0" total_len="7" format="asc">hongbao</content>
+        </app_layer>
+
+        <app_layer type="push_cmd">
+            <role type="receiver"></role>
+            <length copy_len="128" min_len="900" max_len="1400"></length>
+            <content offset="0" total_len="4" format="hex">17f10305</content>
+        </app_layer>
+        <rrc_keep_time>300</rrc_keep_time>
+
+    </fastgrab>
+    <!-- emcom accelerate charactor -->
+    <emcom_accelerate>
+        <app name="com.tencent.mm">
+            <autograb version="^[5-6].(.*)$">LauncherUi:LauncherUI;ReceiveUi:LuckyMoneyReceiveUI;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type</autograb>
+        </app>
+        <app name="com.tencent.mobileqq">
+            <event version="^[5-6].(.*)$">
+                <eventType>1</eventType>
+                <className>android.widget.RelativeLayout</className>
+                <activity></activity>
+                <text>\u51\u51\u7ea2\u5305</text>
+                <description>\u70b9\u51fb\u67e5\u770b\u8be6\u60c5</description>
+                <action>accelerate</action>
+            </event>
+        </app>
+        <app name="com.eg.android.AlipayGphone" ></app>
+    </emcom_accelerate>
+
+    <bastet_custom package_name="com.tencent.tmgp.sgame" version="^[0-9].(.*)$">
+        <protocol_bitmap value="2"></protocol_bitmap>
+        <discard_timer value="46"></discard_timer>
+    </bastet_custom>
+    <bastet_custom package_name="com.huawei.hwvoipservice" version="^[0-9].(.*)$">
+        <protocol_bitmap value="2"></protocol_bitmap>
+        <app_type value="1"></app_type>
+    </bastet_custom>
+</list>

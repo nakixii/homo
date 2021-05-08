@@ -1,0 +1,187 @@
+{
+    "renderNodeGraphName" : "",
+    "nodes" : [
+        {
+            "typeName" : "RenderNodeCreateGpuImages",
+            "nodeName" : "RenderNodeCreateSceneTargets",
+            "resourcesForCreation" : {
+                "gpuImageDescs": [
+                    {
+                        "name": "DefaultTargetMSAA",
+                        "dependencyImageName" : "CORE_DEFAULT_BACKBUFFER",
+                        "imageType": "2d",
+                        "imageViewType": "2d",
+                        "imageTiling": "optimal",
+                        "usageFlags": "color_attachment | transient_attachment",
+                        "memoryPropertyFlags" : "device_local | lazily_allocated",
+                        "engineCreationFlags": "dynamic_barriers",
+                        "sampleCountFlags": "4bit",
+                        "dependencyFlags" : "format | size | mipCount | layerCount"
+                    },
+                    {
+                        "name": "DefaultDepthBufferMSAA",
+                        "dependencyImageName" : "CORE_DEFAULT_BACKBUFFER_DEPTH",
+                        "imageType": "2d",
+                        "imageViewType": "2d",
+                        "imageTiling": "optimal",
+                        "usageFlags" : "depth_stencil_attachment | transient_attachment",
+                        "memoryPropertyFlags" : "device_local | lazily_allocated",
+                        "engineCreationFlags": "dynamic_barriers",
+                        "sampleCountFlags": "4bit",
+                        "dependencyFlags" : "format | size"
+                    }
+                ]
+            }
+        },
+        {
+            "typeName" : "RenderNodeDefaultLights",
+            "nodeName" : "RenderNodeLights"
+        },
+        {
+            "typeName" : "RenderNodeDefaultCameras",
+            "nodeName" : "RenderNodeCameras"
+        },
+        {
+            "typeName": "RenderNodeMorph",
+            "nodeName": "MorphNode",
+            "queue": {
+                "type": "graphics", "index": 0
+            }
+        },
+        {
+            "typeName" : "RenderNodeDefaultShadowRenderSlot",
+            "nodeName" : "RenderNodeDirectionalShadow",
+            "queue" : {
+                "type" : "graphics", "index" : 0
+            },
+            "nodeFlags" : 0,
+            "renderSlot" : "RenderSlotDefaultMaterialDepth",
+            "renderSlotSortType" : "by_material",
+            "renderSlotCullType" : "view_frustum_cull"
+        },
+        {
+            "typeName" : "RenderNodeDefaultShadowRenderSlot",
+            "nodeName" : "RenderNodeSpotLightShadows",
+            "queue" : {
+                "type" : "graphics", "index" : 0
+            },
+            "nodeFlags" : 1,
+            "renderSlot" : "RenderSlotDefaultMaterialDepth",
+            "renderSlotSortType" : "by_material",
+            "renderSlotCullType" : "view_frustum_cull"
+        },
+        {
+            "typeName" : "RenderNodeDefaultShadowsBlur",
+            "nodeName" : "RenderNodeDirectionalShadowBlur",
+            "queue" : {
+                "type" : "graphics", "index" : 0
+            }
+        },
+        {
+            "typeName" : "RenderNodeDefaultMaterialRenderSlot",
+            "nodeName" : "RenderNodePbrRenderSlotOpaque",
+            "renderDataStore" : {
+                "dataStoreName" : "RenderDataStorePod",
+                "typeName" : "PostProcess",
+                "configurationName" : "PostProcessCore"
+            },
+            "queue" : {
+                "type" : "graphics", "index" : 0
+            },
+            "renderSlot" : "RenderSlotDefaultMaterialForwardOpaque",
+            "renderSlotSortType" : "by_material",
+            "renderSlotCullType" : "view_frustum_cull",
+            "nodeFlags" : 1,
+            "renderPass" : {
+                "attachments" : [
+                    {
+                        "loadOp" : "clear", "clearDepth" : [1.0, 0],
+                        "name" : "DefaultDepthBufferMSAA"
+                    },
+                    {
+                        "loadOp" : "dont_care",
+                        "name" : "DefaultTargetMSAA"
+                    },
+                    {
+                        "loadOp" : "dont_care",
+                        "name" : "CORE_DEFAULT_BACKBUFFER"
+                    }
+                ],
+                "subpassIndex" : 0,
+                "subpass" : {
+                    "depthAttachmentIndex" :  0,
+                    "colorAttachmentIndices" : [ 1 ]
+                }
+            }
+        },
+        {
+            "typeName" : "RenderNodeDefaultEnv",
+            "nodeName" : "RenderNodeFullscreenEnv",
+            "renderDataStore" : {
+                "dataStoreName" : "RenderDataStorePod",
+                "typeName" : "PostProcess",
+                "configurationName" : "PostProcessCore"
+            },
+            "queue" : {
+                "type" : "graphics", "index" : 0
+            },
+            "nodeFlags" : 1,
+            "renderPass" : {
+                "attachments" : [
+                    {
+                        "name" : "DefaultDepthBufferMSAA"
+                    },
+                    {
+                        "name" : "DefaultTargetMSAA"
+                    },
+                    {
+                        "name" : "CORE_DEFAULT_BACKBUFFER"
+                    }
+                ],
+                "subpassIndex" : 1,
+                "subpass" : {
+                    "depthAttachmentIndex" :  0,
+                    "colorAttachmentIndices" : [ 1 ]
+                }
+            }
+        },
+        {
+            "typeName" : "RenderNodeDefaultMaterialRenderSlot",
+            "nodeName" : "RenderNodePbrRenderSlotTranslucent",
+            "renderDataStore" : {
+                "dataStoreName" : "RenderDataStorePod",
+                "typeName" : "PostProcess",
+                "configurationName" : "PostProcessCore"
+            },
+            "queue" : {
+                "type" : "graphics", "index" : 0
+            },
+            "renderSlot" : "RenderSlotDefaultMaterialForwardTranslucent",
+            "renderSlotSortType" : "back_to_front",
+            "renderSlotCullType" : "view_frustum_cull",
+            "nodeFlags" : 1, 
+            "renderPass" : {
+                "attachments" : [
+                    {
+                        "storeOp" : "dont_care",
+                        "name" : "DefaultDepthBufferMSAA"
+                    },
+                    {
+                        "storeOp" : "dont_care",
+                        "name" : "DefaultTargetMSAA"
+                    },
+                    {
+                        "storeOp" : "store",
+                        "name" : "CORE_DEFAULT_BACKBUFFER"
+                    }
+                ],
+                "subpassIndex" : 2,
+                "subpass" : {
+                    "depthAttachmentIndex" :  0,
+                    "colorAttachmentIndices" : [ 1 ],
+                    "resolveAttachmentIndices" : [ 2 ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "version": "1.0.0",
+    "uid_name": "rebootsys",
+    "rebootsys": {
+        "VmReboot": [
+            {
+                "rule_prio":0,
+                "featureid":"690100000",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_process",
+                    "F1NAME": "MainCallTrace.s_f1",
+                    "F2NAME": "MainCallTrace.s_f2",
+                    "F3NAME": "MainCallTrace.s_f3",
+                    "SIGMSG": "SignalParam.s_sigmsg:SignalParam.s_sicode",
+                    "REASON": "BasicParam.s_reason",
+                    "SYSVMTYPE": "BasicParam.s_sysvmtype",
+                    "TRUSTSTACK": "MainCallTrace.s_trace"
+                }
+            }
+        ],
+        "VmWatchdog": [
+            {
+                "rule_prio":0,
+                "featureid":"690100001",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_block_reason",
+                    "SYSVMTYPE": "BasicParam.s_sysvmtype",
+                    "F1NAME": "MainCallTrace.s_prefix+MainCallTrace.s_f4",
+                    "F2NAME": "BlockTrace.s_f1",
+                    "F3NAME": "BinderThread.s_f3",
+                    "TRUSTSTACK": "MainCallTrace.s_trace"
+                },
+               "RelatedInfo":{
+                    "BASELOCK": "MainCallTrace.s_waiting_to_lock",
+                    "BASELOCKED": "MainCallTrace.s_lock",
+                    "NEXTLOCK": "BlockTrace.s_waiting_to_lock",
+                    "NEXTLOCKED": "BlockTrace.s_lock"
+                }
+            },
+            {
+                "rule_prio":1,
+                "featureid":"690100001",
+                "EventInfoParam":{
+                    "F3NAME": "BlockTrace.s_f2",
+                    "BTHREAD1NAME": "BlockTrace.s_binder_name"
+                },
+               "RelatedInfo":{
+                    "BASELOCK": "MainCallTrace.s_waiting_lock",
+                    "NEXTLOCK": "BlockTrace.s_waiting_lock"
+                }
+            },
+            {
+                "rule_prio":2,
+                "featureid":"690100001",
+                "EventInfoParam":{
+                    "F1NAME": "MainCallTrace.s_f1",
+                    "F2NAME": "MainCallTrace.s_f2",
+                    "F3NAME": "MainCallTrace.s_f3"
+                }
+            }
+        ],
+        "Panic": [
+           {
+                "rule_prio":0,
+                "featureid":"690100002",
+                "EventInfoParam":{
+                    "TASK": "HungtaskParam.s_task",
+                    "F1NAME": "HungtaskTrace.s_f1",
+                    "F2NAME": "HungtaskTrace.s_f2",
+                    "F3NAME": "HungtaskTrace.s_f3"
+                }
+            },
+            {
+                "rule_prio":0,
+                "featureid":"690100003",
+                "EventInfoParam":{
+                    "F1NAME": "NocTrace.s_errcode+NocTrace.s_master+NocTrace.s_slave+NocTrace.s_address+NocTrace.s_user_signal+NocTrace.s_security",
+                    "F3NAME": "BasicParam.s_noc"
+                }
+            },
+            {
+                "rule_prio":0,
+                "featureid":"790100002",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            },
+            {
+                "rule_prio":0,
+                "featureid":"790100003",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            },
+            {
+                "rule_prio":1,
+                "featureid":"690100003",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_pname",
+                    "CPUFREQ": "BasicParam.s_cpu_freq",
+                    "AVSPARAM": "BasicParam.s_avs_param",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "MainCallTrace.s_f2",
+                    "F3NAME": "BasicParam.s_cause"
+                }
+            },
+            {
+                "rule_prio":1,
+                "featureid":"890100002",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_pname",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            },
+            {
+                "rule_prio":2,
+                "featureid":"690100003",
+                "EventInfoParam":{
+                    "F3NAME": "MainCallTrace.s_f3"
+                }
+            }
+        ],
+        "ModemReboot": [
+            {
+                "rule_prio":0,
+                "featureid":"690100200",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            },
+            {
+                "rule_prio":1,
+                "featureid":"690100009",
+                "EventInfoParam":{
+                    "TRUSTSTACK": "MainCallTrace.s_trace"
+                }
+            }
+        ],
+        "HwWatchdog": [
+            {
+                "rule_prio":0,
+                "featureid":"690100004",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_pname",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "MainCallTrace.s_f2",
+                    "F3NAME": "MainCallTrace.s_f3",
+                    "TRUSTSTACK": "MainCallTrace.s_trace"
+                }
+            }
+        ],
+        "HardwareFault": [
+            {
+                "rule_prio":0,
+                "featureid":"690100006",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_subType"
+                }
+            },
+            {
+                "rule_prio":1,
+                "featureid":"690100005",
+                "EventInfoParam":{
+                    "F1NAME": "DdrcParam.s_master+DdrcParam.s_subMaster+DdrcParam.s_op+DdrcParam.s_port"
+                }
+            },
+            {
+                "rule_prio":0,
+                "featureid":"790100006",
+                "EventInfoParam":{
+                    "F2NAME": "BasicParam.s_pg_sdn_sts0+BasicParam.s_pg_sdn_sts1",
+                    "F3NAME": "BasicParam.s_oc_sdn_sts0+BasicParam.s_oc_sdn_sts1"
+                }
+            }
+        ]
+    }
+}

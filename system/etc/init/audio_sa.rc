@@ -1,0 +1,5 @@
+service audio_sa /system/bin/sa_main /system/profile/audio_sa.xml
+class z_core
+user audioserver
+group system shell
+seclabel u:r:audiodistributedservice:s0

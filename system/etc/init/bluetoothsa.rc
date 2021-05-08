@@ -1,0 +1,5 @@
+service bluetoothservice /system/bin/sa_main /system/profile/bluetoothservice.xml
+    class z_core
+    user bluetooth
+    group system shell
+    seclabel u:r:bluetoothservice:s0

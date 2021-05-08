@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TELENOR NO -->
+    <carrier_config>
+        <!-- Volte UI -->
+        <!--GOOGLE RCS, used by Google apk CarrierService-->
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+</carrier_config_list>

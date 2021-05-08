@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- EE GB -->
+    <carrier_config>
+        <!-- Volte UI -->
+
+        <boolean name="prefer_2g_bool" value="false" />
+    </carrier_config>
+    <carrier_config gid1="B2">
+        <boolean name="mvnoTypeDataEnable" value="false" />
+    </carrier_config>
+    <carrier_config gid1="B3">
+        <boolean name="mvnoTypeDataEnable" value="false" />
+    </carrier_config>
+    <carrier_config gid1="C3">
+        <boolean name="mvnoTypeDataEnable" value="false" />
+    </carrier_config>
+    <carrier_config gid1="EE">
+        <boolean name="mvnoTypeDataEnable" value="false" />
+    </carrier_config>
+</carrier_config_list>

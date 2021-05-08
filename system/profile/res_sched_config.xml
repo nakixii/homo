@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pluginlist>
+    <scheduleplugin>
+    </scheduleplugin>
+    <recognizeplugin>
+        <plugin name="CommonRecognizePlugin" switch="1">
+        </plugin>
+    </recognizeplugin>
+    <recognizeplugin>
+        <plugin name="ProcStatusRecognizePlugin" switch="1">
+        </plugin>
+    </recognizeplugin>
+    <recognizeplugin>
+        <plugin name="HarmonyApkRecognizePlugin" switch="1">
+        </plugin>
+    </recognizeplugin>
+</pluginlist>

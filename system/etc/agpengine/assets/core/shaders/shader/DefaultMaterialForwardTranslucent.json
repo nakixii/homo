@@ -1,0 +1,39 @@
+{
+    "name" : "DefaultMaterialForwardTranslucent",
+    "vert" : "shaders://shader/DefaultMaterialForward.vert.spv",
+    "frag" : "shaders://shader/DefaultMaterialForward.frag.spv",
+    "slot" : "RenderSlotDefaultMaterialForwardTranslucent",
+    "vertexInputDeclaration" : "DefaultMaterialForward",
+    "pipelineLayout" : "DefaultMaterialForward",
+    "state": {
+        "rasterizationState": {
+            "enableDepthClamp": false,
+            "enableDepthBias": false,
+            "enableRasterizerDiscard": false,
+            "polygonMode": "fill",
+            "cullModeFlags": "back",
+            "frontFace": "counter_clockwise"
+        },
+        "depthStencilState": {
+            "enableDepthTest": true,
+            "enableDepthWrite": false,
+            "enableDepthBoundsTest": false,
+            "enableStencilTest": false,
+            "depthCompareOp": "less_or_equal"
+        },
+        "colorBlendState": {
+            "colorAttachments": [
+                {
+                    "enableBlend": true,
+                    "colorWriteMask": "r_bit|g_bit|b_bit|a_bit",
+                    "srcColorBlendFactor": "one",
+                    "dstColorBlendFactor": "one_minus_src_alpha",
+                    "colorBlendOp": "add",
+                    "srcAlphaBlendFactor": "one",
+                    "dstAlphaBlendFactor": "one_minus_src_alpha",
+                    "alphaBlendOp": "add"
+                }
+            ]
+        }
+    }
+}

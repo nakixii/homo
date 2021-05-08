@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<preferred-activities>
+    <item name="com.microsoft.office.officehub/com.microsoft.office.officemobile.OfficeMobileActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/pdf" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+    <item name="com.microsoft.office.officehub/com.microsoft.office.officesuite.OfficeSuitePPTActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/vnd.ms-powerpoint" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.template" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+            <type name="application/vnd.ms-powerpoint.addin.macroEnabled.12" />
+            <type name="application/vnd.ms-powerpoint.presentation.macroEnabled.12" />
+            <type name="application/vnd.ms-powerpoint.slideshow.macroEnabled.12" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+    <item name="com.microsoft.office.officehub/com.microsoft.office.officemobile.OfficeMobilePPTActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/vnd.ms-powerpoint" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.template" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+            <type name="application/vnd.ms-powerpoint.addin.macroEnabled.12" />
+            <type name="application/vnd.ms-powerpoint.presentation.macroEnabled.12" />
+            <type name="application/vnd.ms-powerpoint.slideshow.macroEnabled.12" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+    <item name="com.microsoft.office.officehub/com.microsoft.office.officesuite.OfficeSuiteExcelActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/vnd.ms-excel" />
+            <type name="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            <type name="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+            <type name="application/vnd.ms-excel.sheet.macroEnabled.12" />
+            <type name="application/vnd.ms-excel.template.macroEnabled.12" />
+            <type name="application/vnd.ms-excel.addin.macroEnabled.12" />
+            <type name="application/vnd.ms-excel.sheet.binary.macroEnabled.12" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+    <item name="com.microsoft.office.officehub/com.microsoft.office.officemobile.OfficeMobileExcelActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/vnd.ms-excel" />
+            <type name="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            <type name="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+            <type name="application/vnd.ms-excel.sheet.macroEnabled.12" />
+            <type name="application/vnd.ms-excel.template.macroEnabled.12" />
+            <type name="application/vnd.ms-excel.addin.macroEnabled.12" />
+            <type name="application/vnd.ms-excel.sheet.binary.macroEnabled.12" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+    <item name="com.microsoft.office.officehub/com.microsoft.office.officesuite.OfficeSuiteWordActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/msword" />
+            <type name="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+            <type name="application/vnd.openxmlformats-officedocument.wordprocessingml.template" />
+            <type name="application/vnd.ms-word.document.macroEnabled.12" />
+            <type name="application/vnd.ms-word.template.macroEnabled.12" />
+            <type name="application/vnd.ms-works" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+    <item name="com.microsoft.office.officehub/com.microsoft.office.officemobile.OfficeMobileWordActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/msword" />
+            <type name="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+            <type name="application/vnd.openxmlformats-officedocument.wordprocessingml.template" />
+            <type name="application/vnd.ms-word.document.macroEnabled.12" />
+            <type name="application/vnd.ms-word.template.macroEnabled.12" />
+            <type name="application/vnd.ms-works" />
+            <scheme name="file" />
+            <scheme name="content" />
+        </filter>
+    </item>
+</preferred-activities>

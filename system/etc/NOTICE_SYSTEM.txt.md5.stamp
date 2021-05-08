@@ -1,0 +1,1008 @@
+{
+  "files-md5": "c62d34cdd389bb0dfbb90ff4886ebc23",
+  "input-files": [
+    {
+      "entries": [
+        {
+          "path": "zframework.z.jar.txt.0",
+          "tag": 3262399027
+        },
+        {
+          "path": "zframework.z.jar.txt.1",
+          "tag": 3585579835
+        }
+      ],
+      "path": "packages/phone/NOTICE_FILES/system/framework/zframework.z.jar.zip",
+      "tag": "558f7d5e53a3a61b93a7ea8e388db577"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_gif.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_platform_common_client_wrapper.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_pdf_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_lib_ui_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/skia_ace_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_shell_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/qjs_debugger.a.txt",
+      "tag": "e3412e77b1c589402b0dcbaed74a0842"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_skcms.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_svg_model_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/v8_libbase.a.txt",
+      "tag": "6611673a9587a522034a4be8f4df564c"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libexpat.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libstb_image.z.so.txt",
+      "tag": "6654ceeee0ca719e68dac1962d93eb0d"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_fml_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/thirdparty_lib_txt_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/third_party_flutter_engine_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_gpu.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_crc32.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/third_party_flutter_engine_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libvulkanmemoryallocator_src.a.txt",
+      "tag": "064dbf737e0d5b7bccd15210fa9ef0f0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libwebp.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libicu_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_fontmgr_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/jerry_core_source_set.a.txt",
+      "tag": "24aad7f2ae67177238e23fd19b1aff70"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/qjs.a.txt",
+      "tag": "e3412e77b1c589402b0dcbaed74a0842"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libhmicui18n.z.so.txt",
+      "tag": "a3808a5b70071b07f87ff2205e4d75a0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_svg_model_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/v8_libplatform.a.txt",
+      "tag": "6611673a9587a522034a4be8f4df564c"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/gif_static.a.txt",
+      "tag": "ae11c61b04b2917be39b11f78d71519a"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/v8.a.txt",
+      "tag": "6611673a9587a522034a4be8f4df564c"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libgif.z.so.txt",
+      "tag": "ae11c61b04b2917be39b11f78d71519a"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_fml_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libharfbuzz_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libstb_image_src.a.txt",
+      "tag": "6654ceeee0ca719e68dac1962d93eb0d"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/static_icustubdata.a.txt",
+      "tag": "a3808a5b70071b07f87ff2205e4d75a0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libharfbuzz_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_typeface_freetype.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/yaml-lib.a.txt",
+      "tag": "6a8aaf0595c2efc1a9c2e0913e9c1a2c"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/glfw.a.txt",
+      "tag": "352912f8ce21ff7d8b592a4edbe48f50"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_svg_model_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libspirv_cross_src.a.txt",
+      "tag": "3b83ef96387f14655fc854ddc3c6bd57"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_lib_ui_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_skia_core.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libicu_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_heif.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/genrb_c.a.txt",
+      "tag": "a3808a5b70071b07f87ff2205e4d75a0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libsfntly_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/crypto_source.a.txt",
+      "tag": "d343e62fc9c833710bbbed25f27364c8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_flow_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_flow_multi.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_embedder_with_symbol_prefix.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/jerry_port_default_source_set.a.txt",
+      "tag": "24aad7f2ae67177238e23fd19b1aff70"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_flow_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_xml_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_fontmgr_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libspirv_cross.z.so.txt",
+      "tag": "3b83ef96387f14655fc854ddc3c6bd57"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libicu_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/static_icui18n.a.txt",
+      "tag": "a3808a5b70071b07f87ff2205e4d75a0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_fontmgr_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/cjson_static.a.txt",
+      "tag": "218947f77e8cb8e2fa02918dc41c50d0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_jpeg.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libcrypto_static.a.txt",
+      "tag": "d343e62fc9c833710bbbed25f27364c8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_shell_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/thirdparty_lib_txt_multi.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/v8_base_without_compiler.a.txt",
+      "tag": "6611673a9587a522034a4be8f4df564c"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/jerry_libm_source_set.a.txt",
+      "tag": "24aad7f2ae67177238e23fd19b1aff70"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/static_icuuc.a.txt",
+      "tag": "a3808a5b70071b07f87ff2205e4d75a0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libfreetype2.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libsfntly_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/jerry_source_set.a.txt",
+      "tag": "24aad7f2ae67177238e23fd19b1aff70"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libpng.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libjpeg.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libicu_multi.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_platform_glfw.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_skia_ext.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/jerry_snapshot_source_set.a.txt",
+      "tag": "24aad7f2ae67177238e23fd19b1aff70"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libharfbuzz_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_flow_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_pdf_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/third_party_flutter_engine_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_fml_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_webp.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_lib_ui_multi.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_fml_multi.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_pdf_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_shell_multi.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/third_party_flutter_engine_multi.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/jerry_ext_source_set.a.txt",
+      "tag": "24aad7f2ae67177238e23fd19b1aff70"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_libsfntly_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/thirdparty_lib_txt_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libhmicuuc.z.so.txt",
+      "tag": "a3808a5b70071b07f87ff2205e4d75a0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libvulkanmemoryallocator.z.so.txt",
+      "tag": "064dbf737e0d5b7bccd15210fa9ef0f0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/cjson_src.a.txt",
+      "tag": "218947f77e8cb8e2fa02918dc41c50d0"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/skia_ace_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/skia_ace_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/jsf.a.txt",
+      "tag": "7344a55994bfead10f4bbbd9db3d9749"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_lib_ui_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_shell_windows.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/flutter_engine_asset_manager.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_png.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/libsqlite.z.so.txt",
+      "tag": "3aa0dae6f0c7520eee4a78cdce98300c"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_xml_harmony.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/thirdparty_lib_txt_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/lib64/ace_xml_android.a.txt",
+      "tag": "343c5a032261c8c32d621412cdcd70a8"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/etc/strip.native.min.js.bin.txt",
+      "tag": "7344a55994bfead10f4bbbd9db3d9749"
+    },
+    {
+      "path": "packages/phone/NOTICE_FILES/system/framework/zframework.z.jar.txt",
+      "tag": "4577d64bea3bcdfa20036ad583244c84"
+    },
+    {
+      "path": "../../build/gn_helpers.py",
+      "tag": "1cde7e483f55426bb300f21a0f5aee0a"
+    },
+    {
+      "path": "../../build/maple/__init__.py",
+      "tag": "46f3552e7046b101ddf89f387e4cb0a3"
+    },
+    {
+      "path": "../../build/maple/java/__init__.py",
+      "tag": "46f3552e7046b101ddf89f387e4cb0a3"
+    },
+    {
+      "path": "../../build/maple/java/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "../../build/maple/java/util/build_utils.py",
+      "tag": "44f6003bf079be09cdf7b0bec4a2b11e"
+    },
+    {
+      "path": "../../build/maple/java/util/md5_check.py",
+      "tag": "287962bb7ff781ec27a3f90386144f09"
+    },
+    {
+      "path": "../../build/maple/java/util/pycache.py",
+      "tag": "fcca79ff5eea4ce7a1d0a65df78478c7"
+    },
+    {
+      "path": "../../build/ohos/notice/merge_notice_files.py",
+      "tag": "7f6623cc5fd1028d318276e0548c1dec"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/_bootlocale.py",
+      "tag": "aa76051e4ca1d025b575e7f5b8ecd8e1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/_collections_abc.py",
+      "tag": "25ded1f608083edb8959d5dcc3916061"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/_compression.py",
+      "tag": "3222b1ced3589e5b4f4524a1e51a7286"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/_sitebuiltins.py",
+      "tag": "aa769d1e910dcf85ca3e198eb565207d"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/_weakrefset.py",
+      "tag": "af049666a4f852bd65acaaf5976d44f3"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/abc.py",
+      "tag": "fb4cca7c3c5ba9d11beb53d6b45f48d1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/argparse.py",
+      "tag": "322c97329be637dfb60b88ddd82c5674"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/base64.py",
+      "tag": "762d68e478e053cbbeb91aef90477112"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/bisect.py",
+      "tag": "a317aeb1b175367326731c25bd5af777"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/calendar.py",
+      "tag": "75bb0fab5a6b00f9fc7bfdffb57fcfc0"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/codecs.py",
+      "tag": "ecf967921658dd20eea44c8db845c5a1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/collections/__init__.py",
+      "tag": "3843b896ec09703bd6a0ef2127777b74"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/collections/abc.py",
+      "tag": "6393810ba84478e140bef5165a4ffe1c"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/contextlib.py",
+      "tag": "456d785226fd8403053927dead3c6b87"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/copyreg.py",
+      "tag": "e691ec4feac038aeca1cf880855b6178"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/datetime.py",
+      "tag": "b85dab7173640b95a9e635b94a7f5d9c"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/difflib.py",
+      "tag": "389fb1d410b6b12dbb54297e5c06f99a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/__init__.py",
+      "tag": "048a86a065efcbaa4935e4c683b98670"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/_encoded_words.py",
+      "tag": "5460a0bc3e6c47831aacd0c87a21ba47"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/_parseaddr.py",
+      "tag": "22db384c42b662987dd6e75e245eace1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/_policybase.py",
+      "tag": "66bb48b2bc5601846929a6b0567fd777"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/base64mime.py",
+      "tag": "73c6e8b5b97d1decd50f69362a2b56ef"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/charset.py",
+      "tag": "4c48da1f17b16c2157f5ea33db5ddfb6"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/encoders.py",
+      "tag": "50713f992d32ef98afaa90e5496e5a22"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/errors.py",
+      "tag": "c7581dfecf823b2b41e00dcb81e6af4f"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/feedparser.py",
+      "tag": "ef3ac695eb91577f5ab055b52ac42fd9"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/header.py",
+      "tag": "7c8414ed9f5bab1c4688163d062e4f5b"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/iterators.py",
+      "tag": "ef49fc6f2275865f2c8b861aea34f76b"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/message.py",
+      "tag": "60b59fc622ec6a5597279042a3a790a5"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/parser.py",
+      "tag": "ff1a4f5cea9c7894af8664004eb8bbb7"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/quoprimime.py",
+      "tag": "b8e2fdb2a318cfe7ea83b61d42cb2af3"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/email/utils.py",
+      "tag": "4bcbe2c452d10155bbbaef351fc19939"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/encodings/__init__.py",
+      "tag": "1e7d22eab91cdd26ad09885dd9c447d7"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/encodings/aliases.py",
+      "tag": "8ba65792557673d896419c99df7dde78"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/encodings/cp437.py",
+      "tag": "36749c03149eacd3ba4b3f29629d8c6c"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/encodings/latin_1.py",
+      "tag": "5115588c89e0bf64ef74925cbdcd0ec3"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/encodings/utf_8.py",
+      "tag": "fbc08635fd9413de90e83848a69e83a7"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/enum.py",
+      "tag": "11f12e35606ada537cafdd8b6596814a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/filecmp.py",
+      "tag": "0660bc3ef89afcfdbc398d6d26f55b0e"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/fnmatch.py",
+      "tag": "682691ce66f7b14369ee5fbb51c4c9f5"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/functools.py",
+      "tag": "43bca611378143e0efed7bf992e819d5"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/genericpath.py",
+      "tag": "b36d447c6303f707026e650a1c8dd07e"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/gettext.py",
+      "tag": "85a639e0f17281bc7628e4eea3de6a21"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/glob.py",
+      "tag": "bc461060d127e3ca56b2f112c3d76b66"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/gzip.py",
+      "tag": "b7d9eba43cc9c2f9aecceb624d7af2bb"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/hashlib.py",
+      "tag": "3bbc62635dcd36a8df31fa854b1c0d89"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/heapq.py",
+      "tag": "5652e022e7d7647845e6db401b86b5b0"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/http/__init__.py",
+      "tag": "1bca137c95a5cc506933a3929d16b9d5"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/http/client.py",
+      "tag": "f552d17445517cd0f1c0b1cdd8348cc1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/importlib/__init__.py",
+      "tag": "9ba1a7efe39543a96efe13a91b57b8d1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/importlib/_bootstrap.py",
+      "tag": "3b92732998ac9c33f977451eaa7ec6ac"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/importlib/_bootstrap_external.py",
+      "tag": "31ba736337afbccfcf3267b9d2299720"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/importlib/abc.py",
+      "tag": "d9745d367054f156b2616e128333ef60"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/importlib/machinery.py",
+      "tag": "beb0a57c67819bbe9a8ae7fa67255cc5"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/importlib/util.py",
+      "tag": "5858a2344a2e2f92079f4521f933e5db"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/io.py",
+      "tag": "37d767044ecf53a889b697b576335821"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/json/__init__.py",
+      "tag": "dc2b631d0cf412d1c6c1a9b64bf1def6"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/json/decoder.py",
+      "tag": "f577e13f238a349901d6936de7316539"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/json/encoder.py",
+      "tag": "9fa57003b6da158e9c4e59f295158a02"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/json/scanner.py",
+      "tag": "4a1a7741d18f59dfc633e787f878956c"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/keyword.py",
+      "tag": "8d1b0ce4d4787bca8c3ba197c3a6e33a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so",
+      "tag": "35a29bca3842f7688c0bdf2f18154267"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so",
+      "tag": "128f593a080c352221cad7dccbce35ce"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_datetime.cpython-38-x86_64-linux-gnu.so",
+      "tag": "ed51f6c77d385165be71ac73a1a2e0c0"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so",
+      "tag": "30987324b0bdcf81874050a33867156a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so",
+      "tag": "a04d493d5d6d10fdc77d755acc8b543a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so",
+      "tag": "04327371d2fdd0f5e1f70418acb6912d"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so",
+      "tag": "8503084e3c427efca50c1776f191343a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so",
+      "tag": "2b50abaaae725c4858603ca20d22cdb8"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so",
+      "tag": "afe9108038ef4eb3704741cb317fd09f"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so",
+      "tag": "9bf4af943a908ddc6ad1b5072885fcfc"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_socket.cpython-38-x86_64-linux-gnu.so",
+      "tag": "c8aee13d780684d6b63e539ea10d94c5"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so",
+      "tag": "979189177fc3f2ecc9f94bfbf799d97a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so",
+      "tag": "d1b77cba691438caa8e6bf4dc1a7f76a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/binascii.cpython-38-x86_64-linux-gnu.so",
+      "tag": "a24783856949603b28a49b6308ff4ccc"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so",
+      "tag": "acd849e007bc042a285148302c6725c8"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so",
+      "tag": "e744f50db33c8731c2393901d33026d6"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so",
+      "tag": "346a364ed6a1db72613cff93f22c9512"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so",
+      "tag": "c228bd7657ab9687b361040ebc422ebf"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/locale.py",
+      "tag": "0b1ef2b3623606b837cd93b127f81ee1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/operator.py",
+      "tag": "b6b1f58b04100cd460050fbab6b4b927"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/optparse.py",
+      "tag": "381627c143203694f46032a3a622eba6"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/os.py",
+      "tag": "50846703561f4bcdc3f5ed7bec175d5a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/pipes.py",
+      "tag": "44e00b8deb174a0bc037ea2b58233a73"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/posixpath.py",
+      "tag": "8c0549e9314a26d1336ff6437037600e"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/quopri.py",
+      "tag": "577d5180c2edb7d99420eec63ed65a02"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/random.py",
+      "tag": "262b97f8678e8366b26388402758533d"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/re.py",
+      "tag": "1b88c6fb134b9d2d3415304d358eb9a3"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/reprlib.py",
+      "tag": "4c055ca1d8019b7aeaa918ae9ee2e8ce"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/selectors.py",
+      "tag": "cb80dac5379421261c924524a7c2079d"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/shlex.py",
+      "tag": "381007ca65bf1e30afb3960ed84a4a95"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/shutil.py",
+      "tag": "d49964b57354038770e4632c714763da"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/signal.py",
+      "tag": "02ab6dd9ab03909dcbb72208e1e0020d"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/site.py",
+      "tag": "bd6d1883185d5b262977d7c3d72445e1"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/socket.py",
+      "tag": "af465c5c7d61d9fca5ec553479db8da0"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/sre_compile.py",
+      "tag": "633f72e8656290f84a1f9440259cbd85"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/sre_constants.py",
+      "tag": "3200e0be49a046fa715e6dba7090d372"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/sre_parse.py",
+      "tag": "796b0fd9f0a2b1232b05681111ac7395"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/ssl.py",
+      "tag": "a6effee40482ccab83290ba63ab3468d"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/stat.py",
+      "tag": "6fa05a6fabf481cd48ab43a133d4f4dd"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/string.py",
+      "tag": "38d261051f6ed5d558e6f01f2e293879"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/struct.py",
+      "tag": "9a042099d6ad2dceb1c9ba37c7030369"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/subprocess.py",
+      "tag": "134294cefbb66dca31e94eb39c356e61"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/tempfile.py",
+      "tag": "f9d4266248e25f96cb48ce8d51634d77"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/textwrap.py",
+      "tag": "a52ca0a94e6d93b6e4dfb19e9fddfd6a"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/threading.py",
+      "tag": "9187c3ea24eb46c6f30f303afbb1cf5f"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/types.py",
+      "tag": "bb880c4fd60ffe1412c5d2e9ceda5f6f"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/urllib/__init__.py",
+      "tag": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/urllib/parse.py",
+      "tag": "541d6733eff93be298419b93026644e3"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/uu.py",
+      "tag": "79bab0c7da7797fa790dd3041718304b"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/warnings.py",
+      "tag": "98212def464febfda4257907cbe4eeb7"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/weakref.py",
+      "tag": "848d412c758a3a211bec091eec903fe8"
+    },
+    {
+      "path": "../../prebuilts/python/linux-x86/3.8.3/lib/python3.8/zipfile.py",
+      "tag": "629bc31b30baeb3e247f378201ae347f"
+    }
+  ],
+  "input-strings": [
+    "N",
+    "o",
+    "t",
+    "i",
+    "c",
+    "e",
+    "s",
+    " ",
+    "f",
+    "o",
+    "r",
+    " ",
+    "f",
+    "i",
+    "l",
+    "e",
+    "s",
+    " ",
+    "c",
+    "o",
+    "n",
+    "t",
+    "a",
+    "i",
+    "n",
+    "e",
+    "d",
+    " ",
+    "i",
+    "n",
+    " ",
+    "t",
+    "h",
+    "e",
+    " ",
+    "s",
+    "y",
+    "s",
+    "t",
+    "e",
+    "m",
+    " ",
+    "f",
+    "i",
+    "l",
+    "e",
+    "s",
+    "y",
+    "s",
+    "t",
+    "e",
+    "m",
+    " ",
+    "i",
+    "m",
+    "a",
+    "g",
+    "e",
+    " ",
+    "i",
+    "n",
+    " ",
+    "t",
+    "h",
+    "i",
+    "s",
+    " ",
+    "d",
+    "i",
+    "r",
+    "e",
+    "c",
+    "t",
+    "o",
+    "r",
+    "y",
+    ":",
+    "a",
+    "r",
+    "m",
+    "6",
+    "4"
+  ],
+  "strings-md5": "5c6ba5adc476b7986c4bd5e0a0f9c25e"
+}

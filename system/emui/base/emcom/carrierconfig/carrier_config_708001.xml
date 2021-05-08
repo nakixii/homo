@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Claro HD -->
+    <carrier_config>
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+    </carrier_config>
+</carrier_config_list>
