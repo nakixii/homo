@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- tuning for product ELLE only-->
+<Config>
+    <SharpnessHardwareLevel>
+        <SHP_HistLevel_AvgL>90</SHP_HistLevel_AvgL>
+        <SHP_HistLevel_AvgH>200</SHP_HistLevel_AvgH>
+        <SHP_HistLevel_Exp>58</SHP_HistLevel_Exp>
+        <SHP_HistLevel_Bright>80</SHP_HistLevel_Bright>
+        <SHP_HistLevel_Dark>550</SHP_HistLevel_Dark>
+        <SHP_HistLevel_DarkH>300</SHP_HistLevel_DarkH>
+        <SHP_HistLevel_DarkL>100</SHP_HistLevel_DarkL>
+    </SharpnessHardwareLevel>
+
+    <ContrastEnhancement>
+        <ACE_GammaGain>36</ACE_GammaGain>
+        <ACE_WeightWhite>12</ACE_WeightWhite>
+        <ACE_WeightBlack>14</ACE_WeightBlack>
+    <!-- ZeroPosition-->
+        <ACE_ZeroPosition_AverageTH0>32</ACE_ZeroPosition_AverageTH0>
+        <ACE_ZeroPosition_AverageTH1>92</ACE_ZeroPosition_AverageTH1>
+        <ACE_ZeroPosition_AverageTH2>140</ACE_ZeroPosition_AverageTH2>
+        <ACE_ZeroPosition_AverageTH3>192</ACE_ZeroPosition_AverageTH3>
+        <ACE_ZeroPosition_PositionTH0>32</ACE_ZeroPosition_PositionTH0>
+        <ACE_ZeroPosition_PositionTH1>80</ACE_ZeroPosition_PositionTH1>
+        <ACE_ZeroPosition_PositionTH2>90</ACE_ZeroPosition_PositionTH2>
+        <ACE_ZeroPosition_PositionTH3>130</ACE_ZeroPosition_PositionTH3>
+    <!-- DarkSlope-->
+        <ACE_DarkSlope_DarkLen>32</ACE_DarkSlope_DarkLen>
+        <ACE_DarkSlope_SatMinTH>160</ACE_DarkSlope_SatMinTH>
+        <ACE_DarkSlope_SatMaxTH>600</ACE_DarkSlope_SatMaxTH>
+        <ACE_DarkSlope_DarkRatioMinTH>0.06</ACE_DarkSlope_DarkRatioMinTH>
+        <ACE_DarkSlope_DarkRatioMaxTH>0.15</ACE_DarkSlope_DarkRatioMaxTH>
+        <ACE_DarkSlope_SlopeMinTH>1.04</ACE_DarkSlope_SlopeMinTH>
+        <ACE_DarkSlope_SlopeMaxTH>1.08</ACE_DarkSlope_SlopeMaxTH>
+    <!-- BrightSlope-->
+        <ACE_BrightSlope_BrightLen>64</ACE_BrightSlope_BrightLen>
+        <ACE_BrightSlope_BrightRatioMinTH>0.06</ACE_BrightSlope_BrightRatioMinTH>
+        <ACE_BrightSlope_BrightRatioMaxTH>0.40</ACE_BrightSlope_BrightRatioMaxTH>
+        <ACE_BrightSlope_SlopeMinTH>1.16</ACE_BrightSlope_SlopeMinTH>
+        <ACE_BrightSlope_SlopeMaxTH>1.24</ACE_BrightSlope_SlopeMaxTH>
+        <ACE_BrightSlope_EndRatioTH>0.72</ACE_BrightSlope_EndRatioTH>
+        <ACE_BrightSlope_EndRatioMinTH>0.55</ACE_BrightSlope_EndRatioMinTH>
+    <!-- LinearEx-->
+        <ACE_LinearEx_DarkRatio>0.002</ACE_LinearEx_DarkRatio>
+        <ACE_LinearEx_BrightRatio>0.005</ACE_LinearEx_BrightRatio>
+        <ACE_LinearEx_AverageMinTH>55</ACE_LinearEx_AverageMinTH>
+        <ACE_LinearEx_SatTH>900</ACE_LinearEx_SatTH>
+        <ACE_LinearEx_DarkMaxTH>25</ACE_LinearEx_DarkMaxTH>
+        <ACE_LinearEx_BrightMinTH>220</ACE_LinearEx_BrightMinTH>
+        <ACE_LinearEx_DarkMaxVal>2</ACE_LinearEx_DarkMaxVal>
+        <ACE_LinearEx_BrightMinVal>253</ACE_LinearEx_BrightMinVal>
+    <!-- MaxDarkVal-->
+        <ACE_MaxDarkVal_DarkMinTH>7</ACE_MaxDarkVal_DarkMinTH>
+        <ACE_MaxDarkVal_DarkMaxTH>10</ACE_MaxDarkVal_DarkMaxTH>
+        <ACE_MaxDarkVal_AverageMinTH>152</ACE_MaxDarkVal_AverageMinTH>
+        <ACE_MaxDarkVal_AverageMaxTH>168</ACE_MaxDarkVal_AverageMaxTH>
+        <ACE_MaxDarkVal_BrightMaxTH>14</ACE_MaxDarkVal_BrightMaxTH>
+        <ACE_MaxDarkVal_EndMaxTH>252</ACE_MaxDarkVal_EndMaxTH>
+    <!-- DarkLeak-->
+        <ACE_DarkLeak_DarkLenTH>64</ACE_DarkLeak_DarkLenTH>
+        <ACE_DarkLeak_DarkMinRatioTH>0.3</ACE_DarkLeak_DarkMinRatioTH>
+        <ACE_DarkLeak_DarkMaxRatioTH>0.8</ACE_DarkLeak_DarkMaxRatioTH>
+        <ACE_DarkLeak_BrightLenTH>232</ACE_DarkLeak_BrightLenTH>
+        <ACE_DarkLeak_BrightRatioMinTH>0.001</ACE_DarkLeak_BrightRatioMinTH>
+        <ACE_DarkLeak_BrightRatioMaxTH>0.08</ACE_DarkLeak_BrightRatioMaxTH>
+        <ACE_DarkLeak_LeakRatioTH>2.0</ACE_DarkLeak_LeakRatioTH>
+        <ACE_DarkLeak_DarkRatioTH>0.9</ACE_DarkLeak_DarkRatioTH>
+        <ACE_DarkLeak_SatValTH>900</ACE_DarkLeak_SatValTH>
+    </ContrastEnhancement>
+
+    <Sharpness>
+    <!-- Level_0-->
+        <SHP_MF_GainL_0>15</SHP_MF_GainL_0>
+        <SHP_MF_GainH_0>30</SHP_MF_GainH_0>
+        <SHP_MF_Limit_0>28</SHP_MF_Limit_0>
+        <SHP_HF_GainL_0>20</SHP_HF_GainL_0>
+        <SHP_HF_GainH_0>10</SHP_HF_GainH_0>
+        <SHP_HF_Limit_0>16</SHP_HF_Limit_0>
+        <SHP_Coring_0>2</SHP_Coring_0>
+        <SHP_OS_Gain_0>8</SHP_OS_Gain_0>
+        <SHP_OS_Limit_0>4</SHP_OS_Limit_0>
+        <SHP_US_Gain_0>6</SHP_US_Gain_0>
+        <SHP_US_Limit_0>3</SHP_US_Limit_0>
+        <SHP_OS_Cut_0>6</SHP_OS_Cut_0>
+        <SHP_US_Cut_0>6</SHP_US_Cut_0>
+    <!-- Level_1-->
+        <SHP_MF_GainL_1>21</SHP_MF_GainL_1>
+        <SHP_MF_GainH_1>42</SHP_MF_GainH_1>
+        <SHP_MF_Limit_1>24</SHP_MF_Limit_1>
+        <SHP_HF_GainL_1>24</SHP_HF_GainL_1>
+        <SHP_HF_GainH_1>12</SHP_HF_GainH_1>
+        <SHP_HF_Limit_1>20</SHP_HF_Limit_1>
+        <SHP_Coring_1>3</SHP_Coring_1>
+        <SHP_OS_Gain_1>10</SHP_OS_Gain_1>
+        <SHP_OS_Limit_1>6</SHP_OS_Limit_1>
+        <SHP_US_Gain_1>10</SHP_US_Gain_1>
+        <SHP_US_Limit_1>6</SHP_US_Limit_1>
+        <SHP_OS_Cut_1>8</SHP_OS_Cut_1>
+        <SHP_US_Cut_1>8</SHP_US_Cut_1>
+    <!-- Level_2-->
+        <SHP_MF_GainL_2>27</SHP_MF_GainL_2>
+        <SHP_MF_GainH_2>54</SHP_MF_GainH_2>
+        <SHP_MF_Limit_2>15</SHP_MF_Limit_2>
+        <SHP_HF_GainL_2>26</SHP_HF_GainL_2>
+        <SHP_HF_GainH_2>13</SHP_HF_GainH_2>
+        <SHP_HF_Limit_2>24</SHP_HF_Limit_2>
+        <SHP_Coring_2>3</SHP_Coring_2>
+        <SHP_OS_Gain_2>14</SHP_OS_Gain_2>
+        <SHP_OS_Limit_2>9</SHP_OS_Limit_2>
+        <SHP_US_Gain_2>14</SHP_US_Gain_2>
+        <SHP_US_Limit_2>9</SHP_US_Limit_2>
+        <SHP_OS_Cut_2>10</SHP_OS_Cut_2>
+        <SHP_US_Cut_2>16</SHP_US_Cut_2>
+    <!-- Level_3-->
+        <SHP_MF_GainL_3>29</SHP_MF_GainL_3>
+        <SHP_MF_GainH_3>58</SHP_MF_GainH_3>
+        <SHP_MF_Limit_3>25</SHP_MF_Limit_3>
+        <SHP_HF_GainL_3>28</SHP_HF_GainL_3>
+        <SHP_HF_GainH_3>14</SHP_HF_GainH_3>
+        <SHP_HF_Limit_3>24</SHP_HF_Limit_3>
+        <SHP_Coring_3>3</SHP_Coring_3>
+        <SHP_OS_Gain_3>14</SHP_OS_Gain_3>
+        <SHP_OS_Limit_3>9</SHP_OS_Limit_3>
+        <SHP_US_Gain_3>14</SHP_US_Gain_3>
+        <SHP_US_Limit_3>9</SHP_US_Limit_3>
+        <SHP_OS_Cut_3>7</SHP_OS_Cut_3>
+        <SHP_US_Cut_3>12</SHP_US_Cut_3>
+    <!-- edge-->
+        <SHP_Edge_RatioL>64</SHP_Edge_RatioL>
+        <SHP_Edge_RatioH>192</SHP_Edge_RatioH>
+        <SHP_Edge_DetLmt0>1</SHP_Edge_DetLmt0>
+        <SHP_Edge_DetLmt1>5</SHP_Edge_DetLmt1>
+    <!-- Histogram-->
+        <SHP_CTRL_DoHistLevel>1</SHP_CTRL_DoHistLevel>
+        <SHP_Hist_AvgL>115</SHP_Hist_AvgL>
+        <SHP_Hist_AvgH>200</SHP_Hist_AvgH>
+        <SHP_Hist_Exp>58</SHP_Hist_Exp>
+        <SHP_Hist_Bright>100</SHP_Hist_Bright>
+        <SHP_Hist_Dark>550</SHP_Hist_Dark>
+        <SHP_Hist_DarkH>300</SHP_Hist_DarkH>
+        <SHP_Hist_DarkL>100</SHP_Hist_DarkL>
+    <!-- other-->
+        <SHP_Satval>110</SHP_Satval>
+        <SHP_Skin_HFcut>8</SHP_Skin_HFcut>
+        <SHP_Skin_LimitCut>6</SHP_Skin_LimitCut>
+        <SHP_Skin_Coring>3</SHP_Skin_Coring>
+        <SHP_Gray_Max>3</SHP_Gray_Max>
+        <SHP_Skin_Cut_Low>10</SHP_Skin_Cut_Low>
+        <SHP_Skin_Cut_Hig>10</SHP_Skin_Cut_Hig>
+        <SHP_Filter_Limit>50</SHP_Filter_Limit>
+        <SHP_MFGain_Increase>0.5</SHP_MFGain_Increase>
+        <SHP_HFGain_Increase>0.5</SHP_HFGain_Increase>
+        <SHP_OUSCut_Increase>0.5</SHP_OUSCut_Increase>
+    </Sharpness>
+
+    <GamutMapping>
+    <!-- SatTH Sat0TH-->
+        <GMP_Sat_TH>0</GMP_Sat_TH>
+        <GMP_Sat0_TH>20</GMP_Sat0_TH>
+    <!-- Gamma ratio -->
+        <GMP_Gamma_Ratio>2.2</GMP_Gamma_Ratio>
+        <GMP_DeGamma_Ratio>2.2</GMP_DeGamma_Ratio>
+    <!-- Gray gain -->
+        <GMP_Gray_SlopA>-0.4</GMP_Gray_SlopA>
+        <GMP_Gray_SlopB>1.0</GMP_Gray_SlopB>
+    <!-- 3x3x3-LUT -->
+        <GMP_IN_OUT_NODE1>(0,0,0),(0,0,0)</GMP_IN_OUT_NODE1>
+        <GMP_IN_OUT_NODE2>(0,0,128),(0,0,128)</GMP_IN_OUT_NODE2>
+        <GMP_IN_OUT_NODE3>(0,0,255),(0,0,255)</GMP_IN_OUT_NODE3>
+        <GMP_IN_OUT_NODE4>(0,128,0),(0,128,0)</GMP_IN_OUT_NODE4>
+        <GMP_IN_OUT_NODE5>(0,128,128),(0,128,128)</GMP_IN_OUT_NODE5>
+        <GMP_IN_OUT_NODE6>(0,128,255),(0,128,255)</GMP_IN_OUT_NODE6>
+        <GMP_IN_OUT_NODE7>(0,255,0),(0,255,0)</GMP_IN_OUT_NODE7>
+        <GMP_IN_OUT_NODE8>(0,255,128),(0,255,128)</GMP_IN_OUT_NODE8>
+        <GMP_IN_OUT_NODE9>(0,255,255),(0,255,255)</GMP_IN_OUT_NODE9>
+        <GMP_IN_OUT_NODE10>(128,0,0),(128,0,0)</GMP_IN_OUT_NODE10>
+        <GMP_IN_OUT_NODE11>(128,0,128),(128,0,128)</GMP_IN_OUT_NODE11>
+        <GMP_IN_OUT_NODE12>(128,0,255),(128,0,255)</GMP_IN_OUT_NODE12>
+        <GMP_IN_OUT_NODE13>(128,128,0),(128,128,0)</GMP_IN_OUT_NODE13>
+        <GMP_IN_OUT_NODE14>(128,128,128),(128,128,128)</GMP_IN_OUT_NODE14>
+        <GMP_IN_OUT_NODE15>(128,128,255),(128,128,255)</GMP_IN_OUT_NODE15>
+        <GMP_IN_OUT_NODE16>(128,255,0),(128,255,0)</GMP_IN_OUT_NODE16>
+        <GMP_IN_OUT_NODE17>(128,255,128),(128,255,128)</GMP_IN_OUT_NODE17>
+        <GMP_IN_OUT_NODE18>(128,255,255),(128,255,255)</GMP_IN_OUT_NODE18>
+        <GMP_IN_OUT_NODE19>(255,0,0),(255,0,0)</GMP_IN_OUT_NODE19>
+        <GMP_IN_OUT_NODE20>(255,0,128),(255,0,128)</GMP_IN_OUT_NODE20>
+        <GMP_IN_OUT_NODE21>(255,0,255),(255,0,255)</GMP_IN_OUT_NODE21>
+        <GMP_IN_OUT_NODE22>(255,128,0),(255,128,0)</GMP_IN_OUT_NODE22>
+        <GMP_IN_OUT_NODE23>(255,128,128),(255,128,128)</GMP_IN_OUT_NODE23>
+        <GMP_IN_OUT_NODE24>(255,128,255),(255,128,255)</GMP_IN_OUT_NODE24>
+        <GMP_IN_OUT_NODE25>(255,255,0),(255,255,0)</GMP_IN_OUT_NODE25>
+        <GMP_IN_OUT_NODE26>(255,255,128),(255,255,128)</GMP_IN_OUT_NODE26>
+        <GMP_IN_OUT_NODE27>(255,255,255),(255,255,255)</GMP_IN_OUT_NODE27>
+    <!-- Skin LUT -->
+        <GMP_SKIN_IN_OUT_NODE1>(47,16,16),(47,16,16)</GMP_SKIN_IN_OUT_NODE1>
+        <GMP_SKIN_IN_OUT_NODE2>(47,47,16),(47,47,16)</GMP_SKIN_IN_OUT_NODE2>
+        <GMP_SKIN_IN_OUT_NODE3>(88,47,47),(88,47,47)</GMP_SKIN_IN_OUT_NODE3>
+        <GMP_SKIN_IN_OUT_NODE4>(128,88,16),(128,88,16)</GMP_SKIN_IN_OUT_NODE4>
+        <GMP_SKIN_IN_OUT_NODE5>(128,88,47),(128,88,47)</GMP_SKIN_IN_OUT_NODE5>
+        <GMP_SKIN_IN_OUT_NODE6>(128,88,88),(128,88,88)</GMP_SKIN_IN_OUT_NODE6>
+        <GMP_SKIN_IN_OUT_NODE7>(168,128,47),(168,128,47)</GMP_SKIN_IN_OUT_NODE7>
+        <GMP_SKIN_IN_OUT_NODE8>(168,128,88),(168,128,88)</GMP_SKIN_IN_OUT_NODE8>
+        <GMP_SKIN_IN_OUT_NODE9>(209,16,16),(209,16,16)</GMP_SKIN_IN_OUT_NODE9>
+        <GMP_SKIN_IN_OUT_NODE10>(209,168,88),(209,168,88)</GMP_SKIN_IN_OUT_NODE10>
+        <GMP_SKIN_IN_OUT_NODE11>(255,47,16),(255,47,16)</GMP_SKIN_IN_OUT_NODE11>
+        <GMP_SKIN_IN_OUT_NODE12>(255,47,47),(255,47,47)</GMP_SKIN_IN_OUT_NODE12>
+        <GMP_SKIN_IN_OUT_NODE13>(255,88,16),(255,88,16)</GMP_SKIN_IN_OUT_NODE13>
+        <GMP_SKIN_IN_OUT_NODE14>(255,88,88),(255,88,88)</GMP_SKIN_IN_OUT_NODE14>
+        <GMP_SKIN_IN_OUT_NODE15>(255,128,47),(255,128,47)</GMP_SKIN_IN_OUT_NODE15>
+        <GMP_SKIN_IN_OUT_NODE16>(255,128,128),(255,128,128)</GMP_SKIN_IN_OUT_NODE16>
+        <GMP_SKIN_IN_OUT_NODE17>(255,168,88),(255,168,88)</GMP_SKIN_IN_OUT_NODE17>
+        <GMP_SKIN_IN_OUT_NODE18>(255,168,128),(255,168,128)</GMP_SKIN_IN_OUT_NODE18>
+    </GamutMapping>
+
+    <GamutMapping_2>
+    <!-- SatTH Sat0TH-->
+        <GMP2_Sat_TH>0</GMP2_Sat_TH>
+        <GMP2_Sat0_TH>20</GMP2_Sat0_TH>
+    <!-- Gamma ratio -->
+        <GMP2_Gamma_Ratio>2.2</GMP2_Gamma_Ratio>
+        <GMP2_DeGamma_Ratio>2.2</GMP2_DeGamma_Ratio>
+    <!-- Gray gain -->
+        <GMP2_Gray_SlopA>-0.4</GMP2_Gray_SlopA>
+        <GMP2_Gray_SlopB>1.0</GMP2_Gray_SlopB>
+    <!-- 3x3x3-LUT -->
+        <GMP2_IN_OUT_NODE1>(0,0,0),(0,0,0)</GMP2_IN_OUT_NODE1>
+        <GMP2_IN_OUT_NODE2>(0,0,128),(0,0,128)</GMP2_IN_OUT_NODE2>
+        <GMP2_IN_OUT_NODE3>(0,0,255),(0,0,255)</GMP2_IN_OUT_NODE3>
+        <GMP2_IN_OUT_NODE4>(0,128,0),(0,128,0)</GMP2_IN_OUT_NODE4>
+        <GMP2_IN_OUT_NODE5>(0,128,128),(0,128,128)</GMP2_IN_OUT_NODE5>
+        <GMP2_IN_OUT_NODE6>(0,128,255),(0,128,255)</GMP2_IN_OUT_NODE6>
+        <GMP2_IN_OUT_NODE7>(0,255,0),(0,255,0)</GMP2_IN_OUT_NODE7>
+        <GMP2_IN_OUT_NODE8>(0,255,128),(0,255,128)</GMP2_IN_OUT_NODE8>
+        <GMP2_IN_OUT_NODE9>(0,255,255),(0,255,255)</GMP2_IN_OUT_NODE9>
+        <GMP2_IN_OUT_NODE10>(128,0,0),(128,0,0)</GMP2_IN_OUT_NODE10>
+        <GMP2_IN_OUT_NODE11>(128,0,128),(128,0,128)</GMP2_IN_OUT_NODE11>
+        <GMP2_IN_OUT_NODE12>(128,0,255),(128,0,255)</GMP2_IN_OUT_NODE12>
+        <GMP2_IN_OUT_NODE13>(128,128,0),(128,128,0)</GMP2_IN_OUT_NODE13>
+        <GMP2_IN_OUT_NODE14>(128,128,128),(128,128,128)</GMP2_IN_OUT_NODE14>
+        <GMP2_IN_OUT_NODE15>(128,128,255),(128,128,255)</GMP2_IN_OUT_NODE15>
+        <GMP2_IN_OUT_NODE16>(128,255,0),(128,255,0)</GMP2_IN_OUT_NODE16>
+        <GMP2_IN_OUT_NODE17>(128,255,128),(128,255,128)</GMP2_IN_OUT_NODE17>
+        <GMP2_IN_OUT_NODE18>(128,255,255),(128,255,255)</GMP2_IN_OUT_NODE18>
+        <GMP2_IN_OUT_NODE19>(255,0,0),(255,0,0)</GMP2_IN_OUT_NODE19>
+        <GMP2_IN_OUT_NODE20>(255,0,128),(255,0,128)</GMP2_IN_OUT_NODE20>
+        <GMP2_IN_OUT_NODE21>(255,0,255),(255,0,255)</GMP2_IN_OUT_NODE21>
+        <GMP2_IN_OUT_NODE22>(255,128,0),(255,128,0)</GMP2_IN_OUT_NODE22>
+        <GMP2_IN_OUT_NODE23>(255,128,128),(255,128,128)</GMP2_IN_OUT_NODE23>
+        <GMP2_IN_OUT_NODE24>(255,128,255),(255,128,255)</GMP2_IN_OUT_NODE24>
+        <GMP2_IN_OUT_NODE25>(255,255,0),(255,255,0)</GMP2_IN_OUT_NODE25>
+        <GMP2_IN_OUT_NODE26>(255,255,128),(255,255,128)</GMP2_IN_OUT_NODE26>
+        <GMP2_IN_OUT_NODE27>(255,255,255),(255,255,255)</GMP2_IN_OUT_NODE27>
+    <!-- Skin LUT -->
+        <GMP2_SKIN_IN_OUT_NODE1>(47,16,16),(47,16,16)</GMP2_SKIN_IN_OUT_NODE1>
+        <GMP2_SKIN_IN_OUT_NODE2>(47,47,16),(47,47,16)</GMP2_SKIN_IN_OUT_NODE2>
+        <GMP2_SKIN_IN_OUT_NODE3>(88,47,47),(88,47,47)</GMP2_SKIN_IN_OUT_NODE3>
+        <GMP2_SKIN_IN_OUT_NODE4>(128,88,16),(128,88,16)</GMP2_SKIN_IN_OUT_NODE4>
+        <GMP2_SKIN_IN_OUT_NODE5>(128,88,47),(128,88,47)</GMP2_SKIN_IN_OUT_NODE5>
+        <GMP2_SKIN_IN_OUT_NODE6>(128,88,88),(128,88,88)</GMP2_SKIN_IN_OUT_NODE6>
+        <GMP2_SKIN_IN_OUT_NODE7>(168,128,47),(168,128,47)</GMP2_SKIN_IN_OUT_NODE7>
+        <GMP2_SKIN_IN_OUT_NODE8>(168,128,88),(168,128,88)</GMP2_SKIN_IN_OUT_NODE8>
+        <GMP2_SKIN_IN_OUT_NODE9>(209,16,16),(209,16,16)</GMP2_SKIN_IN_OUT_NODE9>
+        <GMP2_SKIN_IN_OUT_NODE10>(209,168,88),(209,168,88)</GMP2_SKIN_IN_OUT_NODE10>
+        <GMP2_SKIN_IN_OUT_NODE11>(255,47,16),(255,47,16)</GMP2_SKIN_IN_OUT_NODE11>
+        <GMP2_SKIN_IN_OUT_NODE12>(255,47,47),(255,47,47)</GMP2_SKIN_IN_OUT_NODE12>
+        <GMP2_SKIN_IN_OUT_NODE13>(255,88,16),(255,88,16)</GMP2_SKIN_IN_OUT_NODE13>
+        <GMP2_SKIN_IN_OUT_NODE14>(255,88,88),(255,88,88)</GMP2_SKIN_IN_OUT_NODE14>
+        <GMP2_SKIN_IN_OUT_NODE15>(255,128,47),(255,128,47)</GMP2_SKIN_IN_OUT_NODE15>
+        <GMP2_SKIN_IN_OUT_NODE16>(255,128,128),(255,128,128)</GMP2_SKIN_IN_OUT_NODE16>
+        <GMP2_SKIN_IN_OUT_NODE17>(255,168,88),(255,168,88)</GMP2_SKIN_IN_OUT_NODE17>
+        <GMP2_SKIN_IN_OUT_NODE18>(255,168,128),(255,168,128)</GMP2_SKIN_IN_OUT_NODE18>
+    </GamutMapping_2>
+
+    <GamutMapping_3>
+    <!-- SatTH Sat0TH-->
+        <GMP3_Sat_TH>0</GMP3_Sat_TH>
+        <GMP3_Sat0_TH>20</GMP3_Sat0_TH>
+    <!-- Gamma ratio -->
+        <GMP3_Gamma_Ratio>2.2</GMP3_Gamma_Ratio>
+        <GMP3_DeGamma_Ratio>2.2</GMP3_DeGamma_Ratio>
+    <!-- Gray gain -->
+        <GMP3_Gray_SlopA>-0.4</GMP3_Gray_SlopA>
+        <GMP3_Gray_SlopB>1.0</GMP3_Gray_SlopB>
+    <!-- 3x3x3-LUT -->
+        <GMP3_IN_OUT_NODE1>(0,0,0),(0,0,0)</GMP3_IN_OUT_NODE1>
+        <GMP3_IN_OUT_NODE2>(0,0,128),(0,0,128)</GMP3_IN_OUT_NODE2>
+        <GMP3_IN_OUT_NODE3>(0,0,255),(0,0,255)</GMP3_IN_OUT_NODE3>
+        <GMP3_IN_OUT_NODE4>(0,128,0),(0,128,0)</GMP3_IN_OUT_NODE4>
+        <GMP3_IN_OUT_NODE5>(0,128,128),(0,128,128)</GMP3_IN_OUT_NODE5>
+        <GMP3_IN_OUT_NODE6>(0,128,255),(0,128,255)</GMP3_IN_OUT_NODE6>
+        <GMP3_IN_OUT_NODE7>(0,255,0),(0,255,0)</GMP3_IN_OUT_NODE7>
+        <GMP3_IN_OUT_NODE8>(0,255,128),(0,255,128)</GMP3_IN_OUT_NODE8>
+        <GMP3_IN_OUT_NODE9>(0,255,255),(0,255,255)</GMP3_IN_OUT_NODE9>
+        <GMP3_IN_OUT_NODE10>(128,0,0),(128,0,0)</GMP3_IN_OUT_NODE10>
+        <GMP3_IN_OUT_NODE11>(128,0,128),(128,0,128)</GMP3_IN_OUT_NODE11>
+        <GMP3_IN_OUT_NODE12>(128,0,255),(128,0,255)</GMP3_IN_OUT_NODE12>
+        <GMP3_IN_OUT_NODE13>(128,128,0),(128,128,0)</GMP3_IN_OUT_NODE13>
+        <GMP3_IN_OUT_NODE14>(128,128,128),(128,128,128)</GMP3_IN_OUT_NODE14>
+        <GMP3_IN_OUT_NODE15>(128,128,255),(128,128,255)</GMP3_IN_OUT_NODE15>
+        <GMP3_IN_OUT_NODE16>(128,255,0),(128,255,0)</GMP3_IN_OUT_NODE16>
+        <GMP3_IN_OUT_NODE17>(128,255,128),(128,255,128)</GMP3_IN_OUT_NODE17>
+        <GMP3_IN_OUT_NODE18>(128,255,255),(128,255,255)</GMP3_IN_OUT_NODE18>
+        <GMP3_IN_OUT_NODE19>(255,0,0),(255,0,0)</GMP3_IN_OUT_NODE19>
+        <GMP3_IN_OUT_NODE20>(255,0,128),(255,0,128)</GMP3_IN_OUT_NODE20>
+        <GMP3_IN_OUT_NODE21>(255,0,255),(255,0,255)</GMP3_IN_OUT_NODE21>
+        <GMP3_IN_OUT_NODE22>(255,128,0),(255,128,0)</GMP3_IN_OUT_NODE22>
+        <GMP3_IN_OUT_NODE23>(255,128,128),(255,128,128)</GMP3_IN_OUT_NODE23>
+        <GMP3_IN_OUT_NODE24>(255,128,255),(255,128,255)</GMP3_IN_OUT_NODE24>
+        <GMP3_IN_OUT_NODE25>(255,255,0),(255,255,0)</GMP3_IN_OUT_NODE25>
+        <GMP3_IN_OUT_NODE26>(255,255,128),(255,255,128)</GMP3_IN_OUT_NODE26>
+        <GMP3_IN_OUT_NODE27>(255,255,255),(255,255,255)</GMP3_IN_OUT_NODE27>
+    <!-- Skin LUT -->
+        <GMP3_SKIN_IN_OUT_NODE1>(47,16,16),(47,16,16)</GMP3_SKIN_IN_OUT_NODE1>
+        <GMP3_SKIN_IN_OUT_NODE2>(47,47,16),(47,47,16)</GMP3_SKIN_IN_OUT_NODE2>
+        <GMP3_SKIN_IN_OUT_NODE3>(88,47,47),(88,47,47)</GMP3_SKIN_IN_OUT_NODE3>
+        <GMP3_SKIN_IN_OUT_NODE4>(128,88,16),(128,88,16)</GMP3_SKIN_IN_OUT_NODE4>
+        <GMP3_SKIN_IN_OUT_NODE5>(128,88,47),(128,88,47)</GMP3_SKIN_IN_OUT_NODE5>
+        <GMP3_SKIN_IN_OUT_NODE6>(128,88,88),(128,88,88)</GMP3_SKIN_IN_OUT_NODE6>
+        <GMP3_SKIN_IN_OUT_NODE7>(168,128,47),(168,128,47)</GMP3_SKIN_IN_OUT_NODE7>
+        <GMP3_SKIN_IN_OUT_NODE8>(168,128,88),(168,128,88)</GMP3_SKIN_IN_OUT_NODE8>
+        <GMP3_SKIN_IN_OUT_NODE9>(209,16,16),(209,16,16)</GMP3_SKIN_IN_OUT_NODE9>
+        <GMP3_SKIN_IN_OUT_NODE10>(209,168,88),(209,168,88)</GMP3_SKIN_IN_OUT_NODE10>
+        <GMP3_SKIN_IN_OUT_NODE11>(255,47,16),(255,47,16)</GMP3_SKIN_IN_OUT_NODE11>
+        <GMP3_SKIN_IN_OUT_NODE12>(255,47,47),(255,47,47)</GMP3_SKIN_IN_OUT_NODE12>
+        <GMP3_SKIN_IN_OUT_NODE13>(255,88,16),(255,88,16)</GMP3_SKIN_IN_OUT_NODE13>
+        <GMP3_SKIN_IN_OUT_NODE14>(255,88,88),(255,88,88)</GMP3_SKIN_IN_OUT_NODE14>
+        <GMP3_SKIN_IN_OUT_NODE15>(255,128,47),(255,128,47)</GMP3_SKIN_IN_OUT_NODE15>
+        <GMP3_SKIN_IN_OUT_NODE16>(255,128,128),(255,128,128)</GMP3_SKIN_IN_OUT_NODE16>
+        <GMP3_SKIN_IN_OUT_NODE17>(255,168,88),(255,168,88)</GMP3_SKIN_IN_OUT_NODE17>
+        <GMP3_SKIN_IN_OUT_NODE18>(255,168,128),(255,168,128)</GMP3_SKIN_IN_OUT_NODE18>
+    </GamutMapping_3>
+
+    <ACM_General_Control>
+    <!-- SkinDetectControlParam-->
+        <SKIN_TH_MIN_H>110</SKIN_TH_MIN_H>
+        <SKIN_TH_MAX_H>140</SKIN_TH_MAX_H>
+        <SKIN_SLOP_H>30.0</SKIN_SLOP_H>
+        <SKIN_TH_MIN_S>20.0</SKIN_TH_MIN_S>
+        <SKIN_TH_MAX_S>60.0</SKIN_TH_MAX_S>
+        <SKIN_SLOP_S>30.0</SKIN_SLOP_S>
+        <SKIN_TH_MIN_V>100.0</SKIN_TH_MIN_V>
+        <SKIN_TH_MAX_V>220.0</SKIN_TH_MAX_V>
+        <SKIN_SLOP_V>30.0</SKIN_SLOP_V>
+        <SKIN_GainMax_V>0.0</SKIN_GainMax_V>
+        <SKIN_GainMax_S>0.0</SKIN_GainMax_S>
+        <SKIN_GainMax_H>0.0</SKIN_GainMax_H>
+        <SKIN_IsChange>1</SKIN_IsChange>
+    <!-- SatTH -->
+        <Sat_TH>0.0</Sat_TH>
+    </ACM_General_Control>
+
+    <ACM_Table>
+    <!-- ACM Module Control-->
+        <CTRL_DoHueAdjust>0</CTRL_DoHueAdjust>
+        <CTRL_DoSatAdjust>0</CTRL_DoSatAdjust>
+        <CTRL_DoValAdjust>0</CTRL_DoValAdjust>
+    <!-- HSV_Global_Adjust-->
+        <Global_Hoffset>0</Global_Hoffset>
+    <!-- HbyH_Offset_Table-->
+        <HUE_Offset>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</HUE_Offset>
+    <!-- SbyS_Intervals_Table-->
+        <SbyS_Intervals>(0, 128, 256, 384, 512)</SbyS_Intervals>
+    <!-- SbyHS_Offset_Table-->
+        <SAT_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT_HS_Offset_0>
+        <SAT_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT_HS_Offset_1>
+        <SAT_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT_HS_Offset_2>
+    <!-- VbyV_Intervals_Table-->
+        <VbyV_Intervals>(0, 256, 512, 768, 1023)</VbyV_Intervals>
+    <!-- VbyHV_Offset_Table-->
+        <VAL_HV_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HV_Offset_0>
+        <VAL_HV_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HV_Offset_1>
+        <VAL_HV_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HV_Offset_2>
+    <!-- VbyS_Intervals_Table-->
+        <VbyS_Intervals>(0, 128, 256, 384, 512)</VbyS_Intervals>
+    <!-- VbyHS_Offset_Table-->
+        <VAL_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HS_Offset_0>
+        <VAL_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HS_Offset_1>
+        <VAL_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HS_Offset_2>
+    </ACM_Table>
+
+    <ACM2_General_Control>
+    <!-- SkinDetectControlParam-->
+        <SKIN2_TH_MIN_H>110</SKIN2_TH_MIN_H>
+        <SKIN2_TH_MAX_H>140</SKIN2_TH_MAX_H>
+        <SKIN2_SLOP_H>30.0</SKIN2_SLOP_H>
+        <SKIN2_TH_MIN_S>20.0</SKIN2_TH_MIN_S>
+        <SKIN2_TH_MAX_S>60.0</SKIN2_TH_MAX_S>
+        <SKIN2_SLOP_S>30.0</SKIN2_SLOP_S>
+        <SKIN2_TH_MIN_V>100.0</SKIN2_TH_MIN_V>
+        <SKIN2_TH_MAX_V>220.0</SKIN2_TH_MAX_V>
+        <SKIN2_SLOP_V>30.0</SKIN2_SLOP_V>
+        <SKIN2_GainMax_V>0.0</SKIN2_GainMax_V>
+        <SKIN2_GainMax_S>0.0</SKIN2_GainMax_S>
+        <SKIN2_GainMax_H>0.0</SKIN2_GainMax_H>
+        <SKIN2_IsChange>1</SKIN2_IsChange>
+    <!-- SatTH -->
+        <Sat2_TH>0.0</Sat2_TH>
+    </ACM2_General_Control>
+
+    <ACM2_Table>
+    <!-- ACM Module Control-->
+        <CTRL_DoHueAdjust2>0</CTRL_DoHueAdjust2>
+        <CTRL_DoSatAdjust2>0</CTRL_DoSatAdjust2>
+        <CTRL_DoValAdjust2>0</CTRL_DoValAdjust2>
+    <!-- HSV_Global_Adjust-->
+        <Global_Hoffset2>0</Global_Hoffset2>
+    <!-- HbyH_Offset_Table-->
+        <HUE_Offset2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</HUE_Offset2>
+    <!-- SbyS_Intervals_Table-->
+        <SbyS_Intervals2>(0, 70, 190, 320, 512)</SbyS_Intervals2>
+    <!-- SbyHS_Offset_Table-->
+        <SAT2_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT2_HS_Offset_0>
+        <SAT2_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT2_HS_Offset_1>
+        <SAT2_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT2_HS_Offset_2>
+    <!-- VbyV_Intervals_Table-->
+        <VbyV_Intervals2>(0, 256, 512, 768, 1023)</VbyV_Intervals2>
+    <!-- VbyHV_Offset_Table-->
+        <VAL2_HV_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HV_Offset_0>
+        <VAL2_HV_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HV_Offset_1>
+        <VAL2_HV_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HV_Offset_2>
+    <!-- VbyS_Intervals_Table-->
+        <VbyS_Intervals2>(0, 128, 256, 384, 512)</VbyS_Intervals2>
+    <!-- VbyHS_Offset_Table-->
+        <VAL2_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HS_Offset_0>
+        <VAL2_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HS_Offset_1>
+        <VAL2_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HS_Offset_2>
+    </ACM2_Table>
+
+    <ACM3_General_Control>
+    <!-- SkinDetectControlParam-->
+        <SKIN3_TH_MIN_H>110</SKIN3_TH_MIN_H>
+        <SKIN3_TH_MAX_H>140</SKIN3_TH_MAX_H>
+        <SKIN3_SLOP_H>30.0</SKIN3_SLOP_H>
+        <SKIN3_TH_MIN_S>20.0</SKIN3_TH_MIN_S>
+        <SKIN3_TH_MAX_S>60.0</SKIN3_TH_MAX_S>
+        <SKIN3_SLOP_S>30.0</SKIN3_SLOP_S>
+        <SKIN3_TH_MIN_V>100.0</SKIN3_TH_MIN_V>
+        <SKIN3_TH_MAX_V>220.0</SKIN3_TH_MAX_V>
+        <SKIN3_SLOP_V>30.0</SKIN3_SLOP_V>
+        <SKIN3_GainMax_V>0.0</SKIN3_GainMax_V>
+        <SKIN3_GainMax_S>0.0</SKIN3_GainMax_S>
+        <SKIN3_GainMax_H>0.0</SKIN3_GainMax_H>
+        <SKIN3_IsChange>1</SKIN3_IsChange>
+    <!-- SatTH -->
+        <Sat3_TH>0.0</Sat3_TH>
+    </ACM3_General_Control>
+
+    <ACM3_Table>
+    <!-- ACM Module Control-->
+        <CTRL_DoHueAdjust3>1</CTRL_DoHueAdjust3>
+        <CTRL_DoSatAdjust3>1</CTRL_DoSatAdjust3>
+        <CTRL_DoValAdjust3>1</CTRL_DoValAdjust3>
+    <!-- HSV_Global_Adjust-->
+        <Global_Hoffset3>0</Global_Hoffset3>
+    <!-- HbyH_Offset_Table-->
+        <HUE_Offset3>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</HUE_Offset3>
+    <!-- SbyS_Intervals_Table-->
+        <SbyS_Intervals3>(0, 128, 160, 384, 512)</SbyS_Intervals3>
+    <!-- SbyHS_Offset_Table-->
+        <SAT3_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT3_HS_Offset_0>
+        <SAT3_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT3_HS_Offset_1>
+        <SAT3_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT3_HS_Offset_2>
+    <!-- VbyV_Intervals_Table-->
+        <VbyV_Intervals3>(0, 200, 480, 700, 1023)</VbyV_Intervals3>
+    <!-- VbyHV_Offset_Table-->
+        <VAL3_HV_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL3_HV_Offset_0>
+        <VAL3_HV_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL3_HV_Offset_1>
+        <VAL3_HV_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL3_HV_Offset_2>
+    <!-- VbyS_Intervals_Table-->
+        <VbyS_Intervals3>(0, 50, 256, 384, 512)</VbyS_Intervals3>
+    <!-- VbyHS_Offset_Table-->
+        <VAL3_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL3_HS_Offset_0>
+        <VAL3_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL3_HS_Offset_1>
+        <VAL3_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL3_HS_Offset_2>
+    </ACM3_Table>
+
+    <LUT3D>
+        <param name="gmp_lut_low32">
+                0x00000000, 0x28028201, 0x54054401, 0x87087602, 0xb50b5803, 0xe20e2a04, 0x0f10fc05, 0x3a13ae05, 0x66166fff, 
+				0x001ff000, 0x2a201201, 0x55205401, 0x8520c602, 0xb4217803, 0xe2225a04, 0x0c235c05, 0x39249e05, 0x65260fff, 
+				0x003ff000, 0x2b400201, 0x56401401, 0x7d405602, 0xaf40a803, 0xdc410a04, 0x05417c05, 0x32421e05, 0x6142cfff, 
+				0x005ff000, 0x2c5ff201, 0x57600401, 0x86602602, 0xb5605803, 0xdc609a04, 0xfe60dc05, 0x26613e05, 0x5761afff, 
+				0x007ff000, 0x2c7ff201, 0x58800401, 0x7c801602, 0xb2803803, 0xdf806a04, 0x05809c05, 0x2d80de05, 0x5c812fff, 
+				0x009fe000, 0x2d9ff201, 0x599ff401, 0x85a00602, 0xb0a02803, 0xe0a04a04, 0x0ea07c05, 0x3da0ae05, 0x69a0efff, 
+				0x00bfe000, 0x2dbfe201, 0x5abfe401, 0x87bff602, 0xb4c00803, 0xdac03a04, 0x07c05c05, 0x3cc07e05, 0x6ac0afff, 
+				0x00dfd000, 0x2ddfd201, 0x5adfe401, 0x88dff602, 0xb5e00803, 0xe0e01a04, 0x03e03c05, 0x34e05e05, 0x68e08fff, 
+				0x00ffc000, 0x2dffc201, 0x5affd401, 0x88ffd602, 0xb5ffe803, 0xe2fffa04, 0x0dfffc05, 0x35fffe05, 0x65ffffff, 
+				
+				0xff000000, 0x00018200, 0x0404f401, 0x0b082602, 0x160b1803, 0x240e0a04, 0x3510cc05, 0x49138e05, 0x60165fff, 
+				0xff1ff000, 0x00200200, 0x04204401, 0x0b20b602, 0x16216803, 0x24224a04, 0x34234c05, 0x49249e05, 0x60260fff, 
+				0xff3ff000, 0x003ff200, 0x04401401, 0x0a404602, 0x15409803, 0x2340fa04, 0x33417c05, 0x47420e05, 0x5e42cfff, 
+				0xff5ff000, 0x005ff200, 0x04600401, 0x0b602602, 0x16605803, 0x23609a04, 0x3160dc05, 0x44612e05, 0x5c61afff, 
+				0xff7fe000, 0x007ff200, 0x04800401, 0x0a801602, 0x16803803, 0x23806a04, 0x33809c05, 0x4680de05, 0x5d812fff, 
+				0xff9fe000, 0x009fe200, 0x049ff401, 0x0ba00602, 0x15a01803, 0x24a04a04, 0x35a06c05, 0x4aa0ae05, 0x61a0efff, 
+				0xffbfe000, 0x00bfe200, 0x04bfe401, 0x0bbff602, 0x16c00803, 0x23c02a04, 0x33c05c05, 0x4ac07e05, 0x61c0afff, 
+				0xffdfd000, 0x00dfd200, 0x04dfe401, 0x0bdff602, 0x16e00803, 0x24e01a04, 0x33e03c05, 0x48e05e05, 0x60e08fff, 
+				0xffffc000, 0x00ffc200, 0x04ffd401, 0x0bffd602, 0x16ffe803, 0x24fffa04, 0x35fffc05, 0x48fffe05, 0x60ffffff, 
+				
+				0xff000000, 0xff0001fe, 0x0002b400, 0x0306f601, 0x080a5802, 0x0e0d8a03, 0x17105c04, 0x21132e05, 0x2b160fff, 
+				0xff1ff000, 0x00200200, 0x00201400, 0x03207601, 0x08213802, 0x0e221a03, 0x17232c04, 0x20246e05, 0x2b25cfff, 
+				0xff3ff000, 0x004001ff, 0x00400400, 0x02402601, 0x07407802, 0x0d40da03, 0x15415c04, 0x1f41fe05, 0x2b42bfff, 
+				0xfe5fe000, 0xfe5fe1fe, 0x005ff400, 0x03601601, 0x07604802, 0x0c607a03, 0x1460cc03, 0x1d612e04, 0x29619fff, 
+				0xfe7fe000, 0xfe7fe1fd, 0x007ff400, 0x03800601, 0x08802802, 0x0d805a03, 0x15808c04, 0x1e80ce05, 0x2a811fff, 
+				0xfe9fe000, 0xfe9fe1fd, 0x009ff400, 0x039ff601, 0x08a01802, 0x0ea03a03, 0x17a06c04, 0x21a0ae05, 0x2ca0dfff, 
+				0xfebfe000, 0xfebfe1fd, 0x00bfe400, 0x03bff601, 0x08c00802, 0x0dc02a03, 0x16c04c04, 0x21c07e05, 0x2cc0afff, 
+				0xfedfd000, 0xfedfd1fd, 0x00dfd400, 0x03dfe601, 0x08e00802, 0x0ee01a03, 0x16e03c04, 0x20e05e05, 0x2ce08fff, 
+				0xfeffc000, 0xfeffc1fd, 0x00ffc400, 0x03ffd601, 0x08ffe802, 0x0efffa03, 0x17fffc04, 0x20fffe05, 0x2bffffff, 
+				
+				0xff000000, 0xff0001fd, 0xff0003ff, 0x0003f600, 0x0308c802, 0x070c6a03, 0x0c0f7c04, 0x12127e04, 0x19156fff, 
+				0xff1fd000, 0x00200200, 0x00200400, 0x00203600, 0x0320e802, 0x0721ca03, 0x0c22dc04, 0x11241e04, 0x18258fff, 
+				0xff3ff000, 0x00400200, 0x00400400, 0x00400600, 0x02404801, 0x0640aa02, 0x0b412c04, 0x1141ce04, 0x18428fff, 
+				0xfe5fe000, 0xff5ff1fd, 0x00600400, 0x00600600, 0x01601801, 0x04604a02, 0x08608c03, 0x0f60fe03, 0x17617fff, 
+				0xfd7fd000, 0xfe7fe1fa, 0xff7ff3ff, 0x00800600, 0x02802802, 0x05803a02, 0x09806c03, 0x0f80ae03, 0x17811fff, 
+				0xfd9fd000, 0xfd9fd1f9, 0xfe9fe3fe, 0x009ff600, 0x03a01802, 0x07a03a03, 0x0ca06c04, 0x12a09e04, 0x19a0cfff, 
+				0xfdbfd000, 0xfdbfd1f8, 0xfebfe3fe, 0x00bfe600, 0x03c00802, 0x07c01a03, 0x0cc04c04, 0x12c06e04, 0x19c09fff, 
+				0xfddfd000, 0xfddfd1f8, 0xfedfd3fe, 0x00dfe600, 0x03dff802, 0x07e00a03, 0x0be02c04, 0x11e04e04, 0x19e07fff, 
+				0xfdffb000, 0xfdffc1f8, 0xfeffc3fe, 0x00ffd600, 0x03ffd802, 0x07fffa03, 0x0cfffc04, 0x12fffe04, 0x18ffffff, 
+				
+				0xfe000000, 0xff0001fb, 0x00000400, 0xff0005ff, 0x0005d800, 0x030a9a01, 0x060e1c03, 0x0b114e04, 0x10147fff, 
+				0xfe1fa000, 0xff1fc1fc, 0x00200400, 0xff1fe5ff, 0x00206800, 0x03214a01, 0x06225c03, 0x0b239e04, 0x10252fff, 
+				0xff3ff000, 0x00400200, 0x00400400, 0x00400600, 0x00401800, 0x02406a01, 0x0540ec02, 0x0a418e04, 0x0f425fff, 
+				0xff5ff000, 0xff5ff1fd, 0x00600400, 0x00600600, 0x00600800, 0x01601a00, 0x03605c01, 0x0960de03, 0x0e615fff, 
+				0xfc7fc000, 0xfe7fe1f7, 0x00800400, 0x00800600, 0x00800800, 0x00800a00, 0x02802c01, 0x08808e03, 0x0e80efff, 
+				0xfc9fd000, 0xfd9fd1f4, 0xfe9fe3fc, 0xff9ff5ff, 0x009ff800, 0x02a01a01, 0x05a03c02, 0x0aa07e04, 0x0fa0bfff, 
+				0xfbbfc000, 0xfcbfc1f1, 0xfdbfd3fa, 0xfebfe5fe, 0x00bff800, 0x03c00a01, 0x06c03c03, 0x0bc05e04, 0x10c09fff, 
+				0xfbdfc000, 0xfcdfc1f0, 0xfddfc3fa, 0xfedfd5fe, 0x00dfe800, 0x03e00a01, 0x06e02c03, 0x0be04e04, 0x10e06fff, 
+				0xfbffb000, 0xfcffb1f0, 0xfdffb3fa, 0xfeffc5fe, 0x00ffd800, 0x03ffea01, 0x06fffc03, 0x0bfffe04, 0x10ffffff, 
+				
+				0xfd000000, 0xfd0001f3, 0x00000400, 0xfe0005fe, 0xfe0007fe, 0x0007ba00, 0x030c2c02, 0x060fde03, 0x0a136fff, 
+				0xfe1f5000, 0xfd1f41f4, 0x00200400, 0xff1fc5fe, 0xfe1fe7fe, 0x0020ba00, 0x0321cc02, 0x06230e03, 0x0a249fff, 
+				0xfe3fd000, 0x004001ff, 0x00400400, 0x00400600, 0xff3ff7ff, 0x00404a00, 0x0240bc02, 0x05415e03, 0x0a421fff, 
+				0xff5ff000, 0x00600200, 0x00600400, 0x00600600, 0x00600800, 0x00600a00, 0x02604c01, 0x0560be02, 0x09613fff, 
+				0xfe7fe000, 0x008001fe, 0x00800400, 0x00800600, 0x00800800, 0x00800a00, 0x00800c00, 0x04806e02, 0x0980cfff, 
+				0xfc9fc000, 0xfc9fc1f0, 0xff9ff3fe, 0x00a00600, 0x00a00800, 0x00a00a00, 0x01a01c00, 0x04a04e02, 0x09a09fff, 
+				0xfabfb000, 0xfbbfb1e8, 0xfcbfd3f8, 0xfdbfd5fd, 0xffbff7ff, 0x00bffa00, 0x02c01c01, 0x05c03e03, 0x09c06fff, 
+				0xfadfb000, 0xfadfb1e6, 0xfbdfb3f6, 0xfcdfc5fb, 0xfedfd7fe, 0x00dffa00, 0x03e00c02, 0x05e03e03, 0x0ae05fff, 
+				0xfaffa000, 0xfaffa1e6, 0xfbffa3f6, 0xfcffb5fb, 0xfeffc7fe, 0x00ffda00, 0x03fffc02, 0x06fffe03, 0x0affffff, 
+				
+				0xfb000000, 0xfc0001e2, 0xfe0003fb, 0xfe0005fd, 0xfd0007fc, 0xfe0009fe, 0x00099c00, 0x030e1e02, 0x06121fff, 
+				0xfc1e6000, 0xfc1e51e5, 0xfe1f53fb, 0xfe1f65fd, 0xfd1f37fc, 0xfe1ff9fe, 0x00210c00, 0x03225e02, 0x0623ffff, 
+				0xfd3f7000, 0xfe3f91f0, 0xfe3fc3fc, 0xff3fe5ff, 0xfe3fb7fd, 0xfe3ff9fe, 0x00406c00, 0x03410e02, 0x0641cfff, 
+				0xff5fd000, 0x006001ff, 0x00600400, 0x00600600, 0xff5fe7fe, 0xff5ff9ff, 0x00603c00, 0x03609e02, 0x06610fff, 
+				0x00800000, 0x00800200, 0x00800400, 0x00800600, 0x00800800, 0x00800a00, 0x00801c00, 0x02804e01, 0x0580afff, 
+				0xfc9fb000, 0xfd9fd1ed, 0x00a00400, 0x00a00600, 0x00a00800, 0x00a00a00, 0x00a00c00, 0x01a02e01, 0x05a06fff, 
+				0xfabfa000, 0xfbbfb1dc, 0xfcbfc3f4, 0xfebfe5fc, 0x00c00800, 0x00c00a00, 0x00c00c00, 0x01c01e01, 0x04c04fff, 
+				0xf9dfa000, 0xfadfa1d7, 0xfadfa3f0, 0xfbdfb5f8, 0xfddfd7fc, 0xffdfe9ff, 0x00e00c00, 0x02e01e01, 0x05e03fff, 
+				0xf9ff9000, 0xfaff91d7, 0xfaff93f0, 0xfbffa5f8, 0xfcffb7fb, 0xfeffc9fe, 0x00ffec00, 0x03fffe02, 0x05ffffff, 
+				
+				0xfa000000, 0xfa0001d1, 0xfb0003f1, 0xfc0005f9, 0xfc0007fa, 0xfc0009fc, 0xfe03dbfe, 0x000b8e00, 0x03103fff, 
+				0xfa1d1000, 0xfa1d41d4, 0xfc1dd3f1, 0xfc1e75f9, 0xfc1e67fa, 0xfc1f09fc, 0xfe202bfe, 0x00218e00, 0x03231fff, 
+				0xfb3ef000, 0xfb3f11dd, 0xfc3f33f3, 0xfd3f75fa, 0xfc3f57fb, 0xfc3f99fc, 0xfe400bfe, 0x0040ae00, 0x03416fff, 
+				0xfc5f9000, 0xfd5fa1e9, 0xff5fd3fb, 0xfd5fb5fb, 0xfd5fb7fc, 0xfd5fb9fd, 0xfe600bfe, 0x00605e00, 0x0360dfff, 
+				0xff7ff000, 0x00800200, 0x00800400, 0x00800600, 0x00800800, 0xff7fe9ff, 0xff800bff, 0x00803e00, 0x03808fff, 
+				0xfc9fa000, 0xfd9fc1e9, 0x00a00400, 0x00a00600, 0x00a00800, 0x00a00a00, 0x00a00c00, 0x00a01e00, 0x02a04fff, 
+				0xf9bf8000, 0xf9bf81cf, 0xfcbfb3f1, 0xffbff5ff, 0x00c00800, 0x00c00a00, 0x00c00c00, 0x00c00e00, 0x01c02fff, 
+				0xf8df8000, 0xf8df81c6, 0xf9df93ea, 0xfadfa5f4, 0xfddfd7fb, 0xffdff9ff, 0x00e00c00, 0x00e00e00, 0x01e01fff, 
+				0xf8ff8000, 0xf8ff81c5, 0xf9ff83e9, 0xf9ff85f3, 0xfbffa7f9, 0xfcffb9fc, 0xfeffdbfe, 0x00ffee00, 0x02ffffff, 
+				
+				0xf7000000, 0xf80001c0, 0xf80003e9, 0xf90005f3, 0xf90007f6, 0xf90009f9, 0xfb000bfc, 0xfd065dfe, 0xff0d4fff, 
+				0xf71bc000, 0xf81c21c2, 0xf91ca3ea, 0xf91d05f3, 0xf91d17f7, 0xf91dc9f9, 0xfb1efbfc, 0xfd206dfe, 0xff221fff, 
+				0xf83e5000, 0xf93e91c7, 0xf93ed3ed, 0xf93ec5f3, 0xf93ed7f7, 0xf93f19f9, 0xfb3f8bfc, 0xfd402dfe, 0xff40efff, 
+				0xf95f2000, 0xf95f21ca, 0xfb5f73f3, 0xfa5f55f5, 0xfa5f57f8, 0xfa5f79fa, 0xfc5fbbfd, 0xfd601dfe, 0xff608fff, 
+				0xfb7fa000, 0xfc7fa1e2, 0xfc7fb3f4, 0xff7ff5ff, 0xfd7fd7fd, 0xfc7fc9fd, 0xfd7fdbfe, 0xfe800dff, 0xff804fff, 
+				0xfa9f9000, 0xfb9fa1dd, 0xfd9fe3fa, 0xffa00600, 0xffa00800, 0xffa00a00, 0xffa00c00, 0xfea00dff, 0xffa02fff, 
+				0xf7bf7000, 0xf8bf71bf, 0xfabfa3ee, 0xffc00600, 0xffc00800, 0xffc00a00, 0xffc00c00, 0xffc00e00, 0xffc01fff, 
+				0xf7df8000, 0xf7df81b5, 0xf7df83e4, 0xf8df95f1, 0xfcdfd7fb, 0xffe00a00, 0xffe00c00, 0xffe00e00, 0xffe00fff, 
+				0xf6ff6000, 0xf6ff61b0, 0xf6ff63e2, 0xf7ff75ee, 0xf8ff87f6, 0xfaffa9fa, 0xfcffcbfd, 0xfffffe00, 0xffffffff, 
+			</param>
+			<param name="gmp_lut_high4">
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1, 0x1, 0x1, 
+				
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				0x1, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 0x2, 
+				
+				0x3, 0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				0x3, 0x3, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 0x4, 
+				
+				0x5, 0x5, 0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x5, 0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x5, 0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x5, 0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x5, 0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				0x5, 0x5, 0x5, 0x6, 0x6, 0x6, 0x6, 0x6, 0x6, 
+				
+				0x7, 0x7, 0x8, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x7, 0x8, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x7, 0x7, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x7, 0x7, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x7, 0x7, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				0x7, 0x7, 0x7, 0x7, 0x8, 0x8, 0x8, 0x8, 0x8, 
+				
+				0x9, 0x9, 0xa, 0x9, 0x9, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0x9, 0xa, 0x9, 0x9, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0xa, 0xa, 0xa, 0x9, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0xa, 0xa, 0xa, 0xa, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0xa, 0xa, 0xa, 0xa, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0x9, 0x9, 0xa, 0xa, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0x9, 0x9, 0x9, 0x9, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0x9, 0x9, 0x9, 0x9, 0xa, 0xa, 0xa, 0xa, 
+				0x9, 0x9, 0x9, 0x9, 0x9, 0xa, 0xa, 0xa, 0xa, 
+				
+				0xb, 0xb, 0xb, 0xb, 0xb, 0xb, 0xc, 0xc, 0xc, 
+				0xb, 0xb, 0xb, 0xb, 0xb, 0xb, 0xc, 0xc, 0xc, 
+				0xb, 0xb, 0xb, 0xb, 0xb, 0xb, 0xc, 0xc, 0xc, 
+				0xb, 0xc, 0xc, 0xc, 0xb, 0xb, 0xc, 0xc, 0xc, 
+				0xc, 0xc, 0xc, 0xc, 0xc, 0xc, 0xc, 0xc, 0xc, 
+				0xb, 0xb, 0xc, 0xc, 0xc, 0xc, 0xc, 0xc, 0xc, 
+				0xb, 0xb, 0xb, 0xb, 0xc, 0xc, 0xc, 0xc, 0xc, 
+				0xb, 0xb, 0xb, 0xb, 0xb, 0xb, 0xc, 0xc, 0xc, 
+				0xb, 0xb, 0xb, 0xb, 0xb, 0xb, 0xc, 0xc, 0xc, 
+				
+				0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xe, 0xe, 
+				0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xe, 0xe, 
+				0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xe, 0xe, 
+				0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xe, 0xe, 
+				0xd, 0xe, 0xe, 0xe, 0xe, 0xd, 0xd, 0xe, 0xe, 
+				0xd, 0xd, 0xe, 0xe, 0xe, 0xe, 0xe, 0xe, 0xe, 
+				0xd, 0xd, 0xd, 0xd, 0xe, 0xe, 0xe, 0xe, 0xe, 
+				0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xe, 0xe, 0xe, 
+				0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xd, 0xe, 0xe, 
+				
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 
+				0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf, 0xf,
+            </param>
+    </LUT3D>
+</Config>

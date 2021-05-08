@@ -1,0 +1,23 @@
+{
+    "resId":"nlu_express_group",
+    "domain":"nlu",
+    "district":"china",
+    "deviceType":"common",
+    "productName":"common",
+    "romVersion":"common",
+    "osVersion":"common",
+    "version":"0x01010000",
+    "releaseNotes":"",
+    "digest":"",
+    "fileName":"",
+    "ResMetaData":[
+        {
+            "origin_id":"0x000000000200004c",
+            "res_value":"",
+            "res_path":"nlu/config/express.json",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        }
+    ]
+}

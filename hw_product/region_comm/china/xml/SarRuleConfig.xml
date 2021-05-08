@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SarRuleConfig>
+    <restore>
+        <sar_cell_restore value="0" />
+    </restore>
+    <configs is_use_precondition="1" >
+        <config>
+            <is_front_camera_on value="0" />
+			<is_back_camera_on value="0" />
+            <sar_cell_reduce value="0" />
+        </config>    
+        <config>
+            <is_front_camera_on value="0" />
+			<is_back_camera_on value="1" />
+            <sar_cell_reduce value="4096" />
+        </config>
+		<config>
+            <is_front_camera_on value="1" />
+			<is_back_camera_on value="0" />
+            <sar_cell_reduce value="8192" />
+        </config>
+		<config>
+            <is_front_camera_on value="1" />
+			<is_back_camera_on value="1" />
+            <sar_cell_reduce value="4096" />
+        </config>
+        
+    </configs>
+</SarRuleConfig>

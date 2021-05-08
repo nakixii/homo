@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system_config >
+  <system left_padding="0" top_padding="0" right_padding="0" bottom_padding="0" mid_padding="2" mid_drag_padding="20" corner_radius="15" host_view_threshold="" support_round_angle="false" support_open_capability="true" support_dynamic_effect="true" support_background="true" is_back_to_middle="false" enable_drag_to_fullscreen="true" multi_dev_capability="VIRTUAL"/>
+</system_config>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * itouch game Config
+ * all game states definitions at here.
+ -->
+<Config>
+    <Params name="dynamic_fps_config">
+        <!-- for game -->
+        <Param name="game_sdk_info_switch" value="1"/>
+    </Params>
+    <Params name="emui_screen_brighten_animation_config">
+        <animation_param name="switch" value="1"/>
+        <animation_param name="animation_duration" value="400"/>
+        <animation_param name="animation_start_scale" value="0.88"/>
+        <animation_param name="animation_max_blur_radius" value="15"/>
+        <animation_param name="animation_mode" value="0"/>
+    </Params>
+
+    <Params name="emui_charging_animation_3d_config">
+        <animation_param value="1" name="switch" />
+    </Params>
+</Config>

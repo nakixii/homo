@@ -1,0 +1,27 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2017-07-01</updated>
+	<feature name="COLORMODE">
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_COLORMODE_ON">MODE_DISABLE</param>
+			<param name="DE_SCENE_ACTION_COLORMODE_OFF">MODE_COLOR_ENHANCE</param>
+		</mode>
+		<mode name="CTRL">
+			<param name="Enable">1</param>
+		</mode>
+		<mode name="STATE">
+			<param name="DefaultState">1</param>
+		</mode>
+		<mode name="COMPONENT_SUPPORT">
+			<param name="COMPONENT_SHARP">0</param>
+			<param name="COMPONENT_CONTRAST">0</param>
+			<param name="COMPONENT_BLC">0</param>
+			<param name="COMPONENT_GMP">1</param>
+			<param name="COMPONENT_XCC">0</param>
+			<param name="COMPONENT_HUE">0</param>
+			<param name="COMPONENT_SAT">0</param>
+			<param name="COMPONENT_GAMMA">1</param>
+			<param name="COMPONENT_IGAMMA">1</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

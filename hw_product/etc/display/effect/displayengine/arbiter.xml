@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DisplayEngineConfig>
+	<id>24</id>
+	<updated>2018-02-06</updated>
+	<feature name="DimmingFrames">
+		<mode name="FEATURE_CONTRAST">
+			<param name="MODE_VIDEO">600</param>
+			<param name="MODE_VIDEO_DISABLE">600</param>
+			<param name="MODE_IMAGE">600</param>
+			<param name="MODE_IMAGE_DISABLE">600</param>
+			<param name="MODE_LRE">600</param>
+			<param name="MODE_LRE_DISABLE">600</param>
+			<param name="MODE_SRE">600</param>
+			<param name="MODE_SRE_DISABLE">600</param>
+			<param name="MODE_HDR10">600</param>
+			<param name="MODE_HLG">600</param>
+			<param name="MODE_HDR10_DISABLE">600</param>
+			<param name="MODE_IM">600</param>
+			<param name="MODE_IM_DISABLE">600</param>
+			<param name="MODE_GAME">600</param>
+			<param name="MODE_GAME_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_1">600</param>
+			<param name="MODE_POWER_SAVING_1_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_2">600</param>
+			<param name="MODE_POWER_SAVING_2_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_3">600</param>
+			<param name="MODE_POWER_SAVING_3_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_4">600</param>
+			<param name="MODE_POWER_SAVING_4_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_5">600</param>
+			<param name="MODE_POWER_SAVING_5_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_6">600</param>
+			<param name="MODE_POWER_SAVING_6_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_7">600</param>
+			<param name="MODE_POWER_SAVING_7_DISABLE">600</param>
+			<param name="MODE_POWER_SAVING_8">600</param>
+			<param name="MODE_POWER_SAVING_8_DISABLE">600</param>
+		</mode>
+		<mode name="FEATURE_BLC">
+			<param name="MODE_VIDEO">60</param>
+			<param name="MODE_VIDEO_DISABLE">60</param>
+		</mode>
+		<mode name="FEATURE_GMP">
+			<param name="MODE_HDR10">10</param>
+			<param name="MODE_HLG">10</param>
+			<param name="MODE_HDR10_DISABLE">0</param>
+			<param name="MODE_UI">10</param>
+			<param name="MODE_VIDEO">10</param>
+			<param name="MODE_IMAGE">15</param>
+			<param name="MODE_IMAPP">10</param>
+			<param name="MODE_BROWSER">30</param>
+			<param name="MODE_NEWS_CLIENT">10</param>
+			<param name="MODE_SHOP">10</param>
+			<param name="MODE_CAMERA">10</param>
+			<param name="MODE_DEFAULT">10</param>
+			<param name="MODE_GAME">30</param>
+			<param name="MODE_EYE_PROTECT">30</param>
+			<param name="MODE_RGBW_HIACE">30</param>
+			<param name="MODE_NATURAL_TONE">100</param>
+			<param name="MODE_RESERVED_0">10</param>
+			<param name="EYE_LONG_DIMMING">3600</param>
+		</mode>
+		<mode name="FEATURE_GAMMA">
+			<param name="MODE_HDR10">10</param>
+		<param name="MODE_HDR10_DISABLE">10</param>
+			<param name="MODE_UI">20</param>
+			<param name="MODE_VIDEO">10</param>
+			<param name="MODE_IMAGE">20</param>
+		</mode>
+		<mode name="FEATURE_IGAMMA">
+			<param name="MODE_HDR10">24</param>
+			<param name="MODE_HLG">24</param>
+			<param name="MODE_HDR10_DISABLE">0</param>
+			<param name="MODE_UI">20</param>
+			<param name="MODE_VIDEO">20</param>
+			<param name="MODE_IMAGE">20</param>
+		</mode>
+		<mode name="FEATURE_XCC">
+			<param name="MODE_AMBIENT_LUX_CHANGE">300</param>
+			<param name="MODE_EYE_PROTECT_ENABLE">50</param>
+			<param name="MODE_DISABLE">50</param>
+			<param name="MODE_NATURAL_TONE_ENABLE">200</param>
+			<param name="MODE_NATURAL_TONE_DISABLE">200</param>
+			<param name="MODE_UI">200</param>
+			<param name="MODE_IMAGE">200</param>
+			<param name="MODE_SCREEN_ON">20</param>
+			<param name="MODE_DIMMING_FRAME_STEP_1">100</param>
+			<param name="MODE_DIMMING_FRAME_STEP_2">200</param>
+			<param name="MODE_DIMMING_FRAME_STEP_3">300</param>
+			<param name="MODE_DIMMING_FRAME_STEP_4">500</param>
+			<param name="MODE_DIMMING_FRAME_STEP_5">1000</param>
+			<!-- UDFingerprint keyguard unlock when screen is on -->
+			<param name="MODE_MONEY">30</param>
+			<!-- UDFingerprint keyguard lock when screen is on -->
+			<param name="MODE_NAVIGATION">15</param>
+			<!-- UDFingerprint enroll ended -->
+			<param name="MODE_SPORTS">50</param>
+		</mode>
+	</feature>
+	<feature name="ComponentMapping">
+		<mode name="COMPONENT_SHARP">
+		</mode>
+		<mode name="COMPONENT_CONTRAST">
+			<param name="UI">FEATURE_CONTRAST</param>
+			<param name="VIDEO">COMPONENT_SW_CONTRAST</param>
+			<param name="VIDEO">COMPONENT_SW_ACM</param>
+		</mode>
+		<mode name="COMPONENT_BLC">
+			<param name="DEFAULT">FEATURE_BLC</param>
+		</mode>
+		<mode name="COMPONENT_GMP">
+		</mode>
+		<mode name="COMPONENT_XCC">
+		</mode>
+		<mode name="COMPONENT_HUE">
+		</mode>
+		<mode name="COMPONENT_SAT">
+		</mode>
+		<mode name="COMPONENT_GAMMA">
+		</mode>
+		<mode name="COMPONENT_IGAMMA">
+		</mode>
+	</feature>
+	<feature name="Arbiter">
+		<mode name="ComponentPriority">
+			<param name="COMPONENT_CONTRAST">DE_FEATURE_SRE, DE_FEATURE_LRE, DE_FEATURE_HDR10, DE_FEATURE_CONTRAST</param>
+			<param name="COMPONENT_GMP">DE_FEATURE_HDR10, DE_FEATURE_GMP</param>
+			<param name="COMPONENT_GAMMA">DE_FEATURE_HDR10, DE_FEATURE_GAMMA</param>
+			<param name="COMPONENT_IGAMMA">DE_FEATURE_HDR10, DE_FEATURE_IGAMMA</param>
+			<param name="COMPONENT_XCC">DE_FEATURE_EYE_PROTECT, DE_FEATURE_3D_COLOR_TEMPERATURE, DE_FEATURE_XNIT, DE_FEATURE_RGLED</param>
+			<param name="COMPONENT_BLC">DE_FEATURE_HBM, DE_FEATURE_CONTRAST</param>
+		</mode>
+		<mode name="ComponentInnerFilter">
+			<param name="DE_SCENE_ACTION_AMBIENT_CHANGE">FEATURE_CONTRAST, FEATURE_BLC</param>
+		</mode>
+		<mode name="CTRL">
+			<param name="Enable">1</param>
+			<param name="Interval">2</param>
+			<param name="XccLinear">0</param>
+			<param name="XccNaturalToneAvgWeight">-1.0</param>
+			<param name="XccEyeProtectionAvgWeight">-1.0</param>
+			<param name="Xcc3DTemperatureAvgWeight">-1.0</param>
+			<param name="XccEyeProtectionMultiplyWeight">0.5</param>
+			<param name="Xcc3DTemperatureMultiplyWeight">-1</param>
+			<param name="DppHalDimming">1</param>
+			<param name="SkipRefresh">1</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

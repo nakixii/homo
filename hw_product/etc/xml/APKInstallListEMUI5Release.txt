@@ -1,0 +1,8 @@
+/hw_product/app/Gallery2/Gallery2.apk,priv
+/hw_product/app/HwAOD/HwAOD.apk
+/hw_product/app/HwCamera2/base-master.apk,priv
+/hw_product/app/HwContacts/HwContacts.apk,priv
+/hw_product/app/HwEasyGo/HwEasyGo.apk
+/hw_product/app/HwFidoAsm/HwFidoAsm.apk
+/hw_product/app/HwFidoClient/HwFidoClient.apk
+/hw_product/app/HwVoipService/HwVoipService.apk

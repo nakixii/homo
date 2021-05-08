@@ -1,0 +1,2 @@
+/hw_product/region_comm/china/app/HwHealthPlatform/HwHealthPlatform.apk
+/hw_product/region_comm/china/app/XRKit/XRKit.apk

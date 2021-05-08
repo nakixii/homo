@@ -1,0 +1,27 @@
+﻿{
+  "name":"jiqiren",
+  "bsFilePath":"007_jiqiren/jiqiren.bs",
+  "fbxFilePath":"007_jiqiren/jiqiren.obj2",
+  "eyeFbxFilePath":["007_jiqiren/jiqiren_eye.fbx"],
+  "textureImgs": [
+        "007_jiqiren/jiqiren_d.jpg",
+        "007_jiqiren/jiqiren_n.jpg",
+        "007_jiqiren/jiqiren_s.jpg"
+    ],
+   "eyePostion": [
+        "-0.0523595f",
+        "0.0506385f",
+        "0.10235f",
+        "0.0523595f",
+        "0.0506385f",
+        "0.10235f"
+    ],
+    "modelSize": "1.0F",
+	"addFbxFilePath": "007_jiqiren/jiqiren_fatiao.fbx",
+    "mtlFilePath": "007_jiqiren/jiqiren.mtl",
+    "changeSkinLists": null,
+    "bOpenLighting": true,
+    "blendType": -1,
+    "blendStep": "0"
+
+}

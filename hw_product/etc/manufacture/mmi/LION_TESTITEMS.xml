@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEST_ITEM>
+    <TestItem MMI1="1" MMI2="1" MMIE="1" MMAS="1" MMIS="1" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.welcome_come" description="MMI 欢迎界面"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.battery_test" description="电池测试"/>
+    <TestItem MMI1="1" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.sdcard_test" description="SD卡测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.keypad_test" description="按键测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.tp_color_test" description="TP Color 测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.indicator_light_test" description="指示灯测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.lcd_test" description="显示屏测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.lcd_light_test" description="显示屏亮度测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="1" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.touch_screen_test" description="触屏画圈测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="1" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.stylus_test" description="主动笔测试(悬浮)"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.stylus_touch_screen_test" description="主动笔测试(画圈)"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.tp_pressure_calib_test" description="压感屏校准测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.flash_light_test" description="后置闪光灯测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.back_camera_preview_test" description="后置单Camera预览测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.tele_camera_test" description="后置Camera测试(第三个摄像头)"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.front_camera_preview_test" description="前置单Camera预览测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.high_voltage_direct_charge_test" description="高压直流充电测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.direct_charge_test" description="直流充电测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="1" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.wireless_charge_test" description="无线充电测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.hvc_test" description="高压充电测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.laser_sensor_test" description="激光校准测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.pdaf_calib_test" description="相差自动对焦标定测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.dualcamera_calib_test" description="后置camera深度校准测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.camera_depth_af_test" description="后置camera深度检验测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="1" MMAS="1" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.dp_test" description="DP测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="1" MMAS="1" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="LX9,LX4,NX9" key="ro.mmi.sar_sensor_test" description="SAR传感器测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="1" MMAS="0" MMIS="0" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.back_camera_tof_cec_test" description="后置摄像头TofCec测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="1" MMAS="0" MMIS="0" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.front_camera_tof_cec_test" description="前置摄像头TofCec测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="1" MMAS="0" MMIS="0" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.back_camera_features_test" description="后置摄像头HDDC测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="1" MMAS="0" MMIS="0" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.front_camera_features_test" description="前置摄像头HDDC测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="1" MMAS="1" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.camera_features_test" description="后置摄像头关键性测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.compass_test" description="指南针测试"/>
+    <TestItem MMI1="1" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.smartpa_calibratet_test" description="SmartPA 校准测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.background_test_result" description="后台测试界面显示"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.speaker_test" description="Speaker 测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.smartPA_test" description="SmartPA 测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.receiver_test" description="Receive 测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="1" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.pdc_test" description="PD充电测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="1" support="ALL" key="ro.mmi.main_mic_test" description="主Mic 测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.slave_main_mic_test" description="从Mic 测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="1" support="ALL" key="ro.mmi.auxiliary_mic_test" description="副Mic 测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.headset_mic_test" description="耳机Mic 测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.wire_control_test" description="耳机线控测试"/>
+    <TestItem MMI1="0" MMI2="1" MMIE="0" MMAS="0" MMIS="1" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.otg_test" description="OTG 测试"/>
+    <TestItem MMI1="1" MMI2="0" MMIE="0" MMAS="0" MMIS="1" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.usb_host_test" description="USB HOST测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.usb_headset_mic_test" description="TYPE C数字耳机测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.bluetooth_test" description="蓝牙测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.wifi_test" description="WiFi测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.sim_card_test" description="Sim卡测试(依赖SD卡)"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="1" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.infrared_test" description="红外测试"/>
+    <TestItem MMI1="0" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.wireless_reverse_charge_test" description="无线反向充电测试"/>
+    <TestItem MMI1="0" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.flicker_sensor_test" description="Flicker sensor测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="1" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.approach_calibrate_test" description="接近光校准测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.approach_test" description="接近光测试[不需要夹具]"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.gsensor_calibrate_test" description="重力感应校准测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.gyroscope_calibrate_test" description="陀螺仪校准测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.vibrator_test" description="马达测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.gravity_sensor_test" description="重力感应测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.gyroscope_accuracy_test" description="陀螺仪准确性测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.tp_calibrate_test" description="TP校准测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.pressure_sensor_test" description="气压计测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.capacitance_test" description="TP容值测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.hall_sensor_test" description="Hall测试(需要夹具)"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.nfc_test" description="NFC测试"/>
+    <TestItem MMI1="0" MMI2="1" MMIE="1" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.slave_fingerprint_test" description="屏下指纹测试"/>
+    <TestItem MMI1="0" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.fingerprint_enrol_test" description="屏下指纹录入测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.light_sensor_test" description="环境光测试"/>
+    <TestItem MMI1="0" MMI2="1" MMIE="0" MMAS="0" MMIS="0" MM2S="1" MMIBB="0" AUTO_TEST="0" support="ALL" key="ro.mmi.color_sensor_test" description="后置色温传感器测试"/>
+    <TestItem MMI1="1" MMI2="1" MMIE="1" MMAS="1" MMIS="1" MM2S="1" MMIBB="1" AUTO_TEST="0" support="ALL" key="ro.mmi.test_result" description="测试结果显示"/>
+</TEST_ITEM>

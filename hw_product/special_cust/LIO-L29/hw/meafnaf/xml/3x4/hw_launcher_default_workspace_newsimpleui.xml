@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <favorite
+        launcher:packageName="com.huawei.phoneservice"
+        launcher:className="com.huawei.phoneservice.LaunchActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+</favorites>

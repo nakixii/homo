@@ -1,0 +1,26 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2016-12-24</updated>
+	<feature name="SceneRecognition">
+		<mode name="ScenePriority">
+			<param name="NORMAL_VIDEO_PRIORITY">19</param>
+			<param name="METADATA_VIDEO_PRIORITY">19</param>
+			<param name="PG_VIDEO_PRIORITY">3</param>
+			<param name="HDR10_VIDEO_PRIORITY">20</param>
+			<param name="NORMAL_IMAGE_PRIORITY">21</param>
+			<param name="METADATA_IMAGE_PRIORITY">11</param>
+			<param name="NORMAL_CAMERA_PRIORITY">9</param>
+			<param name="METADATA_CAMERA_PRIORITY">9</param>
+			<param name="PG_CAMERA_PRIORITY">2</param>
+			<param name="NORMAL_UI_PRIORITY">1</param>
+			<param name="PG_UI_PRIORITY">1</param>
+		</mode>
+		<mode name="CTRL">
+			<param name="Enable">1</param>
+			<param name="SupportEyeTimeOn">1</param>
+		</mode>
+		<mode name="HandlerTime">
+			<param name="HandlerTime">100</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

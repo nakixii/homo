@@ -1,0 +1,31 @@
+{
+    "resId":"nlu_captureMode_cn_group",
+    "domain":"nlu",
+    "district":"china",
+    "deviceType":"common",
+    "productName":"common",
+    "romVersion":"common",
+    "osVersion":"common",
+    "version":"0x01010000",
+    "releaseNotes":"",
+    "digest":"",
+    "fileName":"",
+    "ResMetaData":[
+        {
+            "origin_id":"0x000000000200102c",
+            "res_value":"",
+            "res_path":"nlu/domainDic/business/captureMode_zh.dat",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        },
+        {
+            "origin_id":"0x000000000200102d",
+            "res_value":"",
+            "res_path":"nlu/domainDic/business/captureMode_zh.pos",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        }
+    ]
+}

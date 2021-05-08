@@ -1,0 +1,30 @@
+# 2020-03-11 17:07:43.0
+gsm.fastdormancy.screen=2
+# 2020-03-11 17:07:43.0
+gsm.fastdormancy.time_scroff=4000
+# 2020-03-11 17:07:43.0
+ro.boot.product.hardware.sku=LIO-L29
+# 2020-03-11 17:07:43.0
+ro.build.id=HUAWEILIO-L29
+# 2020-03-11 17:07:43.0
+ro.config.cdma_quiet=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_lte_support=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_vowifi_mmsut=true
+# 2020-03-11 17:07:43.0
+ro.config.marketing_name=HUAWEI Mate 30 Pro
+# 2020-04-28 15:43:02.0
+ro.config.safety_certification=ce,ic
+# 2020-03-11 17:07:43.0
+ro.gpu_turbo=GPU Turbo
+# 2020-03-11 17:07:43.0
+ro.product.hardwareversion=HL1LIONM
+# 2020-03-11 17:07:43.0
+ro.product.model=LIO-L29
+# 2020-03-11 17:07:43.0
+ro.product.name=LIO-L29
+# 2020-03-11 17:07:43.0
+ro.sysui.show.normal.layout=true
+# 2020-03-11 17:07:43.0
+ro.vendor.config.hw_vowifi=true

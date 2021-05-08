@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>
+        /system/app/gnss_supl20service_hisi.apk;
+        /system/priv-app/Calendar.apk;
+        /system/priv-app/Email.apk;
+        /system/priv-app/HwNotePad.apk;
+        /system/priv-app/Contacts.apk;
+        /system/priv-app/ContactsSync.apk
+        /hw_product/app/HwCoverScreen.apk
+  </apk>
+</tag>

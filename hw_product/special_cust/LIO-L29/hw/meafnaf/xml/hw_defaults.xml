@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-03-11 17:10:06.0-->
+  <string authenticate_by_product="Hide_all_cust_Authen"/>
+  <!--2020-03-11 17:10:06.0-->
+  <string custom_certify_picture="/hw_product/special_cust/LIO-L29/hw/meafnaf/media/LIO-L29.png"/>
+  <!--2020-03-11 17:10:06.0-->
+  <string hw_hide_font_style="false"/>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <!-- 文件管理 -->
+    <favorite
+        launcher:packageName="com.huawei.hidisk"
+        launcher:className="com.huawei.hidisk.filemanager.FileManager"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <!--运动健康-->
+    <favorite
+        launcher:packageName="com.huawei.health"
+        launcher:className="com.huawei.health.MainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <!-- 时钟 -->
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.AlarmsMainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <!-- 日历 -->
+    <favorite
+        launcher:packageName="com.huawei.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <!-- 邮件 -->
+    <favorite
+        launcher:packageName="com.huawei.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <!-- 备忘录 -->
+    <favorite
+        launcher:packageName="com.huawei.notepad"
+        launcher:className="com.example.android.notepad.NotePadActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <!-- 玩机技巧 -->
+    <favorite
+        launcher:packageName="com.huawei.android.tips"
+        launcher:className="com.huawei.android.tips.HomePageActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <!-- 实用工具 -->
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1"
+        launcher:op="insertinto">
+        <!--钱包-->
+        <favorite
+            launcher:packageName="com.huawei.wallet"
+            launcher:className="com.huawei.wallet.view.MainActivity"/>  
+        <!--联系人-->
+        <favorite
+            launcher:packageName="com.huawei.contacts"
+            launcher:className="com.android.contacts.activities.PeopleActivity" />
+        <!--天气-->
+        <favorite
+            launcher:packageName="com.huawei.android.totemweather"
+            launcher:className="com.huawei.android.totemweather.WeatherHome" />
+        <!--计算器-->
+        <favorite
+            launcher:packageName="com.android.calculator2"
+            launcher:className="com.android.calculator2.Calculator" />
+        <!--录音机-->
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.RecordListActivity" />
+        <!--收音机-->
+        <favorite
+            launcher:packageName="com.huawei.android.FMRadio"
+            launcher:className="com.huawei.android.FMRadio.FMRadioMainActivity" />
+        <!--AR测量-->
+        <favorite
+            launcher:packageName="com.huawei.ar.measure"
+            launcher:className="com.huawei.ar.measure.LauncherActivity"/>
+        <!--Flashlight 手电筒-->
+        <!--游戏助手-->
+        <!--镜子-->
+        <favorite
+            launcher:packageName="com.android.hwmirror"
+            launcher:className="com.android.hwmirror.Mirror" />
+        <!--智能遥控-->
+        <favorite
+            launcher:packageName="com.huawei.android.remotecontroller"
+            launcher:className="com.huawei.android.remotecontroller.StartActivity" />
+        <!--指南针-->
+        <favorite
+            launcher:packageName="com.huawei.compass"
+            launcher:className="com.huawei.compass.MainActivity" />
+        <!--备份-->
+        <favorite
+            launcher:packageName="com.huawei.KoBackup"
+            launcher:className="com.huawei.KoBackup.InitializeActivity" />
+        <!--手机克隆-->
+        <favorite
+            launcher:packageName="com.hicloud.android.clone"
+            launcher:className="com.huawei.android.clone.activity.sender.ChooseRecevieSendActivity" />
+        <!-- 下载 -->
+        <favorite
+            launcher:packageName="com.android.documentsui"
+            launcher:className="com.android.documentsui.LauncherActivity"/>
+        <!-- SIM 卡工具包 -->
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity"/>
+        <!-- SIM 卡工具包 -->
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity2"/>
+        <!-- Quik -->
+        <favorite
+            launcher:packageName="com.stupeflix.replay"
+            launcher:className="com.stupeflix.replay.features.home.HomeActivity"/>
+    </folder>
+</favorites>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DisplayEngineConfig>
+    <feature name="HIACE_ALGORITHM">
+        <mode name="PARAMETERS">
+            <param name="LightSensorRateMillis">300</param><!-- sensor rate -->
+            <param name="InDoorThreshold">500</param><!-- indoor lux threshold -->
+            <param name="OutDoorThreshold">1000</param><!-- outdoor lux threshold, lux diff better >=500 lux for open and close -->
+            <param name="BrightenDebounceTime">3000</param><!-- outdoor delay time -->
+            <param name="DarkenDebounceTime">3000</param><!-- indoor delay time -->
+
+            <!-- brighten lines for all ambient light, don't change -->
+            <param name="BrightenLinePoints">0,15</param>
+            <param name="BrightenLinePoints">2,15</param>
+            <param name="BrightenLinePoints">10,19</param>
+            <param name="BrightenLinePoints">100,239</param>
+            <param name="BrightenLinePoints">500,439</param>
+            <param name="BrightenLinePoints">1000,989</param>
+            <param name="BrightenLinePoints">40000,989</param>
+
+            <!-- darken lines for all ambient light, don't change -->
+            <param name="DarkenLinePoints">0,1</param>
+            <param name="DarkenLinePoints">1,1</param>
+            <param name="DarkenLinePoints">15,15</param>
+            <param name="DarkenLinePoints">20,15</param>
+            <param name="DarkenLinePoints">85,80</param>
+            <param name="DarkenLinePoints">100,80</param>
+            <param name="DarkenLinePoints">420,400</param>
+            <param name="DarkenLinePoints">500,400</param>
+            <param name="DarkenLinePoints">600,500</param>
+            <param name="DarkenLinePoints">1000,500</param>
+            <param name="DarkenLinePoints">2000,1000</param>
+            <param name="DarkenLinePoints">40000,1000</param>
+        </mode>
+    </feature>
+</DisplayEngineConfig>

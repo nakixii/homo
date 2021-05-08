@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LABCSRControl>
+    <Enable>true</Enable>
+    <AwarenessEnable>true</AwarenessEnable>
+    <GameDESceneEnable>true</GameDESceneEnable>
+    <GameBLSceneEnable>true</GameBLSceneEnable>
+    <VideoBLSceneEnable>true</VideoBLSceneEnable>
+    <GameDisableAutoBrightnessModeEnable>true</GameDisableAutoBrightnessModeEnable>
+    <PersonalizedCurveEnable>false</PersonalizedCurveEnable>
+    <ARSceneEnable>true</ARSceneEnable>
+    <HomeSceneEnable>true</HomeSceneEnable>
+    <ARScreenOnTimeTHMs>200</ARScreenOnTimeTHMs>
+    <ARConfidenceTH>80</ARConfidenceTH>
+    <ARWaitTimeMs>10000</ARWaitTimeMs>
+    <DBUserDragMaxSize>100</DBUserDragMaxSize>
+    <ARActivity>android.activity_recognition.in_vehicle,19</ARActivity>
+    <ARMonitorConfidenceSampleMaxNum>6</ARMonitorConfidenceSampleMaxNum>
+    <ARMonitorConfidenceSampleTimeStepMs>4000</ARMonitorConfidenceSampleTimeStepMs>
+    <GameBrightnessLevelWhiteList>com.tencent.tmgp.sgame,1</GameBrightnessLevelWhiteList>
+    <GameBrightnessLevelWhiteList>com.tencent.tmgp.pubgmhd,1</GameBrightnessLevelWhiteList>
+    <GameBrightnessLevelWhiteList>com.tencent.tmgp.pubgm,1</GameBrightnessLevelWhiteList>
+    <GameBrightnessLevelWhiteList>com.netease.hyxd.huawei,1</GameBrightnessLevelWhiteList>
+    <GameHDRWhiteList>com.tencent.tmgp.pubgm,1</GameHDRWhiteList>
+    <GameHDRWhiteList>com.tencent.tmgp.pubgmhd,1</GameHDRWhiteList>
+    <GameHDRWhiteList>com.netease.hyxd.huawei,1</GameHDRWhiteList>
+    <GameHDRWhiteList>com.netease.mrzh.huawei,1</GameHDRWhiteList>
+    <GameHDRWhiteList>com.tencent.tmgp.sgame,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.tencent.peng,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.supercell.clashofclans.huawei,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.supercell.clashroyale.huawei,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.netease.onmyoji.huawei,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.netease.my.huawei,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.blizzard.wtcg.hearthstone,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.netease.dwrg.huawei,2</GameHDRWhiteList>
+    <GameHDRWhiteList>com.superevilmegacorp.game,2</GameHDRWhiteList>
+    <VideoBrightnessLevelWhiteList>com.qiyi.video,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>com.tencent.qqlive,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>com.huawei.himovie,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>com.youku.phone,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>com.sohu.sohuvideo,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>tv.danmaku.bili,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>com.tencent.videolite.android,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>tv.pps.mobile,1</VideoBrightnessLevelWhiteList>
+    <VideoBrightnessLevelWhiteList>com.hunantv.imgo.activity,1</VideoBrightnessLevelWhiteList>
+</LABCSRControl>

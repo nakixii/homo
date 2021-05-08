@@ -1,0 +1,28 @@
+﻿{
+  "name":"yingtao",
+  "bsFilePath":"006_yingtao/yingtao.bs",
+  "fbxFilePath":"006_yingtao/yingtao.obj2",
+  "eyeFbxFilePath":["006_yingtao/yingtao_eye_left.fbx",
+                    "006_yingtao/yingtao_eye_right.fbx"
+  ],
+  "textureImgs": [
+        "006_yingtao/yingtao_d.jpg",
+        "006_yingtao/yingtao_n.jpg",
+        "006_yingtao/yingtao_s.jpg"
+    ],
+   "eyePostion": [
+        "0.03f",
+        "0.066f",
+        "0.079f",
+        "-0.03f",
+        "0.066f",
+        "0.079f"
+    ],
+    "modelSize": "1.0F",
+    "mtlFilePath": "006_yingtao/yingtao.mtl",
+    "changeSkinLists":null,
+    "bOpenLighting": true,
+    "blendType": 1,
+    "blendStep": "0"
+
+}

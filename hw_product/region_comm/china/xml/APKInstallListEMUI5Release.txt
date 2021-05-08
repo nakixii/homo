@@ -1,0 +1,2 @@
+/hw_product/region_comm/china/app/HwBrowser/HwBrowser.apk,priv
+/hw_product/region_comm/china/app/HwHiAiEngine/HwHiAiEngine.apk,priv

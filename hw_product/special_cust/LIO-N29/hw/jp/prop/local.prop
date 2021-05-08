@@ -1,0 +1,8 @@
+# 2020-03-11 17:10:06.0
+ro.config.default_sms_app=com.android.mms
+# 2020-07-29 15:04:16.0
+ro.config.get_enhanced_cinfo=true
+# 2020-03-11 17:10:06.0
+ro.odm.ca_product_version=LIO-JP-N29
+# 2020-03-11 17:10:06.0
+ro.odm.config.gnss_adapt_card=true

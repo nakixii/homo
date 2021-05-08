@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <!-- 日历 -->
+    <favorite
+        launcher:packageName="com.huawei.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <favorite
+        launcher:packageName="com.huawei.phoneservice"
+        launcher:className="com.huawei.phoneservice.LaunchActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+</favorites>

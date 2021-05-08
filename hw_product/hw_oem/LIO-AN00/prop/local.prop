@@ -1,0 +1,22 @@
+# 2020-03-11 17:07:43.0
+ro.boot.product.hardware.sku=LIO-AN00
+# 2020-03-11 17:07:43.0
+ro.build.id=HUAWEILIO-AN00
+# 2020-03-11 17:07:43.0
+ro.config.amr_wb_show_hd=true
+# 2020-03-11 17:07:43.0
+ro.config.attach_apn_enabled=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_nfc_def_route=1
+# 2020-03-11 17:07:43.0
+ro.config.marketing_name=HUAWEI Mate 30 Pro 5G
+# 2020-03-11 17:07:43.0
+ro.config.rise_cutoff_freq=true
+# 2020-03-11 17:07:43.0
+ro.product.hardwareversion=HN1LIONM
+# 2020-03-11 17:07:43.0
+ro.product.model=LIO-AN00
+# 2020-03-11 17:07:43.0
+ro.product.name=LIO-AN00
+
+ro.build.description=LIO-AN00-user 11.1.0 HUAWEILIO-AN00 33SP2-CHN-LGRP83 release-keys

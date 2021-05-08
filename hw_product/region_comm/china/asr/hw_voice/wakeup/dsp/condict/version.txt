@@ -1,0 +1,69 @@
+version : huawei.wakeup.v.5.0.3
+committer : zhengwei
+date : 2020.08.26
+description : baltimore C10 reduce wakeup wrong
+
+version : huawei.wakeup.v.3.1.4
+committer : zhengwei
+date : 2020.9.17
+description : 增加唤醒5.0驾驶模式优化
+
+version : huawei.wakeup.v.3.1.3
+committer : zhengwei
+date : 2020.02.06
+description : 安全加解密
+
+version : huawei.wakeup.v.3.1.2
+committer : zhengwei
+date : 2020.01.06
+description : 驾驶模式优化
+
+version : huawei.wakeup.v.3.1.1
+committer : zhengwei
+date : 2019.12.14
+description : support npu逃生
+
+version : huawei.wakeup.v.3.1.0
+committer : zhengwei
+date : 2019.11.20
+description : phoenix c20 wakeup3.1
+
+version : huawei.wakeup.v.3.0.2
+committer : zhengwei
+date : 2019.08.01
+description : phoenix c10 AEC优化
+
+version : huawei.wakeup.v.3.0.1
+committer : zhengwei
+date : 2019.07.25
+description : phoenix c10 增加xvector和GMM融合方案
+
+version : huawei.wakeup.v.3.0.0
+committer : zhengwei
+date : 2019.05.06
+description : phoenix c10 wakeup3.0
+
+version : huawei.wakeup.v.1.2.1.0
+committer : zhengwei
+date : 2018.11.23
+description : atlanta c20 wakeup2.1
+
+version : huawei.wakeup.v.1.0.3
+committer : zhengwei
+date : 2018.11.23
+description : 你好YOYO修改
+
+version : huawei.wakeup.v.1.0.2
+committer : guzhengming
+date : 2018.06.27
+description : wakeup2.0 enhance
+
+version : huawei.wakeup.v.1.0.1
+committer : wangcong
+date : 2018.05.16
+description : p20 wakeup enhance
+
+version : huawei.wakeup.v.1.0.0
+committer : huangli
+date : 2017.10.14
+description : new

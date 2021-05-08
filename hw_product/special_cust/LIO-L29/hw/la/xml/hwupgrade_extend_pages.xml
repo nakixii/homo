@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="c739f7c24dbe1d5ce84bc6e1262a6ed1">
+  <dict>
+    <array key="extend_pages">
+      <dict>
+        <string key="packageName">com.huawei.hwid</string>
+        <string key="className">com.huawei.hms.StatementActivity</string>
+        <string key="contentproviderUri">content://com.huawei.hms.statement/hms_is_update</string>
+        <string key="extraInfo"></string>
+      </dict>
+      <dict>
+        <string key="packageName">com.huawei.hwid</string>
+        <string key="className">com.huawei.hms.AppAnalyticsStatementActivity</string>
+        <string key="contentproviderUri">content://com.huawei.hms.statement/appanalytics_is_update</string>
+      </dict>
+      <dict>
+        <string key="packageName">com.huawei.lbs</string>
+        <string key="className">com.huawei.lbs.view.HLSStatementActivity</string>
+        <string key="contentproviderUri">content://com.huawei.lbs.view.LocationServicesStatementProvider/is_update</string>
+      </dict>
+    </array>
+  </dict>
+</config>

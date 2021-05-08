@@ -1,0 +1,28 @@
+﻿{
+  "name":"qie",
+  "bsFilePath":"004_qie/qie.bs",
+  "fbxFilePath":"004_qie/qie.obj2",
+  "eyeFbxFilePath":["004_qie/qie_eye_left.fbx",
+                    "004_qie/qie_eye_right.fbx"
+  ],
+  "textureImgs": [
+        "004_qie/qie_d.jpg",
+        "004_qie/qie_n.jpg",
+        "004_qie/qie_s.jpg"
+    ],
+   "eyePostion": [
+        "0.046f",
+        "0.06f",
+        "-0.005f",
+        "-0.046f",
+        "0.06f",
+        "-0.005f"
+    ],
+    "modelSize": "1.0F",
+    "mtlFilePath": "004_qie/qie.mtl",
+    "changeSkinLists": null,
+    "bOpenLighting": true,
+    "blendType": 1,
+    "blendStep": "0"
+
+}

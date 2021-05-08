@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="com.google.android.gms">
+    <item name="isShow">0</item>
+    <item name="operation">1</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.google.android.gsf">
+    <item name="isShow">0</item>
+    <item name="operation">1</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.android.vending">
+    <item name="isShow">0</item>
+    <item name="operation">1</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+</policy>

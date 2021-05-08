@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2008, v.4002-->
+<root>
+	<content lan="zh-cn">
+		<item>
+			<id>1</id>
+			<title>快捷操作</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>个性化设置</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>支付与安全</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>连接与共享</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>通话与联系人</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>相机与图库</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>手机管家</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>备份、恢复与升级</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>更多帮助</title>
+		</item>
+	</content>
+	<content lan="en-us">
+		<item>
+			<id>1</id>
+			<title>Quick Operations</title>
+		</item>
+		<item>
+			<id>2</id>
+			<title>Customized Settings</title>
+		</item>
+		<item>
+			<id>3</id>
+			<title>Payment and Security</title>
+		</item>
+		<item>
+			<id>4</id>
+			<title>Connection and Sharing</title>
+		</item>
+		<item>
+			<id>5</id>
+			<title>Calls and Contacts</title>
+		</item>
+		<item>
+			<id>6</id>
+			<title>Camera and Gallery</title>
+		</item>
+		<item>
+			<id>7</id>
+			<title>Phone Manager</title>
+		</item>
+		<item>
+			<id>8</id>
+			<title>Backup, Restoration, and Update</title>
+		</item>
+		<item>
+			<id>9</id>
+			<title>More Information</title>
+		</item>
+	</content>
+</root>

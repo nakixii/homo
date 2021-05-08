@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * itouch common Config
+ * all game states definitions at here.
+ -->
+<Config>
+    <Params name="ui_first_features">
+        <Param name="launcher_smartslider_optimization_enable" value="1"/>
+        <Param name="listview_smartslider_optimization_enable" value="1"/>
+        <Param name="systemui_fastview_fast_response_enable" value="1"/>
+        <Param name="settings_fastview_fast_response_enable" value="1"/>
+    </Params>
+
+    <Params name="itouch_slides_features">
+        <Param name="slides_switch" value="1"/>
+        <Param name="slides_list" value="1"/>
+        <Param name="slides_fliter" value="1"/>
+    </Params>
+
+    <Params name="itouch_slides_list">
+    </Params>
+
+    <Params name="itouch_slides_fliter">
+    </Params>
+
+    <Params name="itouch_styluspen_features">
+        <Param name="styluspen_switch" value="0"/>
+        <Param name="styluspen_list" value="0"/>
+        <Param name="styluspen_fliter" value="0"/>
+        <Param name="styluspen_first_frame_opt" value="0"/>
+        <Param name="styluspen_firmware_scene_opt" value="0"/>
+        <Param name="styluspen_cpu_gpu_opt" value="0"/>
+        <Param name="styluspen_frame_times" value="0"/>
+        <Param name="styluspen_sched_level" value="0"/>
+    </Params>
+
+    <Params name="itouch_styluspen_list">
+    </Params>
+
+    <Params name="itouch_styluspen_fliter">
+    </Params>
+
+    <Params name="itouch_fingerknock_features">
+        <Param name="fingerknock_switch" value="1"/>
+        <Param name="fingerknock_list" value="0"/>
+        <Param name="fingerknock_fliter" value="1"/>
+    </Params>
+
+    <Params name="itouch_fingerknock_list">
+
+    </Params>
+
+    <Params name="itouch_fingerknock_fliter">
+        <Param name="com.tencent.mm" value="1"/>
+    </Params>
+
+    <Params name="itouch_framedetect_features">
+        <Param name="itouch_framedetect_switch" value="1"/>
+        <Param name="framedetect_window_step" value="6000"/>
+        <Param name="framedetect_slide_step" value="2000"/>
+        <Param name="framedetect_framereport_step" value="1200"/>
+        <Param name="framedetect_framedrop_threshold" value="200"/>
+    </Params>
+
+    <Params name="itouch_predict_list">
+        <Param name="com.tencent.mtt" value="1"/>
+        <Param name="com.android.chrome" value="1"/>
+        <Param name="com.UCMobile" value="1"/>
+    </Params>
+
+    <Params name="itouch_predict_fliter">
+    </Params>
+
+    <Params name="hw_perf_features">
+        <Param name="hw_emui_hwperf_all_prop" value="1"/>
+        <Param name="hw_emui_hwperf_speedloader_prop" value="1"/>
+        <Param name="hw_emui_hwperf_image_fade_prop" value="0"/>
+        <Param name="hw_emui_hwperf_thumbnail_manager_prop" value="1"/>
+        <Param name="hw_emui_hwperf_poolsize_manager_prop" value="0"/>
+        <Param name="hw_emui_hwperf_speedloader_value_prop" value="3000:30000:12000"/>
+        <Param name="hw_emui_hwperf_poolsize_value_prop" value="-1"/>
+    </Params>
+
+    <property
+        key="sys.tpdoze.include"
+        value="CAMERA | VIDEO | EBOOK" />
+    <property
+        key="sys.tpdoze.exclude"
+        value="LAUNCHER | GAME" />
+
+</Config>
+
+<TouchBoostConfig>
+    <BoostCmd id="001" Name="InputMethod">
+        <boost_time_ms>80</boost_time_ms>
+        <touch_boost_level>3</touch_boost_level>
+        <boost_type>TOUCH_DOWN</boost_type>
+    </BoostCmd>
+</TouchBoostConfig>

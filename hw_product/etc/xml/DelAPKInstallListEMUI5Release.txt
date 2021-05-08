@@ -1,0 +1,3 @@
+/hw_product/app/HwContactsSync/HwContactsSync.apk,priv
+/hw_product/app/HwRemoteController/HwRemoteController.apk
+/hw_product/app/MeeTime/MeeTime.apk,priv

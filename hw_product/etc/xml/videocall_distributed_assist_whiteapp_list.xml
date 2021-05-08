@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <whiteapp package="com.tencent.mm" />
+  <whiteapp package="com.tencent.mobileqq" />
+  <whiteapp package="com.huawei.works" />
+  <whiteapp package="com.huawei.welink" />
+  <whiteapp package="com.huawei.hwvoipservice" />
+  <whiteapp package="com.tencent.wework" />
+  <whiteapp package="com.huawei.CloudLink" />
+  <whiteapp package="com.huawei.ims" />
+  <whiteapp package="com.tencent.wemeet.app" />
+  <whiteapp package="com.ss.android.lark" />
+  <whiteapp package="com.alibaba.android.rimet" />
+  <whiteapp package="com.whatsapp" />
+  <whiteapp package="jp.naver.line.android" />
+  <whiteapp package="com.viber.voip" />
+  <whiteapp package="com.azarlive.android" />
+  <whiteapp package="com.skype.raider" />
+  <whiteapp package="us.zoom.videomeetings" />
+  <whiteapp package="com.skype.rover" />
+  <whiteapp package="com.cisco.webex.meetings" />
+  <whiteapp package="com.microsoft.teams" />
+  <whiteapp package="com.google.android.talk" />
+  <whiteapp package="com.Slack" />
+</resources>

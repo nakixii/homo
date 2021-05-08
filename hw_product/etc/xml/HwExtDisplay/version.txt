@@ -1,0 +1,4 @@
+version=1.10.19.100
+type=HwExtDisplay
+subtype=displayside
+compatibleVersion=1

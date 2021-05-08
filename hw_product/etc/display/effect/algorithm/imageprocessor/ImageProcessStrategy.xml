@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- Emui9.0 -->
+<Config>
+    <Enable>true</Enable>
+
+    <Custom>
+        <NormallizeColorGamut>SRGB</NormallizeColorGamut>
+        <AlgoSkinBeauty>false</AlgoSkinBeauty>
+        <AlgoVivid>true</AlgoVivid>
+    </Custom>
+
+    <Thumbnail type="MICRO">
+    </Thumbnail>
+    <Thumbnail type="FAST">
+        <Algo image="SKIN_BEAUTY">ACM</Algo>
+        <Algo image="VIVID">LUT3D</Algo>
+    </Thumbnail>
+    <Thumbnail type="ANIMATION">
+        <Algo image="SKIN_BEAUTY">ACM</Algo>
+        <Algo image="VIVID">LUT3D</Algo>
+    </Thumbnail>
+    <Thumbnail type="FULLSCREEN">
+        <Algo>SR</Algo>
+        <Algo image="SKIN_BEAUTY">ACM</Algo>
+        <Algo image="SKIN_BEAUTY">SR</Algo>
+        <Algo image="VIVID">LUT3D</Algo>
+        <Algo image="VIVID">SR</Algo>
+        <SaveCommonInfo>true</SaveCommonInfo>
+    </Thumbnail>
+    <Thumbnail type="HALFSCREEN">
+        <Algo image="SKIN_BEAUTY">ACM</Algo>
+        <Algo image="VIVID">LUT3D</Algo>
+        <SaveCommonInfo>true</SaveCommonInfo>
+    </Thumbnail>
+    <Thumbnail type="DEFAULT">
+        <Algo image="SKIN_BEAUTY">ACM</Algo>
+        <Algo image="VIVID">LUT3D</Algo>
+    </Thumbnail>
+
+    <Tile type="NON_SR">
+        <Algo image="SKIN_BEAUTY">ACM</Algo>
+        <Algo image="VIVID">LUT3D</Algo>
+    </Tile>
+    <Tile type="SR">
+        <Algo>SR</Algo>
+    </Tile>
+</Config>

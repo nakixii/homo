@@ -1,0 +1,31 @@
+{
+    "resId":"nlu_foot_team_static_group",
+    "domain":"nlu",
+    "district":"china",
+    "deviceType":"common",
+    "productName":"common",
+    "romVersion":"common",
+    "osVersion":"common",
+    "version":"0x01010000",
+    "releaseNotes":"",
+    "digest":"",
+    "fileName":"",
+    "ResMetaData":[
+        {
+            "origin_id":"0x0000000002000067",
+            "res_value":"",
+            "res_path":"nlu/domainDic/static/17.pos",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        },
+        {
+            "origin_id":"0x0000000002000068",
+            "res_value":"",
+            "res_path":"nlu/domainDic/static/17.dat",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        }
+    ]
+}

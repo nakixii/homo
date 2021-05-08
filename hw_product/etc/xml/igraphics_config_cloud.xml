@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<igfx_config version="10">
+    <!--<igfx_property_config version="13">
+        <property key="persist.disable" value="0"/>
+    </igfx_property_config>-->
+
+    <igfx_app_list>
+        <!--<igfx name="com.tencent.tmgp.pubgmhd" version="13" dHApMo="true"/>-->
+    </igfx_app_list>
+</igfx_config>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout version="2.3.002" updatetime="20190806">
+	<switch>
+		<type id="00" src="type_00.png" title="喜欢" selected="true"/>
+
+		<type id="01" src="type_01.png" title="旅行" selected="true">
+			<image src="MagazinePicture_01_1.jpg" title="俯视下的风景" content="簇簇相拥的红树叶像是傲骨铮铮的战士，抵御着防备线外的蓝色大海。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="MagazinePicture_01_2.jpg" title="极光" content="神奇极光，比风更自由，比烟花更璀璨，比彩虹更梦幻。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="MagazinePicture_01_3.jpg" title="人生的路" content="蜿蜒与平坦，奇趣与壮美，成功与失败，这才是人生的路。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="MagazinePicture_01_4.jpg" title="星空" content="盈盈发亮的星星散落在半空中，让人倍感宁静与寂寥。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_1.jpg" title="海岛夜空" content="夜空下的圣托里尼岛散发着迷人的魅力，让人仿佛置身于一座浪漫的不夜之城。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_2.jpg" title="草原" content="起伏延绵的草原如同铺开的绿色绒毯，任风在广袤的大地上驰骋。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_3.jpg" title="月亮湾" content="喀纳斯湖月亮湾迂回蜿蜒于河谷间，在上下河湾内形成两个沙滩，被当地人称为“神仙脚印”。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_4.jpg" title="薰衣草花田" content="夕阳下一望无垠的花田， 一簇簇薰衣草开的热烈而奔放，犹如置身于一片梦幻的天地中。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_5.jpg" title="雪树银花" content="放眼望去，千姿百态的雪树银花令人心旷神怡。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_6.jpg" title="阿尔卑斯湖" content="群山环绕的阿尔卑斯湖，湖水清澈，空气清新。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_7.jpg" title="瀑布" content="日出时分的冰岛，瀑布从悬崖边磅礴而下，在粉红色朝霞的映照下，独具魅力。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_8.jpg" title="冰山" content="北冰洋的巨大的冰山在宽阔的海面上自由漂流。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_9.jpg" title="海浪" content="海风卷起如丝绸般的波浪，映照着太阳反射出粼粼的波光。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_10.jpg" title="海上飞驰" content="晴朗的大海上，一艘快艇驶过，在水面留下优雅的痕迹。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_11.jpg" title="金色山峰" content="马特洪峰被称作阿尔卑斯山最美丽的山峰，每当朝晖夕映之时，长年积雪的山体就会折射出金属般的光芒。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_12.jpg" title="瑰丽奇景" content="冰川国家公园位于阿根廷圣克鲁斯省西南部，由多山的湖区组成，有众多瑰丽的奇景。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_13.jpg" title="曼哈顿" content="庞大的建筑群和无比璀璨的灯光，汇聚了许多年轻人对未来的追逐和梦想。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_01_14.jpg" title="湖心小屋" content="长长的栈道延伸到湖心，平静的水面洒下夕阳的余晖。" cpname="" download="" contenturl="" packagename=""/>
+		</type>
+		
+		<type id="02" src="type_02.png" title="汽车" selected="true">
+		</type>
+
+		<type id="03" src="type_03.png" title="明星" selected="true">
+		</type>
+		
+		<type id="04" src="type_04.png" title="时尚" selected="true">
+			<image src="bigpicture_04_1.jpg" title="风的吟唱" content="用玻璃瓶承载冀望，聆听着风的吟唱。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_04_2.jpg" title="蒲公英" content="纤细的蒲公英柔软而轻盈，在微观世界中彰显着奇妙的吸引力。" cpname="" download="" contenturl="" packagename=""/>
+		</type>
+
+		<type id="05" src="type_05.png" title="生活" selected="true">
+			<image src="MagazinePicture_05_1.jpg" title="丰收麦田" content="麦田泛着金色的波浪，粒粒饱满的麦子像风卷起飞沙一样哗啦啦倏地扬起。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_05_1.jpg" title="玉兰花开" content="玉兰花盛开时，花瓣展向四方，花形俏丽，溢发幽香。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_05_6.jpg" title="夏日饮品" content="柠檬水富含丰富的维生素C，清爽可口，配上迷迭香和冰块，就成为一款清新的夏日饮品。" cpname="" download="" contenturl="" packagename=""/>
+			<image src="bigpicture_05_7.jpg" title="马卡龙" content="一组精致的马卡龙，在灯光照射下泛着淡淡光泽，饼身下缘一圈漂亮的蕾丝裙边更添意趣。" cpname="" download="" contenturl="" packagename=""/>
+		</type>
+
+		<type id="06" src="type_06.png" title="体育" selected="true">
+		</type>
+
+		<type id="07" src="type_07.png" title="徕卡摄影" selected="true">
+		</type>
+
+		<type id="11" src="type_11.png" title="华为精选" selected="true">
+		</type>
+	</switch>
+
+</layout>

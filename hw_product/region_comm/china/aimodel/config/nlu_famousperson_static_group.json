@@ -1,0 +1,31 @@
+{
+    "resId":"nlu_famousperson_static_group",
+    "domain":"nlu",
+    "district":"china",
+    "deviceType":"common",
+    "productName":"common",
+    "romVersion":"common",
+    "osVersion":"common",
+    "version":"0x01010000",
+    "releaseNotes":"",
+    "digest":"",
+    "fileName":"",
+    "ResMetaData":[
+        {
+            "origin_id":"0x0000000002000063",
+            "res_value":"",
+            "res_path":"nlu/domainDic/static/13.pos",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        },
+        {
+            "origin_id":"0x0000000002000064",
+            "res_value":"",
+            "res_path":"nlu/domainDic/static/13.dat",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NaturalConfig>
+	<feature name="NATURALTONE_ALGORITHM">
+		<mode name="PARAMETERS">
+			<!-- mapping from ambient CCT value to panel Temperature for UI and gallery mode-->
+			<param name="HFD_CCTCurve_UI_Gallery"> 2001, 5800, 6000</param>
+			<param name="HFD_CCTCurve_UI_Gallery"> 3000, 5890, 6100</param>
+			<param name="HFD_CCTCurve_UI_Gallery"> 4000, 6180, 6300</param>
+			<param name="HFD_CCTCurve_UI_Gallery"> 5000, 6550, 6650</param>
+			<param name="HFD_CCTCurve_UI_Gallery"> 6400, 6800, 6800</param>
+			<param name="HFD_CCTCurve_UI_Gallery"> 7500, 7190, 7130</param>
+			<param name="HFD_CCTCurve_UI_Gallery"> 8400, 7500, 7200</param>
+			<param name="HFD_CCTCurve_UI_Gallery"> 9300, 7700, 7380</param>
+			<param name="HFD_CCTCurve_UI_Gallery">10000, 7720, 7440</param>
+			<param name="HFD_CCTCurve_UI_Gallery">13000, 7800, 7500</param>
+			<param name="HFD_CCTCurve_UI_Gallery">16000, 8000, 7530</param>
+			<param name="HFD_CCTCurve_UI_Gallery">19001, 8100, 7560</param>
+			<!-- threshold for panel Temperature update for low ambient light, <lux, DeltaE, dimming mode> -->
+			<param name="HFD_Dimming_Lux_DeltaE_Mode">20, 4.5, 5</param>
+			<param name="HFD_Dimming_Lux_DeltaE_Mode">30, 4.0, 4</param>
+			<param name="HFD_Dimming_Lux_DeltaE_Mode">40, 3.5, 4</param>
+			<param name="HFD_Dimming_Lux_DeltaE_Mode">50, 3.0, 3</param>
+			<param name="HFD_Dimming_Lux_DeltaE_Mode">60, 2.5, 3</param>
+			<param name="HFD_Dimming_Lux_DeltaE_Mode">70, 2.0, 2</param>
+			<param name="HFD_Dimming_Lux_DeltaE_Mode">80, 1.0, 1</param>
+			<param name="HFD_Dimming_E_Mode">1.0, 1</param>
+			<param name="HFD_Dimming_E_Mode">2.0, 2</param>
+			<param name="HFD_Dimming_E_Mode">3.0, 3</param>
+			<param name="HFD_Dimming_E_Mode">4.0, 4</param>
+			<param name="HFD_Dimming_E_Mode">5.0, 5</param>
+		</mode>
+	</feature>
+</NaturalConfig>

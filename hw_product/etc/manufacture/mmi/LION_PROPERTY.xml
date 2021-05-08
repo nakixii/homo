@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEST_PROPERTY>
+    <Property support="ALL" value="MM2S" key="ro.mmi.start_mode" description="MMI2自启动测试"/>
+    <Property support="ALL" value="false" key="ro.mmi.support_fn_share" description="support_fn_share" />
+    <Property support="ALL" value="true" key="ro.mmi.support_double_flash" description="支持双闪光灯测试" />
+    <Property support="ALL" value="false" key="ro.mmi.support_flash" description="是否支持闪光灯" />
+    <Property support="ALL" value="true" key="ro.mmi.support_auto_focus" description="support_auto_focus" />
+    <Property support="ALL" value="1" key="ro.mmi.hall_sensor_poles" description="Hall测试的极值" />
+    <Property support="ALL" value="port" key="ro.mmi.sreeen_rotation" description="是否支持屏幕旋转"/>
+    <Property support="ALL" value="50hz" key="ro.mmi.camera_antibanding" description="灯光频率，影响相机曝光" />
+    <Property support="ALL" value="1" key="ro.mmi.wire_control_key_number" description="wire_control_key_number" />
+    <Property support="ALL" value="34" key="ro.mmi.touch_screen_rows" description="触屏画圈行数" />
+    <Property support="ALL" value="12" key="ro.mmi.touch_screen_columns" description="触屏画圈列数" />
+    <Property support="ALL" value="5.0f" key="ro.mmi.approach_threshold" description="接近光测试门限" />
+    <Property support="ALL" value="red,green" key="ro.mmi.indicator_light_list" description="指示灯测试：red 红,green 绿" />
+    <Property support="ALL" value="false" key="ro.mmi.show_pointer_location" description="触摸屏测试显示点坐标" />
+    <Property support="ALL" value="true" key="ro.mmi.enable_gesture_detector" description="滑屏切换测试项功能" />
+    <Property support="ALL" value="false" key="ro.mmi.support_slave_camera_otp" description="后置单Camera是否支持OTP检测" />
+    <Property support="ALL" value="false" key="ro.mmi.support_camera_otp" description="后置单Camera是否支持OTP检测" />
+    <Property support="ALL" value="true" key="ro.mmi.enable_datacollection" description="大数据收集开关" />
+    <Property support="ALL" value="false" key="ro.mmi.upload_datacollectfile" description="大数据上传" />
+    <Property support="ALL" value="6" key="ro.mmi.camera_pivotal_feature_start_type" description="Camera四合一启动测试方式" />
+    <Property support="MMI2" value="true" key="ro.mmi.check_otg_orientation_enable" description="OTG是否支持正反插测试" />
+    <Property support="MM2S" value="true" key="ro.mmi.check_otg_orientation_enable" description="OTG是否支持正反插测试" />
+    <Property support="MMIS" value="true" key="ro.mmi.check_otg_orientation_enable" description="OTG是否支持正反插测试" />
+    <Property support="MMIBB" value="true" key="ro.mmi.check_otg_orientation_enable" description="OTG是否支持正反插测试" />
+    <Property support="MMI1" value="1" key="ro.mmi.test_sim_number" description="默认sim卡测试个数" />
+    <Property support="MMI2" value="2" key="ro.mmi.test_sim_number" description="默认sim卡测试个数" />
+    <Property support="MM2S" value="2" key="ro.mmi.test_sim_number" description="默认sim卡测试个数" />
+    <Property support="ALL" value="6" key="ro.mmi.sar_sensor_start_type" description="SAR传感器测试启动方式" />
+    <Property support="MMIE" value="6" key="ro.mmi.slave_fingerprint_start_type" description="屏下指纹启动测试方式" />
+    <Property support="MMIS" value="6" key="ro.mmi.slave_fingerprint_start_type" description="屏下指纹启动测试方式" />
+    <Property support="MMAS" value="6" key="ro.mmi.slave_fingerprint_start_type" description="屏下指纹启动测试方式" />
+    <Property support="MMIE" value="bubble,calibrate,snr" key="ro.mmi.slave_fingerprint_test_type" description="指纹测试子类型" />
+    <Property support="MMIS" value="bubble,calibrate,snr" key="ro.mmi.slave_fingerprint_test_type" description="指纹测试子类型" />
+    <Property support="MMAS" value="bubble,calibrate,snr" key="ro.mmi.slave_fingerprint_test_type" description="指纹测试子类型" />
+    <Property support="ALL" value="6" key="ro.mmi.pdaf_calib_start_type" description="PDAF校准启动方式" />
+    <Property support="MMIE" value="4" key="ro.mmi.tppressure_start_type" description="TP压感校准启动方式" />
+    <Property support="MMAS" value="4" key="ro.mmi.tppressure_start_type" description="TP压感校准启动方式" />
+    <Property support="ALL" value="6" key="ro.mmi.back_camera_tof_cec_start_type" description="后置TofCec测试启动方式" />
+    <Property support="ALL" value="6" key="ro.mmi.front_camera_tof_cec_start_type" description="前置TofCec测试启动方式" />
+    <Property support="ALL" value="6" key="ro.mmi.back_camera_features_start_type" description="后置Camera特性测试启动方式" />
+    <Property support="ALL" value="6" key="ro.mmi.front_camera_features_start_type" description="前置Camera特性测试启动方式" />
+    <Property support="MMI2" value="26" key="ro.mmi.keypad_test_list" description="按键测试需要测试的键值" />
+    <Property support="MM2S" value="26" key="ro.mmi.keypad_test_list" description="按键测试需要测试的键值" />
+    <Property support="MMI1" value="26" key="ro.mmi.keypad_test_list" description="按键测试需要测试的键值" />
+    <Property support="MMIBB" value="26" key="ro.mmi.keypad_test_list" description="按键测试需要测试的键值" />
+    <Property support="MMIE" value="1150,562,1176,723" key="ro.mmi.volume_down_area" description="音量下键触摸区域" />
+    <Property support="MMIS" value="1150,562,1176,723" key="ro.mmi.volume_down_area" description="音量下键触摸区域" />
+    <Property support="MMAS" value="1150,562,1176,723" key="ro.mmi.volume_down_area" description="音量下键触摸区域" />
+</TEST_PROPERTY>

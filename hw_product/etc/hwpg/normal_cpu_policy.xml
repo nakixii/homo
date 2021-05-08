@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 Huawei Inc.
+ * Cpu Freq Config
+ *
+                TYPE                                            AVALIABLE_VALUE
+        cpu_maxprofile                    509000 1018000 1210000 1402000 1556000 1690000 1844000
+        cpu_minprofile                    509000 1018000 1210000 1402000 1556000 1690000 1844000
+
+        cpu_a15_maxprofile                682000 1018000 1210000 1364000 1498000 1652000 1863000 2093000 2362000 
+        cpu_a15_minprofile                682000 1018000 1210000 1364000 1498000 1652000 1863000 2093000 2362000
+
+        gpu_maxprofile                    103750000 150909000 237143000 332000000 415000000 550000000 667000000 767000000
+        gpu_minprofile                    103750000 150909000 237143000 332000000 415000000 550000000 667000000 767000000
+
+        ddr_maxprofile                    415000000 830000000 1245000000 1866000000
+        ddr_minprofile                    415000000 830000000 1245000000 1866000000
+
+        cpu_number_max                    1,2,3,4
+        cpu_number_min                    1,2,3,4
+        cpu_a15_number_max                0,1,2,3,4
+        cpu_a15_number_min                0,1,2,3,4
+        ipa_temp
+        ipa_power
+        ipa_switch
+        fork_on_big                0,1
+
+        note:
+        1. if policy item has not configured, it means close cpupolicy of previous scene.
+        2. policy type default value is 0, policy value default value is -1
+
+        Parent Scene
+
+        Sub Scene
+        210             input
+        267             fling touch
+        504             camera recorder
+        221             full screen camera
+        506             not full screen camera, little camera
+        246             video play
+        502             screen shot
+        238             start rotation
+        500             idle, (no touch/user activity for 10s)
+        508             speed up scene, for screen on by key power or fingerprint when screen off
+-->
+<!--
+    default scene , id must be lower than 10000
+-->
+<cpu_policy version="1">
+    <!--don't config any policy-->
+    <scenemode name="default_front" id="208">
+    </scenemode>
+
+    <scenemode name="thermal_cpu" id="251">
+        <cpu_maxprofile>-1</cpu_maxprofile>
+        <gpu_maxprofile>-1</gpu_maxprofile>
+    </scenemode>
+
+    <scenemode name="battery_low" id="319">
+        <cpu_a15_maxprofile>1210000</cpu_a15_maxprofile>
+        <threshold_up>1024</threshold_up>
+        <threshold_down>824</threshold_down>
+        <gpu_maxprofile>332000000</gpu_maxprofile>
+    </scenemode>
+
+    <scenemode name="battery_okay" id="320">
+    </scenemode>
+
+    <scenemode name="battery_critical" id="333">
+        <cpu_maxprofile>1018000</cpu_maxprofile>
+        <cpu_a15_maxprofile>1210000</cpu_a15_maxprofile>
+        <threshold_up>1024</threshold_up>
+        <threshold_down>824</threshold_down>
+        <gpu_maxprofile>237143000</gpu_maxprofile>
+    </scenemode>
+
+    <scenemode name="battery_critical_okay" id="334">
+    </scenemode>
+
+    <!--add policy to test-->
+    <scenemode name="browser_front" id="203">
+        <cpu_a15_maxprofile>2093000</cpu_a15_maxprofile>
+    </scenemode>
+    <!--read eboot, like baidu ebook-->
+    <scenemode name="ebook_front" id="205">
+        <cpu_a15_maxprofile>2093000</cpu_a15_maxprofile>
+    </scenemode>
+    
+        <scenemode name="com.tencent.mobileqq|com.taobao.taobao|com.chaozh.iReaderFree15|com.dianping.v1|com.ss.android.article.news|com.tencent.qqmusic|com.tencent.news|com.tadu.android|com.netease.newsreader.activity|com.baidu.tieba|com.ifeng.news2|com.sohu.newsclient|com.chaozh.iReaderFree|com.sina.news|com.thestore.main|com.netease.mobimail|com.evernote|com.supercell.boombeach.HUAWEI|com.facebook.katana|com.twitter.android" id="10010">
+        <cpu_a15_maxprofile>2093000</cpu_a15_maxprofile>
+    </scenemode>
+</cpu_policy>

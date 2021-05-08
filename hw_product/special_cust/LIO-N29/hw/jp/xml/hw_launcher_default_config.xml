@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<launcher_config>
+    <bool name="config_CloudFolderEnabled">true</bool>
+    <string name="config_CloudFolderHost">https://asiafolder.hicloud.com:443/</string>
+</launcher_config>

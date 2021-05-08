@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <whiteapp name="天籁K歌" package="com.audiocn.kalaok"/>
+  <whiteapp name="天籁K歌4.8.1" package="com.audiocn.karaok"/>
+  <whiteapp name="唱吧" package="com.changba"/>
+  <whiteapp name="全民K歌" package="com.tencent.karaoke"/>
+  <whiteapp name="K歌达人" package="com.app.hero.ui"/>
+  <whiteapp name="爱唱" package="cn.banshenggua.aichang"/>
+  <whiteapp name="美拍" package="com.meitu.meipaimv"/>
+  <whiteapp name="一直播" package="tv.xiaoka.live"/>
+  <whiteapp name="花椒" package="com.huajiao"/>
+  <whiteapp name="陌陌" package="com.immomo.momo"/>
+  <whiteapp name="芒果直播" package="com.hunantv.mglive"/>
+  <whiteapp name="快手" package="com.smile.gifmaker"/>
+  <whiteapp name="虎牙助手" package="com.duowan.live"/>
+  <whiteapp name="天籁K歌海外版本" package="com.audiocn.bion"/>
+  <whiteapp name="小爱直播间-K歌版" package="com.fungo.loveshow.tuhao"/>
+  <whiteapp name="云图高清手机电视" package="org.fungo.fungolive"/>
+  <whiteapp name="全民K歌极速版" package="com.tencent.kg.android.lite"/>
+  <whiteapp name="酷狗唱唱" package="com.kugou.android.ktvapp"/>
+  <whiteapp name="VV音乐" package="com.vv51.mvbox"/>
+</resources>

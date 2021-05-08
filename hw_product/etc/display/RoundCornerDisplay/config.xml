@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RoundCornerDisplay>
+    <LCDModel Name="default">
+        <SurfaceConfig>
+            <TopSurface Support="true" DisplayMode="0" />
+            <BottomSurface Support="true" DisplayMode="0" />
+        </SurfaceConfig>
+        <SideRegionConfig>
+            <SideRegion Support="true" RegionMode="0" />
+        </SideRegionConfig>
+        <ROG Width="1176" Height="2400">
+            <Portrait>
+                <LayerUp Filename="port_up.png" OffsetX="0" OffsetY="0" />
+                <LayerDown Filename="port_down.png" OffsetX="0" OffsetY="0" />
+                <LayerHide Filename="hide_up.png" OffsetX="0" OffsetY="0" />
+            </Portrait>
+            <Landscape>
+                <LayerUp Filename="land_up.png" OffsetX="0" OffsetY="0" />
+            </Landscape>
+            <Portrait_sideRegion>
+                <LayerUp Filename="port_up_sideregion.png" OffsetX="0" OffsetY="0" />
+                <LayerDown Filename="port_down_sideregion.png" OffsetX="0" OffsetY="0" />
+                <LayerHide Filename="hide_up_sideregion.png" OffsetX="0" OffsetY="0" />
+            </Portrait_sideRegion>
+            <Landscape_sideRegion>
+                <LayerUp Filename="land_up_sideregion.png" OffsetX="0" OffsetY="0" />
+            </Landscape_sideRegion>
+        </ROG>
+        <ROG Width="784" Height="1600">
+            <Portrait>
+                <LayerUp Filename="port_up_rog784.png" OffsetX="0" OffsetY="0" />
+                <LayerDown Filename="port_down_rog784.png" OffsetX="0" OffsetY="0" />
+                <LayerHide Filename="hide_up_rog784.png" OffsetX="0" OffsetY="0" />
+            </Portrait>
+            <Landscape>
+                <LayerUp Filename="land_up_rog784.png" OffsetX="0" OffsetY="0" />
+            </Landscape>
+            <Portrait_sideRegion>
+                <LayerUp Filename="port_up_rog784_sideregion.png" OffsetX="0" OffsetY="0" />
+                <LayerDown Filename="port_down_rog784_sideregion.png" OffsetX="0" OffsetY="0" />
+                <LayerHide Filename="hide_up_rog784_sideregion.png" OffsetX="0" OffsetY="0" />
+            </Portrait_sideRegion>
+            <Landscape_sideRegion>
+                <LayerUp Filename="land_up_rog784_sideregion.png" OffsetX="0" OffsetY="0" />
+            </Landscape_sideRegion>
+        </ROG>
+    </LCDModel>
+</RoundCornerDisplay>

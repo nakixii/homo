@@ -1,0 +1,28 @@
+﻿{
+  "name":"mao",
+  "bsFilePath":"008_mao/mao.bs",
+  "fbxFilePath":"008_mao/mao.obj2",
+  "eyeFbxFilePath":["008_mao/mao_eye_left.fbx",
+                    "008_mao/mao_eye_right.fbx"
+  ],
+  "textureImgs": [
+        "008_mao/mao_d.jpg",
+        "008_mao/mao_n.jpg",
+        "008_mao/mao_s.jpg"
+    ],
+   "eyePostion": [
+        "-0.0396f",
+        "0.0524f",
+        "0.04087f",
+        "0.0396f",
+        "0.0524f",
+        "0.04087f"
+    ],
+    "modelSize": "1.0F",
+    "mtlFilePath": "008_mao/mao.mtl",
+    "changeSkinLists":null,
+    "bOpenLighting": true,
+    "blendType": 1,
+    "blendStep": "0"
+
+}

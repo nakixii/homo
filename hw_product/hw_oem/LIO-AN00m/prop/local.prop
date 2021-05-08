@@ -1,0 +1,63 @@
+# 2020-07-16 16:03:10.0
+hw.swing.face_rotate_disabled=true
+# 2020-09-15 16:47:53.0
+hw_mc.emcom.disable_sec_data=false
+# 2020-09-15 16:47:53.0
+hw_mc.gallery.video_template=true
+# 2020-07-16 16:03:10.0
+hw_mc.hwcamera.swing_eyegaze_enable=false
+# 2020-07-16 16:03:10.0
+hw_mc.hwcamera.swing_facedirection_enable=false
+# 2020-08-29 11:19:26.0
+hw_mc.meetime.mode=2
+# 2020-11-02 19:07:23.0
+hw_mc.settings.hide_ges_indicator=false
+# 2020-07-16 16:03:10.0
+hw_mc.swing.eye_gaze_reduce_vol_enabled=0
+# 2020-07-16 16:03:10.0
+hw_mc.systemui.swing_hide_noti_enable=false
+# 2020-08-25 18:34:29.0
+odm.hw_mc.hwpki.nvcounter_allowed=1
+# 2020-03-11 17:07:43.0
+ro.boot.product.hardware.sku=LIO-AN00m
+# 2020-08-25 16:52:14.0
+ro.build.hardware_expose=false
+# 2020-08-17 22:05:56.0
+ro.build.hide=true
+# 2020-08-25 16:52:14.0
+ro.build.hide.matchers=LIO;HW;HWLIO-L;kirin990E;Heimdall-MP16;11.0.0
+# 2020-08-25 16:52:14.0
+ro.build.hide.replacements=NLE;unknown;unknown;unknown;unknown;10.1.0
+# 2020-08-25 16:52:14.0
+ro.build.hide.settings=8;1.8 GHz;6.0GB;56.00 GB;64.00 GB;1920 x 1080;10;4.14.116;10.1.0
+# 2020-03-11 17:07:43.0
+ro.build.id=HUAWEILIO-AN00m
+# 2020-03-11 17:07:43.0
+ro.config.amr_wb_show_hd=true
+# 2020-03-11 17:07:43.0
+ro.config.attach_apn_enabled=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_nfc_def_route=1
+# 2020-08-25 16:52:14.0
+ro.config.hw_watermark=true
+# 2020-07-16 16:03:10.0
+ro.config.keyguard_swing_enabled=false
+# 2020-08-25 16:52:14.0
+ro.config.marketing_name=NLE
+# 2020-03-11 17:07:43.0
+ro.config.rise_cutoff_freq=true
+# 2020-07-16 16:03:10.0
+ro.config.swing_applock_enable=0
+# 2020-07-16 16:03:10.0
+ro.config.swing_enabled=0
+# 2020-06-20 15:57:56.0
+ro.product.device=HWLIO-L
+# 2020-03-11 17:07:43.0
+ro.product.hardwareversion=HN1LIONM
+# 2020-03-11 17:07:43.0
+ro.product.model=LIO-AN00m
+# 2020-03-11 17:07:43.0
+ro.product.name=LIO-AN00m
+
+
+ro.config.beta_sec_ctrl=true

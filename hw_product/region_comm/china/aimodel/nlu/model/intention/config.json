@@ -1,0 +1,26 @@
+{
+    "model":"model.pb",
+    "type":"Bert",
+    "lang":"zh",
+    "intents_file":"intention_labels.txt",
+    "slots_file":"slot_labels.txt",
+    "vocab_file":"vocab.txt",
+    "hotfix_file":"hotfix.txt",
+    "input_nodes":{
+        "INPUT":"input_ids",
+        "SEGMENT":"segment_ids",
+        "POSITION":"position_ids"
+    },
+    "output_nodes":{
+        "INTENT_BERT":"intent",
+        "SLOTS_BERT":"slots"
+    },
+    "sequence_len":"32",
+    "fixed_length":"false",
+    "knowledge_len":"10",
+    "unk":"[UNK]",
+    "confidence_threshold":"0.7",
+    "do_lower_case":true,
+    "model_size":"tinybert-full-precision",
+    "build_time":"2020-08-18 09:19"
+}

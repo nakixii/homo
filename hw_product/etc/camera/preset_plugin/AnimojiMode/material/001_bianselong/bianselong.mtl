@@ -1,0 +1,12 @@
+newmtl _ST_FACE3D1:___Default
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bianselong_d4.jpg
+map_Ka bianselong_d4.jpg
+bump bianselong_n.jpg -bm 0.1
+Ni 1.50
+Ks 0.00 0.00 0.00
+map_Ks bianselong_s.jpg
+Ns 10.00

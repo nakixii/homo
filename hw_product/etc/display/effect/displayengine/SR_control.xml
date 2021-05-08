@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SRControl>
+	<PGEnable>false</PGEnable>
+	<NeedPkgNameFromPG>true</NeedPkgNameFromPG>
+	<MinimumTrainingIntervalMinutes>960</MinimumTrainingIntervalMinutes>
+	<ChargeLevelThreshold>50</ChargeLevelThreshold>
+	<FilmFilters>OR,A1,A2,A3,B1,B2,B3,F1,F2,F3</FilmFilters>
+</SRControl>

@@ -1,0 +1,31 @@
+{
+    "resId":"nlu_suffixstruct_local_group",
+    "domain":"nlu",
+    "district":"china",
+    "deviceType":"common",
+    "productName":"common",
+    "romVersion":"common",
+    "osVersion":"common",
+    "version":"0x01010000",
+    "releaseNotes":"",
+    "digest":"",
+    "fileName":"",
+    "ResMetaData":[
+        {
+            "origin_id":"0x000000000200008b",
+            "res_value":"",
+            "res_path":"nlu/domainDic/static/106.dat",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        },
+        {
+            "origin_id":"0x000000000200008c",
+            "res_value":"",
+            "res_path":"nlu/domainDic/static/106.pos",
+            "domain":"nlu",
+            "data_version":"0x01010000",
+            "encrypt_mode":"0"
+        }
+    ]
+}

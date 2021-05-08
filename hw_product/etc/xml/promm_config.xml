@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<promm>
+  <reclaim>
+    <enable>1</enable>
+    <value>16</value>
+  </reclaim>
+  <alertKill>
+    <enable>0</enable>
+	<long_cycle_enable>1</long_cycle_enable>
+	<short_cycle_enable>0</short_cycle_enable>
+	<cycle_watermark>1153433</cycle_watermark>
+	<refault_rate>36</refault_rate>
+	<pgpgin_rate>81</pgpgin_rate>
+	<constant_value>130</constant_value>
+	<sleep_time_long>1000000</sleep_time_long>
+	<sleep_time_short>200000</sleep_time_short>
+	<skip_limit>5</skip_limit>
+	<kill_min_adj>701</kill_min_adj>
+	<kill_pages_to_free>0</kill_pages_to_free>
+	<force_kill_min_adj>701</force_kill_min_adj>
+	<max_lfu_length>20</max_lfu_length>
+  </alertKill>
+  <readAhead>
+    <enable>1</enable>
+	<cpu_control_enable>1</cpu_control_enable>
+	<cpu_control_water>100</cpu_control_water>
+	<cpu_time_interval>5000</cpu_time_interval>
+	<wait_time>1500</wait_time>
+  </readAhead>
+  <zram>
+    <zram_enable>1</zram_enable>
+	<dedup_enable>1</dedup_enable>
+	<noncompress_enable>1</noncompress_enable>
+  </zram>
+</promm>

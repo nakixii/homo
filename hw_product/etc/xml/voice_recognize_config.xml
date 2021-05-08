@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommandConfig>
+<!--配置值说明：
+tag:字符串后缀名称
+headset_id:耳机侧的声音ID编号
+command_string:声音名称
+callflag:启动应用时的限制条件标记,1为设置该条件，0则不设置
+        标记对应值(十六进制:十进制-含义)：
+            0x00000001:1-在算法运行前提前启动应用
+            0x00000002:2-解锁状态下，启动应用是否忽略算法结果
+            0x00000004:4-录音时不启动应用
+            0x00000008:8-解锁时免震动
+algo_id:识别算法对应的ID编号
+耳机及算法内ID列表如下：
+耳机：微信支付-1，支付宝支付-2，小艺小艺-3，
+      OK,Google-4，Hi,Clina-5，你好YOYO-6
+算法：小艺小艺-0，微信支付-1，支付宝支付-2，
+      3（空缺保留），
+      OK,Google-4，Hi,Clina-5，你好YOYO-6，
+      微信扫码-7，支付宝扫码-8
+-->
+    <version value="9.0.001"/>
+	<idForUnlock value="0"/>
+	<command tag="xiaoyi" headset_id="3" command_string="小艺小艺" algo_id="0" callflag="14" />
+    <command tag="wepay" headset_id="1" command_string="微信支付" algo_id="1" callflag="13" />
+    <command tag="alipay" headset_id="2" command_string="支付宝支付" algo_id="2" callflag="13" />
+    <command tag="alisys" headset_id="8" command_string="支付宝扫一扫" algo_id="8" callflag="13" />
+</VoiceCommandConfig>

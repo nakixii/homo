@@ -1,0 +1,28 @@
+﻿{
+  "name":"tuzi",
+  "bsFilePath":"005_tuzi/tuzi.bs",
+  "fbxFilePath":"005_tuzi/tuzi.obj2",
+  "eyeFbxFilePath":["005_tuzi/tuzi_eye_left.fbx",
+                    "005_tuzi/tuzi_eye_right.fbx"
+  ],
+  "textureImgs": [
+        "005_tuzi/tuzi_d.jpg",
+        "005_tuzi/tuzi_n.jpg",
+        "005_tuzi/tuzi_s.jpg"
+    ],
+   "eyePostion": [
+        "0.049f",
+        "0.058f",
+        "0.031f",
+        "-0.049f",
+        "0.058f",
+        "0.031f"
+    ],
+    "modelSize": "1.0F",
+    "mtlFilePath": "005_tuzi/tuzi.mtl",
+    "changeSkinLists": null,
+    "bOpenLighting": true,
+    "blendType": 1,
+    "blendStep": "0"
+
+}

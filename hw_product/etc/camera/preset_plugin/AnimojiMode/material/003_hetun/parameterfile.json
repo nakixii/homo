@@ -1,0 +1,26 @@
+﻿{
+  "name":"hetun",
+  "bsFilePath":"003_hetun/hetun.bs",
+  "fbxFilePath":"003_hetun/hetun.obj2",
+  "eyeFbxFilePath":["003_hetun/hetun_eye_left.fbx",
+                    "003_hetun/hetun_eye_right.fbx"
+  ],
+  "textureImgs": [
+        "003_hetun/hetun_d.jpg"
+    ],
+   "eyePostion": [
+        "-0.038f",
+        "0.07275f",
+        "0.0644f",
+        "0.038f",
+        "0.07275f",
+        "0.0644f"
+    ],
+    "modelSize": "1.0F",
+    "mtlFilePath": "003_hetun/hetun.mtl",
+    "changeSkinLists":null,
+    "bOpenLighting": true,
+    "blendType": 1,
+    "blendStep": "0"
+
+}

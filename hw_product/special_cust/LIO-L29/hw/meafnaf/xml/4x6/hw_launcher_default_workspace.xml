@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <favorite
+        launcher:packageName="com.huawei.phoneservice"
+        launcher:className="com.huawei.phoneservice.LaunchActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.huawei.appmarket"
+        launcher:className="com.huawei.appmarket.MainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.huawei.browser"
+        launcher:className="com.huawei.browser.Main"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+</favorites>

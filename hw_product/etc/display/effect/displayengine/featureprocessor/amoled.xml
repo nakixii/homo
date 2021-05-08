@@ -1,0 +1,22 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2016-12-24</updated>
+	<feature name="AMOLED">
+		<mode name="CTRL">
+			<param name="Enable">1</param>
+		</mode>
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_NORMAL_LIGHT">MODE_AMOLED</param>
+			<param name="DE_SCENE_ACTION_SCREEN_OFF">MODE_SCREEN_OFF</param>
+			<param name="DE_SCENE_ACTION_SCREEN_ON">MODE_SCREEN_ON</param>
+			<param name="DE_SCENE_ACTION_HBM_DIMMING_ON">MODE_HBM_DIMMING_ON</param>
+			<param name="DE_SCENE_ACTION_HBM_DIMMING_OFF">MODE_HBM_DIMMING_OFF</param>
+			<param name="DE_SCENE_ACTION_FINGERPRINT_HBM_OFF">MODE_SCALING_DOWN</param>
+			<param name="DE_SCENE_ACTION_FINGERPRINT_HBM_ON">MODE_SCALING_UP</param>
+			<param name="DE_SCENE_ACTION_MANUFACTURE_BRIGHTNESS">MODE_MANUFACTURE_BRIGHTNESS</param>
+			<param name="DE_SCENE_ACTION_UD_FINGER_PRINT_BACKLIGHT">MODE_UD_FINGER_PRINT_BACKLIGHT</param>
+			<param name="DE_SCENE_ACTION_DC_BRIGHTNESS_DIMMING_ON">MODE_DC_BRIGHTNESS_ON</param>
+			<param name="DE_SCENE_ACTION_DC_BRIGHTNESS_DIMMING_OFF">MODE_DC_BRIGHTNESS_OFF</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

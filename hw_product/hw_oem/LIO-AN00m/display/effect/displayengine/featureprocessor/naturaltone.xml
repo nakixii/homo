@@ -1,0 +1,69 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2018-01-16</updated>
+	<feature name="NATURALTONE">
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_NATURAL_TONE_ON">MODE_NATURAL_TONE</param>
+			<param name="DE_SCENE_ACTION_NATURAL_TONE_OFF">MODE_DISABLE</param>
+			<param name="DE_SCENE_ACTION_AMBIENT_CCT_CHANGE">MODE_AMBIENT_CCT_CHANGE</param>
+			<param name="DE_SCENE_ACTION_AMBIENT_LUX_CHANGE">MODE_AMBIENT_LUX_CHANGE</param>
+			<param name="DE_SCENE_ACTION_VIDEO_ENTER">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_VIDEO_FULLSCREEN_START">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_CAMERA_ENTER">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_THUMBNAIL">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_FULLSCREEN_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_FULLSCREEN_NIGHT_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_FULLSCREEN_AGAINSTLIGHT_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_FULLSCREEN_BEAUTY_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_FULLSCREEN_HDR_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_FULLSCREEN_MULTIDENOISE_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_LIVE_IMAGE_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_LIVE_IMAGE_NIGHT_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_LIVE_IMAGE_AGAINSTLIGHT_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_LIVE_IMAGE_BEAUTY_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_LIVE_IMAGE_HDR_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_LIVE_IMAGE_MULTIDENOISE_VIEW">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_IMAGE_ONLINE_FULLSCREEN_VIEW">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_GALLERY_ENTER">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_GAME_ENTER">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_UI_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_VIDEO_HDR10_FULLSCREEN_END">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_VIDEO_HDR10_END">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_VIDEO_FULLSCREEN_STOP">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_VIDEO_FULLSCREEN_EXIT">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_IMAGE_EXIT">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_CAMERA_EXIT">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_IM_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_BROWSER_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_NEWS_CLIENT_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_SHOP_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_NAVIGATION_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_APP_MARKET_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_MONEY_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_SPORTS_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_MMS_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_SMS_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_EBOOK_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_LIFE_TOOL_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_EDUCATION_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_COLORMODE_ON">MODE_DEFAULT</param>
+			<param name="DE_SCENE_ACTION_COLORMODE_OFF">MODE_USER</param>
+			<param name="DE_SCENE_ACTION_SCREEN_OFF">MODE_SCREEN_OFF</param>
+			<param name="DE_SCENE_ACTION_SCREEN_ON">MODE_SCREEN_ON</param>
+			<param name="DE_SCENE_ACTION_AOD_ON">MODE_AOD_ON</param>
+			<param name="DE_SCENE_ACTION_AOD_OFF">MODE_AOD_OFF</param>
+			<param name="DE_SCENE_ACTION_UD_USER_PRESENT_ENTER">MODE_DIMMING_FRAME_STEP_1</param>
+			<param name="DE_SCENE_ACTION_UD_ENROLL_FINGER_PRINT_START">MODE_DIMMING_FRAME_STEP_2</param>
+			<param name="DE_SCENE_ACTION_UD_FINGER_PRINT_LOCK_START">MODE_DIMMING_FRAME_STEP_3</param>
+			<param name="DE_SCENE_ACTION_UD_ENROLL_FINGER_PRINT_END">MODE_DIMMING_FRAME_STEP_4</param>
+	    <param name="DE_SCENE_ACTION_TOP_GAME_ENTER">MODE_IMAGE</param>
+			<param name="DE_SCENE_ACTION_TOP_GAME_EXIT">MODE_UI</param>
+		</mode>
+		<mode name="CTRL">
+			<param name="Enable">0</param>
+			<param name="FirstLuxDurationLimitInMs">800</param>
+			<param name="InjectedAlLux">-1</param>
+			<param name="InjectedAlCt">-1</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

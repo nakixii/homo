@@ -1,0 +1,32 @@
+﻿{
+  "name":"bianselong",
+  "bsFilePath":"001_bianselong/bianselong.bs",
+  "fbxFilePath":"001_bianselong/bianselong.obj2",
+  "eyeFbxFilePath":["001_bianselong/bianselong_eye.fbx"],
+  "textureImgs": [
+        "001_bianselong/bianselong_d4.jpg",
+        "001_bianselong/bianselong_n.jpg",
+        "001_bianselong/bianselong_s.jpg"
+    ],
+   "eyePostion": [
+        "-0.061f",
+        "0.057f",
+        "0.043f",
+        "0.061f",
+        "0.057f",
+        "0.043f"
+    ],
+    "modelSize": "1.0F",
+    "mtlFilePath": "001_bianselong/bianselong.mtl",
+    "changeSkinLists": [
+        "001_bianselong/bianselong_d1.jpg",
+        "001_bianselong/bianselong_d2.jpg",
+        "001_bianselong/bianselong_d3.jpg",
+        "001_bianselong/bianselong_d4.jpg",
+        "001_bianselong/bianselong_d5.jpg"
+    ],
+    "bOpenLighting": true,
+    "blendType": 0,
+    "blendStep": "0.1f"
+
+}

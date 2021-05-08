@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ba91ae15242cd01d033cd10c16b6d1a4">
+  <dict>
+    <!--2020-07-21 16:04:51.0-->
+    <string key="5g_to_4g_delay_timer">10,10</string>
+    <!--2020-07-21 16:04:51.0-->
+    <string key="nr_technology_config">ConfigD</string>
+    <!--2020-07-21 16:04:51.0-->
+    <string key="optimized_for_configD">32,72</string>
+  </dict>
+</config>

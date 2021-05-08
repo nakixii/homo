@@ -1,0 +1,94 @@
+# 2020-08-12 10:21:39.0
+hw_mc.emcom.disable_sec_data=true
+# 2020-06-28 19:57:18.0
+hw_mc.meetime.message.mode=1
+# 2020-08-18 19:35:18.0
+hw_mc.meetime.mode=1
+# 2020-03-11 17:07:43.0
+ro.config.aiprotection=true
+# 2020-03-11 17:07:43.0
+ro.config.argesture_enable=1
+# 2020-03-11 17:07:43.0
+ro.config.concurrent_capture=true
+# 2020-03-11 17:07:43.0
+ro.config.gameassist.nodisturb=1
+# 2020-03-11 17:07:43.0
+ro.config.gameassist_booster=1
+# 2020-03-11 17:07:43.0
+ro.config.hiai.translation_engine.full_feature=1
+# 2020-03-11 17:07:43.0
+ro.config.hisi_net_ai_change=true
+# 2020-03-11 17:07:43.0
+ro.config.hisi_video_acc=true
+# 2020-03-11 17:07:43.0
+ro.config.huawei_navi_extend=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_CUP_POS_on=1
+# 2020-03-11 17:07:43.0
+ro.config.hw_booster=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_ch_alg=2
+# 2020-03-11 17:07:43.0
+ro.config.hw_emcom_mpux=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_hicar_mode=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_hicar_mode_wireless=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_nfc_msimce=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_rcs_product=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_support_ep=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_ukey_on=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_ukey_version=2
+# 2020-03-11 17:07:43.0
+ro.config.hw_vtlte_on=true
+# 2020-06-30 17:08:40.0
+ro.config.hw_wifipro_feature=2047
+# 2020-03-11 17:07:43.0
+ro.config.new_release_tips=true
+# 2020-03-11 17:07:43.0
+ro.config.nfc_hasese=true
+# 2020-03-11 17:07:43.0
+ro.config.nfc_nxp_active=i
+# 2020-03-11 17:07:43.0
+ro.config.quicknote=true
+# 2020-03-11 17:07:43.0
+ro.config.se_esetype=3
+# 2020-03-11 17:07:43.0
+ro.config.smart_voice_mode=true
+# 2020-03-11 17:07:43.0
+ro.config.support_etcis=true
+# 2020-03-11 17:07:43.0
+ro.config.voice_recognition=1
+# 2020-03-11 17:07:43.0
+ro.cust.cdrom=/hw_product/region_comm/china/cdrom/autorun.iso
+# 2020-03-11 17:07:43.0
+ro.gpu_turbo=GPU Turbo
+# 2020-03-11 17:07:43.0
+ro.hwcamera.resolution_default_config=null,1,1,1080P,30fps|null,2,1,1080P,30fps|null,4,1,1080P,960fps|null,3,1,4K,30fps
+# 2020-03-11 17:07:43.0
+ro.hwpp_ds_fail=111,32,33,35
+# 2020-03-11 17:07:43.0
+ro.odm.config.hw_higeo_map_matching=1
+# 2020-03-11 17:07:43.0
+ro.odm.config.hw_higeo_nw_pos_db=HUAWEI
+# 2020-03-11 17:07:43.0
+ro.product.cuptsm=HUAWEI|ESE|01|02
+# 2020-03-11 17:07:43.0
+ro.product.member.level=10011
+# 2020-03-11 17:07:43.0
+ro.product.wallet.nfc=01|01|HUAWEI|01|02|01
+# 2020-03-11 17:07:43.0
+ro.radio.vsim_modem_count=4
+# 2020-03-11 17:07:43.0
+ro.radio.vsim_support=true
+# 2020-03-11 17:07:43.0
+ro.vr.mode=true
+# 2020-03-11 17:07:43.0
+ro.vr.surport=true
+# 2020-07-02 19:30:19.0
+vendor.hw_mc.wifi_fastsleep_enable=true

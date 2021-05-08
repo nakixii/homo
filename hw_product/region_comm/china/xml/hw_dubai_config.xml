@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dubai_config>
+
+    <element id="1000">
+
+        <component id="0">
+            <parameter>LIO-000.4.0.1</parameter>
+        </component>
+
+    </element>
+
+    <element id="0">
+
+        <component id="0">
+            <policy>1</policy>
+
+            <vendor id="0">
+                <parameter id="0">
+                    <value>631730</value>
+                    <value>9768</value>
+                    <value>0</value>
+                </parameter>
+
+                <parameter id="1000">
+                    <value>33</value>
+                </parameter>
+
+                <parameter id="2000">
+                    <value>265568</value>
+                </parameter>
+
+                <parameter id="3000">
+                    <value>664</value>
+                    <value>337</value>
+                </parameter>
+
+                <parameter id="4000">
+                    <value>194400</value>
+                    <value>17800</value>
+                </parameter>
+            </vendor>
+
+            <compensation id="0">1200</compensation>
+        </component>
+
+        <component id="1">
+            <parameter id="0">
+                <value>35</value>
+            </parameter>
+
+            <compensation id="0">1200</compensation>
+        </component>
+
+        <component id="2">
+            <parameter id="0">
+                <value>146</value>
+            </parameter>
+
+            <compensation id="0">1200</compensation>
+        </component>
+
+        <component id="3">
+            <parameter id="0">
+                <value>8</value>
+                <value>11</value>
+                <value>13</value>
+                <value>15</value>
+                <value>17</value>
+                <value>20</value>
+                <value>23</value>
+                <value>25</value>
+                <value>30</value>
+                <value>35</value>
+                <value>43</value>
+                <value>49</value>
+                <value>55</value>
+            </parameter>
+            <parameter id="1">
+                <value>8</value>
+                <value>11</value>
+                <value>13</value>
+                <value>15</value>
+                <value>17</value>
+                <value>20</value>
+                <value>23</value>
+                <value>25</value>
+                <value>30</value>
+                <value>35</value>
+                <value>43</value>
+                <value>49</value>
+                <value>55</value>
+            </parameter>
+            <parameter id="2">
+                <value>8</value>
+                <value>11</value>
+                <value>13</value>
+                <value>15</value>
+                <value>17</value>
+                <value>20</value>
+                <value>23</value>
+                <value>25</value>
+                <value>30</value>
+                <value>35</value>
+                <value>43</value>
+                <value>49</value>
+                <value>55</value>
+            </parameter>
+            <parameter id="3">
+                <value>8</value>
+                <value>11</value>
+                <value>13</value>
+                <value>15</value>
+                <value>17</value>
+                <value>20</value>
+                <value>23</value>
+                <value>25</value>
+                <value>30</value>
+                <value>35</value>
+                <value>43</value>
+                <value>49</value>
+                <value>55</value>
+            </parameter>
+            <parameter id="4">
+                <value>25</value>
+                <value>29</value>
+                <value>33</value>
+                <value>38</value>
+                <value>44</value>
+                <value>51</value>
+                <value>58</value>
+                <value>65</value>
+                <value>75</value>
+                <value>84</value>
+                <value>97</value>
+                <value>111</value>
+                <value>123</value>
+            </parameter>
+            <parameter id="5">
+                <value>25</value>
+                <value>29</value>
+                <value>33</value>
+                <value>38</value>
+                <value>44</value>
+                <value>51</value>
+                <value>58</value>
+                <value>65</value>
+                <value>75</value>
+                <value>84</value>
+                <value>97</value>
+                <value>111</value>
+                <value>123</value>
+            </parameter>
+            <parameter id="6">
+                <value>87</value>
+                <value>98</value>
+                <value>109</value>
+                <value>122</value>
+                <value>136</value>
+                <value>152</value>
+                <value>169</value>
+                <value>187</value>
+                <value>207</value>
+                <value>227</value>
+                <value>250</value>
+                <value>278</value>
+                <value>315</value>
+            </parameter>
+            <parameter id="7">
+                <value>87</value>
+                <value>98</value>
+                <value>109</value>
+                <value>122</value>
+                <value>136</value>
+                <value>152</value>
+                <value>169</value>
+                <value>187</value>
+                <value>207</value>
+                <value>227</value>
+                <value>250</value>
+                <value>278</value>
+                <value>315</value>
+            </parameter>
+            <parameter id="100">
+                <value>1</value>
+            </parameter>
+
+            <compensation id="0">1100</compensation>
+        </component>
+
+        <component id="4">
+            <policy>1</policy>
+
+            <parameter id="0">
+                <value key="11808768">125</value>
+                <value key="8294400">115</value>
+                <value key="2985984">120</value>
+            </parameter>
+            <parameter id="1">
+                <value key="5947392">125</value>
+            </parameter>
+            <parameter id="2">
+                <value key="15925248">100</value>
+                <value key="11943936">88</value>
+                <value key="6786048">85</value>
+                <value key="2985984">76</value>
+            </parameter>
+            <parameter id="3">
+                <value key="7990272">58</value>
+                <value key="6005760">46</value>
+            </parameter>
+
+            <compensation id="0">1300</compensation>
+        </component>
+
+        <component id="5">
+            <policy>1</policy>
+
+            <parameter id="0">
+                <value>75</value>
+            </parameter>
+            <parameter id="1">
+                <value key="0">199</value>
+                <value key="0">143</value>
+                <value key="0">128</value>
+                <value key="0">125</value>
+                <value key="1">160</value>
+                <value key="1">112</value>
+                <value key="1">101</value>
+                <value key="1">97</value>
+            </parameter>
+            <parameter id="2">
+                <value key="0">85</value>
+                <value key="0">42</value>
+                <value key="0">35</value>
+                <value key="0">13</value>
+                <value key="1">85</value>
+                <value key="1">42</value>
+                <value key="1">35</value>
+                <value key="1">30</value>
+            </parameter>
+            <parameter id="3">
+                <value>120</value>
+            </parameter>
+            <parameter id="4">
+                <value key="0">45</value>
+                <value key="1">39</value>
+            </parameter>
+            <parameter id="5">
+                <value key="0">120</value>
+                <value key="0">120</value>
+                <value key="0">12</value>
+                <value key="0">12</value>
+                <value key="0">12</value>
+                <value key="0">12</value>
+                <value key="0">12</value>
+                <value key="1">120</value>
+                <value key="1">120</value>
+                <value key="1">120</value>
+                <value key="1">12</value>
+                <value key="1">12</value>
+                <value key="1">12</value>
+                <value key="1">12</value>
+            </parameter>
+            <parameter id="6">
+                <value key="0">8500</value>
+                <value key="0">0</value>
+                <value key="1">9000</value>
+                <value key="1">0</value>
+            </parameter>
+            <parameter id="7">
+                <value>95</value>
+            </parameter>
+            <parameter id="8">
+                <value>95</value>
+            </parameter>
+
+            <compensation id="0">1200</compensation>
+        </component>
+
+        <component id="6">
+            <parameter id="0">
+                <value>18</value>
+            </parameter>
+            <parameter id="1">
+                <value>34</value>
+            </parameter>
+            <parameter id="2">
+                <value>17</value>
+            </parameter>
+            <parameter id="3">
+                <value>20</value>
+            </parameter>
+            <parameter id="4">
+                <value>16</value>
+            </parameter>
+            <parameter id="5">
+                <value>0</value>
+            </parameter>
+            <parameter id="6">
+                <value>0</value>
+            </parameter>
+            <parameter id="7">
+                <value>2</value>
+            </parameter>
+
+            <compensation id="0">1200</compensation>
+        </component>
+
+        <component id="7">
+            <parameter id="1">
+                <value>1</value>
+            </parameter>
+            <parameter id="2">
+                <value>2</value>
+            </parameter>
+            <parameter id="3">
+                <value>13</value>
+            </parameter>
+            <parameter id="4">
+                <value>1</value>
+            </parameter>
+            <parameter id="5">
+                <value>1</value>
+            </parameter>
+            <parameter id="6">
+                <value>1</value>
+            </parameter>
+            <parameter id="9">
+                <value>13</value>
+            </parameter>
+            <parameter id="10">
+                <value>13</value>
+            </parameter>
+            <parameter id="11">
+                <value>13</value>
+            </parameter>
+            <parameter id="14">
+                <value>2</value>
+            </parameter>
+            <parameter id="15">
+                <value>1</value>
+            </parameter>
+            <parameter id="16">
+                <value>1</value>
+            </parameter>
+            <parameter id="17">
+                <value>1</value>
+            </parameter>
+            <parameter id="18">
+                <value>1</value>
+            </parameter>
+            <parameter id="19">
+                <value>1</value>
+            </parameter>
+            <parameter id="20">
+                <value>13</value>
+            </parameter>
+            <parameter id="65538">
+                <value>1</value>
+            </parameter>
+            <parameter id="65544">
+                <value>1</value>
+            </parameter>
+            <parameter id="65552">
+                <value>1</value>
+            </parameter>
+
+            <compensation id="0">1400</compensation>
+        </component>
+
+        <component id="8">
+            <policy>1</policy>
+
+            <parameter id="0">
+                <value key="0">150</value>
+                <value key="0">120</value>
+                <value key="0">93</value>
+                <value key="0">75</value>
+                <value key="0">58</value>
+                <value key="0">45</value>
+                <value key="0">32</value>
+                <value key="1">40</value>
+                <value key="1">130</value>
+                <value key="1">100</value>
+                <value key="1">70</value>
+                <value key="2">126</value>
+                <value key="2">108</value>
+                <value key="2">89</value>
+                <value key="2">72</value>
+                <value key="2">58</value>
+                <value key="2">47</value>
+                <value key="2">37</value>
+                <value key="3">80</value>
+                <value key="3">40</value>
+                <value key="3">20</value>
+                <value key="4">37</value>
+            </parameter>
+            <parameter id="1">
+                <value key="0">290</value>
+                <value key="0">233</value>
+                <value key="0">192</value>
+                <value key="0">156</value>
+                <value key="0">133</value>
+                <value key="0">116</value>
+                <value key="0">102</value>
+                <value key="1">50</value>
+                <value key="1">50</value>
+                <value key="1">40</value>
+                <value key="1">30</value>
+                <value key="2">302</value>
+                <value key="2">249</value>
+                <value key="2">206</value>
+                <value key="2">166</value>
+                <value key="2">140</value>
+                <value key="2">122</value>
+                <value key="2">109</value>
+                <value key="2">70</value>
+                <value key="3">120</value>
+                <value key="3">60</value>
+                <value key="3">220</value>
+                <value key="3">200</value>
+                <value key="3">160</value>
+                <value key="3">120</value>
+                <value key="4">72</value>
+            </parameter>
+            <parameter id="2">
+                <value key="0">260</value>
+                <value key="0">202</value>
+                <value key="0">156</value>
+                <value key="0">128</value>
+                <value key="0">110</value>
+                <value key="0">98</value>
+                <value key="0">92</value>
+                <value key="1">40</value>
+                <value key="1">60</value>
+                <value key="1">50</value>
+                <value key="1">40</value>
+                <value key="2">186</value>
+                <value key="2">150</value>
+                <value key="2">125</value>
+                <value key="2">110</value>
+                <value key="2">102</value>
+                <value key="2">96</value>
+                <value key="2">90</value>
+                <value key="3">110</value>
+                <value key="3">80</value>
+                <value key="3">50</value>
+                <value key="4">42</value>
+            </parameter>
+            <parameter id="3">
+                <value key="1">50</value>
+                <value key="1">60</value>
+                <value key="1">50</value>
+                <value key="1">40</value>
+                <value key="2">280</value>
+                <value key="2">225</value>
+                <value key="2">172</value>
+                <value key="2">140</value>
+                <value key="2">118</value>
+                <value key="2">104</value>
+                <value key="2">96</value>
+                <value key="3">110</value>
+                <value key="3">80</value>
+                <value key="3">50</value>
+                <value key="4">50</value>
+            </parameter>
+            <parameter id="4">
+                <value key="0">98</value>
+                <value key="0">90</value>
+                <value key="0">82</value>
+                <value key="0">74</value>
+                <value key="0">70</value>
+                <value key="0">63</value>
+                <value key="0">57</value>
+                <value key="1">50</value>
+                <value key="1">60</value>
+                <value key="1">50</value>
+                <value key="1">40</value>
+                <value key="2">101</value>
+                <value key="2">97</value>
+                <value key="2">90</value>
+                <value key="2">83</value>
+                <value key="2">73</value>
+                <value key="2">66</value>
+                <value key="2">60</value>
+                <value key="3">80</value>
+                <value key="3">60</value>
+                <value key="3">140</value>
+                <value key="3">130</value>
+                <value key="4">56</value>
+            </parameter>
+            <parameter id="5">
+                <value key="0">268</value>
+                <value key="0">224</value>
+                <value key="0">200</value>
+                <value key="0">175</value>
+                <value key="0">154</value>
+                <value key="0">140</value>
+                <value key="0">130</value>
+                <value key="0">103</value>
+                <value key="1">80</value>
+                <value key="1">70</value>
+                <value key="1">60</value>
+                <value key="1">50</value>
+                <value key="2">420</value>
+                <value key="2">360</value>
+                <value key="2">290</value>
+                <value key="2">230</value>
+                <value key="2">187</value>
+                <value key="2">164</value>
+                <value key="2">142</value>
+                <value key="2">105</value>
+                <value key="3">160</value>
+                <value key="3">120</value>
+                <value key="3">280</value>
+                <value key="3">260</value>
+                <value key="3">270</value>
+                <value key="3">250</value>
+                <value key="4">82</value>
+            </parameter>
+            <parameter id="6">
+                <value key="0">322</value>
+                <value key="0">268</value>
+                <value key="0">240</value>
+                <value key="0">210</value>
+                <value key="0">185</value>
+                <value key="0">168</value>
+                <value key="0">156</value>
+                <value key="0">124</value>
+                <value key="1">96</value>
+                <value key="1">84</value>
+                <value key="1">72</value>
+                <value key="1">60</value>
+                <value key="2">504</value>
+                <value key="2">432</value>
+                <value key="2">348</value>
+                <value key="2">276</value>
+                <value key="2">224</value>
+                <value key="2">196</value>
+                <value key="2">170</value>
+                <value key="2">126</value>
+                <value key="3">192</value>
+                <value key="3">144</value>
+                <value key="3">336</value>
+                <value key="4">98</value>
+            </parameter>
+            <compensation id="0">1200</compensation>
+            <compensation id="1">1200</compensation>
+            <compensation id="2">1200</compensation>
+        </component>
+
+        <component id="9">
+            <policy>1</policy>
+
+            <parameter id="0">
+                <value key="166">90</value>
+                <value key="185">96</value>
+                <value key="208">105</value>
+                <value key="230">113</value>
+                <value key="253">123</value>
+                <value key="277">134</value>
+                <value key="304">148</value>
+                <value key="332">164</value>
+                <value key="375">191</value>
+                <value key="418">224</value>
+                <value key="461">261</value>
+                <value key="509">311</value>
+                <value key="557">369</value>
+                <value key="600">431</value>
+            </parameter>
+
+            <compensation id="0">1300</compensation>
+        </component>
+
+        <component id="10">
+            <policy>2</policy>
+            <vendor id="7906">
+                <parameter id="0">
+                    <value key="0">25</value>
+                    <value key="0">596</value>
+                    <value key="1">0</value>
+                </parameter>
+                <parameter id="1">
+                    <value key="0">6</value>
+                    <value key="0">7</value>
+                    <value key="1">10807180</value>
+                </parameter>
+                <parameter id="2">
+                    <value key="0">4</value>
+                </parameter>
+            </vendor>
+            <vendor id="7022">
+                <parameter id="0">
+                    <value key="0">25</value>
+                    <value key="0">596</value>
+                    <value key="1">0</value>
+                </parameter>
+                <parameter id="1">
+                    <value key="0">6</value>
+                    <value key="0">7</value>
+                    <value key="1">31766330</value>
+               </parameter>
+               <parameter id="2">
+                   <value key="0">4</value>
+               </parameter>
+            </vendor>
+            <vendor id="7066">
+                <parameter id="0">
+                    <value key="0">25</value>
+                    <value key="0">596</value>
+                    <value key="1">0</value>
+                </parameter>
+                <parameter id="1">
+                    <value key="0">6</value>
+                    <value key="0">7</value>
+                    <value key="1">31766330</value>
+               </parameter>
+               <parameter id="2">
+                   <value key="0">4</value>
+               </parameter>
+            </vendor>
+            <vendor id="7158">
+                <parameter id="0">
+                    <value key="0">25</value>
+                    <value key="0">596</value>
+                    <value key="1">0</value>
+                </parameter>
+                <parameter id="1">
+                    <value key="0">6</value>
+                    <value key="0">7</value>
+                    <value key="1">12420890</value>
+               </parameter>
+               <parameter id="2">
+                   <value key="0">4</value>
+               </parameter>
+            </vendor>
+            <vendor id="7868">
+                <parameter id="0">
+                    <value key="0">25</value>
+                    <value key="0">596</value>
+                    <value key="1">0</value>
+                </parameter>
+                <parameter id="1">
+                    <value key="0">6</value>
+                    <value key="0">7</value>
+                    <value key="1">29304440</value>
+               </parameter>
+               <parameter id="2">
+                   <value key="0">4</value>
+               </parameter>
+            </vendor>
+            <vendor id="7912">
+                <parameter id="0">
+                    <value key="0">25</value>
+                    <value key="0">596</value>
+                    <value key="1">0</value>
+                </parameter>
+                <parameter id="1">
+                    <value key="0">6</value>
+                    <value key="0">7</value>
+                    <value key="1">17760260</value>
+               </parameter>
+               <parameter id="2">
+                   <value key="0">4</value>
+               </parameter>
+            </vendor>
+            <vendor id="8138">
+                <parameter id="0">
+                    <value key="0">25</value>
+                    <value key="0">596</value>
+                    <value key="1">0</value>
+                </parameter>
+                <parameter id="1">
+                    <value key="0">6</value>
+                    <value key="0">7</value>
+                    <value key="1">17094250</value>
+               </parameter>
+               <parameter id="2">
+                   <value key="0">4</value>
+               </parameter>
+            </vendor>
+            <compensation id="0">1050</compensation>
+        </component>
+
+        <component id="11">
+            <policy>3</policy>
+
+            <parameter id="9">
+                <value>0</value>
+                <value>12</value>
+                <value>0</value>
+                <value>1</value>
+            </parameter>
+            <parameter id="10">
+                <value>0</value>
+                <value>2</value>
+                <value>0</value>
+                <value>2</value>
+            </parameter>
+            <parameter id="15">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="16">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="21">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="26">
+                <value>0</value>
+                <value>3</value>
+                <value>0</value>
+                <value>1</value>
+            </parameter>
+            <parameter id="200">
+                <value>0</value>
+                <value>13</value>
+                <value>7</value>
+                <value>3</value>
+            </parameter>
+            <parameter id="240">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="241">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="242">
+                <value>0</value>
+                <value>9</value>
+                <value>11</value>
+                <value>1</value>
+            </parameter>
+            <parameter id="243">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="244">
+                <value>0</value>
+                <value>1</value>
+                <value>2</value>
+                <value>1</value>
+            </parameter>
+            <parameter id="245">
+                <value>0</value>
+                <value>1</value>
+                <value>2</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="246">
+                <value>0</value>
+                <value>2</value>
+                <value>3</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="247">
+                <value>0</value>
+                <value>1</value>
+                <value>2</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="248">
+                <value>0</value>
+                <value>1</value>
+                <value>2</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="249">
+                <value>0</value>
+                <value>1</value>
+                <value>2</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="255">
+                <value>0</value>
+                <value>4</value>
+                <value>6</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="256">
+                <value>0</value>
+                <value>6</value>
+                <value>8</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="257">
+                <value>0</value>
+                <value>3</value>
+                <value>5</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="258">
+                <value>0</value>
+                <value>1</value>
+                <value>2</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="264">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </parameter>
+            <parameter id="270">
+                <value>0</value>
+                <value>36</value>
+                <value>0</value>
+                <value>1</value>
+            </parameter>
+            <parameter id="90100">
+                <value>0</value>
+                <value>67</value>
+                <value>0</value>
+                <value>1</value>
+            </parameter>
+            <parameter id="90101">
+                <value>0</value>
+                <value>8</value>
+                <value>7</value>
+                <value>1</value>
+            </parameter>
+
+            <compensation id="0">1200</compensation>
+            <compensation id="1">1200</compensation>
+            <compensation id="2">1200</compensation>
+            <compensation id="3">1200</compensation>
+            <compensation id="4">1200</compensation>
+        </component>
+
+        <component id="12">
+            <parameter id="0">
+                <value>6</value>
+            </parameter>
+            <parameter id="1">
+                <value>15</value>
+            </parameter>
+            <parameter id="2">
+                <value>70</value>
+            </parameter>
+
+            <compensation id="0">1200</compensation>
+        </component>
+
+        <component id="13">
+            <parameter id="0">
+                <value>200</value>
+            </parameter>
+
+            <compensation id="0">1000</compensation>
+        </component>
+
+        <component id="14">
+            <policy>3</policy>
+
+            <vendor id="1537">
+                <parameter id="10000">
+                    <value>10</value>
+                    <value>16</value>
+                    <value>13</value>
+                    <value>15</value>
+                </parameter>
+                <parameter id="10001">
+                    <value>8</value>
+                    <value>14</value>
+                    <value>15</value>
+                    <value>17</value>
+                </parameter>
+                <parameter id="10002">
+                    <value>7</value>
+                    <value>15</value>
+                    <value>12</value>
+                    <value>13</value>
+                </parameter>
+                <parameter id="10003">
+                    <value>9</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>11</value>
+                </parameter>
+                <parameter id="10004">
+                    <value>11</value>
+                    <value>13</value>
+                    <value>16</value>
+                    <value>11</value>
+                </parameter>
+                <parameter id="10005">
+                    <value>8</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>12</value>
+                </parameter>
+                <parameter id="10006">
+                    <value>8</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>12</value>
+                </parameter>
+                <parameter id="10007">
+                    <value>8</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>12</value>
+                </parameter>
+                <parameter id="90000">
+                    <value>8</value>
+                    <value>12</value>
+                    <value>10</value>
+                    <value>12</value>
+                </parameter>
+                <parameter id="90001">
+                    <value>7</value>
+                    <value>13</value>
+                    <value>13</value>
+                    <value>11</value>
+                </parameter>
+                <parameter id="90002">
+                    <value>7</value>
+                    <value>15</value>
+                    <value>12</value>
+                    <value>13</value>
+                </parameter>
+                <parameter id="90003">
+                    <value>8</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>11</value>
+                </parameter>
+                <parameter id="90004">
+                    <value>10</value>
+                    <value>13</value>
+                    <value>16</value>
+                    <value>11</value>
+                </parameter>
+                <parameter id="90005">
+                    <value>8</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>12</value>
+                </parameter>
+                <parameter id="90006">
+                    <value>8</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>12</value>
+                </parameter>
+                <parameter id="90007">
+                    <value>8</value>
+                    <value>15</value>
+                    <value>16</value>
+                    <value>12</value>
+                </parameter>
+            </vendor>
+            <compensation id="0">1200</compensation>
+        </component>
+
+        <component id="15">
+            <parameter id="0">
+                <value>24430</value>
+                <value>520</value>
+                <value>520</value>
+            </parameter>
+            <parameter id="1">
+                <value>5000</value>
+            </parameter>
+            <parameter id="2">
+                <value>120000</value>
+            </parameter>
+            <parameter id="3">
+                <value>220</value>
+                <value>50</value>
+                <value>88</value>
+                <value>60</value>
+                <value>40</value>
+                <value>104</value>
+                <value>264</value>
+                <value>72</value>
+                <value>10</value>
+            </parameter>
+            <compensation id="0">1000</compensation>
+        </component>
+
+    </element>
+
+    <element id="1">
+
+        <component id="0">
+            <parameter id="0">
+                <value>2520000</value>
+                <value>1260000</value>
+            </parameter>
+            <parameter id="1">
+                <value>3</value>
+
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+            </parameter>
+            <parameter id="2">
+                <value>5</value>
+            </parameter>
+            <parameter id="3">
+                <value>4</value>
+            </parameter>
+            <parameter id="4">
+                <value>10</value>
+
+                <attribute id="0">
+                    <value key="0">SOCP0</value>
+                    <value key="1">{ipc[1:0]ipc_mbx[9:0],ipc_ns[1:0],ipc_ns_mbx[9:0]}</value>
+                    <value key="2">RTC0</value>
+                    <value key="3">GPIO230</value>
+                    <value key="4">intr01_mdm_ipcm_gic</value>
+                </attribute>
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+                <attribute id="16">
+                    <value key="0">IPF_INTR1</value>
+                    <value key="0">MDM_IPCM_GIC_COMB</value>
+                    <value key="0">intr_maa0</value>
+                    <value key="1">0</value>
+                    <value key="2">1</value>
+                </attribute>
+                <attribute id="32">
+                    <value key="0">GPIO228</value>
+                    <value key="1">0</value>
+                    <value key="2">1</value>
+                </attribute>
+                <attribute id="128">
+                    <value key="0">IPC_GIC_INT_COMB</value>
+                    <value key="0">IOMCU_WDT</value>
+                    <value key="1">0</value>
+                    <value key="2">3</value>
+                </attribute>
+                <attribute id="2">
+                    <value key="0">GPIO227</value>
+                    <value key="1">0</value>
+                    <value key="2">1</value>
+                </attribute>
+            </parameter>
+            <parameter id="5">
+                <value>7</value>
+
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+            </parameter>
+            <parameter id="6">
+                <value>600000</value>
+
+                <attribute id="0">
+                    <value key="5">PowerManagerService.WakeLocks</value>
+                </attribute>
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+                <attribute id="128">
+                    <value key="0">bfg_wake_lock_etc</value>
+                    <value key="0">wlan_bus_lock/pcie:0</value>
+                    <value key="0">ads_rx_wake</value>
+                    <value key="0">ads_tx_wake</value>
+                    <value key="0">wifi_deeepsleep_delay_wakelock</value>
+                    <value key="1">1</value>
+                </attribute>
+                <attribute id="64">
+                    <value key="0">hisp_power_wakelock</value>
+                    <value key="0">ispcpu_wakelock</value>
+                    <value key="0">ivp_power_wakelock</value>
+                    <value key="1">0</value>
+                    <value key="2">1</value>
+                </attribute>
+                <attribute id="4">
+                    <value key="0">low_power_wake_lock</value>
+                    <value key="1">0</value>
+                </attribute>
+                <attribute id="2">
+                    <value key="0">bt_wake_lock</value>
+                    <value key="1">0</value>
+                    <value key="2">1</value>
+                </attribute>
+            </parameter>
+            <parameter id="7">
+                <value>10</value>
+
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+                <attribute id="128">
+                    <value key="1">1</value>
+                </attribute>
+            </parameter>
+            <parameter id="8">
+                <value>10</value>
+
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+                <attribute id="16">
+                    <value key="2">1</value>
+                </attribute>
+            </parameter>
+            <parameter id="9">
+                <value>30</value>
+
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+            </parameter>
+            <parameter id="10">
+                <value>600000</value>
+
+                <attribute id="1">
+                    <value key="100">0</value>
+                </attribute>
+            </parameter>
+            <parameter id="12">
+                <value>10000</value>
+                <value>7500</value>
+                <value>2500</value>
+                <value>1250</value>
+
+                <attribute id="8">
+                    <value key="0">com.android.settings</value>
+                    <value key="1">0</value>
+                </attribute>
+            </parameter>
+            <parameter id="13">
+                <value>300000</value>
+            </parameter>
+            <parameter id="14">
+                <value>2</value>
+            </parameter>
+            <parameter id="16">
+                <value>128</value>
+                <value>180000</value>
+            </parameter>
+            <parameter id="17">
+                <value>3000</value>
+            </parameter>
+            <parameter id="19">
+                <value>30</value>
+            </parameter>
+            <parameter id="20">
+                <value>300000</value>
+                <value>300</value>
+
+                <attribute id="16">
+                    <value key="2">1</value>
+                </attribute>
+            </parameter>
+            <parameter id="21">
+                <value>600000</value>
+                <value>1024</value>
+
+                <attribute id="32">
+                    <value key="2">2</value>
+                </attribute>
+            </parameter>
+            <parameter id="22">
+                <value>600000</value>
+                <value>30</value>
+                <value>70</value>
+
+                <attribute id="16">
+                    <value key="2">1</value>
+                </attribute>
+            </parameter>
+        </component>
+
+        <component id="1">
+            <parameter id="0">
+                <value>1000</value>
+            </parameter>
+            <parameter id="1">
+                <value>1000</value>
+            </parameter>
+            <parameter id="2">
+                <value>1500</value>
+            </parameter>
+            <parameter id="3">
+                <value>1800</value>
+            </parameter>
+            <parameter id="4">
+                <value>2000</value>
+            </parameter>
+            <parameter id="5">
+                <value>3000</value>
+            </parameter>
+            <parameter id="6">
+                <value>3000</value>
+            </parameter>
+            <parameter id="7">
+                <value>3000</value>
+            </parameter>
+        </component>
+
+        <component id="2">
+            <parameter id="0">
+                <value>1000</value>
+            </parameter>
+            <parameter id="1">
+                <value>1000</value>
+            </parameter>
+            <parameter id="2">
+                <value>2000</value>
+            </parameter>
+            <parameter id="3">
+                <value>2000</value>
+            </parameter>
+            <parameter id="4">
+                <value>3000</value>
+            </parameter>
+            <parameter id="5">
+                <value>5000</value>
+            </parameter>
+            <parameter id="6">
+                <value>5000</value>
+            </parameter>
+            <parameter id="7">
+                <value>5000</value>
+            </parameter>
+        </component>
+
+    </element>
+
+    <element id="2">
+
+        <component id="2">
+            <parameter id="0">
+                <value>1800000</value>
+            </parameter>
+        </component>
+
+        <component id="3">
+            <parameter>142</parameter>
+        </component>
+
+    </element>
+
+    <element id="3">
+
+        <component id="0">
+            <parameter>1</parameter>
+        </component>
+
+        <component id="1">
+            <parameter>10000</parameter>
+        </component>
+    </element>
+
+</dubai_config>

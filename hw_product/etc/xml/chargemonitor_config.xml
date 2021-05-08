@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonitorConfigs>
+<board name="LION">
+  <watchpoint name="in_charge_cc_limit" watchEnabled="true">
+   <argument_FCP>2000</argument_FCP>
+   <argument_AC>1400</argument_AC>
+   <argument_SCP>3000</argument_SCP>
+   <errorconfig number ="8" name="bat_unexist">
+     <argument>1</argument>
+   </errorconfig>
+   <errorconfig number ="0" name="no_ibus">
+     <argument>50</argument>
+   </errorconfig>
+   <errorconfig number ="1" name="temperature_cross_board">
+     <argument>0</argument>
+     <argument>50</argument>
+   </errorconfig>
+   <errorconfig number ="2" name="temperature_abnormal">
+     <argument>10</argument>
+     <argument>45</argument>
+     <argument>50</argument>
+   </errorconfig>
+   <errorconfig number ="7" name="charging_is_limited">
+     <argument>1300</argument>
+     <argument>1400</argument>
+   </errorconfig>
+   <errorconfig number ="4" name="ibus_lower">
+     <argument>700</argument>
+   </errorconfig>
+   <errorconfig number ="3" name="AC_nonStand">
+     <argument>2</argument>
+   </errorconfig>
+   <errorconfig number ="5" name="system_big_consumer">
+     <argument>1400</argument>
+     <argument>10</argument>
+     <argument>45</argument>
+     <argument>80</argument>
+   </errorconfig>
+  </watchpoint>
+  <config name ="is_ibus_can_be_sampled">
+    <value>1</value>
+  </config>
+  <config name ="once_valid_chrg_time">
+    <value>30</value>
+  </config>
+  <config name ="monitor_interval_time">
+    <value>5</value>
+  </config>
+ <config name ="cc_valid_chrg_time">
+    <value>5</value>
+  </config>
+  <config name="temperature_stage_monitor" confEnable="true">
+    <stage_point>-10</stage_point>
+    <stage_point>0</stage_point>
+    <stage_point>10</stage_point>
+    <stage_point>45</stage_point>
+    <stage_point>50</stage_point>
+  </config>
+  <config name="cc_ibus_stage_monitor" confEnable="true" IBus_class_select="3.0A">
+    <IBus_class name="1.2A">
+      <stage_point>0</stage_point>
+      <stage_point>300</stage_point>
+      <stage_point>600</stage_point>
+      <stage_point>900</stage_point>
+      <stage_point>1200</stage_point>
+    </IBus_class>
+    <IBus_class name="2.0A">
+      <stage_point>0</stage_point>
+      <stage_point>500</stage_point>
+      <stage_point>1000</stage_point>
+      <stage_point>1500</stage_point>
+      <stage_point>2000</stage_point>
+    </IBus_class>
+    <IBus_class name="3.0A">
+      <stage_point>0</stage_point>
+      <stage_point>500</stage_point>
+      <stage_point>1000</stage_point>
+      <stage_point>1500</stage_point>
+      <stage_point>2000</stage_point>
+      <stage_point>3000</stage_point>
+    </IBus_class>
+  </config>
+  <config name="iin_current_limit_monitor" confEnable="true">
+    <stage_point>0</stage_point>
+    <stage_point>200</stage_point>
+    <stage_point>500</stage_point>
+    <stage_point>1000</stage_point>
+    <stage_point>1900</stage_point>
+  </config>
+  <config name="ichrg_current_limit_monitor" confEnable="true">
+    <stage_point>0</stage_point>
+    <stage_point>200</stage_point>
+    <stage_point>500</stage_point>
+    <stage_point>1000</stage_point>
+    <stage_point>1900</stage_point>
+    <stage_point>3000</stage_point>
+  </config>
+  <watchpoint name="bootloader_info" watchEnabled="true">
+   <errorconfig number ="6" name="bootloader_charger_outtime">
+    <argument>1</argument>
+   </errorconfig>
+  </watchpoint>
+  <config name="enable_bigdata_statistic">
+     <value>1</value>
+  </config>
+  <config name="monitor_real_soc">
+    <value>1</value>
+  </config>
+  <config name="monitor_vbus">
+    <value>1</value>
+  </config>
+  <config name="monitor_rbat">
+    <value>1</value>
+  </config>
+  <config name="monitor_cap_fcc">
+    <value>1</value>
+  </config>
+  <config name="monitor_chg_cycle">
+    <value>1</value>
+ </config>
+ <config name="once_valid_bigdata_time">
+   <value>5</value>
+ </config>
+ <config name="support_direct_charge">
+   <timespercent>100</timespercent>
+ </config>
+ <config name="battery_brand_detect">
+   <battery manufactor="1" model="2">desayatl</battery>
+   <battery manufactor="3" model="1">sunwodalg</battery>
+   <battery manufactor="2" model="6">scudmurata</battery>
+   <battery manufactor="2" model="2">scudatl</battery>
+ </config>
+ <config name="enable_battery_monitor">
+   <value>1</value>
+ </config>
+ <config name="battery_monitor_interval">
+   <value>5</value>
+ </config>
+</board>
+</MonitorConfigs>

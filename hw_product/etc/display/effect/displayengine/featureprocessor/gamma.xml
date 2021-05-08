@@ -1,0 +1,10 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2016-12-24</updated>
+	<feature name="GAMMA">
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_UI_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_SCREEN_ON">MODE_UI</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

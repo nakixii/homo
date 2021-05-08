@@ -1,0 +1,11 @@
+周一周二中午1:30叫我	周 一 周 二 中 午 1 : 30 叫 我	B-time I-time B-time I-time I-time I-time I-time I-time I-time O O	CREATE_ALARM
+新建个提醒地点为南京南站的重要待办	新 建 个 提 醒 地 点 为 南 京 南 站 的 重 要 待 办	O O O B-event I-event I-event I-event I-event I-event I-event I-event I-event O O O O O	CREATE_TODO
+无线投屏	无 线 投 屏	O O O O	SET_MULTI_SCREEN
+自动旋转	自 动 旋 转	O O O O	SET_AUTO_ROTATE
+状态栏显示运营商名称	状 态 栏 显 示 运 营 商 名 称	O O O O O O O O O O	SET_STATUS_BAR_SHOW_OPERATOR_NAME
+设置亮度开启自动调节	设 置 亮 度 开 启 自 动 调 节	O O O O O O O O O O	SET_AUTO_LUMINANCE
+琵琶行全文给我搜索下	琵 琶 行 全 文 给 我 搜 索 下	O O O O O O O O O O	OTHER
+添加日程内容我周四吃火锅	添 加 日 程 内 容 我 周 四 吃 火 锅	O O O O O O O B-date I-date B-event I-event I-event	CREATE_SCHEDULE
+帮我记一下，提醒小明给小雪发消息	帮 我 记 一 下 ， 提 醒 小 明 给 小 雪 发 消 息	O O O O O O B-event I-event I-event I-event I-event I-event I-event I-event I-event I-event	CREATE_SCHEDULE
+拨打电话给中国工商银行客服	拨 打 电 话 给 中 国 工 商 银 行 客 服	O O O O O B-yellowPages I-yellowPages I-yellowPages I-yellowPages I-yellowPages I-yellowPages I-yellowPages I-yellowPages	CALL
+呼叫救护车	呼 叫 救 护 车	O O B-yellowPages I-yellowPages I-yellowPages	CALL

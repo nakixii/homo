@@ -1,0 +1,13 @@
+<DisplayEngineConfig>
+	<id>1</id>
+	<updated>2019-05-16</updated>
+	<feature name="DCBRIGHTNESSDIMMING">
+		<mode name="CTRL">
+			<param name="Enable">1</param>
+		</mode>
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_NATURAL_TONE_ON">MODE_DC_BRIGHTNESS_ON</param>
+			<param name="DE_SCENE_ACTION_NATURAL_TONE_OFF">MODE_DC_BRIGHTNESS_OFF</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

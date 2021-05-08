@@ -1,0 +1,1750 @@
+<html><head>
+
+<p class=MsoNormal><span lang=EN-US>Please note we provide an open source software notice along with this product and/or this product firmware (in the following just "this product"). The open source software licenses are granted by the respective right holders. And the open source licenses prevail all other license information with regard to the respective open source software contained in the product, including but not limited to End User Software Licensing Agreement. This notice is provided on behalf of Huawei Device Co., Ltd. and any of its local subsidiaries which may have provided this product to you in your local country.</span></p>
+
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:16.0pt'>Warranty Disclaimer</span></b></p>
+
+
+<p class=MsoNormal><b><span lang=EN-US style='text-transform:uppercase'>The open source software in this product is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY, without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the applicable licenses for more details.</span></b></p>
+
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:16.0pt'>Copyright Notice and License Texts</span></b></p>
+
+
+<style type="text/css">
+body { padding: 0; font-family: sans-serif; }
+.same-license { background-color: #eeeeee; border-top: 20px solid white; padding: 10px; }
+.label { font-weight: bold; }
+.file-list { margin-left: 1em; color: blue; }
+</style>
+
+</head><body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+<div class="toc">
+<ul>
+<li><a href="#id0">/OpenCV/OpenCV-4.2.0</a></li>
+<li><a href="#id1">/openssl/openssl-1.1.1f</a></li>
+<li><a href="#id2">/gson/gson-2.8.5</a></li>
+<li><a href="#id3">/libyuv-android/libyuv-android-10.0.0_r33_r1652</a></li>
+<li><a href="#id4">/WebRTC/WebRTC-m72</a></li>
+<li><a href="#id5">/WebRTC/WebRTC-m72/examples/androidapp/third_party/autobanh</a></li>
+<li><a href="#id6">/Tensorflow/Tensorflow-1.15.2</a></li>
+<li><a href="#id7">/OpenH264/OpenH264-2.0.0</a></li>
+<li><a href="#id8">/libsrtp/libsrtp-2.3.0</a></li>
+<li><a href="#id9">/Opus-Interactive-Audio-Codec/Opus-Interactive-Audio-Codec-1.1</a></li>
+</ul>
+</div><!-- table of contents -->
+<table cellpadding="0" cellspacing="0" border="0">
+<tr id="id0"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/OpenCV/OpenCV-4.2.0 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright (C) 2000&ndash;2008, Intel Corporation, all rights reserved.
+Copyright (C) 2009&ndash;2010, Willow Garage Inc., all rights reserved.
+Copyright (C) 2009, Willow Garage Inc., all rights reserved.
+Copyright (C) 2013, OpenCV Foundation, all rights reserved.
+Copyright (C) 2000, Intel Corporation, all rights reserved.
+Copyright (c) Microsoft. All rights reserved.
+Copyright (c) Microsoft Corporation. All rights reserved.
+Copyright (c) Microsoft Corporation. All rights reserved
+Copyright (c) Microsoft Open Technologies, Inc.
+Authors: G. Evangelidis, INRIA, Grenoble, France
+Author: Steve Nicholson
+@author Karpushin Vladislav, karpushin@ngs.ru, https://github.com/VladKarpushin
+Author: edgar
+Author: Edgar Riba
+Author: eriba
+Author: Siddharth Kherada &lt;siddharthkherada27[at]gmail[dot]com&gt;
+@author Dmitry Matveev, dmitry.matveev@intel.com, based
+on sample by Karpushin Vladislav, karpushin@ngs.ru
+Copyright (C) 2018&ndash;2019 Intel Corporation
+Copyright (c) 2015, Piotr Dobrowolski dobrypd[at]gmail[dot]com
+Author: Samyak Datta (datta[dot]samyak[at]gmail.com)
+Author: Kevin Hughes &lt;kevinhughes27[at]gmail[dot]com&gt;
+Copyright 2010 Argus Corp. All rights reserved.
+Author: Ethan Rublee
+AUTHOR: Rahul Kavi rahulkavi[at]live[at]com
+Copyright (C) 2008&ndash;2011, Willow Garage Inc., all rights reserved.
+Author: Kevin Hughes
+Original Author:  Denis Burenkov
+AMS and Direct Methods Author:  Jasper Shemilt
+Copyright (C) 2008&ndash;2010, Willow Garage Inc., all rights reserved.
+Copyright (C) 2000&ndash;2016, Intel Corporation, all rights reserved.
+Copyright (C) 2009&ndash;2011, Willow Garage Inc., all rights reserved.
+Copyright (C) 2009&ndash;2016, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2010&ndash;2013, Advanced Micro Devices, Inc., all rights reserved.
+Copyright (C) 2015&ndash;2016, OpenCV Foundation, all rights reserved.
+Copyright (C) 2015&ndash;2016, Itseez Inc., all rights reserved.
+Copyright (C) 2000&ndash;2008, 2018, Intel Corporation, all rights reserved.
+Copyright (C) 2014&ndash;2015, Itseez Inc., all rights reserved.
+Copyright (C) 2000&ndash;2008,2019 Intel Corporation, all rights reserved.
+Copyright (C) 2014, Itseez Inc., all rights reserved.
+Copyright (C) 2010&ndash;2012, Multicoreware, Inc., all rights reserved.
+Copyright (C) 2010&ndash;2012, Advanced Micro Devices, Inc., all rights reserved.
+Nathan, liujun@multicorewareinc.com
+Copyright (C) 2009&ndash;2012, Willow Garage Inc., all rights reserved.
+Copyright (C) 2019, Intel Corporation, all rights reserved.
+Copyright (c) 2008&ndash;2011, William Lucas
+Copyright (C) 2014, Itseez, Inc, all rights reserved.
+Copyright (C) 2017, Intel Corporation, all rights reserved.
+2011 Jason Newton &lt;nevion@gmail.com&gt;
+2016 Costantino Grama &lt;costantino.grana@unimore.it&gt;
+2016 Federico Bolelli &lt;federico.bolelli@hotmail.com&gt;
+2016 Lorenzo Baraldi &lt;lorenzo.baraldi@unimore.it&gt;
+2016 Roberto Vezzani &lt;roberto.vezzani@unimore.it&gt;
+2016 Michele Cancilla &lt;cancilla.michele@gmail.com&gt;
+Copyright (C) 2013, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2015, Itseez Inc., all rights reserved.
+Author: Ovidiu Parvu
+Copyright (C) 2013, Ovidiu Parvu, all rights reserved.
+Dachuan Zhao, dachuan@multicorewareinc.com
+Copyright (C) 2010&ndash;2012, Institute Of Software Chinese Academy Of Science, all rights reserved.
+Niko Li, newlife20080214@gmail.com
+Jia Haipeng, jiahaipeng95@gmail.com
+Xu Pang, pangxu010@163.com
+Wenju He, wenju@multicorewareinc.com
+Peng Xiao, pengxiao@multicorewareinc.com
+Rock Li, Rock.li@amd.com
+Copyright (C) 2010&ndash;2012, MulticoreWare Inc., all rights reserved.
+Liu Liujun, liujun@multicorewareinc.com
+Copyright (C) 2014, Itseez, Inc., all rights reserved.
+Sen Liu, swjtuls1987@126.com
+Shengen Yan,yanshengen@gmail.com
+Copyright (C) 2014, Intel Corporation, all rights reserved.
+Copyright (C) 2014, Advanced Micro Devices, Inc., all rights reserved.
+Zhang Ying, zhangying913@gmail.com
+Zero Lin, zero.lin@amd.com
+Yao Wang, bitwangyaoyao@gmail.com
+Wu Zailong, bullet@yeah.net
+Zhang Chunpeng	chunpeng@multicorewareinc.com
+Yao Wang, yao@multicorewareinc.com
+Peng Xiao, pengxiao@outlook.com
+Nghia Ho, nghiaho12@yahoo.com
+Copyright (C) 2000&ndash;2008, 2017, Intel Corporation, all rights reserved.
+Copyright (c) 2011. Philipp Wagner &lt;bytefish[at]gmx[dot]de&gt;.
+Fangfang Bai, fangfang@multicorewareinc.com
+Jin Ma,       jin@multicorewareinc.com
+Copyright (C) 2016, Itseez, Inc, all rights reserved.
+Shengen Yan, yanshengen@gmail.com
+Jiang Liyuan, lyuan001.good@163.com
+Rock Li, Rock.Li@amd.com
+Yao Wang yao@multicorewareinc.com
+Zero Lin, Zero.Lin@amd.com
+Copyright (C) 2014, Itseez Inc, all rights reserved.
+Copyright (C) 2016, Itseez Inc, all rights reserved.
+Copyright( C) 2000, Intel Corporation, all rights reserved.
+Copyright 2008, Google Inc.
+Copyright (C) 2014, Intel, Inc., all rights reserved.
+Copyright 2005, Google Inc.
+registration from Barthelemy Dagenais&prime; (barthelemy@prologique.com)
+Copyright (C) 2008, Nils Hasler, all rights reserved.
+Copyright (C) 2015, OpenCV Foundation, all rights reserved.
+Copyright (C) 2008, 2011, Nils Hasler, all rights reserved.
+Copyright 2012. All rights reserved.
+Author: Pablo F. Alcantarilla
+Email: pablofdezalc@gmail.com
+KAZE Features Copyright 2012, Pablo F. Alcantarilla
+Authors: Pablo F. Alcantarilla (1), Jesus Nuevo (2)
+AKAZE Features Copyright 2013, Pablo F. Alcantarilla, Jesus Nuevo
+Copyright (C) 2011  The Autonomous Systems Lab (ASL), ETH Zurich, Stefan Leutenegger, Simon Lynen and Margarita Chli.
+Copyright (c) 2009, Willow Garage, Inc.
+Copyright (C) 2008, Willow Garage Inc., all rights reserved.
+Copyright (C) 2009, Liu Liu All rights reserved.
+Copyright (C) 2014, Itseez Inc. See the license at http:opencv.org
+Baichuan Su, baichuan@multicorewareinc.com
+The original code has been contributed by Peter Andreas Entschev, peter@entschev.com
+Copyright (C) 2018, Intel Corporation, all rights reserved.
+Copyright (C) 2014, Samson Yilma (samson_yilma@yahoo.com), all rights reserved.
+Copyright (C) 2009, Intel Corporation and others, all rights reserved.
+Copyright (C) 2016, OpenCV Foundation, all rights reserved.
+Copyright (C) 2008&ndash;2013, Willow Garage Inc., all rights reserved.
+Author: Sajjad Taheri, University of California, Irvine. sajjadt[at]uci[dot]edu
+Copyright (c) 2015 The Regents of the University of California (Regents)
+Author : Rijubrata Bhaumik, Intel Corporation. rijubrata.bhaumik[at]intel[dot]com
+Copyright (C) 2018 Ya&ndash;Chiu Wu, all rights reserved.
+Ya&ndash;Chiu Wu, yacwu@cs.nctu.edu.tw
+Xiaopeng Fu, fuxiaopeng2222@163.com
+Copyright 2008&ndash;2009  Marius Muja (mariusm@cs.ubc.ca). All rights reserved.
+Copyright 2008&ndash;2009  David G. Lowe (lowe@cs.ubc.ca). All rights reserved.
+Copyright 2008&ndash;2011  Marius Muja (mariusm@cs.ubc.ca). All rights reserved.
+Copyright 2008&ndash;2011  David G. Lowe (lowe@cs.ubc.ca). All rights reserved.
+Copyright (C) 2016, Intel Corporation, all rights reserved.
+Copyright (C) 2018&ndash;2019, Intel Corporation, all rights reserved.
+Copyright (c) 2016&ndash;2017 Fabian David Tschopp, all rights reserved.
+Copyright (c) 2015, Advanced Micro Devices, Inc.
+modulesdnnsrctorchCOPYRIGHT.txt**************************************
+Copyright (C) 2017&ndash;2019, Intel Corporation, all rights reserved.
+Author: abratchik
+Copyright 2015&ndash;2017 Philippe Tillet
+Copyright (c) 2017, Intel Corporation
+Copyright (C) 2000&ndash;2018, Intel Corporation, all rights reserved.
+Jin Ma jin@multicorewareinc.com
+Zero Lin zero.lin@amd.com
+Copyright (C) 2015, Itseez, Inc., all rights reserved.
+Copyright (C) 2000&ndash;2015, Intel Corporation, all rights reserved.
+Copyright (C) 2008&ndash;2012, Willow Garage Inc., all rights reserved.
+Copyright (C) 2018 Intel Corporation
+Copyright (C) 2019 Intel Corporation
+Copyright (C) 2013, Itseez Inc, all rights reserved.
+Copyright (C) 2008&ndash;2013, Itseez Inc., all rights reserved.
+Wang Weiyan, wangweiyanster@gmail.com
+Erping Pang, erping@multicorewareinc.com
+Jiang Liyuan,jlyuan001.good@163.com
+Zailong Wu, bullet@yeah.net
+Copyright (C) 1995&ndash;2016 Mark Adler
+Copyright (C) 1995&ndash;2016 Jean&ndash;loup Gailly, Mark Adler
+Copyright (C) 1995&ndash;2017 Jean&ndash;loup Gailly
+Copyright (C) 2004&ndash;2017 Mark Adler
+Copyright (C) 2004, 2010 Mark Adler
+Copyright (C) 1995&ndash;2017 Mark Adler
+Copyright (C) 1995&ndash;2003, 2010 Mark Adler
+Copyright (C) 2004, 2005, 2010, 2011, 2012, 2013, 2016 Mark Adler
+Copyright (C) 1995&ndash;2005, 2014, 2016 Jean&ndash;loup Gailly, Mark Adler
+Copyright (C) 1995&ndash;2017 Jean&ndash;loup Gailly and Mark Adler
+Copyright (C) 1995&ndash;2016 Jean&ndash;loup Gailly
+Copyright (C) 1995&ndash;2011, 2016 Mark Adler
+Copyright (C) 1995&ndash;2005, 2010 Mark Adler
+Copyright (C) 1995&ndash;2006, 2010, 2011, 2012, 2016 Mark Adler
+Thanks to Rodney Brown &lt;rbrown64@csc.com.au&gt; for his contribution of faster
+Copyright (C) 1995&ndash;2003, 2010, 2014, 2016 Jean&ndash;loup Gailly, Mark Adler
+Copyright (c) 2018&ndash;2019 Cosmin Truta
+Copyright (c) 1998&ndash;2002,2004,2006&ndash;2016,2018 Glenn Randers&ndash;Pehrson
+Copyright (c) 1996&ndash;1997 Andreas Dilger
+Copyright (c) 1995&ndash;1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 2018 Cosmin Truta
+Copyright (c) 1998&ndash;2002,2004,2006&ndash;2017 Glenn Randers&ndash;Pehrson
+Copyright (c) 1998&ndash;2002,2004,2006&ndash;2018 Glenn Randers&ndash;Pehrson
+Copyright (c) 1998&ndash;2002,2004,2006&ndash;2013,2018 Glenn Randers&ndash;Pehrson
+Copyright (c) 2016&ndash;2017 Glenn Randers&ndash;Pehrson
+Written by Mike Klein and Matt Sarett
+Written by Mike Klein and Matt Sarett, Google, Inc.
+Copyright (c) 1998&ndash;2002,2004,2006&ndash;2014,2016 Glenn Randers&ndash;Pehrson
+Copyright (c) 1998&ndash;2002,2004,2006&ndash;2014,2016,2018 Glenn Randers&ndash;Pehrson
+Copyright (c) 1998&ndash;2018 Glenn Randers&ndash;Pehrson
+Copyright (c) 2017 Glenn Randers&ndash;Pehrson
+Written by Vadim Barkov, 2017.
+Copyright (c) 2016 Glenn Randers&ndash;Pehrson
+Written by Mandar Sahastrabuddhe, August 2016.
+Written by Mandar Sahastrabuddhe, 2016.
+Copyright (c) 1998&ndash;2002,2004,2006&ndash;2013 Glenn Randers&ndash;Pehrson
+Copyright (c) 2017&ndash;2018 Arm Holdings. All rights reserved.
+Written by Richard Townsend &lt;Richard.Townsend@arm.com&gt;, February 2017.
+Copyright (c) 2014,2016 Glenn Randers&ndash;Pehrson
+Written by James Yu &lt;james.yu at linaro.org&gt;, October 2013.
+Based on filter_neon.S, written by Mans Rullgard, 2011.
+Written by Mans Rullgard, 2011.
+Copyright (C) 2010 The Android Open Source Project
+Copyright (c) 2014&ndash;2017 The Khronos Group Inc.
+Copyright (c) 2008&ndash;2013 The Khronos Group Inc.
+Copyright (c) 2008&ndash;2012 The Khronos Group Inc.
+Copyright (c) 2008&ndash;2010 The Khronos Group Inc.
+Copyright (c) 2008 &ndash; 2012 The Khronos Group Inc.
+Copyright (c) 2008&ndash;2009 The Khronos Group Inc.
+Copyright (C) 2015, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2012&ndash;2015, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2014, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2014&ndash;2015, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2012&ndash;2014, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2014&ndash;2016, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2013&ndash;2015, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2016, NVIDIA Corporation, all rights reserved.
+Copyright (c) 1991&ndash;1997 Sam Leffler
+Copyright (c) 1991&ndash;1997 Silicon Graphics, Inc.
+Copyright (c) 1988&ndash;1997 Sam Leffler
+Copyright (c) 1997 Greg Ward Larson
+Copyright (c) 1997 Silicon Graphics, Inc.
+Copyright (c) 1990&ndash;1997 Sam Leffler
+Copyright (c) 2018, Mapbox
+Author: &lt;norman.barker at mapbox.com&gt;
+Copyright (c) 1988&ndash;1996 Sam Leffler
+Copyright (c) 1991&ndash;1996 Silicon Graphics, Inc.
+Copyright (c) 2009 Frank Warmerdam
+Copyright (c) 1995&ndash;1997 Sam Leffler
+Copyright (c) 1995&ndash;1997 Silicon Graphics, Inc.
+Copyright (c) 2017, Planet Labs
+Author: &lt;even.rouault at spatialys.com&gt;
+Copyright (c) 1996&ndash;1997 Sam Leffler
+Copyright (c) 1996 Pixar
+Copyright (c) 1992&ndash;1997 Sam Leffler
+Copyright (c) 1992&ndash;1997 Silicon Graphics, Inc.
+3rdpartylibtiffCOPYRIGHT**************************************
+Copyright (c) 2010, Andrey Kiselev &lt;dron@ak4719.spb.edu&gt;
+Copyright (c) 1994&ndash;1997 Sam Leffler
+Copyright (c) 1994&ndash;1997 Silicon Graphics, Inc.
+&lt;copyright&gt;
+Copyright 2011 Google Inc. All Rights Reserved.
+Author: Skal (pascal.massimino@gmail.com)
+Copyright 2014 Google Inc. All Rights Reserved.
+Copyright 2012 Google Inc. All Rights Reserved.
+Author: Vikas Arora (vikaas.arora@gmail.com)
+Copyright 2016 Google Inc. All Rights Reserved.
+Authors: Vikas Arora (vikaas.arora@gmail.com)
+Jyrki Alakuijala (jyrki@google.com)
+Urvang Joshi (urvang@google.com)
+Vincent Rabaud (vrabaud@google.com)
+Author: Jyrki Alakuijala (jyrki@google.com)
+Copyright 2017 Google Inc. All Rights Reserved.
+Author: Vincent Rabaud (vrabaud@google.com)
+Author: somnath@google.com (Somnath Banerjee)
+Converted to C by Aleksander Kramarz (akramarz@google.com)
+Authors: Jyrki Alakuijala (jyrki@google.com)
+Author: Urvang Joshi (urvang@google.com)
+Vikas Arora (vikaas.arora@gmail.com)
+Author:  Vikas Arora (vikasa@google.com)
+Copyright 2010 Google Inc. All Rights Reserved.
+Authors: Skal (pascal.massimino@gmail.com)
+Urvang (urvang@google.com)
+Author: Urvang (urvang@google.com)
+Copyright 2013 Google Inc. All Rights Reserved.
+Copyright 2015 Google Inc. All Rights Reserved.
+Author: Christian Duvivier (cduvivier@google.com)
+Author(s): Darko Laus (darko.laus@imgtec.com)
+Mirko Raus (mirko.raus@imgtec.com)
+Copyright 2018 Google Inc. All Rights Reserved.
+Author(s):  Djordje Pesut    (djordje.pesut@imgtec.com)
+Jovan Zelincevic (jovan.zelincevic@imgtec.com)
+Author: Djordje Pesut (djordje.pesut@imgtec.com)
+Author: Prashant Patil (prashant.patil@imgtec.com)
+Author(s): Branimir Vasic (branimir.vasic@imgtec.com)
+Djordje Pesut (djordje.pesut@imgtec.com)
+Author:  Prashant Patil   (prashant.patil@imgtec.com)
+Author(s): Djordje Pesut (djordje.pesut@imgtec.com)
+cduvivier@google.com (Christian Duvivier)
+Author: mans@mansr.com (Mans Rullgard)
+Based on SSE code by: somnath@google.com (Somnath Banerjee)
+Author(s):  Prashant Patil   (prashant.patil@imgtec.com)
+Author(s):  Branimir Vasic (branimir.vasic@imgtec.com)
+Djordje Pesut  (djordje.pesut@imgtec.com)
+Author(s): Djordje Pesut    (djordje.pesut@imgtec.com)
+Slobodan Prijic  (slobodan.prijic@imgtec.com)
+Authors: Somnath Banerjee (somnath@google.com)
+Johann Koenig (johannkoenig@google.com)
+Authors: Prashant Patil (Prashant.Patil@imgtec.com)
+Vikas Arora(vikaas.arora@gmail.com)
+Authors: Urvang (urvang@google.com)
+Vikas (vikasa@google.com)
+Author: Hui Su (huisu@google.com)
+Copyright 2008 Google Inc.  All rights reserved.
+Author: kenton@google.com (Kenton Varda)
+Authors: wink@google.com (Wink Saville), kenton@google.com (Kenton Varda)
+Author: jschorr@google.com (Joseph Schorr)
+Copyright 2014 Google Inc. All rights reserved.
+Copyright 2012 Google Inc.  All rights reserved.
+Author: Maxim Lifantsev
+Copyright (c) 2006, Google Inc.
+Author: Matt Austern
+Copyright 2014 Google Inc.  All rights reserved.
+Author: laszlocsomor@google.com (Laszlo Csomor)
+Copyright 2013 Google Inc.  All rights reserved.
+Author: Anton Carver
+Copyright 2014 Bloomberg Finance LP. All rights reserved.
+Copyright 2005&ndash;2008 Google Inc. All Rights Reserved.
+Author: jrm@google.com (Jim Meehan)
+Copyright 2015 Google Inc.  All rights reserved.
+Author: ogabbay@advaoptical.com (Oded Gabbay)
+Cleaned up by: bsilver16384@gmail.com (Brian Silverman)
+Author: kenton@google.com (Kenton Varda) and others
+Copyright 2005 Google Inc.
+Author: lar@google.com (Laramie Leavitt)
+Copyright 2013 Red Hat Inc.  All rights reserved.
+Adapted from the patch of kenton@google.com (Kenton Varda)
+Author: ksroka@google.com (Krzysztof Sroka)
+Author: jasonh@google.com (Jason Hsueh)
+atenasio@google.com (Chris Atenasio) (ZigZag transform)
+wink@google.com (Wink Saville) (refactored from wire_format.h)
+Author: brianolson@google.com (Brian Olson)
+Copyright (C) 2010&ndash;2012 Daniel Beer &lt;dlbeer@gmail.com&gt;
+Copyright (C) 1991&ndash;1996, Thomas G. Lane.
+Copyright (C) 1994&ndash;1998, Thomas G. Lane.
+Copyright (C) 1994&ndash;1996, Thomas G. Lane.
+Copyright (C) 1991&ndash;1997, Thomas G. Lane.
+Copyright (C) 1991&ndash;1998, Thomas G. Lane.
+Copyright (C) 1992&ndash;1997, Thomas G. Lane.
+Copyright (C) 1995&ndash;1998, Thomas G. Lane.
+Copyright (C) 1991&ndash;2018, Thomas G. Lane, Guido Vollbeding.
+Copyright (C) 1994&ndash;1997, Thomas G. Lane.
+Copyright (C) 1992&ndash;1996, Thomas G. Lane.
+Copyright (C) 1991&ndash;1994, Thomas G. Lane.
+Copyright (C) 1995&ndash;1997, Thomas G. Lane.
+Copyright (c) 1999&ndash;2000 Image Power, Inc. and the University of
+Copyright (c) 2001&ndash;2002 Michael David Adams.
+Copyright (c) 2001&ndash;2003 Michael David Adams.
+Copyright (c) 1999&ndash;2000, Image Power, Inc. and the University of
+Copyright (c) 2001&ndash;2004 Michael David Adams.
+Copyright (c) 2004 Michael David Adams.
+Copyright (c) 2002&ndash;2003 Michael David Adams.
+3rdpartylibjaspercopyright**************************************
+Copyright (c) 2005&ndash;2012, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2012, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2002&ndash;2012, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2002, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2002&ndash;2018, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2004&ndash;2012, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2004, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2011&ndash;2012, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2006&ndash;2012, Industrial Light &amp; Magic, a division of Lucas
+Primary authors: Florian Kainz &lt;kainz@ilm.com&gt;
+Rod Bogart &lt;rgb@ilm.com&gt;
+Copyright (c) 2008, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2003, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2004, Industrial Light &amp; Magic, a division of Lucasfilm
+Entertainment Company Ltd.  Portions contributed and copyright held by others as indicated.  All rights reserved.
+Copyright (c) 2012, Weta Digital Ltd
+Copyright (c) 2006, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2011, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2009&ndash;2014 DreamWorks Animation LLC.
+Copyright (c) 2007, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2007, Weta Digital Ltd
+Copyright (c) 2004, Pixar Animation Studios
+Portions (c) 2012 Weta Digital Ltd
+Copyright (c) 2013, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2009, Industrial Light &amp; Magic, a division of Lucas
+Copyright (c) 2012, Autodesk, Inc.
+Copyright (c) 2005, Industrial Light &amp; Magic, a division of Lucas
+and decoding routines written by Christian Rouet for his
+Copyright (C) 2010, D. R. Commander.
+Copyright 2009 Pierre Ossman &lt;ossman@cendio.se&gt; for Cendio AB
+Copyright (C) 2009&ndash;2012, 2015, D. R. Commander.
+Copyright (C) 2014, MIPS Technologies, Inc., California.
+It was modified by The libjpeg&ndash;turbo Project to include only code relevant
+Copyright (C) 2009, 2011, 2015, D. R. Commander.
+Copyright (C) 2010, 2015, D. R. Commander.
+Copyright (C) 2013, MIPS Technologies, Inc., California.
+Copyright (C) 2009, 2011, 2014&ndash;2015, 2018, D. R. Commander.
+Copyright (C) 2013, D. R. Commander.
+Copyright (C) 2009&ndash;2011, 2018, D. R. Commander.
+It was modified by The libjpeg&ndash;turbo Project to include only code and information relevant to libjpeg&ndash;turbo.
+Copyright (C) 2011, 2015, 2018, D. R. Commander.
+Copyright (C) 2016, 2018, Matthieu Darbois.
+Copyright (C) 2013, 2016, D. R. Commander.
+Copyright (C) 2015&ndash;2016, D. R. Commander.
+Copyright (C) 2015, Google, Inc.
+Copyright (C) 2016, D. R. Commander.
+Copyright (C) 2009&ndash;2011, 2014&ndash;2016, 2018, D. R. Commander.
+Copyright (C) 2015, Matthieu Darbois.
+Copyright (C) 1999&ndash;2006, MIYASAKA Masaru.
+Copyright (C) 2011, 2014&ndash;2015, D. R. Commander.
+Copyright (C) 2015, D. R. Commander.
+Copyright (C) 2015, 2018, D. R. Commander.
+Copyright (C) 1991&ndash;2012, Thomas G. Lane, Guido Vollbeding.
+Copyright (C) 2010, 2012&ndash;2019, D. R. Commander.
+Copyright (C) 2011, 2014, D. R. Commander.
+Copyright (C) 2015&ndash;2016, 2018, Matthieu Darbois.
+Copyright (C) 2009&ndash;2011, 2016, D. R. Commander.
+Copyright (C) 2013, Linaro Limited.
+Copyright (C) 2010, 2015&ndash;2016, D. R. Commander.
+Copyright (C) 2014, D. R. Commander.
+Copyright (C) 1997&ndash;1998, Thomas G. Lane, Todd Newman.
+Copyright (C) 2017, D. R. Commander.
+Copyright (C) 2014&ndash;2015, D. R. Commander.
+Copyright (C) 2009, 2014&ndash;2015, D. R. Commander.
+Copyright (C) 2015&ndash;2016, 2018, D. R. Commander.
+Copyright (C) 1991&ndash;1995, Thomas G. Lane.
+Copyright (C) 2015&ndash;2018, D. R. Commander.
+Copyright (C) 2014, 2017, D. R. Commander.
+Copyright (C) 2010, 2016, 2018, D. R. Commander.
+Copyright (C) 2010, 2016, D. R. Commander.
+Copyright (C) 2009, 2015, D. R. Commander.
+Copyright (C) 2011, 2015, D. R. Commander.
+Copyright (C) 2009, 2011, 2014&ndash;2015, D. R. Commander.
+Copyright (C) 2009, 2011&ndash;2012, 2014&ndash;2015, D. R. Commander.
+Copyright (C) 2010, 2015&ndash;2018, D. R. Commander.
+Copyright (C) 2010&ndash;2011, 2015&ndash;2016, D. R. Commander.
+It was modified by The libjpeg&ndash;turbo Project to include only code
+Copyright (C) 2017&ndash;2018, D. R. Commander.
+Copyright (C) 2014&ndash;2015, 2018, D. R. Commander.
+Copyright (C) 2009&ndash;2011, 2013&ndash;2014, 2016&ndash;2017, D. R. Commander.
+Copyright (C) 2009&ndash;2011, 2014, D. R. Commander.
+Copyright (C) 2009&ndash;2011, 2016, 2018, D. R. Commander.
+Copyright (C) 2012, 2015, D. R. Commander.
+
+
+By downloading, copying, installing or using the software you agree to this license.
+If you do not agree to this license, do not download, install,
+copy or use the software.
+
+
+                          License Agreement
+               For Open Source Computer Vision Library
+                       (3&ndash;clause BSD License)
+
+Copyright (C) 2000&ndash;2019, Intel Corporation, all rights reserved.
+Copyright (C) 2009&ndash;2011, Willow Garage Inc., all rights reserved.
+Copyright (C) 2009&ndash;2016, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2010&ndash;2013, Advanced Micro Devices, Inc., all rights reserved.
+Copyright (C) 2015&ndash;2016, OpenCV Foundation, all rights reserved.
+Copyright (C) 2015&ndash;2016, Itseez Inc., all rights reserved.
+Copyright (C) 2019, Xperience AI, all rights reserved.
+Third party copyrights are property of their respective owners.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+
+  * Neither the names of the copyright holders nor the names of the contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+This software is provided by the copyright holders and contributors &quot;as is&quot; and
+any express or implied warranties, including, but not limited to, the implied
+warranties of merchantability and fitness for a particular purpose are disclaimed.
+In no event shall copyright holders or contributors be liable for any direct,
+indirect, incidental, special, exemplary, or consequential damages
+(including, but not limited to, procurement of substitute goods or services;
+loss of use, data, or profits; or business interruption) however caused
+and on any theory of liability, whether in contract, strict liability,
+or tort (including negligence or otherwise) arising in any way out of
+the use of this software, even if advised of the possibility of such damage.
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id1"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/openssl/openssl-1.1.1f <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright 2015&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2017&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1995&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2005 Nokia. All rights reserved.
+Copyright 1995&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2005&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2005&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1995&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2016&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1995&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1995&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2011&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2005&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2016&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
+Copyright 2012&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2016&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2015&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2014&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2004&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright (c) 2004, EdelKey Project. All Rights Reserved.
+Originally written by Christophe Renou and Peter Sylvester, for the EdelKey project.
+Copyright 2014&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2007&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2000&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2000&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2015&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2013&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1998&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2013&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2008&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2012&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2018&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2015&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2000&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2003&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2014&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright (c) 2018, Oracle and/or its affiliates.  All rights reserved.
+Copyright 2017 Ribose Inc. All Rights Reserved.
+Copyright 1999&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2017&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2006&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright (c) 2017, Oracle and/or its affiliates.  All rights reserved.
+Copyright 1999&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2010&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2001&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1999&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2002&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2002&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1999&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2000&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2008&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2006&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2002&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2006&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2015&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright (c) 2013&ndash;2014 Timo Teräs &lt;timo.teras@gmail.com&gt;
+Copyright 2001&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1998&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2016 VMS Software, Inc. All Rights Reserved.
+utilopenssl&ndash;update&ndash;copyright**************************************
+Copyright 2002&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2016&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2006&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2017 BaishanCloud. All rights reserved.
+Copyright 2011&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2011&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1998&ndash;2001 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2010&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2011&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2011&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2001&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2007&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2001&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2001&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2005&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2004&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1999&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2004&ndash;2014, Akamai Technologies. All Rights Reserved.
+Copyright 2014&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright (c) 2014, Intel Corporation. All Rights Reserved.
+Copyright (c) 2015, CloudFlare, Inc.
+Originally written by Shay Gueron (1, 2), and Vlad Krasnov (1, 3)
+Copyright 2010&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2006&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2002&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2015 Cryptography Research, Inc.
+Originally written by Mike Hamburg
+Copyright 2014 Cryptography Research, Inc.
+Copyright 2015&ndash;2016 Cryptography Research, Inc.
+Copyright 2017&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2016 Cryptography Research, Inc.
+Copyright 2014&ndash;2016 Cryptography Research, Inc.
+Copyright 2004&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2012&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2009&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2008&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2013&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2012&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1998&ndash;2016 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2010&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1998&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2000&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2009&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright (c) 2012, Intel Corporation. All Rights Reserved.
+Originally written by Shay Gueron (1, 2), and Vlad Krasnov (1)
+Copyright 2014&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2013&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2003&ndash;2018 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2005&ndash;2017 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2003&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2008&ndash;2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 1998&ndash;2019 The OpenSSL Project Authors. All Rights Reserved.
+
+
+
+  LICENSE ISSUES
+  ==============
+
+  The OpenSSL toolkit stays under a double license, i.e. both the conditions of
+  the OpenSSL License and the original SSLeay license apply to the toolkit.
+  See below for the actual license texts.
+
+  OpenSSL License
+  &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;
+
+/* ====================================================================
+ * Copyright (c) 1998&ndash;2019 The OpenSSL Project.  All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the
+ *    distribution.
+ *
+ * 3. All advertising materials mentioning features or use of this
+ *    software must display the following acknowledgment:
+ *    &quot;This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)&quot;
+ *
+ * 4. The names &quot;OpenSSL Toolkit&quot; and &quot;OpenSSL Project&quot; must not be used to
+ *    endorse or promote products derived from this software without
+ *    prior written permission. For written permission, please contact
+ *    openssl&ndash;core@openssl.org.
+ *
+ * 5. Products derived from this software may not be called &quot;OpenSSL&quot;
+ *    nor may &quot;OpenSSL&quot; appear in their names without prior written
+ *    permission of the OpenSSL Project.
+ *
+ * 6. Redistributions of any form whatsoever must retain the following
+ *    acknowledgment:
+ *    &quot;This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit (http://www.openssl.org/)&quot;
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS&prime;&prime; AND ANY
+ * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ * ====================================================================
+ *
+ * This product includes cryptographic software written by Eric Young
+ * (eay@cryptsoft.com).  This product includes software written by Tim
+ * Hudson (tjh@cryptsoft.com).
+ *
+ */
+
+ Original SSLeay License
+ &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;
+
+/* Copyright (C) 1995&ndash;1998 Eric Young (eay@cryptsoft.com)
+ * All rights reserved.
+ *
+ * This package is an SSL implementation written
+ * by Eric Young (eay@cryptsoft.com).
+ * The implementation was written so as to conform with Netscapes SSL.
+ *
+ * This library is free for commercial and non&ndash;commercial use as long as
+ * the following conditions are aheared to.  The following conditions
+ * apply to all code found in this distribution, be it the RC4, RSA,
+ * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
+ * included with this distribution is covered by the same copyright terms
+ * except that the holder is Tim Hudson (tjh@cryptsoft.com).
+ *
+ * Copyright remains Eric Young&prime;s, and as such any Copyright notices in
+ * the code are not to be removed.
+ * If this package is used in a product, Eric Young should be given attribution
+ * as the author of the parts of the library used.
+ * This can be in the form of a textual message at program startup or
+ * in documentation (online or textual) provided with the package.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ *    must display the following acknowledgement:
+ *    &quot;This product includes cryptographic software written by
+ *     Eric Young (eay@cryptsoft.com)&quot;
+ *    The word &prime;cryptographic&prime; can be left out if the rouines from the library
+ *    being used are not cryptographic related :&ndash;).
+ * 4. If you include any Windows specific code (or a derivative thereof) from
+ *    the apps directory (application code) you must include an acknowledgement:
+ *    &quot;This product includes software written by Tim Hudson (tjh@cryptsoft.com)&quot;
+ *
+ * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS&prime;&prime; AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * The licence and distribution terms for any publically available version or
+ * derivative of this code cannot be changed.  i.e. this code cannot simply be
+ * copied and put under another distribution licence
+ * [including the GNU Public Licence.]
+ */
+
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id2"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/gson/gson-2.8.5 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright (C) 2018 The Gson authors
+Copyright (C) 2008 Google Inc.
+Copyright (C) 2009 Google Inc.
+Copyright (C) 2011 Google Inc.
+Copyright (C) 2014 Google Inc.
+Copyright (C) 2017 The Gson authors
+Copyright (C) 2010 The Android Open Source Project
+Copyright (C) 2012 Google Inc.
+Copyright (C) 2010 Google Inc.
+Copyright (C) 2017 Gson Authors
+Copyright (C) 2017 Google Inc.
+Copyright (C) 2016 Google Inc.
+Copyright (C) 2015 Google Inc.
+Copyright (C) 2016 The Gson Authors
+Copyright (C) 2018 Gson Authors
+Copyright (C) 2014 Trymph Inc.
+Copyright (C) 2016 Gson Authors
+Copyright (C) 2012 Square, Inc.
+
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      &quot;License&quot; shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      &quot;Licensor&quot; shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      &quot;Legal Entity&quot; shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      &quot;control&quot; means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      &quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      &quot;Source&quot; form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      &quot;Object&quot; form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      &quot;Work&quot; shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      &quot;Derivative Works&quot; shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      &quot;Contribution&quot; shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, &quot;submitted&quot;
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as &quot;Not a Contribution.&quot;
+
+      &quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non&ndash;exclusive, no&ndash;charge, royalty&ndash;free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non&ndash;exclusive, no&ndash;charge, royalty&ndash;free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross&ndash;claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a &quot;NOTICE&quot; text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third&ndash;party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON&ndash;INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
+      replaced with your own identifying information. (Don&prime;t include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same &quot;printed page&quot; as the copyright notice for easier
+      identification within third&ndash;party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE&ndash;2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id3"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/libyuv-android/libyuv-android-10.0.0_r33_r1652 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright 2011 The LibYuv Project Authors. All rights reserved.
+Copyright 2013 The LibYuv Project Authors. All rights reserved.
+Copyright 2012 The LibYuv Project Authors. All rights reserved.
+Copyright 2015 The LibYuv Project Authors. All rights reserved.
+Copyright 2016 The LibYuv Project Authors. All rights reserved.
+Copyright 2014 The LibYuv Project Authors. All rights reserved.
+Copyright (c) 2012 The LibYuv project authors. All Rights Reserved.
+Copyright (c) 1999, Google Inc.
+Copyright (c) 2006, Google Inc.
+Copyright (c) 2008, Google Inc.
+Copyright (c) 2014, Andreas Schuh
+
+
+Copyright (c) 2011, Google Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Google nor the names of its contributors may
+    be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id4"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/WebRTC/WebRTC-m72 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright 2013 The WebRTC project authors. All Rights Reserved.
+Copyright 2017 The WebRTC Project Authors. All rights reserved.
+Copyright 2012 The WebRTC project authors. All Rights Reserved.
+Copyright 2015 The WebRTC Project Authors. All rights reserved.
+Copyright 2011 The WebRTC Project Authors. All rights reserved.
+Copyright 2016 The WebRTC project authors. All Rights Reserved.
+Copyright 2017 The WebRTC project authors. All Rights Reserved.
+Copyright 2018 The WebRTC Project Authors. All rights reserved.
+Copyright (c) 2017 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2018 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2014 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2013 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2012 The WebRTC project authors. All Rights Reserved.
+Copyright 2018 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2004 The WebRTC project authors. All Rights Reserved.
+Copyright 2016 The WebRTC Project Authors. All rights reserved.
+Copyright 2015 The WebRTC project authors. All Rights Reserved.
+Copyright 2014 The WebRTC project authors. All Rights Reserved.
+Copyright 2011 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2011 The WebRTC project authors. All Rights Reserved.
+Copyright 2004 The WebRTC Project Authors. All rights reserved.
+Copyright (c) 2012 The Chromium Authors. All rights reserved.
+Copyright 2014 The WebRTC Project Authors. All rights reserved.
+Copyright 2008 The WebRTC Project Authors. All rights reserved.
+Copyright 2010 The WebRTC Project Authors. All rights reserved.
+Copyright 2006 The WebRTC Project Authors. All rights reserved.
+Copyright 2013 The WebRTC Project Authors. All rights reserved.
+Copyright 2012 The WebRTC Project Authors. All rights reserved.
+Copyright 2007 The WebRTC Project Authors. All rights reserved.
+Copyright (c) 2016 The WebRTC Project Authors. All rights reserved.
+Copyright 2009 The WebRTC Project Authors. All rights reserved.
+Copyright 2005 The WebRTC Project Authors. All rights reserved.
+Written by Sarah Thompson (sarah@telergy.com) 2002.
+*     Copyright (c) 1999, Bob Withers &ndash; bwit@pobox.com
+Copyright 2012 Square Inc.
+Copyright 2004 The WebRTC project authors. All Rights Reserved.
+Copyright 2009 The WebRTC project authors. All Rights Reserved.
+Copyright 2008 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2010 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2009 The WebRTC project authors. All Rights Reserved.
+Copyright (c) 2008 The WebRTC project authors. All Rights Reserved.
+Copyright 2004&ndash;&ndash;2010, Google Inc.
+Copyright Takuya OOURA, 1996&ndash;2001 Changes by the WebRTC authors: &ndash; Trivial type modifications.&ndash; Minimal code subset to do rdft of length 128.&ndash; Optimizations because of known length.&ndash; Removed the global variables by moving the code in to a class in orderto make it thread safe.
+Copyright (C) 2010 The Android Open Source Project
+Author: Phil Burk, http://www.softsynth.com
+Copyright (c) 1999&ndash;2000 Ross Bencina and Phil Burk
+Author: Bjorn Roche, XO Audio, LLC
+Written by Steve Underwood &lt;steveu@coppice.org&gt;
+Copyright (C) 2006 Steve Underwood
+Copyright (C) 2001 Steve Underwood
+Copyright (C) 2005 Steve Underwood
+Copyright (c) CMU    1993 Computer Science, Speech Group
+Copyright (c) CMU 1993 Computer Science, Speech Group
+Copyright(c)1995,97 Mark Olesen &lt;olesen@me.QueensU.CA&gt;
+copyright).
+Written by Wilco Dijkstra, 1996. The following email exchange establishes the
+From: Wilco Dijkstra &lt;Wilco.Dijkstra@ntlworld.com&gt;
+To: Kevin Ma &lt;kma@google.com&gt;
+From: &quot;Kevin Ma&quot; &lt;kma@google.com&gt;
+To: &lt;Wilco.Dijkstra@ntlworld.com&gt;
+Copyright Takuya OOURA, 1996&ndash;2001 Copyright (c) 2014 The WebRTC project authors. All Rights Reserved.
+
+
+Copyright (c) 2011, The WebRTC project authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Google nor the names of its contributors may
+    be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id5"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/WebRTC/WebRTC-m72/examples/androidapp/third_party/autobanh <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+
+
+AutobahnAndroid
+Copyright 2011,2012 Tavendo GmbH. Licensed under Apache 2.0
+This product includes software developed at Tavendo GmbH http://www.tavendo.de
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id6"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/Tensorflow/Tensorflow-1.15.2 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright 2017 The TensorFlow Authors. All Rights Reserved.
+Copyright 2015 The TensorFlow Authors. All Rights Reserved.
+Copyright 2016 The TensorFlow Authors. All Rights Reserved.
+Copyright 2015 Google Inc. All rights reserved.
+Copyright 2018 The TensorFlow Authors. All Rights Reserved.
+Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+Copyright 2019 Google Inc. All Rights Reserved.
+Copyright 2017 The Sonnet Authors. All Rights Reserved.
+Copyright 2016 The Sonnet Authors. All Rights Reserved.
+Copyright 2019 Google LLC. All Rights Reserved.
+Copyright 2018 Google Inc. All rights reserved.
+Copyright 2019 Google Inc. All rights reserved.
+Copyright 2018 Google LLC
+Copyright 2017 The TensorFlow Authors All Rights Reserved.
+Copyright 2016 The TensorFlow Authors All Rights Reserved.
+Copyright 2019 The TensorFlow Authors All Rights Reserved.
+Copyright 2015&ndash;2017 The TensorFlow Authors. All Rights Reserved.
+Copyright 2016 Google Inc. All Rights Reserved.
+Copyright 2017 Google Inc. All Rights Reserved.
+Copyright 2018 Google Inc. All Rights Reserved.
+Copyright 2019 The TensorFlow Authors. Al Rights Reserved.
+Copyright 2015 Google Inc. All Rights Reserved.
+Copyright 2019 The MLIR Authors.
+Copyright (C) 2015 Benoit Steiner &lt;benoit.steiner.goog@gmail.com&gt;
+Copyright (C) 2015 Benoit Jacob &lt;benoitjacob@google.com&gt;
+Copyright (C) 2015 Matthew Sarett &lt;msarett@google.com&gt;
+Copyright (C) 2016 Nishant Patil &lt;nishantpatil@google.com&gt;
+
+
+Copyright 2019 The TensorFlow Authors.  All rights reserved.
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      &quot;License&quot; shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      &quot;Licensor&quot; shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      &quot;Legal Entity&quot; shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      &quot;control&quot; means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      &quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      &quot;Source&quot; form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      &quot;Object&quot; form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      &quot;Work&quot; shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      &quot;Derivative Works&quot; shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      &quot;Contribution&quot; shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, &quot;submitted&quot;
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as &quot;Not a Contribution.&quot;
+
+      &quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non&ndash;exclusive, no&ndash;charge, royalty&ndash;free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non&ndash;exclusive, no&ndash;charge, royalty&ndash;free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross&ndash;claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a &quot;NOTICE&quot; text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third&ndash;party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON&ndash;INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
+      replaced with your own identifying information. (Don&prime;t include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same &quot;printed page&quot; as the copyright notice for easier
+      identification within third&ndash;party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE&ndash;2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id7"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/OpenH264/OpenH264-2.0.0 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright (c)  2013, Cisco Systems
+Copyright (c)  2009&ndash;2013, Cisco Systems
+Copyright (c)  2010&ndash;2013, Cisco Systems
+Copyright (c)  2009&ndash;2015, Cisco Systems
+Copyright (c)  2008&ndash;2013, Cisco Systems
+Copyright (c)  2011&ndash;2013, Cisco Systems
+Copyright (c)  2004&ndash;2013, Cisco Systems
+Copyright (c)  2009&ndash;2018, Cisco Systems
+Copyright (c)  2013, Loongson Technology Co.,Ltd.
+Copyright (c)  1998, 2009 Paul E. Jones &lt;paulej@packetizer.com&gt;
+Copyright 2015, Mozilla Foundation and contributors
+Copyright (c)  2009&ndash;2014, Cisco Systems
+
+
+Copyright (c) 2013, Cisco Systems
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice, this
+  list of conditions and the following disclaimer in the documentation and/or
+  other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id8"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/libsrtp/libsrtp-2.3.0 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+By Guido Vranken &lt;guidovranken@gmail.com&gt; &ndash;&ndash;
+Bernardo Torres &lt;bernardo@torresautomacao.com.br&gt;
+Copyright (c) 2013&ndash;2017 Martin Mitas
+Copyright(c) 2001&ndash;2017 Cisco Systems, Inc.
+
+
+/*
+ *	
+ * Copyright (c) 2001&ndash;2017 Cisco Systems, Inc.
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 
+ *   Redistributions of source code must retain the above copyright
+ *   notice, this list of conditions and the following disclaimer.
+ * 
+ *   Redistributions in binary form must reproduce the above
+ *   copyright notice, this list of conditions and the following
+ *   disclaimer in the documentation and/or other materials provided
+ *   with the distribution.
+ * 
+ *   Neither the name of the Cisco Systems, Inc. nor the names of its
+ *   contributors may be used to endorse or promote products derived
+ *   from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ */
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+<tr id="id9"><td class="same-license">
+<div class="label">Notices for Software(s):</div>
+<div class="file-list">
+/Opus-Interactive-Audio-Codec/Opus-Interactive-Audio-Codec-1.1 <br/>
+</div><!-- file-list -->
+
+<pre class="license-text">
+Copyright (c) 2010&ndash;2011 Xiph.Org Foundation, Skype Limited
+Copyright (c) 2012 Xiph.Org Foundation
+Copyright (c) 2011 Xiph.Org Foundation
+Copyright (c) 2011&ndash;2012 Xiph.Org Foundation, Mozilla Corporation
+Copyright (c) 2011 Xiph.Org Foundation, Skype Limited
+Copyright (c) 2007&ndash;2008 CSIRO
+Copyright (c) 2008&ndash;2011 Octasic Inc.
+Copyright (c) 2010 Xiph.Org Foundation, Skype Limited
+Copyright (C) 2001 Erik de Castro Lopo &lt;erikd AT mega&ndash;nerd DOT com&gt; */
+Copyright (c) 2003&ndash;2004, Mark Borgerding
+Copyright (c) 2001&ndash;2011 Timothy B. Terriberry
+Copyright (C) 2002&ndash;2003 Jean&ndash;Marc Valin
+Copyright (C) 2007 Jean&ndash;Marc Valin
+Copyright (c) 2003&ndash;2008 Jean&ndash;Marc Valin
+Copyright (c) 2003&ndash;2008 Timothy B. Terriberry
+Copyright (c) 2008&ndash;2011 Xiph.Org Foundation
+Copyright (c) 2008 Xiph.Org Foundation
+Copyright (c) 2007&ndash;2011 Xiph.Org Foundation, Mozilla Corporation, Copyright (c) 2008&ndash;2011 Xiph.Org Foundation, Mozilla Corporation, Copyright (c) 2008&ndash;2011 Xiph.Org Foundation
+Copyright (c) 2008&ndash;2011 Xiph.Org Foundation, Mozilla Corporation
+Copyright (c) 2009&ndash;2010 Xiph.Org Foundation
+Copyright (c) 2001&ndash;2008 Timothy B. Terriberry
+Copyright (c) 2007 CSIRO
+Copyright (c) 2013 Jean&ndash;Marc Valin and John Ridges */
+Copyright (C) 2007&ndash;2009 Xiph.Org Foundation
+Copyright (C) 2003&ndash;2008 Jean&ndash;Marc Valin
+Copyright (c) 2010 Xiph.Org Foundation
+Copyright (c) 2013 Parrot /
+Copyright (c) 2013, Xiph.Org Foundation and contributors.
+Copyright (C) 2013 Xiph.Org Foundation and contributors */
+Copyright (c) 2002&ndash;2008 Jean&ndash;Marc Valin
+(C) COPYRIGHT 1994&ndash;2002 Xiph.Org Foundation */
+Copyright (c) 2011&ndash;2013 Xiph.Org Foundation
+Copyright (c) 2013 Jean&ndash;Marc Valin */
+
+
+License
+
+Opus has a freely available specification, a BSD&ndash;licensed, high&ndash;quality reference encoder and decoder, and protective, royalty&ndash;free licenses for the required patents. The copyright and patent licenses for Opus are automatically granted to everyone and do not require application or approval. The Opus FAQ has more information on why Opus is freely licensed.
+
+
+In brief: (see belowfor details)
+You can encode or decode Opus&ndash;compatible streamsfor any purpose at no cost.
+You can integrate the reference Opus encoder anddecoder in any application, program or product, even commercially,at no cost.
+You can create your own compatible implementationsof the Opus specification and give them away or sell them.
+You may not do these things if you engage onOpus&ndash;related patent litigation against any user of Opus.
+
+Licensing details
+
+Copyright
+
+Specification
+
+The specification is freely available as part of IETF RFC 6716. The RFC includes the reference implementation, which is available under the three&ndash;clause BSD license (see below).
+
+Implementation
+
+Both the reference implementation and the revised implementations on opus&ndash;codec.org are available under the three&ndash;clause BSD license. This BSD license is compatible with all common open source and commercial software licenses.
+
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+&ndash; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+&ndash; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+&ndash; Neither the name of Internet Society, IETF or IETF Trust, nor the names of specific contributors, may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS&prime;&prime; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Tools
+
+Most of the command&ndash;line Ogg&ndash;based tools that are shipped as part of the separate opus&ndash;tools package are also released under the three&ndash;clause BSD license. The only exception is the opusinfo tool, which is released under the GPLv2 license. Proprietary software developers wishing to use Opus may copy code from opusenc and opusdec, but they may not copy code from the opusinfo tool to build their applications.
+
+Patents
+
+Opus is covered by several patents. These patents are available under open&ndash;source&ndash;compatible, royalty&ndash;free licenses. If you are not trying to attack Opus with your patents, you will not have problems with these licenses.
+
+Some of these licenses have been updated in the past and may be updated again in the future. However, updates never invalidate the old licenses and users are always free to rely on any of the previously available licenses. In other words, newer licenses can give more rights, but never fewer.
+
+Xiph.Org Foundation
+
+The Xiph.Org foundation has several patent applications on techniques used in Opus. When issued, these patents will be automatically available under the terms provided in the below license. The license covers the listed patent applications, along with any other patent or application covering Opus that is owned by Xiph.Org.
+
+Xiph.Org Patents/Applications covered:
+•US 61/284,154
+•US 61/450,041
+•US 61/450,053
+•US 61/450,060
+•and any other applicable
+
+License Grant
+
+
+Xiph.Org Foundation (“Xiph”) hereby grants to you a perpetual, worldwide, non&ndash;exclusive, no&ndash;charge,royalty&ndash;free, irrevocable (except as stated in this license) license under Licensed Patents to make, have made, use, offer to sell, sell, import, transfer, and otherwise run, modify (in a way that still complies with the Specification), and reproduce any Implementation.
+
+Definitions. Specification means, and includes the following, both individually and collectively, (a) any standard specification of the Opus codec adopted by the IETF Codec Working Group (“Standard”) and (b) any reference implementation (each, a “Reference Implementation”) published by the IETF Codec Working Group in the request for comments (“RFC”) issued by the IETF for the Specification draft for which this License is issued, or any RFC that is issued as an update or new version thereof. An Implementation means any Reference Implementation, or another implementation that complies with the Specification. Licensed Patents means all patents currently owned by Xiph or acquired hereafter that Xiph has the right to license as set forth above and that are necessarily infringed by the Specification, where “necessarily infringed” means: in the case of (a) above, there is no commercially viable means of implementing the Specification without infringing such patent; in the case of (b) above, use of the reference implementation to the extent it infringes such patent.
+
+Termination. If you, directly or indirectly via controlled affiliate or subsidiary, agent, or exclusive licensee, file a Claim for patent infringement against any entity alleging that an Implementation in whole or in part constitutes direct or contributory patent infringement, or inducement of patent infringement (a “Claim”), provided that a Reference Implementation also infringes the patents asserted in the Claim, then any patent rights granted to you under this License shall automatically terminate retroactively as of the date you first received the grant. Claims made against an Implementation in part will only trigger termination if the Implementation in part was done for the purpose of combining it with other technology that complies with the Specification so that the technology’s ultimate use will be consistent with the Standard as a whole.
+
+This license is also filed on the IETF site.
+
+Broadcom
+
+Broadcom has both issued patents and outstanding applications covering Opus. These are available under the same license as the Xiph.Org patents. The license covers the listed patents and patent applications, along with any other patent or application covering Opus that is owned by Broadcom.
+
+Broadcom Patents/Applications covered:
+•US 61/406,106
+•US 61/394,842
+•US 7,353,168
+•and any other applicable
+
+License Grant
+
+
+Broadcom Corporation (“Broadcom”) hereby grants to you a perpetual, worldwide, non&ndash;exclusive, no&ndash;charge, royalty&ndash;free, irrevocable (except as stated in this license) license under Licensed Patents to make, have made, use, offer to sell, sell, import, transfer, and otherwise run, modify (in a way that still complies with the Specification), and reproduce any Implementation.
+
+Definitions. Specification means, and includes the following, both individually and collectively, (a) any standard specification of the Opus codec adopted by the IETF Codec Working Group (“Standard”) and (b) any reference implementation (each, a “Reference Implementation”) published by the IETF Codec Working Group in the request for comments (“RFC”) issued by the IETF for the Specification draft for which this License is issued, or any RFC that is issued as an update or new version thereof. An Implementation means any Reference Implementation, or another implementation that complies with the Specification. Licensed Patents means all patents currently owned by Broadcom or acquired hereafter that Broadcom has the right to license as set forth above and that are necessarily infringed by the Specification, where “necessarily infringed” means: in the case of (a) above, there is no commercially viable means of implementing the Specification without infringing such patent; in the case of (b) above, use of the reference implementation to the extent it infringes such patent.
+
+Termination. If you, directly or indirectly via controlled affiliate or subsidiary, agent, or exclusive licensee, file a Claim for patent infringement against any entity alleging that an Implementation in whole or in part constitutes direct or contributory patent infringement, or inducement of patent infringement (a “Claim”), provided that a Reference Implementation also infringes the patents asserted in the Claim, then any patent rights granted to you under this License shall automatically terminate retroactively as of the date you first received the grant. Claims made against an Implementation in part will only trigger termination if the Implementation in part was done for the purpose of combining it with other technology that complies with the Specification so that the technology’s ultimate use will be consistent with the Standard as a whole.
+
+This license is also filed on the IETF site.
+
+Microsoft
+
+Microsoft acquired patents and applications related to Opus through their purchase of Skype. These patents (and any other Microsoft might have had) are available under a different, but still royalty&ndash;free, license detailed below. The license covers the listed patent applications, along with any other patent or application covering Opus that is owned by Microsoft.
+
+Microsoft Patents/Applications covered:
+•US&ndash;2008&ndash;0201137&ndash;A1
+•US&ndash;2010&ndash;0174535&ndash;A1
+•US&ndash;2010&ndash;0174534&ndash;A1
+•US&ndash;2010&ndash;0174547&ndash;A1
+•US&ndash;2010&ndash;0174532&ndash;A1
+•US&ndash;2010&ndash;0174537&ndash;A1
+•US&ndash;2010&ndash;0174542&ndash;A1
+•US&ndash;2010&ndash;0174531&ndash;A1
+•US&ndash;2010&ndash;0174541&ndash;A1
+•US&ndash;2010&ndash;0174538&ndash;A1
+•US&ndash;2011&ndash;0077940&ndash;A1
+•and any other applicable
+
+Microsoft Opus Patent Terms
+
+11&ndash;7&ndash;2012
+
+
+1. Patent Terms.
+
+1.1. Specification License. Subject to all the terms and conditions of this Agreement, I, on behalf of myself and my successors in interest and assigns, hereby grant you a non&ndash;sublicensable, perpetual, worldwide, non&ndash;exclusive, no&ndash;charge, royalty&ndash;free, irrevocable license to my Necessary Decoder Claims for your Specification Implementation.
+
+1.2. Code License. Subject to all the terms and conditions of this Agreement, I, on behalf of myself and my successors in interest and assigns, hereby grant you a non&ndash;sublicensable, perpetual, worldwide, non&ndash;exclusive, no&ndash;charge, royalty&ndash;free, irrevocable patent license to my Necessary Reference Implementation Claims to make, use, sell, offer for sale, import or distribute a Code Implementation.
+
+1.3. Conditions.
+
+1.3.1. Availability. If you own or control Necessary Claims, the licenses set forth in Section 1 are subject to and will become effective starting on the date that you make a binding public irrevocable commitment to license, on reasonable and non&ndash;discriminatory royalty&ndash;free licensing terms 1) your Necessary Decoder Claims to all implementers for Specification Implementations, and 2) your Necessary Reference Implementation Claims to all implementers for Code Implementations, where the terms of this Agreement satisfy any reciprocity requirements in your reasonable and non&ndash;discriminatory royalty&ndash;free licensing terms. The promises set forth in Section 1 will remain in effect so long as you continue to make such claims available for Specification Implementations and Code Implementations under reasonable and non&ndash;discriminatory royalty&ndash;free licensing terms. In addition, as a condition of the licenses set forth in Section 1, you acknowledge and agree that you have not and will not knowingly take any action for the purpose of circumventing the conditions in this Section 1. Notwithstanding the foregoing, you are not required to make the commitments set forth in this Section 1.3.1 as a result of merely using a Specification Implementation or a Code Implementation as an end&ndash;user.
+
+1.3.2. Additional Conditions. This license is directly from me to you and you acknowledge as a condition of benefiting from it that no rights from me are received from suppliers, distributors, or otherwise in connection with this license. This license is not an assurance (i) that any of my issued patent claims covers a Specification Implementation or Code Implementation or are enforceable or (ii) that a Specification Implementation or Code Implementation would not infringe intellectual property rights of any third party.
+
+1.4. Termination. All rights, grants, and promises made by me to you under Section 1 are immediately terminated if you or your agent file, maintain, or voluntarily participate in a lawsuit against me or any person or entity asserting that a Specification Implementation infringes Necessary Decoder Claims or a Code Implementation infringes Necessary Reference Implementation Claims, unless that suit was in response to a corresponding suit regarding a Specification Implementation or Code Implementation first brought against you. In addition, all rights, grants, and promises made by me to you under Section 1 are terminated if you, your agent, or successor in interest seek to license Necessary Decoder Claims for Specification Implementations or Necessary Reference Implementations Claims for Code Implementations on a royalty&ndash;bearing basis, unless that royalty&ndash;bearing licensing activity is in addition to, and not in lieu of, reasonable and non&ndash;discriminatory royalty&ndash;free licensing terms for Necessary Decoder Claims for Specification Implementations or Necessary Reference Implementation Claims for Code Implementations. This Agreement may also be terminated, including back to the date of non&ndash;compliance, because of non&ndash;compliance with any other term or condition of this Agreement.
+
+2. Patent License Commitment. On behalf of me and my successors ininterest and assigns, I agree to offer alternative reasonable andnon&ndash;discriminatory royalty&ndash;bearing licensing terms 1) to myNecessary Decoder Claims solely for your SpecificationImplementation and 2) to my Necessary Reference ImplementationsClaims solely for your Code Implementation.
+
+3. Past Skype Declarations. You may, at your option, continue to relyon the terms set forth in Skype’s past declarations made to theIETF for the Opus Audio Codec, subject to the terms of thosedeclarations and in lieu of the terms of this Agreement solely forthe patents set forth in those declarations.
+
+4. Good Faith Obligations. I agree that I have not and will notknowingly take any action for the purpose of circumventing myobligations under this Agreement. In addition, I will not 1) seekan injunction or exclusion order against a) Code Implementationsfor Necessary Reference Implementation Claims or b) SpecificationImplementations for Necessary Decoder Claims or 2) require that animplementer license its patents back to me, except for NecessaryReference Implementation Claims for Code Implementations andNecessary Decoder Claims for Specification Implementations. I willnot transfer Necessary Reference Implementation Claims or NecessaryDecoder Claims unless the transferee is subject to theseobligations.
+
+5. Disclaimers. I expressly disclaim any warranties (express, implied,or otherwise), including implied warranties of merchantability,non&ndash;infringement, fitness for a particular purpose, or title,related to the Specification or Reference Implementation. Theentire risk as to implementing or otherwise using theSpecification, Specification Implementation, or Code Implementationis assumed by the implementer and user. IN NO EVENT WILL ANY PARTYBE LIABLE TO ANY OTHER PARTY FOR LOST PROFITS OR ANY FORM OFINDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANYCHARACTER FROM ANY CAUSES OF ACTION OF ANY KIND WITH RESPECT TOTHIS AGREEMENT, WHETHER BASED ON BREACH OF CONTRACT, TORT(INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHETHER OR NOT THE OTHERPARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. Nothingin this Agreement requires me to undertake a patent search.
+
+6. Definitions.
+
+6.1. Agreement. “Agreement” means this document, which sets forth the rights, grants, limitations, conditions, obligations, and disclaimers made available for the particular Specification.
+
+6.2. Code Implementation. “Code Implementation” means making, using, selling, offering for sale, importing or distributing 1) the Reference Implementation, or 2) an implementation that, in the case of an encoder, produces a bitstream that can be decoded by a Specification Implementation solely to the extent it produces such a bitstream, and, in the case of decoder, is a Specification Implementation, where that Specification Implementation may also infringe Necessary Reference Implementation Claims.
+
+6.3. Control. “Control” means direct or indirect control of more than 50% of the voting power to elect directors of that corporation, or for any other entity, the power to direct management of such entity.
+
+6.4. I, Me, or My. “I,” “me,” or “my” refers to the party making this declaration, and any entity that I Control.
+
+6.5. Necessary Claims. “Necessary Claims” means Necessary Decoder Claims and Necessary Reference Implementation Claims.
+
+6.6. Necessary Decoder Claims. “Necessary Decoder Claims” are those patent claims that a party owns or controls, including those claims acquired after the date of this declaration, that are necessarily infringed by an implementation of the required portions (including the required elements of optional portions) of the decoder Specification that are described in detail and not merely referenced in the Specification.
+
+6.7. Necessary Reference Implementation Claims. “Necessary Reference Implementation Claims” are those patent claims that a party owns or controls, including those claims acquired after the date of this declaration, that are necessarily infringed by the Reference Implementation. Necessary Reference Implementation Claims do not include claims that would be infringed only as a consequence of further modification of the Reference Implementation.
+
+6.8. Reference Implementation. “Reference Implementation” means the implementation of the Opus encoder and/or decoder code extracted from Appendix A of the Specification.
+
+6.9. Specification. “Specification” means IETF RFC 6716 dated September 2012.
+
+6.10. Specification Implementation. “Specification Implementation” means making, using, selling, offering for sale, importing or distributing any conformant implementation of the decoder set forth in the Specification 1) only to the extent it implements the Specification and 2) so long as all required portions of the Specification are implemented. Specification Implementation also includes any implementation of a decoder included in subsequent versions of RFC 6716 1) only to the extent that it implements the decoder Specification, and 2) so long as all required portions of the decoder Specification are implemented.
+
+6.11. You or Your. “You,” “you,” or “your” means any person or entity who exercises patent rights granted under this Agreement, and any person or entity you Control.
+
+This license is also filed on the IETF site. The old license is still available.
+
+Other disclosures
+
+While Xiph.Org, Broadcom, and Microsoft filed IPR disclosures giving royalty&ndash;free licenses to their patents used in Opus, four companies that did not directly participate in the development of Opus, Qualcomm, Huawei, France Telecom, and Ericsson, filed IPR disclosures with potentially royalty&ndash;bearing terms. The IETF allows anyone (and their dog) to file an IPR disclosures if they think that their patents “covers or may ultimately cover” a standard. In fact, for any organization who can be said to have contributed in any (very loosely defined) way, these IPR statements are not just allowed, but required. It is thus safer for organisations to declare as much as they can. As an example, one can find similar non&ndash;free Qualcomm IPR statements on both SIP and SDP. To our advantage, however, the IETF IPR disclosure policies require companies to provide the actual patent numbers. This allows anyone to verify these claims for themselves, which is definitely a good thing.
+
+When it comes to patents, it is difficult to say much without making lawyers nervous. However, we can say something quite direct: external counsel Dergosits &amp; Noah has advised us that Opus can be implemented without the need to license the patents disclosed by Qualcomm, Huawei, France Telecom, or Ericsson. We can also say that Mozilla is confident enough in Opus to ship it to hundreds of millions of Firefox users. Similarly, Cisco and Google are also supporting Opus in some products. More companies are expected to do the same soon.
+
+Mozilla invested significant legal resources into avoiding known patent thickets when designing Opus. Whenever possible, we used processes and methods that have been long known in the field and which are considered patent&ndash;free. In addition, we filed numerous patent applications on the new things we invented to help defend the Opus community. As a result, Opus is available on a royalty&ndash;free basis and can be deployed by anyone, including other open&ndash;source projects. Everyone knows this is an incredibly challenging legal environment to operate in, but we think we’ve succeeded.
+
+
+Copyright © 2011&ndash;2017
+
+</pre><!-- license-text -->
+</td></tr><!-- same-license -->
+
+
+
+</table>
+</body></html>

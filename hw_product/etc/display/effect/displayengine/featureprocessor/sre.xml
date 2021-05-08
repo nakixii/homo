@@ -1,0 +1,20 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2016-12-24</updated>
+	<feature name="SRE">
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_INDOOR_STEADY">MODE_SRE_DISABLE</param>
+			<param name="DE_SCENE_ACTION_OUTDOOR_STEADY">MODE_SRE</param>
+			<param name="DE_SCENE_ACTION_CAMERA_ENTER">MODE_SRE</param>
+			<param name="DE_SCENE_ACTION_CAMERA_FRONT_ENTER">MODE_SRE</param>
+			<param name="DE_SCENE_ACTION_CAMERA_PRO_ENTER">MODE_SRE</param>
+			<param name="DE_SCENE_ACTION_CAMERA_SHADOW_ENTER">MODE_SRE</param>
+			<param name="DE_SCENE_ACTION_CAMERA_EXIT">MODE_SRE_DISABLE</param>
+			<param name="DE_SCENE_ACTION_UI_ENTER">MODE_SRE_DISABLE</param>
+			<param name="DE_SCENE_ACTION_SCREEN_OFF">MODE_DISABLE</param>
+			<param name="DE_SCENE_ACTION_SREMODE_ON">MODE_SRE</param>
+			<param name="DE_SCENE_ACTION_SREMODE_OFF">MODE_DISABLE</param>
+			<param name="DE_SCENE_ACTION_TOP_GAME_EXIT">MODE_SRE_DISABLE</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

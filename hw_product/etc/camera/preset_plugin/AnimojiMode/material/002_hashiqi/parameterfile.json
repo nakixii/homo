@@ -1,0 +1,28 @@
+﻿{
+  "name":"hashiqi",
+  "bsFilePath":"002_hashiqi/hashiqi.bs",
+  "fbxFilePath":"002_hashiqi/hashiqi.obj2",
+  "eyeFbxFilePath":["002_hashiqi/hashiqi_lefteye.FBX",
+                    "002_hashiqi/hashiqi_righteye.FBX"
+  ],
+  "textureImgs": [
+        "002_hashiqi/hashiqi_d.jpg",
+        "002_hashiqi/hashiqi_n.jpg",
+        "002_hashiqi/hashiqi_s.jpg"
+    ],
+   "eyePostion": [
+        "-0.036f",
+        "0.062f",
+        "0.0084f",
+        "0.036f",
+        "0.062f",
+        "0.0084f"
+    ],
+    "modelSize": "1.0F",
+    "mtlFilePath": "002_hashiqi/hashiqi.mtl",
+    "changeSkinLists":null,
+    "bOpenLighting": true,
+    "blendType": 1,
+    "blendStep": "0"
+
+}

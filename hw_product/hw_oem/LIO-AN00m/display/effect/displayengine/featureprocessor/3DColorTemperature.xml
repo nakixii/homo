@@ -1,0 +1,14 @@
+<DisplayEngineConfig>
+	<id>1</id>
+	<updated>2017-06-23</updated>
+	<feature name="3DCOLERTEMP">
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_3D_COLORTMP_CHANGE">MODE_3D_COLORTMP</param>
+			<param name="DE_SCENE_ACTION_EYEPROTECTION_ON">MODE_EYE_PROTECT</param>
+			<param name="DE_SCENE_ACTION_EYEPROTECTION_OFF">MODE_DISABLE</param>
+		</mode>
+		<mode name="CTRL">
+			<param name="Enable">1</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

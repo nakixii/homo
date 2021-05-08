@@ -1,0 +1,413 @@
+# 2020-03-11 17:07:43.0
+config.hw.power.saving.always.netconnect=false
+# 2020-03-11 17:07:43.0
+drm.service.enabled=true
+# 2020-03-11 17:07:43.0
+hsdf.keyguard.disable_musicsport_style=false
+# 2020-06-15 09:43:16.0
+hw.config.resize_cache_bytes=true
+# 2020-03-11 17:07:43.0
+hw.enableEOS=1
+# 2020-08-11 16:18:55.0
+hw.mc.gallery.disable_single_photo_hidden=true
+# 2020-10-10 11:04:51.0
+hw.media.multidrm_certificate=true
+# 2020-09-04 11:33:13.0
+hw_mc.aod.display_default_config=0
+# 2020-08-19 18:16:49.0
+hw_mc.aod.support_display_style=2,5,2,0
+# 2020-05-12 17:47:01.0
+hw_mc.connectivity.airplane_enable_wifi_bt=0
+# 2020-03-11 17:07:43.0
+hw_mc.deskclock.enable_alarmring=true
+# 2020-06-04 15:40:03.0
+hw_mc.feature.accelerate_sliding=true
+# 2020-09-02 16:14:56.0
+hw_mc.gallery.spotlight_highlight_reel_ui_hide=false
+# 2020-05-13 16:24:23.0
+hw_mc.gallery3d.decode_hme=true
+# 2020-08-19 17:21:01.0
+hw_mc.gallery3d.new_filter_disable=true
+# 2020-06-01 10:40:46.0
+hw_mc.gallery3d.see_to_view_solution=1
+# 2020-10-09 09:39:54.0
+hw_mc.hiai.swing_gesture_ability=v:2.0;u:1;d:1;l:1;r:1;p:1;f:1;h:0
+# 2020-11-16 16:12:19.0
+hw_mc.hivision.intelligent_payment_enable=true
+# 2020-03-11 17:07:43.0
+hw_mc.hwcamera.bluetooth_underwater_enable=1
+# 2020-07-27 21:01:36.0
+hw_mc.hwcamera.floating_button=true
+# 2020-10-14 14:43:34.0
+hw_mc.hwcamera.swing_eyegaze_enable=true
+# 2020-10-14 14:43:34.0
+hw_mc.hwcamera.swing_facedirection_enable=true
+# 2020-06-24 09:54:47.0
+hw_mc.input.consumeModeSelect=1
+# 2020-03-11 17:07:43.0
+hw_mc.launcher.disable_back_hotzone_fullscreen=true
+# 2020-03-11 17:07:43.0
+hw_mc.multiscreen.castfeature_enable=true
+# 2020-03-11 17:07:43.0
+hw_mc.multiscreen.collaboration.value=3
+# 2020-03-16 19:37:33.0
+hw_mc.multiscreen.mdms.value=1
+# 2020-09-17 11:13:48.0
+hw_mc.multiscreen.windowcast.value=2
+# 2020-07-23 15:20:01.0
+hw_mc.permission.support_onetime_allow=false
+# 2020-10-29 20:52:49.0
+hw_mc.power.hardware_power_rank=true
+# 2020-08-25 21:27:15.0
+hw_mc.power.powersaving_mode=true
+# 2020-08-05 16:17:43.0
+hw_mc.settings.is_support_saved_wifi_settings=true
+# 2020-03-11 17:07:43.0
+hw_mc.settings.new_navi_show=false
+# 2020-08-03 22:13:31.0
+hw_mc.softbus.movement_mode=true
+# 2020-03-16 20:34:04.0
+hw_mc.systemui.swing_hide_noti_enable=true
+# 2020-06-24 11:33:38.0
+hw_sc.notification.ongoing.deleted=0
+# 2020-08-31 14:43:54.0
+hw_sc.onekeyclean.widget.reserve=true
+# 2020-03-11 17:07:43.0
+hw_sc.status_bar_rect_enabled=1
+# 2020-04-23 10:47:23.0
+hw_sc.vibrate.reserve=true
+# 2020-03-11 17:07:43.0
+persist.config.lower_buffer_num_enable=true
+# 2020-03-11 17:07:43.0
+persist.device_config.runtime_native.usap_pool_enabled=false
+# 2020-03-11 17:07:43.0
+persist.media.lowlatency.enable=true
+# 2020-03-11 17:07:43.0
+persist.sys.dualcards=true
+# 2020-03-11 17:07:43.0
+ro.blight.exempt_app_type=-1,1,16,24
+# 2020-03-20 11:49:17.0
+ro.build.hardware_expose=true
+# 2020-03-11 17:07:43.0
+ro.build.hide=true
+# 2020-12-07 14:35:12.0
+ro.build.hide.matchers=11.1.0
+# 2020-12-07 14:35:12.0
+ro.build.hide.replacements=2.0.0
+# 2020-12-07 14:35:12.0
+ro.build.hide.settings=8;1.8 GHz;6.0GB;56.00 GB;64.00 GB;1920 x 1080;10;4.14.116;2.0.0 Developer Beta1
+# 2020-03-11 17:07:43.0
+ro.build.hw_emui_lite.enable=false
+# 2020-03-11 17:07:43.0
+ro.build.product=LIO
+# 2020-03-11 17:07:43.0
+ro.camera.master_ai_default=off
+# 2020-03-11 17:07:43.0
+ro.camera.video_fps_default=30
+# 2020-03-11 17:07:43.0
+ro.camera.warm_start_fadeout_enable=false
+# 2020-03-11 17:07:43.0
+ro.check.modem_network=true
+# 2020-03-11 17:07:43.0
+ro.config.a2dp_lowLatency=true
+# 2020-03-11 17:07:43.0
+ro.config.aperture_zoom_custom=1
+# 2020-03-11 17:07:43.0
+ro.config.app_big_icon_size=176
+# 2020-03-11 17:07:43.0
+ro.config.arobject_enable=1
+# 2020-03-11 17:07:43.0
+ro.config.attach_ip_type=IPV4V6
+# 2020-03-11 17:07:43.0
+ro.config.blight_power_curve=50,1;100,0.8;300,0.8;350,0.9;380,1
+# 2020-03-11 17:07:43.0
+ro.config.bt_a2dp_disabled_enc=5
+# 2020-03-11 17:07:43.0
+ro.config.carkitmodenotif=true
+# 2020-03-11 17:07:43.0
+ro.config.change_brand_suggest=1
+# 2020-03-11 17:07:43.0
+ro.config.colorTemperature_3d=true
+# 2020-03-11 17:07:43.0
+ro.config.colorTemperature_K3=true
+# 2020-10-31 15:53:38.0
+ro.config.color_aod_type=2047
+# 2020-03-11 17:07:43.0
+ro.config.default_screensize=1176,2400
+# 2020-03-11 17:07:43.0
+ro.config.default_stare_unlock=true
+# 2020-03-11 17:07:43.0
+ro.config.detect_sd_disable=false
+# 2020-03-11 17:07:43.0
+ro.config.disable_force_touch=true
+# 2020-03-11 17:07:43.0
+ro.config.disable_operator_name=true
+# 2020-09-02 16:35:13.0
+ro.config.easygoservice_enabled=true
+# 2020-03-11 17:07:43.0
+ro.config.enable_partition_move_update=1
+# 2020-03-11 17:07:43.0
+ro.config.enable_thermal_bdata=true
+# 2020-03-11 17:07:43.0
+ro.config.enable_typec_earphone=true
+# 2020-03-11 17:07:43.0
+ro.config.face_recognition=true
+# 2020-03-11 17:07:43.0
+ro.config.fillet_radius_size=24.17
+# 2020-03-11 17:07:43.0
+ro.config.finger_joint=true
+# 2020-03-11 17:07:43.0
+ro.config.fp_hbm_ahead=true
+# 2020-03-11 17:07:43.0
+ro.config.fp_notice_face=true
+# 2020-03-11 17:07:43.0
+ro.config.gallery_story_disable=false
+# 2020-03-11 17:07:43.0
+ro.config.gameassist=1
+# 2020-03-11 17:07:43.0
+ro.config.gameassist.anti-touch=1
+# 2020-03-11 17:07:43.0
+ro.config.gameassist.full-finger=1
+# 2020-03-11 17:07:43.0
+ro.config.gameassist.peripherals=1
+# 2020-03-11 17:07:43.0
+ro.config.gameassist_soundtovibrate=0
+# 2020-04-14 11:40:02.0
+ro.config.gps_to_nlp=true
+# 2020-03-11 17:07:43.0
+ro.config.hiai.translation_engine.full_feature=0
+# 2020-03-11 17:07:43.0
+ro.config.hicall=true
+# 2020-03-11 17:07:43.0
+ro.config.hpx_m6m8_support=true
+# 2020-03-11 17:07:43.0
+ro.config.huawei_smallwindow=381,0,1174,2400
+# 2020-03-11 17:07:43.0
+ro.config.hw.knucklegesture=Huawei
+# 2020-03-11 17:07:43.0
+ro.config.hw_DK_CCC1.0_on=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_camera_nfc_switch=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_charge_frz=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_codec_support=0.180410
+# 2020-03-11 17:07:43.0
+ro.config.hw_curved_side_disp=24,1128,24,2400
+# 2020-03-11 17:07:43.0
+ro.config.hw_dts_settings=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_earpiece_fade=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_easywakeup=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_easywakeup_openface=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_emui_cast_mode=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_emui_desktop_mode=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_emui_dp_pc_mode=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_emui_welink_cast=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_emui_wfd_pc_mode=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_front_fp_navi=false
+# 2020-03-11 17:07:43.0
+ro.config.hw_glovemode_enabled=1
+# 2020-03-11 17:07:43.0
+ro.config.hw_hotswap_on=true
+# 2020-09-02 16:35:13.0
+ro.config.hw_magic_window_enable=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_magne_bracket=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_media_flags=2
+# 2020-05-06 11:46:20.0
+ro.config.hw_multiwindow_optimization=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_newsimple=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_notch_size=424,72,376,54
+# 2020-03-11 17:07:43.0
+ro.config.hw_pdn_rej_data_cure=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_sim2airplane=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_srlte=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_support_geofence=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_support_led=false
+# 2020-03-11 17:07:43.0
+ro.config.hw_switchdata_4G=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_sws=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_volte_on=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_wakeup_device=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_watermark=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_wfd_optimize=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_wifi_dc_enable=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_wifibridge=true
+# 2020-03-11 17:07:43.0
+ro.config.isDmProduct=true
+# 2020-03-11 17:07:43.0
+ro.config.linkplus.liveupdate=true
+# 2020-03-11 17:07:43.0
+ro.config.lock_noti_simplify=true
+# 2020-03-11 17:07:43.0
+ro.config.lockscreen_sound_off=true
+# 2020-03-11 17:07:43.0
+ro.config.marketing_name=NLE
+# 2020-03-11 17:07:43.0
+ro.config.need_tailored=true
+# 2020-03-11 17:07:43.0
+ro.config.new_hw_screen_aspect=2400:2278:1176
+# 2020-03-11 17:07:43.0
+ro.config.nfc_nxp_active=i
+# 2020-03-11 17:07:43.0
+ro.config.noti_list_simplify=true
+# 2020-07-02 17:57:08.0
+ro.config.ota_update_theme=110
+# 2020-03-11 17:07:43.0
+ro.config.peq_support=true
+# 2020-03-11 17:07:43.0
+ro.config.proximity_top=false
+# 2020-03-11 17:07:43.0
+ro.config.small_cover_size=_747x1920
+# 2020-03-11 17:07:43.0
+ro.config.sn_main_page=true
+# 2020-03-11 17:07:43.0
+ro.config.soft_single_navi=false
+# 2020-03-11 17:07:43.0
+ro.config.supercharge_show_two_percents=true
+# 2020-03-11 17:07:43.0
+ro.config.support_aod=1
+# 2020-03-11 17:07:43.0
+ro.config.support_ca=true
+# 2020-03-11 17:07:43.0
+ro.config.support_ccmode=true
+# 2020-03-11 17:07:43.0
+ro.config.support_face_mode=5
+# 2020-03-11 17:07:43.0
+ro.config.support_hwpki=true
+# 2020-03-11 17:07:43.0
+ro.config.support_iudf=true
+# 2020-03-11 17:07:43.0
+ro.config.support_sdcard_crypt=true
+# 2020-03-11 17:07:43.0
+ro.config.supports_bluetooth_high_pwr=true
+# 2020-03-11 17:07:43.0
+ro.config.supports_hitws=true
+# 2020-03-11 17:07:43.0
+ro.config.swing_applock_enable=1
+# 2020-03-11 17:07:43.0
+ro.config.swing_enabled=1
+# 2020-03-11 17:07:43.0
+ro.config.swsAlwaysActiveForSPK=true
+# 2020-04-10 17:41:30.0
+ro.config.sws_version=0610
+# 2020-03-11 17:07:43.0
+ro.config.third_key_provider=kukong
+# 2020-03-11 17:07:43.0
+ro.config.toolorder=0,2,1,3,4
+# 2020-03-11 17:07:43.0
+ro.config.videocalldistributedassist=true
+# 2020-03-11 17:07:43.0
+ro.config.vol_steps=15
+# 2020-03-11 17:07:43.0
+ro.config.wifi_fast_bss_enable=true
+# 2020-03-11 17:07:43.0
+ro.control.sleeplog=true
+# 2020-03-11 17:07:43.0
+ro.dts.licensepath=odm/etc/dts/
+# 2020-03-11 17:07:43.0
+ro.dual.sim.phone=true
+# 2020-03-11 17:07:43.0
+ro.feature.gallery.hide_album_enable=false
+# 2020-03-11 17:07:43.0
+ro.feature.notification_badge_combine_switch=true
+# 2020-03-11 17:07:43.0
+ro.hw.dnsopt=3
+# 2020-03-11 17:07:43.0
+ro.hwcamera.4k_video_limit_duration=0
+# 2020-03-11 17:07:43.0
+ro.hwcamera.aimovie_enable=1
+# 2020-03-11 17:07:43.0
+ro.hwcamera.backpanorama.v2=true
+# 2020-03-11 17:07:43.0
+ro.hwcamera.beauty_max_3x_zoom_dot=true
+# 2020-03-11 17:07:43.0
+ro.hwcamera.external_flash_enable=1
+# 2020-03-11 17:07:43.0
+ro.hwcamera.fastcapture=false
+# 2020-03-11 17:07:43.0
+ro.hwcamera.hdr_menu_enable=1
+# 2020-03-11 17:07:43.0
+ro.hwcamera.modesuggest_enable=true
+# 2020-03-11 17:07:43.0
+ro.launcher.icon_size_narrow=165
+# 2020-03-11 17:07:43.0
+ro.mpen.default.support=false
+# 2020-03-11 17:07:43.0
+ro.odm.config.hw_higeo_fusion_ver=2.0
+# 2020-03-11 17:07:43.0
+ro.odm.config.hw_higeo_pdrsupport=true
+# 2020-03-11 17:07:43.0
+ro.packagename.calendar=com.huawei.calendar
+# 2020-03-11 17:07:43.0
+ro.packagename.contacts=com.huawei.contacts
+# 2020-03-11 17:07:43.0
+ro.packagename.email=com.huawei.email
+# 2020-03-11 17:07:43.0
+ro.packagename.notepad=com.huawei.notepad
+# 2020-03-11 17:07:43.0
+ro.powersavemode.backlight_ratio=80
+# 2020-03-11 17:07:43.0
+ro.product.board=LIO
+# 2020-03-11 17:07:43.0
+ro.product.brand=HUAWEI
+# 2020-03-11 17:07:43.0
+ro.product.cuptsm=HUAWEI|ESE|01|02
+# 2020-03-11 17:07:43.0
+ro.product.device=HWLIO
+# 2020-03-11 17:07:43.0
+ro.product.fingerprintName=HUAWEI-Z135
+# 2020-03-11 17:07:43.0
+ro.product.manufacturer=HUAWEI
+# 2020-03-11 17:07:43.0
+ro.product.perfmode=true
+# 2020-03-11 17:07:43.0
+ro.product.wallet.nfc=01|01|HUAWEI|01|02|01
+# 2020-03-11 17:07:43.0
+ro.prop.hwkeychain_switch=true
+# 2020-03-11 17:07:43.0
+ro.sf.enable_backpressure_opt=0
+# 2020-03-11 17:07:43.0
+ro.sf.lcd_density=480
+# 2020-03-11 17:07:43.0
+ro.sysui.renderthread_timeout=3000
+# 2020-03-11 17:07:43.0
+sys.aps.sdr.always_switchable=1
+# 2020-03-11 17:07:43.0
+sys.super_power_save=false
+
+
+ro.comp.product_version=Product-LIO 11.0.1(0000)
+
+ro.config.beta_sec_ctrl=true
+
+ro.hw.hota.is_hwinit_exists=false
+
+ro.comp.hl.product_base_version=LIO-LGRP83-CHN 2.0.0.33(SP2)
+
+ro.comp.hl.product_base_version.real=LIO-LGRP83-CHN 11.1.0.33(SP2)
+
+ro.hw.base_all_groupversion=G3.1

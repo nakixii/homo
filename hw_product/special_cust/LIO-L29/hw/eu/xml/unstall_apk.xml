@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>/system/app/HwWallet.apk;/hw_product/region_comm/oversea/app/HwWallet.apk;</apk>
+  <restoreapk>/system/priv-app/HwIntelligent.apk;/hw_product/region_comm/oversea/app/HwIntelligent.apk;</restoreapk>
+</tag>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BackSensorParameters>
+    <SensorVersion>4</SensorVersion>
+    <FrontSensorRateMillis>300</FrontSensorRateMillis>
+    <BackSensorRateMillis>300</BackSensorRateMillis>
+    <FusedSensorRateMillis>300</FusedSensorRateMillis>
+</BackSensorParameters>
+<ModuleSensorOptions>
+    <HwLightSensorController>-1</HwLightSensorController>
+    <HwNormalizedAutomaticBrightnessController>-1</HwNormalizedAutomaticBrightnessController>
+    <HwNormalizedManualBrightnessController>2</HwNormalizedManualBrightnessController>
+</ModuleSensorOptions>
+<AlgorithmParameters>
+    <FrontSensorStabilityThresholdList>-30,-5,5,30</FrontSensorStabilityThresholdList>
+    <BackSensorStabilityThresholdList>-30,-5,5,30</BackSensorStabilityThresholdList>
+    <StabilizedProbabilityLUT>0,20,90,20,0,20,50,90,50,20,90,90,95,90,90,20,50,90,50,20,0,20,90,20,0</StabilizedProbabilityLUT>
+    <BackRoofThresh>5000</BackRoofThresh>
+    <BackFloorThresh>5</BackFloorThresh>
+    <DarkRoomThresh>5</DarkRoomThresh>
+    <DarkRoomThresh1>15</DarkRoomThresh1>
+    <DarkRoomThresh2>35</DarkRoomThresh2>
+    <DarkRoomThresh3>75</DarkRoomThresh3>
+    <DarkRoomDelta>5</DarkRoomDelta>
+    <DarkRoomDelta1>10</DarkRoomDelta1>
+    <DarkRoomDelta2>30</DarkRoomDelta2>
+    <FlashlightDetectionMode>1</FlashlightDetectionMode>
+    <FlashlightOffTimeThresholdMs>600</FlashlightOffTimeThresholdMs>
+    <BackLuxDeviationThresh>2000</BackLuxDeviationThresh>
+</AlgorithmParameters>

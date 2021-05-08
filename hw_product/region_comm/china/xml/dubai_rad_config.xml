@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dubai_rad_config>
+
+    <config>
+        <version>000.1.1.6</version>
+        <model_version>20190725</model_version>
+        <life>60</life>
+    </config>
+
+    <common_inputs>
+        <input index="0">
+            <value index="0">TAS-AL00</value>
+            <value index="0">AMZ-AL00</value>
+            <value index="1">LIO-AL00</value>
+            <value index="1">NLE-AL00</value>
+        </input>
+
+        <input index="1">
+            <value index="0">10.0.0</value>
+        </input>
+
+        <scaling_factor>{"0": 0.5, "1": 1.0}</scaling_factor>
+    </common_inputs>
+
+    <input_nodes>
+        <node index="0" type="0" inputs="1" factors="1">
+            <input index="0" name="air.tv.douyu.android">
+                <scaling_factor>
+                    <value index="1">{"0": 0.03859367829141745}</value>
+                </scaling_factor>
+            </input>
+        </node>
+    </input_nodes>
+
+    <output_nodes>
+        <node index="0" type="0" detect="8" levels="4">
+            <usage>18</usage>
+            <energy>19</energy>
+            <min_energy>72000</min_energy>
+            <level>
+                <value range="24">1</value>
+            </level>
+        </node>
+    </output_nodes>
+</dubai_rad_config>

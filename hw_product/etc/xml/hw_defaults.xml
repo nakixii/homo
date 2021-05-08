@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-03-11 17:07:43.0-->
+  <string hw_reduce_sar_fcc="310,311,312,313,314,315,316,330,332,534,535,544,334,722,734,732,740,730,716,748,708,710,714,744,415,363,364,362,302,704,706,368,372,370,338,374,342,352,358,360,738,746,356,702,344,404,405,406,736,712,432,425,450,365,350,346,366,340,354,362,330,332,742,376,348"/>
+  <!--2020-03-11 17:07:43.0-->
+  <string hw_reduce_sar_special="460,461,440,441"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_buoy="1"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_buoy_position="1"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_buoy_startup="1"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_dnd_mode="2"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_gesture_disabled_mode="1"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_key_control_mode="1"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_power_save_mode="2"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_triple_finger="1"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.system.hw_natural_tone_display_switch="0"/>
+</resources>

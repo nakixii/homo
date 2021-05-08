@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo package="com.android.frameworkres.overlay" feature="定制系统资源。" author="华为终端有限公司" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo package="com.android.gallery3d" label="图库" feature="展示用户图片、视频等，包括本地图片相册、云端相册及共享相册。可支持图片的查看、删除、分享、复制、重命名等操作。是用户查看、管理图片的主要途径。" author="华为终端有限公司" use-permission="位置,存储内容,网络通信,蓝牙">
+	</packageInfo>
+	<packageInfo package="com.android.systemui.overlay" feature="管理设备用户界面 SystemUI 相关的资源，如：图标大小，边距等。" author="华为终端有限公司" label="com.android.systemui.overlay">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.remotecontroller" feature="智能遥控，只需一部手机即可用于控制不同空调或电视等电器，帮您省去使用多个遥控器的烦恼。" author="华为终端有限公司" label="com.huawei.android.remotecontroller">
+	</packageInfo>
+	<packageInfo package="com.huawei.aod" feature="灭屏时，常亮显示日期、时间、未接来电数目和短信数目等信息。" author="华为终端有限公司" label="com.huawei.aod">
+	</packageInfo>
+	<packageInfo package="com.huawei.browser" feature="华为浏览器是一款高速、安全、稳定的浏览器，同时具备恶意网址拦截，网页广告过滤，书签云同步等特色功能，欢迎体验。" author="华为软件技术有限公司" label="com.huawei.browser">
+	</packageInfo>
+	<packageInfo package="com.huawei.camera" feature="华为原生相机，提供拍照、录像等功能。" author="华为终端有限公司" use-permission="华为原生相机，提供拍照、录像等功能。" label="com.huawei.camera">
+	</packageInfo>
+	<packageInfo package="com.huawei.contacts" feature="联系人信息查看与编辑入口，可切换到电话页面进行拨号和查看通话记录。" author="华为终端有限公司" label="com.huawei.contacts">
+	</packageInfo>
+	<packageInfo package="com.huawei.contacts.sync" feature="联系人云同步。此应用用于支持设备与华为云服务之间的联系人同步业务。" author="华为终端有限公司" label="com.huawei.contacts.sync">
+	</packageInfo>
+	<packageInfo package="com.huawei.easygo" feature="提供应用非侵入式对接开放服务。" author="华为终端有限公司" label="com.huawei.easygo">
+	</packageInfo>
+	<packageInfo package="com.huawei.featurelayer.sharedfeature.xrkit" feature="XRKit 提供极简集成化的AR接口。" author="华为终端有限公司" use-permission="XRKit 提供极简集成化的AR接口。" label="com.huawei.featurelayer.sharedfeature.xrkit">
+	</packageInfo>
+	<packageInfo package="com.huawei.fido.uafclient" feature="为满足FIDO（快速线上身份认证）协议的应用提供基础能力支持，第三方应用可通过该应用绑定指纹完成在线身份认证。" author="华为终端有限公司" label="com.huawei.fido.uafclient">
+	</packageInfo>
+	<packageInfo package="com.huawei.health" feature="计步、轨迹及运动建议。" author="华为终端有限公司" label="com.huawei.health">
+	</packageInfo>
+	<packageInfo package="com.huawei.hiai" feature="Huawei HiAI Engine" author="华为终端有限公司" label="com.huawei.hiai">
+	</packageInfo>
+	<packageInfo package="com.huawei.hwasm" feature="为FIDO（快速线上身份认证）协议提供底层能力支撑。" author="华为终端有限公司" label="com.huawei.hwasm">
+	</packageInfo>
+	<packageInfo package="com.huawei.hwvoipservice" feature="VOIP通话管理，使用手机扫描华为智能设备的二维码，可以将华为智能设备添加为手机联系人，并支持使用手机和华为智能设备进行VOIP通话。" author="华为终端有限公司" label="com.huawei.hwvoipservice">
+	</packageInfo>
+	<packageInfo package="com.huawei.meetime" feature="“畅连”是基于华为帐号的社交通信服务，提供音视频通话、留言等功能。在 WLAN 或移动数据连接时，您可与拥有华为手机、平板、音箱、智慧屏等设备的联系人进行高清视频或语音通话。" author="华为终端有限公司" label="com.huawei.meetime">
+	</packageInfo>
+</packageList>

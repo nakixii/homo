@@ -1,0 +1,20 @@
+# 2020-03-11 17:07:43.0
+ro.boot.product.hardware.sku=LIO-AN10
+# 2020-03-11 17:07:43.0
+ro.build.id=HUAWEILIO-AN10
+# 2020-03-11 17:07:43.0
+ro.config.amr_wb_show_hd=true
+# 2020-03-11 17:07:43.0
+ro.config.attach_apn_enabled=true
+# 2020-03-11 17:07:43.0
+ro.config.hw_nfc_def_route=1
+# 2020-03-11 17:07:43.0
+ro.config.marketing_name=HUAWEI Mate 30 Pro 5G
+# 2020-03-11 17:07:43.0
+ro.config.rise_cutoff_freq=true
+# 2020-03-11 17:07:43.0
+ro.product.hardwareversion=HN1LIONM
+# 2020-03-11 17:07:43.0
+ro.product.model=LIO-AN10
+# 2020-03-11 17:07:43.0
+ro.product.name=LIO-AN10

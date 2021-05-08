@@ -1,0 +1,14 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2016-12-24</updated>
+	<feature name="IGAMMA">
+		<mode name="FILTER">
+			<param name="DE_SCENE_ACTION_FILM_FILTERS_HDR10_A1">MODE_HDR10</param>
+			<param name="DE_SCENE_ACTION_FILM_FILTERS_HLG_A1">MODE_HLG</param>
+			<param name="DE_SCENE_ACTION_VIDEO_HDR10_FULLSCREEN_END">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_VIDEO_HDR10_END">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_UI_ENTER">MODE_UI</param>
+			<param name="DE_SCENE_ACTION_SCREEN_ON">MODE_UI</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-03-11 17:10:06.0-->
+  <string custom_certify_picture="/hw_product/special_cust/LIO-N29/hw/jp/media/LIO-N29.png"/>
+  <!--2020-07-22 16:32:19.0-->
+  <string hw_carrier_default_networkmode="44051:11:9;44011:11:9"/>
+  <!--2020-07-22 16:32:19.0-->
+  <string hw_carrier_nwmode_pref_bymccmnc="44051:67,11:65,9,3,2;44011:67,11:65,9,3,2"/>
+  <!--2020-07-29 15:02:58.0-->
+  <string specIccidRBOpName="20801:8981090:FT_FR"/>
+</resources>

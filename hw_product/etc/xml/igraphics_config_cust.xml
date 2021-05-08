@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<igfx_config version="1">
+    <igfx_version_list>
+        <igfx emui="EmotionUI_11.0" platform="kirin990"/>
+        <igfx emui="EmotionUI_10.0" platform="kirin990"/>
+        <igfx emui="EmotionUI_10.0" platform="kirin980"/>
+        <igfx emui="EmotionUI_10.0" platform="kirin970"/>
+        <igfx emui="EmotionUI_10.0" platform="kirin730"/>
+        <igfx emui="EmotionUI_10.0" platform="kirin810"/>
+        <igfx emui="EmotionUI_9.1" platform="kirin990"/>
+        <igfx emui="EmotionUI_9.1" platform="kirin980"/>
+        <igfx emui="EmotionUI_9.1" platform="kirin970"/>
+        <igfx emui="EmotionUI_9.1" platform="kirin730"/>
+        <igfx emui="EmotionUI_9.1" platform="kirin810"/>
+    </igfx_version_list>
+</igfx_config>

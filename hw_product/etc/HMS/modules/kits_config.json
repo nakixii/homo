@@ -1,0 +1,231 @@
+{
+    "priority_install": [
+        "Framework-common",
+        "Framework-manager",
+        "Framework-runtime",
+        "Framework-ui",
+        "Framework-privacy"
+    ],
+    "kits": [
+        {
+            "version_code": "50002302",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_scene",
+            "api_level": "2",
+            "pkg_name": "com.huawei.hms.scene",
+            "apk_name": "Scene.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "hmscore,1;huawei_module_dynamicloader,2;huawei_module_mlkit_face,4",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50002300",
+            "kit_type": "app;sdk",
+            "kit_name": "panorama;huawei_module_panorama",
+            "api_level": "6;6",
+            "pkg_name": "com.huawei.hms.panorama",
+            "apk_name": "Panorama.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;huawei_module_dynamicloader,2;hmscore,5;kpms,3;runtime,7;kams,3;apptouch,1",
+            "main_entry": "com.huawei.hms.panorama.MainEntry;"
+        },
+        {
+            "version_code": "50003301",
+            "kit_type": "app",
+            "kit_name": "nearby",
+            "api_level": "113",
+            "pkg_name": "com.huawei.hms.nearby",
+            "apk_name": "Nearby.apk",
+            "minSdkVersion": "21",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,6;kpms,3;runtime,9;kams,3;apptouch,1",
+            "main_entry": "com.huawei.hms.nearby.MainEntry"
+        },
+        {
+            "version_code": "50003305",
+            "kit_type": "app",
+            "kit_name": "wireless",
+            "api_level": "2",
+            "pkg_name": "com.huawei.hms.wireless",
+            "apk_name": "Wireless.apk",
+            "minSdkVersion": "24",
+            "main_entry": "com.huawei.hms.wireless.MainEntry"
+        },
+        {
+            "version_code": "20001300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_mlkit_label",
+            "api_level": "2",
+            "pkg_name": "com.huawei.hms.mlkit.label",
+            "apk_name": "ML-label.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "huawei_module_dynamicloader,2",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50000300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_quic",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.hquic",
+            "apk_name": "hquic.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "arm64-v8a",
+            "main_entry": ""
+        },
+        {
+            "version_code": "10001300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_videoplayer",
+            "api_level": "2",
+            "pkg_name": "com.huawei.hms.videokit.player",
+            "apk_name": "videoplayer.apk",
+            "minSdkVersion": "19",
+            "kit_loader": "huawei_module_videoplayer:huawei_module_dynamicloader",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "main_entry": ""
+        },
+        {
+            "version_code": "10003300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_imagerender",
+            "api_level": "3",
+            "pkg_name": "com.huawei.hms.image.render",
+            "apk_name": "Image-render.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,1;huawei_module_dynamicloader,4;kpms,1;runtime,1;kams,1",
+            "main_entry": ""
+        },
+        {
+            "version_code": "10000301",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_audiokit",
+            "api_level": "5",
+            "pkg_name": "com.huawei.hms.audiokit",
+            "apk_name": "Audio.apk",
+            "minSdkVersion": "19",
+            "kit_loader": "huawei_module_audiokit:huawei_module_dynamicloader",
+            "dependencies": "huawei_module_dynamicloader,2",
+            "main_entry": ""
+        },
+        {
+            "version_code": "10003301",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_imagevision",
+            "api_level": "10003301",
+            "pkg_name": "com.huawei.hms.image.visionkit",
+            "apk_name": "Image-vision.apk",
+            "minSdkVersion": "26",
+            "dependencies": "hmscore,1;huawei_module_dynamicloader,4;huawei_module_mlkit_object,2",
+            "main_entry": ""
+        },
+        {
+            "version_code": "10000302",
+            "kit_type": "app",
+            "kit_name": "airtouch",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.airtouch",
+            "apk_name": "AirTouch.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "x86_64,x86,armeabi-v7a,arm64-v8a",
+            "dependencies": "hmscore,1",
+            "main_entry": "com.huawei.hms.airtouch.MainEntry"
+        },
+        {
+            "version_code": "50002300",
+            "kit_type": "loader",
+            "kit_name": "huawei_module_maps",
+            "api_level": "4",
+            "pkg_name": "com.huawei.hms.maps.maproute",
+            "apk_name": "Map-Route.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "huawei_module_dynamicloader,2;hmscore,1",
+            "main_entry": ""
+        },
+        {
+            "version_code": "107303",
+            "kit_type": "app",
+            "kit_name": "awareness_kit",
+            "api_level": "10",
+            "pkg_name": "com.huawei.hms.kit.awareness",
+            "apk_name": "Awareness.apk",
+            "minSdkVersion": "24",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,1;kpms,1;runtime,1;nearby,105;kams,1",
+            "main_entry": "com.huawei.hms.kit.awareness.entry.MainEntry"
+        },
+        {
+            "version_code": "40004303",
+            "kit_type": "app",
+            "kit_name": "AGCLink",
+            "api_level": "2",
+            "pkg_name": "com.huawei.hms.agclink",
+            "apk_name": "AGCLink.apk",
+            "minSdkVersion": "19",
+            "dependencies": "fwcom-grs,1;fwcom-util,1;fwui,1;hmscore,1;kpms,1;runtime,1;kams,1",
+            "main_entry": "com.huawei.hms.agclink.MainEntry"
+        },
+        {
+            "version_code": "20001300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_mlkit_imgseg",
+            "api_level": "3",
+            "pkg_name": "com.huawei.hms.mlkit.imgseg",
+            "apk_name": "ML-imgseg.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "huawei_module_dynamicloader,2",
+            "main_entry": ""
+        },
+        {
+            "version_code": "20001300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_mlkit_face",
+            "api_level": "4",
+            "pkg_name": "com.huawei.hms.mlkit.face",
+            "apk_name": "ML-face.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "huawei_module_dynamicloader,2",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50002300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_huaweimaps",
+            "api_level": "4",
+            "pkg_name": "com.huawei.hms.maps.provider.huawei",
+            "apk_name": "Map-HuaweiProvider.apk",
+            "minSdkVersion": "19",
+            "kit_loader": "huawei_module_huaweimaps:huawei_module_dynamicloader",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "hmscore,1;huawei_module_dynamicloader,2;location,1",
+            "main_entry": ""
+        },
+        {
+            "version_code": "50002300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_hwdtm",
+            "api_level": "1",
+            "pkg_name": "com.huawei.hms.dtm",
+            "apk_name": "DTM.apk",
+            "minSdkVersion": "19",
+            "dependencies": "huawei_module_dynamicloader,2;hmscore,1",
+            "main_entry": ""
+        },
+        {
+            "version_code": "20001300",
+            "kit_type": "sdk",
+            "kit_name": "huawei_module_mlkit_object",
+            "api_level": "2",
+            "pkg_name": "com.huawei.hms.mlkit.object",
+            "apk_name": "ML-object.apk",
+            "minSdkVersion": "19",
+            "kit_lib": "armeabi-v7a,arm64-v8a",
+            "dependencies": "huawei_module_dynamicloader,2",
+            "main_entry": ""
+        }
+    ]
+}

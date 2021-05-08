@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<name>
+<values>Planet</values>
+<values-am>"ፕላኔት"</values-am>
+<values-ar>"كوكب"</values-ar>
+<values-as>"গ্ৰহ"</values-as>
+<values-az>"Planet"</values-az>
+<values-jv-LATN>"Planet"</values-jv-LATN>
+<values-sr-LATN>"Planeta"</values-sr-LATN>
+<values-be>"Планета"</values-be>
+<values-bg>"Планета"</values-bg>
+<values-bn>"উপগ্রহ"</values-bn>
+<values-bo-CN>"3D སྐར་མའི་གོ་ལ།"</values-bo-CN>
+<values-bs>"Planeta"</values-bs>
+<values-ca>"Planeta"</values-ca>
+<values-cs>"Planeta"</values-cs>
+<values-da>"Planet"</values-da>
+<values-de>"Planet"</values-de>
+<values-el>"Πλανήτης"</values-el>
+<values-en-GB>"Planet"</values-en-GB>
+<values-es>"Planeta"</values-es>
+<values-es-US>"Planeta"</values-es-US>
+<values-et>"Planeet"</values-et>
+<values-eu>"Planeta"</values-eu>
+<values-fa>"سیاره"</values-fa>
+<values-fi>"Planeetta"</values-fi>
+<values-fr>"Planète"</values-fr>
+<values-gl>"Planeta"</values-gl>
+<values-gu>"ગ્રહ"</values-gu>
+<values-hi>"ग्रह"</values-hi>
+<values-hr>"Planet"</values-hr>
+<values-hu>"Bolygó"</values-hu>
+<values-in>"Planet"</values-in>
+<values-it>"Pianeta"</values-it>
+<values-iw>"כוכב לכת"</values-iw>
+<values-ja>"プラネット"</values-ja>
+<values-ka>"პლანეტა"</values-ka>
+<values-kk>"Ғаламшар"</values-kk>
+<values-km>"ភព"</values-km>
+<values-kn>"ಗ್ರಹ"</values-kn>
+<values-ko>"행성"</values-ko>
+<values-lo>"​ໂລກ"</values-lo>
+<values-lt>"Planeta"</values-lt>
+<values-lv>"Planēta"</values-lv>
+<values-mai>"ग्रह"</values-mai>
+<values-mi>"Aorangi"</values-mi>
+<values-mk>"Планета"</values-mk>
+<values-ml>"ഗ്രഹം"</values-ml>
+<values-mn>"Гараг"</values-mn>
+<values-mr>"ग्रह"</values-mr>
+<values-ms>"Planet"</values-ms>
+<values-my>"Planet"</values-my>
+<values-my-ZG>"Planet"</values-my-ZG>
+<values-nb>"Planet"</values-nb>
+<values-ne>"ग्रह"</values-ne>
+<values-nl>"Planeet"</values-nl>
+<values-or>"ପ୍ଲାନେଟ୍‌"</values-or>
+<values-pa>"ਗ੍ਰਹਿ"</values-pa>
+<values-pl>"Planeta"</values-pl>
+<values-pt>"Planeta"</values-pt>
+<values-pt-PT>"Planeta"</values-pt-PT>
+<values-ro>"Planetă"</values-ro>
+<values-ru>"Планета"</values-ru>
+<values-si>"ග්‍රහලෝකය"</values-si>
+<values-sk>"Planéta"</values-sk>
+<values-sl>"Planet"</values-sl>
+<values-sr>"Планета"</values-sr>
+<values-sv>"Planet"</values-sv>
+<values-sw>"Sayari"</values-sw>
+<values-ta>"கோள்"</values-ta>
+<values-te>"గ్రహం"</values-te>
+<values-th>"ดาวเคราะห์"</values-th>
+<values-tl>"Planeta"</values-tl>
+<values-tr>"Gezegen"</values-tr>
+<values-ug>"پىلانېت"</values-ug>
+<values-uk>"Планета"</values-uk>
+<values-ur>"سیارہ"</values-ur>
+<values-uz>"Sayyora"</values-uz>
+<values-vi>"Hành tinh"</values-vi>
+<values-zh-CN>"3D 星球"</values-zh-CN>
+<values-zh-HK>"3D 星球"</values-zh-HK>
+<values-zh-TW>"3D 星球"</values-zh-TW>
+<values-zz-ZX>[PL_574557]_Planet</values-zz-ZX>
+</name>

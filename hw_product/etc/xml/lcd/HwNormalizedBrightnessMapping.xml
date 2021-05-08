@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HwNormalizedBrightnessMapping>
+    <BrightnessAfterMapMinForManufacture>1</BrightnessAfterMapMinForManufacture>
+    <BrightnessAfterMapMaxForManufacture>1780</BrightnessAfterMapMaxForManufacture>
+    <MappingBrightnessPoints>
+        <Point>156,1</Point>
+        <Point>8824,1780</Point>
+        <Point>10000,2047</Point>
+    </MappingBrightnessPoints>
+</HwNormalizedBrightnessMapping>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (C) 2013 Huawei Inc.
+ * Power Genie Config
+ *
+    policy name             value                  default
+    policy_auto(1 in db)    1 (use auto)           0    (no use)
+    policy_ratio(2 in db)   1 ~ 99                 0    (no use)
+    package_name            app package name.      NULL (no use)
+ -->
+
+<backlight_policy version="1">
+
+    <mode id="0">  <!-- common policy for all power mode -->
+    </mode>
+
+    <mode id="1">  <!-- Super Mode policy -->
+        <action name="browser front" id="203">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="office front" id="225">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="mms front" id="235">
+            <item name="policy_ratio">68</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="ebook front" id="205">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">76</item>
+            <item name="package_name">com.android.email</item>
+            <item name="package_name">com.google.android.gm</item><!-- gmail -->
+            <item name="package_name">com.huawei.hidisk</item>
+            <item name="package_name">com.qzone</item>
+            <item name="package_name">com.tencent.mm</item>
+            <item name="package_name">com.android.contacts</item><!-- CPS for EMUI3 -->
+            <item name="package_name">com.taobao.taobao</item>
+            <item name="package_name">com.jingdong.app.mall</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">56</item>
+            <item name="package_name">com.huawei.android.webcustomize</item>
+        </action>
+
+        <action name="default front" id="208">
+            <item name="policy_ratio">80</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+    </mode>
+
+    <mode id="2">  <!-- Nomal Mode policy -->
+        <action name="browser front" id="203">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="office front" id="225">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="mms front" id="235">
+            <item name="policy_ratio">68</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="ebook front" id="205">
+            <item name="policy_ratio">56</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="video front" id="228">
+            <item name="policy_ratio">80</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="video start" id="246">
+            <item name="policy_ratio">80</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">76</item>
+            <item name="package_name">com.android.email</item>
+            <item name="package_name">com.google.android.gm</item><!-- gmail -->
+            <item name="package_name">com.huawei.hidisk</item>
+            <item name="package_name">com.qzone</item>
+            <item name="package_name">com.tencent.mm</item>
+            <item name="package_name">com.android.contacts</item><!-- CPS for EMUI3 -->
+            <item name="package_name">com.huawei.yellowpage</item>
+            <item name="package_name">com.taobao.taobao</item>
+            <item name="package_name">com.jingdong.app.mall</item>
+            <item name="package_name">com.ss.android.article.news</item>
+            <item name="package_name">com.tencent.mobileqq</item>
+            <item name="package_name">com.sina.weibo</item>
+            <item name="package_name">com.myzaker.ZAKER_Phone</item>
+            <item name="package_name">com.letv.android.client</item>
+            <item name="package_name">com.youku.phone</item>
+            <item name="package_name">com.supercell.boombeach.HUAWEI</item>
+            <item name="package_name">com.blizzard.wtcg.hearthstone</item>
+            <item name="package_name">com.aboilgame.ftxnbapay.huawei</item>
+            <item name="package_name">sh.lilith.dgame.huawei</item>
+            <item name="package_name">com.supercell.clashofclans.huawei</item>
+            <item name="package_name">com.haowan123.wdsg.huawei</item>
+            <item name="package_name">com.tencent.tmgp.mt2</item>
+            <item name="package_name">com.tencent.WeFire</item>
+            <item name="package_name">com.elextech.alert.HUAWEI</item>
+            <item name="package_name">com.tencent.pocket</item>
+            <item name="package_name">com.bf.sgs.hdexp.huawei</item>
+            <item name="package_name">com.crisisfire.android.huawei</item>
+            <item name="package_name">air.com.tencent.qqfarmios</item>
+            <item name="package_name">com.bf.sgs.hdexp.qh360</item>
+            <item name="package_name">com.boyaa.chinesechess.HUAWEI</item>
+            <item name="package_name">com.boyaa.chinesechess.qihoo360</item>
+            <item name="package_name">com.boyaa.lordlandnew.HUAWEI</item>
+            <item name="package_name">com.boyaa.scmj.HUAWEI</item>
+            <item name="package_name">com.boyaa.sina.HUAWEI</item>
+            <item name="package_name">com.brianbaek.popstar</item>
+            <item name="package_name">com.carrot.iceworld</item>
+            <item name="package_name">com.centurysoft.roboking</item>
+            <item name="package_name">com.cmplay.tiles2_cn.huawei</item>
+            <item name="package_name">com.cnvcs.gomoku</item>
+            <item name="package_name">com.cnvcs.xiangqi</item>
+            <item name="package_name">com.cnvcs.junqi</item>
+            <item name="package_name">com.cookfl.leuu.huawei</item>
+            <item name="package_name">com.crisisfire.android.qihoo</item>
+            <item name="package_name">com.DBGame.DiabloLOL</item>
+            <item name="package_name">com.doudizhu.huawei</item>
+            <item name="package_name">com.dshine.mtFightLand.huawei</item>
+            <item name="package_name">com.example.chinesechess.huawei</item>
+            <item name="package_name">com.feamber.racing4</item>
+            <item name="package_name">com.feelingtouch.sniperzombie</item>
+            <item name="package_name">com.fgol.huawei</item>
+            <item name="package_name">com.fgol</item>
+            <item name="package_name">com.gameley.runningman3.huawei</item>
+            <item name="package_name">com.gameloft.android.ANMP.GloftDMCN</item>
+            <item name="package_name">com.guandan.huawei</item>
+            <item name="package_name">com.guandan</item>
+            <item name="package_name">com.halfbrick.fruitninja</item>
+            <item name="package_name">com.happyelements.AndroidAnimal</item>
+            <item name="package_name">com.happyelements.happyfishandroidcns</item>
+            <item name="package_name">com.hxjy.union.huawei</item>
+            <item name="package_name">com.hxjy.union.qihoo</item>
+            <item name="package_name">com.imangi.templerun2</item>
+            <item name="package_name">com.joym.bearfarm.huawei</item>
+            <item name="package_name">com.joym.ultraman.huawei</item>
+            <item name="package_name">com.joym.xiongchumo3.huawei</item>
+            <item name="package_name">com.joym.xiongdakuaipao.huawei</item>
+            <item name="package_name">com.joym.xiongdakuaipao360</item>
+            <item name="package_name">com.kiloo.subwaysurf</item>
+            <item name="package_name">com.kunpo.baba91</item>
+            <item name="package_name">com.kunpo.babaqunaer2m</item>
+            <item name="package_name">com.ledo.kof97ol.huawei</item>
+            <item name="package_name">com.ledo.kof97ol.az.android360</item>
+            <item name="package_name">com.lemon.chess</item>
+            <item name="package_name">com.longkoo.djddz</item>
+            <item name="package_name">com.longkoo.djmajiang</item>
+            <item name="package_name">com.longkoo.xingxing</item>
+            <item name="package_name">com.mojang.minecraftpe</item>
+            <item name="package_name">com.mykj.game.ddz170</item>
+            <item name="package_name">com.netease.dhxy.huawei</item>
+            <item name="package_name">com.netease.dhxy.qihoo</item>
+            <item name="package_name">com.netease.my.huawei</item>
+            <item name="package_name">com.netease.my.qihoo</item>
+            <item name="package_name">com.pape.nuannew.cm.lj.huawei</item>
+            <item name="package_name">com.pape.nuannew.qihoo360</item>
+            <item name="package_name">com.pdragon.fivechess</item>
+            <item name="package_name">com.pdragon.HD1010</item>
+            <item name="package_name">com.pdragon.new2048</item>
+            <item name="package_name">com.pfu.candy</item>
+            <item name="package_name">com.pfu.popstar</item>
+            <item name="package_name">com.platform.happylord</item>
+            <item name="package_name">com.platform.pclordxiayou</item>
+            <item name="package_name">com.pokercity.bydrqp.huawei</item>
+            <item name="package_name">com.pokercity.bydrqp.qihu</item>
+            <item name="package_name">com.popcap.pvz2cthd360</item>
+            <item name="package_name">com.popcap.pvz2cthdhwct</item>
+            <item name="package_name">com.qqgame.happymj</item>
+            <item name="package_name">com.qqgame.hlddz</item>
+            <item name="package_name">com.qqgame.hldouniu</item>
+            <item name="package_name">com.qqgame.mic</item>
+            <item name="package_name">com.rovio.baba.kunlun.huawei</item>
+            <item name="package_name">com.rovio.baba.kunlun.qihoo</item>
+            <item name="package_name">com.reawake.game.llpoker</item>
+            <item name="package_name">com.sg.atmpk.huawei</item>
+            <item name="package_name">com.sg.raiden.huawei</item>
+            <item name="package_name">com.sg.raiden.qihu</item>
+            <item name="package_name">com.shootbubble.bubbledexlue</item>
+            <item name="package_name">com.soulgame.bubble</item>
+            <item name="package_name">com.supercell.boombeach.qihoo</item>
+            <item name="package_name">com.supercell.clashofclans.qihoo</item>
+            <item name="package_name">com.supercell.clashroyale.huawei</item>
+            <item name="package_name">com.sxiaoao.car3d3</item>
+            <item name="package_name">com.tencent.clover</item>
+            <item name="package_name">com.tencent.feiji</item>
+            <item name="package_name">com.tencent.game.SSGame</item>
+            <item name="package_name">com.tencent.game.VXDGame</item>
+            <item name="package_name">com.tencent.hexkog</item>
+            <item name="package_name">com.tencent.KiHan</item>
+            <item name="package_name">com.tencent.king.candycrushsaga</item>
+            <item name="package_name">com.tencent.pao</item>
+            <item name="package_name">com.tencent.peng</item>
+            <item name="package_name">com.tencent.qqgame.qqhlupwvga</item>
+            <item name="package_name">com.tencent.qqgame.qqTexaswvga</item>
+            <item name="package_name">com.tencent.qqgame.xq</item>
+            <item name="package_name">com.tencent.tmgp.carrot3</item>
+            <item name="package_name">com.tencent.tmgp.cf</item>
+            <item name="package_name">com.tencent.tmgp.dragonball</item>
+            <item name="package_name">com.tencent.tmgp.gods</item>
+            <item name="package_name">com.tencent.tmgp.jxqy</item>
+            <item name="package_name">com.tencent.tmgp.kof98</item>
+            <item name="package_name">com.tencent.tmgp.mljz</item>
+            <item name="package_name">com.tencent.tmgp.qjnn</item>
+            <item name="package_name">com.tencent.tmgp.RunGame</item>
+            <item name="package_name">com.tencent.tmgp.rxcq</item>
+            <item name="package_name">com.tencent.tmgp.seal</item>
+            <item name="package_name">com.tencent.tmgp.sgame</item>
+            <item name="package_name">com.tencent.tmgp.ttcz</item>
+            <item name="package_name">com.ttx5.huawei</item>
+            <item name="package_name">com.tuyoo.scmahjong</item>
+            <item name="package_name">com.windmill.fruitlink</item>
+            <item name="package_name">com.wpd.game.popstar</item>
+            <item name="package_name">com.xiaoao.car3d4</item>
+            <item name="package_name">com.yinhan.hunter.huawei</item>
+            <item name="package_name">com.yodo1tier1.ido360.SkiSafari</item>
+            <item name="package_name">com.yodo1.SkiSafari.HUAWAI</item>
+            <item name="package_name">com.yodo1.skisafari2.HUAWEI_01</item>
+            <item name="package_name">com.yodo1.skisafari2.QIHU360_01</item>
+            <item name="package_name">com.zhangqu.game.tank3D.huawei</item>
+            <item name="package_name">com.zhangqu.game.tank3D.m360</item>
+            <item name="package_name">com.zplay.migupopstar</item>
+            <item name="package_name">com.ztgame.bob</item>
+            <item name="package_name">net.crimoon.pm.huawei</item>
+            <item name="package_name">org.cocos2d.fishingjoy3.HUAWEI</item>
+            <item name="package_name">org.cocos2d.fishingjoy3.qihu</item>
+            <item name="package_name">org.cocos2dx.FishingJoy2</item>
+            <item name="package_name">sh.lilith.dgame.s360</item>
+            <item name="package_name">com.vectorunit.redcmgeplaycn</item>
+            <item name="package_name">com.dw.fs.huawei</item>
+            <item name="package_name">com.tencent.tmgp.dragonnest</item>
+            <item name="package_name">com.youkia.xyj3.cmge.huawei</item>
+            <item name="package_name">com.netease.onmyoji.huawei</item>
+            <item name="package_name">com.wepie.snake.huawei</item>
+            <item name="package_name">com.miHoYo.bh3.huawei</item>
+            <item name="package_name">com.dream2.ro.huawei</item>
+            <item name="package_name">com.ourpalm.tk2.huawei</item>
+            <item name="package_name">com.game.nhyrz.android.huawei</item>
+            <item name="package_name">com.ty.fishing.huawei</item>
+            <item name="package_name">com.cmge.twt.huawei</item>
+            <item name="package_name">com.bin.yjckbflx</item>
+            <item name="package_name">com.mztgame.j3.huawei</item>
+            <item name="package_name">com.happyelements.AndroidAnimal </item>
+            <item name="package_name">com.plarium.vikings3 </item>
+            <item name="package_name">com.netease.l10.huawei</item>
+            <item name="package_name">com.supercell.clashroyale.wdj</item>
+            <item name="package_name">com.youkia.xyj3.cmge.uc</item>
+            <item name="package_name">com.netease.onmyoji.wdj</item>
+            <item name="package_name">com.wepie.snake.aligames</item>
+            <item name="package_name">com.miHoYo.bh3.wdj</item>
+            <item name="package_name">com.ourpalm.tk2.uc</item>
+            <item name="package_name">com.tencent.KiHan</item>
+            <item name="package_name">com.ty.fishing.wdj</item>
+            <item name="package_name">com.cmge.twt.wdj</item>
+            <item name="package_name">com.mztgame.j3.wdj</item>
+            <item name="package_name">com.supercell.clashofclans.wdj</item>
+            <item name="package_name">com.supercell.boombeach.wdj</item>
+            <item name="package_name">com.netease.l10.wdj</item>
+            <item name="package_name">com.netease.my.wdj</item>
+            <item name="package_name">com.supercell.clashroyale.baidu</item>
+            <item name="package_name">com.youkia.xyj3.cmge.baidu</item>
+            <item name="package_name">com.netease.onmyoji.baidu</item>
+            <item name="package_name">com.wepie.snake.baidu</item>
+            <item name="package_name">com.miHoYo.bh3.baidu</item>
+            <item name="package_name">com.cmge.xianjian.baidu</item>
+            <item name="package_name">com.zhangqu.game.tank3D.dk</item>
+            <item name="package_name">com.ty.fishing.baidu</item>
+            <item name="package_name">com.cmge.twt.baidu</item>
+            <item name="package_name">com.mztgame.j3.baidu</item>
+            <item name="package_name">com.supercell.clashofclans.baidu</item>
+            <item name="package_name">com.supercell.boombeach.BD</item>
+            <item name="package_name">com.netease.l10.baidu</item>
+            <item name="package_name">com.netease.my.baidu</item>
+            <item name="package_name">com.baidu.BaiduMap</item>
+            <item name="package_name">com.baidu.navi</item>
+            <item name="package_name">com.autonavi.minimap</item>
+            <item name="package_name">com.autonavi.xmgd.navigator</item>
+        </action>
+
+        <action name="special front" id="-1"> <!-- id is not used. not use the 0 as id -->
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">56</item>
+            <item name="package_name">com.huawei.android.webcustomize</item>
+        </action>
+
+    </mode>
+
+    <mode id="3">  <!-- Off Mode policy -->
+    </mode>
+
+    <mode id="4">  <!-- Extreme Mode policy-->
+        <!-- action name="browser front" id="203">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">60</item>
+        </action -->
+
+        <!-- action name="office front" id="225">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">50</item>
+        </action -->
+
+        <!-- action name="video front" id="228">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">85</item>
+        </action -->
+
+        <!--the ratio is same as video front-->
+        <!-- action name="video start" id="246">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">85</item>
+        </action -->
+
+        <!--no need to excute policy,just restore-->
+        <!-- action name="video end" id="247">
+        </action -->
+
+        <!-- action name="mms front" id="235">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">65</item>
+        </action -->
+
+        <action name="default front" id="208">
+            <item name="policy_ratio">60</item>
+            <item name="policy_auto">1</item>
+        </action>
+
+        <!-- action name="ebook front" id="205">
+            <item name="policy_auto">1</item>
+            <item name="policy_ratio">50</item>
+        </action -->
+
+    </mode>
+
+</backlight_policy>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is the config file of the nlprocessor -->
+<NLProcessor>
+	
+	<Log>
+		<IsWriteLog>true</IsWriteLog>
+		<IsAutoFlush>true</IsAutoFlush>
+		<LogMaxSize>2</LogMaxSize>  				<!-- MB -->
+		<LogMaxNum>3</LogMaxNum>
+		<LogLevel>3</LogLevel>  					<!-- 4:DEBUG 3:INFO 2:WARN 1:ERROR 0:CRIT -->
+	</Log>
+	
+	<UserDict>
+		<IsUseStaticUserDict>true</IsUseStaticUserDict>
+		<IsUseDynmicUserDict>true</IsUseDynmicUserDict>
+		<IsUseAmbiguityDict>false</IsUseAmbiguityDict>
+		<IsUseCustomUserDict>true</IsUseCustomUserDict>
+		<CustomUserDict>
+		    <DictName>newWord</DictName>
+            <DictName>fieldFullUpdate</DictName>
+            <DictName>fieldUpdate</DictName>
+            <DictName>wordMerge</DictName>
+		    <DictName>location</DictName>
+		    <DictName>nonNs</DictName>
+		    <DictName>ns</DictName>
+		    <!-- 
+            <DictName>fieldUpdate</DictName>
+            <DictName>nonNS</DictName>
+            <DictName>nsgAA</DictName>
+            <DictName>nsgAB</DictName>
+            <DictName>nsgAC</DictName>
+            <DictName>nsgAD</DictName>
+            <DictName>nsgAE</DictName>
+            <DictName>nsgAF</DictName>
+            <DictName>nsgAG</DictName>
+            <DictName>nsgAH</DictName>
+            <DictName>nsgAI</DictName>
+            <DictName>nsgAJ</DictName>
+            <DictName>nsgAK</DictName>
+            <DictName>nsgAL</DictName>
+            <DictName>nsgAM</DictName>
+            <DictName>nspBA</DictName>
+            <DictName>nspCA</DictName>
+            <DictName>nspCB</DictName>
+            <DictName>nspCC</DictName>
+            <DictName>nspDA</DictName>
+            <DictName>nspEA</DictName>
+            <DictName>nspEB</DictName>
+            <DictName>nspFA</DictName>
+            <DictName>nspFB</DictName>
+            <DictName>nspGA</DictName>
+            <DictName>nspHA</DictName>
+            <DictName>nspHB</DictName>
+            <DictName>nspIA</DictName>
+            <DictName>nspIB</DictName>
+            <DictName>nspJA</DictName>
+            <DictName>nspJB</DictName>
+            <DictName>nspJC</DictName>
+            <DictName>nspJD</DictName>
+            <DictName>nspJE</DictName>
+            <DictName>nspJG</DictName>
+            <DictName>nspKB</DictName>
+            <DictName>nspLA</DictName>
+            <DictName>nspZA</DictName>
+            <DictName>nspzz</DictName>
+            <DictName>nszLA</DictName>
+            <DictName>nszDA</DictName>
+            <DictName>nszZD</DictName>
+            <DictName>nszZA</DictName>
+            <DictName>nszZB</DictName>
+            <DictName>nszZC</DictName>
+            <DictName>nszZE</DictName>
+            <DictName>nszZF</DictName>
+            <DictName>nszZG</DictName>
+            <DictName>nszZH</DictName>
+            <DictName>nszZI-w</DictName>
+            <DictName>nszZI</DictName>
+            <DictName>nspHA-w</DictName>
+            <DictName>nsgAB-w</DictName>
+            <DictName>nsgAD-w</DictName>
+            <DictName>nsgAM-w</DictName>
+            <DictName>nsgAA-w</DictName>
+            <DictName>nspJB-w</DictName> -->
+		</CustomUserDict>
+	</UserDict>
+	
+	<SplitSymbol>
+	    <SplitChar>0x01</SplitChar>
+	    <IsInvisibleCharPos>true</IsInvisibleCharPos>
+	</SplitSymbol>
+	
+	<UnknownCharPos>
+		<UnknownChar>xc</UnknownChar>			<!-- 无法识别的中、韩、日文字符词性 -->
+		<UnknownSymbol>xw</UnknownSymbol>		<!-- 无法识别的除中、韩、日文字符以外的词性 -->
+	</UnknownCharPos>
+	
+	<CodeStrategy>0</CodeStrategy>  <!-- 0:FIX_CHARS  1:FIX_BYTES -->
+	
+	<MergeRule>
+		<PersonNerRule>true</PersonNerRule>			<!-- 姓+称谓词合并成人名 -->
+		<PersonTitleRule>false</PersonTitleRule>		<!-- 数字+称谓词，如二姐，三哥，true则标为人名，false则标为名词 -->
+		<BookMarkRule>false</BookMarkRule>			<!-- 书名号中的内容是否整体合并成nz -->
+	</MergeRule>
+	
+	<Keyword>
+		<NewwordPolicy>1</NewwordPolicy>			<!-- 新词挖掘策略，0：谨慎、1：普通、2、贪婪 -->
+		<ShadowFlag>false</ShadowFlag>				<!-- 新词的组成词，是否支持重叠计算权重（如：[网易|云|音乐], “网易云”和“云音乐”） -->
+		<CustomEntityFactor>1.5</CustomEntityFactor>		<!-- 自定义实体权重调整因子 -->
+		<PersonEntityFactor>1.1</PersonEntityFactor>		<!-- 人名实体权重调整因子 -->
+		<AddressEntityFactor>1.1</AddressEntityFactor>		<!-- 地名实体权重调整因子 -->
+		<OrganizEntityFactor>1.1</OrganizEntityFactor>		<!-- 机构实体权重调整因子 -->
+		<TimeEntityFactor>1.0</TimeEntityFactor>		<!-- 时间实体权重调整因子 -->
+		<NounWordFactor>1.0</NounWordFactor>			<!-- 名词权重调整因子 -->
+		<VerbWordFactor>0.8</VerbWordFactor>			<!-- 动词权重调整因子 -->
+		<AdjeWordFactor>0.6</AdjeWordFactor>			<!-- 形容词权重调整因子 -->
+		<AdveWordFactor>0.4</AdveWordFactor>			<!-- 副词权重调整因子 -->
+		<OthrWordFactor>0.5</OthrWordFactor>			<!-- 其他词权重调整因子（如：数字、字符串等） -->
+	</Keyword>
+	
+	<Sentiment>
+		<SentiSwitch>false</SentiSwitch>				<!-- 情感分析开关 -->
+	</Sentiment>
+	
+	<Tra2Sim>
+		<Tra2SimSwitch>true</Tra2SimSwitch>				<!-- 简繁体转换开关（仅控制静态、动态存储匹配文本功能） -->
+	</Tra2Sim>
+	
+	<ClassbaseModel>
+		<ClassbaseSwitch>false</ClassbaseSwitch>		<!-- classbase模型加载开关 -->
+	</ClassbaseModel>
+
+</NLProcessor>

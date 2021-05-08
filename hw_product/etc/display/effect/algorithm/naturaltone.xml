@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NaturalConfig>
+	<feature name="NATURALTONE_ALGORITHM">
+		<mode name="PARAMETERS">
+			<!-- panel RGBW primary coordinates-->
+			<param name="HFD_white_xy_panel">0.299,0.315</param>
+			<param name="HFD_red_xy_panel">0.682,0.317</param>
+			<param name="HFD_green_xy_panel">0.250,0.71</param>
+			<param name="HFD_blue_xy_panel">0.143,0.047</param>
+			<!-- Initial CCT in low ambient light-->
+			<param name="HFD_InitialCCTforLowlux">4000</param>
+			<!-- 'true': use Initial CCT when screen on, 'false': use updated CCT-->
+			<param name="HFD_IsUsingInitialCCTForScreenOnInLowLux">true</param>
+			<!-- 'true': use Initial CCT when switch on, 'false': use updated CCT-->
+			<param name="HFD_mIsUsingInitialCCTForSwitchOnInLowLux">true</param>
+			<!--Time Threshold for choosing updated CCT or Initial CCT-->
+			<param name="HFD_TimeThresholdForInitialCCT">20</param>
+			<!-- standard colour mode, 3DLUT values for full white-->
+			<param name="HFD_GmpStandardWhite">4095,3990,3836</param>
+			<!-- colour adjustment for panel Temperature-->
+			<param name="HFD_CCTDuv">-0.002</param>
+			<!-- 'true' for NoneLine RGB, 'false' for Line RGB-->
+			<param name="HFD_IsNL">true</param>
+		</mode>
+	</feature>
+</NaturalConfig>

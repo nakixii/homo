@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-03-11 17:07:43.0-->
+  <string email_ai_translation="true"/>
+  <!--2020-03-11 17:07:43.0-->
+  <string hw_def_theme="/hw_product/region_comm/china/themes/PaintedPlanet.hwt"/>
+  <!--2020-10-28 19:06:17.0-->
+  <string hw_theme_sort="Starry Sky##Painted Planet##Starry Night##Ripple##JadeFlower##Magnificent Mountains##River Veins##Europa##Brocade (Dynamic)##Embracing##Rosy Dawn##Nostalgic Village" reset="true"/>
+  <!--2020-03-11 17:07:43.0-->
+  <integer settings.secure.game_deep_nodisturb_mode="2"/>
+  <!--2020-03-11 17:07:43.0-->
+  <string settings.secure.invoke_hivoice_keypress_type="power"/>
+  <!--2020-05-20 09:54:35.0-->
+  <string upgrade_guide_activity_path="com.huawei.android.hwupgradeguide.UpgradeWizardActivity"/>
+  <!--2020-06-11 17:53:58.0-->
+  <string upgrade_guide_dstappinfo="com.huawei.hicloud,com.huawei.android.remotecontrol.ui.activation.MrGuideRouterActivity"/>
+  <!--2020-05-20 09:54:35.0-->
+  <string upgrade_guide_lightpot="30112001:1,2,3"/>
+</resources>

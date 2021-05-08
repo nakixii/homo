@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+        <TargetTracking>
+          <gColor>0.72</gColor>                <!--检测直方图匹配阈值-->
+          <gColorLearn>0.77</gColorLearn>       <!--小于此阈值颜色检测器学习此样本-->
+          <gObj>0.85</gObj>                    <!--目标提取停止搜索阈值-->
+          <gMaxR>80</gMaxR>                   <!--最大目标提取框-->
+          <gMinR>4</gMinR>                    <!--目标提取步长-->
+	        <gSmooth>1000</gSmooth>             <!--点选区域是平滑判断阈值，越大会有越多的区域被判断为平滑,推荐[700,1400]-->                                                    
+	        <gNum_trees>13</gNum_trees>        <!-- 树数目，和num_features的乘积要小于221，范围[10,20]，越大检测条件越严格,推荐13 -->                                   
+	        <gNum_features>16</gNum_features>  <!--特征点数目，和num_trees的乘积要小于221，范围[10,20],越大检测条件越严格，调节强度大于num_trees，推荐16 -->            
+	        <gThr_fern>0.65</gThr_fern>         <!--二级检测门限值，越大误检率越低，检测率越低，范围[0.3,0.99]，推荐0.8-->                                               
+	        <gThr_nn>0.63</gThr_nn>            <!--检测模板匹配门限值，越大误检率越低，检测率越低，范围[0.3,0.99]，推荐0.65-->
+          <gThr_nnLearn>0.75</gThr_nnLearn>  <!--小于此阈值最近邻分类器学习此样本-->
+	        <gNum_closest>10</gNum_closest>     <!--控制学习过程中goodbox的数量，越大时间越低，样本训练次数越多，范围[5,20],推荐5-->                                     
+	        <gNum_warps>10</gNum_warps>         <!--和Num_closest共同控制学习过程中样本的数量，越大时间越低，样本训练次数越多，范围[5,10],推荐7-->                       
+        </TargetTracking>
+</Config>

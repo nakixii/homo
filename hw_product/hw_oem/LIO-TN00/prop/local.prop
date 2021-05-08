@@ -1,0 +1,20 @@
+# 2020-03-11 17:07:43.0
+ro.boot.product.hardware.sku=LIO-TN00
+# 2020-03-11 17:07:43.0
+ro.build.id=HUAWEILIO-TN00
+# 2020-03-11 17:07:43.0
+ro.check.modem_network=false
+# 2020-03-11 17:07:43.0
+ro.config.attach_apn_enabled=true
+# 2020-03-11 17:07:43.0
+ro.config.marketing_name=HUAWEI Mate 30 Pro 5G
+# 2020-03-11 17:07:43.0
+ro.config.networkmode_hide_dyn=true
+# 2020-03-11 17:07:43.0
+ro.hwpp.dualsim_swap_solution=cmcc
+# 2020-03-11 17:07:43.0
+ro.product.hardwareversion=HN1LIONM
+# 2020-03-11 17:07:43.0
+ro.product.model=LIO-TN00
+# 2020-03-11 17:07:43.0
+ro.product.name=LIO-TN00

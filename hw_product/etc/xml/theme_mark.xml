@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <dict>
+    <array key="theme_mark">
+      <dict>
+        <string key="filename">StarrySky.hwt</string>
+        <string key="theme_mark_text">EMUI 11</string>
+      </dict>
+    </array>
+  </dict>
+</config>

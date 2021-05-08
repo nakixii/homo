@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HwPgSceneDetectionAppName>
+    <SceneDetectionQrCodeApp>
+        <QrCodeApp Name="com.tencent.mm" Level="200"/>
+        <QrCodeApp Name="com.eg.android.AlipayGphone" Level="200"/>
+        <QrCodeApp Name="com.sankuai.meituan" Level="200"/>
+        <QrCodeApp Name="com.mygolbs.mybus" Level="200"/>
+        <QrCodeApp Name="enfc.metro" Level="200"/>
+        <QrCodeApp Name="com.app.shanghai.metro" Level="200"/>
+        <QrCodeApp Name="com.infothinker.gzmetro" Level="200"/>
+        <QrCodeApp Name="com.dtdream.publictransit" Level="200"/>
+        <QrCodeApp Name="com.iss.shenzhenmetro" Level="200"/>
+        <QrCodeApp Name="com.unionpay" Level="150"/>
+        <QrCodeApp Name="com.ixiaoma.xiansubway" Level="200"/>
+        <QrCodeApp Name="com.suma.gztong" Level="200"/>
+        <QrCodeApp Name="com.guiyang.metro" Level="200"/>
+        <QrCodeApp Name="com.luqiao.xmmetro" Level="150"/>
+        <QrCodeApp Name="com.cssweb.shankephone" Level="200"/>
+        <QrCodeApp Name="cn.com.thit.wxmetro" Level="200"/>
+        <QrCodeApp Name="com.szt.pay" Level="200"/>
+        <QrCodeApp Name="com.wimetro.iafc" Level="200"/>
+    </SceneDetectionQrCodeApp>
+</HwPgSceneDetectionAppName>

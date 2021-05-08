@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<ThemeList version="2.0">
+  <Theme style="porscheClock">
+    <font_color>-1</font_color>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>200</style>
+    <defaultChosen>false</defaultChosen>
+    <category>4</category>
+  </Theme>
+  <Theme style="colorDigitalClock">
+    <font_color>-1</font_color>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>20</style>
+    <defaultChosen>true</defaultChosen>
+    <category>4</category>
+  </Theme>
+  <Theme style="whiteDigitalClock">
+    <font_color>-1</font_color>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>10</style>
+    <defaultChosen>false</defaultChosen>
+    <category>4</category>
+  </Theme>
+  <Theme style="chinaBirdClock">
+    <font_color>#E6DBBC</font_color>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>101</style>
+    <defaultChosen>false</defaultChosen>
+    <category>4</category>
+    <bg_type>1</bg_type>
+    <fg_type>1</fg_type>
+  </Theme>
+  <Theme style="personalityPictureClock">
+    <font_color>-1</font_color>
+    <time_color>-1</time_color>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>15</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <animationable>false</animationable>
+    <anim_res>personality</anim_res>
+  </Theme>
+  <Theme style="moonlightForestClock">
+    <font_color>#B8CCCA</font_color>
+    <time_color>#EBFFFD</time_color>
+    <name>digitclock</name>
+    <bg_res>pattern_clock_background_moonlight_forest</bg_res>
+    <preseted>true</preseted>
+    <style>14</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <animationable>true</animationable>
+    <anim_res>deer1,deer2,deer3</anim_res>
+    <anim_num>38,31,40</anim_num>
+  </Theme>
+  <Theme style="starrySkyClock">
+    <font_color>#E5E5E5</font_color>
+    <time_color>#E5E5E5</time_color>
+    <name>digitclock</name>
+    <bg_res>pattern_clock_background_starrysky</bg_res>
+    <preseted>true</preseted>
+    <style>16</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+  </Theme>
+  <Theme style="digitAndBubbleBackground">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_bubble</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>11</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <animationable>true</animationable>
+    <anim_res>bubble</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="digitAndEarthDawnBackground">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_earth_dawn</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>11</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <animationable>true</animationable>
+    <anim_res>earth</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="digitAndRobotBackground">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_astronaut</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>13</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <animationable>true</animationable>
+    <anim_res>astronaut</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="digitAndFlowerBackground">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_flower</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>13</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <animationable>true</animationable>
+    <anim_res>flower</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="digitAndFeatherBackground">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_feature</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>13</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+  </Theme>
+  <Theme style="digitAndHummingbirdBackground">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_hummingbird</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>13</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="iceBlockDigital">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_ice_block</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>13</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="5gDigitalClock">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_5g</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>13</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="digitAndEarthBackground">
+    <font_color>-1</font_color>
+    <bg_res>pattern_clock_background_blue_planet</bg_res>
+    <name>digitclock</name>
+    <preseted>true</preseted>
+    <style>11</style>
+    <defaultChosen>false</defaultChosen>
+    <category>5</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="fluidFireAnalogClock">
+    <analog_single_res>watch_style1_fluid3d_dial,single_clock_watch_style1_fluid3d_hour_hand,single_clock_watch_style1_fluid3d_minute_hand</analog_single_res>
+    <font_color>#E1BB9F</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_watch_style1_fluid3d_dial,dual_clock_watch_style1_fluid3d_hour_hand,dual_clock_watch_style1_fluid3d_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+    <animationable>true</animationable>
+    <anim_res>fluid_fire</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="fluidBlueAnalogClock">
+    <analog_single_res>watch_style2_blue_dial,single_clock_watch_style2_blue_hour_hand,single_clock_watch_style2_blue_minute_hand</analog_single_res>
+    <font_color>#8FA3CC</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_watch_style2_blue_dial,dual_clock_watch_style2_blue_hour_hand,dual_clock_watch_style2_blue_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+    <animationable>true</animationable>
+    <anim_res>bianselong</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="blackAnalogClock">
+    <analog_single_res>single_black_plate,single_black_hour_hand,single_black_minute_hand</analog_single_res>
+    <font_color>#DBDBDB</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_black_plate,dual_black_hour_hand,dual_black_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+  </Theme>
+  <Theme style="gardenAnalogClock">
+    <analog_single_res>single_garden_plate,single_garden_hour_hand,single_garden_minute_hand</analog_single_res>
+    <font_color>#DBDBDB</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_garden_plate,dual_garden_hour_hand,dual_garden_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+  </Theme>
+  <Theme style="blueAnalogClock">
+    <analog_single_res>single_watch_style1_dial_plate,single_watch_style1_hour_hand,single_watch_style1_minute_hand</analog_single_res>
+    <font_color>#FF00E6E6</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_watch_style1_dial_plate,dual_watch_style1_hour_hand,dual_watch_style1_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="goldenAnalogClock">
+    <analog_single_res>single_watch_style2_dial_plate,single_watch_style2_hour_hand,single_watch_style2_minute_hand</analog_single_res>
+    <font_color>#FFEABD8A</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_watch_style2_dial_plate,dual_watch_style2_hour_hand,dual_watch_style2_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="whiteAnalogClock">
+    <analog_single_res>single_watch_style3_dial_plate,single_watch_style3_hour_hand,single_watch_style3_minute_hand</analog_single_res>
+    <font_color>#FFCDCDCD</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_watch_style3_dial_plate,dual_watch_style3_hour_hand,dual_watch_style3_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="stereoscopicAnalogClock">
+    <analog_single_res>single_watch_style4_dial_plate,single_watch_style4_hour_hand,single_watch_style4_minute_hand</analog_single_res>
+    <font_color>#FF53A695</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_watch_style4_dial_plate,dual_watch_style4_hour_hand,dual_watch_style4_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="stereoAnalogClock">
+    <analog_single_res>single_watch_style5_dial_plate,single_watch_style5_hour_hand,single_watch_style5_minute_hand</analog_single_res>
+    <font_color>#FF6791E6</font_color>
+    <name>analogclock</name>
+    <analog_dual_res>dual_watch_style5_dial_plate,dual_watch_style5_hour_hand,dual_watch_style5_minute_hand</analog_dual_res>
+    <preseted>true</preseted>
+    <style>1000</style>
+    <defaultChosen>false</defaultChosen>
+    <category>3</category>
+    <productCustomized>true</productCustomized>
+  </Theme>
+  <Theme style="artStyleMondrianClock">
+    <font_color>#FFFFFF</font_color>
+    <bg_res>artStyleMondrianClock,artStyleMondrianClock_dual</bg_res>
+    <name>artstyleclock</name>
+    <preseted>true</preseted>
+    <style>1021</style>
+    <defaultChosen>false</defaultChosen>
+    <category>1</category>
+    <item_style_name>artStyleMondrianClockOne,artStyleMondrianClockTwo,artStyleMondrianClockThree</item_style_name>
+  </Theme>
+  <Theme style="artStyleMemphisClock">
+    <bg_res>artStyleMemphisClock,artStyleMemphisClock_dual</bg_res>
+    <font_color>#DBFFFFFF</font_color>
+    <name>artstyleclock</name>
+    <preseted>true</preseted>
+    <style>102</style>
+    <defaultChosen>false</defaultChosen>
+    <category>1</category>
+    <item_style_name>artStyleMemphisClockOne,artStyleMemphisClockTwo,artStyleMemphisClockThree</item_style_name>
+  </Theme>
+  <Theme style="artStyleMalpositionClock">
+    <bg_res>aod_contradictory_space_style1_singleclcok</bg_res>
+    <font_color>#FFE6C6</font_color>
+    <name>artstyleclock</name>
+    <preseted>true</preseted>
+    <style>103</style>
+    <defaultChosen>false</defaultChosen>
+    <category>1</category>
+    <child_type>1</child_type>
+    <animationable>true</animationable>
+    <anim_res>malposition_circular</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="artStyleMalpositionClock2">
+    <bg_res>aod_contradictory_space_style2_singleclcok</bg_res>
+    <font_color>#D5E6DD</font_color>
+    <name>artstyleclock</name>
+    <preseted>true</preseted>
+    <style>103</style>
+    <defaultChosen>false</defaultChosen>
+    <category>1</category>
+    <child_type>2</child_type>
+    <animationable>true</animationable>
+    <anim_res>malposition_triangle</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="artStyleMalpositionClock3">
+    <bg_res>aod_contradictory_space_style3_singleclcok</bg_res>
+    <font_color>#D0F0FF</font_color>
+    <name>artstyleclock</name>
+    <preseted>true</preseted>
+    <style>103</style>
+    <defaultChosen>false</defaultChosen>
+    <category>1</category>
+    <child_type>3</child_type>
+    <animationable>true</animationable>
+    <anim_res>malposition_square</anim_res>
+    <anim_num>60</anim_num>
+  </Theme>
+  <Theme style="secondCommonSignature">
+    <style>109</style>
+    <category>2</category>
+    <item_style_name>secondCommonSignature</item_style_name>
+    <font_color>-1</font_color>
+    <time_color>-1</time_color>
+    <bg_res>art_signature</bg_res>
+    <preseted>true</preseted>
+  </Theme>
+  <Theme style="dynamicSignature">
+    <style>110</style>
+    <category>2</category>
+    <item_style_name>dynamicSignature</item_style_name>
+    <font_color>-1</font_color>
+    <time_color>-1</time_color>
+    <bg_res>art_signature</bg_res>
+    <preseted>true</preseted>
+  </Theme>
+  <Theme style="firstCommonSignature">
+    <style>108</style>
+    <category>2</category>
+    <item_style_name>firstCommonSignature</item_style_name>
+    <font_color>-1</font_color>
+    <time_color>-1</time_color>
+    <bg_res>art_signature</bg_res>
+    <preseted>true</preseted>
+  </Theme>
+  <Theme style="graffitiSignature">
+    <style>107</style>
+    <category>2</category>
+    <item_style_name>graffitiSignature</item_style_name>
+    <font_color>-1</font_color>
+    <time_color>-1</time_color>
+    <bg_res>art_signature</bg_res>
+    <preseted>true</preseted>
+  </Theme>
+  <Theme style="circleSignature">
+    <style>106</style>
+    <category>2</category>
+    <item_style_name>circleSignature</item_style_name>
+    <font_color>-1</font_color>
+    <time_color>-1</time_color>
+    <bg_res>art_signature</bg_res>
+    <preseted>true</preseted>
+  </Theme>
+  <Theme style="handWritingSignature">
+    <style>105</style>
+    <category>2</category>
+    <item_style_name>handWritingSignature</item_style_name>
+    <font_color>-1</font_color>
+    <time_color>-1</time_color>
+    <bg_res>art_signature</bg_res>
+    <preseted>true</preseted>
+  </Theme>
+</ThemeList>

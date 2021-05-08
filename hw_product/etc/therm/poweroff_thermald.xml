@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 Huawei Inc.
+SCENE,     SCENE-ID  DESCRIPTION
+global,    99999     globe config; IN safe&cold feature
+safemode,  99998     thermal safe config;
+default,   10000     must config;
+video,     10009     popular video and short video;
+screenoff, 20004     screen off
+videochat, 70001     popular video chat
+live,      100000    popular live video;
+navigation,100030    navigation;
+retaildemo,100050    retail demo
+others,    100060    other special apps
+hwcamera,  100070    huawei camera
+clone,     100100    huawei clone
+game,      200010    popular game;
+vr,        200020    popular VR
+poweroff,  110000    power off charging
+-->
+<thermal version="0.06" product="lio">
+<scene name="power_off_charging_ctrl" id="110000">
+<sensor_temp name="cpu" type="0" enable="true" min_temp="-30" step="5" to_celsius="1000">
+    <item>
+        <thresholds>37</thresholds>
+        <thresholds_clr>35</thresholds_clr>
+        <action>
+            <uvoltage>5</uvoltage>
+            <wcurrent_5v>2000</wcurrent_5v>
+            <wcurrent_9v>2000</wcurrent_9v>
+            <direct_charger>4000</direct_charger>
+        </action>
+    </item>
+    <item>
+        <thresholds>39</thresholds>
+        <thresholds_clr>37</thresholds_clr>
+        <action>
+            <uvoltage>5</uvoltage>
+            <wcurrent_5v>2000</wcurrent_5v>
+            <wcurrent_9v>2000</wcurrent_9v>
+            <direct_charger>4000</direct_charger>
+            <wlcurrent_5v>1500</wlcurrent_5v>
+            <wlcurrent_9v>1500</wlcurrent_9v>
+            <wlcurrent_sc>1800</wlcurrent_sc>
+        </action>
+    </item>
+    <item>
+        <thresholds>41</thresholds>
+        <thresholds_clr>39</thresholds_clr>
+        <action>
+            <uvoltage>5</uvoltage>
+            <wcurrent_5v>2000</wcurrent_5v>
+            <wcurrent_9v>2000</wcurrent_9v>
+            <direct_charger>4000</direct_charger>
+            <wlcurrent_5v>1500</wlcurrent_5v>
+            <wlcurrent_9v>1500</wlcurrent_9v>
+            <wlcurrent_sc>1800</wlcurrent_sc>
+        </action>
+    </item>
+    <item>
+        <thresholds>43</thresholds>
+        <thresholds_clr>41</thresholds_clr>
+        <action>
+            <uvoltage>5</uvoltage>
+            <wcurrent_5v>2000</wcurrent_5v>
+            <wcurrent_9v>2000</wcurrent_9v>
+            <direct_charger>4000</direct_charger>
+            <direct_charger_sc>5000</direct_charger_sc>
+            <wlcurrent_5v>1200</wlcurrent_5v>
+            <wlcurrent_9v>1200</wlcurrent_9v>
+            <wlcurrent_sc>1000</wlcurrent_sc>
+        </action>
+    </item>
+    <item>
+        <thresholds>45</thresholds>
+        <thresholds_clr>43</thresholds_clr>
+        <action>
+            <uvoltage>5</uvoltage>
+            <wcurrent_5v>2000</wcurrent_5v>
+            <wcurrent_9v>2000</wcurrent_9v>
+            <direct_charger>3500</direct_charger>
+            <direct_charger_sc>4000</direct_charger_sc>
+            <wlcurrent_5v>900</wlcurrent_5v>
+            <wlcurrent_9v>900</wlcurrent_9v>
+            <wlcurrent_sc>1000</wlcurrent_sc>
+        </action>
+    </item>
+</sensor_temp>
+</scene>
+</thermal>

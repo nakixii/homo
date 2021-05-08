@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<device name="Android">
+  <!-- All values are in mA except as noted -->
+  <item name="none">0</item>
+  <item name="screen.on">58</item> <!-- min brite -->
+  <item name="bluetooth.active">97</item>
+  <item name="bluetooth.on">0.6</item>
+  <item name="bluetooth.at">0.6</item> <!-- TBD -->
+  <item name="screen.full">292</item> <!-- backlight 16 leds -->
+  <item name="wifi.on">0.6</item>
+  <item name="wifi.active">139</item>
+  <item name="wifi.scan">146</item>
+  <item name="dsp.audio">43</item> <!-- k3v5 -->
+  <item name="dsp.video">176</item>
+  <item name="radio.active">190</item>
+  <item name="gps.on">70</item>
+  <item name="battery.capacity">4500</item> <!-- 3900mAh -->
+  <item name="radio.scanning">65</item> <!-- TBD -->
+  <!-- Current consumed by the radio at different signal strengths, when paging  -->
+  <array name="radio.on"> <!-- 1 entry per signal strength bin, TBD -->
+    <value>5.0</value>
+    <value>5.0</value>
+    <value>5.0</value>
+    <value>5.0</value>
+    <value>5.0</value>
+  </array>
+  <array name="cpu.clusters.cores">
+    <value>4</value>
+    <value>2</value>
+    <value>2</value>
+  </array>
+  <array name="cpu.core_speeds.cluster0">
+    <value>554000</value> <!-- 554 MHz CPU speed -->
+    <value>807000</value> <!-- 807 MHz CPU speed -->
+    <value>903000</value> <!-- 903 MHz CPU speed -->
+    <value>999000</value> <!-- 999 MHz CPU speed -->
+    <value>1076000</value> <!-- 1.07 GHz CPU speed -->
+    <value>1172000</value> <!-- 1.17 GHz CPU speed -->
+    <value>1268000</value> <!-- 1.26 GHz CPU speed -->
+    <value>1344000</value> <!-- 1.34 GHz CPU speed -->
+    <value>1460000</value> <!-- 1.46 GHz CPU speed -->
+    <value>1565000</value> <!-- 1.56 GHz CPU speed -->
+    <value>1700000</value> <!-- 1.70 GHz CPU speed -->
+    <value>1786000</value> <!-- 1.78 GHz CPU speed -->
+    <value>1863000</value> <!-- 1.86 GHz CPU speed -->
+  </array>
+  <array name="cpu.core_speeds.cluster1">
+    <value>826000</value> <!-- 826 MHz CPU speed -->
+    <value>941000</value> <!-- 941 MHz CPU speed -->
+    <value>1056000</value> <!-- 1.05 MHz CPU speed -->
+    <value>1172000</value> <!-- 1.17 GHz CPU speed -->
+    <value>1287000</value> <!-- 1.28 GHz CPU speed -->
+    <value>1392000</value> <!-- 1.39 GHz CPU speed -->
+    <value>1488000</value> <!-- 1.48 GHz CPU speed -->
+    <value>1584000</value> <!-- 1.58 GHz CPU speed -->
+    <value>1700000</value> <!-- 1.70 GHz CPU speed -->
+    <value>1786000</value> <!-- 1.78 GHz CPU speed -->
+    <value>1901000</value> <!-- 1.90 GHz CPU speed -->
+    <value>2007000</value> <!-- 2.01 GHz CPU speed -->
+    <value>2088000</value> <!-- 2.09 GHz CPU speed -->
+  </array>
+  <array name="cpu.core_speeds.cluster2">
+    <value>1536000</value> <!-- 1.53 GHz CPU speed -->
+    <value>1652000</value> <!-- 1.65 GHz CPU speed -->
+    <value>1767000</value> <!-- 1.76 GHz CPU speed -->
+    <value>1882000</value> <!-- 1.88 GHz CPU speed -->
+    <value>1997000</value> <!-- 1.99 GHz CPU speed -->
+    <value>2112000</value> <!-- 2.11 GHz CPU speed -->
+    <value>2128000</value> <!-- 2.12 GHz CPU speed -->
+    <value>2324000</value> <!-- 2.32 GHz CPU speed -->
+    <value>2429000</value> <!-- 2.42 GHz CPU speed -->
+    <value>2525000</value> <!-- 2.52 GHz CPU speed -->
+    <value>2621000</value> <!-- 2.62 GHz CPU speed -->
+    <value>2736000</value> <!-- 2.73 GHz CPU speed -->
+    <value>2861000</value> <!-- 2.86 GHz CPU speed -->
+  </array>
+  <!-- Power consumption in suspend -->
+  <item name="cpu.idle">5</item> <!-- k3v5 -->
+  <!-- Power consumption due to wake lock held -->
+  <item name="cpu.awake">21</item> <!-- k3v5 -->
+  <!-- Power consumption at different speeds -->
+  <array name="cpu.core_power.cluster0">
+    <value>39</value>
+    <value>57</value>
+    <value>66</value>
+    <value>76</value>
+    <value>85</value>
+    <value>98</value>
+    <value>113</value>
+    <value>127</value>
+    <value>151</value>
+    <value>176</value>
+    <value>215</value>
+    <value>244</value>
+    <value>273</value>
+  </array>
+  <array name="cpu.core_power.cluster1">
+    <value>124</value>
+    <value>144</value>
+    <value>166</value>
+    <value>193</value>
+    <value>223</value>
+    <value>255</value>
+    <value>288</value>
+    <value>325</value>
+    <value>377</value>
+    <value>420</value>
+    <value>487</value>
+    <value>557</value>
+    <value>617</value>
+  </array>
+  <array name="cpu.core_power.cluster2">
+    <value>262</value>
+    <value>294</value>
+    <value>328</value>
+    <value>367</value>
+    <value>410</value>
+    <value>458</value>
+    <value>507</value>
+    <value>562</value>
+    <value>622</value>
+    <value>682</value>
+    <value>749</value>
+    <value>836</value>
+    <value>944</value>
+  </array>
+</device>
